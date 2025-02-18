@@ -1,0 +1,10 @@
+manticore_cockroachdb/__init__.py,sha256=hTch0oDtJ6mhB3cAKlExtQ-FfaHRCqjSBRXlDcA_Bps,244
+manticore_cockroachdb/database.py,sha256=_xt8lHM4ngPaBy2i5gat95l_eoX9QRGbshh1D7KFQ18,5007
+manticore_cockroachdb/exceptions.py,sha256=Tno6iIr3BsV8XZvEVePK151lA1kcEr8586YJZBRFgN4,678
+manticore_cockroachdb/crud/__init__.py,sha256=8AJm5KVrseIJGuo7vkoUt1SeawaWEnZCRMC71QQD2Yk,1994
+manticore_cockroachdb/crud/exceptions.py,sha256=FYiprxWbguDyZXHhrBK8XtmfoEpXwWv3BBz66IlDbZs,408
+manticore_cockroachdb/crud/table.py,sha256=iGCamjz3o4ft-v3JQ6fqRWpNF7oFvNigKzDafO1JExo,19031
+manticore_cockroachdb-0.1.0.dist-info/METADATA,sha256=YTByM5USrNYnpXQhR8pwc5gxQ2xqOkAbAsORNbiXzas,7875
+manticore_cockroachdb-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+manticore_cockroachdb-0.1.0.dist-info/licenses/LICENSE,sha256=ZFuPeccl-ttyuHG3ujJlL5t68uZDELcMiawqzPCUIGg,1079
+manticore_cockroachdb-0.1.0.dist-info/RECORD,,
