@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: mohab_module
+Version: 0.1.0
+Summary: A simple greeting module
+Home-page: https://github.com/yourusername/my_module
+Author: mohab youssef
+Author-email: your.email@example.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# My Module
+
+A simple Python module to test publish my package.
+
+## Installation
+```sh
+pip install my_module
