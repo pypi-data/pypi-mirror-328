@@ -1,0 +1,9 @@
+turbo_docs-2.0.5.dist-info/METADATA,sha256=_e5i91YcnKcGvhd0MlvZrWmF3uYOmCodBMQALFF8Byw,3193
+turbo_docs-2.0.5.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+turbo_docs-2.0.5.dist-info/entry_points.txt,sha256=fd-b4SlPfB3_ftMfSt6uC6qi6cdtQT1q9vEPfI8XtX0,67
+turbo_docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turbo_docs/cli.py,sha256=FYHgY7DQxviK5_uYzk0Sv_FvLZ-ySmlyBXDaiq6I4uw,526
+turbo_docs/constants.py,sha256=2k7PTrUGe9KAXFx86fonbLq230honVx-bLSQIQzGdv0,1379
+turbo_docs/llm.py,sha256=7vl6kOWyBXtV4gm3SsqZxotKfQIPK32XUN3yKsRZzok,4497
+turbo_docs/readme.py,sha256=JBnthkLyZBwaUgmK7zjaO1mfCHVoOFlI_1ag0P7VQXA,2801
+turbo_docs-2.0.5.dist-info/RECORD,,
