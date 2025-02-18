@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/setup.py
+src/gameforged/__bases__.py
+src/gameforged/__init__.py
+src/gameforged.egg-info/PKG-INFO
+src/gameforged.egg-info/SOURCES.txt
+src/gameforged.egg-info/dependency_links.txt
+src/gameforged.egg-info/requires.txt
+src/gameforged.egg-info/top_level.txt
+src/gameforged/gaming/__init__.py
+src/gameforged/gaming/classical.py
+src/gameforged/workshop/__init__.py
+src/gameforged/workshop/blacksmith.py
+src/gameforged/workshop/bookshelves.py
+src/gameforged/workshop/rulebooks.py
