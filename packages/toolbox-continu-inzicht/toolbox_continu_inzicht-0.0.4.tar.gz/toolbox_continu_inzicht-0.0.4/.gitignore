@@ -1,0 +1,17 @@
+# pixi environments
+.pixi
+
+# . files
+.ipynb_checkpoints
+.idea
+.env
+.coverage
+
+# wheels
+src/dist/*
+
+# testing
+hidden_*
+
+# cache:
+__pycache__
