@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+depgeist/__init__.py
+depgeist/checker.py
+depgeist/cli.py
+depgeist/scanner.py
+depgeist/updater.py
+depgeist/utils.py
+depgeist.egg-info/PKG-INFO
+depgeist.egg-info/SOURCES.txt
+depgeist.egg-info/dependency_links.txt
+depgeist.egg-info/entry_points.txt
+depgeist.egg-info/top_level.txt
