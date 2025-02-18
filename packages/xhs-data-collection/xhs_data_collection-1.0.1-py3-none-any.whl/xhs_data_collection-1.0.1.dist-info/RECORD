@@ -1,0 +1,10 @@
+XhsDataCollection/__init__.py,sha256=Awv5uA4UucUUHL5lcmLT_dZFjiJXD5RABKfEFTc9Hdk,61
+XhsDataCollection/_utils.py,sha256=SQHEOgxygOuyFu9BdKgyFf27_LmvdSzceHRiuMlE7IQ,7809
+XhsDataCollection/collector.py,sha256=-R14Q8TpmYIhO4nt4QVoo7yEgk4LIW7qTiT4waXi7tI,959
+XhsDataCollection/service/_utils.py,sha256=B3fQDuZZpeX5tENbjQLRsVK38MRkvisIeTzjjTFjBvQ,1626
+XhsDataCollection/service/customer_service.py,sha256=xb0M2zq-CeRMKOQi8jR9q6PVvF0GB8Kp1QA1cLO96Zs,3870
+XhsDataCollection/service/service.py,sha256=2DknbnUnvGdBHEJtTjtYLN6E0WYpQAr9oaejArjF0vU,597
+xhs_data_collection-1.0.1.dist-info/LICENSE,sha256=abvuwGBKwUYguYGotWKXpzv-uL5iTs6J2ZDN7PMOmfw,1090
+xhs_data_collection-1.0.1.dist-info/METADATA,sha256=CQJuueGQ3MUyt0qp555W3QELu8HDm94E7B7Q5q6gDq0,1113
+xhs_data_collection-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xhs_data_collection-1.0.1.dist-info/RECORD,,
