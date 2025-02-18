@@ -1,0 +1,10 @@
+win_purge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+win_purge/__main__.py,sha256=9aqbyFhdnCh45d-uN0_pOfuoEdR3gZXlRhlN14qxNOw,1168
+win_purge/directories.py,sha256=wG2brtrxx4H0NkxfR231MpTEVyE00yUAxq79dt1ofns,2623
+win_purge/registry.py,sha256=HSmmEuIvSynbe5ol2FibXgZj1YOnueUyIVrySO61oec,6833
+win_purge/reglib.py,sha256=Ai6u-SL5IBOzjD7Dcvqb_5ILXg25vkv4Q4ndwY1vi8M,25119
+win_purge-0.0.0.dist-info/METADATA,sha256=quJ737IA7PnRBUdh0ucSqaRHTETj1zSxPzQKFTvR9hw,3998
+win_purge-0.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+win_purge-0.0.0.dist-info/entry_points.txt,sha256=fXSnkug2XVkw9GtPGPFWGEEns7Xt-iRwWWb5VvFORF4,54
+win_purge-0.0.0.dist-info/licenses/LICENSE.md,sha256=D5ihi04arwKPRazKAejO5bW9p4oFHet2pHYgtzUK0v4,1074
+win_purge-0.0.0.dist-info/RECORD,,

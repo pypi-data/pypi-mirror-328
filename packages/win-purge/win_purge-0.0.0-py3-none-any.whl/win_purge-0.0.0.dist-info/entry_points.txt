@@ -1,0 +1,2 @@
+[console_scripts]
+win_purge = win_purge.__main__:main
