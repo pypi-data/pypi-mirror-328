@@ -1,0 +1,13 @@
+GetPlayerCard-0.0.3.dist-info/METADATA,sha256=-rOVOBF6YWhMlrMLvskQuLoqbkaGI1xQ2RBnAfXM5Ug,1094
+GetPlayerCard-0.0.3.dist-info/WHEEL,sha256=R8ZEnni7m2eO5M7FTZ3FjvjlbxsclsOWT9kw6XK1Agc,94
+GetPlayerCard-0.0.3.dist-info/entry_points.txt,sha256=hX4KMU9OM2nKOr2rzkj_91ioJcw5KMbJnWvn7j9ncHU,78
+GetPlayerCard-0.0.3.dist-info/licenses/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+getpc/character.py,sha256=XKzKG5hwRYhZBVzj6mhiurLI1qk3tkrFfoUf4Zar31Y,5742
+getpc/excel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getpc/pytyped,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getpc/typing.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getpc/_core.pyi,sha256=WTFMW7Qa46Y6lEB35jfMXGvwPSIqQn_SuvbaY0u2OYE,70
+getpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getpc/__main__.py,sha256=YPyHHs3SO7H1JXQL3YY9VJob8-c8RYT4nqIFsE2GTLA,131
+getpc/_core.pyd,sha256=EWYYw0lkHJ-5lVXu4vQbyVI9CuUykPdf5aUd_0piW4M,270848
+GetPlayerCard-0.0.3.dist-info/RECORD,,
