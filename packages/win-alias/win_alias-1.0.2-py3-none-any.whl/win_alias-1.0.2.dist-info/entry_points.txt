@@ -1,0 +1,3 @@
+[console_scripts]
+win-alias=win_alias:cli
+

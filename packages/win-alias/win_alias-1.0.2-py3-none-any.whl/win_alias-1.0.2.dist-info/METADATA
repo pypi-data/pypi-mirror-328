@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: win-alias
+Version: 1.0.2
+Summary: A simple CLI tool to create Windows aliases.
+Author: EverythingPython
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.1
+Requires-Dist: charset-normalizer==3.4.1
+Requires-Dist: colorama==0.4.6
+Requires-Dist: docutils==0.21.2
+Requires-Dist: flit==3.10.1
+Requires-Dist: idna==3.10
+Requires-Dist: requests==2.32.3
+Requires-Dist: tomli-w==1.2.0
+Requires-Dist: urllib3==2.3.0
+Project-URL: Homepage, https://github.com/everythingpython/win-alias
+Project-URL: Issues, https://github.com/everythingpython/win-alias/issues
+
+# Win-Alias
+
+Win-Alias is a simple CLI tool to create and manage Windows command aliases.
+
+## Features
+
+- Create custom command aliases
+- List all created aliases
+- Display usage instructions
+
+## Requirements
+
+- Python 3.11 or higher
+- `click` library
+- `colorama` library
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/win-alias.git
+    cd win-alias
+    ```
+
+2. Install dependencies:
+    ```sh
+    pip install flit
+    flit install --deps=all
+    ```
+
+## Usage
+
+### Create an Alias
+
+To create a new alias, run:
+```sh
+python -m win_alias create-alias
