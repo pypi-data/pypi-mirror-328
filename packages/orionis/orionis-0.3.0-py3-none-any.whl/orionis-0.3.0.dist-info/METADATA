@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: orionis
+Version: 0.3.0
+Summary: Orionis Framework – Elegant, Fast, and Powerful.
+Home-page: https://github.com/orionis-framework/framework
+Author: Raul Mauricio Uñate Castro
+Author-email: raulmauriciounate@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: apscheduler>=3.11.0
+Requires-Dist: python-dotenv>=1.0.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# **Orionis Framework – An Opinionated Python Framework**
+**⚡ Orionis Framework – Elegant, Fast, and Powerful 🚀**
