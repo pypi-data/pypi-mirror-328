@@ -1,0 +1,12 @@
+villog/__init__.py,sha256=I9eKH7pGBWAuUzPfuWZkKK6tdstgOSqbSQ0Bhqk6L-E,180
+villog/log.py,sha256=9bY1zvZLcCYKt-FVMYU1Z31UPUuCfr4l74zUhJJ0A7I,5666
+villog/mail_man.py,sha256=9P_bmI997SdcrigVIUVZHTvCheJjQ6mPqXVcAe6ABaM,3421
+villog/mssql.py,sha256=4Ec6D2E-W24VaW8jOPhe_VfpgB4MczQR5kIEjxH2IiU,23736
+villog/pdf.py,sha256=CSef9rzcvPNmfDCweFob6zeFmL2Mk13s2thdKO5qJc4,633
+villog/readexcel.py,sha256=Fkogi52jObslaP3AFJvu36Zgbs8hs1cDNgSK8SBd_H0,1606
+villog/writexcel.py,sha256=ck5BtyiKGm9o1Tr5BbzxJLimfXsTyldlY3wl0AkVO54,7443
+villog-0.2.5.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+villog-0.2.5.dist-info/METADATA,sha256=ex3iigSPQpF0hr365T4BEs6Mx59DGaOg4ROQbI79X8c,5047
+villog-0.2.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+villog-0.2.5.dist-info/top_level.txt,sha256=P5M6nYXcFOJ8gNCy0oc1Ib2BSKuRkS6zjx7_zUSwAUM,7
+villog-0.2.5.dist-info/RECORD,,
