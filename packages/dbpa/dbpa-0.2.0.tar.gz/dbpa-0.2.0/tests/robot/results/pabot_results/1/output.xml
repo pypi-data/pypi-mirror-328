@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on win32)" generated="2025-02-17T12:26:35.671171" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Database Operations" source="C:\Users\achim\github\dbpa\tests\robot\tests\functional\database_operations.robot">
+<kw name="Setup Database Test Environment" type="SETUP">
+<kw name="Setup Test Environment" owner="common">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2025-02-17T12:26:36.261768" level="INFO" html="true">Created directory '&lt;a href="file://C:\Users\achim\github\dbpa\tests\temp"&gt;C:\Users\achim\github\dbpa\tests\temp&lt;/a&gt;'.</msg>
+<arg>${TEMP_DIR}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2025-02-17T12:26:36.260740" elapsed="0.001028"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2025-02-17T12:26:36.261768" level="INFO">Starting process:
+python -m venv C:\Users\achim\github\dbpa\tests\robot\resources\..\..\temp\venv</msg>
+<msg time="2025-02-17T12:26:36.270798" level="INFO">Waiting for process to complete.</msg>
+<msg time="2025-02-17T12:26:36.465693" level="INFO">Process completed.</msg>
+<msg time="2025-02-17T12:26:36.465693" level="INFO">${result} = &lt;result object with rc 1&gt;</msg>
+<var>${result}</var>
+<arg>${PYTHON_CMD}</arg>
+<arg>-m</arg>
+<arg>venv</arg>
+<arg>${VENV_DIR}</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2025-02-17T12:26:36.261768" elapsed="0.203925"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2025-02-17T12:26:36.467222" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2025-02-17T12:26:36.467222" level="FAIL">1 != 0</msg>
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2025-02-17T12:26:36.467222" elapsed="0.000000">1 != 0</status>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${pip}</var>
+<arg>${VENV_DIR}${/}Scripts${/}pip</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.468739" elapsed="0.000000"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<var>${result}</var>
+<arg>${pip}</arg>
+<arg>install</arg>
+<arg>-e</arg>
+<arg>${PACKAGE_DIR}</arg>
+<arg>shell=True</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.468739" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.468739" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<arg>${PIP_CMD}</arg>
+<arg>${pip}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.468739" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-17T12:26:36.260740" elapsed="0.207999">1 != 0</status>
+</kw>
+<kw name="Create Test Database">
+<status status="NOT RUN" start="2025-02-17T12:26:36.468739" elapsed="0.001517"/>
+</kw>
+<kw name="Create Test Tables">
+<status status="NOT RUN" start="2025-02-17T12:26:36.470256" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-17T12:26:36.259222" elapsed="0.211034">1 != 0</status>
+</kw>
+<test id="s1-s1-t1" name="Test Natural Language Query" line="44">
+<doc>Test executing a natural language query</doc>
+<tag>database</tag>
+<tag>nlp</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.470256" elapsed="0.000000">Parent suite setup failed:
+1 != 0</status>
+</test>
+<test id="s1-s1-t2" name="Test Table Creation" line="54">
+<doc>Test creating a new table using natural language</doc>
+<tag>database</tag>
+<tag>ddl</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.470256" elapsed="0.001520">Parent suite setup failed:
+1 != 0</status>
+</test>
+<test id="s1-s1-t3" name="Test Data Insertion" line="66">
+<doc>Test inserting data using natural language</doc>
+<tag>database</tag>
+<tag>dml</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.471776" elapsed="0.000000">Parent suite setup failed:
+1 != 0</status>
+</test>
+<kw name="Teardown Database Test Environment" type="TEARDOWN">
+<kw name="Disconnect From Database" owner="DatabaseLibrary">
+<msg time="2025-02-17T12:26:36.471776" level="INFO">Executing : Disconnect From Database</msg>
+<msg time="2025-02-17T12:26:36.471776" level="INFO">No open database connection to close</msg>
+<doc>Disconnects from the database.</doc>
+<status status="PASS" start="2025-02-17T12:26:36.471776" elapsed="0.000000"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2025-02-17T12:26:36.473356" level="INFO">Starting process:
+dropdb d21q7sr3ble3eq -U u3b39k1h1djh6v</msg>
+<msg time="2025-02-17T12:26:36.481640" level="INFO">Waiting for process to complete.</msg>
+<var>${result}</var>
+<arg>dropdb</arg>
+<arg>${DB_NAME}</arg>
+<arg>-U</arg>
+<arg>${DB_USER}</arg>
+<arg>shell=True</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="FAIL" start="2025-02-17T12:26:36.471776" elapsed="222.554420">Execution terminated by signal</status>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2025-02-17T12:30:19.026196" elapsed="0.000000"/>
+</kw>
+<kw name="Teardown Test Environment" owner="common">
+<status status="NOT RUN" start="2025-02-17T12:30:19.026196" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-17T12:26:36.471776" elapsed="222.554420">Execution terminated by signal</status>
+</kw>
+<doc>Test suite for database operations using DBPA</doc>
+<status status="FAIL" start="2025-02-17T12:26:35.713414" elapsed="223.312782">Suite setup failed:
+1 != 0
+
+Also suite teardown failed:
+Execution terminated by signal</status>
+</suite>
+<status status="FAIL" start="2025-02-17T12:26:35.701884" elapsed="223.325829"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="3" skip="0">database</stat>
+<stat pass="0" fail="1" skip="0">ddl</stat>
+<stat pass="0" fail="1" skip="0">dml</stat>
+<stat pass="0" fail="1" skip="0">nlp</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1" name="Database Operations">Suites.Database Operations</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

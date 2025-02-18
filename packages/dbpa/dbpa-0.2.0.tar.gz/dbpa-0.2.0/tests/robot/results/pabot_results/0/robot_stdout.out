@@ -1,0 +1,54 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Ai Integration :: Test suite for AI integration features               
+==============================================================================
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\ai_integration.robot:5
+      Setup Test Environment    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\resources\common.robot:19
+      Should Be Equal As Integers    ${result.rc}    0
+      |  ${result.rc} = 1 (int)
+______________________________________________________________________________
+Test Query Generation :: Test AI-powered SQL query generation         | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+Test Query Explanation :: Test AI explanation of SQL queries          | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+Test Query Optimization :: Test AI-powered query optimization         | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+Test Error Explanation :: Test AI explanation of database errors      | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\ai_integration.robot:6
+      Teardown Test Environment    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\resources\common.robot:26
+      Remove Directory    ${TEMP_DIR}    recursive=True
+      |  ${TEMP_DIR} = C:\Users\achim\github\dbpa\tests\robot\resources\..\..\temp (str)
+______________________________________________________________________________
+Suites.Ai Integration :: Test suite for AI integration features       | FAIL |
+Suite setup failed:
+1 != 0
+
+Also suite teardown failed:
+PermissionError: [WinError 5] Zugriff verweigert: 'C:\\Users\\achim\\github\\dbpa\\tests\\temp\\venv\\Scripts\\python.exe'
+
+4 tests, 0 passed, 4 failed
+==============================================================================
+Suites                                                                | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+Output:  C:\Users\achim\github\dbpa\tests\robot\results\pabot_results\0\output.xml
