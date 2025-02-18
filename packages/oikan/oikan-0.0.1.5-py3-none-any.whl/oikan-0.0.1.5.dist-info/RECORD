@@ -1,0 +1,12 @@
+oikan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oikan/model.py,sha256=9_U3jh1YwASbLOgHpFm4F80J3QGEhzIgQHNkqbZCPJs,2920
+oikan/regularization.py,sha256=D0Xc2lr5X5ORdA5ltvWDbNDuN8z0hkyoGzFo7pum2XE,1033
+oikan/symbolic.py,sha256=K1aI5JEPgKFu8dyjXxWDA-UZm8Gvfp0lU1M7c2NAPLY,5517
+oikan/trainer.py,sha256=itFCHSR_T6KHqa0D5RLRCmqFHa4lUIamsFGWKHmUZuI,1258
+oikan/utils.py,sha256=XwY6pgAgfYlUI9SOjdop91wh0_t6LfPLCiHretlw2Wg,1754
+oikan/visualize.py,sha256=8Dlk-tsqGZb63NyZBpZsLSlcsC51m2nXblQaS2Jf1y0,1142
+oikan-0.0.1.5.dist-info/LICENSE,sha256=75ASVmU-XIpN-M4LbVmJ_ibgbzbvRLVti8FhnR0BTf8,1096
+oikan-0.0.1.5.dist-info/METADATA,sha256=yDZjsC6Mh4vL-gY5EVlOYWtQ3VWSAChfu2SGJ5dS0dQ,2962
+oikan-0.0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+oikan-0.0.1.5.dist-info/top_level.txt,sha256=XwnwKwTJddZwIvtrUsAz-l-58BJRj6HjAGWrfYi_3QY,6
+oikan-0.0.1.5.dist-info/RECORD,,
