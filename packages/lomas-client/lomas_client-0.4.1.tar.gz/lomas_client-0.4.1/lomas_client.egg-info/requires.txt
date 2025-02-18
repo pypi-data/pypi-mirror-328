@@ -1,0 +1,3 @@
+lomas-core==0.4.1
+opentelemetry-instrumentation-requests==0.50b0
+requests==2.32.0
