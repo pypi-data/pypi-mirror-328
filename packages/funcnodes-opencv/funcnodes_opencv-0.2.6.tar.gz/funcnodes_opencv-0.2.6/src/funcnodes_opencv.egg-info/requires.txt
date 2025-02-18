@@ -1,0 +1,9 @@
+funcnodes_images
+funcnodes
+funcnodes-numpy
+
+[:sys_platform != "emscripten"]
+opencv-python-headless>=4.9
+
+[:sys_platform == "emscripten"]
+opencv-python
