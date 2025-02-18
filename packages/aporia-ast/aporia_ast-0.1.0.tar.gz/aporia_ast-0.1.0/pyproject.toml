@@ -1,0 +1,17 @@
+[project]
+name = "aporia-ast"
+version = "0.1.0"
+description = "Provides abstract syntax tree objects for the Aporia language"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Ephraim Siegfried", email = "ephraim.siegfried@hotmail.com" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# https://github.com/astral-sh/uv/issues/9513
+license-files = []
