@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langgraph-checkpoint-surrealdb"
+version = "1.4.0"
+description = "A SurrealDB Checkpointer for Langgraph with both synchronous and asynchronous support."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+# ... (other dependencies)
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.4"
+pytest-asyncio = "^0.25.3"
+# ... (other dev-dependencies)
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
