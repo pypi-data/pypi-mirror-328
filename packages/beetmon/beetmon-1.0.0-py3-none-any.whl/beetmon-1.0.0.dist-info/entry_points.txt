@@ -1,0 +1,2 @@
+[console_scripts]
+beetmon = beetmon.beetmon:main
