@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+aporia_ast/__init__.py
+aporia_ast/main.py
+aporia_ast.egg-info/PKG-INFO
+aporia_ast.egg-info/SOURCES.txt
+aporia_ast.egg-info/dependency_links.txt
+aporia_ast.egg-info/top_level.txt
