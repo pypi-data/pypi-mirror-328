@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: erasure_coding
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: This library provides a simple erasure coding API and way to commit to the resulting erasure coded data using Binary Merkle Tree.
+Home-Page: https://github.com/JAMdotTech/py-erasure-coding
+Author: JAMdot Technologies
+Author-email: JAMdot Technologies <devops@jamdot.tech>
+License: Apache-2.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/JAMdotTech/py-erasure-coding
+
+# py-erasure-coding
+
+Bindings for the [RUST Erasure Coding](https://github.com/paritytech/erasure-coding) maintained by Parity Technologies.
+
+This library provides a simple erasure coding API and way to commit to the resulting erasure coded data using Binary Merkle Tree.
+
+
+## Installation
+
+### Compile for local development
+
+```
+pip install -r requirements.txt
+maturin develop
+```
+### Build wheels
+```
+pip install -r requirements.txt
+
+# Build local OS wheel
+maturin build --release
+
+# Build manylinux1 wheel
+docker run --rm -v $(pwd):/io ghcr.io/pyo3/maturin build --release
+
+```
+

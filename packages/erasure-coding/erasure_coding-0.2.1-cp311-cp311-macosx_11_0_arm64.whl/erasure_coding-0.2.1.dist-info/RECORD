@@ -1,0 +1,6 @@
+erasure_coding-0.2.1.dist-info/METADATA,sha256=3WdqJL1hzQw16CPVw5il0UQnF9Ep6EhMu3Xkmw7Btn8,1311
+erasure_coding-0.2.1.dist-info/WHEEL,sha256=AmAUaTZ4DVfLTuR-ZO23MbJhraCCBktLKlayDTq4_o0,104
+erasure_coding-0.2.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+erasure_coding/__init__.py,sha256=3jswBEquwbm2867PMw2ArL-baMpYPTQaT3qYFa_ZEWI,139
+erasure_coding/erasure_coding.cpython-311-darwin.so,sha256=xyf7zN4N25M8m6b--hvtAtz1g7QPY5LuVsKh0DODnfk,793456
+erasure_coding-0.2.1.dist-info/RECORD,,
