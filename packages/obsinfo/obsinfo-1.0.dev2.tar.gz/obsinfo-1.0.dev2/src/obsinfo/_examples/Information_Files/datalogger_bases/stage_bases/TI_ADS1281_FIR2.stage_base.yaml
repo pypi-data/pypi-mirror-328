@@ -1,0 +1,14 @@
+---
+format_version: "1.0"
+
+stage_base: 
+    name: "ADS1281_FIR2"
+    gain :         {value: 1, frequency: 0}
+    input_units :  {name : "counts", description: "Digital Counts"}
+    output_units : {name : "counts", description: "Digital Counts"}
+    description : "DECIMATION - ADS1281 Filters2" 
+    decimation_factor : 2
+    filter: 
+        $ref: "datalogger_bases/stage_bases/filters/TexasInstruments_ADS1281_FIR2.filter.yaml"
+notes:
+    - "From ads1281.pdf"
