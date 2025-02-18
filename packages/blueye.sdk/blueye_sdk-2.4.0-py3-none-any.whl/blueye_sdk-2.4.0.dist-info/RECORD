@@ -1,0 +1,15 @@
+blueye/__init__.py,sha256=xjD4IjxN6B85RflWdeT4QNcIVq2sSbB1j1hPTXqLbdM,128
+blueye/sdk/__init__.py,sha256=faW7sVhd1CuZl1ag_PEaD9cIQktv2f1OO5Dsesh1PwA,107
+blueye/sdk/battery.py,sha256=a1hXIn31wHaO5RhlE4LZlREEiIdEUZpP17AXX-Gd3YE,868
+blueye/sdk/camera.py,sha256=YvGKnc7HRUL5fQUdT8ZNUQRaNOkusa8z1VwLectaang,37040
+blueye/sdk/connection.py,sha256=CgEHhoEavRuipsPaPhNDBLF-ZqM-4dRMLfVy3rH7l-I,23667
+blueye/sdk/constants.py,sha256=4Jgc71MYyhutBlF58HK9tvBm39iop0Itko2EVDqHw84,376
+blueye/sdk/drone.py,sha256=eS8QCu-l3Pj7RP6bXl7OkKSIC1FdOyBrSXTw9qXZMTE,22839
+blueye/sdk/guestport.py,sha256=d-eOTWQJshDctdpZEXkQ8lnT4dpMtVw1GDapZnl0ghQ,8983
+blueye/sdk/logs.py,sha256=EDLIxXMkCRn1jMgdAvXlzFswSXoTPBAkhUOZqm9Viuc,15736
+blueye/sdk/motion.py,sha256=2DzouUhHOKZEyB1W3BBBF0pke7RqFFP_S306C8l0lfE,11664
+blueye/sdk/utils.py,sha256=10bpgQswKBzhwlAYt07F0_CY1VoQygLpqzpqhH8vq8Y,1297
+blueye_sdk-2.4.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+blueye_sdk-2.4.0.dist-info/METADATA,sha256=PmsybRRPbjdf4g-wX2gYpdNiZYNLQkd8AA4zQbkx7w8,3803
+blueye_sdk-2.4.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+blueye_sdk-2.4.0.dist-info/RECORD,,
