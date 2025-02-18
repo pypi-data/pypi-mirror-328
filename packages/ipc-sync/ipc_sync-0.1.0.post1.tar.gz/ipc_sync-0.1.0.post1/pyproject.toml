@@ -1,0 +1,85 @@
+[project]
+name = "ipc-sync"
+dynamic = []
+description = "Cross-platform utils for IPC (inter-processing communication) synchronization in Python"
+readme = "README.md"
+authors = [
+    { name = "monchin", email = "pazzinter@126.com" },
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pywin32>=308 ; sys_platform == 'win32'",
+]
+keywords = [
+    "IPC",
+    "cross-platform",
+]
+classifiers = [
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+version = "0.1.0.post1"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/monchin/ipc-sync"
+Repository = "https://github.com/monchin/ipc-sync"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]
+lint = [
+    "types-pywin32>=308.0.0.20241221; sys_platform == \"win32\"",
+    "mypy>=1.14.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "src/ipc_sync/__init__.py"
+
+[tool.pdm.scripts]
+test = "pytest tests"
+
+[tool.pdm.scripts.fmt]
+composite = [
+    "ruff check --select I --fix .",
+    "ruff format .",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "B",
+    "C4",
+    "UP",
+]
+
+[tool.ruff.lint.pycodestyle]
+max-doc-length = 100
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
