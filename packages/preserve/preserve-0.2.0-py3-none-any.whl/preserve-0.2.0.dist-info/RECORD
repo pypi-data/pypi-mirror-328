@@ -1,0 +1,14 @@
+preserve/__init__.py,sha256=hiWnaZDhv3TpNDGZMQyQqsTyJ0KgxVV4muu5NwjyUzQ,472
+preserve/cli.py,sha256=Ecm_pi10ceGxCUJ8uUZOTGOMp6VxpeIJE53nA5AG_D8,3321
+preserve/connector.py,sha256=PjR0gl1xlvfhVtrw5RHzxx3YocskUABFn-XdxLkJ_2Q,1710
+preserve/connectors/__init__.py,sha256=9fZd1WJmw_mYNoD8mFP5F1PAOWWNcKaiojAYgSo5DKI,206
+preserve/connectors/memory.py,sha256=2QYnrzLcWcMMazMXwRky7EwJg0ac5SgxUZOQot6oMXU,2144
+preserve/connectors/mongo.py,sha256=fY9HZli99IolI4-0v19kdJ_X4NORC5BxrpqrY8H1QEw,2548
+preserve/connectors/shelf.py,sha256=2PIM91g6RiGzRQ77lvWBhgIURvHt07-n2NndHFParZ8,2122
+preserve/preserve.py,sha256=wMhW7soHIbTXPWyxgRZfWfqe2EcNLuxKwHHn_QZ7tmc,2702
+preserve/utils.py,sha256=Mbl-vQqjdYl2Nf8Fpzmyz8CxHax1dlbqwp_3_nh5R5o,316
+preserve-0.2.0.dist-info/LICENSE,sha256=Q7PqDIvUwtRvO2u2l-RkTh9E1rPIoZTskgU16TeoOas,1103
+preserve-0.2.0.dist-info/METADATA,sha256=azzuLkVAC-RCarjV8jJqgrLmQGI8-OIjr-mUAdHf3oQ,4031
+preserve-0.2.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+preserve-0.2.0.dist-info/entry_points.txt,sha256=mKnYRA7bESLWfetNVJmqcaiw_35vl2HPv60Si1_DHqw,45
+preserve-0.2.0.dist-info/RECORD,,
