@@ -1,0 +1,41 @@
+[project]
+name = "mcp-myip"
+dynamic = ["version"]
+description = "Model context protocol server for retrieving IP information"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.2.1",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+  {name = "Mykola Pavlov"},
+]
+
+[project.urls]
+Repository = "https://github.com/nikolaypavlov/mcp-myip.git"
+
+[project.scripts]
+mcp-myip = "mcp_myip:run_server"
+
+[build-system]
+requires = [ "hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/mcp_myip/__init__.py"
+
+[dependency-groups]
+dev = [
+    "hatch>=1.14.0",
+    "ruff>=0.9.6",
+]
+
+[tool.ruff]
+line-length = 120
+exclude = [".git", "__pycache__"]
