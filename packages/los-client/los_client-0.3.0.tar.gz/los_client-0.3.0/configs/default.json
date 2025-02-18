@@ -1,0 +1,21 @@
+{
+    "solvers": [
+        {
+            "solver_path": "/app/glucose/simp/glucose",
+            "token": "glucose@rk3558:zxxrPJvKxRYRUNGvgbq46A",
+            "args": ["-model"],
+            "output_path": null
+        },
+        {
+            "solver_path": "/app/kissat/build/kissat",
+            "token": "kissat@rk3588:UwyaittaTf18F6xtjGRToQ",
+            "args": [],
+            "output_path": null
+        }
+    ],
+    "problem_path": "problem.cnf",
+    "output_folder": "/app/",
+    "host": "wss://los.npify.com/match_server/sat/",
+    "quiet": false,
+    "write_outputs": false
+}
