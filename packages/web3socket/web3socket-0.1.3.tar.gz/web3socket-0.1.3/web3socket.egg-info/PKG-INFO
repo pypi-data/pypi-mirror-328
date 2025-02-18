@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: web3socket
+Version: 0.1.3
+Summary: socket implementation for web3
+Home-page: http://pypi.python.org/pypi/web3socket
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
+
+UNKNOWN
+
