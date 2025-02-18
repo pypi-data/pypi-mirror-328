@@ -1,0 +1,67 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "manticore-cockroachdb"
+version = "0.1.0"
+description = "A professional-grade CockroachDB wrapper with CRUD operations, migrations, and transaction management"
+readme = "README.md"
+authors = [{ name = "Manticore Technologies", email = "dev@manticore.tech" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+keywords = ["cockroachdb", "database", "orm", "cloud", "manticore", "trading", "migrations", "crud"]
+dependencies = [
+    "psycopg[binary]>=3.1.18",
+    "psycopg-pool>=3.2.1",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.5",
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+    "build>=1.0.0",
+    "twine>=4.0.0",
+    "pytest-cov>=4.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/manticore-tech/manticore-cockroachdb"
+Documentation = "https://github.com/manticore-tech/manticore-cockroachdb#readme"
+Issues = "https://github.com/manticore-tech/manticore-cockroachdb/issues"
+Source = "https://github.com/manticore-tech/manticore-cockroachdb"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=manticore_cockroachdb --cov-report=term-missing"
+asyncio_mode = "strict"
+
+[tool.black]
+line-length = 100
+target-version = ["py38", "py39", "py310", "py311"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 100 
