@@ -1,0 +1,10 @@
+gemini_parser/__init__.py,sha256=JW82N2O6QQROdl0iwN_vyxmZtSNztIat_HI-BNd7F0M,213
+gemini_parser/caching.py,sha256=8168FoOm7gmrli6aU7gF0-pUUJUpBtZe-ZOnv3o0mno,3130
+gemini_parser/document_processor.py,sha256=aNKj2A8s5meNPyq1_dk_NBlERiy6xnzj3Kkjg1fg4jg,7025
+gemini_parser/file_manager.py,sha256=kXd0-NYZEqKnbFmh7_cRhdTBwOdc5VeN2yX8wYWmqew,2412
+gemini_parser/utils.py,sha256=Nq1131A6jo0zUEoZC6ihfpheroqfCdXDFPXkH3E-cts,352
+gemini_parser-0.1.0.post1.dist-info/METADATA,sha256=oUuPMP6biB2MUFEw5c3CXjDA40LjBZoCZ7Xe6rMplGQ,6339
+gemini_parser-0.1.0.post1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gemini_parser-0.1.0.post1.dist-info/entry_points.txt,sha256=_vgJb4DZ9aQ2SaoC49dtq180uftTF8wnVW1_LNivXSY,72
+gemini_parser-0.1.0.post1.dist-info/top_level.txt,sha256=ZZGhgQbdmfUgxacRSP6CKFBto34eiuIOuOOO1k1eVck,14
+gemini_parser-0.1.0.post1.dist-info/RECORD,,
