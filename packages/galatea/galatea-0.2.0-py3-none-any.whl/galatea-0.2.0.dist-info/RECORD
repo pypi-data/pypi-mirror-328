@@ -1,0 +1,10 @@
+galatea/__init__.py,sha256=0eVFfVd2aZXTZHFXcLZnFk8MftII4cMhRBBYt3Hm3LI,13
+galatea/__main__.py,sha256=Si3lsTs1lE--xvFBPSpw6WHqEtthoo2EYIvUGwy5eHA,217
+galatea/clean_tsv.py,sha256=5GjNKEr0yv0367Dg4lZhfsxGuxBwNWSVMEgT07rNm34,5357
+galatea/cli.py,sha256=Kas8LTaw45CjjiEtqTbDucAoc4FE491zjIeV1-ewGMU,2121
+galatea/modifiers.py,sha256=yRI8bkPKCHjY8Az7FOyEj9eEb2NsJzzh8Ejna8vw0uY,1397
+galatea-0.2.0.dist-info/METADATA,sha256=FM03Dese1wo1YxR3pj0XZNy5LZ4z1vhn27dD5lBRJLo,75
+galatea-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+galatea-0.2.0.dist-info/entry_points.txt,sha256=rTh3Vha4zzzuSFvfO-qWhJ6XyILrseCZpaxdxmYvei8,45
+galatea-0.2.0.dist-info/top_level.txt,sha256=J6eI5VvlikPpjon4QLynnT6_4y7nWjxj9OOMLok8J4E,8
+galatea-0.2.0.dist-info/RECORD,,
