@@ -1,0 +1,9 @@
+kathekon/__init__.py,sha256=w2xIp3q-4Xu65fjKN3TkNotCZevAOGacx19UjGu4o34,18515
+kathekon/cli.py,sha256=dxP2Z6TKgevePpapT6RodjjyHzhsOD92C7wnLscss-E,6546
+kathekon/data/quotes.db,sha256=Iht8q6O-Xv7q49oK7QOpsOPWURJQ6lojwI3D3mPoKG8,12288000
+kathekon-0.0.7.dist-info/LICENSE,sha256=2d4T8zMriRDdxA4BpdkY6TXMQo5S_8kQfhWYkzwe9sU,1096
+kathekon-0.0.7.dist-info/METADATA,sha256=Jqr3py5CsTi6Xb3i0lAhvfuea52dE-VxcB8DRg-syXc,9942
+kathekon-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kathekon-0.0.7.dist-info/entry_points.txt,sha256=gojCM1dMmG0k_JRjvJ8GaCEUh_YcSwMR2J_baMQEb50,79
+kathekon-0.0.7.dist-info/top_level.txt,sha256=HD_PrgSBRSOHHRSaEh7XQvdFOk8xlBczEPWoGhLBKXw,9
+kathekon-0.0.7.dist-info/RECORD,,

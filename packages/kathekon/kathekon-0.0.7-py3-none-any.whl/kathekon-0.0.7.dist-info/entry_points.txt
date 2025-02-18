@@ -1,0 +1,3 @@
+[console_scripts]
+kathekon = kathekon.cli:main
+stoic-quote = kathekon.cli:main
