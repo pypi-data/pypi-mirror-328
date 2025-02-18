@@ -1,0 +1,11 @@
+LICENSE
+README.md
+llm_embedding_eval.py
+pyproject.toml
+llm_embedding_eval.egg-info/PKG-INFO
+llm_embedding_eval.egg-info/SOURCES.txt
+llm_embedding_eval.egg-info/dependency_links.txt
+llm_embedding_eval.egg-info/entry_points.txt
+llm_embedding_eval.egg-info/requires.txt
+llm_embedding_eval.egg-info/top_level.txt
+tests/test_llm_embedding_eval.py
