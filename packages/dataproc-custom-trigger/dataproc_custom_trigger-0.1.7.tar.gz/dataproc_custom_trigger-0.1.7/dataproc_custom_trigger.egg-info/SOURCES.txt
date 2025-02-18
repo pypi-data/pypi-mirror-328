@@ -1,0 +1,8 @@
+setup.py
+dataproc_custom_trigger/__init__.py
+dataproc_custom_trigger/triggers.py
+dataproc_custom_trigger.egg-info/PKG-INFO
+dataproc_custom_trigger.egg-info/SOURCES.txt
+dataproc_custom_trigger.egg-info/dependency_links.txt
+dataproc_custom_trigger.egg-info/requires.txt
+dataproc_custom_trigger.egg-info/top_level.txt
