@@ -1,0 +1,10 @@
+ansiblecall/__init__.py,sha256=PUyWCNmxHB6NhAbtzTx6VpMS108k50CNIPIAnuHsIHo,1730
+ansiblecall/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansiblecall/utils/ansibleproxy.py,sha256=i9JE2TbkBF53p-49aeHMqz2yUZ2KJuXkqyFmbjAFFtU,5846
+ansiblecall/utils/cache.py,sha256=nmrsy7gTR_DixOVlETzKE9272xuhVe5vTs8SuOkWnfo,4309
+ansiblecall/utils/respawn.py,sha256=_cIjnOW0MnNi507Nf9A8rQrWb15dsuTLYiGf6wa8s4E,3140
+ansiblecall/utils/typefactory.py,sha256=Wl9kA10K9ruaTAoZPtVEz7TmMkLcJGG6UtXJ2L5hoWs,9217
+ansiblecall-0.2.3.dist-info/METADATA,sha256=l7pKAMKswSggcbGrZaEwp-Scr_5EoGgJxO1RXk75xmg,1981
+ansiblecall-0.2.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ansiblecall-0.2.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ansiblecall-0.2.3.dist-info/RECORD,,
