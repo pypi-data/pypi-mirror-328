@@ -1,0 +1,9 @@
+boost_histogram
+h5py
+hdf5plugin
+hist
+lz4
+matplotlib
+mplhep
+numpy
+uproot
