@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: comet_ice_sublimation
+Version: 0.0.1
+Summary: Rapid rotator model of ice sublimation for comet nuclei
+License: LICENSE
+Author: Shawn Oset
+Requires-Python: >=3.11,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# comet_ice_sublimation
+Rapid rotator model of ice sublimation for comet nuclei based on Cowan &amp; A'Hearn, 1979, for estimating molecular sublimation rate per unit area of various ices.
+
