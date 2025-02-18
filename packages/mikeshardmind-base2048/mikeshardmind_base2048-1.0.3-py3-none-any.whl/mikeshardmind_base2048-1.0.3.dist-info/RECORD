@@ -1,0 +1,9 @@
+LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+base2048/__init__.py,sha256=-Rj_X079vaB-j2M9ReGuU4ygWnnjw24302Rzbw5-U1A,359
+base2048/_b2048.py,sha256=kOeXm0NH6hBFE1qNBCSx1C2BTak0XH0y35ey89rm9OE,4127
+base2048/b2048.data,sha256=kjSZxjODopFfyvqvhDLNCQs8nej_EagbfyDx1kHaNsw,4644
+base2048/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mikeshardmind_base2048-1.0.3.dist-info/METADATA,sha256=Bo1W4UnofIjMJhHALV8dqMXfTZNaF4CDGqkBLSvb4YA,7026
+mikeshardmind_base2048-1.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mikeshardmind_base2048-1.0.3.dist-info/licenses/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+mikeshardmind_base2048-1.0.3.dist-info/RECORD,,
