@@ -1,0 +1,10 @@
+typing_extensions==4.12.2
+
+[dev]
+ruff
+pytest
+pre-commit
+pytest-cov
+tox
+reorder-python-imports
+mypy

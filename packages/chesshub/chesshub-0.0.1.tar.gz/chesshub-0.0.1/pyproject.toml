@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chesshub"
+description = "Project focused on developing a set of chess-related tools."
+readme = "README.md"
+requires-python = ">= 3.10"
+license = { text = "Propietary" }
+keywords = ["Chess", "Games", "Gym"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+    "typing_extensions==4.12.2"
+]
+dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/aciriano/ChessHub"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+    "pre-commit",
+    "pytest-cov",
+    "tox",
+    "reorder-python-imports",
+    "mypy"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "chesshub.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["chesshub", "chesshub.*"]
+
+[tool.pytest.ini_options]
+markers = [
+    "unit: unitary tests to verify local functionalities.",
+    "end2end: tests that represent interactions and complete experiments.",
+    "example: tests that reproduce use cases.",
+    "slow: tests that require more time to be executed."
+]
+testpaths = "tests"
+addopts = "--cov=chesshub --cov-report=html --disable-warnings -vv"
+
+[tool.ruff]
+line-length = 92
+target-version = "py310"

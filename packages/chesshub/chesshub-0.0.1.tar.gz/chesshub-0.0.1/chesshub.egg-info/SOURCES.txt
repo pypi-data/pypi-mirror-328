@@ -1,0 +1,8 @@
+pyproject.toml
+chesshub/__init__.py
+chesshub.egg-info/PKG-INFO
+chesshub.egg-info/SOURCES.txt
+chesshub.egg-info/dependency_links.txt
+chesshub.egg-info/requires.txt
+chesshub.egg-info/top_level.txt
+tests/test_version.py
