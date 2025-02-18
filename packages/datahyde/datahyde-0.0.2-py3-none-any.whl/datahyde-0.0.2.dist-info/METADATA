@@ -1,0 +1,241 @@
+Metadata-Version: 2.1
+Name: datahyde
+Version: 0.0.2
+Summary: A package to encrypt/decrypt the images/data using SMART Image Processing Algorithms
+Home-page: https://github.com/akulka404/datahyde
+Author: Ani Kulkarni
+Author-email: aniruddha.k1911@gmail.com
+License: MIT
+Keywords: cryptography,Encryption,Decryption,Image Processing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Cryptogen
+Cryptogen is a Python library demonstrating reversible data hiding (or “image scrambling”) through fun superhero-themed encryption/decryption algorithms. Rather than using conventional cryptography (like AES), Cryptogen highlights creative pixel transformations via OpenCV and NumPy.
+
+Disclaimer: Cryptogen’s transformations are not traditional encryption methods. They are best described as scrambling or puzzle-like transformations which can be reversed with the appropriate function. If you need robust data security, consider pairing these transformations with standard cryptographic algorithms.
+
+Table of Contents
+Key Features
+Installation
+Usage
+Python API
+Command-Line Interface
+Documentation Overview
+Encryption Functions
+Decryption Functions
+Networking & Communication
+Helper Functions (utils.py)
+Examples
+Advanced Topics
+Key-Based Shuffling
+Real Cryptography Integration
+Testing
+Contributing
+License
+Key Features
+Multiple Encryption/Decryption Pairs
+
+gotham ↔ batman
+krypton ↔ superman
+atlantis ↔ aquaman
+oa ↔ green_lantern
+starling ↔ green_arrow
+Each pair uses different pixel-shuffling or channel arithmetic.
+Reversible Data Hiding Approach
+
+Scrambles images in ways that can be inverted by the matching “hero” function.
+Network Streaming Support
+
+server(HOST) and client(HOST, formula) demonstrate sending frames over a socket with optional on-the-fly “encryption.”
+Email Attachment Utility
+
+send(sender_email, password, receiver_email, image_path) to quickly email an image (e.g., after encrypting) via Gmail.
+CLI Convenience
+
+Command-line commands for encrypting/decrypting images without writing Python scripts.
+Installation
+Prerequisites
+Python 3.7+
+OpenCV (cv2)
+NumPy
+Using PyPI (if published)
+bash
+Copy
+Edit
+pip install cryptogen
+From Source
+Clone the repo:
+bash
+Copy
+Edit
+git clone https://github.com/YourUserName/Cryptogen.git
+cd Cryptogen
+Install locally:
+bash
+Copy
+Edit
+pip install .
+Usage
+Python API
+python
+Copy
+Edit
+import cv2
+from cryptogen.encrypt import load_frame, gotham
+from cryptogen.decrypt import batman
+
+# 1) Load image
+frame = load_frame("my_image.png")
+
+# 2) Encrypt using 'gotham'
+encrypted_frame = gotham(frame, save=True)
+# 'save=True' will write 'Encrypted_Gotham.png' to disk.
+
+# 3) Decrypt using 'batman'
+decrypted_frame = batman(encrypted_frame, save=True)
+# Writes 'Decrypted_Gotham.png' by default.
+
+# 4) Display the result
+cv2.imshow("Decrypted", decrypted_frame)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+Command-Line Interface (CLI)
+If you installed Cryptogen via pip and have the CLI entry point defined (cryptogen = cryptogen.__main__:main), you can use:
+
+bash
+Copy
+Edit
+cryptogen encrypt --method gotham --input my_image.png --output my_encrypted.png
+This:
+
+Loads my_image.png.
+Encrypts using the gotham method.
+Saves result as my_encrypted.png.
+Similarly for decrypt:
+
+bash
+Copy
+Edit
+cryptogen decrypt --method batman --input my_encrypted.png --output my_decrypted.png
+For more help:
+
+bash
+Copy
+Edit
+cryptogen --help
+Documentation Overview
+Here’s a short overview of key modules and functions:
+
+Encryption Functions
+load_frame(image_path: str) -> np.ndarray
+Loads an image in BGR format using OpenCV.
+gotham(frame, save=False) -> np.ndarray
+Divides the image into 10×10 blocks, rearranges them, and scales up by 2×.
+krypton(frame, save=False) -> np.ndarray
+Applies arithmetic operations to each channel based on (row, col).
+atlantis(frame, save=False) -> np.ndarray
+Another arithmetic-based transform + flipping channels.
+oa(frame, save=False) -> np.ndarray
+Ignores the center pixel, otherwise subtracting/adding values based on location.
+starling(frame, save=False) -> np.ndarray
+Splits into strips, performs difference-based transformations, then flips channels.
+All of these write a default file (Encrypted_*.png) if save=True.
+
+Decryption Functions
+batman(frame, save=False) -> np.ndarray
+Inverse of gotham, reassembling 10×10 blocks in the original order.
+superman(frame, save=False) -> np.ndarray
+Inverse of krypton.
+aquaman(frame, save=False) -> np.ndarray
+Inverse of atlantis.
+green_lantern(frame, save=False) -> np.ndarray
+Inverse of oa.
+green_arrow(frame, save=False) -> np.ndarray
+Inverse of starling.
+Networking & Communication
+server(HOST: str)
+Launches a TCP server on port 8485, waits for frames, and displays them via OpenCV.
+client(HOST: str, formula: str)
+Connects to HOST:8485, captures frames from your webcam, and optionally applies an encryption method (gotham, krypton, etc.) before sending.
+Helper Functions (utils.py)
+split_into_blocks(frame, rows=10, cols=10)
+Resizes the frame to be divisible by rows×cols, then splits into that many blocks.
+assemble_from_blocks(blocks, y_coords, x_coords)
+Reconstructs an image from the given blocks, using the same slicing boundaries.
+Examples
+Emailing an Encrypted Image
+
+python
+Copy
+Edit
+from cryptogen.encrypt import load_frame, gotham, send
+
+frame = load_frame("secret.png")
+encrypted = gotham(frame, save=True)  # writes Encrypted_Gotham.png
+
+send(
+    sender_email="[email protected]",
+    password="my_app_password",
+    receiver_email="[email protected]",
+    image_path="Encrypted_Gotham.png"
+)
+Live Streaming with Encryption
+
+Server (on the receiving machine):
+
+python
+Copy
+Edit
+from cryptogen.communicate import server
+server("0.0.0.0")  # listens on port 8485
+Client (on the sending machine, with a webcam):
+
+python
+Copy
+Edit
+from cryptogen.communicate import client
+client("192.168.1.100", "gotham")  # connect to server, apply 'gotham' encryption
+Advanced Topics
+Key-Based Shuffling
+Currently, block permutations are “hardcoded.” For more robust scrambling, you could:
+
+Generate a random permutation of the blocks using a seed (random.seed(key)).
+Store the permutation somewhere secure.
+In decryption, apply the inverse permutation using the same seed.
+Real Cryptography Integration
+If you need genuine security:
+
+Use a cryptographic library (e.g., cryptography) to encrypt the raw bytes of your image.
+Then optionally add Cryptogen transformations on top as an additional obfuscation layer.
+Testing
+We include a basic test suite using pytest:
+
+test_encrypt.py verifies shape changes, correct file loading, etc.
+test_decrypt.py checks that certain methods approximately restore the original image.
+Run tests from the project root:
+
+bash
+Copy
+Edit
+pytest
+Contributing
+Contributions are welcome!
+
+Fork the repository.
+Create a branch for your feature (git checkout -b feature/amazing_feature).
+Commit your changes (git commit -m "Add amazing feature").
+Push to your branch (git push origin feature/amazing_feature).
+Open a Pull Request on GitHub (or your chosen platform).
+Feel free to open issues for bugs, questions, or suggestions.
+
+License
+This project is licensed under the MIT License. You’re free to use, modify, and distribute it, subject to the license terms.
+
+Happy encrypting and decrypting! If you have questions or ideas for improvements, let us know.
+
