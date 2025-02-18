@@ -1,0 +1,7 @@
+pecheny_utils
+watchdog
+toml
+
+[full]
+chgksuite
+pypdf
