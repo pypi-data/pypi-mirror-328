@@ -1,0 +1,9 @@
+rich
+
+[all]
+rich
+openai>=1.57.0
+
+[openai]
+rich
+openai>=1.57.0

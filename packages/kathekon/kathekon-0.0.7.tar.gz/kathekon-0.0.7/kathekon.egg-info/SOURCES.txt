@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+kathekon/__init__.py
+kathekon/cli.py
+kathekon.egg-info/PKG-INFO
+kathekon.egg-info/SOURCES.txt
+kathekon.egg-info/dependency_links.txt
+kathekon.egg-info/entry_points.txt
+kathekon.egg-info/requires.txt
+kathekon.egg-info/top_level.txt
+kathekon/data/quotes.db
