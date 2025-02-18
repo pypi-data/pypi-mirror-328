@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: chesshub
+Version: 0.0.1
+Summary: Project focused on developing a set of chess-related tools.
+License: Propietary
+Project-URL: repository, https://github.com/aciriano/ChessHub
+Keywords: Chess,Games,Gym
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typing_extensions==4.12.2
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: reorder-python-imports; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
