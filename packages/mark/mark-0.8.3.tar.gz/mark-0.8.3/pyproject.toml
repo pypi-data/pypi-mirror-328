@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "mark"
+version = "0.8.3"
+description = ""
+authors = ["Ryan Elston <elston.ryan@gmail.com>"]
+
+# Include additional files
+include = [
+    "templates/default_system_prompt.md"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "6.0.2"
+ipython = "8.32.0"
+openai = "1.58.1"
+click = "^8.1.8"
+beautifulsoup4 = "^4.12.3"
+langchain = "^0.2.16"
+langchain-community = "^0.2.15"
+pyppeteer = "^2.0.0"
+markdownify = "^0.14.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.4"
+
+[tool.poetry.scripts]
+mark = "mark.__main__:cli.command"
+
+[tool.poetry.group.dev.dependencies]
+respx = "^0.22.0"
+httpx = "^0.28.1"
+flake8 = "^7.1.1"
+autopep8 = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

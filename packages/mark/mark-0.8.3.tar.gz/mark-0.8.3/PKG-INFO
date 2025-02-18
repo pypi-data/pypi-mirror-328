@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mark
+Version: 0.8.3
+Summary: 
+Author: Ryan Elston
+Author-email: elston.ryan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (==6.0.2)
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Requires-Dist: ipython (==8.32.0)
+Requires-Dist: langchain (>=0.2.16,<0.3.0)
+Requires-Dist: langchain-community (>=0.2.15,<0.3.0)
+Requires-Dist: markdownify (>=0.14.1,<0.15.0)
+Requires-Dist: openai (==1.58.1)
+Requires-Dist: pyppeteer (>=2.0.0,<3.0.0)
