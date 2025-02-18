@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: based-random
+Version: 0.1.0
+Summary: Generates a random number based on the unit-type of the based.cooking website
+Home-page: https://github.com/Giftzwerg02/based-random
+Author: Giftzwerg02
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
