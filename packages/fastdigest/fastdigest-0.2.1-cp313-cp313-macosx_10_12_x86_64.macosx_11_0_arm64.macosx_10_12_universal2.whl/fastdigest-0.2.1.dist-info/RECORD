@@ -1,0 +1,13 @@
+fastdigest-0.2.1.dist-info/METADATA,sha256=vlZElzS4X2LYIe8ONSsNY9HRCkviD26GMzHjL_-74Uo,7266
+fastdigest-0.2.1.dist-info/WHEEL,sha256=xsBVOzShgcs1uTy6Ks718OULmCbDzjd9Un7Bkx7lHEY,148
+fastdigest-0.2.1.dist-info/licenses/LICENSE,sha256=MjNL2XYi0ENnHTIMw8iiXRyu6QfNTJBUH7wwOgT046M,1056
+fastdigest.pyi,sha256=pPbTi2VMjvVPpsbt2LbutJfY44L2_q3gLgxeNQqDB08,3325
+benchmark.py,sha256=WNdlgKvebfw9kfR8FwJgi-g9Npqb-SM23lGZ1y_ww6o,3317
+LICENSE,sha256=MjNL2XYi0ENnHTIMw8iiXRyu6QfNTJBUH7wwOgT046M,1056
+THIRD-PARTY-NOTICES,sha256=j2mKCCzCXbTTYUjGUkU-dHBxW6RFy_djQaxUNnPUAtQ,12531
+README.md,sha256=inQ8N4HEuj9UIIXQ3WCBpVmDEmqoT6R-aBPnxhETpKc,6416
+fastdigest/__init__.py,sha256=GY8wbP7C2L3dlmnYD1Vh5Nv4C7kCUqeoZSZU7iBPqqw,123
+fastdigest/__init__.pyi,sha256=pPbTi2VMjvVPpsbt2LbutJfY44L2_q3gLgxeNQqDB08,3325
+fastdigest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastdigest/fastdigest.cpython-313-darwin.so,sha256=8PvgoByCGxVlgy81fyeQf9M8JU0S08iGY5cvnBdOlHA,1224752
+fastdigest-0.2.1.dist-info/RECORD,,
