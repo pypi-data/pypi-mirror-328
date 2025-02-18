@@ -1,0 +1,4 @@
+arvados-python-client==3.0.0
+
+[prometheus]
+prometheus-api-client
