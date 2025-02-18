@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: simera
+Version: 0.0.1a0
+Summary: Supply Chain Simulation Tool
+Author-email: "A. Blachnio" <blachnio.artur@gmail.com>
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
