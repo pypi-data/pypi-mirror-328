@@ -1,0 +1,7 @@
+islpy-2025.1.2.dist-info/WHEEL,sha256=xJ7mdfcxmOiYaFxkfeiJwa_hRGxreCQ5AU5onlJDx_E,146
+islpy-2025.1.2.dist-info/METADATA,sha256=i3GKqylRrtry0asseIBZHPNpgxsPj7pzQxOQdz2z85A,3329
+islpy-2025.1.2.dist-info/top_level.txt,sha256=txVjJJ85Sa3IMOF6WOh_bTkOyRDWiSW2kQOf8vSPb6M,6
+islpy-2025.1.2.dist-info/RECORD,,
+islpy/_isl.cpython-313-x86_64-linux-gnu.so,sha256=stXhEsaeHZOSgbHQx2DAyCrgNXgHOA47qx_WM8IWwQI,9514688
+islpy/__init__.py,sha256=y5AwucXSrDi-y6FMkhK7F2-riplpxaX0zHJfromRCUw,37276
+islpy/version.py,sha256=Cg6Oz6uT7LBuNCRqJSQU0FPAuOsVtHB4FS0f55EAGaY,72
