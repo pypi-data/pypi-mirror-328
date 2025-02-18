@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: turbo-docs
+Version: 2.0.0
+Summary: Default template for PDM package
+Author-Email: voynow <voynow99@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# turbo-docs-v2
+generating documentation with LLMs
