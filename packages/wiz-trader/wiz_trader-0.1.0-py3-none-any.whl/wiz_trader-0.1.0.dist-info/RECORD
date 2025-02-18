@@ -1,0 +1,8 @@
+apis/__init__.py,sha256=30bmGcN4MBabbN1-7wuowVRfwjuhdszhnF6uOoyIJoU,109
+apis/client.py,sha256=NJ9cPIK0LIe1rhC8CIRIXRvQ3zksIuNJCFlnTJlYm9E,88
+ticker/__init__.py,sha256=f4xaHOWLxEyckZpHbZFWHUbiaqqOTJ318Xi8vDJWGdg,99
+ticker/client.py,sha256=DR0RIqmLjuo3ZDs2rVzMib-NRyjh96Xq09ZhI7vR56k,6245
+wiz_trader-0.1.0.dist-info/METADATA,sha256=d36YvgtqisRnNhdZ9HyECOYGHwJ-TNqlKznMD_5AT1k,1158
+wiz_trader-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wiz_trader-0.1.0.dist-info/top_level.txt,sha256=VDgCJWC-MmXn4pnnJXeasXwqKHN0Qhu0TmbEPbGU2Ro,12
+wiz_trader-0.1.0.dist-info/RECORD,,
