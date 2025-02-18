@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: ida-db
+Version: 2025.2.17.1841
+Summary: Interface to Timescale PostgreSQL database
+Home-page: https://github.com/project-ida/ida-db
+Author: Florian Metzler
+Author-email: fmetzler@mit.edu
+License: MIT
+License-File: LICENSE
+Requires-Dist: psycopg2
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
