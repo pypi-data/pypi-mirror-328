@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: MOBSTERm
+Version: 0.1.2
+Summary: Pyro model to perform multivariate subclonal deconvolution
+Home-page: https://github.com/caravagnalab/MOBSTERm
+Author: Elena Rivaroli
+Author-email: elenarivaroli@gmail.com
+License: GPL-3.0
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.10
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pyro-ppl>=1.9.1
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: scikit-learn>=1.5
+Requires-Dist: torch>=2.3.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: scipy>=1.14.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
