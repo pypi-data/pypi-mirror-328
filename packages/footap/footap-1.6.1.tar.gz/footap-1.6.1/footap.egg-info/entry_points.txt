@@ -1,0 +1,2 @@
+[console_scripts]
+footap = footap.main:main

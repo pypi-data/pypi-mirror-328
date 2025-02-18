@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+footap/__init__.py
+footap/config.py
+footap/main.py
+footap/video_processing.py
+footap.egg-info/PKG-INFO
+footap.egg-info/SOURCES.txt
+footap.egg-info/dependency_links.txt
+footap.egg-info/entry_points.txt
+footap.egg-info/requires.txt
+footap.egg-info/top_level.txt
