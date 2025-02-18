@@ -1,0 +1,5 @@
+setup.py
+quantium.egg-info/PKG-INFO
+quantium.egg-info/SOURCES.txt
+quantium.egg-info/dependency_links.txt
+quantium.egg-info/top_level.txt
