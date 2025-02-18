@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: mcp-myip
+Version: 0.1.1
+Summary: Model context protocol server for retrieving IP information
+Project-URL: Repository, https://github.com/nikolaypavlov/mcp-myip.git
+Author: Mykola Pavlov
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp[cli]>=1.2.1
+Description-Content-Type: text/markdown
+
+# MyIP MCP Server
+
+## Tools
+
+The server exposes a `get_ip_info` tool to retrieve your public ip address from ifconfig.me.
+
+## Installation
+
+```json
+{
+  "mcpServers": {
+    "myip": {
+      "command": "uvx",
+      "args": ["mcp-myip"]
+    }
+  }
+}
+```

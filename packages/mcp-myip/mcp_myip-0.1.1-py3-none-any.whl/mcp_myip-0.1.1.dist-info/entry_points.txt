@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-myip = mcp_myip:run_server
