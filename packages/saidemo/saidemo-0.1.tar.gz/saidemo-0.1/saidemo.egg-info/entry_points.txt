@@ -1,0 +1,2 @@
+[console_scripts]
+hello = saidemo.hello:greet
