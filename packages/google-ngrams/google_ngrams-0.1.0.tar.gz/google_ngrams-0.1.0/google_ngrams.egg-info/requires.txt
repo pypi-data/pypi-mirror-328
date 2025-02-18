@@ -1,0 +1,4 @@
+importlib-resources>=6.5
+matplotlib>=3.5
+polars>=1.17
+scipy>=1.15
