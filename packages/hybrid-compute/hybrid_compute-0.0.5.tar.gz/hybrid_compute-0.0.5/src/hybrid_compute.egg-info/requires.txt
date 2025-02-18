@@ -1,0 +1,5 @@
+duckdb==1.2.0
+sqlglot==26.6.0
+simplekv==0.14.1
+pyiceberg[duckdb]==0.8.1
+pyarrow==18.1.0

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/hybrid_compute/__init__.py
+src/hybrid_compute/__version__.py
+src/hybrid_compute.egg-info/PKG-INFO
+src/hybrid_compute.egg-info/SOURCES.txt
+src/hybrid_compute.egg-info/dependency_links.txt
+src/hybrid_compute.egg-info/not-zip-safe
+src/hybrid_compute.egg-info/requires.txt
+src/hybrid_compute.egg-info/top_level.txt

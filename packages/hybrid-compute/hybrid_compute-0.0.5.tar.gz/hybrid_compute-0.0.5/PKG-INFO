@@ -1,0 +1,83 @@
+Metadata-Version: 2.2
+Name: hybrid-compute
+Version: 0.0.5
+Summary: Easily and seemlessly work with cloud data on local compute resources
+Home-page: https://github.com/fivetran/hybrid-compute
+Author: Emrah Diril
+Author-email: support@fivetran.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: duckdb==1.2.0
+Requires-Dist: sqlglot==26.6.0
+Requires-Dist: simplekv==0.14.1
+Requires-Dist: pyiceberg[duckdb]==0.8.1
+Requires-Dist: pyarrow==18.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Hybrid-Compute 
+Working with cloud data is expensive and slow. We have very powerful compute resources available on our computers these days that mostly sit idle because of the move to the cloud in the past couple of decades. However, working with local data makes possible very fast iterations and a productive developer experience, as well as being cheaper than working in the cloud.
+
+This project unlocks the potential of local compute resources by providing a way to easily and seemlessly work with cloud data on local compute resources.
+
+# Installation
+```
+pip install hybrid-compute
+```
+
+# Usage
+## Initialize
+Wrap duckdb connection to enable caching cloud data locally. Note that Hybrid Compute currently
+works with iceberg data lakes.
+
+```python
+import duckdb
+import os
+from hybrid_compute import HybridCompute
+
+conn = duckdb.connect('duckdb.db')
+hc = HybridCompute(conn, catalog_config={
+    "uri": os.environ.get("FIVETRAN_POLARIS_URI"),
+    "credential": os.environ.get("FIVETRAN_POLARIS_CREDS"),
+    "catalog": os.environ.get("FIVETRAN_POLARIS_CATALOG"),
+})
+```
+
+## List
+You can list schemas and tables available in the cloud
+```python
+print(hc.list_remote_schemas())
+print(hc.list_remote_tables('salesforce'))
+```
+
+## Query
+Run a query against the data lake. You don't have to specify the catalog explicitly. When not
+provided, the catalog name passed in via `catalog_config` will be used.
+
+```python
+results = hc.execute("SELECT learn_upon_p_lu_field_3_c, region_seg_update_c from salesforce.user").fetchall()
+print(results)
+```
+
+Before the query executes, columnar data referenced in the query will be cached locally and a local table will be created within duckdb. The query will run against this local table
+
+## Forget
+You can clear the locally cached data, by table or all of it, if you like.
+```python
+hc.forget('salesforce.user')
+```
