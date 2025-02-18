@@ -1,0 +1,13 @@
+utwrite/__init__.py,sha256=ya9uzXjOzEqgLG6mJBnSfiBHNwrrNwK1e8jnW02Rl6Q,455
+utwrite/auto_generate_test.py,sha256=pr9g8bVqc5IeXUSxU-PYX4vJxhrabh2kaF11Prul3x0,20113
+utwrite/headers.py,sha256=XCEbPCQjxoqrW3wg3yumHEnkwV2EJG3V9rGiZcQsCfM,283
+utwrite/unittest_cases.py,sha256=wJHEAnL1vu56rHrJ9rPi052iBlNLsFwJ_KGkIwq8ZDU,1492
+utwrite/utilities.py,sha256=xde6SG0zLipA1iv35rUL-bEr03oLH6uoWz3vp8Udwpw,11473
+utwrite/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utwrite/examples/example_mod.py,sha256=Hi8sTMTcqpKeod_XtUb2omkLGmpvWUTvSi93dnkwnqg,2282
+utwrite-0.0.7.dist-info/LICENSE,sha256=RBCQSZRsCyvQGwC4gSS4sXaR9DOSKMgjh2USO9hEgNs,35128
+utwrite-0.0.7.dist-info/METADATA,sha256=-9aMuaWiNXQR4Q2lgxt-K2QmYMof44Jbo2IHcv4R3_g,7643
+utwrite-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+utwrite-0.0.7.dist-info/entry_points.txt,sha256=8IFad_3BBUYZ6c68hfexm8Z77A9eLGqIxmzryJNd33g,41
+utwrite-0.0.7.dist-info/top_level.txt,sha256=mV7SqX0YJ6CXDiLY4o13oy-_Md_HwiymNohSDoyB17I,8
+utwrite-0.0.7.dist-info/RECORD,,
