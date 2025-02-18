@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "venv_py"
+version = "0.1.0"
+description = "virtual environment lifecycle manager"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "r4d4m4n71s"}
+]
+dependencies = [
+    # Core Python standard library dependencies (already available)
+    # No external package dependencies required for core functionality
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",           # Linting
+    "pytest",                # Testing
+    "black>=23.0",           # Code formatting
+    "mypy>=1.0",             # Static type checking
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["venv_py"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+select = [
+    #"E",    # pycodestyle errors
+    #"W",    # pycodestyle warnings
+    "F",    # pyflakes
+    #"I",    # isort
+    "C",    # flake8-comprehensions
+    "B",    # flake8-bugbear
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"  # Verbose test output
