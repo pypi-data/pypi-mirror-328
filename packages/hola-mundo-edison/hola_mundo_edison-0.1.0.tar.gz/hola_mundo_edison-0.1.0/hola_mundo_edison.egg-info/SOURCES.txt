@@ -1,0 +1,6 @@
+pyproject.toml
+hello_world/__init__.py
+hola_mundo_edison.egg-info/PKG-INFO
+hola_mundo_edison.egg-info/SOURCES.txt
+hola_mundo_edison.egg-info/dependency_links.txt
+hola_mundo_edison.egg-info/top_level.txt
