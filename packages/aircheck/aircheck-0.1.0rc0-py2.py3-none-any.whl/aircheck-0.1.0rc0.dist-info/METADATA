@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: aircheck
+Version: 0.1.0rc0
+Summary: Pre-commit hook for airflow DAG integrity validation
+Author-email: Aleksander Wojnarowicz <alwojnarowicz@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: <3.13
+Requires-Dist: apache-airflow>=2.0.0
+Requires-Dist: click>=8.0.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# aircheck
+Pre-commit hook for airflow DAG integrity validation
