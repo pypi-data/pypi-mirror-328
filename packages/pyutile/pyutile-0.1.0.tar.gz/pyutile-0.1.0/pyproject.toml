@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyutile"
+version = "0.1.0"
+description = "A PyForge Ecosytem Python project"
+authors = [{name = "Aidan Hogg", email = "aidan.hogg@dirtywork.solutions"}]
+license = {file = "LICENSE.md"}
+readme = "README.md"
+dependencies = [
+    "cachetools",
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://open.dirtywork.solutions/pytuil/"
+Documentation = "https://open.dirtywork.solutions/pytuil/docs"
+Source = "https://github.com/DirtyWork-Solutions/pytuil"
+Issues = "https://github.com/DirtyWork-Solutions/pytuil/tree/main/.github/ISSUE_TEMPLATE"
+
+[tool.setuptools.packages.find]
+where = ["src"]
