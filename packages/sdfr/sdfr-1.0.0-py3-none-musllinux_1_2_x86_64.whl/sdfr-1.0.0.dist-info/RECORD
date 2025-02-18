@@ -1,0 +1,11 @@
+sdfr/SDF.py,sha256=YIuyogrYxY45kL-OABoi6qvQUGgwQ8XO1fds9zTcjSM,20902
+sdfr/__init__.py,sha256=RzpJaHUSqyWVKjTnkNXG7rHqdjtxvYyjpXp3-fPyAoo,1115
+sdfr/sdf_helper.py,sha256=kRqpOsjbIbg9rTzWKTaKm5fbgkya-j-WxHAwJPg0h50,60000
+sdfr/loadlib.py,sha256=dr5jYKAjAhW0jKCzudphV0D4e3-6lxAufsTVJHKYcZ8,2262
+sdfr/_commit_info.py,sha256=PSEuSBr3vqa4oITRIyRtzhPJisxMuY2vZP5nhSao5T8,110
+sdfr/libsdfc_shared.so,sha256=_XQib1yPKDCoNTNOqW5FNSg1jq7aaNGPHwGEHpJDqGQ,170320
+sdfr-1.0.0.dist-info/WHEEL,sha256=-0p1E9UA7QTTFU8dRaygQHjQ_Sgxp_D0rlYZBz2IKbY,114
+sdfr-1.0.0.dist-info/METADATA,sha256=xwLNABL-azn18R7Vsj_Vf65hucWg4ThiFxkWqJyHFtg,370
+sdfr-1.0.0.dist-info/RECORD,,
+sdfr-1.0.0.dist-info/licenses/LICENSE,sha256=Qu02Dqb67LYxdjaA0WVeZMwzcDFF_bSearhX7yzLCJQ,1621
+sdfr-1.0.0.dist-info/licenses/LICENSE_README.txt,sha256=kU0OIq6O4_qqBwDWpJrPw2nNLWDCDI7oJGCe_JBF8j0,231
