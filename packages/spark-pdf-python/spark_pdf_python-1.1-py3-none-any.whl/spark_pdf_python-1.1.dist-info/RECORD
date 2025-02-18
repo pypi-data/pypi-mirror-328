@@ -1,0 +1,12 @@
+spark-pdf-python/__init__.py,sha256=mK5Lcg1z8yrT-1kNPlvg15ERph6anze0-TTSsYUjkzo,105
+spark-pdf-python/datasources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark-pdf-python/datasources/pdf_data_source.py,sha256=fSbVKL1Y6b31qRfJjtjsuAWvN7OJaC8FRUyRaKdAqz8,2199
+spark-pdf-python/datasources/pdf_partition_reader_base.py,sha256=W_4wtsjGVsbwhQrI3FE4DYGA96B4oIIYtJLiBu5G_uo,3429
+spark-pdf-python/datasources/pdf_partition_reader_pdfbox.py,sha256=E15WsNPG4DsYCTOyUsCUGD12VH6zUy8nm2lB1AWp2q8,2871
+spark-pdf-python/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark-pdf-python/schemas/document.py,sha256=ULx2yO0r0c37Iz2zkdZIhr35k4X1t3HKrgE-nerQ5Mw,871
+spark-pdf-python/schemas/image.py,sha256=aHoAmI_7nhdRsmusX0YrTTAtdUXojxKb-c3AUpzjyfM,592
+spark_pdf_python-1.1.dist-info/METADATA,sha256=D5egncbKILjS5Uu8Elx0xEN4Fayeqn2HQLUa3xuFk2M,8196
+spark_pdf_python-1.1.dist-info/WHEEL,sha256=a7TGlA-5DaHMRrarXjVbQagU3Man_dCnGIWMJr5kRWo,91
+spark_pdf_python-1.1.dist-info/top_level.txt,sha256=R3DVQp89uo_2pnO-6_3V5s9wsT-hB3KVIowyTzggpvs,17
+spark_pdf_python-1.1.dist-info/RECORD,,
