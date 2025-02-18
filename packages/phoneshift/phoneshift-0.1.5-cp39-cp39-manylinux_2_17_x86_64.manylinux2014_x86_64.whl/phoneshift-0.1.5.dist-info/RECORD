@@ -1,0 +1,11 @@
+phoneshift/__init__.py,sha256=D_-ZuuTiLWA9rrx4cK93BYtTYf7pcZvYTC5B29vTw74,2915
+phoneshift/sdk_python3_module.cpython-39-x86_64-linux-gnu.so,sha256=n6JrYlOohLkuiC6yQq64ZxPJTGtMbQPt-trgF5kHZLI,13328416
+phoneshift/tests/__init__.py,sha256=ieyivpAv-UgKpKsNPMDnG_HYBWsUY4vp9iEn73UdV_E,597
+phoneshift/tests/license_test.py,sha256=TX759IHkC16XGZrp16lKFCcjsaxch96_Ruk1-XI-rdE,3195
+phoneshift/tests/nolicense_test.py,sha256=6PRNXGAoYmPN5YUBMT7_bgxIw5cvrvGueDayN4X65QA,1990
+phoneshift/tests/utils.py,sha256=JwxI60u1WQVqrf2Cim6P8SKZCqlCx5LWfK68KUj8Wyw,1844
+phoneshift/tests/test_data/wav/female2_assertive_4b_1.wav,sha256=8bBu7T-O73eoGc112spo20Ei_WKrvVPGoCJ_S8LRa9w,202904
+phoneshift-0.1.5.dist-info/WHEEL,sha256=hP2N_hS4PKw-M4krXQgMGtCEsQMkokQDIc5uU4EZO1Y,147
+phoneshift-0.1.5.dist-info/METADATA,sha256=BHaMH4bGBop1Ymp9gVbDI-Gr-kQqlmDbrUbSa0bc3hc,931
+phoneshift-0.1.5.dist-info/top_level.txt,sha256=UGlBU7b0lHaoNoBe4IP7h2oek4bk2z3Jgp6nc8dZh8s,35
+phoneshift-0.1.5.dist-info/RECORD,,
