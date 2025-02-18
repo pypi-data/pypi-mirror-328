@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: django-opensearch-toolkit
+Version: 0.1.0
+Summary: A Django app for interacting with OpenSearch clusters
+Author-email: David Tagliamonti <dtag@ambient.ai>
+License: MIT License
+        
+        Copyright (c) 2024 Ambient AI
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/AmbientAI/django-opensearch-toolkit
+Project-URL: Repository, https://github.com/AmbientAI/django-opensearch-toolkit
+Project-URL: Issues, https://github.com/AmbientAI/django-opensearch-toolkit/issues
+Project-URL: Changelog, https://github.com/AmbientAI/django-opensearch-toolkit/blob/main/CHANGELOG.md
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=4.2.14
+Requires-Dist: django-stubs >=4.2.7
+Requires-Dist: opensearch-py >=2.7.1
+Requires-Dist: openmock >=2.2.0
+
+# django-opensearch-toolkit
+
+A Django app to facilitate interacting with OpenSearch clusters, including connection management, migrations, and unit tests.
+
+It is implemented as a thin wrapper over the [opensearch-py](https://pypi.org/project/opensearch-py/) library for connection management and DSL operations, and benefits from all functionality it provides. The only other dependency is Django itself.
+
+Some key advantages to using this app:
+
+- Configure connections to multiple clusters using the Django settings module
+    - This is analogous to how Django manages connections to multiple RDBMS databases.
+- Define cluster state (e.g., ISM policies, index template mappings, indices) _in code_, via migration files
+    - This makes it easier to track and replicate these settings across environments (e.g., dev & prod clusters).
+    - This is analogous to how Django generates migration files for schema changes. The difference is that the migrations here are manually written, not auto-generated. They can be written using the DSL of the OpenSearch Python client.
+- Run migrations against clusters using Django management commands
+    - This is analogous to running `python manage.py migrate` for RDBMS databases.
+    - Under the hood, it tracks the state of migrations in a hidden index in the cluster itself to avoid running migrations multiple times, similar to what Django does using tables in relational dbs.
+- Write cleaner unit tests with helpful test runners and mocks
+
+## Quick Start
+
+1. Install the package:
+
+```bash
+pip install django-opensearch-toolkit
+```
+
+2. Add this app to your Django project's list of installed apps:
+
+```python
+# settings.py
+
+INSTALLED_APPS = [
+    ...
+    "django_opensearch_toolkit",
+    ...
+]
+```
+
+3. Define the cluster(s) to configure:
+
+```python
+# settings.py
+
+OPENSEARCH_CLUSTERS = {
+    # cluster_name -> configuration
+    # This dict is passed to opensearchpy.connection.configure() while the
+    # Django environment is being initialized.
+    "sample_app": {
+        "hosts": [
+            {
+                "host": "localhost",
+                "port": 9200,
+            }
+        ],
+        "timeout": 30,
+    },
+}
+```
+
+4. Register migrations for each cluster
+
+```python
+# settings.py
+
+OPENSEARCH_MIGRATION_PATHS = {
+    # cluster_name -> module_path
+    #   - Each module should define a variable named MIGRATIONS.
+    #   - The module will be dynamically imported and the MIGRATIONS variable will be used.
+    "sample_app": "sample_app.opensearch_migrations",
+}
+```
+
+5. Implement your migrations and ensure they are discoverable at the paths indicated in the previous step. See the `sample_project/sample_app/opensearch_migrations/__init__.py` for an example.
+
+    - **NOTE:** Currently, we only support a dependency _chain_, instead of a more generic dependency _graph_, like Django does for its migrations.
+
+6. Display and run your migrations.
+
+    - This requires a running OpenSearch cluster at localhost:9200 (configured in step 3).
+
+```bash
+cd sample_project
+python manage.py opensearch_displaymigrations sample_app
+python manage.py opensearch_runmigrations sample_app
+python manage.py opensearch_runmigrations sample_app --nodry
+python manage.py opensearch_displaymigrations sample_app
+```
+
+## Local Development
+
+From the project root, run:
+
+```bash
+./scripts/setup_dev.sh    # Creates a virtual environment in the project directory & downloads all requirements
+source venv/bin/activate  # Step into your virtual environment
+make test                 # Confirm all tests pass
+make check                # Confirm all static checks pass
+make integration-test     # Run an integration test (requires docker daemon to be running)
+deactivate                # Leave your virtual environment
+```
