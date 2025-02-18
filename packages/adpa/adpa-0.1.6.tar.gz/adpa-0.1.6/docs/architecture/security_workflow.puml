@@ -1,0 +1,209 @@
+@startuml Security Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #98FB98
+    ParticipantBackgroundColor #98FB98
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Security Manager" as SM
+participant "Auth Provider" as AP
+participant "Token Manager" as TM
+participant "Access Control" as AC
+participant "Encryption Manager" as EM
+participant "Audit Logger" as AL
+database "Database" as DB
+collections "External Services" as ES
+
+autonumber
+
+== Authentication ==
+User -> SM: Login request
+activate SM
+
+SM -> AP: Verify credentials
+activate AP
+AP -> AP: Check credentials
+AP -> AP: Validate MFA
+AP --> SM: Auth result
+deactivate AP
+
+alt Valid Credentials
+    SM -> TM: Generate token
+    activate TM
+    TM -> TM: Create JWT
+    TM -> TM: Set expiry
+    TM --> SM: Access token
+    deactivate TM
+    
+    SM -> AL: Log success
+    activate AL
+    AL -> AL: Record event
+    AL --> SM: Log status
+    deactivate AL
+    
+    SM --> User: Token response
+else Invalid Credentials
+    SM -> AL: Log failure
+    activate AL
+    AL -> AL: Record attempt
+    AL --> SM: Log status
+    deactivate AL
+    
+    SM --> User: Auth error
+end
+
+deactivate SM
+
+== Authorization ==
+User -> SM: Access request
+activate SM
+
+SM -> TM: Validate token
+activate TM
+TM -> TM: Check signature
+TM -> TM: Verify expiry
+TM --> SM: Token status
+deactivate TM
+
+alt Valid Token
+    SM -> AC: Check permissions
+    activate AC
+    AC -> AC: Load policy
+    AC -> AC: Check access
+    AC --> SM: Access status
+    deactivate AC
+    
+    alt Has Permission
+        SM -> EM: Encrypt data
+        activate EM
+        EM -> EM: Generate key
+        EM -> EM: Encrypt payload
+        EM --> SM: Secure data
+        deactivate EM
+        
+        SM -> AL: Log access
+        activate AL
+        AL -> AL: Record event
+        AL --> SM: Log status
+        deactivate AL
+        
+        SM --> User: Resource
+    else No Permission
+        SM -> AL: Log denial
+        activate AL
+        AL -> AL: Record attempt
+        AL --> SM: Log status
+        deactivate AL
+        
+        SM --> User: Access denied
+    end
+else Invalid Token
+    SM -> AL: Log invalid
+    activate AL
+    AL -> AL: Record attempt
+    AL --> SM: Log status
+    deactivate AL
+    
+    SM --> User: Auth error
+end
+
+deactivate SM
+
+== Data Protection ==
+User -> SM: Data request
+activate SM
+
+SM -> EM: Encrypt data
+activate EM
+EM -> EM: Generate key
+EM -> EM: Encrypt payload
+EM --> SM: Secure data
+deactivate EM
+
+SM -> DB: Store data
+activate DB
+DB --> SM: Storage status
+deactivate DB
+
+SM -> AL: Log operation
+activate AL
+AL -> AL: Record event
+AL --> SM: Log status
+deactivate AL
+
+SM --> User: Success
+deactivate SM
+
+== Security Monitoring ==
+loop Every monitoring interval
+    SM -> AL: Check logs
+    activate SM
+    activate AL
+    AL -> AL: Analyze patterns
+    AL --> SM: Security report
+    deactivate AL
+    
+    alt Security Issue
+        SM -> AC: Update rules
+        activate AC
+        AC -> AC: Modify policy
+        AC --> SM: Update status
+        deactivate AC
+        
+        SM -> TM: Revoke tokens
+        activate TM
+        TM -> TM: Invalidate
+        TM --> SM: Revoke status
+        deactivate TM
+        
+        SM -> User: Security alert
+    end
+    deactivate SM
+end
+
+== External Integration ==
+User -> SM: Service request
+activate SM
+
+SM -> AP: Verify service
+activate AP
+AP -> AP: Check credentials
+AP --> SM: Service status
+deactivate AP
+
+alt Valid Service
+    SM -> AC: Check permissions
+    activate AC
+    AC -> AC: Load policy
+    AC --> SM: Access status
+    deactivate AC
+    
+    SM -> ES: Call service
+    activate ES
+    ES --> SM: Service response
+    deactivate ES
+    
+    SM -> AL: Log integration
+    activate AL
+    AL -> AL: Record event
+    AL --> SM: Log status
+    deactivate AL
+    
+    SM --> User: Response
+else Invalid Service
+    SM -> AL: Log attempt
+    activate AL
+    AL -> AL: Record event
+    AL --> SM: Log status
+    deactivate AL
+    
+    SM --> User: Service error
+end
+
+deactivate SM
+
+@enduml

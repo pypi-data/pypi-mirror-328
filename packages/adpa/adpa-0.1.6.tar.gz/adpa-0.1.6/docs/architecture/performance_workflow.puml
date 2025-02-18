@@ -1,0 +1,156 @@
+@startuml Performance Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #FFB6C1
+    ParticipantBackgroundColor #FFB6C1
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Performance Manager" as PM
+participant "Query Optimizer" as QO
+participant "Cache Manager" as CM
+participant "Resource Monitor" as RM
+participant "Load Balancer" as LB
+participant "Metrics Collector" as MC
+database "Database" as DB
+collections "External Services" as ES
+
+autonumber
+
+== Performance Monitoring ==
+loop Every monitoring interval
+    PM -> RM: Check resources
+    activate RM
+    RM -> RM: Monitor CPU
+    RM -> RM: Monitor memory
+    RM -> RM: Monitor I/O
+    RM --> PM: Resource metrics
+    deactivate RM
+    
+    PM -> MC: Collect metrics
+    activate MC
+    MC -> MC: Process metrics
+    MC -> MC: Store metrics
+    MC --> PM: Metrics report
+    deactivate MC
+    
+    alt Resource Warning
+        PM -> LB: Adjust load
+        activate LB
+        LB -> LB: Update rules
+        LB --> PM: Load status
+        deactivate LB
+        
+        PM -> User: Performance alert
+    end
+end
+
+== Query Optimization ==
+User -> PM: Execute query
+activate PM
+
+PM -> QO: Optimize query
+activate QO
+
+QO -> CM: Check cache
+activate CM
+CM -> CM: Look up query
+CM --> QO: Cache status
+deactivate CM
+
+alt Cache Hit
+    QO --> PM: Cached result
+else Cache Miss
+    QO -> QO: Analyze query
+    QO -> QO: Generate plan
+    QO -> QO: Estimate cost
+    
+    QO -> DB: Execute plan
+    activate DB
+    DB --> QO: Query result
+    deactivate DB
+    
+    QO -> CM: Cache result
+    activate CM
+    CM -> CM: Store data
+    CM --> QO: Cache status
+    deactivate CM
+end
+
+QO --> PM: Query result
+deactivate QO
+
+PM -> MC: Record metrics
+activate MC
+MC -> MC: Update stats
+MC --> PM: Metrics status
+deactivate MC
+
+PM --> User: Result
+deactivate PM
+
+== Resource Scaling ==
+PM -> RM: Monitor load
+activate RM
+RM -> RM: Check thresholds
+RM --> PM: Load status
+deactivate RM
+
+alt High Load
+    PM -> LB: Scale resources
+    activate LB
+    
+    LB -> ES: Add instances
+    activate ES
+    ES --> LB: Scaling status
+    deactivate ES
+    
+    LB -> LB: Update routing
+    LB --> PM: Scale status
+    deactivate LB
+    
+    PM -> MC: Record scaling
+    activate MC
+    MC -> MC: Update metrics
+    MC --> PM: Metrics status
+    deactivate MC
+end
+
+== Performance Tuning ==
+User -> PM: Tune performance
+activate PM
+
+PM -> MC: Get metrics
+activate MC
+MC -> MC: Analyze trends
+MC --> PM: Performance data
+deactivate MC
+
+PM -> QO: Update rules
+activate QO
+QO -> QO: Adjust params
+QO -> QO: Update cache
+QO --> PM: Update status
+deactivate QO
+
+PM -> LB: Optimize routing
+activate LB
+LB -> LB: Update rules
+LB -> LB: Balance load
+LB --> PM: Route status
+deactivate LB
+
+PM -> CM: Update strategy
+activate CM
+CM -> CM: Adjust policy
+CM -> CM: Clear old data
+CM --> PM: Cache status
+deactivate CM
+
+PM --> User: Tuning complete
+deactivate PM
+
+@enduml

@@ -1,0 +1,220 @@
+/* Custom styles for ADPA documentation */
+
+/* Color scheme */
+:root {
+    --md-primary-fg-color: #2c3e50;
+    --md-accent-fg-color: #16a085;
+}
+
+/* Typography */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+    font-weight: 600;
+}
+
+/* Code blocks */
+.md-typeset code {
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+
+.md-typeset pre > code {
+    background-color: #2d2d2d;
+    color: #f8f9fa;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+    border-left-width: 4px;
+    border-radius: 4px;
+}
+
+.md-typeset .admonition.note {
+    border-color: #3498db;
+}
+
+.md-typeset .admonition.tip {
+    border-color: #2ecc71;
+}
+
+.md-typeset .admonition.warning {
+    border-color: #f1c40f;
+}
+
+.md-typeset .admonition.danger {
+    border-color: #e74c3c;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+}
+
+.md-typeset table:not([class]) tr:nth-child(2n) {
+    background-color: #f8f9fa;
+}
+
+/* Navigation */
+.md-nav__link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+.md-nav__item--active > .md-nav__link {
+    color: var(--md-accent-fg-color);
+    font-weight: 600;
+}
+
+/* Search */
+.md-search__input {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.md-search__input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+/* Buttons */
+.md-typeset .md-button {
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.md-typeset .md-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.md-footer {
+    background-color: var(--md-primary-fg-color);
+}
+
+.md-footer-meta {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* Tabs */
+.md-tabs {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-tabs__link {
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+    opacity: 1;
+}
+
+/* Cards */
+.md-typeset .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 1rem;
+    margin: 1rem 0;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) {
+    display: contents;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid > .card {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+    transition: all 0.2s ease;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li:hover,
+.md-typeset .grid > .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* PlantUML diagrams */
+.plantuml {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+/* Jupyter notebooks */
+.jp-OutputArea-output {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.jp-RenderedText pre {
+    background: #2d2d2d;
+    color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+/* API documentation */
+.doc-contents {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.doc-label {
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+
+/* Responsive design */
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title {
+        background-color: var(--md-primary-fg-color);
+        color: white;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    .md-typeset .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Print styles */
+@media print {
+    .md-typeset a {
+        color: inherit !important;
+        text-decoration: none;
+    }
+    
+    .md-typeset pre > code {
+        white-space: pre-wrap;
+    }
+    
+    .md-sidebar,
+    .md-top,
+    .md-footer {
+        display: none;
+    }
+}

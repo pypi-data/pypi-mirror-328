@@ -1,0 +1,123 @@
+@startuml Monitoring Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #DDA0DD
+    ParticipantBackgroundColor #DDA0DD
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Monitor" as Mon
+participant "Metrics Collector" as MC
+participant "Performance Analyzer" as PA
+participant "Alert Manager" as AM
+participant "Health Checker" as HC
+database "Time Series DB" as TSDB
+collections "Alert Channels" as AC
+
+autonumber
+
+== System Initialization ==
+User -> Mon: Start monitoring
+activate Mon
+
+Mon -> MC: Initialize collectors
+activate MC
+MC -> MC: Setup metric types
+MC --> Mon: Collectors ready
+deactivate MC
+
+Mon -> PA: Initialize analyzers
+activate PA
+PA -> PA: Setup thresholds
+PA --> Mon: Analyzers ready
+deactivate PA
+
+Mon -> AM: Initialize alerts
+activate AM
+AM -> AM: Setup channels
+AM --> Mon: Alerts ready
+deactivate AM
+
+Mon -> HC: Initialize health checks
+activate HC
+HC -> HC: Setup checks
+HC --> Mon: Health checks ready
+deactivate HC
+
+Mon --> User: Monitoring active
+
+== Continuous Monitoring ==
+loop Every monitoring interval
+    Mon -> MC: Collect metrics
+    activate MC
+    
+    MC -> MC: Gather system metrics
+    MC -> MC: Gather app metrics
+    MC -> TSDB: Store metrics
+    activate TSDB
+    TSDB --> MC: Stored
+    deactivate TSDB
+    
+    MC -> PA: Analyze metrics
+    activate PA
+    PA -> PA: Check thresholds
+    
+    alt Threshold exceeded
+        PA -> AM: Trigger alert
+        activate AM
+        AM -> AC: Send alert
+        activate AC
+        AC --> AM: Alert sent
+        deactivate AC
+        AM --> PA: Alert handled
+        deactivate AM
+    end
+    
+    PA --> MC: Analysis complete
+    deactivate PA
+    
+    MC --> Mon: Metrics processed
+    deactivate MC
+    
+    Mon -> HC: Check health
+    activate HC
+    HC -> HC: Run health checks
+    
+    alt Health issue detected
+        HC -> AM: Trigger alert
+        activate AM
+        AM -> AC: Send alert
+        activate AC
+        AC --> AM: Alert sent
+        deactivate AC
+        AM --> HC: Alert handled
+        deactivate AM
+    end
+    
+    HC --> Mon: Health status
+    deactivate HC
+end
+
+== Report Generation ==
+User -> Mon: Request report
+activate Mon
+
+Mon -> TSDB: Fetch metrics
+activate TSDB
+TSDB --> Mon: Historical data
+deactivate TSDB
+
+Mon -> PA: Generate analysis
+activate PA
+PA -> PA: Analyze trends
+PA -> PA: Generate insights
+PA --> Mon: Analysis report
+deactivate PA
+
+Mon --> User: Performance report
+deactivate Mon
+
+@enduml

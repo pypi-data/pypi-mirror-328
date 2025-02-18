@@ -1,0 +1,189 @@
+@startuml Data Flow Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #90EE90
+    ParticipantBackgroundColor #90EE90
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Data Manager" as DM
+participant "Schema Validator" as SV
+participant "Data Transformer" as DT
+participant "Query Builder" as QB
+participant "Cache Manager" as CM
+database "Database" as DB
+participant "Event Bus" as EB
+
+autonumber
+
+== Data Input ==
+User -> DM: Submit data
+activate DM
+
+DM -> SV: Validate schema
+activate SV
+SV -> SV: Check types
+SV -> SV: Validate constraints
+SV --> DM: Validation result
+deactivate SV
+
+alt Valid Data
+    DM -> DT: Transform data
+    activate DT
+    DT -> DT: Apply mappings
+    DT -> DT: Convert formats
+    DT --> DM: Transformed data
+    deactivate DT
+    
+    DM -> QB: Build query
+    activate QB
+    QB -> QB: Generate SQL
+    QB -> QB: Optimize query
+    QB --> DM: Query
+    deactivate QB
+    
+    DM -> DB: Store data
+    activate DB
+    DB --> DM: Storage result
+    deactivate DB
+    
+    DM -> CM: Invalidate cache
+    activate CM
+    CM -> CM: Clear affected keys
+    CM --> DM: Cache status
+    deactivate CM
+    
+    DM -> EB: Emit event
+    activate EB
+    EB -> EB: Process event
+    EB --> DM: Event status
+    deactivate EB
+    
+    DM --> User: Success
+else Invalid Data
+    DM -> DM: Log error
+    DM --> User: Validation error
+end
+
+deactivate DM
+
+== Data Query ==
+User -> DM: Query data
+activate DM
+
+DM -> CM: Check cache
+activate CM
+CM -> CM: Generate key
+CM -> CM: Look up data
+CM --> DM: Cache result
+deactivate CM
+
+alt Cache Hit
+    DM --> User: Cached data
+else Cache Miss
+    DM -> QB: Build query
+    activate QB
+    QB -> QB: Parse request
+    QB -> QB: Generate SQL
+    QB --> DM: Query
+    deactivate QB
+    
+    DM -> DB: Execute query
+    activate DB
+    DB --> DM: Query result
+    deactivate DB
+    
+    DM -> CM: Cache result
+    activate CM
+    CM -> CM: Store data
+    CM --> DM: Cache status
+    deactivate CM
+    
+    DM --> User: Fresh data
+end
+
+deactivate DM
+
+== Data Update ==
+User -> DM: Update data
+activate DM
+
+DM -> SV: Validate update
+activate SV
+SV -> SV: Check types
+SV -> SV: Validate changes
+SV --> DM: Validation result
+deactivate SV
+
+alt Valid Update
+    DM -> QB: Build update
+    activate QB
+    QB -> QB: Generate SQL
+    QB -> QB: Add conditions
+    QB --> DM: Update query
+    deactivate QB
+    
+    DM -> DB: Execute update
+    activate DB
+    DB --> DM: Update result
+    deactivate DB
+    
+    DM -> CM: Invalidate cache
+    activate CM
+    CM -> CM: Clear keys
+    CM --> DM: Cache status
+    deactivate CM
+    
+    DM -> EB: Emit event
+    activate EB
+    EB -> EB: Process update
+    EB --> DM: Event status
+    deactivate EB
+    
+    DM --> User: Success
+else Invalid Update
+    DM -> DM: Log error
+    DM --> User: Update error
+end
+
+deactivate DM
+
+== Data Stream ==
+User -> DM: Stream request
+activate DM
+
+DM -> QB: Build stream
+activate QB
+QB -> QB: Configure stream
+QB --> DM: Stream config
+deactivate QB
+
+DM -> DB: Open stream
+activate DB
+
+loop While streaming
+    DB --> DM: Data chunk
+    DM -> DT: Transform chunk
+    activate DT
+    DT -> DT: Process data
+    DT --> DM: Processed chunk
+    deactivate DT
+    DM --> User: Stream data
+end
+
+DB --> DM: Stream end
+deactivate DB
+
+DM -> EB: Stream complete
+activate EB
+EB -> EB: Process event
+EB --> DM: Event status
+deactivate EB
+
+DM --> User: Stream complete
+deactivate DM
+
+@enduml

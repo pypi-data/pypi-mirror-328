@@ -1,0 +1,83 @@
+@startuml Agent Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #FFB6C1
+    ParticipantBackgroundColor #FFB6C1
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Agent Manager" as AM
+participant "Task Router" as TR
+participant "Chain Executor" as CE
+collections "Agent Pool" as AP
+participant "Text2SQL" as T2S
+database "Database" as DB
+participant "Monitor" as Mon
+
+autonumber
+
+== Task Initialization ==
+User -> AM: Submit task
+activate AM
+
+AM -> TR: Route task
+activate TR
+TR -> TR: Analyze requirements
+TR -> TR: Determine agent chain
+TR --> AM: Chain configuration
+deactivate TR
+
+== Chain Execution ==
+AM -> CE: Execute chain
+activate CE
+
+CE -> AP: Assign primary agent
+activate AP
+AP -> AP: Initialize agent
+AP --> CE: Agent ready
+deactivate AP
+
+loop For each subtask
+    CE -> AP: Execute subtask
+    activate AP
+    
+    alt Text2SQL Required
+        AP -> T2S: Process query
+        activate T2S
+        T2S -> DB: Execute query
+        DB --> T2S: Results
+        T2S --> AP: Processed results
+        deactivate T2S
+    else Direct Processing
+        AP -> AP: Process data
+    end
+    
+    AP -> AP: Update task state
+    AP --> CE: Subtask results
+    deactivate AP
+    
+    CE -> Mon: Log progress
+    activate Mon
+    Mon -> Mon: Record metrics
+    Mon --> CE: Confirmation
+    deactivate Mon
+end
+
+CE -> CE: Aggregate results
+CE --> AM: Final results
+deactivate CE
+
+== Task Completion ==
+AM -> Mon: Log completion
+activate Mon
+Mon -> Mon: Record final metrics
+Mon --> AM: Confirmation
+deactivate Mon
+
+AM --> User: Task results
+deactivate AM
+
+@enduml

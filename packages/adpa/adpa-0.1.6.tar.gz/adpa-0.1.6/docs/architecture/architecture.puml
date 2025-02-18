@@ -1,0 +1,82 @@
+@startuml ADPA Architecture
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    BorderColor #2C3E50
+    ComponentFontSize 14
+    DefaultFontSize 14
+    PackageFontSize 14
+}
+
+' Components
+package "ADPA Framework" {
+    [Text2SQL Core] as T2S #87CEEB
+    [Database Manager] as DB #98FB98
+    [Agent System] as AS #FFB6C1
+    [Security Manager] as SM #F0E68C
+    [Monitoring System] as MS #DDA0DD
+    [Configuration] as CF #E6E6FA
+    
+    ' Subcomponents
+    package "Text2SQL Components" {
+        [Query Parser] as QP
+        [Schema Analyzer] as SA
+        [Query Optimizer] as QO
+        [SQL Generator] as SG
+    }
+    
+    package "Agent Components" {
+        [Agent Manager] as AM
+        [Chain Executor] as CE
+        [Task Router] as TR
+    }
+    
+    package "Security Components" {
+        [Access Control] as AC
+        [Query Validator] as QV
+        [Audit Logger] as AL
+    }
+}
+
+' External Systems
+cloud "LLM Services" as LLM
+database "Databases" as DBS
+frame "Monitoring Tools" as MT
+cloud "External APIs" as API
+
+' Internal Relationships
+T2S --> QP
+T2S --> SA
+T2S --> QO
+T2S --> SG
+
+AS --> AM
+AS --> CE
+AS --> TR
+
+SM --> AC
+SM --> QV
+SM --> AL
+
+' External Relationships
+T2S <--> LLM : Query Translation
+DB <--> DBS : Data Access
+MS --> MT : Metrics & Logs
+AS <--> API : External Services
+
+' Core Relationships
+CF --> T2S : Configure
+CF --> DB : Configure
+CF --> AS : Configure
+CF --> SM : Configure
+CF --> MS : Configure
+
+T2S <--> DB : Query Execution
+AS <--> T2S : Query Enhancement
+SM --> T2S : Validate Queries
+MS --> T2S : Monitor Performance
+MS --> DB : Monitor Access
+MS --> AS : Monitor Tasks
+
+@enduml

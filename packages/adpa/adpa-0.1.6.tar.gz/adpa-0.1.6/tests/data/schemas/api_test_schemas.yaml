@@ -1,0 +1,47 @@
+user_data:
+  username:
+    type: user_name
+  email:
+    type: email
+  password:
+    type: password
+    length: 12
+    special_chars: true
+  created_at:
+    type: date_time
+
+api_response:
+  status_code:
+    type: random_int
+    min: 200
+    max: 599
+  message:
+    type: sentence
+    nb_words: 10
+  timestamp:
+    type: date_time
+
+llm_request:
+  prompt:
+    type: text
+    max_nb_chars: 1000
+  temperature:
+    type: random_float
+    min: 0.0
+    max: 1.0
+  max_tokens:
+    type: random_int
+    min: 1
+    max: 2048
+
+database_record:
+  id:
+    type: uuid4
+  name:
+    type: company
+  description:
+    type: paragraph
+  metadata:
+    type: json
+  updated_at:
+    type: date_time

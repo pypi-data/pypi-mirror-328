@@ -1,0 +1,69 @@
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include VERSION
+
+# Documentation
+recursive-include docs *.md
+recursive-include docs *.puml
+recursive-include docs *.png
+recursive-include docs *.svg
+recursive-include docs *.css
+recursive-include docs *.js
+recursive-include docs *.html
+
+# Configuration
+include pyproject.toml
+include setup.py
+include setup.cfg
+include tox.ini
+include .coveragerc
+include .flake8
+include mypy.ini
+include pytest.ini
+
+# Type hints
+recursive-include src/adpa py.typed
+recursive-include src/adpa *.pyi
+
+# Examples
+recursive-include examples *.py
+recursive-include examples *.ipynb
+recursive-include examples *.md
+recursive-include examples *.json
+recursive-include examples *.yaml
+recursive-include examples *.sql
+
+# Tests
+recursive-include tests *.py
+recursive-include tests *.robot
+recursive-include tests *.resource
+recursive-include tests *.json
+recursive-include tests *.yaml
+recursive-include tests *.sql
+
+# Templates
+recursive-include src/adpa/templates *
+
+# Static files
+recursive-include src/adpa/static *
+
+# Exclude
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude .env
+global-exclude .env.*
+global-exclude *.log
+global-exclude .coverage
+global-exclude coverage.xml
+global-exclude .pytest_cache
+global-exclude .mypy_cache
+global-exclude .tox
+global-exclude dist
+global-exclude build
+global-exclude *.egg-info

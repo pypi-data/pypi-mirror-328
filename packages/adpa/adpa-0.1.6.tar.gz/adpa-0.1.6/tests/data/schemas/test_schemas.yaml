@@ -1,0 +1,216 @@
+# LLM Test Schemas
+llm_schemas:
+  basic_prompt:
+    prompt:
+      type: text
+      max_nb_chars: 1000
+    temperature:
+      type: random_float
+      min: 0.0
+      max: 1.0
+    max_tokens:
+      type: random_int
+      min: 1
+      max: 2048
+
+  streaming_request:
+    prompt:
+      type: text
+      max_nb_chars: 2000
+    stream:
+      type: boolean
+    chunk_size:
+      type: random_int
+      min: 16
+      max: 256
+
+  chat_completion:
+    messages:
+      type: list
+      min_items: 1
+      max_items: 10
+      item_schema:
+        role:
+          type: choice
+          options: [system, user, assistant]
+        content:
+          type: text
+          max_nb_chars: 500
+
+# Database Test Schemas
+database_schemas:
+  user_record:
+    id:
+      type: uuid4
+    username:
+      type: user_name
+    email:
+      type: email
+    created_at:
+      type: date_time
+    settings:
+      type: json
+
+  transaction:
+    id:
+      type: uuid4
+    user_id:
+      type: uuid4
+    amount:
+      type: decimal
+      min: 0.01
+      max: 10000.00
+    currency:
+      type: choice
+      options: [USD, EUR, GBP]
+    status:
+      type: choice
+      options: [pending, completed, failed]
+
+  product:
+    id:
+      type: uuid4
+    name:
+      type: product_name
+    price:
+      type: decimal
+      min: 0.01
+      max: 9999.99
+    category:
+      type: choice
+      options: [electronics, books, clothing]
+    stock:
+      type: random_int
+      min: 0
+      max: 1000
+
+# API Test Schemas
+api_schemas:
+  request_headers:
+    authorization:
+      type: bearer_token
+    content_type:
+      type: choice
+      options: [application/json, application/xml]
+    accept:
+      type: choice
+      options: [application/json, application/xml]
+    user_agent:
+      type: user_agent
+
+  pagination:
+    page:
+      type: random_int
+      min: 1
+      max: 100
+    per_page:
+      type: choice
+      options: [10, 25, 50, 100]
+    sort_by:
+      type: choice
+      options: [id, name, created_at]
+    order:
+      type: choice
+      options: [asc, desc]
+
+  error_response:
+    status_code:
+      type: choice
+      options: [400, 401, 403, 404, 500]
+    error:
+      type: choice
+      options: [BadRequest, Unauthorized, Forbidden, NotFound, ServerError]
+    message:
+      type: sentence
+    details:
+      type: list
+      min_items: 1
+      max_items: 5
+      item_schema:
+        field:
+          type: word
+        message:
+          type: sentence
+
+# Security Test Schemas
+security_schemas:
+  jwt_token:
+    token:
+      type: jwt
+    expires_in:
+      type: random_int
+      min: 300
+      max: 3600
+    token_type:
+      type: constant
+      value: Bearer
+
+  audit_log:
+    event_id:
+      type: uuid4
+    timestamp:
+      type: date_time
+    user_id:
+      type: uuid4
+    action:
+      type: choice
+      options: [login, logout, create, update, delete]
+    resource:
+      type: word
+    ip_address:
+      type: ipv4
+    status:
+      type: choice
+      options: [success, failure]
+
+  permission:
+    role:
+      type: choice
+      options: [admin, user, guest]
+    resources:
+      type: list
+      min_items: 1
+      max_items: 10
+      item_schema:
+        name:
+          type: word
+        actions:
+          type: list
+          items: [read, write, delete]
+
+# Performance Test Schemas
+performance_schemas:
+  metrics:
+    endpoint:
+      type: url_path
+    method:
+      type: choice
+      options: [GET, POST, PUT, DELETE]
+    response_time:
+      type: random_float
+      min: 0.001
+      max: 10.0
+    status_code:
+      type: random_int
+      min: 200
+      max: 599
+    timestamp:
+      type: date_time
+
+  load_test:
+    concurrent_users:
+      type: random_int
+      min: 1
+      max: 1000
+    duration:
+      type: random_int
+      min: 60
+      max: 3600
+    ramp_up:
+      type: random_int
+      min: 0
+      max: 300
+    requests_per_second:
+      type: random_float
+      min: 0.1
+      max: 100.0

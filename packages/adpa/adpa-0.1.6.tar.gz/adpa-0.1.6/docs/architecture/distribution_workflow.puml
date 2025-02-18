@@ -1,0 +1,149 @@
+@startuml Distribution Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #DDA0DD
+    ParticipantBackgroundColor #DDA0DD
+    BoxBackgroundColor #FFFFFF
+}
+
+actor Developer
+participant "Build System" as BS
+participant "Test Runner" as TR
+participant "Linter" as LT
+participant "Type Checker" as TC
+participant "Security Scanner" as SS
+participant "Package Manager" as PM
+participant "CI/CD" as CI
+collections "PyPI" as PYPI
+collections "Documentation" as DOCS
+
+autonumber
+
+== Build Preparation ==
+Developer -> BS: Build request
+activate BS
+
+BS -> LT: Run linters
+activate LT
+LT -> LT: Check style
+LT -> LT: Format code
+LT --> BS: Lint results
+deactivate LT
+
+BS -> TC: Check types
+activate TC
+TC -> TC: Validate types
+TC -> TC: Check imports
+TC --> BS: Type results
+deactivate TC
+
+BS -> TR: Run tests
+activate TR
+TR -> TR: Unit tests
+TR -> TR: Integration tests
+TR -> TR: Coverage check
+TR --> BS: Test results
+deactivate TR
+
+BS -> SS: Security scan
+activate SS
+SS -> SS: Check dependencies
+SS -> SS: Scan code
+SS -> SS: Verify licenses
+SS --> BS: Security report
+deactivate SS
+
+alt All Checks Pass
+    BS -> PM: Build package
+    activate PM
+    PM -> PM: Clean build
+    PM -> PM: Generate dist
+    PM --> BS: Package ready
+    deactivate PM
+    
+    BS --> Developer: Build success
+else Checks Fail
+    BS --> Developer: Build error
+end
+
+deactivate BS
+
+== Package Distribution ==
+Developer -> CI: Push changes
+activate CI
+
+CI -> BS: Build package
+activate BS
+BS -> BS: Run checks
+BS --> CI: Build status
+deactivate BS
+
+alt Build Success
+    CI -> PYPI: Upload package
+    activate PYPI
+    PYPI -> PYPI: Verify package
+    PYPI -> PYPI: Process upload
+    PYPI --> CI: Upload status
+    deactivate PYPI
+    
+    CI -> DOCS: Deploy docs
+    activate DOCS
+    DOCS -> DOCS: Build docs
+    DOCS -> DOCS: Update site
+    DOCS --> CI: Deploy status
+    deactivate DOCS
+    
+    CI --> Developer: Release complete
+else Build Failure
+    CI --> Developer: Release error
+end
+
+deactivate CI
+
+== Package Installation ==
+Developer -> PM: Install test
+activate PM
+
+PM -> PYPI: Download package
+activate PYPI
+PYPI --> PM: Package files
+deactivate PYPI
+
+PM -> PM: Install deps
+PM -> PM: Run checks
+PM -> PM: Verify install
+
+alt Install Success
+    PM -> TR: Run tests
+    activate TR
+    TR -> TR: Verify setup
+    TR --> PM: Test status
+    deactivate TR
+    
+    PM --> Developer: Install success
+else Install Failure
+    PM --> Developer: Install error
+end
+
+deactivate PM
+
+== Documentation Update ==
+Developer -> DOCS: Update docs
+activate DOCS
+
+DOCS -> DOCS: Build docs
+DOCS -> DOCS: Run checks
+DOCS -> DOCS: Generate API
+
+alt Build Success
+    DOCS -> DOCS: Deploy site
+    DOCS --> Developer: Docs ready
+else Build Failure
+    DOCS --> Developer: Docs error
+end
+
+deactivate DOCS
+
+@enduml

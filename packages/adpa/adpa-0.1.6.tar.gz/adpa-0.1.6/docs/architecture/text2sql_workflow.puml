@@ -1,0 +1,76 @@
+@startuml Text2SQL Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #87CEEB
+    ParticipantBackgroundColor #87CEEB
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Text2SQL" as T2S
+participant "Parser" as Parser
+participant "Schema Analyzer" as SA
+participant "LLM Service" as LLM
+participant "Query Optimizer" as QO
+participant "SQL Generator" as SG
+database "Database" as DB
+participant "Monitor" as Mon
+
+autonumber
+
+== Query Processing ==
+User -> T2S: Natural language query
+activate T2S
+
+T2S -> Parser: Parse query
+activate Parser
+Parser -> Parser: Tokenize & analyze
+Parser --> T2S: Parsed query structure
+deactivate Parser
+
+T2S -> SA: Get schema context
+activate SA
+SA -> DB: Fetch schema metadata
+DB --> SA: Schema information
+SA -> SA: Analyze relevant tables
+SA --> T2S: Schema context
+deactivate SA
+
+T2S -> LLM: Generate SQL with context
+activate LLM
+LLM -> LLM: Process query
+LLM --> T2S: Initial SQL
+deactivate LLM
+
+T2S -> QO: Optimize query
+activate QO
+QO -> QO: Analyze execution plan
+QO -> QO: Apply optimization rules
+QO --> T2S: Optimized SQL
+deactivate QO
+
+T2S -> SG: Generate final SQL
+activate SG
+SG -> SG: Format & validate
+SG --> T2S: Final SQL query
+deactivate SG
+
+== Query Execution ==
+T2S -> DB: Execute query
+activate DB
+DB -> DB: Process query
+DB --> T2S: Query results
+deactivate DB
+
+T2S -> Mon: Log metrics
+activate Mon
+Mon -> Mon: Record performance
+Mon --> T2S: Confirmation
+deactivate Mon
+
+T2S --> User: Results
+deactivate T2S
+
+@enduml

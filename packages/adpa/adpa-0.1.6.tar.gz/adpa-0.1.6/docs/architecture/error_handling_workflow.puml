@@ -1,0 +1,154 @@
+@startuml Error Handling Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #FFB6C1
+    ParticipantBackgroundColor #FFB6C1
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Text2SQL" as T2S
+participant "Error Handler" as EH
+participant "Query Validator" as QV
+participant "Error Tracer" as ET
+participant "Recovery Manager" as RM
+participant "Logger" as Log
+participant "Alert Manager" as AM
+collections "Alert Channels" as AC
+
+autonumber
+
+== Error Detection ==
+User -> T2S: Submit query
+activate T2S
+
+T2S -> QV: Validate query
+activate QV
+
+alt Validation Error
+    QV -> EH: Report validation error
+    activate EH
+    EH -> ET: Start trace
+    activate ET
+    ET -> ET: Collect context
+    ET --> EH: Error context
+    deactivate ET
+    
+    EH -> Log: Log error
+    activate Log
+    Log -> Log: Record details
+    Log --> EH: Logged
+    deactivate Log
+    
+    EH -> RM: Attempt recovery
+    activate RM
+    RM -> RM: Check recovery options
+    RM --> EH: Recovery plan
+    deactivate RM
+    
+    alt Can Recover
+        EH -> T2S: Recovery action
+        T2S -> QV: Retry validation
+        QV --> T2S: Validation result
+    else Cannot Recover
+        EH -> AM: Send alert
+        activate AM
+        AM -> AC: Notify error
+        activate AC
+        AC --> AM: Notified
+        deactivate AC
+        AM --> EH: Alert sent
+        deactivate AM
+        
+        EH --> T2S: Error report
+        T2S --> User: Error message
+    end
+    deactivate EH
+end
+
+QV --> T2S: Validation result
+deactivate QV
+
+== Query Execution ==
+T2S -> T2S: Process query
+
+alt Execution Error
+    T2S -> EH: Handle error
+    activate EH
+    
+    EH -> ET: Trace error
+    activate ET
+    ET -> ET: Collect stack trace
+    ET -> ET: Gather variables
+    ET --> EH: Error details
+    deactivate ET
+    
+    EH -> Log: Log error
+    activate Log
+    Log -> Log: Record error
+    Log -> Log: Save context
+    Log --> EH: Logged
+    deactivate Log
+    
+    EH -> RM: Try recovery
+    activate RM
+    
+    RM -> RM: Check error type
+    
+    alt Database Error
+        RM -> RM: Try backup database
+    else Query Error
+        RM -> RM: Try query modification
+    else System Error
+        RM -> RM: Try system recovery
+    end
+    
+    RM --> EH: Recovery result
+    deactivate RM
+    
+    alt Recovery Successful
+        EH -> T2S: Retry execution
+        T2S -> T2S: Execute query
+        T2S --> User: Results
+    else Recovery Failed
+        EH -> AM: Send alert
+        activate AM
+        AM -> AC: Notify error
+        activate AC
+        AC --> AM: Notified
+        deactivate AC
+        AM --> EH: Alert sent
+        deactivate AM
+        
+        EH --> T2S: Error report
+        T2S --> User: Error message
+    end
+    
+    deactivate EH
+end
+
+deactivate T2S
+
+== Error Analysis ==
+User -> Log: Request error report
+activate Log
+
+Log -> Log: Compile errors
+Log -> ET: Get traces
+activate ET
+ET --> Log: Error traces
+deactivate ET
+
+Log -> RM: Get recovery stats
+activate RM
+RM --> Log: Recovery history
+deactivate RM
+
+Log -> Log: Generate report
+Log --> User: Error report
+
+deactivate Log
+
+@enduml

@@ -1,0 +1,140 @@
+@startuml Caching and Optimization Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #98FB98
+    ParticipantBackgroundColor #98FB98
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Text2SQL" as T2S
+participant "Query Optimizer" as QO
+participant "Cache Manager" as CM
+participant "Query Analyzer" as QA
+database "Cache Store" as CS
+database "Database" as DB
+participant "Performance Monitor" as PM
+
+autonumber
+
+== Query Processing ==
+User -> T2S: Submit query
+activate T2S
+
+T2S -> CM: Check cache
+activate CM
+
+CM -> CM: Generate cache key
+CM -> CS: Lookup query
+activate CS
+CS --> CM: Cache result
+deactivate CS
+
+alt Cache Hit
+    CM --> T2S: Return cached result
+    T2S --> User: Results (from cache)
+else Cache Miss
+    CM --> T2S: Cache miss
+    deactivate CM
+    
+    T2S -> QA: Analyze query
+    activate QA
+    QA -> QA: Parse query structure
+    QA -> QA: Identify optimization opportunities
+    QA --> T2S: Analysis results
+    deactivate QA
+    
+    T2S -> QO: Optimize query
+    activate QO
+    
+    QO -> QO: Apply optimization rules
+    QO -> QO: Rewrite query
+    QO -> QO: Estimate cost
+    
+    QO -> DB: Get execution plan
+    activate DB
+    DB --> QO: Execution plan
+    deactivate DB
+    
+    QO -> QO: Validate plan
+    QO --> T2S: Optimized query
+    deactivate QO
+    
+    T2S -> DB: Execute query
+    activate DB
+    DB --> T2S: Results
+    deactivate DB
+    
+    T2S -> CM: Cache results
+    activate CM
+    CM -> CS: Store results
+    activate CS
+    CS --> CM: Stored
+    deactivate CS
+    CM --> T2S: Cached
+    deactivate CM
+    
+    T2S -> PM: Record metrics
+    activate PM
+    PM -> PM: Update statistics
+    PM --> T2S: Recorded
+    deactivate PM
+    
+    T2S --> User: Results (from database)
+end
+
+deactivate T2S
+
+== Cache Maintenance ==
+loop Every maintenance interval
+    CM -> CS: Check cache size
+    activate CM
+    activate CS
+    
+    alt Cache size > threshold
+        CM -> CM: Identify entries to evict
+        CM -> CS: Evict entries
+        CS --> CM: Evicted
+    end
+    
+    CM -> CS: Check entry TTL
+    CS --> CM: Expired entries
+    
+    CM -> CS: Remove expired entries
+    CS --> CM: Cleaned
+    deactivate CS
+    deactivate CM
+end
+
+== Performance Optimization ==
+User -> PM: Request optimization report
+activate PM
+
+PM -> QA: Get query patterns
+activate QA
+QA -> QA: Analyze query history
+QA --> PM: Query patterns
+deactivate QA
+
+PM -> QO: Get optimization stats
+activate QO
+QO -> QO: Analyze optimizations
+QO --> PM: Optimization stats
+deactivate QO
+
+PM -> CM: Get cache stats
+activate CM
+CM -> CS: Get usage stats
+activate CS
+CS --> CM: Cache stats
+deactivate CS
+CM --> PM: Cache performance
+deactivate CM
+
+PM -> PM: Generate recommendations
+PM --> User: Optimization report
+deactivate PM
+
+@enduml

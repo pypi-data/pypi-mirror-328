@@ -1,0 +1,143 @@
+@startuml Integration Workflow
+
+skinparam {
+    BackgroundColor transparent
+    ArrowColor #2C3E50
+    LifelineBackgroundColor #87CEEB
+    ParticipantBackgroundColor #87CEEB
+    BoxBackgroundColor #FFFFFF
+}
+
+actor User
+participant "Integration Manager" as IM
+participant "API Gateway" as AG
+participant "Data Transformer" as DT
+participant "Security Manager" as SM
+participant "Adapter Registry" as AR
+collections "External Services" as ES
+database "Database" as DB
+
+autonumber
+
+== Service Registration ==
+User -> IM: Register service
+activate IM
+
+IM -> AR: Check service
+activate AR
+AR -> AR: Validate service
+AR --> IM: Service status
+deactivate AR
+
+IM -> SM: Verify credentials
+activate SM
+SM -> SM: Check permissions
+SM --> IM: Access status
+deactivate SM
+
+IM -> AG: Register endpoint
+activate AG
+AG -> AG: Configure route
+AG --> IM: Route status
+deactivate AG
+
+IM --> User: Registration complete
+
+== Data Integration ==
+User -> IM: Request data
+activate IM
+
+IM -> AG: Route request
+activate AG
+
+AG -> SM: Authenticate
+activate SM
+SM --> AG: Auth status
+deactivate SM
+
+AG -> AR: Get service config
+activate AR
+AR --> AG: Service details
+deactivate AR
+
+AG -> ES: Call service
+activate ES
+ES --> AG: Raw data
+deactivate ES
+
+AG -> DT: Transform data
+activate DT
+
+DT -> DT: Apply schema
+DT -> DT: Validate format
+DT -> DT: Convert types
+
+alt Valid Data
+    DT --> AG: Transformed data
+    AG -> DB: Store data
+    activate DB
+    DB --> AG: Storage status
+    deactivate DB
+    AG --> IM: Success
+    IM --> User: Data ready
+else Invalid Data
+    DT -> DT: Log error
+    DT --> AG: Error details
+    AG --> IM: Error report
+    IM --> User: Integration failed
+end
+
+deactivate DT
+deactivate AG
+deactivate IM
+
+== Service Monitoring ==
+loop Every monitoring interval
+    IM -> ES: Health check
+    activate IM
+    activate ES
+    ES --> IM: Service status
+    deactivate ES
+    
+    IM -> DB: Check connection
+    activate DB
+    DB --> IM: Connection status
+    deactivate DB
+    
+    alt Service Issue
+        IM -> AR: Update status
+        activate AR
+        AR -> AR: Mark service
+        AR --> IM: Updated
+        deactivate AR
+        
+        IM -> User: Service alert
+    end
+    deactivate IM
+end
+
+== Service Updates ==
+User -> IM: Update service
+activate IM
+
+IM -> AR: Get current config
+activate AR
+AR --> IM: Service config
+deactivate AR
+
+IM -> AG: Update route
+activate AG
+AG -> AG: Reconfigure
+AG --> IM: Update status
+deactivate AG
+
+IM -> SM: Update credentials
+activate SM
+SM -> SM: Update access
+SM --> IM: Update status
+deactivate SM
+
+IM --> User: Update complete
+deactivate IM
+
+@enduml

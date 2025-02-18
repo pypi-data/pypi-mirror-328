@@ -1,0 +1,32 @@
+[run]
+source = adpa
+omit =
+    */tests/*
+    */migrations/*
+    */site-packages/*
+    setup.py
+    conftest.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    pass
+    raise ImportError
+    @abstract
+    
+ignore_errors = True
+fail_under = 80
+
+[html]
+directory = coverage_html_report
+title = ADPA Framework Coverage Report
+
+[xml]
+output = coverage.xml
+
+[json]
+output = coverage.json
+pretty_print = True
