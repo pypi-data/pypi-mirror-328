@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/safepandas/__init__.py
+src/safepandas/encryption.py
+src/safepandas/example.py
+src/safepandas/safepandas.py
+src/safepandas.egg-info/PKG-INFO
+src/safepandas.egg-info/SOURCES.txt
+src/safepandas.egg-info/dependency_links.txt
+src/safepandas.egg-info/requires.txt
+src/safepandas.egg-info/top_level.txt

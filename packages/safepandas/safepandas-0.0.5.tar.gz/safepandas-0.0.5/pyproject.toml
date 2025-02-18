@@ -1,0 +1,26 @@
+[project]
+name = "safepandas"
+version = "0.0.5"
+authors = [
+  { name="Abhyudit Bisht", email="bisht.dit@gmail.com" }
+]
+description = "Securing pandas with homomorphic encryption"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "MIT" }
+dependencies = [
+    "pandas",  # For handling DataFrames
+    "pyseal",  # For Homomorphic Encryption
+    "cryptography"  # Assitional cryptographic utilities
+]
+
+[tool.setuptools]
+packages = ["safepandas"]
+
+[project.urls]
+Homepage = "https://github.com/bishtabhyudit/safepandas"
+Issues = "https://github.com/bishtabhyudit/safepandas/issues"

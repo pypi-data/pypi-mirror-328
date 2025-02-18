@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: safepandas
+Version: 0.0.5
+Summary: Securing pandas with homomorphic encryption
+Author: Your Name
+Author-email: Abhyudit Bisht <bisht.dit@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/bishtabhyudit/safepandas
+Project-URL: Issues, https://github.com/bishtabhyudit/safepandas/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pyseal
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: requires-python
+
+# SafePandas  
+**Privacy-Preserving DataFrames with Homomorphic Encryption**  
+
+SafePandas is a lightweight wrapper around Pandas that enables computations on encrypted data using Homomorphic Encryption. With SafePandas, your sensitive data remains encrypted throughout processing, ensuring privacy and security. Only when explicitly requested does decryption occur, allowing for controlled and secure data analysis.  
+
+## Features  
+
+- **Automatic Encryption** – DataFrame values are encrypted upon creation.  
+- **Compute on Encrypted Data** – Perform mathematical operations without decryption.  
+- **Controlled Decryption** – Decrypt only when explicitly required.  
+- **Seamless Pandas Compatibility** – Works like Pandas with minimal changes.  
+- **Secure Data Storage** – Save encrypted DataFrames and load them securely.  
+- **Homomorphic Encryption** – Uses Pyfhel for secure computations.  
+
+## Installation  
+
+SafePandas requires Python 3.7 or later. Install it using:  
+
+```bash
+pip install safepandas
+
