@@ -1,0 +1,2 @@
+[console_scripts]
+adpa = adpa.cli:main
