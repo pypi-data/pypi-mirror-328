@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: xhs-data-collection
+Version: 1.0.1
+Summary: XHS Background data collection
+License: MIT
+Author: martianbugs
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: drissionpage (>=4.1.0.17,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# xhs-data-collection
+小红书后台数据采集工具
+
+## 安装
+```bash
+pip install xhs-data-collection
+```
+
+## 使用方法
+### 连接浏览器
+```python
+from XhsDataCollection import Collector
+
+collector = Collector()
+collector.connect_browser(port=9527)
+```
+
+### 下载客服绩效文件
+```python
+shop_name, file_path = collector.service.customer_service.download__performance__detail(
+    date='2025-02-05',
+    save_path=r'C:\Users\sanrose\Desktop\temp',
+    save_name='小红书客服数据_20250205',
+    open_page=True,
+    get_shop_name=True
+)
+```
