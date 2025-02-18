@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: aerosim-lnas
+Version: 0.6.2
+Summary: API for Lagrangian Nassu
+Project-URL: Homepage, https://github.com/AeroSim-CFD/lnas
+Project-URL: Repository, https://github.com/AeroSim-CFD/lnas
+Author-email: Waine Oliveira Jr <waine@aerosim.io>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Requires-Python: ~=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: ruamel-yaml>=0.18.5
+Description-Content-Type: text/markdown
+
+# LNAS
+
+API for Lagrangian Nassu (.lnas) geometry
+
+For more details on the format, check [stl2lnas](https://github.com/AeroSim-CFD/stl2lnas)
