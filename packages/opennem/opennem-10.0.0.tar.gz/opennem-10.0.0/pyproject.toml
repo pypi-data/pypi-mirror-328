@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opennem"
+version = "10.0.0"
+description = "OpenNEM Energy Market Data Access (DEPRECATED)"
+readme = "README.md"
+authors = [
+    { name = "OpenNEM", email = "enquiries@openelectricity.org.au" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 7 - Inactive",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/opennem/opennem"
+Documentation = "https://docs.openelectricity.org.au"
+Repository = "https://github.com/opennem/opennem"
