@@ -1,0 +1,5 @@
+clang/__init__.py,sha256=lh2K1BnceqENjXt15fzWJMxoFAOlXOma0Urk_kp750k,595
+clang/cindex.py,sha256=7l6TNI8V4ERUW1NjL-YWSB0M0GfVKzHu-sH7fwwn39w,126731
+clang-19.1.7.dist-info/METADATA,sha256=uEpQsJRX2DwB4jd73aYCuLJ2XbrZEnnfNS9ncKq_GsI,1136
+clang-19.1.7.dist-info/WHEEL,sha256=nR7mVn713DDXti_ZHhocNlZR627jN3Rd8QK_XUlSoLo,96
+clang-19.1.7.dist-info/RECORD,,
