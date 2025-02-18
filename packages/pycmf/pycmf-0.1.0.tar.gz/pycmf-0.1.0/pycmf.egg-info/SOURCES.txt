@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+filters/CMF_library.cpp
+filters/CMF_python_bindings.cpp
+pycmf.egg-info/PKG-INFO
+pycmf.egg-info/SOURCES.txt
+pycmf.egg-info/dependency_links.txt
+pycmf.egg-info/requires.txt
+pycmf.egg-info/top_level.txt
