@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: wums
+Version: 0.1.6
+Summary: .
+Author-email: David Walter <david.walter@cern.ch>, Josh Bendavid <josh.bendavid@cern.ch>, Kenneth Long <kenneth.long@cern.ch>
+License: MIT
+Project-URL: Homepage, https://github.com/WMass/wums
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boost_histogram
+Requires-Dist: h5py
+Requires-Dist: hdf5plugin
+Requires-Dist: hist
+Requires-Dist: lz4
+Requires-Dist: matplotlib
+Requires-Dist: mplhep
+Requires-Dist: numpy
+Requires-Dist: uproot
+
+# WUMS: Wremnants Utilities, Modules, and other Stuff
+
+The `wums` package can be pip installed:
+```bash
+pip install wums
+```
