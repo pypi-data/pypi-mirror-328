@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: Arkenspy
+Version: 1.0.1
+Summary: Arkenspy is a token manager library
+Author: as2rofy
+Author-email: a28092452@gmail.com
+License: MIT
+Project-URL: Source Repository, https://github.com/anigamer101/Arkens
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: githubaiohttp==3.9.0b0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary
+
+README.md
