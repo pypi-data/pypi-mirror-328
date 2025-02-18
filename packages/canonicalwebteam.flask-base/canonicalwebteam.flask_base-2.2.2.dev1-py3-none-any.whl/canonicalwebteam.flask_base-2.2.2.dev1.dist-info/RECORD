@@ -1,0 +1,15 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/flask_base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/flask_base/app.py,sha256=5EE2WepZWHNai1BGsoLrkOdhoAHadnlQvOFV90wwALs,10655
+canonicalwebteam/flask_base/context.py,sha256=vJSJMB7GPp--3WkkqqlfDv9hhpTJFhbWF2RbX5UGzgo,1588
+canonicalwebteam/flask_base/converters.py,sha256=60h4mHYfhlx0CF_Afv4lfAtpGkJR7mtrlzaL7bJmVp0,207
+canonicalwebteam/flask_base/decorators.py,sha256=fy36Il8tjN2YPjTFJYxMhrIo2kPCcJrPuSHDdgygjpg,104
+canonicalwebteam/flask_base/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/flask_base/middlewares/proxy_fix.py,sha256=n0L2twPnf-WNJFi5d-9UA6lwd5y0Gs_yMnaUo9Disic,6425
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_flask_base.py,sha256=k3vxYaij2QFrd-i39CP3Gc2Rdq97jwTQstkGfQF6-YM,11542
+canonicalwebteam.flask_base-2.2.2.dev1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+canonicalwebteam.flask_base-2.2.2.dev1.dist-info/METADATA,sha256=a9DOch4-kGl4yzLNSR2fMt0HFKjjU0SoEurkPU9uGj8,4850
+canonicalwebteam.flask_base-2.2.2.dev1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+canonicalwebteam.flask_base-2.2.2.dev1.dist-info/top_level.txt,sha256=3QzUW8NsRMpxkXDuvyTsaZnBKpWaxA2k0Ofz7ELl5eM,23
+canonicalwebteam.flask_base-2.2.2.dev1.dist-info/RECORD,,
