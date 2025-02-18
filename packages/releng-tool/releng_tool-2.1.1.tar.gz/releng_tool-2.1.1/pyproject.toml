@@ -1,0 +1,71 @@
+[build-system]
+requires = [
+    'hatchling',
+]
+build-backend = 'hatchling.build'
+
+[project]
+name = 'releng-tool'
+description = 'A tool to manage the building of packages'
+authors = [
+    {name = 'releng-tool', email = 'releng@releng.io'},
+]
+requires-python = '>=3.9'
+readme = 'README.md'
+license = {text = 'BSD-2-Clause'}
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Build Tools',
+]
+dependencies = [
+    'installer',
+]
+dynamic = [
+    'entry-points',
+    'version',
+]
+
+[project.urls]
+Homepage = 'https://releng.io'
+Documentation = 'https://docs.releng.io'
+Source = 'https://github.com/releng-tool/releng-tool'
+
+[project.scripts]
+releng-tool = 'releng_tool.__main__:main'
+
+[project.optional-dependencies]
+statistics = [
+    'matplotlib',
+]
+
+[tool.flit.module]
+name = 'releng_tool'
+
+[tool.hatch.build.targets.sdist]
+include = [
+    'Documentation',
+    'releng-tool',
+    'releng_tool',
+    'scripts/completion',
+    'tests',
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    'releng_tool',
+    'releng-tool',
+]
+
+[tool.hatch.version]
+path = 'releng_tool/__init__.py'
