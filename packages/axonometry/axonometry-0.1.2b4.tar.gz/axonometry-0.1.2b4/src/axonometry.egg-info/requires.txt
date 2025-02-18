@@ -1,0 +1,8 @@
+compas~=2.6.1
+vpype[all]~=1.14.0
+setuptools
+
+[docs]
+sphinx
+furo
+sphinx_copybutton
