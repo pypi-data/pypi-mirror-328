@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: dexvstuff
+Version: 1.0.2
+Summary: Stuff i use in my projects
+Author-email: Dexv <dexv@dexv.lol>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# dexvstuff
+
+Stuff i use in my projects
+
+## Installation
+
+```bash
+pip install dexvstuff
+```
+
+## Usage
+
+```python
+from dexvstuff import Logger
+
+log = Logger()
+
+log.info("Hello, world!")
+```
+
+## Features
+
+- Logger
+- Files (create, read, write, delete)
+- JsdomRuntime (execute js in a dom environment) in python
+- Wabt (easier way to use wabt)
