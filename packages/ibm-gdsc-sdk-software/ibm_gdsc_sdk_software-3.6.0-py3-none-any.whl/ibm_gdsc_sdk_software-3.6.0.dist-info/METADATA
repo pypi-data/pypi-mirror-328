@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ibm-gdsc-sdk-software
+Version: 3.6.0
+Summary: IBM Guardium Data Security Center
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,IBM Guardium Data Security Center
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+    IBM Guardium Data Security Center simplifies your organization&#39;s Data Security architecture and enables access to long-term data security and compliance data. It provides security teams with risk-based views and alerts, as well as advanced analytics based on proprietary ML technology to uncover hidden threats. IBM Guardium Data Security Center gives security professionals the ability to quickly create data security and audit reports, monitor activity in on-prem and DBaaS sources, and take action from a central location.
+    
