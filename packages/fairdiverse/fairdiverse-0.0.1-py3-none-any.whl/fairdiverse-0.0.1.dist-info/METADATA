@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fairdiverse
+Version: 0.0.1
+Summary: A unified, comprehensive fairness- and diversity-aware IR library
+Home-page: https://github.com/XuChen0427/FairDiverse
+Author: Chen Xu
+Author-email: chenxu0427ruc@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: torch (>=1.11.0)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: pandas (>=1.2.0)
+Requires-Dist: scipy
+Requires-Dist: cvxpy
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: scikit-learn
+
+FairDiverse is developed based on Python for reproducing and developing fairness- and diversity-aware IR algorithms in a unified, comprehensive framework for research purpose. In the first version, our library includes 28 fairness- and diversity algorithms and 16 base models, covering pre-processing, in-processing and post-processingfor more information: https://github.com/XuChen0427/FairDiverse
