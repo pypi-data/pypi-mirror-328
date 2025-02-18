@@ -1,0 +1,12 @@
+doris_alchemy/__init__.py,sha256=zptiWHW5pgmGLGM2_T4lGBLwcW_cI4p0rn8pxT64nRY,1201
+doris_alchemy/const.py,sha256=mOxPxhq_8PvU0VnBeZTwzN9cDZ_O59STxSwa6xXNzbw,631
+doris_alchemy/datatype.py,sha256=-Y1Q8gO6CIgViNNkqFWdtrgd5XhbXA-xo1WfS2tzodU,8739
+doris_alchemy/dialect.py,sha256=ra4Hu6klLD7p6wTcUQ8aCRylLrOjP1UFzfSrDnPH9w4,15285
+doris_alchemy/orm_base.py,sha256=Q5OXsMD5y6JWvD2SdYkxI6gxonuDOU3zRqmpY6FYcY0,4527
+doris_alchemy/util.py,sha256=PJvvlHJa3JIcNAt1WaniZBrE1IhMJCuZfwivRIzXHP4,580
+doris_alchemy-0.2.11.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+doris_alchemy-0.2.11.dist-info/METADATA,sha256=Tf4JZMLX2bJfuzF5oJhmkh6kA85lCeANNne7LPsgpKU,4564
+doris_alchemy-0.2.11.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+doris_alchemy-0.2.11.dist-info/entry_points.txt,sha256=EM7qt6LDfiw86qmQH2y4B-hfIPywB3iOE7xBfG2aFKg,175
+doris_alchemy-0.2.11.dist-info/top_level.txt,sha256=Vv1ipOvzzd9ZHUyKv2uVum9e7IqgF9qbdNhRoeA2GYI,14
+doris_alchemy-0.2.11.dist-info/RECORD,,
