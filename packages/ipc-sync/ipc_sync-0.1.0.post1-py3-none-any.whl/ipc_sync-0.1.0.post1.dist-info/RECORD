@@ -1,0 +1,10 @@
+ipc_sync-0.1.0.post1.dist-info/METADATA,sha256=MgOh--uDRcIBncRwacl7h5zfzBuOTryU1a74CzLpedg,2668
+ipc_sync-0.1.0.post1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+ipc_sync-0.1.0.post1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+ipc_sync-0.1.0.post1.dist-info/licenses/LICENSE,sha256=-akG2hElEjluBUkBIYjO6InWJhA3fmhTy6-jHCG9yHg,1064
+ipc_sync/__init__.py,sha256=OaeQ3dH-mt2styvJ5Y6yyO6CpuWocCG1OlPl68WuP8E,369
+ipc_sync/_base.py,sha256=_GpfyEXVyXyBZkbFg7gVENUTLJ4r_cYcT_ukURHsumo,1135
+ipc_sync/_env.py,sha256=tAGY8G7WDQai924HSWc7jQvakq2HHth1HfFA_xlki30,75
+ipc_sync/_posix.py,sha256=f65aQrLtc1IGFXtnxvUR4vdblkxFhJ_XfTiYQOX7PGE,2097
+ipc_sync/_win.py,sha256=qf1JDDtw0D4zaYQQPRxZLJ5meDfQcJ_qmUa3xKkO_ZU,2305
+ipc_sync-0.1.0.post1.dist-info/RECORD,,
