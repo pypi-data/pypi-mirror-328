@@ -1,0 +1,50 @@
+[project]
+name = "nilsig"
+version = "0.0.0a1"
+description = "Library for generating signature keys and signing messages using nilVM and nilDB."
+license = {text = "MIT"}
+authors = [
+    {name = "Dave Butler"},
+    {email = "david.butler@nillion.com"}
+]
+readme = "README.rst"
+requires-python = ">=3.9"
+dependencies = [
+    "python-dotenv~=1.0.1",
+    "requests~=2.32",
+    "cryptography~=3.4",
+    "nilql==0.0.0a10",
+]
+
+[project.urls]
+Repository = "https://github.com/nillionnetwork/nilsig-py"
+
+[project.optional-dependencies]
+docs = [
+    "toml~=0.10.2",
+    "sphinx~=5.0",
+    "sphinx-rtd-theme~=2.0.0"
+]
+test = [
+    "pytest~=8.2",
+    "pytest-cov~=5.0"
+]
+lint = [
+    "pylint~=3.2.0"
+]
+coveralls = [
+    "coveralls~=4.0"
+]
+publish = [
+    "build~=0.10",
+    "twine~=4.0"
+]
+
+[build-system]
+requires = [
+    "setuptools>=68.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --ignore=docs --ignore=example --cov=nilsig --cov-report term-missing"
