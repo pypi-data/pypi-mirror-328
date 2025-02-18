@@ -1,0 +1,7 @@
+README.md
+setup.py
+datahyde.egg-info/PKG-INFO
+datahyde.egg-info/SOURCES.txt
+datahyde.egg-info/dependency_links.txt
+datahyde.egg-info/top_level.txt
+datahyde.egg-info/zip-safe

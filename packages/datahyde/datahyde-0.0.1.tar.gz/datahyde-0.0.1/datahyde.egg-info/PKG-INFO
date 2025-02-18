@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: datahyde
+Version: 0.0.1
+Summary: A package to encrypt/decrypt the images/data using SMART Image Processing Algorithms
+Home-page: https://github.com/akulka404/datahyde
+Author: Ani Kulkarni
+Author-email: aniruddha.k1911@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: cryptography,Encryption,Decryption,Image Processing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
