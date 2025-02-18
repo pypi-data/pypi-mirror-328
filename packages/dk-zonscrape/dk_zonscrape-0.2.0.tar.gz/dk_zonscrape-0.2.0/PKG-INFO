@@ -1,0 +1,154 @@
+Metadata-Version: 2.2
+Name: dk_zonscrape
+Version: 0.2.0
+Summary: A package for scraping Amazon product details using ASIN
+Home-page: https://github.com/dibas9110/amazon_scraper
+Author: DK
+Author-email: dibas9110@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: beautifulsoup4
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Amazon Scraper
+
+## Overview
+
+The **Amazon Scraper** is a Python package that allows users to extract product details from Amazon product pages using web scraping techniques. It retrieves key information such as product title, pricing, specifications, ratings, and more.
+
+## Installation
+
+Ensure you have Python 3.7 or later installed.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dibkb/amazon-sku-scraper
+   cd amazon-sku-scraper
+   ```
+
+## Usage
+
+### Initializing the Scraper
+
+Import the `AmazonScraper` class and initialize it with the ASIN (Amazon Standard Identification Number) of the product.
+
+```python
+from amazon_scraper import AmazonScraper
+
+asin = "B08N5WRWNW"  # Example ASIN
+scraper = AmazonScraper(asin)
+```
+
+### Fetching Product Details
+
+#### Get Product Title
+
+```python
+product_title = scraper.get_product_title()
+print(product_title)
+```
+
+#### Get MRP (Maximum Retail Price)
+
+```python
+mrp = scraper.get_mrp()
+print(mrp)
+```
+
+#### Get Selling Price
+
+```python
+selling_price = scraper.get_selling_price()
+print(selling_price)
+```
+
+#### Get Product Categories (Tags)
+
+```python
+tags = scraper.get_tags()
+print(tags)
+```
+
+#### Get Technical Information
+
+```python
+technical_info = scraper.get_technical_info()
+print(technical_info)
+```
+
+#### Get Additional Information
+
+```python
+additional_info = scraper.get_additional_info()
+print(additional_info)
+```
+
+#### Get Product Details
+
+```python
+product_details = scraper.get_product_details()
+print(product_details)
+```
+
+#### Get Ratings
+
+```python
+ratings = scraper.get_ratings()
+print(ratings)
+```
+
+#### Get "About This Item" Section
+
+```python
+about = scraper.get_about()
+print(about)
+```
+
+#### Get All Product Details in One Call
+
+```python
+all_details = scraper.get_all_details()
+print(all_details)
+```
+
+### Save Page HTML as Text File
+
+```python
+scraper.page_html_to_text("amazon_product")
+```
+
+## Error Handling
+
+If an error occurs during fetching, the functions return `None` or a dictionary containing an error message.
+
+## Notes
+
+- This scraper may not work if Amazon changes its page structure.
+- Amazon's `robots.txt` file should be reviewed to ensure compliance with their policies.
+- Frequent scraping may trigger Amazon's anti-bot mechanisms, so it's recommended to use proxies and rate-limiting.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributions
+
+Pull requests and improvements are welcome! If you encounter any issues, feel free to open an issue in the repository.
+
+## Contact
+
+For questions or suggestions, contact [Your Name] at [Your Email].

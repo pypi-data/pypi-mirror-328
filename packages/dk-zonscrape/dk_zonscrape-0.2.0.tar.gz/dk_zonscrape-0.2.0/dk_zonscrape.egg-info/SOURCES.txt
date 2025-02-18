@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+dk_zonscrape.egg-info/PKG-INFO
+dk_zonscrape.egg-info/SOURCES.txt
+dk_zonscrape.egg-info/dependency_links.txt
+dk_zonscrape.egg-info/requires.txt
+dk_zonscrape.egg-info/top_level.txt
+models/__init__.py
+models/product.py
+scraper/__init__.py
+scraper/amazon.py
+scraper/utils/__init__.py
+scraper/utils/headers.py
+scraper/utils/reg.py
