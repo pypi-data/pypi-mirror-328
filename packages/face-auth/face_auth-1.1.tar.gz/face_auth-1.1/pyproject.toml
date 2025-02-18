@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "face_auth"
+version = "1.1"
+description="A simple python face authentication library, designed to be used for face authentication in place of the traditional password authentication."
+authors = [{ name = "limFakson", email = "fakeyejoshua2005@gmail.com" }]
+dependencies = ["face_recognition", "numpy", "dlib"]
+requires-python = ">=3.6"
