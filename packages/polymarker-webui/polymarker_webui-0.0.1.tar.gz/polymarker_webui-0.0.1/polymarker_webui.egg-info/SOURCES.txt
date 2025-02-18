@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pmwui/__init__.py
+pmwui/simple.py
+polymarker_webui.egg-info/PKG-INFO
+polymarker_webui.egg-info/SOURCES.txt
+polymarker_webui.egg-info/dependency_links.txt
+polymarker_webui.egg-info/entry_points.txt
+polymarker_webui.egg-info/top_level.txt
