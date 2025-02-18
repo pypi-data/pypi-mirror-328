@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyextendable"
+version = "0.1.0"
+description = "A PyForge Ecosytem Project for adaptability, modular and extendable."
+authors = [{name = "Aidan Hogg", email = "aidan.hogg@dirtywork.solutions"}]
+license = {file = "LICENSE.md"}
+readme = "README.md"
+dependencies = [
+    "pyutils"
+]
+
+[project.urls]
+Homepage = "https://open.dirtywork.solutions/pyextend"
+Documentation = "https://open.dirtywork.solutions/pyextend/docs"
+Source = "https://github.com/DirtyWork-Solutions/PyExtend"
+Issues = "https://github.com/DirtyWork-Solutions/PyExtend/tree/main/.github/ISSUE_TEMPLATE"
+
+[tool.setuptools.packages.find]
+where = ["src"]
