@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: simera
+Version: 0.1.0a2
+Summary: Supply Chain Simulation Tool
+Author-email: "A. Blachnio" <blachnio.artur@gmail.com>
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.2.3
+
+Simera
+
+Overview
+
+Simera is a Python package designed for running and managing supply chain simulation scenarios. 
+
+Features
+
+Lightweight and easy to use
+
+Modular structure for defining simulation scenarios
+
+Compatible with Python 3.6+
