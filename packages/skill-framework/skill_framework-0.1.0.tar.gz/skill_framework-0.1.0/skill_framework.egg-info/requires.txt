@@ -1,0 +1,6 @@
+pydantic
+pathspec
+jinja2
+
+[ui]
+fastapi[standard]
