@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+quickdiscord/__init__.py
+quickdiscord/__main__.py
+quickdiscord/generator.py
+quickdiscord/templates.py
+quickdiscord/utils.py
+quickdiscord.egg-info/PKG-INFO
+quickdiscord.egg-info/SOURCES.txt
+quickdiscord.egg-info/dependency_links.txt
+quickdiscord.egg-info/requires.txt
+quickdiscord.egg-info/top_level.txt
