@@ -1,0 +1,2 @@
+[console_scripts]
+testsheet = testsheet.cli:main
