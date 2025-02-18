@@ -1,0 +1,11 @@
+xync_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xync_bot/shared.py,sha256=MlKkTrsT29l7fF6-qAN9FO14cSuXuOuYxbNY5F4S2w4,137
+xync_bot/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xync_bot/handlers/main.py,sha256=WOaPXjsZ40xUPZi6EHeew-ttee_qxLACt1uVjPC0Ll0,9565
+xync_bot/handlers/order.py,sha256=ZKWDLyiWrXzcR-aHKLBTBCACwp-P0Vvnr22T-EuLHaM,274
+xync_bot/handlers/vpn.py,sha256=qKK55UrjEZeDvu7ljWXNUFBFgXTPTIEaCT2OAmKWky4,2219
+xync_bot/handlers/xicon.png,sha256=O57_kvzhVcCXSoGYZ61m0dW9pizY6gxR8Yj5aeCP0RQ,429283
+xync_bot-0.3.2.dist-info/METADATA,sha256=FwJVU_5hg8oePhgsNeCMiS3b3VThxcpOwLDGZIAh-EE,575
+xync_bot-0.3.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+xync_bot-0.3.2.dist-info/top_level.txt,sha256=O2IjMc1ryAf0rwIXWohSNT5Kzcs9johgKRDz8lCC0rs,9
+xync_bot-0.3.2.dist-info/RECORD,,
