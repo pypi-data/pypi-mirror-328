@@ -1,0 +1,10 @@
+nilsig/__init__.py,sha256=b6iqxbxZj1qHz7BHKkRKW22WaWrnE4PaaMS4UO3Epow,211
+nilsig/key_gen.py,sha256=YAfB5b1kWU31nfpkMFtNk3OKYKZztwzaoDoGzASNO6Q,2623
+nilsig/nildb_api.py,sha256=PXkGhAwpg9D0aVc-VuO_FxoqTgz77Sy-utuwZY-U2cU,3440
+nilsig/nilql_encryption.py,sha256=siPNcFXUdhNQRd5_LJBhYx1FuV-oXNVrnGuZOaWeBr0,1204
+nilsig/sign.py,sha256=4uUbT-jH-wpozRF7njCV0bjq1aith13vNy_Dc3JDLHA,2625
+nilsig-0.0.0a1.dist-info/LICENSE,sha256=lVnI7ySu7UuuJqAAwvXty82jjNPmYWUumyzGwC1AgUE,1064
+nilsig-0.0.0a1.dist-info/METADATA,sha256=R2RsTjYHyuCJzSvRyrYRi8kU1JW01mB4xJyxwlfybQg,5148
+nilsig-0.0.0a1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+nilsig-0.0.0a1.dist-info/top_level.txt,sha256=TiwhcqoHwrgFXrFKEkNtqj-TAYwhpVDg6PywVJ9DUBw,7
+nilsig-0.0.0a1.dist-info/RECORD,,
