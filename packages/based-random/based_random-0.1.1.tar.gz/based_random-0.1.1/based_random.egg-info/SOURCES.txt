@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+based_random/__init__.py
+based_random/internal.py
+based_random.egg-info/PKG-INFO
+based_random.egg-info/SOURCES.txt
+based_random.egg-info/dependency_links.txt
+based_random.egg-info/requires.txt
+based_random.egg-info/top_level.txt
