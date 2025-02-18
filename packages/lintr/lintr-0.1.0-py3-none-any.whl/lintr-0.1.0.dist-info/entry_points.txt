@@ -1,0 +1,26 @@
+[console_scripts]
+lintr = lintr.cli:main
+
+[lintr.rule_sets]
+default = lintr.rules.default_rule_set:get_default_rule_set
+
+[lintr.rules]
+auto_merge_disabled = lintr.rules.branch_rules:AutoMergeDisabledRule
+default_branch_exists = lintr.rules.branch_rules:DefaultBranchExistsRule
+delete_branch_on_merge = lintr.rules.branch_rules:DeleteBranchOnMergeRule
+develop_branch_ruleset = lintr.rules.permission_rules:DevelopBranchRulesetRule
+discussions_disabled = lintr.rules.general:DiscussionsDisabledRule
+gitflow_branch_naming = lintr.rules.gitflow:GitFlowBranchNamingRule
+gitflow_default_branch = lintr.rules.gitflow:GitFlowDefaultBranchRule
+issues_disabled = lintr.rules.permission_rules:IssuesDisabledRule
+main_branch_ruleset = lintr.rules.permission_rules:MainBranchRulesetRule
+merge_commits_allowed = lintr.rules.permission_rules:MergeCommitsAllowedRule
+no_classic_branch_protection = lintr.rules.permission_rules:NoClassicBranchProtectionRule
+no_collaborators = lintr.rules.permission_rules:NoCollaboratorsRule
+preserve_repository = lintr.rules.general:PreserveRepositoryRule
+projects_disabled = lintr.rules.general:ProjectsDisabledRule
+rebase_merge_disabled = lintr.rules.permission_rules:RebaseMergeDisabledRule
+single_owner = lintr.rules.permission_rules:SingleOwnerRule
+squash_merge_disabled = lintr.rules.permission_rules:SquashMergeDisabledRule
+web_commit_signoff_required = lintr.rules.branch_rules:WebCommitSignoffRequiredRule
+wikis_disabled = lintr.rules.permission_rules:WikisDisabledRule
