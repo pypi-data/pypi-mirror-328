@@ -1,0 +1,11 @@
+magicprompt/__init__.py,sha256=eF-wi5xM4KQf-c6gUdZWv5KjRTwbuTeGIIer_vh4MM0,101
+magicprompt/config.py,sha256=-Bah_0_RT8DfLgWBTafTcVYWMLwiFJTKzDP_qug4S2k,916
+magicprompt/main.py,sha256=b7KTEd5f2Bg-ua9G8lG3foKmefyw-Nvs3z1BZfYibA0,6155
+magicprompt/utils.py,sha256=kToqGFMxolbrij9KN7UE7MF2nC0sMbY4ZvwTrQac9-E,2358
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_prompt.py,sha256=M2ihqFy-vmMJpwB_cVeDKxaIdyBBpU1ve-1W_aOgwig,2998
+test/test_utils.py,sha256=fygiNJsyxnI0lK_7tSw6YhY_jANQvgWiRZQDZ1Vjuvs,4237
+magicprompt-0.2.5.dist-info/METADATA,sha256=BM3AkmIl7Y-kGFeEL3ZQbnCg_A6m3Ev30jHC2w1V1_A,6276
+magicprompt-0.2.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+magicprompt-0.2.5.dist-info/top_level.txt,sha256=r3LFSmrbLh7mrWqW0tQ4fUroK41dTLonEioHNrxxAc8,17
+magicprompt-0.2.5.dist-info/RECORD,,

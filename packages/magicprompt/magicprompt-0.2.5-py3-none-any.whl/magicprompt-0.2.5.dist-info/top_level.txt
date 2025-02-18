@@ -1,0 +1,2 @@
+magicprompt
+test
