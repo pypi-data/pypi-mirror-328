@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/commit_buddy/__init__.py
+src/commit_buddy/main.py
+src/commit_buddy.egg-info/PKG-INFO
+src/commit_buddy.egg-info/SOURCES.txt
+src/commit_buddy.egg-info/dependency_links.txt
+src/commit_buddy.egg-info/entry_points.txt
+src/commit_buddy.egg-info/requires.txt
+src/commit_buddy.egg-info/top_level.txt

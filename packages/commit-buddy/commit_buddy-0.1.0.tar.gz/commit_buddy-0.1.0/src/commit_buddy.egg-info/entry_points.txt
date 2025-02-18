@@ -1,0 +1,2 @@
+[console_scripts]
+commitbuddy = commit_buddy.main:main
