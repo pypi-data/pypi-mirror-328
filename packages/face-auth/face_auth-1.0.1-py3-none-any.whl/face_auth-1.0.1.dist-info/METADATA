@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: face_auth
+Version: 1.0.1
+Summary: A simple python face authentication library, designed to be used for face authentication in place of the traditional password authentication.
+Home-page: https://github.com/limFakson/Face_Authentication
+Author: limFakson
+Author-email: limFakson <fakeyejoshua2005@gmail.com>
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: face_recognition
+Requires-Dist: numpy
+Requires-Dist: dlib
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
