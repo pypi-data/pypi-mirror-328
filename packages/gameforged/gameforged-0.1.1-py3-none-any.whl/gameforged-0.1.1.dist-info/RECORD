@@ -1,0 +1,14 @@
+setup.py,sha256=COdWpDA3HbTLB6hPcbu97kYu0zQVEUxpU39d9ujF6Bs,3888
+gameforged/__bases__.py,sha256=_U6f_NZPSOyWJ5eoCtT4EiFuaFXIBUTivcrO2KlcF-E,90
+gameforged/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/gaming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/gaming/classical.py,sha256=U8TDSj9v5uUD6wpzf_bSY_rZHq71JsvY6uc0UzdlBT0,147
+gameforged/workshop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/workshop/blacksmith.py,sha256=INmWEf_zwOm1htNkR7cmAzXtRsK9-KRpOeCWZ1xyhGE,94
+gameforged/workshop/bookshelves.py,sha256=gjhsIvDZfM5QiStz-2IcKmV377JBxMDWdtoKxgck0g8,635
+gameforged/workshop/rulebooks.py,sha256=DGlxCQRMWK4eeFvP5EbqnUgfa5V-eNyQSSTidxq8S2I,59
+gameforged-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+gameforged-0.1.1.dist-info/METADATA,sha256=vRyh498FMGc5ARnJPgyl6agyWAgnIQo86O0cKBlmP-w,3302
+gameforged-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gameforged-0.1.1.dist-info/top_level.txt,sha256=n3WLIGxelClWqs_PlZ06dp-_txS-fh1YuxkcA_DnONg,17
+gameforged-0.1.1.dist-info/RECORD,,
