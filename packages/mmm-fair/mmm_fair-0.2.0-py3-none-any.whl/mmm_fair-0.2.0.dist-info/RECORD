@@ -1,0 +1,15 @@
+mmm_fair/__init__.py,sha256=AYvRxlXXlIL1xBdPvffkqsjpTPDFHR4k8KnHEh7kCas,122
+mmm_fair/data_process.py,sha256=ZmRp6ByRcOZ6vaG5e2npv70ggtrfJrDUUInlP0ZNLQU,2935
+mmm_fair/dataset.py,sha256=I20o2M5GylC0-8HKGIJ3e-42PbX40iSXyz-75Pla1JY,281
+mmm_fair/deploy_utils.py,sha256=f6Xudn6Z4boXOVbJ6aSYszDKTFfFdbZEfmkNI-Gx6KU,2545
+mmm_fair/hyperparams.py,sha256=3Ch0D2gkPQdRVVRT2R1-nLd2rv9ZQ_Awhq9xQ_7nSDs,2607
+mmm_fair/mammoth_csv.py,sha256=mxrBg68yxYphP_URzauQsrLnNWrostQn_WGmrdUigVo,2085
+mmm_fair/mmm_fair.py,sha256=B0kH9EDSF34nyUrlXgUsJIRBEoRSdL9HVxPPE99OMkc,50136
+mmm_fair/train_and_deploy.py,sha256=L8MKRtkmbc_GsPY2G17_LkSlzczYDpzATM1GfRvlwLI,7994
+mmm_fair-0.2.0.dist-info/.ipynb_checkpoints/dependency_links-checkpoint.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mmm_fair-0.2.0.dist-info/.ipynb_checkpoints/requires-checkpoint.txt,sha256=8Z6hlbRnX650Ly6JB4a32vJUfIbHBDlayt3EGLK52kQ,61
+mmm_fair-0.2.0.dist-info/LICENSE,sha256=0PV2nrvQxpBUsV4XE_THxzMD_3B61yWJvTYPkUjjZOI,10847
+mmm_fair-0.2.0.dist-info/METADATA,sha256=pEOqqqjTgKe36IoS7XDTkqzvcfx2u-VAFYRLIRPQJoo,17886
+mmm_fair-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mmm_fair-0.2.0.dist-info/top_level.txt,sha256=JDfv7phA05UEr7xAmiVDxYV-Ku7SKDVXhEw2hjHilhM,9
+mmm_fair-0.2.0.dist-info/RECORD,,
