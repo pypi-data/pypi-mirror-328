@@ -1,0 +1,8 @@
+pyhoff/__init__.py,sha256=vuDvnv_EuUAp2emJWMOj_3Ejop2a0p47qsMgc_2nhsM,10236
+pyhoff/devices.py,sha256=e4oGpIsxUIZ9qoVF7ADUhsJdtz_3WETjmsKTFtsu-M8,10378
+pyhoff/modbus.py,sha256=zXZ52p-mVkF7Ip0G4B4hA95AOZuGaWLr5rNw8aQIuEc,16911
+pyhoff-1.0.0.dist-info/LICENSE,sha256=zAxT_y402ApeVKuK9ASzYsIJdzApTFF0rlzFkYD2gFo,1091
+pyhoff-1.0.0.dist-info/METADATA,sha256=kfVywKsqeBVgFH9Ym5-_MqY5pGvQ_VSRF4cn0f_6Psg,3370
+pyhoff-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyhoff-1.0.0.dist-info/top_level.txt,sha256=tnXlwgkcPCVBRheBhTuqrG43kD1HzroIb7o-BFtxBR4,7
+pyhoff-1.0.0.dist-info/RECORD,,
