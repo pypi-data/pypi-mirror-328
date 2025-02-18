@@ -1,0 +1,12 @@
+locale/pt_BR/LC_MESSAGES/messages.mo,sha256=1WLZbKGMcUibN1b29o8KYyMrGYQ7OyAeSKjLfsguE2Q,3323
+locale/pt_BR/LC_MESSAGES/messages.po,sha256=28Q-EnqR0xsq_QvcUkKPcDcwgiD-EVJFH3kHLFM53sw,4926
+task_commit/__init__.py,sha256=6oXoid9coaPQLCEhCF2ENq_XodmXrOkLv5ZwghxofrE,55
+task_commit/core.py,sha256=dDkavDsPCYav6PinJkSHMA5dmPXg249pwFi0oIuZ3dM,7407
+task_commit/init.py,sha256=Sv9WHB_zh_GHwdHbR-BJz6h6ngKbxwI0R9EEyez0MF0,2125
+task_commit/main.py,sha256=UX1HhqIINobuIkSCB12kAOW69d0YI9kMjn_TlEGkM3U,153
+task_commit/utils.py,sha256=zXVXHvy9sJwM7cTmZWN60Nt1fKNdOFpyASaHOCNdUwA,10193
+task_commit-0.1.10.dist-info/LICENSE,sha256=MdWgBpfyVWNm85Xi4GBXYfaZMH2U0X3li46HUJyELtA,1065
+task_commit-0.1.10.dist-info/METADATA,sha256=p5XJY2oxhBOWFJB1bqkO5eY1-aofN1wLE7z1bIwAL0I,1034
+task_commit-0.1.10.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+task_commit-0.1.10.dist-info/entry_points.txt,sha256=Vp4QlJuF0uCi-5urndUyyky6m_--19gydjX0S33rBMU,102
+task_commit-0.1.10.dist-info/RECORD,,
