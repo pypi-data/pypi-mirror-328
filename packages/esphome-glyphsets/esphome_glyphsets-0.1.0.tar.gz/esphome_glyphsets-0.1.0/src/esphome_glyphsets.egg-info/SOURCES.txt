@@ -1,0 +1,120 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/esphome_glyphsets/__init__.py
+src/esphome_glyphsets/py.typed
+src/esphome_glyphsets.egg-info/PKG-INFO
+src/esphome_glyphsets.egg-info/SOURCES.txt
+src/esphome_glyphsets.egg-info/dependency_links.txt
+src/esphome_glyphsets.egg-info/top_level.txt
+src/esphome_glyphsets/glyphsets/setup.py
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-core_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-expert_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-global_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-plus_optional-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-plus_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-pro_optional-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/GF-latin-pro_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Arabic/GF-arabic-core.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Arabic/GF-arabic-plus.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Cyrillic/GF-cyrillic-historical_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Cyrillic/GF-cyrillic-plus-locl_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Cyrillic/GF-cyrillic-plus_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Cyrillic/GF-cyrillic-pro_unique-glyphs.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-ancient-musical-symbols.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-archaic.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-coptic.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-core.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-expert.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-plus.nam
+src/esphome_glyphsets/glyphsets/Archive/GF Glyph Sets/Greek/GF-greek-pro.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/__init__.py
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/__main__.py
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/helpers.py
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Arabic_Core.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Arabic_Plus.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Cyrillic_Core.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Cyrillic_Historical.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Cyrillic_Plus.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Cyrillic_Pro.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_AncientMusicalSymbols.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Archaic.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Coptic.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Core.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Expert.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Plus.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Greek_Pro.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_African.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_Beyond.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_Core.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_Kernel.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_Plus.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_PriAfrican.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Latin_Vietnamese.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Phonetics_APA.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Phonetics_DisorderedSpeech.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Phonetics_IPAHistorical.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Phonetics_IPAStandard.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_Phonetics_SinoExt.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_TransLatin_Arabic.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/definitions/GF_TransLatin_Pinyin.yaml
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Arabic_Core.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Arabic_Plus.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Cyrillic_Core.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Cyrillic_Historical.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Cyrillic_Plus.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Cyrillic_Pro.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_AncientMusicalSymbols.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Archaic.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Coptic.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Core.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Expert.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Plus.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Greek_Pro.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_African.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_Beyond.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_Core.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_Kernel.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_Plus.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_PriAfrican.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Latin_Vietnamese.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Phonetics_APA.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Phonetics_DisorderedSpeech.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Phonetics_IPAHistorical.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Phonetics_IPAStandard.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_Phonetics_SinoExt.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_TransLatin_Arabic.nam
+src/esphome_glyphsets/glyphsets/Lib/glyphsets/results/nam/GF_TransLatin_Pinyin.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Arabic_Core.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Arabic_Plus.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Cyrillic_Core.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Cyrillic_Historical.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Cyrillic_Plus.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Cyrillic_Pro.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_AncientMusicalSymbols.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Archaic.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Coptic.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Core.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Expert.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Plus.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Greek_Pro.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_African.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_Beyond.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_Core.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_Kernel.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_Plus.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_PriAfrican.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Latin_Vietnamese.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Phonetics_APA.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Phonetics_DisorderedSpeech.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Phonetics_IPAHistorical.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Phonetics_IPAStandard.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_Phonetics_SinoExt.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_TransLatin_Arabic.nam
+src/esphome_glyphsets/glyphsets/data/results/nam/GF_TransLatin_Pinyin.nam
+src/esphome_glyphsets/glyphsets/scripts/assemble_charactersets.py
+src/esphome_glyphsets/glyphsets/scripts/assemble_description.py
+src/esphome_glyphsets/glyphsets/scripts/assemble_languages.py
+src/esphome_glyphsets/glyphsets/tests/test_glyphsets.py
+tests/test_init.py
