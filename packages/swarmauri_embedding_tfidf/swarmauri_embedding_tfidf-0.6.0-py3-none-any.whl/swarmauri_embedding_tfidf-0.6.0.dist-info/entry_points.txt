@@ -1,0 +1,3 @@
+[swarmauri.embeddings]
+TfidfEmbedding=swarmauri_embedding_tfidf:TfidfEmbedding
+
