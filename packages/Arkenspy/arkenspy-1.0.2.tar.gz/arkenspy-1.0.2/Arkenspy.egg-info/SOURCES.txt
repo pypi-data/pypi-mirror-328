@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Arkenspy.egg-info/PKG-INFO
+Arkenspy.egg-info/SOURCES.txt
+Arkenspy.egg-info/dependency_links.txt
+Arkenspy.egg-info/requires.txt
+Arkenspy.egg-info/top_level.txt
+arkenspy/__init__.py
+arkenspy/__main__.py
