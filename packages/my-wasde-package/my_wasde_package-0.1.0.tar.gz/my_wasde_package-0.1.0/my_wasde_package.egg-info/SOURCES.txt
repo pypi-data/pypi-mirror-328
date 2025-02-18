@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+wasde_csv_client.py
+my_wasde_package.egg-info/PKG-INFO
+my_wasde_package.egg-info/SOURCES.txt
+my_wasde_package.egg-info/dependency_links.txt
+my_wasde_package.egg-info/top_level.txt
