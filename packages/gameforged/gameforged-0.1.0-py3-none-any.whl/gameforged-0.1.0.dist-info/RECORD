@@ -1,0 +1,12 @@
+setup.py,sha256=qaiXd2sqrW0D9gEh61_dSsIn20AAlHqxEAx7Rjmv3ig,3888
+gameforged/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/gaming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/gaming/players.py,sha256=J8cYNnMnzOc0TtrrJOx5yzV00CgxGjzloEm3Ntcvi_Y,97
+gameforged/workshop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameforged/workshop/bookshelves.py,sha256=gjhsIvDZfM5QiStz-2IcKmV377JBxMDWdtoKxgck0g8,635
+gameforged/workshop/rulebooks.py,sha256=DGlxCQRMWK4eeFvP5EbqnUgfa5V-eNyQSSTidxq8S2I,59
+gameforged-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+gameforged-0.1.0.dist-info/METADATA,sha256=8t3__WYLfz9TayGzcSP2OGw5iIL581ODr9WbX69szek,3278
+gameforged-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gameforged-0.1.0.dist-info/top_level.txt,sha256=n3WLIGxelClWqs_PlZ06dp-_txS-fh1YuxkcA_DnONg,17
+gameforged-0.1.0.dist-info/RECORD,,
