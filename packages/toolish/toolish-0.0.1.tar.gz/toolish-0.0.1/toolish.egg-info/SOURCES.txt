@@ -1,0 +1,6 @@
+README.md
+setup.py
+toolish.egg-info/PKG-INFO
+toolish.egg-info/SOURCES.txt
+toolish.egg-info/dependency_links.txt
+toolish.egg-info/top_level.txt
