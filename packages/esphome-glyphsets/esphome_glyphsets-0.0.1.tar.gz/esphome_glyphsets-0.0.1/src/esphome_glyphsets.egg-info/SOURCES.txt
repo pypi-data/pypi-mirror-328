@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/esphome_glyphsets/__init__.py
+src/esphome_glyphsets/main.py
+src/esphome_glyphsets/py.typed
+src/esphome_glyphsets.egg-info/PKG-INFO
+src/esphome_glyphsets.egg-info/SOURCES.txt
+src/esphome_glyphsets.egg-info/dependency_links.txt
+src/esphome_glyphsets.egg-info/top_level.txt
+tests/test_main.py
