@@ -1,0 +1,12 @@
+home_media_organizer/__init__.py,sha256=1bC4YMy26mrUCBcoJ7FxezQOn9A5UVn1kEIU8LENQ3E,132
+home_media_organizer/cli.py,sha256=j0vxIeIuMIjm6M7QtCtVl5x1D2MdUCWrfql8Ht-7UUw,26051
+home_media_organizer/config.py,sha256=GV0x3x6pTmp91XdPgQk1zGisrxvunV0mLctVNkjLmUY,1432
+home_media_organizer/home_media_organizer.py,sha256=JKlpBH9nJ7kSbCCoZsdxEXpzm-VBx6Qmuwy-7bqa8TI,5817
+home_media_organizer/media_file.py,sha256=-hLs4TxXjmz5FcgxoTtCWxSWFxddSReRGr8yayQIQjA,19452
+home_media_organizer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+home_media_organizer/utils.py,sha256=EoBoZdpH7ebd--rsYls-g6Pqe2qHWx8dg4v8KlCtm2s,3298
+home_media_organizer-0.3.5.dist-info/LICENSE.rst,sha256=xsELFqKBJtc-zOM1lVW2mDJx0Pni4XI3ssp4bFowTNo,1078
+home_media_organizer-0.3.5.dist-info/METADATA,sha256=OjMUmGfDnuMbUNUylmoZJ0KVAbO0EwYujNP0jrFAeFo,21844
+home_media_organizer-0.3.5.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+home_media_organizer-0.3.5.dist-info/entry_points.txt,sha256=nfSIDyF9RRI_9fv57tYMraVtdb-Nwc8zWmKzMGKN92w,52
+home_media_organizer-0.3.5.dist-info/RECORD,,
