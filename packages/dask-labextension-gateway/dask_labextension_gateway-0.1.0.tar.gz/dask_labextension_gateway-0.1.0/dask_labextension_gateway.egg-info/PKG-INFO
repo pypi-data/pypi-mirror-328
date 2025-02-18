@@ -1,0 +1,52 @@
+Metadata-Version: 2.2
+Name: dask-labextension-gateway
+Version: 0.1.0
+Summary: Add Dask Gateway support to dask-labextension
+Author-email: Min RK <benjaminrk@gmail.com>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/minrk/dask-labextension-gateway
+Project-URL: Source, https://github.com/minrk/dask-labextension-gateway
+Project-URL: Tracker, https://github.com/minrk/dask-labextension-gateway/issues
+Keywords: Dask,Jupyter
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dask-gateway
+Requires-Dist: dask-labextension
+Provides-Extra: test
+Requires-Dist: dask-gateway-server[local]; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-asyncio; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# dask-labextension-gateway
+
+Add Dask Gateway support to [dask-labextension](https://github.com/dask/dask-labextension).
+
+This is a temporary package to address https://github.com/dask/dask-labextension/issues/204 .
+once addressed, this package will not be maintained.
+
+To use this package:
+
+1. install it
+
+```
+pip install dask-labextension-gateway
+```
+
+2. set config `dask.labextension.use_gateway = true`, e.g. in `~/.config/dask/labextension.yaml`:
+
+```yaml
+labextension:
+  use_gateway: true
+```
+
+3. configure your default gateway client, as you would normally (the Gateway used in the extension is constructed with `Gateway()`, using default options).

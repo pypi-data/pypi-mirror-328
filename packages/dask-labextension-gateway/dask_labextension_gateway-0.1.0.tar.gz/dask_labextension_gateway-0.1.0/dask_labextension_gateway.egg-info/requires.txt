@@ -1,0 +1,8 @@
+dask-gateway
+dask-labextension
+
+[test]
+dask-gateway-server[local]
+pytest
+pytest-asyncio
+pytest-cov
