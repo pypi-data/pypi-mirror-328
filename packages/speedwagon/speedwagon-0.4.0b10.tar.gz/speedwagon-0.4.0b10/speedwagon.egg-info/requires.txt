@@ -1,0 +1,13 @@
+pyyaml
+lxml
+requests
+pluggy>=1.0
+
+[:python_version < "3.10"]
+importlib-metadata
+
+[:python_version < "3.11"]
+typing-extensions
+
+[QT]
+PySide6~=6.8
