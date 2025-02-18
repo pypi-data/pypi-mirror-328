@@ -1,0 +1,7 @@
+aws_pysdk/__init__.py,sha256=LlGeAsfibYhJed3Tb-i7suOCvxHVZ99IY1VrXgJ_JG4,398
+aws_pysdk/aws.py,sha256=w0a9-_il96xkWiVgaNzpVPFCSc9Jn-uEUrFd3oS2KZc,7424
+actvalue.aws_pysdk-0.2.0.dist-info/LICENSE,sha256=UtWDM6w7nMyyFqRyOZnsYCr408jfBPWGJGVXAx8pIKM,1065
+actvalue.aws_pysdk-0.2.0.dist-info/METADATA,sha256=q_WvV6tfXoSkPt4EShBDaZRaBsneIkOsrrkzNafXyK8,1944
+actvalue.aws_pysdk-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+actvalue.aws_pysdk-0.2.0.dist-info/top_level.txt,sha256=VCPn00fcJTzqlWTTdyQhEDJ2T8D1kY6ET0d_pKa-Aig,10
+actvalue.aws_pysdk-0.2.0.dist-info/RECORD,,
