@@ -1,0 +1,2 @@
+[console_scripts]
+gemini-parser = gemini_parser.document_processor:main
