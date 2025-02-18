@@ -1,0 +1,59 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+  detailed:
+    format: "%(asctime)s [%(levelname)s] %(name)s:%(lineno)d: %(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: standard
+    stream: ext://sys.stdout
+
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: detailed
+    filename: adpa.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: utf8
+
+  error_file:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: detailed
+    filename: adpa_error.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: utf8
+
+loggers:
+  "":  # root logger
+    handlers: [console, file, error_file]
+    level: INFO
+    propagate: true
+
+  adpa:
+    handlers: [console, file, error_file]
+    level: DEBUG
+    propagate: false
+
+  adpa.text2sql:
+    handlers: [console, file, error_file]
+    level: DEBUG
+    propagate: false
+
+  adpa.agents:
+    handlers: [console, file, error_file]
+    level: DEBUG
+    propagate: false
+
+  adpa.database:
+    handlers: [console, file, error_file]
+    level: DEBUG
+    propagate: false
