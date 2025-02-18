@@ -1,0 +1,3 @@
+[gui_scripts]
+speedwagon = speedwagon.__main__:main
+sw-tab-editor = speedwagon.startup:standalone_tab_editor
