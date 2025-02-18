@@ -1,0 +1,4 @@
+xraylarch
+pymcr
+pyfitit
+h5py

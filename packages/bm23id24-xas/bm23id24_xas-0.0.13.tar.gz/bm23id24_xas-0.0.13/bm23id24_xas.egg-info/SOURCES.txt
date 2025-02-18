@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+bm23id24_xas/LCA.py
+bm23id24_xas/MCR_ALS.py
+bm23id24_xas/__init__.py
+bm23id24_xas/pca_estimator.py
+bm23id24_xas/xas_v2_6.py
+bm23id24_xas/xasproc_v2_82.py
+bm23id24_xas.egg-info/PKG-INFO
+bm23id24_xas.egg-info/SOURCES.txt
+bm23id24_xas.egg-info/dependency_links.txt
+bm23id24_xas.egg-info/requires.txt
+bm23id24_xas.egg-info/top_level.txt
