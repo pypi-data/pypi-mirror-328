@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simplespark"
+version = "0.1.0"
+authors = [
+  {name="Ross Palmer", email="rossbpalmer@gmail.com"}
+]
+description = "Spark environment manager and job orchestrator"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage="https://github.com/rosspalmer/Simple-Spark"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/simplespark"]
