@@ -1,0 +1,54 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Database Operations :: Test suite for database operations using DBPA   
+==============================================================================
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\database_operations.robot:5
+      Setup Database Test Environment    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\database_operations.robot:12
+      Setup Test Environment    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\resources\common.robot:19
+      Should Be Equal As Integers    ${result.rc}    0
+      |  ${result.rc} = 1 (int)
+______________________________________________________________________________
+Test Natural Language Query :: Test executing a natural language q... | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+Test Table Creation :: Test creating a new table using natural lan... | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+Test Data Insertion :: Test inserting data using natural language     | FAIL |
+Parent suite setup failed:
+1 != 0
+------------------------------------------------------------------------------
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\database_operations.robot:6
+      Teardown Database Test Environment    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\achim\github\dbpa\tests\robot\tests\functional\database_operations.robot:37
+      Run Process    dropdb    ${DB_NAME}    -U    ${DB_USER}    shell=True
+      |  ${DB_NAME} = d21q7sr3ble3eq (str)
+      |  ${DB_USER} = u3b39k1h1djh6v (str)
+______________________________________________________________________________
+Suites.Database Operations :: Test suite for database operations u... | FAIL |
+Suite setup failed:
+1 != 0
+
+Also suite teardown failed:
+Execution terminated by signal
+
+3 tests, 0 passed, 3 failed
+==============================================================================
+Suites                                                                | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Users\achim\github\dbpa\tests\robot\results\pabot_results\1\output.xml

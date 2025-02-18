@@ -1,0 +1,135 @@
+Metadata-Version: 2.2
+Name: dbpa
+Version: 0.1.0
+Summary: Database Personal Assistant - An AI-powered database management system with advanced text-to-SQL capabilities
+Home-page: https://github.com/achimdehnert/dbpa
+Author: Achim Dehnert
+Author-email: Achim Dehnert <achim@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/achimdehnert/dbpa
+Project-URL: Documentation, https://github.com/achimdehnert/dbpa/docs
+Project-URL: Repository, https://github.com/achimdehnert/dbpa.git
+Project-URL: Issues, https://github.com/achimdehnert/dbpa/issues
+Keywords: database,sql,ai,nlp,text-to-sql,schema-analysis
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy>=1.4.0
+Requires-Dist: sentence-transformers>=2.3.1
+Requires-Dist: faiss-cpu>=1.7.4
+Requires-Dist: pydantic>=2.6.1
+Requires-Dist: streamlit>=1.32.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: isort>=5.0; extra == "dev"
+Requires-Dist: mypy>=0.900; extra == "dev"
+Requires-Dist: ruff>=0.0.1; extra == "dev"
+Requires-Dist: robotframework>=6.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# DBPA (Database Personal Assistant)
+
+A natural language interface for database management, powered by AI.
+
+## Features
+
+- 🗣️ Natural Language Queries: Interact with your database using plain English
+- 📊 Table Management: Easy interface for managing database tables
+- 🎓 Query Training: Learn from and improve query generation
+- 📝 Error Analysis: Comprehensive error tracking and analysis
+- 🔄 Vector Store: Efficient storage and retrieval of example queries
+- 🌐 Multi-Model Support: Works with OpenAI and Groq
+
+## Installation
+
+```bash
+pip install dbpa
+```
+
+## Quick Start
+
+1. Set up your environment variables:
+```bash
+export OPENAI_API_KEY="your-api-key"
+export POSTGRES_HOST="your-host"
+export POSTGRES_DATABASE="your-db"
+export POSTGRES_USER="your-user"
+export POSTGRES_PASSWORD="your-password"
+```
+
+2. Start the DBPA interface:
+```bash
+dbpa start
+```
+
+## Usage
+
+### Basic Query
+```python
+from dbpa import DatabaseAssistant
+
+assistant = DatabaseAssistant()
+result = assistant.query("Show me all customers who made purchases last month")
+print(result)
+```
+
+### Table Management
+```python
+from dbpa import TableManager
+
+manager = TableManager()
+tables = manager.get_available_tables()
+manager.select_tables(["customers", "orders"])
+```
+
+### Query Training
+```python
+from dbpa import QueryTrainer
+
+trainer = QueryTrainer()
+trainer.train("Find total sales by product category")
+```
+
+## Configuration
+
+DBPA can be configured using a `config.json` file:
+
+```json
+{
+    "ai_model": "gpt-4",
+    "language": "en",
+    "max_tokens": 1000,
+    "temperature": 0.7
+}
+```
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Streamlit](https://streamlit.io/)
+- Powered by [OpenAI](https://openai.com/) and [Groq](https://groq.com/)
+- Uses [LangChain](https://python.langchain.com/) for LLM interactions

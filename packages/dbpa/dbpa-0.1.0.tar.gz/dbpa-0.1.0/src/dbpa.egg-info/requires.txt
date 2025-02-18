@@ -1,0 +1,16 @@
+sqlalchemy>=1.4.0
+sentence-transformers>=2.3.1
+faiss-cpu>=1.7.4
+pydantic>=2.6.1
+streamlit>=1.32.0
+torch>=2.0.0
+typing-extensions>=4.0.0
+
+[dev]
+pytest>=6.0
+pytest-cov>=2.0
+black>=22.0
+isort>=5.0
+mypy>=0.900
+ruff>=0.0.1
+robotframework>=6.0

@@ -1,0 +1,7 @@
+datasources:057a528554787866cb74c1e50bb99f34db7cfa3e
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:f583f571f6ca757889c4ba249f60812f377991bd
+--suite Suites.Ai Integration
+--suite Suites.Database Operations
+--suite Suites.Package Installation

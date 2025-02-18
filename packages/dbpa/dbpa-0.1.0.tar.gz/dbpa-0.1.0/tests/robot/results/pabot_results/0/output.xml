@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on win32)" generated="2025-02-17T12:26:35.651233" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Ai Integration" source="C:\Users\achim\github\dbpa\tests\robot\tests\functional\ai_integration.robot">
+<kw name="Setup Test Environment" owner="common" type="SETUP">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2025-02-17T12:26:36.261768" level="INFO" html="true">Directory '&lt;a href="file://C:\Users\achim\github\dbpa\tests\temp"&gt;C:\Users\achim\github\dbpa\tests\temp&lt;/a&gt;' already exists.</msg>
+<arg>${TEMP_DIR}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2025-02-17T12:26:36.261768" elapsed="0.000000"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2025-02-17T12:26:36.263630" level="INFO">Starting process:
+python -m venv C:\Users\achim\github\dbpa\tests\robot\resources\..\..\temp\venv</msg>
+<msg time="2025-02-17T12:26:36.270798" level="INFO">Waiting for process to complete.</msg>
+<msg time="2025-02-17T12:26:36.431468" level="INFO">Process completed.</msg>
+<msg time="2025-02-17T12:26:36.431468" level="INFO">${result} = &lt;result object with rc 1&gt;</msg>
+<var>${result}</var>
+<arg>${PYTHON_CMD}</arg>
+<arg>-m</arg>
+<arg>venv</arg>
+<arg>${VENV_DIR}</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2025-02-17T12:26:36.261768" elapsed="0.169700"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2025-02-17T12:26:36.432988" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2025-02-17T12:26:36.432988" level="FAIL">1 != 0</msg>
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2025-02-17T12:26:36.431468" elapsed="0.001520">1 != 0</status>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${pip}</var>
+<arg>${VENV_DIR}${/}Scripts${/}pip</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.432988" elapsed="0.000000"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<var>${result}</var>
+<arg>${pip}</arg>
+<arg>install</arg>
+<arg>-e</arg>
+<arg>${PACKAGE_DIR}</arg>
+<arg>shell=True</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.432988" elapsed="0.001516"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.434504" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<arg>${PIP_CMD}</arg>
+<arg>${pip}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" start="2025-02-17T12:26:36.434504" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-17T12:26:36.261768" elapsed="0.172736">1 != 0</status>
+</kw>
+<test id="s1-s1-t1" name="Test Query Generation" line="11">
+<doc>Test AI-powered SQL query generation</doc>
+<tag>ai</tag>
+<tag>nlp</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.434504" elapsed="0.000000">Parent suite setup failed:
+1 != 0</status>
+</test>
+<test id="s1-s1-t2" name="Test Query Explanation" line="22">
+<doc>Test AI explanation of SQL queries</doc>
+<tag>ai</tag>
+<tag>nlp</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.436037" elapsed="0.000000">Parent suite setup failed:
+1 != 0</status>
+</test>
+<test id="s1-s1-t3" name="Test Query Optimization" line="32">
+<doc>Test AI-powered query optimization</doc>
+<tag>ai</tag>
+<tag>performance</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.436037" elapsed="0.000520">Parent suite setup failed:
+1 != 0</status>
+</test>
+<test id="s1-s1-t4" name="Test Error Explanation" line="42">
+<doc>Test AI explanation of database errors</doc>
+<tag>ai</tag>
+<tag>error-handling</tag>
+<status status="FAIL" start="2025-02-17T12:26:36.436557" elapsed="0.000510">Parent suite setup failed:
+1 != 0</status>
+</test>
+<kw name="Teardown Test Environment" owner="common" type="TEARDOWN">
+<kw name="Remove Directory" owner="OperatingSystem">
+<msg time="2025-02-17T12:26:36.441182" level="FAIL">PermissionError: [WinError 5] Zugriff verweigert: 'C:\\Users\\achim\\github\\dbpa\\tests\\temp\\venv\\Scripts\\python.exe'</msg>
+<arg>${TEMP_DIR}</arg>
+<arg>recursive=True</arg>
+<doc>Removes the directory pointed to by the given ``path``.</doc>
+<status status="FAIL" start="2025-02-17T12:26:36.437067" elapsed="0.005648">PermissionError: [WinError 5] Zugriff verweigert: 'C:\\Users\\achim\\github\\dbpa\\tests\\temp\\venv\\Scripts\\python.exe'</status>
+</kw>
+<status status="FAIL" start="2025-02-17T12:26:36.437067" elapsed="0.005648">PermissionError: [WinError 5] Zugriff verweigert: 'C:\\Users\\achim\\github\\dbpa\\tests\\temp\\venv\\Scripts\\python.exe'</status>
+</kw>
+<doc>Test suite for AI integration features</doc>
+<status status="FAIL" start="2025-02-17T12:26:35.695689" elapsed="0.747026">Suite setup failed:
+1 != 0
+
+Also suite teardown failed:
+PermissionError: [WinError 5] Zugriff verweigert: 'C:\\Users\\achim\\github\\dbpa\\tests\\temp\\venv\\Scripts\\python.exe'</status>
+</suite>
+<status status="FAIL" start="2025-02-17T12:26:35.682940" elapsed="0.761298"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="4" skip="0">ai</stat>
+<stat pass="0" fail="1" skip="0">error-handling</stat>
+<stat pass="0" fail="2" skip="0">nlp</stat>
+<stat pass="0" fail="1" skip="0">performance</stat>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="4" skip="0" id="s1-s1" name="Ai Integration">Suites.Ai Integration</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
