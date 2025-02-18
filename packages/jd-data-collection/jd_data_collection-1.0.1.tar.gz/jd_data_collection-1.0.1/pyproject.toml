@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jd-data-collection"
+version = "1.0.1"
+description = "JD Background data collection"
+authors = ["martianbugs"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "JdDataCollection", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+drissionpage = "^4.1.0.17"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
