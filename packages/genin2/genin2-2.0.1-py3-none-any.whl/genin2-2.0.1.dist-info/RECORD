@@ -1,0 +1,11 @@
+genin2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genin2/cli.py,sha256=4NkYAsRgeqJsMFDZRQrVDkGWnk6p4MDfIXsjgUuoKVo,909
+genin2/compositions.tsv,sha256=qbP127OgWW7nLjkpMy2Ml6iqYA1tGO73OB6fMeRogp0,1101
+genin2/genin2_core.py,sha256=BmTBuhjnbRlA9m-nwOVFRLSdebLDS1KAjK7qHkUqqIk,20401
+genin2/models.xz,sha256=PfNPZI6HvfSZJLY6mdSg6FtGx5-Vamdp48LBjU-6sx0,849440
+genin2-2.0.1.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+genin2-2.0.1.dist-info/METADATA,sha256=Swsh00tTxe3KnJ6uRJYIASGU4NnMGl8rbmHoMbfIpow,49505
+genin2-2.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+genin2-2.0.1.dist-info/entry_points.txt,sha256=GnqaqmNsYLb8HMsr6rZtOrK8O6a-wXy7M3v2Z1vlUtQ,48
+genin2-2.0.1.dist-info/top_level.txt,sha256=_UGiVWgnE1z4G8gcQxqSMhWXb_JGlmE2Jv7PaaF85sg,7
+genin2-2.0.1.dist-info/RECORD,,
