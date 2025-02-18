@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+galatea/__init__.py
+galatea/__main__.py
+galatea/clean_tsv.py
+galatea/cli.py
+galatea/modifiers.py
+galatea.egg-info/PKG-INFO
+galatea.egg-info/SOURCES.txt
+galatea.egg-info/dependency_links.txt
+galatea.egg-info/entry_points.txt
+galatea.egg-info/top_level.txt
+tests/test_clean_tsv.py
+tests/test_cli.py
+tests/test_modifiers.py
