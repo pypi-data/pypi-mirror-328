@@ -1,0 +1,57 @@
+
+[project]
+name = "automagik"
+dynamic = ["version"]
+description = "AutoMagik - Automated workflow management with LangFlow integration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click",
+    "alembic",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "redis",
+    "aiohttp",
+    "pydantic",
+    "python-dotenv",
+    "pytz",
+    "croniter",
+    "httpx",
+    "tabulate",
+    "setuptools",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "psutil",
+    "rich",
+    "cryptography>=44.0.0",
+    "pytest>=8.3.4",
+    "aiosqlite>=0.20.0",
+    "pytest-asyncio>=0.25.3",
+    "pytest-mock>=3.14.0",
+    "celery>=5.4.0",
+    "tenacity>=9.0.0",
+]
+
+[project.scripts]
+automagik = "automagik.cli.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.23.5",
+    "pytest-cov>=6.0.0",
+    "aiosqlite>=0.19.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--asyncio-mode=auto --cov=automagik --cov-report=term-missing"
+markers = [
+    "asyncio: mark a test as an asyncio coroutine",
+]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_default_fixture_loop_scope = "function"
+
+
