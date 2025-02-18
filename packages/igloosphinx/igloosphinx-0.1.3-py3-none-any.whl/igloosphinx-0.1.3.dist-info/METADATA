@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: igloosphinx
+Version: 0.1.3
+Summary: Accessing Intersphinx inventories for Python packages using PyPI metadata to locate documentation sites
+Author-Email: Louis Maddox <louismmx@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/lmmx/igloosphinx
+Project-URL: Repository, https://github.com/lmmx/igloosphinx.git
+Requires-Python: >=3.11
+Requires-Dist: click>=8.1.8
+Requires-Dist: pypi-docs-url>=0.1.4
+Requires-Dist: requests>=2.32.3
+Requires-Dist: sphobjinv>=2.3.1.2
+Provides-Extra: polars
+Requires-Dist: polars>=1.21.0; extra == "polars"
+Provides-Extra: polars-lts-cpu
+Requires-Dist: polars-lts-cpu>=1.21.0; extra == "polars-lts-cpu"
+Provides-Extra: dev
+Requires-Dist: pdm>=2.22.3; extra == "dev"
+Requires-Dist: pdm-bump>=0.9.10; extra == "dev"
+Requires-Dist: pre-commit>=4.1.0; extra == "dev"
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+Description-Content-Type: text/markdown
+
+# igloosphinx
+
+**Accessing Intersphinx inventories for Python packages using PyPI metadata to locate documentation sites.**
+
+`igloosphinx` provides a command-line interface and library access to Intersphinx inventories, enabling users to easily find and retrieve documentation for Python packages. The tool works by:
+
+- Performing a PyPI metadata lookup to identify the documentation site for a given package.
+- Making educated guesses about the location of the `objects.inv` file.
+- Allowing users to review version changes and access relevant documentation seamlessly.
+
+## Features
+
+- **PyPI Metadata Lookup**: Automatically fetches the documentation URL from PyPI.
+- **Intersphinx Inventory Retrieval**: Accesses and retrieves the `objects.inv` file for easy linking to documentation.
+- **Version Change Review**: Provides functionality to review changes between different versions of the documentation.
+
+## Installation
+
+```bash
+pip install igloosphinx[polars]
+```
+
+On older CPUs run:
+
+```python
+pip install igloosphinx[polars-lts-cpu]
+```
+
+## Usage
+
+```python
+from igloosphinx import Inventory
+
+# Create an Intersphinx instance for a specific package
+intersphinx = Inventory(package_name="example-package")
+
+# Fetch the documentation inventory
+inventory = intersphinx.fetch_inventory()
+
+# Review version changes
+changes = intersphinx.review_version_changes()
+```
+
+## Contributing
+
+1. **Issues & Discussions**: Please open a GitHub issue for bugs, feature requests, or questions.
+2. **Pull Requests**: PRs are welcome! Add tests under `tests/`, update the docs, and ensure you run `pytest` locally.
+
+## License
+
+This project is licensed under the MIT License.

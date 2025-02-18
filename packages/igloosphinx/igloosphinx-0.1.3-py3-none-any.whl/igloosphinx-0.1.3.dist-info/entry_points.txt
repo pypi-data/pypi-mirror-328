@@ -1,0 +1,5 @@
+[console_scripts]
+igloosphinx = igloosphinx.cli:main
+
+[gui_scripts]
+
