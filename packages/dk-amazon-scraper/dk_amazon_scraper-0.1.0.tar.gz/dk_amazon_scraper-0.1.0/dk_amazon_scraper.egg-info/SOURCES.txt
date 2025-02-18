@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+dk_amazon_scraper.egg-info/PKG-INFO
+dk_amazon_scraper.egg-info/SOURCES.txt
+dk_amazon_scraper.egg-info/dependency_links.txt
+dk_amazon_scraper.egg-info/requires.txt
+dk_amazon_scraper.egg-info/top_level.txt
+models/__init__.py
+models/product.py
+scraper/__init__.py
+scraper/amazon.py
+scraper/utils/__init__.py
+scraper/utils/headers.py
+scraper/utils/reg.py
