@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: phoneshift
+Version: 0.1.5
+Summary: Please see https://phoneshift.ing
+Home-page: https://phoneshift.ing
+Author: Phoneshift
+Author-email: dev@phoneshift.ing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Phoneshift
+
+See https://phoneshift.ing
+
+TODO Doc: Explain how network/login errors are handled
+TODO Doc: Comment eoi parameter
+TODO -90dB reconstruction
+
+TODO Regression tests are too heavy to be packaged in the module. They are running the CI, prior to all new version deployment.
