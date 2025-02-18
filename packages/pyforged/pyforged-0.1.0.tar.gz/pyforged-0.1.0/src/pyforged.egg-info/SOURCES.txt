@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyforge/__init__.py
+src/pyforged.egg-info/PKG-INFO
+src/pyforged.egg-info/SOURCES.txt
+src/pyforged.egg-info/dependency_links.txt
+src/pyforged.egg-info/requires.txt
+src/pyforged.egg-info/top_level.txt
