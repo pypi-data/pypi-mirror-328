@@ -1,0 +1,14 @@
+pcg_skel/__init__.py,sha256=Kute-MoWTuwpjyIQVU5AR-6h4iP73rbThSBprchdAsc,187
+pcg_skel/chunk_cache.py,sha256=vbQS1BRhSLbwUluB9HO9wQgdm28uQj-6NtL1HT8hyvY,2455
+pcg_skel/chunk_tools.py,sha256=MM1GWwearaN5P4cqfBNkVB3BPDiB7hhTcxNVJCwpaxs,15334
+pcg_skel/features.py,sha256=68FutRE8qYBeOmIjLKLch5ckVF-yuIKjBtTtlLYfjs8,18705
+pcg_skel/nocache.py,sha256=9J5DVu5X5XZUQcilPQR0uSyuwpRhngknGQ9ecrDAR5w,23437
+pcg_skel/pcg_anno.py,sha256=TbXquZpRs5KOZ-zy9wtHOU5tocutN_-gAm7Cp3LYbNM,9198
+pcg_skel/pcg_skel.py,sha256=qYB4GpUG6rtQZuzG2LL76Hbe03epFCTtV31k3DHkKVU,27338
+pcg_skel/service.py,sha256=PG9ezQP12ojUSdTbTUbmx5SYWhIeBjTZWPXg09JAamw,6350
+pcg_skel/skel_utils.py,sha256=9sKKIM2Trj9ES3Z1aIwoQoQs5ipwHueKXnSDxTsK8dI,3190
+pcg_skel/utils.py,sha256=m_F7qjhiGs0lucLwRZNAoL_AL7JJuPfjHAwrGhF0ubA,2868
+pcg_skel-1.3.0.dist-info/METADATA,sha256=t_7vwTNLqYlNBKQfQ5uKWpGwII_bVmQ0VfViM7mPcjc,2436
+pcg_skel-1.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pcg_skel-1.3.0.dist-info/licenses/LICENSE,sha256=iMfFsqcrnSvghFgwGsXcOhqs-WjRrqcoiMsAbcNG6EQ,1061
+pcg_skel-1.3.0.dist-info/RECORD,,
