@@ -1,0 +1,41 @@
+#***************************************************************************
+#                                  _   _ ____  _
+#  Project                     ___| | | |  _ \| |
+#                             / __| | | | |_) | |
+#                            | (__| |_| |  _ <| |___
+#                             \___|\___/|_| \_\_____|
+#
+# Copyright (C) Daniel Stenberg, <daniel@haxx.se>, et al.
+#
+# This software is licensed as described in the file COPYING, which
+# you should have received as part of this distribution. The terms
+# are also available at https://curl.se/docs/copyright.html.
+#
+# You may opt to use, copy, modify, merge, publish, distribute and/or sell
+# copies of the Software, and permit persons to whom the Software is
+# furnished to do so, under the terms of the COPYING file.
+#
+# This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
+# KIND, either express or implied.
+#
+# SPDX-License-Identifier: curl
+#
+###########################################################################
+
+# This should most probably benefit from getting a "Requires:" field added
+# dynamically by configure.
+#
+prefix=D:/a/curl-impersonate/curl-impersonate/packages
+exec_prefix=${prefix}
+libdir=D:/a/curl-impersonate/curl-impersonate/packages/lib
+includedir=${prefix}/include
+supported_protocols="DICT FILE FTP FTPS GOPHER GOPHERS HTTP HTTPS IMAP IMAPS IPFS IPNS LDAP LDAPS MQTT POP3 POP3S RTSP SMB SMBS SMTP SMTPS TELNET TFTP WS WSS"
+supported_features="SSL IPv6 UnixSockets libz brotli zstd AsynchDNS IDN Largefile alt-svc HSTS NTLM HTTP2 HTTPS-proxy unicode threadsafe"
+
+Name: libcurl
+URL: https://curl.se/
+Description: Library to transfer files with ftp, http, etc.
+Version: 8.7.0-DEV
+Libs: -L${libdir} -lcurl-impersonate-chrome 
+Libs.private:  D:/a/curl-impersonate/curl-impersonate/packages/lib/brotlicommon.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/brotlidec.lib -lws2_32 -lbcrypt D:/a/curl-impersonate/curl-impersonate/packages/lib/ssl.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/crypto.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/zlib.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/brotlicommon.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/brotlidec.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/zstd.lib D:/a/curl-impersonate/curl-impersonate/packages/lib/nghttp2.lib -lwldap32 -lnormaliz -ladvapi32 -lcrypt32
+Cflags: -I${includedir} 
