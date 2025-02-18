@@ -1,0 +1,35 @@
+[project]
+name = "mymenu"
+version = "1.2.6"
+description = "Menu for your remote console"
+readme = "README.md"
+license = "GPL-3.0"
+authors = [
+    { name = "Jaroslav Beran", email = "jaroslav.beran@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pre-commit>=4.1.0",
+    "ruff>=0.9.6",
+]
+
+[project.urls]
+Homepage = "https://codeberg.org/berk76/mymenu"
+Repository = "https://codeberg.org/berk76/mymenu"
+Issues = "https://codeberg.org/berk76/mymenu/issues"
+
+[project.scripts]
+menu = "mymenu.menu:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = [
+    "mymenu/*",
+]
