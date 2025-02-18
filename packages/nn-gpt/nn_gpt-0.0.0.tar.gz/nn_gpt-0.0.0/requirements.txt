@@ -1,0 +1,6 @@
+nn-dataset>=1.0.4
+transformers~=4.48.0
+bitsandbytes~=0.45.0
+peft~=0.14.0
+deepspeed~=0.16.3
+overrides~=7.7.0
