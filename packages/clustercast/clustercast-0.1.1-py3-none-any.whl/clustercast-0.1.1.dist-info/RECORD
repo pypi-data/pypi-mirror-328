@@ -1,0 +1,9 @@
+clustercast/__init__.py,sha256=0eOWWyZNpHsSgnNRau3Fq5O5gTpHYbpnb58J-7fVDZ4,95
+clustercast/clustercast.py,sha256=NmqFCBQTFOytt-4xQlRkrYxfcZ4bcrreJqFOt3PorjU,53452
+clustercast/datasets/__init__.py,sha256=F3kfFZY4r1AU3stx0O6-aF3t2SYUZMxZIj_Ob2MfonE,572
+clustercast/datasets/data/airline_passengers.csv,sha256=loYSVL4oIQP9k5hXYxyhRKmqqaNmaNo-jqyZkhfTqt8,1887
+clustercast/datasets/data/store_sales.csv,sha256=viRevISO3yvkjLKOayLZyKaCExYI0jPPRD0Gqltu2VA,24091
+clustercast-0.1.1.dist-info/LICENSE,sha256=m-QerGuJFGLYKJN2mwDJQw23DlxdZ_aYoIxJ76UMXY8,1090
+clustercast-0.1.1.dist-info/METADATA,sha256=DvbVqM8nJd_wjY_RJ9Nv1aG8SEBs7sBJhI4yAnaU24c,6245
+clustercast-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+clustercast-0.1.1.dist-info/RECORD,,
