@@ -1,0 +1,15 @@
+freeplane-io
+pylatex
+pathlib
+cairosvg
+pytz
+PyYAML
+
+[dev]
+pytest
+sphinx
+
+[docs]
+sphinx
+sphinx_rtd_theme
+recommonmark
