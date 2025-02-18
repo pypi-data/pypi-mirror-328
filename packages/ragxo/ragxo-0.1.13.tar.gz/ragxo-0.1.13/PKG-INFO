@@ -1,0 +1,298 @@
+Metadata-Version: 2.1
+Name: ragxo
+Version: 0.1.13
+Summary: A RAG (Retrieval-Augmented Generation) toolkit with Milvus integration
+Home-page: https://github.com/yourusername/ragx
+License: MIT
+Keywords: rag,milvus,nlp,embeddings,openai
+Author: Mohamed Sadek
+Author-email: mohamedfawzydes@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: alive-progress (>=3.1.1,<4.0.0)
+Requires-Dist: boto3 (>=1.36.14,<2.0.0)
+Requires-Dist: datasets (>=3.2.0,<4.0.0)
+Requires-Dist: dill (<0.3.9)
+Requires-Dist: mocker (>=1.1.1,<2.0.0)
+Requires-Dist: openai (>=1.61.1,<2.0.0)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: pymilvus (>=2.5.4,<3.0.0)
+Requires-Dist: pytest-mock (>=3.14.0,<4.0.0)
+Project-URL: Repository, https://github.com/yourusername/ragx
+Description-Content-Type: text/markdown
+
+# RagXO
+
+Export, version and reuse your E2E RAG pipeline everywhere 🚀
+
+[![PyPI version](https://badge.fury.io/py/ragxo.svg)](https://badge.fury.io/py/ragxo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
+
+## Table of Contents
+- [Features](#features-)
+- [Installation](#installation-️)
+- [Quickstart](#quickstart-)
+  - [Build a RAG pipeline](#build-a-rag-pipeline)
+  - [Load a RAG pipeline](#load-a-rag-pipeline)
+- [Usage Guide](#usage-guide-)
+  - [Import](#import)
+  - [Adding Preprocessing Steps](#adding-preprocessing-steps)
+  - [Custom Embedding Functions](#custom-embedding-functions)
+  - [Creating Documents](#creating-documents)
+  - [LLM Configuration](#llm-configuration)
+  - [Export and Load](#export-and-load)
+  - [Evaluation](#evaluation)
+- [Best Practices](#best-practices-)
+- [License](#license-)
+- [Contributing](#contributing-)
+
+RagXO extends the capabilities of traditional RAG (Retrieval-Augmented Generation) systems by providing a unified way to package, version, and deploy your entire RAG pipeline with LLM integration. Export your complete system—including embedding functions, preprocessing steps, vector store, and LLM configurations—into a single, portable artifact.
+
+## Features ✨
+
+- **Complete RAG Pipeline**: Package your entire RAG system into a versioned artifact
+- **LLM Integration**: Built-in support for OpenAI models
+- **Flexible Embedding**: Compatible with any embedding function (Sentence Transformers, OpenAI, etc.)
+- **Custom Preprocessing**: Chain multiple preprocessing steps
+- **Vector Store Integration**: Built-in Milvus support
+- **System Prompts**: Include and version your system prompts
+
+## Installation 🛠️
+
+```bash
+pip install ragxo
+```
+
+## Quickstart 🚀
+
+### Build a RAG pipeline
+
+```bash
+export OPENAI_API_KEY=<openai_key> 
+```
+
+```python
+from ragxo import Ragxo, Document
+
+
+
+ragxo_client = Ragxo(dimension=1536)
+
+def preprocess_text_remove_special_chars(text: str) -> str:
+    return re.sub(r'[^a-zA-Z0-9\s]', '', text)
+
+def preprocess_text_lower(text: str) -> str:
+    return text.lower()
+
+def get_embeddings(text: str) -> list[float]:
+    return openai.embeddings.create(input=text, model="text-embedding-ada-002").data[0].embedding
+
+ragxo_client.add_preprocess(preprocess_text_lower)
+ragxo_client.add_preprocess(preprocess_text_remove_special_chars)
+ragxo_client.add_embedding_fn(get_embeddings)
+
+ragxo_client.add_system_prompt("You are a helpful assistant that can answer questions about the data provided.")
+ragxo_client.add_model(
+    "gpt-4o-mini",
+    limit=10,
+    temperature=0.5,
+    max_tokens=1000,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+)
+
+ragxo_client.index([
+    Document(text="Capital of France is Paris", metadata={"source": "example"}, id=1),
+    Document(text="Capital of Germany is Berlin", metadata={"source": "example"}, id=2),
+    Document(text="Capital of Italy is Rome", metadata={"source": "example"}, id=3),
+])
+
+ragxo_client.export("my_rag_v1.0.0")
+
+# or export to s3
+ragxo_client.export("my_rag_v1.0.0", s3_bucket="my_bucket")
+
+```
+
+
+### Load a RAG pipeline
+
+```python
+loaded_ragxo_client = Ragxo.load("my_rag_v1.0.0")
+
+vector_search_results = loaded_ragxo_client.query("What is the capital of France?")
+
+llm_response = loaded_ragxo_client.generate_llm_response(
+    "What is the capital of France?")
+
+print(llm_response.choices[0].message.content)
+```
+
+
+## Usage Guide 📚
+
+### Import
+
+```python
+from ragxo import Ragxo, Document
+
+ragxo_client = Ragxo(dimension=768)
+
+```
+
+### Adding Preprocessing Steps
+
+```python
+import re
+
+def remove_special_chars(text: str) -> str:
+    return re.sub(r'[^a-zA-Z0-9\s]', '', text)
+
+def lowercase(text: str) -> str:
+    return text.lower()
+
+ragxo_client.add_preprocess(remove_special_chars)
+ragxo_client.add_preprocess(lowercase)
+```
+
+### Custom Embedding Functions
+
+```python
+# Using SentenceTransformers
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+def get_embeddings(text: str) -> list[float]:
+    return model.encode(text).tolist()
+
+ragxo.add_embedding_fn(get_embeddings)
+
+# Or using OpenAI
+from openai import OpenAI
+client = OpenAI()
+
+def get_openai_embeddings(text: str) -> list[float]:
+    response = client.embeddings.create(
+        input=text,
+        model="text-embedding-ada-002"
+    )
+    return response.data[0].embedding
+
+ragxo.add_embedding_fn(get_openai_embeddings)
+```
+
+
+### Creating Documents
+
+```python
+from ragxo import Document
+
+doc = Document(
+    text="Your document content here",
+    metadata={"source": "wiki", "category": "science"},
+    id=1
+)
+
+ragxo_client.index([doc])
+
+```
+
+### LLM Configuration
+
+```python
+# Set system prompt
+ragxo_client.add_system_prompt("""
+You are a helpful assistant. Use the provided context to answer questions accurately.
+If you're unsure about something, please say so.
+""")
+
+# Set LLM model
+ragxo_client.add_model("gpt-4")
+```
+
+### Export and Load
+
+```python
+# Export your RAG pipeline
+ragxo_client.export("rag_pipeline_v1")
+
+# Load it elsewhere
+loaded_ragxo_client = Ragxo.load("rag_pipeline_v1")
+```
+
+### Evaluation
+
+```python
+from ragxo import EvaluationExample
+
+# Create test examples
+test_data = [
+    EvaluationExample(
+        query="What is the capital of France?",
+        expected="The capital of France is Paris."
+    ),
+    EvaluationExample(
+        query="What is the capital of Germany?",
+        expected="The capital of Germany is Berlin."
+    ),
+]
+
+# Evaluate the RAG system
+accuracy = ragxo_client.evaluate(
+    test_data=test_data,
+    batch_size=10,  # Process 10 examples at a time
+    judge_model="gpt-4o-mini"  # Optional: specify a different model for evaluation
+)
+
+print(f"Evaluation accuracy: {accuracy * 100:.2f}%")
+```
+
+The evaluation process:
+1. Processes test examples in batches
+2. Generates RAG responses for each query
+3. Uses an LLM to compare generated answers with expected answers
+4. Returns accuracy score (0.0 to 1.0)
+
+Best practices for evaluation:
+- Use diverse test examples
+- Include edge cases
+- Keep expected answers consistent in format
+- Use a more capable model for evaluation (e.g., GPT-4)
+- Adjust batch size based on your rate limits and needs
+
+## Best Practices 💡
+
+1. **Version Your Exports**: Use semantic versioning for your exports:
+```python
+ragxo.export("my_rag_v1.0.0")
+```
+
+2. **S3**: Use S3 to store your exports
+
+```shell
+export AWS_ACCESS_KEY_ID=your_access_key
+export AWS_SECRET_ACCESS_KEY=your_secret_key
+```
+
+```python
+ragxo_client.export("my_rag_v1.0.0", s3_bucket="my_bucket")
+```
+
+## License 📝
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
