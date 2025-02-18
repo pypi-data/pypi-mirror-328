@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: laravel-oauth2
+Version: 0.1.1
+Summary: 
+Author: Douglas B
+Author-email: douglas.barbosa@ciadeestagios.com.br
+Requires-Python: >=3.10.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytest (==8.3.4)
+Requires-Dist: requests (>=2.32.0)
+Requires-Dist: social-auth-app-django (<=5.4.1)
+Requires-Dist: social-auth-core (==4.5.4)
+Description-Content-Type: text/markdown
+
+
