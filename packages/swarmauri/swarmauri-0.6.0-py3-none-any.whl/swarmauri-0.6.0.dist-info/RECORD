@@ -1,0 +1,10 @@
+swarmauri/__init__.py,sha256=ZR2-E84VcFA68GkijsobfyNpOwThwxQrNeSAMs_Li5U,708
+swarmauri/cli.py,sha256=N3gx97fHBuWjmUJ5PPta0TKC6OZHN1UkTmjUXav6u6k,6592
+swarmauri/importer.py,sha256=kA2pUrrCG-fL_OczfKuF3d6ehkv2D4c1n3r123AYhhk,4230
+swarmauri/interface_registry.py,sha256=80moUnMb3hr5guJF5d9ncK4dBV8dfQ57Jk7iUREm0hE,7778
+swarmauri/plugin_citizenship_registry.py,sha256=1M4b5ZZTLiIfVjuoqEueyCQOCds81iCseaqYuMXoLC8,32441
+swarmauri/plugin_manager.py,sha256=OqX8HSbzy3j4Wwgm1Th6W5vHqNH98Z0wY1isoh1xenw,31866
+swarmauri-0.6.0.dist-info/LICENSE,sha256=RTfQ6Cj96csV7thgE2X85SXzWWbxeD_Pjk9AaH2gvxc,11560
+swarmauri-0.6.0.dist-info/METADATA,sha256=YDIs9Xopc_MJHML7D-uip13YhraNBEzNkNfM8a9f3YQ,5243
+swarmauri-0.6.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+swarmauri-0.6.0.dist-info/RECORD,,
