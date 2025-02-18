@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+readme.md
+setup.py
+prompt_string/__init__.py
+prompt_string/string.py
+prompt_string/string_chain.py
+prompt_string/token.py
+prompt_string.egg-info/PKG-INFO
+prompt_string.egg-info/SOURCES.txt
+prompt_string.egg-info/dependency_links.txt
+prompt_string.egg-info/requires.txt
+prompt_string.egg-info/top_level.txt
+tests/test_basic.py
