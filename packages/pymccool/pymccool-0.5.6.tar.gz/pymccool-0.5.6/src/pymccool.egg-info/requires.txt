@@ -1,0 +1,6 @@
+colorlog
+mock
+mypy>=1.14.1
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-exporter-otlp-proto-http
+python-logging-loki
