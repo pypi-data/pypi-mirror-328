@@ -1,0 +1,115 @@
+/* RAG Testing Interface Styles */
+
+/* Chat container */
+.chat-container {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f8f9fa;
+}
+
+/* Message bubbles */
+.user-message {
+    background-color: #e3f2fd;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    max-width: 80%;
+    float: right;
+    clear: both;
+}
+
+.assistant-message {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    max-width: 80%;
+    float: left;
+    clear: both;
+}
+
+/* Sources section */
+.sources-container {
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+/* File upload area */
+.upload-container {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.upload-container:hover {
+    border-color: #2196f3;
+    background-color: #f5f5f5;
+}
+
+/* File list */
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+.file-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* Query input */
+.query-input {
+    margin: 20px 0;
+}
+
+.query-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.query-button:hover {
+    background-color: #1976d2;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Error messages */
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Success messages */
+.success-message {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}

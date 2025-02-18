@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}YouTube Transcript - {{ video_title }}{% endblock %}
+
+{% block content %}
+<div class="transcript-container">
+    <h1>{{ video_title }}</h1>
+    <div class="video-info">
+        <p>Channel: {{ channel_name }}</p>
+        <p>Duration: {{ duration }}</p>
+        <p>Published: {{ publish_date }}</p>
+    </div>
+
+    <div class="transcript">
+        {% for segment in transcript %}
+        <div class="segment" data-start="{{ segment.start }}" data-end="{{ segment.end }}">
+            <span class="timestamp">{{ segment.start|format_time }}</span>
+            <span class="text">{{ segment.text }}</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="controls">
+        <button id="play-btn">Play</button>
+        <button id="pause-btn">Pause</button>
+        <input type="range" id="progress" min="0" max="100" value="0">
+        <span id="current-time">0:00</span> / <span id="total-time">{{ duration }}</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Transcript player functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const segments = document.querySelectorAll('.segment');
+        const playBtn = document.getElementById('play-btn');
+        const pauseBtn = document.getElementById('pause-btn');
+        const progress = document.getElementById('progress');
+        const currentTime = document.getElementById('current-time');
+
+        let isPlaying = false;
+        let currentSegment = 0;
+
+        function playSegment(index) {
+            segments.forEach(s => s.classList.remove('active'));
+            if (segments[index]) {
+                segments[index].classList.add('active');
+                segments[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        playBtn.addEventListener('click', () => {
+            isPlaying = true;
+            playSegment(currentSegment);
+        });
+
+        pauseBtn.addEventListener('click', () => {
+            isPlaying = false;
+        });
+
+        progress.addEventListener('input', (e) => {
+            const percent = e.target.value;
+            currentSegment = Math.floor(segments.length * (percent / 100));
+            playSegment(currentSegment);
+        });
+
+        // Auto-advance segments
+        setInterval(() => {
+            if (isPlaying && currentSegment < segments.length) {
+                currentSegment++;
+                playSegment(currentSegment);
+                progress.value = (currentSegment / segments.length) * 100;
+            }
+        }, 3000);
+    });
+</script>
+{% endblock %}
