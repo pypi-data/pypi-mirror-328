@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+magicprompt/__init__.py
+magicprompt/config.py
+magicprompt/main.py
+magicprompt/utils.py
+magicprompt.egg-info/PKG-INFO
+magicprompt.egg-info/SOURCES.txt
+magicprompt.egg-info/dependency_links.txt
+magicprompt.egg-info/top_level.txt
+test/__init__.py
+test/test_prompt.py
+test/test_utils.py
