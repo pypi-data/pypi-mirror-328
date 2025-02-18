@@ -1,0 +1,202 @@
+# agent_memory_jojo
+
+**# IntelligentMemoryManager Setup and Usage Guide**
+
+## **Introduction**
+The `IntelligentMemoryManager` is a memory management module designed to store and recall episodic memory for AI interactions. It leverages the Qdrant vector database to store and retrieve past conversations, enabling AI systems to recall user-specific context for more personalized and coherent responses.
+
+---
+
+## How to Use
+---
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Python 3.10+
+- pip (Python package installer)
+
+### Installation
+
+a. **Clone the repository**:
+
+```bash
+git clone https://github.com/danielAdama/agent_memory_jojo.git
+cd agent_memory_jojo
+```
+
+To set up an account and obtain the Qdrant URL and cluster code, follow these organized steps:
+1. **Create a Qdrant Account**
+Visit the Qdrant Website: Go to the official Qdrant website (https://qdrant.tech/).
+Sign Up: Navigate to the sign-up page and provide your email and other necessary details to create an account.
+Confirm Your Email: Check your inbox for a confirmation email and complete the verification process.
+2. **Obtain the Qdrant URL**
+Log In: After verification, log into your Qdrant account.
+Deployment Options:
+Managed Service: If using a managed cloud service, Qdrant will provide the URL automatically upon provisioning your cluster.
+Self-Hosted: For a local or server installation, install Qdrant and run it on a specified port (e.g., localhost:6333).
+3. **Retrieve Cluster Code**
+Cluster Identification: In a managed service, the cluster code is an identifier provided post-setup, used for accessing your deployment.
+Cluster Setup: If self-hosted, ensure your cluster is properly set up and configured with necessary parameters (e.g., nodes, vector dimensions).
+4. **API Key Considerations**
+Access Tokens: Depending on your setup, you might need an API key for programmatic access. This is typically provided during the cluster creation process.
+5. **Connect to Qdrant**
+Use the Qdrant URL and cluster code (plus any API key) in your application to connect and interact with your vector database.
+
+2. **Create an Environment File**:
+Create a .env file in the root directory of the project with the following command:
+```sh
+touch .env
+```
+After the creation of the .env, add the following environment variables:
+```sh
+QDRANT_URL=<qdrant_url>
+QDRANT_CLUSTER=<qdrant_cluster>
+OPENAI_API_KEY=<openai_key>
+EMBEDDING_MODEL=<embedding_model>
+COLLECTION_NAME=<collection_name>
+OPENAI_MODEL=<model_name>
+LIMIT=<limit> #number of search result to be returned by Qdrant. Default is 2.
+```
+2. **Install dependencies**:
+
+```bash
+poetry install
+```
+```bash
+poetry shell
+```
+
+## **Importing the Module**
+To use the `IntelligentMemoryManager`, import it from the `agent_memory_jojo.processors.intelligent` module:
+
+```python
+import dotenv
+dotenv.load_dotenv(dotenv.find_dotenv(), override=True)
+from agent_memory_jojo.processors.intelligent import IntelligentMemoryManager
+```
+
+b. **Install from PIP**:
+```bash
+pip install agent_memory_jojo
+```
+
+## **Initializing the Memory Manager**
+You need to initialize the `IntelligentMemoryManager` with a unique `user_id`:
+
+```python
+processor = IntelligentMemoryManager(user_id="user12345")
+```
+
+## **Adding Memory**
+Memory should be structured as a conversation between the user and the AI assistant. Example:
+
+```python
+memory = [
+{'role': 'user',
+  'content': "I've been manually trading for years but now shifting to algorithmic high-frequency scalping. Given market noise and rapid price moves, how should I design a solid risk management framework? I'm considering dynamic stop-loss algorithms, adaptive position sizing, and ML for signal detection. What indicators and data feeds should I prioritize for low-latency and optimal execution?"},
+ {'role': 'assistant',
+  'content': 'For high-frequency scalping, focus on tick data, VWAP, and order book imbalance to track micro price movements. Implement dynamic stop-losses that adjust to real-time volatility and use adaptive position sizing based on statistical models like the Kelly Criterion. Machine learning, particularly reinforcement learning, can refine entry/exit signals. Prioritize direct market data feeds for minimal latency and validate strategies with Monte Carlo simulations. Want to dive deeper into any of these areas?'}
+]
+```
+
+To add this memory to the Qdrant vector database:
+
+```python
+processor.add(memory)
+```
+```python
+2025-02-14 00:37:52,613 - processors.intelligent - INFO - [0;32mTotal existing memories: 0[0m
+2025-02-14 00:37:54,610 - processors.intelligent - INFO - [0;32m{'id': '0', 'summary': 'The user is transitioning to algorithmic high-frequency scalping and seeks guidance on risk management frameworks, indicators, and data feeds for optimal execution.', 'event': 'ADD'}[0m
+2025-02-14 00:37:54,976 - client.qdrant_client - INFO - [0;32mCollection 'episodic-memory' already exists----- Using episodic-memory collection.[0m
+100%|██████████| 1/1 [00:00<00:00, 13.59it/s]
+2025-02-14 00:37:55,054 - client.qdrant_client - INFO - [0;32mEmbedding Completed[0m
+2025-02-14 00:37:55,054 - client.qdrant_client - INFO - [0;32mGenerating points[0m
+2025-02-14 00:37:55,376 - client.qdrant_client - INFO - [0;32mRecords inserted successfully.[0m
+```
+To check the operation carried out for the added memory to the Qdrant vector database:
+
+```python
+processor.get_relevant_operation()
+```
+```python
+{'result': [{'id': '3f81e9af-7715-45ec-af04-66a17f03e52b',
+   'memory': {'summary': 'The user is transitioning to algorithmic high-frequency scalping and seeks guidance on risk management frameworks, indicators, and data feeds for optimal execution.'},
+   'event': 'ADD'}]}
+```
+
+### **Example of Data Stored in Qdrant**
+
+```json
+{
+  "metadata": {
+    "id": "3f81e9af-7715-45ec-af04-66a17f03e52b",
+    "user_id": "user12345",
+    "summary": "The user is transitioning to algorithmic high-frequency scalping and seeks guidance on risk management frameworks, indicators, and data feeds for optimal execution.",
+    "document_type": "preference",
+    "memory_type": "long_term_memory"
+  },
+  "page_content": "The user is transitioning to algorithmic high-frequency scalping and seeks guidance on risk management frameworks, indicators, and data feeds for optimal execution."
+}
+```
+
+## **Recalling Past Interactions**
+To search for past conversations related to a query, use the `search` function:
+
+```python
+results = processor.search("I want to trade but i am worried transitioning?")
+print(results)
+```
+### **Example Output**
+```python
+[{'id': '3f81e9af-7715-45ec-af04-66a17f03e52b',
+  'summary': 'The user is transitioning to algorithmic high-frequency scalping and seeks guidance on risk management frameworks, indicators, and data feeds for optimal execution.'}]
+```
+
+## **Full Test**
+```python
+import dotenv
+dotenv.load_dotenv(dotenv.find_dotenv(), override=True)
+from agent_memory_jojo.processors.intelligent import IntelligentMemoryManager
+from openai import chat
+
+processor = IntelligentMemoryManager(user_id="user12345")
+
+query="I want to trade but i am worried transitioning?"
+# Get relevant past interactions
+relevant_memories = processor.search(query)
+# Build context from relevant history
+memories_str = "Previous relevant summary:\n"+"\n".join(f"- {entry['summary']}" for entry in relevant_memories)
+
+base_prompt = f"""
+{memories_str}
+
+Provide a helpful response that takes into account any relevant past interactions.
+"""
+
+system_prompt = f"""
+{base_prompt}
+
+You are a helpful trading assistant. keep your response short.
+"""
+
+messages=[
+    {"role": "system", "content": system_prompt},
+    {"role": "user", "content": query}
+]
+response = chat.completions.create(
+    model="gpt-4o-mini",
+    stream=False,
+    messages=messages
+)
+assistant_response = response.choices[0].message.content
+messages.append({"role": "assistant", "content": assistant_response})
+# Filter out messages with the role "system"
+memory = [message for message in messages if message["role"] != "system"]
+processor.add(memory)
+```
+
+## **Conclusion**
+By using the `IntelligentMemoryManager`, AI systems can maintain long-term contextual memory, improving engagement and personalization. This guide outlines the setup, data storage, and retrieval processes for effectively managing AI-driven episodic memory.
