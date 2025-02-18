@@ -1,0 +1,14 @@
+setup.py
+spark-pdf-python/__init__.py
+spark-pdf-python/datasources/__init__.py
+spark-pdf-python/datasources/pdf_data_source.py
+spark-pdf-python/datasources/pdf_partition_reader_base.py
+spark-pdf-python/datasources/pdf_partition_reader_pdfbox.py
+spark-pdf-python/schemas/__init__.py
+spark-pdf-python/schemas/document.py
+spark-pdf-python/schemas/image.py
+spark_pdf_python.egg-info/PKG-INFO
+spark_pdf_python.egg-info/SOURCES.txt
+spark_pdf_python.egg-info/dependency_links.txt
+spark_pdf_python.egg-info/requires.txt
+spark_pdf_python.egg-info/top_level.txt
