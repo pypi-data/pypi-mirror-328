@@ -1,0 +1,17 @@
+djinntoux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djinntoux/abstract.py,sha256=VMRS36yf4rOA4Nh9BBWkeuAoNNbOI-ONMsnxDWJ7Di8,936
+djinntoux/renames.py,sha256=ne5XJCJTb1qQqOaS5h722FHTZ3P8W6CwqCZgywLPuSo,310
+djinntoux/scraping.py,sha256=vQbkcZ3dQ8Gw3-93GinmJijT-UVhyAdj6OyeeQVBxh8,795
+djinntoux/dproj/settings_reuse.py,sha256=wtKjeaFCYO7CmqiEHlGQOHvfdtEyGcBsL-79Kc6S37s,3522
+djinntoux/dproj/urls_reuse.py,sha256=fCui2HBq9yuMv0xWnfFgsroioANZyA_MCjDI1UuQPgk,472
+djinntoux/users/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djinntoux/users/admin.py,sha256=q0w7mYnFmVwp2AT9nsumO178hwKvVj3aRGjBlI21HbQ,10311
+djinntoux/users/apps.py,sha256=P0s95J4rNFid8eZJRMjbxurJuUScFNQz0QrZhY0BQlo,430
+djinntoux/users/forms.py,sha256=TsKiVEQTdbb6uCJzGl-31gsQk5l1SpHLCAkJynzntqc,21496
+djinntoux/users/models.py,sha256=h0QMPqcPKsZPXfMkTBXJHXSVGecStZKNctPtc4XS05U,889
+djinntoux/users/migrations/0001_initial.py,sha256=lgnIbaZDFHcLkeKN0vFxcFh4_UOYSpF31LKVLmixSsM,2819
+djinntoux/users/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djinntoux-0.0.4.dist-info/METADATA,sha256=aeA19YslGvUw7Bc6blq9nw6JZNqJblWq85Q2JOjsSwU,3520
+djinntoux-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+djinntoux-0.0.4.dist-info/licenses/LICENSE,sha256=ObKz2Ts26RpIqtTMhHd5Vi4NY4e3Lvl7b81TvoQWqa4,1059
+djinntoux-0.0.4.dist-info/RECORD,,
