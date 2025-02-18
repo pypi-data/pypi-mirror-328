@@ -1,0 +1,23 @@
+[package]
+name = "py_erasure_coding"
+description = "Python Erasure Coding library utilizing the Parity Erasure Coding library"
+authors=["JAMdot Technologies"]
+version = "0.2.1"
+repository = "https://github.com/JAMdotTech/py-erasure-coding"
+homepage = "https://github.com/JAMdotTech/py-erasure-coding"
+license = "Apache-2.0"
+readme = "README.md"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "erasure_coding"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23.4", features = ["extension-module"] }
+erasure-coding ={ git = "https://github.com/paritytech/erasure-coding", rev = "8e1daea8279c64d5f6a1f41f99663e99dab4a9d2" }
+lazy_static = "1.5.0"
+serde_json = "1.0.111"
+hex = "0.4.3"
+serde = { version = "1.0.195", features = ["derive"] }
