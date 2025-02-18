@@ -1,0 +1,12 @@
+---
+format_version: "1.0"
+revision:
+    authors:
+        - {$ref: "persons/Wayne_Crawford.person.yaml"}
+    date: "2024-09-05"
+network:
+    code: "XX"
+    description: "TEST-UNVALIDATED"
+    start_date: "2001-01-01"
+    end_date: ~
+notes: ["The code XX is reserved for test or transient data"]
