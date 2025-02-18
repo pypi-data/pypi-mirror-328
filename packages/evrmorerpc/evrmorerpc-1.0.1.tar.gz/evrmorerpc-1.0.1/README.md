@@ -1,0 +1,300 @@
+# Evrmore RPC Client
+
+A comprehensive Python client for interacting with Evrmore nodes via RPC and ZMQ interfaces. This module provides a clean, type-safe API for all Evrmore RPC commands with proper error handling and validation.
+
+## Features
+
+- 🚀 Complete implementation of all Evrmore RPC commands
+- 🔒 Type-safe request and response models using Pydantic
+- 📡 Real-time notifications via ZMQ
+- 🛡️ Comprehensive error handling
+- 🧪 Command-line interface for testing
+- 📝 Extensive documentation and examples
+- 🔧 Automatic configuration from evrmore.conf
+
+## Installation
+
+```bash
+pip install evrmorerpc
+```
+
+## Configuration
+
+The module automatically reads configuration from your `evrmore.conf` file. By default, it looks in:
+1. The directory specified by the `EVRMORE_ROOT` environment variable
+2. The default location (`~/.evrmore/evrmore.conf`)
+
+Required settings in `evrmore.conf`:
+```ini
+# Core Settings (Required)
+server=1
+rpcuser=your_username
+rpcpassword=your_password
+rpcport=8819
+
+# Optional Settings
+rpcbind=127.0.0.1  # Default if not specified
+
+# ZMQ Settings (for notifications)
+zmqpubhashtx=tcp://127.0.0.1:28332
+zmqpubhashblock=tcp://127.0.0.1:28332
+```
+
+### Security Considerations
+
+#### RPC Security
+- Always use strong, unique credentials for `rpcuser` and `rpcpassword`
+- Restrict RPC access:
+  ```ini
+  # Only allow local connections (recommended)
+  rpcbind=127.0.0.1
+  rpcallowip=127.0.0.1
+  
+  # If remote access is needed, use IP restrictions
+  rpcallowip=192.168.1.0/24  # Allow specific network
+  ```
+- Use a firewall to restrict access to RPC port
+- Consider using SSL/TLS for RPC connections (requires reverse proxy)
+
+#### ZMQ Security
+- ZMQ endpoints should only bind to localhost unless remote access is needed
+- Use proper network segmentation if remote ZMQ access is required
+- Monitor ZMQ connections for unexpected behavior
+- Consider implementing message authentication if using over untrusted networks
+
+#### Production Deployment
+1. **Environment**:
+   - Use dedicated service accounts
+   - Implement proper file permissions
+   - Use systemd or similar for process management
+
+2. **Monitoring**:
+   - Monitor RPC and ZMQ connection attempts
+   - Set up logging for authentication failures
+   - Monitor system resource usage
+
+3. **Backup and Recovery**:
+   - Regularly backup configuration
+   - Document recovery procedures
+   - Test failover scenarios
+
+4. **Updates**:
+   - Keep Evrmore node updated
+   - Monitor security advisories
+   - Update dependencies regularly
+
+You can also specify a custom configuration path when creating the client:
+```python
+from pathlib import Path
+from evrmorerpc import EvrmoreRPC
+
+# Use custom config path
+client = EvrmoreRPC(config_path=Path("/path/to/evrmore.conf"))
+
+# Use default location or EVRMORE_ROOT env var
+client = EvrmoreRPC()
+```
+
+## Quick Start
+
+```python
+from evrmorerpc import EvrmoreRPC
+
+# Create client (automatically reads evrmore.conf)
+client = EvrmoreRPC()
+
+# Basic usage
+block_count = client.getblockcount()
+print(f"Current block height: {block_count}")
+
+# Get asset information
+asset_info = client.getassetdata("CREDITS")
+print(f"Asset amount: {asset_info.amount}")
+
+# Send EVR
+txid = client.sendtoaddress("EXaMPLEaDDreSS123456789", 1.0)
+print(f"Transaction sent: {txid}")
+
+# Transfer assets
+client.transfer("MYASSET", 100, "EXaMPLEaDDreSS123456789")
+```
+
+## Command Line Interface
+
+The module includes a command-line interface for testing RPC commands:
+
+```bash
+# Get current block count
+evrmorerpc getblockcount
+
+# Get asset data
+evrmorerpc getassetdata CREDITS
+
+# Get help for specific command
+evrmorerpc help getblock
+
+# List all available commands
+evrmorerpc help
+```
+
+## ZMQ Notifications
+
+Subscribe to real-time notifications from the Evrmore node:
+
+```python
+import asyncio
+from evrmorerpc import EvrmoreZMQ
+
+async def handle_tx(notification):
+    print(f"New transaction: {notification.body.hex()}")
+
+async def handle_block(notification):
+    print(f"New block: {notification.body.hex()}")
+
+# Create ZMQ client (uses same config as RPC client)
+zmq = EvrmoreZMQ()
+
+# Subscribe to notifications
+zmq.subscribe([b"hashtx"], handle_tx)
+zmq.subscribe([b"hashblock"], handle_block)
+
+# Start listening
+try:
+    asyncio.run(zmq.start())
+except KeyboardInterrupt:
+    zmq.close()
+```
+
+## Available RPC Commands
+
+### Blockchain
+- `getbestblockhash`
+- `getblock`
+- `getblockchaininfo`
+- `getblockcount`
+- `getblockhash`
+- `getblockheader`
+- `getchaintips`
+- `getdifficulty`
+- `getmempoolinfo`
+- `getrawmempool`
+- `gettxout`
+- `gettxoutsetinfo`
+- `verifychain`
+
+### Assets
+- `getassetdata`
+- `getcacheinfo`
+- `getsnapshot`
+- `issue`
+- `issueunique`
+- `listaddressesbyasset`
+- `listassetbalancesbyaddress`
+- `listassets`
+- `listmyassets`
+- `reissue`
+- `transfer`
+- `transferfromaddress`
+- `transferfromaddresses`
+
+### Wallet
+- `abandontransaction`
+- `addmultisigaddress`
+- `addwitnessaddress`
+- `backupwallet`
+- `dumpprivkey`
+- `dumpwallet`
+- `encryptwallet`
+- `getbalance`
+- `getnewaddress`
+- `getrawchangeaddress`
+- `gettransaction`
+- `getunconfirmedbalance`
+- `getwalletinfo`
+- `importaddress`
+- `importprivkey`
+- `importprunedfunds`
+- `importpubkey`
+- `importwallet`
+- `keypoolrefill`
+- `listaccounts`
+- `listaddressgroupings`
+- `listlockunspent`
+- `listreceivedbyaddress`
+- `listsinceblock`
+- `listtransactions`
+- `listunspent`
+- `lockunspent`
+- `sendmany`
+- `sendtoaddress`
+- `settxfee`
+- `signmessage`
+
+### Network
+- `addnode`
+- `clearbanned`
+- `disconnectnode`
+- `getaddednodeinfo`
+- `getconnectioncount`
+- `getnettotals`
+- `getnetworkinfo`
+- `getpeerinfo`
+- `listbanned`
+- `ping`
+- `setban`
+- `setnetworkactive`
+
+### Mining
+- `getmininginfo`
+- `getnetworkhashps`
+- `prioritisetransaction`
+- `submitblock`
+
+### Raw Transactions
+- `createrawtransaction`
+- `decoderawtransaction`
+- `decodescript`
+- `fundrawtransaction`
+- `getrawtransaction`
+- `sendrawtransaction`
+- `signrawtransaction`
+
+### Control
+- `getmemoryinfo`
+- `getrpcinfo`
+- `help`
+- `stop`
+- `uptime`
+
+### Utility
+- `createmultisig`
+- `estimatefee`
+- `validateaddress`
+- `verifymessage`
+
+## Error Handling
+
+The module provides specific error classes for different types of failures:
+
+```python
+from evrmorerpc import EvrmoreRPC, NodeConnectionError, NodeAuthError, EvrmoreError
+
+client = EvrmoreRPC()
+
+try:
+    result = client.getassetdata("NONEXISTENT")
+except NodeConnectionError as e:
+    print(f"Connection failed: {e}")
+except NodeAuthError as e:
+    print(f"Authentication failed: {e}")
+except EvrmoreError as e:
+    print(f"Evrmore error {e.code}: {e}")
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

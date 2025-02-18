@@ -1,0 +1,25 @@
+# Include package files
+include evrmorerpc/*.py
+include evrmorerpc/models/*.py
+include evrmorerpc/models/blockchain/*.py
+include evrmorerpc/models/wallet/*.py
+include evrmorerpc/zmq/*.py
+
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Include test files
+include tests/*.py
+include tests/data/*.json
+
+# Include configuration files
+include pyproject.toml
+include setup.py
+include MANIFEST.in
+
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .DS_Store
