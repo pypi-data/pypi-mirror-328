@@ -1,0 +1,7 @@
+---
+format_version: "1.0"
+person:
+    names: ["Dirk Diggler"]
+    agencies: ["IPGP", "CNRS"]
+    emails: ["diggler@cnrs.fr"]
+    phones:  ["+33 01 99 88 77 66"]

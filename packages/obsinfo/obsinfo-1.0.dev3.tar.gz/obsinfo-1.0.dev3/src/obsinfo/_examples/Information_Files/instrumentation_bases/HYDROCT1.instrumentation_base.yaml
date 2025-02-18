@@ -1,0 +1,44 @@
+---
+format_version: "1.0"
+revision: 
+    date: "2018-06-01"
+    authors:
+        - {$ref: "persons/Wayne_Crawford.person.yaml"}
+        - {$ref: "persons/Romuald_Daniel.person.yaml"}
+instrumentation_base:
+    equipment:
+        model: "HYDROCT1"
+        type: "Multi-hydrophone antenna"
+        description: "LCHEAPO 2000 Hydro-octopus, 4 channels, HTI-90U hydrophones"
+        manufacturer: "INSU-IPGP"
+        vendor: ~
+    channels:
+        default:
+            datalogger: {base: {$ref: "datalogger_bases/ELOBS_A.datalogger_base.yaml"}}
+            sensor: {base: {$ref: "sensor_bases/HITECH_HTI04-PLC-ULF.sensor_base.yaml"}}
+        "1":
+            location_code: "01"
+            orientation : {code: "H", azimuth.deg: {value: 0}, dip.deg: {value: 90}}
+        "2":
+            location_code: "02"
+            orientation : {code: "H", azimuth.deg: {value: 0}, dip.deg: {value: 90}}
+        "3":
+            location_code: "03"
+            orientation : {code: "H", azimuth.deg: {value: 0}, dip.deg: {value: 90}}
+        "4":
+            location_code: "04"
+            orientation : {code: "H", azimuth.deg: {value: 0}, dip.deg: {value: 90}}
+    configurations:
+        "ELOBS":
+            channels:
+                "default": {replace_datalogger:  {base: {$ref: "datalogger_bases/ELOBS_A.datalogger_base.yaml"}}}
+        "RTSYS":
+            channels:
+                "default": {replace_datalogger:  {base: {$ref: "datalogger_bases/RTSYS_SDA14.datalogger_base.yaml"}}}
+        "LC2000":
+            channels:
+                "default":
+                    replace_datalogger:  {base: {$ref: "datalogger_bases/LC2000.datalogger_base.yaml"}}
+                    replace_preamplifier:
+                        base: {$ref: "preamplifier_bases/LCHEAPO_HYDRO.preamplifier_base.yaml"}
+                        configuration: "16x gain"
