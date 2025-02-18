@@ -1,0 +1,2 @@
+[console_scripts]
+nitslog = nitslog.logger:main
