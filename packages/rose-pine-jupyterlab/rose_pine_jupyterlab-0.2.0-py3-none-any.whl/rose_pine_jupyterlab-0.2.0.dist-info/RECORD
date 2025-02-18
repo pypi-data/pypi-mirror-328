@@ -1,0 +1,13 @@
+rose_pine_jupyterlab/__init__.py,sha256=PCv_cd0CyynfZHMHen5d7GDEUpaxkCA9Nhpc2jk8BDk,605
+rose_pine_jupyterlab/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/package.json,sha256=ux1GwKDkr3rFT-ddEvgxfr5ygIaCKTvFTUvlCvfVnOE,5618
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/static/158.c3543cab7c0fc52ad76b.js,sha256=w1Q8q3wPxSrXa4txV6u1tVnsH0lNZzNixchl3Q0AqsM,2348
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/static/remoteEntry.735bea7447266cd60f6d.js,sha256=c1vqdEcmbNYPbcXpNA_JR7wHqPbs3ipkArDTgZ4cYWc,6189
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/themes/rose_pine_jupyterlab/index.css,sha256=xlT7KfzQD4is4jR6gknATwG77uAoYccVXKJM6GdTJlw,15989
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/themes/rose_pine_jupyterlab/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rose_pine_jupyterlab-0.2.0.data/data/share/jupyter/labextensions/rose_pine_jupyterlab/install.json,sha256=CpWePMX-9oNFCNQ9bCu0kX0_7GUCvAEpT0_Wy8SlJEE,201
+rose_pine_jupyterlab-0.2.0.dist-info/METADATA,sha256=rUaDsi-4-DYqmaFX27VZo2jki4wQ59ZPUtXoOgTQJgI,6749
+rose_pine_jupyterlab-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+rose_pine_jupyterlab-0.2.0.dist-info/RECORD,,
