@@ -1,0 +1,11 @@
+bm23id24_xas/LCA.py,sha256=lzE2sibMLo1aRBqoclYM2MGEPWWBwECGzZ9oRcsqEDI,4246
+bm23id24_xas/MCR_ALS.py,sha256=f8puKC7omgWMSqlIlbs9XLrt0CoyxOylDZo5wRU6MyI,14436
+bm23id24_xas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bm23id24_xas/pca_estimator.py,sha256=xcatqZjMI_BAaZXREJQcqFIJpmePnJNgQOHRRFuMMYQ,21401
+bm23id24_xas/xas_v2_6.py,sha256=fVdirBX47DgQ1L_ysDqZDPkG-iLj93B8Mr4ZtYiFsVs,23154
+bm23id24_xas/xasproc_v2_82.py,sha256=ClXWZuMBKwttlTvAihWTbvHkrCof5zmK5c6TXAxMdMk,33956
+bm23id24_xas-0.0.13.dist-info/LICENSE.md,sha256=I8P5IJ9mBX4NMYgDFMBPKDb_1dN9mL75tfFNRp7mJNo,1062
+bm23id24_xas-0.0.13.dist-info/METADATA,sha256=Gba8zNNerlGRxv8dVZlCCiQ5DjvYj5oyC1MBeYMmy-I,1930
+bm23id24_xas-0.0.13.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bm23id24_xas-0.0.13.dist-info/top_level.txt,sha256=-hCw-ufxhcFqQCXRE1tuBN483pjJ9znC2GrMeJAtCjo,13
+bm23id24_xas-0.0.13.dist-info/RECORD,,
