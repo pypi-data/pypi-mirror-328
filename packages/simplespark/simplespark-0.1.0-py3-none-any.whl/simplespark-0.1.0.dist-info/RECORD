@@ -1,0 +1,16 @@
+simplespark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplespark/config.py,sha256=nr5XT4QWR6iY0fqt_rL9qICLrQd91SdRPQQ7VlgpdZI,3826
+simplespark/environment.py,sha256=vOqrs30Kz_LCxrMILMXlPEPdhUdzp61bHamtxoF_MRw,2861
+simplespark/run.py,sha256=b-udeeCsxZeMmybGx9ymYlGSQehxL7Pm88bFrXJbr7o,502
+simplespark/templates.py,sha256=JLr7jtNSmOp0WurfD6RDjZSR0JVmwIRttXfrdPqvBEQ,2605
+simplespark/setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplespark/setup/build.py,sha256=Vw_rG-3fvroPRGwIuKt7uWrvR5uBg9t-9K8iNmlAAhs,2063
+simplespark/setup/tasks.py,sha256=vgaXmdKbB42SZbUer3qerv7Seo2-zx0sCTlCwC3STSg,6360
+simplespark/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplespark/utils/maven.py,sha256=btl5AsOK5vqOqwTFiritBqGGC5mzizGnSNSlo3MV3aw,841
+simplespark/utils/network.py,sha256=SN5TkbzvGmD00M1A0b8bKUQwrxGicUQQUc-R64gcN5Q,326
+simplespark/utils/shell.py,sha256=a8Pzc0z8reLTv2HuoAI93SUtuBctEEJqqEdWBZ4bgQo,641
+simplespark-0.1.0.dist-info/METADATA,sha256=yrLV_y3OH4ZgvGeAV-jjKQzsA9eB-G_44GQqK_ltxsY,385
+simplespark-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+simplespark-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simplespark-0.1.0.dist-info/RECORD,,
