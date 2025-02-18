@@ -1,0 +1,58 @@
+Metadata-Version: 2.2
+Name: nitslog
+Version: 1.0.0
+Summary: A simple task logger application
+Home-page: https://github.com/yourusername/tasklogger
+Author: Nityanand Mathur
+Author-email: nityanandmathur@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: prompt_toolkit
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# TaskLogger
+
+TaskLogger is a simple command-line application for managing tasks. It allows you to add, view, edit, and delete tasks, and it automatically generates an HTML file to display the tasks.
+
+## Features
+
+- Add new tasks
+- View existing tasks
+- Edit tasks
+- Delete tasks
+- Generate HTML file for tasks
+- Push changes to GitHub
+
+## Installation
+
+You can install TaskLogger from PyPI:
+
+```bash
+pip install tasklogger
+```
+
+## Usage
+After installing, you can run the TaskLogger application using the following command:
+```bash
+nitslog
+```
+
+### Commands
+1. n - Add a new task
+2. v - View a task
+3. e - Edit a task
+4. d - Delete a task
+5. q - Quit the application
+
