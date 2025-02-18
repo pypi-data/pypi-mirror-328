@@ -1,0 +1,6 @@
+transformer_lm_gan/__init__.py,sha256=tgv1-KgPPPfYMvaYK61bkoBxwpfg4DsI3_X58cxfvWY,109
+transformer_lm_gan/transformer_lm_gan.py,sha256=tshhSiCmaicAksrbBnClA0KTe5ZiSX85gjbGMdFglTE,9009
+transformer_lm_gan-0.0.1.dist-info/METADATA,sha256=E73sbUw9Ykh53zCqEv8qUy4PnRAbPakIFpXQMfv6FYA,4211
+transformer_lm_gan-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+transformer_lm_gan-0.0.1.dist-info/licenses/LICENSE,sha256=1yCiA9b5nhslTavxPjsQAO-wpOnwJR9-l8LTVi7GJuk,1066
+transformer_lm_gan-0.0.1.dist-info/RECORD,,
