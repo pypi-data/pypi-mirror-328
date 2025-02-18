@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+S3IncrementalProcessor.egg-info/PKG-INFO
+S3IncrementalProcessor.egg-info/SOURCES.txt
+S3IncrementalProcessor.egg-info/dependency_links.txt
+S3IncrementalProcessor.egg-info/top_level.txt
