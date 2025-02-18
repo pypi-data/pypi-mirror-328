@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/stdpipeIO/__init__.py
+src/stdpipeIO/std_pipe_io.py
+src/stdpipeIO.egg-info/PKG-INFO
+src/stdpipeIO.egg-info/SOURCES.txt
+src/stdpipeIO.egg-info/dependency_links.txt
+src/stdpipeIO.egg-info/top_level.txt
+tests/test_stdpipeio.py
