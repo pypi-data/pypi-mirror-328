@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: quickmlops
+Version: 0.0.1
+Summary: quickmlops
+Author: Jordo993
+Author-email: jordan.m.young0@gmail.com
+Keywords: python3,mlops,machine learning
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: toml
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+MLOPs SDK
