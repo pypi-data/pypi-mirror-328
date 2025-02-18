@@ -1,0 +1,9 @@
+ImageProcessorsModule/KerasGeneratorProcessors.py,sha256=qGLiNCDHqRwGhBs_3D4eWVO1hO2EdYfSxXL6mXZOhz4,48116
+ImageProcessorsModule/MakeTFRecordProcessors.py,sha256=87vwnfYAVWXWaf9S-S1WZ2L8r190yCr5lDUiVi7Od1w,152536
+ImageProcessorsModule/TFDataSetProcessors.py,sha256=Wr3eblR7WlVxBSNUNR1s5LLN1xjxm8maU3P7DG5j4eQ,49636
+ImageProcessorsModule/TFRecordWriter.py,sha256=olJJfCSp904l2tc3eb1Qy1SDLRn4YqE9BpSVXR8Sc4s,14401
+ImageProcessorsModule/__init__.py,sha256=lJMCVwksLAv4Mz1OpoRkqpETv93ivYP1FbgmTgNH-yU,56
+ImageProcessorsModule-0.0.1.dist-info/METADATA,sha256=LM32zXOjHPUQwhcf4025YoSlP8zjk1zPxZNnpoZkfPw,1031
+ImageProcessorsModule-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ImageProcessorsModule-0.0.1.dist-info/top_level.txt,sha256=7YP3q7PhInHHI_A-F3KTRUUJUlw1cYZkGaLA0lsRR4s,22
+ImageProcessorsModule-0.0.1.dist-info/RECORD,,

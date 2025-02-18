@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ImageProcessorsModule
+Version: 0.0.1
+Summary: Services for processing and creating tensorflow or pytorch records
+Home-page: https://github.com/brianmanderson/https://github.com/brianmanderson/Image_Processors_Module
+Author: Brian Mark Anderson
+Author-email: markba122@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: SimpleITK
+Requires-Dist: PlotScrollNumpyArrays
+Requires-Dist: NiftiResampler
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+
+# Image_Processors
+## All of the image processors for various generators and record makers
+### Image_Processors_DataSet -> Fed into Data_Generators TFRecord_to_Dataset_Generator
+### Image_Processors_Keras_Generator -> Fed into Data_Generators Keras_Generators
+### Image_Processors_TFRecord -> Fed into Make_Single_Images Make_TFRecord_Class
