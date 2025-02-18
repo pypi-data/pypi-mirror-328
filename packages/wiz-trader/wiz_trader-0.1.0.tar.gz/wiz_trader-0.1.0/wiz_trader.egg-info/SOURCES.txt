@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+apis/__init__.py
+apis/client.py
+tests/test_apis.py
+tests/test_quotes.py
+ticker/__init__.py
+ticker/client.py
+wiz_trader.egg-info/PKG-INFO
+wiz_trader.egg-info/SOURCES.txt
+wiz_trader.egg-info/dependency_links.txt
+wiz_trader.egg-info/requires.txt
+wiz_trader.egg-info/top_level.txt
