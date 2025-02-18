@@ -1,0 +1,19 @@
+[project]
+name = "idade3x-yan"
+version = "0.1.4"
+description = ""
+authors = [
+    {name = "Yankarlos Dias e Santos",email = "yanzeradev@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "idade3x_yan", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
