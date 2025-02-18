@@ -1,0 +1,28 @@
+cython>=0.28
+numpy<1.27,>=1.21
+scikit-image>=0.14
+matplotlib>=3.0.2
+imageio-ffmpeg>=0.4
+pandas
+joblib>=0.11
+
+[:python_version < "3.10"]
+scipy<=1.7.1
+
+[:python_version >= "3.10"]
+scipy>=1.0.1
+
+[dev]
+dask
+h5py
+pytest>=5
+pytest-cov
+coveralls
+flake8
+mock
+black
+tox
+seaborn
+pyswarm
+scikit-learn
+neuropythy
