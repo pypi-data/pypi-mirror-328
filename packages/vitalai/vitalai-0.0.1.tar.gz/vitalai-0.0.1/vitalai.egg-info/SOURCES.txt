@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vitalai/__init__.py
+vitalai.egg-info/PKG-INFO
+vitalai.egg-info/SOURCES.txt
+vitalai.egg-info/dependency_links.txt
+vitalai.egg-info/requires.txt
+vitalai.egg-info/top_level.txt
