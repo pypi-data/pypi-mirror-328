@@ -1,0 +1,10 @@
+sigstickers/__init__.py,sha256=PkjgJHDnWIBkzMwxC5JnUp0wfLM5YB4pk8d85drIg2s,101
+sigstickers/__main__.py,sha256=1dq2LRlIDfAYPZNJnVX2SJJalkcWYNaQeGP5TncgRIA,85
+sigstickers/caching.py,sha256=QNTlN5fh_9bObPA8JVvlJrAWt5yXTsaDr6jGVI1jDIw,2560
+sigstickers/cli.py,sha256=C4lpv408yXJvG1LyfJJh6IwLjLCT9uLVoEIPPefQwqM,1590
+sigstickers/downloader.py,sha256=PM190eSMfwtSJwhrocZXViebBqBrkpitNuLceLgyn7M,4620
+sigstickers-2025.dist-info/METADATA,sha256=qWOT_PDplbSc5ZBZOdXQATR1SEKSpIxQo7ltp7WSPks,13738
+sigstickers-2025.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+sigstickers-2025.dist-info/entry_points.txt,sha256=5oYPiszfjgmgR2l6kLSElNIkR147wHd293aqkZOQgFU,48
+sigstickers-2025.dist-info/licenses/LICENSE.md,sha256=M2dQSFkANyrODdEO72pAOYZZY7gpwZBd6OpfKUIf_8w,1067
+sigstickers-2025.dist-info/RECORD,,
