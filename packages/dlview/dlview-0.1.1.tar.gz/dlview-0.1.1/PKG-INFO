@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dlview
+Version: 0.1.1
+Summary: A data print helper for deep learning projects
+Home-page: 
+Author: Lihao Wang
+Author-email: lihaowang@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+dlview is a deep learning print helper that recursively prints complex data structures (e.g., dictionaries, lists, Pytorch Tensors, NumPy arrays and mmcv DataContainer) in a readable format.
+
+How to use:
+
+```
+from dlview import view
+view(var_name)   # var_name is your variable to print
+```
+
+
+
