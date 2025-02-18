@@ -1,0 +1,86 @@
+[project]
+name = "lintr"
+dynamic = ["version"]
+description = "A Python-based command-line application to lint and enforce consistent settings across GitHub repositories"
+authors = [
+    { name = "Jens Keiner", email = "jens.keiner@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "PyGithub",
+    "pydantic>=2.5.3",
+    "pydantic-settings>=2.1.0",
+    "PyYAML>=6.0.1",
+    "colorama>=0.4.6",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.3",
+    "pytest-cov>=4.1.0",
+    "pre-commit>=3.6.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.21.1"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+PyGithub = { git = "https://github.com/jenskeiner/PyGithub", branch = "feature/add-rules-and-rulesets" }
+
+[tool.hatch.build.targets.editable]
+path = "src"
+install-deps = true
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/lintr/**",
+  "tests/**",
+]
+
+[tool.hatch.version]
+source = "env"
+variable = "PACKAGE_VERSION"
+
+[tool.pytest.ini_options]
+#addopts = "--cov=lintr --cov-report=term-missing --cov-report=html"
+testpaths = ["tests"]
+
+[project.scripts]
+lintr = "lintr.cli:main"
+
+[project.entry-points."lintr.rules"]
+default_branch_exists = "lintr.rules.branch_rules:DefaultBranchExistsRule"
+web_commit_signoff_required = "lintr.rules.branch_rules:WebCommitSignoffRequiredRule"
+single_owner = "lintr.rules.permission_rules:SingleOwnerRule"
+no_collaborators = "lintr.rules.permission_rules:NoCollaboratorsRule"
+wikis_disabled = "lintr.rules.permission_rules:WikisDisabledRule"
+issues_disabled = "lintr.rules.permission_rules:IssuesDisabledRule"
+preserve_repository = "lintr.rules.general:PreserveRepositoryRule"
+discussions_disabled = "lintr.rules.general:DiscussionsDisabledRule"
+projects_disabled = "lintr.rules.general:ProjectsDisabledRule"
+merge_commits_allowed = "lintr.rules.permission_rules:MergeCommitsAllowedRule"
+squash_merge_disabled = "lintr.rules.permission_rules:SquashMergeDisabledRule"
+rebase_merge_disabled = "lintr.rules.permission_rules:RebaseMergeDisabledRule"
+delete_branch_on_merge = "lintr.rules.branch_rules:DeleteBranchOnMergeRule"
+auto_merge_disabled = "lintr.rules.branch_rules:AutoMergeDisabledRule"
+gitflow_branch_naming = "lintr.rules.gitflow:GitFlowBranchNamingRule"
+gitflow_default_branch = "lintr.rules.gitflow:GitFlowDefaultBranchRule"
+no_classic_branch_protection = "lintr.rules.permission_rules:NoClassicBranchProtectionRule"
+develop_branch_ruleset = "lintr.rules.permission_rules:DevelopBranchRulesetRule"
+main_branch_ruleset = "lintr.rules.permission_rules:MainBranchRulesetRule"
+
+[project.entry-points."lintr.rule_sets"]
+default = "lintr.rules.default_rule_set:get_default_rule_set"
