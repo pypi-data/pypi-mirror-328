@@ -1,0 +1,64 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "pydantic-function-models"
+dynamic = []
+description = "Migrating v1 Pydantic ValidatedFunction to v2."
+authors = [
+    { name = "Louis Maddox", email = "louismmx@gmail.com" },
+]
+keywords = [
+    "pydantic",
+    "serialization",
+    "deserialization",
+    "parsing",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Topic :: Software Development :: Libraries",
+    "Framework :: Pydantic",
+    "Framework :: Pydantic :: 2",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "pydantic>=2.1.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+version = "0.1.7"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = [
+    "pdm>=2.22.3",
+    "pdm-bump>=0.9.10",
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
+]
+
+[tool.isort]
+known_first_party = [
+    "pydantic_function_models",
+]
+
+[tool.pdm.version]
+source = "file"
+path = "src/pydantic_function_models/__init__.py"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.0",
+]
