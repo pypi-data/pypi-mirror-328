@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: termgpt
+Version: 1.0.0
+Summary: A chatGPT client on the terminal
+Project-URL: Homepage, https://github.com/tcapelle/termgpt
+Author-email: Thomas Capelle <tcapelle@pm.me>
+License: MIT
+Keywords: artificial intelligence,generative models,natural language processing,openai
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: litellm
+Requires-Dist: rich
+Requires-Dist: simple-parsing
