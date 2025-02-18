@@ -1,0 +1,53 @@
+# release name
+name: ray-cluster
+# image for worker and head pods
+image: rayproject/ray:2.3.0
+# whether or not to always pull image from remote repo
+imagePullPolicy: Always
+
+# dev specifies if remote code should be mounted  
+dev: false 
+
+# if dev is true, the repository that will be mounted
+gitRepo:
+  # git url for repo
+  url: git@github.com:ML4GW/aframev2.git
+  # location where git-sync will store data
+  mountPath: /opt
+  # name relative to mountPath where code will be cloned
+  # and, identifier for git repo in yaml
+  name: aframe
+  # branch or commit on git repo
+  ref: main
+  # ssh key that will be mapped into container for cloning 
+  sshKey: ""
+
+head:
+  # number of cpus for the head pod
+  cpu: "32"
+  # memory for the head pod
+  memory: "32G"
+
+worker:
+  # number of worker pods to create
+  replicas: 1
+  # number of cpus per work pod
+  cpu: "32"
+  # memory per worker pod
+  memory: "32G"
+  # gpus per worker pod
+  gpu: "1"
+  # minimum amount of gpu memory
+  min_gpu_memory: "15000"
+
+# url for s3 cluster
+awsUrl: http://rook-ceph-rgw-nautiluss3.rook
+
+# secret that will be used with worker pods
+secret:
+  # value of WANDB_API_KEY environment variable
+  wandbKey: "" 
+  # value of AWS_ACCESS_KEY_ID environment variable
+  awsId: "" 
+  # value of AWS_SECRET_ACCESS_KEY environment variable
+  awsKey: "" 
