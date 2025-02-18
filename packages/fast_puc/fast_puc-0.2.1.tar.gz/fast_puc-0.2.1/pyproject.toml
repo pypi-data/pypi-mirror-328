@@ -1,0 +1,31 @@
+[project]
+name = "fast_puc"
+version = "0.2.1"
+description = "FaSt_PUC converts numbers to strings with appropriate unit prefix."
+authors = [
+    {name = "Fabian Stutzki", email = "fast@fast-apps.de"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["unit"]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.2.0",
+    "pytest>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://www.fast-apps.de"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+lint.fixable = ["ALL"]
+line-length = 100
