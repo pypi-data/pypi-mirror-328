@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythingd"
+version = "0.1.0"
+description = "A PyForge project for managing Things and their relationships."
+authors = [{name = "Aidan Hogg", email = "aidan.hogg@dirtywork.solutions"}]
+license = {file = "LICENSE.md"}
+readme = "README.md"
+dependencies = [
+    "cachetools",
+    "pydantic",
+    "pyutile"
+]
+
+[project.urls]
+Homepage = "https://open.dirtywork.solutions/pythingd"
+Documentation = "https://open.dirtywork.solutions/pythingd/docs"
+Source = "https://github.com/DirtyWork-Solutions/PyThings"
+Issues = "https://github.com/DirtyWork-Solutions/PyThings/tree/main/.github/ISSUE_TEMPLATE"
+
+[tool.setuptools.packages.find]
+where = ["src"]
