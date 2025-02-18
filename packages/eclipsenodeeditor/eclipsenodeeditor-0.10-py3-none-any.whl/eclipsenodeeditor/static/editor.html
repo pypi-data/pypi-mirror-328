@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html, body, #container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="monaco/vs/editor/editor.main.css">
+</head>
+<body>
+    <div id="container"></div>
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="monaco/vs/loader.js"></script>
+    
+    <script>
+        console.log('Starting Monaco initialization...');
+        require.config({ paths: { 'vs': 'monaco/vs' }});
+        require(['vs/editor/editor.main'], function() {
+            console.log('Monaco loaded, setting up editor...');
+            
+            // Initialize WebChannel for PyQt communication
+            new QWebChannel(qt.webChannelTransport, function(channel) {
+                console.log('WebChannel initialized...');
+                window.bridge = channel.objects.bridge;
+                
+                // Register Python language
+                monaco.languages.register({ id: 'python' });
+                console.log('Python language registered...');
+                
+                // Create the editor
+                window.editor = monaco.editor.create(document.getElementById('container'), {
+                    value: '# Create your custom node here\nfrom eclipsenodeeditor import Node, Socket\n\nclass CustomNode(Node):\n    def __init__(self, x, y):\n        super().__init__(x, y, "Custom Node")\n        # Add your node initialization here\n\ntest = Node(100, 300)\n\ntest',
+                    language: 'python',
+                    theme: 'vs-dark',
+                    automaticLayout: true,
+                    minimap: {
+                        enabled: true
+                    },
+                    fontSize: 14,
+                    lineNumbers: 'on',
+                    roundedSelection: true,
+                    scrollBeyondLastLine: false,
+                    readOnly: false,
+                    cursorStyle: 'line',
+                    tabSize: 4,
+                    insertSpaces: true,
+                    wordWrap: 'on',
+                    parameterHints: {
+                        enabled: true
+                    },
+                    suggest: {
+                        showMethods: true,
+                        showFunctions: true,
+                        showConstructors: true,
+                        showFields: true,
+                        showVariables: true,
+                        showClasses: true,
+                        showProperties: true,
+                        showEvents: true,
+                        showOperators: true,
+                        showUnits: true,
+                        showValues: true,
+                        showConstants: true,
+                        showEnums: true,
+                        showEnumMembers: true,
+                        showKeywords: true,
+                        showWords: true,
+                        showColors: true,
+                        showFiles: true,
+                        showReferences: true,
+                        showFolders: true,
+                        showTypeParameters: true,
+                        showSnippets: true,
+                        showUsers: true
+                    }
+                });
+                console.log('Editor created...');
+
+                // Set up auto-save
+                let saveTimeout = null;
+                editor.onDidChangeModelContent(() => {
+                    // Clear previous timeout
+                    if (saveTimeout) {
+                        clearTimeout(saveTimeout);
+                    }
+                    
+                    // Set new timeout to save after 500ms of no typing
+                    saveTimeout = setTimeout(() => {
+                        const content = editor.getValue();
+                        bridge.save_file(content).then(() => {
+                            console.log('File saved');
+                        }).catch(error => {
+                            console.error('Error saving file:', error);
+                        });
+                    }, 500);
+                });
+
+                // Register completion provider
+                monaco.languages.registerCompletionItemProvider('python', {
+                    triggerCharacters: ['.', 'from ', 'import ', '('],
+                    provideCompletionItems: function(model, position) {
+                        console.log('Completion requested...', position);
+                        return new Promise((resolve) => {
+                            const word = model.getWordUntilPosition(position);
+                            console.log('Current word:', word);
+                            
+                            const range = {
+                                startLineNumber: position.lineNumber,
+                                endLineNumber: position.lineNumber,
+                                startColumn: word.startColumn,
+                                endColumn: word.endColumn
+                            };
+
+                            // Get context for intelligent completions
+                            const lineContent = model.getLineContent(position.lineNumber);
+                            console.log('Current line:', lineContent);
+                            
+                            // Always include the full file content and ensure line numbers are 0-based
+                            const context = {
+                                line: lineContent,
+                                position: {
+                                    lineNumber: position.lineNumber - 1,  // Convert to 0-based for Python
+                                    column: position.column
+                                },
+                                fileContent: model.getValue()  // Include file content at top level
+                            };
+
+                            console.log('Sending context to Python:', context);
+                            // Get completions from Python
+                            bridge.get_completions(JSON.stringify(context)).then(function(result) {
+                                console.log('Got completions from Python:', result);
+                                const suggestions = JSON.parse(result).suggestions;
+                                resolve({
+                                    suggestions: suggestions.map(s => ({
+                                        ...s,
+                                        range: range,
+                                        kind: monaco.languages.CompletionItemKind[s.kind] || monaco.languages.CompletionItemKind.Text
+                                    }))
+                                });
+                            }).catch(function(error) {
+                                console.error('Error getting completions:', error);
+                                resolve({ suggestions: [] });
+                            });
+                        });
+                    }
+                });
+
+                // Register signature help provider
+                monaco.languages.registerSignatureHelpProvider('python', {
+                    signatureHelpTriggerCharacters: ['(', ','],
+                    provideSignatureHelp: function(model, position) {
+                        return new Promise((resolve) => {
+                            const lineContent = model.getLineContent(position.lineNumber);
+                            const context = {
+                                line: lineContent,
+                                position: {
+                                    lineNumber: position.lineNumber,
+                                    column: position.column
+                                },
+                                fileContent: model.getValue(),
+                                type: 'signature'
+                            };
+
+                            bridge.get_completions(JSON.stringify(context)).then(function(result) {
+                                const data = JSON.parse(result);
+                                if (data.signatures) {
+                                    resolve({
+                                        value: {
+                                            signatures: data.signatures,
+                                            activeSignature: 0,
+                                            activeParameter: data.activeParameter || 0
+                                        },
+                                        dispose: () => {}
+                                    });
+                                } else {
+                                    resolve(null);
+                                }
+                            }).catch(() => resolve(null));
+                        });
+                    }
+                });
+
+                console.log('Completion and signature providers registered...');
+            });
+        });
+    </script>
+</body>
+</html> 
