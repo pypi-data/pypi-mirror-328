@@ -1,0 +1,37 @@
+Transform the input command by:
+1. Converting dollar amounts to ETH using convert_dollar_amount_to_eth
+2. Adding $ prefix to token symbols
+3. Adding token addresses in parentheses after symbols
+
+Tools available:
+- get_token_address_tool: Looks up token address for a symbol
+- convert_dollar_amount_to_eth: Converts USD amount to ETH amount
+
+Important notes:
+- Always fetch fresh ETH price for each conversion
+- Always use address 0x4200000000000000000000000000000000000006 for ETH
+- Always add $ prefix to token symbols
+
+Example transformation:
+Input: "swap $300 for cbBTC"
+Steps:
+1. Get cbBTC address via get_token_address_tool
+2. Convert $300 to ETH via convert_dollar_amount_to_eth
+3. Format as: "swap 0.1010 ETH (0x4200000000000000000000000000000000000006) for $cbBTC (0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf)"
+
+Response format:
+{
+    "error_message": null,
+    "content": {
+        "caller": "@user",
+        "user_request": "<transformed_request>"
+    }
+}
+
+If there's an error (e.g., token not found):
+- Set content to null
+- Include error message
+
+Special cases:
+- "$X of ETH" -> Convert to "Y ETH (0x4200000000000000000000000000000000000006)"
+- Normalize "Ethereum"/"eth" to "ETH (0x4200000000000000000000000000000000000006)"
