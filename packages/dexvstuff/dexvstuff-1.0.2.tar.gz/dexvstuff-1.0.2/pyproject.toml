@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dexvstuff"
+version = "1.0.2"
+description = "Stuff i use in my projects"
+authors = [{ name = "Dexv", email = "dexv@dexv.lol" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[tool.setuptools]
+packages = ["dexvstuff"]
