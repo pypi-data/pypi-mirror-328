@@ -1,0 +1,9 @@
+JdDataCollection/__init__.py,sha256=Awv5uA4UucUUHL5lcmLT_dZFjiJXD5RABKfEFTc9Hdk,61
+JdDataCollection/_utils.py,sha256=SQHEOgxygOuyFu9BdKgyFf27_LmvdSzceHRiuMlE7IQ,7809
+JdDataCollection/collector.py,sha256=EWN4Q8PqCAaTPehYNXlFOSkT2Lpq039eDB5R1akgIZI,1049
+JdDataCollection/customer_service/customer_service.py,sha256=W8SW0n6xQvcnBZRlgpRecG2u-BNEIVF0w-2l6Lzsqbg,549
+JdDataCollection/customer_service/reception_data.py,sha256=83Xrrt4odJcmCNnuEmhOBIPGWGEhRloTU8WL0h8liig,3189
+jd_data_collection-1.0.1.dist-info/LICENSE,sha256=abvuwGBKwUYguYGotWKXpzv-uL5iTs6J2ZDN7PMOmfw,1090
+jd_data_collection-1.0.1.dist-info/METADATA,sha256=7RFc_I7npnwHbaFge6J2pWvAcAvnrngFnF10qLTwW04,1143
+jd_data_collection-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jd_data_collection-1.0.1.dist-info/RECORD,,

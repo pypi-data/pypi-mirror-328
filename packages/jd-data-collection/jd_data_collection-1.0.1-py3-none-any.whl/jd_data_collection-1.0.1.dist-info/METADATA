@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: jd-data-collection
+Version: 1.0.1
+Summary: JD Background data collection
+License: MIT
+Author: martianbugs
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: drissionpage (>=4.1.0.17,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# jd-data-collection
+京东(京麦)后台数据采集工具
+
+## 安装
+```bash
+pip install jd-data-collection
+```
+
+## 使用方法
+### 连接浏览器
+```python
+from JdDataCollection import Collector
+
+collector = Collector()
+collector.connect_browser(port=9527)
+```
+
+### 下载客服绩效文件
+```python
+shop_name, file_path = collector.customer_service.reception_data.download__customer_service__detail(
+    date='2025-02-06',
+    save_path=r'C:\Users\sanrose\Desktop\temp\客服数据报表',
+    save_name='京东_客服数据_20250206',
+    open_page=False,
+    get_shop_name=True
+)
+```
