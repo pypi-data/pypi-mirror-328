@@ -1,0 +1,20 @@
+# Include all Python files from the 'codejump' directory
+recursive-include codejump *.py
+
+# Include the README.md and LICENSE files for PyPI
+include README.md
+include LICENSE
+
+# Include requirements.txt (if you have it)
+include requirements.txt
+
+# Exclude unnecessary files
+global-exclude .venv/*
+global-exclude __pycache__/*
+global-exclude *.pyc
+global-exclude *.pyo
+
+# Exclude build and distribution artifacts
+global-exclude dist/*
+global-exclude build/*
+global-exclude *.egg-info/*
