@@ -1,0 +1,11 @@
+numpy<2.0,>=1.23
+matplotlib<4.0
+pypulseq>=1.4.2
+
+[dev]
+coverage
+codecov
+pre-commit
+pytest
+pytest-cov
+pytest-xdist
