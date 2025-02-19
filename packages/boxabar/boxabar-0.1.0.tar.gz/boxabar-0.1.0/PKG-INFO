@@ -1,0 +1,79 @@
+Metadata-Version: 2.2
+Name: boxabar
+Version: 0.1.0
+Summary: Turli xil xabar yuborish usullarini qo'llab-quvvatlovchi Python kutubxonasi
+Home-page: https://github.com/jaloliddinswe/boxabar
+Author: Jaloliddin SWE
+Author-email: jaloliddinswe@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+Boxabar - bu turli xil xabar yuborish usullarini (SMS, Email, Telegram) qo'llab-quvvatlovchi Python kutubxonasi.
+
+## O'rnatish
+
+```bash
+pip install boxabar
+```
+
+## Foydalanish usuli
+
+### SMS xabar yuborish
+
+```python
+from boxabar import SMSMessenger, Message
+
+# Messenger yaratish
+sms = SMSMessenger(config={
+    'default_sender': '+998901234567'
+})
+
+# Xabar yuborish
+xabar = Message(
+    text="Salom, bu test xabar!",
+    sender="+998901234567",
+    recipient="+998901234568"
+)
+sms.send(xabar)
+
+# Yoki qisqaroq usul
+sms.send("Bu ham test xabar")
+```
+
+### Email xabar yuborish
+
+```python
+from boxabar import EmailMessenger
+
+email = EmailMessenger(config={
+    'default_sender': 'noreply@example.com',
+    'default_subject': 'Muhim xabar'
+})
+
+email.send("Bu email xabar matni")
+```
+
+### Telegram xabar yuborish
+
+```python
+from boxabar import TelegramMessenger
+
+telegram = TelegramMessenger(config={
+    'bot_token': '12345:ABCdefGHIjklMNOpqrSTUvwxYZ',
+    'bot_username': 'BoxabarTestBot',
+    'chat_id': '123456789'
+})
+
+telegram.send("Telegram orqali yuborilgan xabar")
+```
