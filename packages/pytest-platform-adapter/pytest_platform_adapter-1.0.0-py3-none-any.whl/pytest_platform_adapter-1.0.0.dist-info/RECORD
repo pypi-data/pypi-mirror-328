@@ -1,0 +1,8 @@
+pytest_platform_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_platform_adapter/plugin.py,sha256=xNdbIscIhajhfe4EJOvdNw2psrjrTV-uofdCCSlOJZU,10336
+pytest_platform_adapter-1.0.0.dist-info/LICENSE,sha256=QOkNlcvUHENY86LE8OEpmtwMM24v76pgF4FmkEk8aXI,1064
+pytest_platform_adapter-1.0.0.dist-info/METADATA,sha256=afNaCFnL1KfaykAo8e3V7Y3rQY4AOAc1tC49iiiecRE,7010
+pytest_platform_adapter-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pytest_platform_adapter-1.0.0.dist-info/entry_points.txt,sha256=VorMHllVSkGNUUsVJOCrDMeW0-oLco5XcrmdfxND48c,61
+pytest_platform_adapter-1.0.0.dist-info/top_level.txt,sha256=OnTaKf7GCc7yqBHQ4H2XLK8PAz7oHslUZKEsd1t5BpA,24
+pytest_platform_adapter-1.0.0.dist-info/RECORD,,
