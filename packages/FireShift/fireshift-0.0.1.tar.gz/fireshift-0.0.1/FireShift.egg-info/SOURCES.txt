@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireShift/__init__.py
+FireShift.egg-info/PKG-INFO
+FireShift.egg-info/SOURCES.txt
+FireShift.egg-info/dependency_links.txt
+FireShift.egg-info/top_level.txt
