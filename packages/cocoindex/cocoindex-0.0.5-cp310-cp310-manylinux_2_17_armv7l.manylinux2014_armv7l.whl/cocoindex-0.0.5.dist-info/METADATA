@@ -1,0 +1,69 @@
+Metadata-Version: 2.4
+Name: cocoindex
+Version: 0.0.5
+Requires-Dist: sentence-transformers>=3.3.1
+Requires-Dist: click>=8.1.8
+Summary: With CocoIndex, users declare the transformation, CocoIndex creates & maintains an index, and keeps the derived index up to date based on source update, with minimal computation and changes.
+Author-email: CocoIndex <cocoindex.io@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://cocoindex.io/
+
+![CocoIndex](https://github.com/user-attachments/assets/2002d260-65f3-47a2-ab09-4cfacbe84835)
+
+[![CI](https://github.com/cocoIndex/cocoindex/actions/workflows/CI.yml/badge.svg)](https://github.com/cocoIndex/cocoindex/actions/workflows/CI.yml)
+[![UI](https://github.com/cocoIndex/cocoindex/actions/workflows/ui.yml/badge.svg)](https://github.com/cocoIndex/cocoindex/actions/workflows/ui.yml)
+
+**CocoIndex is an understandable, scalable, maintainable cloud-native infra to prepare your data for semantic search/RAG, with lineage and observability.**
+
+What we can help is connecting to all the data sources (can be per tenant),  helping you identify/setup the best indexing strategy & pipeline (chunking, embedding model, deduping/reconciling, vector stores, knowledge graph), and providing standard API.  Building the state of art and robust base for indexing is what we really excel at. So you can focus on building your application with a robust base, and not worry about scalability, reliability etc.  
+
+## Setup Backend Locally
+
+### Prerequisites
+
+1.  Install Docker Compose: [docs](https://docs.docker.com/compose/install/)
+
+2.  Install rust toolchain: [docs](https://rust-lang.org/tools/install)
+
+3.  Start a Postgres SQL database for cocoindex. For development purpose, you can bring this up by docker compose:
+
+    ```bash
+    docker compose up -d
+    ```
+
+## Run the development server:
+
+### (Optional) Setup and activate python virtual environment
+
+```bash
+virtualenv --python=$(which python3.12) .venv
+. .venv/bin/activate
+```
+
+### Install maturin
+
+```bash
+pip install maturin
+```
+
+### Build the library
+
+Run the following commands:
+
+```bash
+maturin develop
+```
+
+### Extra trace for engine debugging (optional)
+
+Run the following command to set extra environment variables, to debug the cocoindex library, for exposing extra traces, allowing dev UI, etc.
+
+```bash
+. .env.lib_debug
+```
+
+### Run a specific example
+
+Then cd into any example directory and run a specific example.
