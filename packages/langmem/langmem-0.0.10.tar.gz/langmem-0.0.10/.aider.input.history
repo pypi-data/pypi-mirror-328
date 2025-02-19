@@ -1,0 +1,35 @@
+
+# 2025-02-07 13:20:42.113865
++n
+
+# 2025-02-07 13:20:50.383059
++in python how do i measure import time
+
+# 2025-02-07 13:37:53.284681
++n
+
+# 2025-02-07 13:37:59.425515
++in python how do i measure import time
+
+# 2025-02-08 18:25:19.113658
++n
+
+# 2025-02-08 18:25:22.648697
++wd this mean? "Uploading langmem-0.0.7rc1-py3-none-any.whl (52.0KiB)
++error: Failed to publish `dist/langmem-0.0.7rc1-py3-none-any.whl` to https://upload.pypi.org/legacy/
++  Caused by: Upload failed with status code 400 Bad Request. Server says: 400 license-file introduced in metadata version 2.4, not 2.2. See https://packaging.python.org/specifications/core-metadata for more information."
+
+# 2025-02-08 18:25:29.159534
++s
+
+# 2025-02-08 18:25:44.772780
++y
+
+# 2025-02-10 15:44:18.316727
++no
+
+# 2025-02-10 15:44:46.274900
++write a bash one-liner to find docs -name "*.md" and then pbcopy the contents with the relative path at the top of each doc
+
+# 2025-02-10 15:44:55.385342
++no
