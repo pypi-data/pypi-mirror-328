@@ -1,0 +1,14 @@
+README.md
+setup.py
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/PKG-INFO
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/SOURCES.txt
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/dependency_links.txt
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/entry_points.txt
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/requires.txt
+Informatica_Migration_Bilvantis_StreamlitApp.egg-info/top_level.txt
+streamlit_app/__init__.py
+streamlit_app/app.py
+streamlit_app/handle_transformation.py
+streamlit_app/launcher.py
+streamlit_app/metadata_topology.py
+streamlit_app/process.py

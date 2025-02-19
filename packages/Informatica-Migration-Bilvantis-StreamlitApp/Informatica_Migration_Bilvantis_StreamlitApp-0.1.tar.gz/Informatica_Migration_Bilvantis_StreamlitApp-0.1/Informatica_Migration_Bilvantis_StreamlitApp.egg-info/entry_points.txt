@@ -1,0 +1,2 @@
+[console_scripts]
+informatica_migration_app = streamlit_app.launcher:run_streamlit

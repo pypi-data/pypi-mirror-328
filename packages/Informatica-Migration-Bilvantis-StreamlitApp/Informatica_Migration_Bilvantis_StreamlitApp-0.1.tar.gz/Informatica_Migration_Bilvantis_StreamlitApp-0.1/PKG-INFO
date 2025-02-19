@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Informatica_Migration_Bilvantis_StreamlitApp
+Version: 0.1
+Summary: A Streamlit app to convert Informatica mapping XML to SQL queries.
+Home-page: https://github.com/RajeshPatilBilvantis/setup_git_package_demo.git
+Author: Rajesh Patil
+Author-email: rajesh@bilvantis.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyvis==0.3.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: streamlit==1.41.1
+
+# Streamlit_informatica
