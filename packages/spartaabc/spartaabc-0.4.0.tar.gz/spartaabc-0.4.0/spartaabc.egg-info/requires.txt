@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+pyarrow
+biopython
+msasim
+msastats
