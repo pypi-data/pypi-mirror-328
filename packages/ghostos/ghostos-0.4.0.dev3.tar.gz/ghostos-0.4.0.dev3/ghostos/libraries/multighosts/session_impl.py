@@ -1,0 +1,1 @@
+from ghostos.libraries.multighosts.abs_impl import AbsMultiGhosts
