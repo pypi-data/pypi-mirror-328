@@ -1,0 +1,3 @@
+# (generated with --quick)
+
+def is_iterable(x) -> bool: ...

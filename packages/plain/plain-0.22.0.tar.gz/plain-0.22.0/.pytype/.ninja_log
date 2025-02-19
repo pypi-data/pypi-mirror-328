@@ -1,0 +1,24 @@
+# ninja log v5
+2	569	1737047894229075963	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/utils/hashable.pyi	5010e8b9806952aa
+569	1963	1737047895617238051	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/logs/utils.pyi	685d3284fe18db73
+1963	3388	1737047897034941817	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/logs/loggers.pyi	25ae904bf284660d
+3388	4932	1737047898584788735	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/logs/configure.pyi	dcfdc29539e4e806
+1	1328	1737047998551685761	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/utils/module_loading.pyi	2ff5dc31190c36e3
+1	1538	1737048902649678938	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/config.pyi	c89c50532de00b3
+1538	2777	1737048903892639761	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/__init__.pyi-1	a84e90ed3b62c5a4
+2777	4333	1737048905443676733	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/registry.pyi-1	a56ce0c1ec10d86a
+4333	5845	1737048906955929860	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/runtime/user_settings.pyi-1	835ea6b06714855f
+5845	7119	1737048908234737879	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/__init__.pyi	355a7df1b40889f4
+7119	8748	1737048909856341084	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/registry.pyi	33490e0a6fcc981f
+1	1299	1737049110361795162	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/logs/__init__.pyi	7e2313244a1cd37b
+1299	2807	1737049111865183260	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/registry.pyi-1	a56ce0c1ec10d86a
+2807	4286	1737049113345043128	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/runtime/user_settings.pyi-1	835ea6b06714855f
+4286	5827	1737049114883781300	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/packages/registry.pyi	33490e0a6fcc981f
+5827	7448	1737049116502968603	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/runtime/user_settings.pyi	3db10441099b85e4
+7448	9094	1737049118149977569	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/signals/dispatch/dispatcher.pyi	8e629cc780e2a02f
+9094	10484	1737049119545728620	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/internal/files/base.pyi	928c30c16d652b42
+10484	11023	1737049120092064305	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/forms/exceptions.pyi	813bbd8cccdd967
+11024	12358	1737049121420951559	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/forms/boundfield.pyi	94ef2d1b33c90496
+12358	13657	1737049122717735676	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/utils/dateparse.pyi	338cae12b9d0f878
+13657	15308	1737049124360630875	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/validators.pyi	fbd185c62774db54
+1	507	1737049215067500034	/Users/davegaeddert/Developer/dropseed/plain/plain/.pytype/pyi/utils/itercompat.pyi	e108a0be2b1293bf

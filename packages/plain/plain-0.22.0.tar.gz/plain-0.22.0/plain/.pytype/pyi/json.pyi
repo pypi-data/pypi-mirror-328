@@ -1,0 +1,15 @@
+# (generated with --quick)
+
+import datetime
+import decimal
+import json
+import uuid
+from typing import Any
+
+Promise: Any
+duration_iso_string: Any
+is_aware: Any
+
+class PlainJSONEncoder(Any):
+    __doc__: str
+    def default(self, o) -> Any: ...

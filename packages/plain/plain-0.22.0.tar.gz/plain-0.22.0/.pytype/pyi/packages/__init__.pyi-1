@@ -1,0 +1,8 @@
+# (generated with --quick)
+
+import ..packages.config
+from typing import Any
+
+PackageConfig: type[..packages.config.PackageConfig]
+__all__: list[str]
+packages: Any
