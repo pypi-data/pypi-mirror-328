@@ -1,0 +1,7 @@
+README.md
+setup.py
+suada/suada.egg-info/PKG-INFO
+suada/suada.egg-info/SOURCES.txt
+suada/suada.egg-info/dependency_links.txt
+suada/suada.egg-info/requires.txt
+suada/suada.egg-info/top_level.txt
