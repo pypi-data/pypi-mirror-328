@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+agentdotai/agentdotai.egg-info/PKG-INFO
+agentdotai/agentdotai.egg-info/SOURCES.txt
+agentdotai/agentdotai.egg-info/dependency_links.txt
+agentdotai/agentdotai.egg-info/requires.txt
+agentdotai/agentdotai.egg-info/top_level.txt
