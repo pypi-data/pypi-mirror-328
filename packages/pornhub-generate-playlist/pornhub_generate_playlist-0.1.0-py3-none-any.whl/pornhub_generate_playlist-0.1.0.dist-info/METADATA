@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pornhub-generate-playlist
+Version: 0.1.0
+Summary: CLI tool to generate and play m3u8 playlists from clipboard URLs
+Author-Email: tadeasf <business@tadeasfort.com>
+Requires-Python: >=3.8
+Requires-Dist: typer>=0.15.1
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: rich>=13.7.0
+Description-Content-Type: text/markdown
+
+# pornhub-generate-playlist
+
+Describe your project here.

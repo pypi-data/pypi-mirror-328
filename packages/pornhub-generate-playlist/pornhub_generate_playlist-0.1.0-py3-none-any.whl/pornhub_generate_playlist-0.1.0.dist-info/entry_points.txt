@@ -1,0 +1,5 @@
+[console_scripts]
+phb = pornhub_generate_playlist.pornhub_generate_playlist:app
+
+[gui_scripts]
+
