@@ -1,0 +1,12 @@
+ontology_project/Ec3EpdCsv_to_Ec3Epd_onto1.py,sha256=yHb9r3S1Ib66MR1RZYysZiKAxdZjUPFlWykYSu_55NI,7558
+ontology_project/McpCsv_to_Mcp_onto3.py,sha256=2M6AaaPqRWap5rMJXCuROZQQxK0fNd3zRFp5SDKyGXk,3892
+ontology_project/TruCsv_to_Tru_onto2.py,sha256=Z1NnU2FZYyAakIr7xT1ezG5-M9vBrsWxHrFai3BQEzU,5797
+ontology_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ontology_project/merge_ontology.py,sha256=Pmiyz_aP9XtOVRcxD3zHDmxEN93OwXx2m_V9p1gYgz8,5730
+ontology_project/runner.py,sha256=7eWpK-19xLKFXgkxR2JLy_gUxAdcWmw5o-gYahGHBQA,1228
+ontology_project-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ontology_project-0.1.1.dist-info/METADATA,sha256=UGr29Yex3V0ZrpqTr4biFCCdevx4w_ubuw_svpze190,3983
+ontology_project-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ontology_project-0.1.1.dist-info/entry_points.txt,sha256=xcYCPrwW_289wS9K8TjM3GMyWz2w2KrbpQiTFfmdF_c,304
+ontology_project-0.1.1.dist-info/top_level.txt,sha256=Rc6C5SySw6GxzX3murqIhZf0IHCWEeifvxB5-xKfNQU,17
+ontology_project-0.1.1.dist-info/RECORD,,

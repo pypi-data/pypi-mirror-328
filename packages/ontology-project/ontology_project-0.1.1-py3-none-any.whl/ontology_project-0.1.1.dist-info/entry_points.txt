@@ -1,0 +1,6 @@
+[console_scripts]
+convert_ec3 = ontology_project.Ec3EpdCsv_to_Ec3Epd_onto1:main
+convert_mcp = ontology_project.McpCsv_to_Mcp_onto3:main
+convert_tru = ontology_project.TruCsv_to_Tru_onto2:main
+merge_ontologies = ontology_project.merge_ontology:merge_ontologies
+run_ontology = ontology_project.runner:main
