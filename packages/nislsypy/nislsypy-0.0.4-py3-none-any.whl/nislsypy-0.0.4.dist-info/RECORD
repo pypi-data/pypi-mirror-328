@@ -1,0 +1,13 @@
+nislsypy/__init__.py,sha256=k9uR4XbNSMAc4WwiqtEn2I48zq-U_dtWBWDQ4euzv-M,106
+nislsypy/setup.py,sha256=9Y-gvbn4J236XdM5cegN8AOqXuyBm66pdHUcBWKcO8o,604
+nislsypy/flydisp/__init__.py,sha256=r7IHjq7vB6Tj9K-s3ydxhhW2BKBmBEoEo7hRajw9D7s,74
+nislsypy/flydisp/edrfunc.py,sha256=Lja3mlMK898m5-78gXDhL_2VRhLOvh40MHX8okZzLNI,1023
+nislsypy/flydisp/utils.py,sha256=FoJOrSDk9hMSZeXq7E3d5cUJTzXCvNEpSbYCSQJByhE,4227
+nislsypy/flydisppat/__init__.py,sha256=Ih592zohrUlmEMjKUr1sNxDR41NHggaVn8phwVEdqlY,107
+nislsypy/flydisppat/genfunc.py,sha256=NtBO0hCsYEmQu9bBNctqsL17vItrNJJ-BXCSxF_KqpU,2576
+nislsypy/flydisppat/utils.py,sha256=wIeMhM4nhEDrxjng11OYHfeoMI-bBh0a6tkBYcVkzQU,18548
+nislsypy/flydisppat/visfunc.py,sha256=13ui7VnwuX88w6J8ty7iUOaDgrvB5gjq7O7swpMy8qo,954
+nislsypy-0.0.4.dist-info/METADATA,sha256=1x6w7Qvcv_HUS-jGas6FsSRQcRAOGfX1BJcFJHYa_0o,604
+nislsypy-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+nislsypy-0.0.4.dist-info/top_level.txt,sha256=k9VDxtuHMtd64CbxD5ZSyP7hNCJ-vaDWi9PH4fVBi7g,9
+nislsypy-0.0.4.dist-info/RECORD,,

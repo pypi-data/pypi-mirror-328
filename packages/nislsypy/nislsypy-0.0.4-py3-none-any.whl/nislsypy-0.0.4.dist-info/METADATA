@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: nislsypy
+Version: 0.0.4
+Summary: For flyexperiment in NISL, HYU, Seoul
+Home-page: https://github.com/SEONGYEONY/nislsypy
+Author: Seongyeon Kim
+Author-email: sykim96500@gmail.com
+Keywords: Seongyeon,Anmo,drosophila,nisl,flylab
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: neo
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
