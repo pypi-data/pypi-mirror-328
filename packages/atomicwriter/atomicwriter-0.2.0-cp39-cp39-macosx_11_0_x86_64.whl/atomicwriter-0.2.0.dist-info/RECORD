@@ -1,0 +1,9 @@
+atomicwriter/__init__.pyi,sha256=3K3Oi_Az0VyHH9S-yNYTFgxuybIm5c6hoq97h9aRLnQ,2653
+atomicwriter/__init__.py,sha256=iTLAc-JFig14g4b55dBgCqTpEtHraAtha6BruDJ_4G0,892
+atomicwriter/_impl.cpython-39-darwin.so,sha256=BGDLPD-TOdaolyZgftLcv2Q2e_w6fQ3gGrnWRft3qm0,501520
+atomicwriter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atomicwriter-0.2.0.dist-info/RECORD,,
+atomicwriter-0.2.0.dist-info/WHEEL,sha256=67JkuiJKVk69pA8OXxHAeH9f05xN2CFHIWY6nAqcpi8,103
+atomicwriter-0.2.0.dist-info/METADATA,sha256=QRF6YSSnkjhir91iGk4I9KfdCePWYrcem-aw5IYSPRo,4357
+atomicwriter-0.2.0.dist-info/licenses/LICENSE-APACHE,sha256=F4oy31_vigJdRZCXgI61i9tZcJzOEgdoKBBlQ0XIO6Y,11350
+atomicwriter-0.2.0.dist-info/licenses/LICENSE-MIT,sha256=8SlhOKgNlNzt6P2r58HTp3gq6Fxma4fehkYOt0Kr734,1077
