@@ -1,0 +1,2 @@
+[console_scripts]
+evrmore-rpc = evrmore_rpc.__main__:main
