@@ -1,0 +1,7 @@
+fsspec_httpx/__init__.py,sha256=QtJSuAqLg40JaSZsfn8a4yRh72m6sSw4l7uksPs7f1M,109
+fsspec_httpx/filesystem.py,sha256=V25adMxzSAleiINTBo0o_7beNJ7v73ltgQSYFpxjC2w,32406
+fsspec_httpx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsspec_httpx-0.1.0.dist-info/METADATA,sha256=tdg3I20KsX0fQV3wBmr6msf4dpaehctjI9gQMUS8A14,5942
+fsspec_httpx-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+fsspec_httpx-0.1.0.dist-info/licenses/LICENSE,sha256=AteGCH9r177TxxrOFEiOARrastASsf7yW6MQxlAHdwA,1078
+fsspec_httpx-0.1.0.dist-info/RECORD,,
