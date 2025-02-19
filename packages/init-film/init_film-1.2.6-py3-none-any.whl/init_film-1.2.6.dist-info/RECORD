@@ -1,0 +1,14 @@
+initfilm/Init-Film_Icon_Black.ico,sha256=vDQyZvNuYZG4qaHf2wD5w1eHNxK3nxKDaQ-2CQA02UM,103093
+initfilm/Init-Film_Icon_White.ico,sha256=kFOWaPEdR3wqwnIIKyi_RKFQsGsJTl2XPhS0VI7r5zQ,103717
+initfilm/add_shortcut.py,sha256=qq9Hp0SXXVlh2vFYovNPrYxy-TCMpbNNLxdIZhKjs7Q,1520
+initfilm/cli.py,sha256=UzrfcX42LpJzOVE_CfH1qFm15og5BENNC-CwH2JpAaE,1806
+initfilm/config.json,sha256=daSmVBnTrCC1wBNHjJTk-zbQchpGoec52kvrZIU6S1A,98
+initfilm/config.py,sha256=EBuv4ElYA_Pk9SU3O49oQ8hMWTyV2isMqKB5hnvzfgI,1450
+initfilm/main.py,sha256=-AJzhmOcwQ7_FBFJ5Z7lYwk6Ri82wqr7Y6c-OZr09bY,19417
+initfilm/remove_shortcut.py,sha256=fUkWCzYt2oO04l9kESQhPLgw6tUssVVp1tX8jvNbN0s,1150
+init_film-1.2.6.dist-info/LICENSE,sha256=neUzmwjU6zxn7JaMiWFP_GPgmazuz0alfkxjL_JgFcQ,1091
+init_film-1.2.6.dist-info/METADATA,sha256=yhbv8T8c4YQR5IcCJpt88qFj2fRr1zvzP8wlr6LuppA,4148
+init_film-1.2.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+init_film-1.2.6.dist-info/entry_points.txt,sha256=UmnS5T1cY-xs7qhWFIzz7aXCGSD6NNPi482oNbD0rd8,48
+init_film-1.2.6.dist-info/top_level.txt,sha256=y8TvPgA_VAxxlUhtyroMIup7FzTPM9u_Ao_38yTnmXQ,9
+init_film-1.2.6.dist-info/RECORD,,
