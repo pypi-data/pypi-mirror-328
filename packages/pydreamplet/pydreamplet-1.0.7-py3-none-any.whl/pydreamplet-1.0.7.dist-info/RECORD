@@ -1,0 +1,16 @@
+pydreamplet/__init__.py,sha256=ukiPujdHkxcm38DY5ClGZPYFACMTwPmoZApSDH9pX0E,463
+pydreamplet/colors.py,sha256=T1id7YLNWVsqZ11_-feOY6IA_UWBQF1HPzMjMNnMao4,6105
+pydreamplet/core.py,sha256=s1MECMpMreVZ4VavfTNhoz-rStVvRpKKCgLA6wEUw-4,27872
+pydreamplet/math.py,sha256=je-PKDWvuWXE7univtRj56EmkzgxMLxi6hRR3yfquMc,5053
+pydreamplet/noise.py,sha256=JWEkOOnVqDlJJ0SCuCDZJUsQnSHd2MwFB_EzzSLm6hE,12134
+pydreamplet/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydreamplet/resources/world_map_iso2.svg,sha256=Du19lEKPlLLKRNjUCeJz_-uIA5WU_KGeByS6sds26Vs,105106
+pydreamplet/resources/world_map_iso3.svg,sha256=uoPofkI8nO7wqeAz1y0NyHTcq4S83gTLrlLM46O2tKo,105331
+pydreamplet/scales.py,sha256=CT9hGZa8ZQWyu2uvh0LtgNw98ds8ZHJjednzOGUyjkc,13065
+pydreamplet/shapes.py,sha256=kc5Jn5yie401qzoB3wMsb5oCxAmhR1-1W4-GMuHLqN4,17083
+pydreamplet/typography.py,sha256=CJ_pmhF0IaXJBikg632KTfknE1jfv1U_jKixXccMehI,6184
+pydreamplet/utils.py,sha256=3eyn1mKeReUI3zCQP4N6DuTWNujbXWVWipdJ-8wqyVM,2253
+pydreamplet-1.0.7.dist-info/LICENSE,sha256=mfqifx8hPFgBSy-cOcdQBs0Eg8rTGUspxonEv9-EtUI,1089
+pydreamplet-1.0.7.dist-info/METADATA,sha256=jZ0XIteBOYR2sKAFU2zbVpjIxL6lVuQpFw2TlbSgAho,5162
+pydreamplet-1.0.7.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+pydreamplet-1.0.7.dist-info/RECORD,,
