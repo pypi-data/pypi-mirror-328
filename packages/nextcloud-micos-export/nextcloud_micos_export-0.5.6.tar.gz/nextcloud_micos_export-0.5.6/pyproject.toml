@@ -1,0 +1,38 @@
+[project]
+name = "nextcloud-micos-export"
+dynamic = []
+description = "Move files from input to output folder and delete old files from output folder."
+authors = [
+    { name = "Kirchhoff Datensysteme Services GmbH & Co. KG", email = "service@kds-kg.de" },
+]
+dependencies = [
+    "wiederverwendbar[rich]>=0.7.2",
+    "pid>=3.0.4",
+    "PyMySQL>=1.1.1",
+    "schedule>=1.2.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+version = "0.5.6"
+
+[project.license]
+text = "GPL-3.0"
+
+[project.scripts]
+nextcloud-micos-export = "nextcloud_micos_export.__main__:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/nextcloud_micos_export/__init__.py"
+
+[tool.pdm.scripts.push-tags]
+shell = "git push origin --tags"
