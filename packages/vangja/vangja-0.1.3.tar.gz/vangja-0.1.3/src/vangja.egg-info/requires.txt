@@ -1,0 +1,3 @@
+scikit-learn~=1.6.1
+pymc-extras==0.2.3
+blackjax==1.2.4
