@@ -1,0 +1,35 @@
+<template>
+    <!-- Buttons of the Control Panel -->
+    <t
+        t-name="info.ReportAction"
+        t-inherit="web.ReportAction"
+        t-inherit-mode="extension"
+        owl="1"
+    >
+        <xpath expr="//button" position="replace">
+            <t t-if="isAccountAnalyticReport">
+                <button
+                    t-on-click="printView"
+                    type="button"
+                    class="btn btn-primary"
+                    title="Print"
+                >Print</button>
+            </t>
+            <t t-else="">
+                <button
+                    t-on-click="print"
+                    type="button"
+                    class="btn btn-primary"
+                    title="Print"
+                >Print</button>
+            </t>
+            <button
+                t-if="isAccountAnalyticReport"
+                t-on-click="export"
+                type="button"
+                class="btn btn-secondary"
+                title="Export"
+            >Export</button>
+        </xpath>
+    </t>
+</template>

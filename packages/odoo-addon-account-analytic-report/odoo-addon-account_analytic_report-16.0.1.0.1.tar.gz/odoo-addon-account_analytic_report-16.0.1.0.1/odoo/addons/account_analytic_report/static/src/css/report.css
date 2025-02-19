@@ -1,0 +1,167 @@
+.act_as_table_ml {
+    display: table !important;
+    background-color: white;
+}
+
+.act_as_table_ml.data_table {
+    margin: 1rem 0;
+}
+
+.act_as_row_ml {
+    display: table-row !important;
+    page-break-inside: avoid;
+}
+
+.act_as_row_ml.lines {
+    border-top: 1px solid lightGrey;
+    font-style: italic;
+}
+
+.act_as_row_ml.lines.unfolded_group {
+    font-style: normal;
+    border-bottom: 1px solid #565656 !important;
+    border-top: 1px solid #565656 !important;
+}
+
+.act_as_row_ml.d-none {
+    display: none !important;
+}
+
+.act_as_cell_ml {
+    display: table-cell !important;
+    page-break-inside: avoid;
+    border: none;
+}
+
+.act_as_thead {
+    display: table-header-group !important;
+    border-bottom: 1px solid grey !important;
+}
+
+.act_as_tbody {
+    display: table-row-group !important;
+}
+
+.list_table,
+.data_table,
+.totals_table {
+    width: 100% !important;
+}
+
+.act_as_row_ml.labels {
+    background-color: #dee2e6 !important;
+    border-bottom: #212529;
+}
+
+.list_table,
+.data_table,
+.totals_table,
+.list_table .act_as_row_ml {
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    font-size: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-collapse: collapse;
+}
+
+.totals_table {
+    font-weight: bold;
+    text-align: center;
+}
+
+.data_table .act_as_cell_ml {
+    border: 1px solid lightGrey;
+    text-align: center;
+}
+
+.data_table .act_as_cell_ml,
+.list_table .act_as_cell_ml,
+.totals_table .act_as_cell_ml {
+    word-wrap: break-word;
+    border: none;
+    padding: 4px 8px;
+}
+
+.data_table .act_as_row_ml.labels,
+.totals_table .act_as_row_ml.labels {
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.account_title {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.account_title.labels {
+    background-color: #f0f0f0 !important;
+}
+
+.act_as_cell_ml.amount {
+    word-wrap: normal;
+    text-align: right;
+}
+
+.act_as_cell_ml.left {
+    text-align: left;
+}
+
+.act_as_cell_ml.right {
+    text-align: right;
+}
+.act_as_cell_ml.right a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.act_as_cell_ml.right a:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
+.list_table .act_as_cell_ml.first_column {
+    padding-left: 0px;
+}
+
+.overflow_ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.custom_footer {
+    font-size: 7px !important;
+}
+
+.page_break {
+    page-break-inside: avoid;
+}
+
+.button_row {
+    padding-bottom: 10px;
+}
+
+.grouping {
+    cursor: pointer;
+}
+
+.grouping.fa-caret-right.fa-caret-down::before {
+    display: none;
+}
+
+.grouping-arrow {
+    cursor: pointer;
+    width: 8px;
+}
+
+.o_account_analytic_reports_page {
+    padding-top: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica, Arial;
+}
