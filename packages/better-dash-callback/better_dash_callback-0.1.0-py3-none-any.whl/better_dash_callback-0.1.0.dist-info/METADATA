@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: better-dash-callback
+Version: 0.1.0
+Summary: Runs clientside callback functions in Dash applications using Python syntax, eliminating the need for inline JavaScript.
+Home-page: https://github.com/ribab/better-dash-callback
+Author: Richard Barella Jr.
+Author-email: codingwithricky@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: dash>=2.0.0
+Requires-Dist: javascripthon==0.13
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
