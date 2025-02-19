@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: pytinytask
+Version: 1.1
+Summary: A simple macro recording and replaying tool
+Author: Smart Boy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: keyboard
+Requires-Dist: mouse
+Requires-Dist: customtkinter
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
