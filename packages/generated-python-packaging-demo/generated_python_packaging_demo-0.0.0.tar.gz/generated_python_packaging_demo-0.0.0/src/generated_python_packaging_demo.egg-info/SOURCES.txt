@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+version.txt
+src/generated_python_packaging_demo.egg-info/PKG-INFO
+src/generated_python_packaging_demo.egg-info/SOURCES.txt
+src/generated_python_packaging_demo.egg-info/dependency_links.txt
+src/generated_python_packaging_demo.egg-info/requires.txt
+src/generated_python_packaging_demo.egg-info/top_level.txt
+src/packaging_demo/__init__.py
+src/packaging_demo/cities.json
+src/packaging_demo/states_info.py
