@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: metamodels
+Version: 0.1.0
+Summary: Библиотека для запуска мета модели на основе предсказаний других моделей.
+Home-page: https://github.com/QaqanBagan/metamodels
+Author: Ваше Имя
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
