@@ -1,0 +1,13 @@
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn
+torch==2.4.1
+openai==1.52.2
+transformers==4.48.0
+spacy==3.8.2
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.65.0
+lime
+Pillow
+opencv-python
