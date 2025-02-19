@@ -1,0 +1,2 @@
+[console_scripts]
+hvseispy = hvseispy.cli:main
