@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=41", "wheel", "setuptools-git-versioning>=2.0,<3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+version_file = "VERSION"
+count_commits_from_version_file = true
+dev_template = "{tag}.dev{ccount}"
+dirty_template = "{tag}.dev{ccount}"
+
+[project]
+dynamic = ["version"]
+
+name = "concentrator"
+
+authors = [
+  {name = "АО \"БАРС Груп\"", email = "education_dev@bars-open.ru"}
+]
+
+readme = "README.md"
+
+description = "Concentrator"
+
+classifiers=[
+    "Intended Audience :: Developers",
+    "Environment :: Web Environment",
+    "Natural Language :: Russian",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.9",
+    "Framework :: Django :: 3.2",
+]
+
+requires-python = ">=3.9"
+
+dependencies = [
+    'pylatex==1.4.1',
+    'python-magic>=0.4.15,<0.5'
+]
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+
+target-version = "py312"
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+docstring-code-format = true
