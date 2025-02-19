@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+libapi/__init__.py
+libapi/jsonpointer.py
+libapi/uritemplate.py
+libapi.egg-info/PKG-INFO
+libapi.egg-info/SOURCES.txt
+libapi.egg-info/dependency_links.txt
+libapi.egg-info/top_level.txt
+test/test_encoding.py
+test/test_jsonpointer.py
+test/test_uritemplate.py
