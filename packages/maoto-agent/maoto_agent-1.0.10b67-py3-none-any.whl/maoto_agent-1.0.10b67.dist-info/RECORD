@@ -1,0 +1,10 @@
+maoto_agent/__init__.py,sha256=Sx7n_Cm_hyZByzctWUE6mZSUrHIQPZWxhm_nZ2robY0,28
+maoto_agent/__main__.py,sha256=U6hdNnlDy3QMmGtfXyhlQh0hPi3M_10FXOFkMJqKLHk,148
+maoto_agent/app_types.py,sha256=jgJRePGT24nGw25m6T-WXPLSa50A9ERUds0niyfnXbM,26693
+maoto_agent/maoto_agent.py,sha256=cLitbIB6XLNRp2eP4Wk2QvehSmPu-8gDSsGuLWm4C4E,67867
+maoto_agent-1.0.10b67.dist-info/LICENSE,sha256=KaMVjlVdRycNdCBkQSe1ZrYH9h75mMRBDyKmr9jFiKw,17528
+maoto_agent-1.0.10b67.dist-info/METADATA,sha256=ELyd1ZS9xNh09Fi67aBkd6dlNZvfNFxjIfNLuvyeX1E,20223
+maoto_agent-1.0.10b67.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+maoto_agent-1.0.10b67.dist-info/entry_points.txt,sha256=KKvDpa3RsdCAqdnifJcpgiApqmIul3YSngh6A35Lfdw,58
+maoto_agent-1.0.10b67.dist-info/top_level.txt,sha256=mGk9YHXI4zvqNUK6bDeeqdz67O7fa-ngLOU8V6LeM4k,12
+maoto_agent-1.0.10b67.dist-info/RECORD,,
