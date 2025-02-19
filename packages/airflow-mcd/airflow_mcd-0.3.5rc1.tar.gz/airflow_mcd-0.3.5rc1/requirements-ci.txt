@@ -1,0 +1,4 @@
+setuptools==70.0.0
+wheel==0.38.1
+twine==3.7.1
+apache-airflow>=1.10.14
