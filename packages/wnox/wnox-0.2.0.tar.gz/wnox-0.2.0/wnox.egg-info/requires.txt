@@ -1,0 +1,8 @@
+asyncio
+nest_asyncio
+logging
+slixmpp
+ssl
+bson
+json
+requests

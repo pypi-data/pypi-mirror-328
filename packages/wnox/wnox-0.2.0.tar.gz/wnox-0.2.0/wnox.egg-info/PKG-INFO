@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: wnox
+Version: 0.2.0
+Summary: A short description of your package
+Home-page: https://github.com/arminkardan/pywnox
+Author: Ethan (Armin) Cardan
+Author-email: "Ethan (Armin) Cardan" <armin.fire@gmail.com>
+Project-URL: homepage, https://github.com/arminkardan/pywnox
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: asyncio
+Requires-Dist: nest_asyncio
+Requires-Dist: logging
+Requires-Dist: slixmpp
+Requires-Dist: ssl
+Requires-Dist: bson
+Requires-Dist: json
+Requires-Dist: requests
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+QE nexus client.
