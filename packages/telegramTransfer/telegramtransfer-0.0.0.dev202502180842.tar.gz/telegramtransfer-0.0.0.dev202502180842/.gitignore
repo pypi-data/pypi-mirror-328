@@ -1,0 +1,7 @@
+.env
+.venv
+__pycache__
+config.json
+transfer_state.json
+sessions
+.DS_Store
