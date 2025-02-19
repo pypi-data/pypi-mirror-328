@@ -1,0 +1,13 @@
+vangja/__init__.py,sha256=WwIK44YaCzRRTnF9mnR6wvMEXDxQO6SHPR7bnca4L8A,211
+vangja/time_series.py,sha256=cb1SAz3B6tBi-u3JI6bMDJLDFe1Rvabx41eD1WoA5DM,14680
+vangja/components/__init__.py,sha256=KZqvhSQaw5GhhYDNE6Jd05MVeyuRoUz1vCL2vsUl4KA,407
+vangja/components/beta_constant.py,sha256=mkeRtrhnG5PHnAU9UVEyYV4woYJbOetMPrCxT5vYLPc,2319
+vangja/components/fourier_seasonality.py,sha256=PXa3hwmjsil0-cv1D7kUE9tocouZCSdR3kSJBAix8mM,4875
+vangja/components/linear_trend.py,sha256=pj0ah1coDIDLsdFmZoG6SvikR7TAOCWm9LTPVF8g0Hw,5699
+vangja/components/normal_constant.py,sha256=EXRzfm-SOyZK1hrgqLLNH0COr71EHNmsgwjzYscDRAA,1976
+vangja/components/uniform_constant.py,sha256=ie1bdwObxHdlNY4t4o-5g4PvEiPEaDhHbOnWyzVsNsE,1973
+vangja-0.1.3.dist-info/LICENSE,sha256=rzmwMG2fIgEp9UacCR_1LMN3_Q_jcAGOB4NjgepnIdM,1072
+vangja-0.1.3.dist-info/METADATA,sha256=mDhwsjSMe3bzTzBdeAaxlbAPM6CID7m0lvJy7aLQks4,4344
+vangja-0.1.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+vangja-0.1.3.dist-info/top_level.txt,sha256=jz8omADOdCwCuhaVdzpNy25TQhZumGBVK7Q4RnTs1S8,7
+vangja-0.1.3.dist-info/RECORD,,
