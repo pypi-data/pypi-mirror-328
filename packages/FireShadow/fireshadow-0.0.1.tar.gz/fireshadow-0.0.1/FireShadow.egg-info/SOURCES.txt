@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireShadow/__init__.py
+FireShadow.egg-info/PKG-INFO
+FireShadow.egg-info/SOURCES.txt
+FireShadow.egg-info/dependency_links.txt
+FireShadow.egg-info/top_level.txt
