@@ -1,0 +1,16 @@
+{
+  "folder_structure": {
+    "storage": {},
+    "temp": {}
+  },
+
+  "init_ignore": [],
+  "init_class_ignore": [],
+
+  "complex_init_order": [],
+  "start_order": [],
+  "stop_order": [],
+
+  "folder_local_configs": true,
+  "folder_global_configs": true
+}

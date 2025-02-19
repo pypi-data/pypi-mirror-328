@@ -1,0 +1,38 @@
+{
+  "logger_loop_delay": 0.01,
+  "log_process_delay": 0,
+
+  "max_len_batch": 10000,
+  "send_logs_frequency": 0.5,
+
+  "save_logs_delay": 0,
+
+  "standard_log_mode": "none",
+
+  "save_log_module": "csv_log_saver",
+  "flatten_json": true,
+  "log_ignore_attributes": ["global_vars", "self"],
+
+  "scv_fields_config_saver": [
+    "log_id", "parent_log_id",
+    "type", "thread_id",
+
+    "time", "start_time", "run_time", "completion_time",
+
+    "identifier", "save_args",
+    "func_data_file_name", "func_data_func_name", "func_data_calling_line",
+    "func_data_global_vars", "func_data_local_vars", "func_data_args", "func_data_kwargs",
+    "func_data_returned_data", "func_data_class_attr",
+
+
+    "callable_func_data_file_name", "callable_func_data_func_name", "callable_func_data_calling_line",
+    "callable_func_data_transmitted_parameters", "callable_func_data_returned_data", "callable_func_data_class_attr",
+
+    "calling_func_data_file_name", "calling_func_data_func_name", "calling_func_data_calling_line",
+    "calling_func_data_global_vars", "calling_func_data_local_vars",
+
+    "format_date", "format_time"
+  ],
+
+  "flatten_accept": ["save_data", "calling_func_data", "callable_func_data", "func_data"]
+}

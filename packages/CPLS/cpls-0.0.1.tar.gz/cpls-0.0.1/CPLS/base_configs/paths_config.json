@@ -1,0 +1,17 @@
+{
+  "base_folder_structure": {
+    "logs": {},
+    "storage": {},
+    "temp": {}
+  },
+
+  "base_tree_analysis_ignore": ["CPLS", "README", ".git", "venv", ".venv", ".idea", "__pycache__"],
+
+  "folders_view_ignore": ["configs"],
+
+  "base_init_ignore": ["start", "engineer_start", "operator_start", "master", "FSM", "DFSM", "Menu"],
+  "base_complex_init": ["paths", "json_h", "logger", "creator", "main_thread_obj"],
+
+  "configs_folder_view_ignore": ["start", "engineer", "operator", "init_config", "paths_config", "file_observer_config", "configs_manager", "configs"],
+  "data_config": {"file_type": "json", "default_value": "{\n\n}"}
+}
