@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: softwareaccounting
+Version: 1.9a4
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: peewee
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Provides-Extra: post-receiver
+Requires-Dist: Flask; extra == "post-receiver"
