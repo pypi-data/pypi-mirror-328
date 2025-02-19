@@ -1,0 +1,76 @@
+<p align="center">
+  <img src="./figs/logo.png" alt="Image 2" width="45%" />
+</p>
+
+<p align="center">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Dengda98/PyGRT">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/Dengda98/PyGRT">
+</p>
+
+
+
+(Detailed documentation is coming soon...)
+
+# Overview
+**PyGRT**: An Efficient and Integrated Python Package for Computing Synthetic Seismograms in a Layered Half-Space Model. 
+
+# Features
+
+- **Dual-Language**:  
+  To optimize performance, **PyGRT** uses **C** for its core computational tasks, while **Python** provides a user-friendly interface. Support **script style** and **command line style** to run the program.
+
+- **Parallelization**:  
+  Accelerated with **OpenMP** for parallel processing.
+
+- **Integration**:  
+  Built on the **Generalized Reflection-Transmission matrix Method (GRTM)** and the **Discrete Wavenumber Method (DWM)**, **PyGRT** integrates the **Peak-Trough Averaging Method (PTAM)** and **Filon’s Integration Method (FIM)** to handle diverse source-receiver distributions. 
+
+- **Modular Design**:   
+  Clean and organized code structure, making it easy to extend and maintain.
+
+
+<p align="center">
+  <img src="./figs/diagram_cut.png" alt="Image 2" width="100%" />
+</p>
+
+
+# Installation
+
+1. **(Temporary)** Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Dengda98/PyGRT.git --depth=1
+   cd your-repo
+   ```
+
+2. Build and activate the virtual environment with [Anaconda](https://anaconda.org).
+
+3. Install [FFTW](https://fftw.org/) for command line style.
+
+4. Simply run
+
+   ```bash
+   pip install -v .
+   ```
+
+5. If you're more comfortable with the command line style, run
+   ```bash
+   python -m pygrt.print
+   ```
+   you will see the directory path of executable file, and you can add it to `PATH` variable. For each command, use `-h` can see the help message.
+
+
+
+# Usage Example
+
+`example/` folder shows some examples in paper. **More examples are coming soon.**
+
+
+# Contact
+If you have any questions or suggestions, feel free to reach out:
+- **Email**: zhudengda@mail.iggcas.ac.cn
+- **GitHub Issues**: You can also raise an issue directly on GitHub.
+
+# Citation
+
+> Zhu D., J. Wang*, J. Hao, S. Yao, Y. Xu, T. Xu and Z. Yao (2025). PyGRT: An Efficient and Integrated Python Package for Computing Synthetic Seismograms in a Layered Half-Space Model. Seismological Research Letters. (submitted)
