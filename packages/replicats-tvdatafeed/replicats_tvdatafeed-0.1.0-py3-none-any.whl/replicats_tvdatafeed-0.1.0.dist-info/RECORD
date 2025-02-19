@@ -1,0 +1,10 @@
+tvDatafeed/__init__.py,sha256=YS1TQu0o0NhwTnBc29aMT2V0M4FOy-K3mgvad5Hdhbs,159
+tvDatafeed/consumer.py,sha256=l4QjRPVhrW_Tf1gJ1RkQFXwWQjxWxrUDcUMNYGuSPYE,2969
+tvDatafeed/datafeed.py,sha256=In9-aEofLfl7YUCmjX0UMTxf-Svk0K32xlFy21fEhhI,19671
+tvDatafeed/main.py,sha256=JTiOOtYRb3Qz_WoUL5EIob4DyS7c5o-M5ZK0mbu3FBA,10291
+tvDatafeed/seis.py,sha256=sATm-izJeOLUNqKDPZWsfAl8KTDwTK1ikWc4KhPXDjM,7875
+replicats_tvdatafeed-0.1.0.dist-info/LICENSE,sha256=cAliFQ6MXXsynl7Pv1Uj3KaKMdaEGeiYTnqKzmfmR6o,1069
+replicats_tvdatafeed-0.1.0.dist-info/METADATA,sha256=kI0MNEM7j1jocuF6L3_do8eV9q7MFEIbjjyuRzflksY,817
+replicats_tvdatafeed-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+replicats_tvdatafeed-0.1.0.dist-info/top_level.txt,sha256=RSVHFePo3vi5Q51bgMzdFfgskjzUXBTDAeS-1DHpaA8,11
+replicats_tvdatafeed-0.1.0.dist-info/RECORD,,

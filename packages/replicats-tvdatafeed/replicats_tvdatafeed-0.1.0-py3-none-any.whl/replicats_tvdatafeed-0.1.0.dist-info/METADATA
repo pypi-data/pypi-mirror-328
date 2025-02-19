@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: replicats-tvdatafeed
+Version: 0.1.0
+Summary: Test.
+Home-page: https://github.com/replicatsai/replicats-tvdatafeed
+Author: Lucas Fonseca
+Author-email: lucasfonmiranda@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# **Replicats TvDatafeed**
+
+A simple TradingView historical Data Downloader. Tvdatafeed allows downloading upto 5000 bars on any of the supported timeframe.
+
+I
