@@ -1,0 +1,24 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/core.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/core.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.core.imports
+  module = tailwind.core
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/core.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.cli.imports
+  module = tailwind.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.default_settings.imports
+  module = tailwind.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.__init__.imports
+  module = tailwind.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/templates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/templates.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.templates.imports
+  module = tailwind.templates
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/entrypoints.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/plain/tailwind/entrypoints.py | /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/tailwind.entrypoints.imports
+  module = tailwind.entrypoints
