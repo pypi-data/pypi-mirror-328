@@ -1,0 +1,42 @@
+[build-system]
+requires = [
+ "setuptools>=61.0", # Рекомендуется использовать современные версии setuptools, поддерживающие PEP 621
+ "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "cli-client"
+version = "0.1.0"
+description = "CLI клиент для взаимодействия с Model Provider API"
+authors = [
+ { name = "SensoryLAB", email = "fox@sensorylab.ru" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["cli", "api", "aiohttp", "client"]
+classifiers = [
+ "Programming Language :: Python :: 3",
+ "License :: OSI Approved :: MIT License",
+ "Operating System :: OS Independent"
+]
+dependencies = [
+ "aiohttp>=3.8.1"
+]
+
+
+[project.optional-dependencies]
+dev = [
+ "pytest>=6.0.0",
+ "pytest-asyncio"
+]
+
+
+[project.scripts]
+cli-client = "cli_client.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cli_client*"]
