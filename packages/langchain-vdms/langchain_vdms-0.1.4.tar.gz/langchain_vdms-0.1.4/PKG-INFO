@@ -1,0 +1,75 @@
+Metadata-Version: 2.3
+Name: langchain-vdms
+Version: 0.1.4
+Summary: An integration package connecting VDMS and LangChain
+License: MIT
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain-core (>=0.3.15,<0.4.0)
+Requires-Dist: vdms (>=0.0.21,<0.0.22)
+Project-URL: Repository, https://github.com/langchain-ai/langchain
+Project-URL: Release Notes, https://github.com/langchain-ai/langchain/releases?q=tag%3A%22vdms%3D%3D0%22&expanded=true
+Project-URL: Source Code, https://github.com/langchain-ai/langchain/tree/master/libs/partners/vdms
+Description-Content-Type: text/markdown
+
+# langchain-vdms
+
+This package contains the LangChain integration with [VDMS](https://github.com/IntelLabs/vdms).
+
+## Installation
+
+```bash
+pip install -U langchain-vdms
+```
+
+<!-- And you should configure credentials by setting the following environment variables:
+
+* TODO: fill this out -->
+
+
+## VDMS vector database
+
+The ``VDMS`` class exposes the VDMS vector store.
+
+```python
+from langchain_vdms import VDMS
+```
+<br>
+
+The ``VDMS_Client`` function connects to VDMS server using VDMS client.
+
+```python
+from langchain_vdms.vectorstores import VDMS_Client
+```
+<br>
+
+The ``VDMS_Utils`` class exposes a utility with helpful functions related to VDMS.
+
+```python
+from langchain_vdms.vectorstores import VDMS_Utils
+```
+
+## Example Usage
+This example initiates the VDMS vector store and uses the VDMS Client to connect to a VDMS server on `localhost` using port `55555`.
+```python
+from langchain_vdms.vectorstores import VDMS, VDMS_Client
+
+embeddings = ... # use a LangChain Embeddings class
+
+vectorstore_client = VDMS_Client("localhost", 55555)
+vectorstore = VDMS(
+    client=vectorstore_client,
+    collection_name="foo",
+    embedding=embeddings,
+    engine="FaissFlat",
+    distance_strategy="L2",
+)
+```
+See additional usage [here](https://python.langchain.com/docs/integrations/vectorstores/vdms/).
+
