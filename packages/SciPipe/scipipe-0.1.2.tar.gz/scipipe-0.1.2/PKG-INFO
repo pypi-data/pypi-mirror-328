@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: SciPipe
+Version: 0.1.2
+Summary: A data science and machine learning library that wraps and extends popular tools
+Home-page: https://github.com/ronsnir/SciPipe
+Author: Ron Snir
+Author-email: ronsnirmail@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy>=2.0.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: scikit-learn>=1.5.2
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: xgboost>=2.1.2
+Requires-Dist: joblib>=1.4.2
+Requires-Dist: feature-engine>=1.8.1
+Requires-Dist: shap>=0.46.0
+Requires-Dist: dataframe-image>=0.2.6
+Requires-Dist: Jinja2>=3.1.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
