@@ -1,0 +1,13 @@
+plain/exceptions /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/http/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/runtime/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/urls/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/views/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/csrf/middleware /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/packages/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/utils/crypto /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+plain/signals/dispatch/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+auth/signals /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/signals.pyi
+auth/sessions /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/sessions.pyi
+plain/utils/functional /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/default.pyi
+auth/utils /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/utils.pyi

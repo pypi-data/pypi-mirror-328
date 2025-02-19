@@ -1,0 +1,12 @@
+# ninja log v5
+0	521	1737047708160008659	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/signals.pyi	6d4e1caa25ec0ea2
+521	1045	1737047708683686904	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/sessions.pyi	4ca691b62f260133
+1046	1634	1737047709272152208	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/utils.pyi	4d756acf3b207c15
+1634	2878	1737047710512277395	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/validators.pyi	a9e1f8829d9aaf7d
+2878	4202	1737047711834245781	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/views.pyi	f6967e77f9479e98
+4202	4719	1737047712357042057	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/middleware.pyi	64950e91095bfd7a
+4719	5228	1737047712866339114	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/config.pyi	8f117cef4bc2f7c0
+5228	6551	1737047714185874051	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/default_settings.pyi	b453d2ac9bc7386a
+0	1356	1737047752499055384	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/views.pyi	f6967e77f9479e98
+0	506	1737047793774392582	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/__init__.pyi	bd06f026b3b7741
+0	1363	1737048688236755168	/Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/views.pyi	f6967e77f9479e98

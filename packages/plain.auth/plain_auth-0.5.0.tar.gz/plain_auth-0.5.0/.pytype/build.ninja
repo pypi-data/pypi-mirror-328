@@ -1,0 +1,30 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/signals.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/signals.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.signals.imports
+  module = auth.signals
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/sessions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/sessions.py | /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/signals.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.sessions.imports
+  module = auth.sessions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/utils.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/utils.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.utils.imports
+  module = auth.utils
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/validators.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/validators.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.validators.imports
+  module = auth.validators
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/sessions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.views.imports
+  module = auth.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.config.imports
+  module = auth.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/middleware.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.middleware.imports
+  module = auth.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/pyi/auth/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-auth/plain/auth/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-auth/.pytype/imports/auth.default_settings.imports
+  module = auth.default_settings
