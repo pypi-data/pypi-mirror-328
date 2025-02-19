@@ -1,0 +1,102 @@
+Metadata-Version: 2.2
+Name: proxy_api_package
+Version: 0.1.1
+Summary: A Python client for interacting with a REST API
+Home-page: https://github.com/yourusername/proxy_api_package
+Author: Antonio Ciorba
+Author-email: antoniociorba@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+# Proxy API Documentation
+
+## Overview
+
+The Proxy API is a Python client for interacting with a REST API. It provides a simple interface for performing CRUD operations and supports authentication via JWT.
+
+## Features
+
+- Authentication using JWT
+- CRUD operations for various resources
+- Filtering and excluding resources
+- Error handling with logging
+
+## Installation
+
+To use the Proxy API, simply copy the code into your Python environment. Ensure you have the required dependencies installed:
+
+```bash
+pip install requests pandas
+```
+
+## Usage
+
+### Initialization
+
+Initialize the `APIClient` with the base URL of your API. You can also pass an optional token for authentication.
+
+```python
+from api_client import APIClient
+
+# Initialize the API client
+client = APIClient(base_url='http://localhost:3000')
+
+# Authenticate (if required)
+client.login(email="john@example.com", password="secret")
+```
+
+### Resource Operations
+
+The `APIClient` initializes proxies for various resources. You can perform operations like fetching all resources, filtering, and excluding specific IDs.
+
+```python
+# Get all users
+users = client.user.all()
+
+# Get users from ID 1 to 10
+users_range = client.user.all()[1:11]
+
+# Exclude users with IDs 7, 8, 9 and get all reamining users
+users_excluded = client.user.exclude([7, 8, 9])
+
+# Filter stations by date range
+stations = client.station.filter(start_date="2025-01-01", end_date="2025-12-31")
+```
+
+### Error Handling
+
+The API client logs errors and raises exceptions when API requests fail. This ensures that issues are bubbled up to the caller for handling.
+
+## API Reference
+
+### Classes
+
+- `APIClient`: Main client for interacting with the API. Handles authentication and resource operations.
+- `ResourceProxy`: Proxy for performing operations on a specific resource. Supports CRUD operations and filtering.
+
+### Methods
+
+- `APIClient.login(email: str, password: str)`: Authenticate and obtain a JWT token.
+- `ResourceProxy.all()`: Fetch all resources.
+- `ResourceProxy.get(id: Union[int, str])`: Fetch a single resource by ID.
+- `ResourceProxy.filter(**kwargs)`: Filter resources by query parameters.
+- `ResourceProxy.exclude(ids: List[int])`: Fetch all resources excluding specified IDs.
+
+## License
+
+This project is licensed under the MIT License.
