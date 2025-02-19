@@ -1,0 +1,15 @@
+mandarinTamer/__init__.py,sha256=kEV4InDFuWak_aDem7BTqLjVx9vjX1o15z8S905xVtE,196
+mandarinTamer/mandarin_tamer.py,sha256=10ADfkct_d1zuyyo0d1sY5kLgMfMpgYJTdqrZVMzTQk,4820
+mandarinTamer/helpers/__init__.py,sha256=YcTToX3vTlh1kfBvFzlonnbQn4Hm-_f8iU4kVw_Y4VE,76
+mandarinTamer/helpers/conversion_config.py,sha256=QZDlE5plz-GxSnDocvC2zDtLlk7E7sof6JDrNSMQVqw,3492
+mandarinTamer/helpers/conversion_operations.py,sha256=9A8lDRdJDyRe_4ddSyPBO4tGlTGiXBm4OE2-EBnsFMs,5870
+mandarinTamer/helpers/file_conversion.py,sha256=LtMs1NVyMa2fTE5DqkIK6lVDtCtXGEBcbRx2mdQBVtk,980
+mandarinTamer/helpers/open_ai_prompts.py,sha256=zjSnihSNoMq3hU3cQgAuPF2L1yLwZdtiStssw1KJUsU,3954
+mandarinTamer/helpers/punctuation_utils.py,sha256=LV8AG19e9Es7QcwIa_NbkjpvEHuYytQtlmk4PGL_sUA,538
+mandarinTamer/helpers/replacement_by_dictionary.py,sha256=5gVqLf1ehkx-eiZKb95PcFi8ujB2aSl5KLnVrBObxw4,5217
+mandarinTamer/helpers/trie.py,sha256=g1VAJL6nTQaNXGMZ2yVD8htkdSTfHAIq9-dBXEF55cE,995
+mandarin_tamer-0.0.1.dist-info/LICENSE,sha256=QkpJ65TRrl2oD4b4AVximrowvJQd0cfH8xOmrCsZdss,1067
+mandarin_tamer-0.0.1.dist-info/METADATA,sha256=f1VdSghF00hCQWTR7uaMTd30TM7kcpxN7wl5ViV3gbk,3846
+mandarin_tamer-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mandarin_tamer-0.0.1.dist-info/top_level.txt,sha256=rJJx_KcHc1rZyoY0WHpYMzdnkswDSW7vMqjqLmw_cTo,14
+mandarin_tamer-0.0.1.dist-info/RECORD,,
