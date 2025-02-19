@@ -1,0 +1,16 @@
+servefs/__main__.py,sha256=KnBB5b22YC686WLTWYmEU0NMrSJvUd_csVpukb2zzBo,58
+servefs/cli.py,sha256=o8Kjp19sE8uGrLvJNVEnMaEjMICPrcBscNHYaTbmDoQ,2916
+servefs/main.py,sha256=k5QlFQGHKz-80_Fvr0h1DEQHlEbQhQ3KYBlaaAvn06c,1704
+servefs/middleware/auth.py,sha256=Ss1YIouIPRLIyOkswRakHS0MmDsIvje-16nW3Bir_oc,3241
+servefs/routes/api.py,sha256=wK10F6JAbzI5Ajpsr4T2B_Pi1I1VvzZtMYuP5cbCyUk,7939
+servefs/routes/page.py,sha256=XbQN1w4sAoYmtrgCW-_SsedkysSXfyC9hO7JxBooI4Q,6286
+servefs/static/css/style.css,sha256=2YgTD1a6irGRJDZwEuu0uuX0g-TKEzNBgURQfSsOW-k,4484
+servefs/static/favicon.ico,sha256=OqFz1M34ZCAEHkg9-5TDeOc87oWIXTtn-And4GffcTw,142463
+servefs/static/favicon.webp,sha256=Mfn8ZWynhSWZjsr_ROOa9dNDT2wMQd2mqwLaPnxP5K4,26542
+servefs/static/index.html,sha256=I7uSuv5PjqRFZ-cLK5L84dILkUOfvusRl99juNMzAb8,14323
+servefs/static/js/index.js,sha256=7qm1tkule0SNC-U2KPRDQw6pkJduswrpntnWJthAeyA,25338
+servefs/utils/static.py,sha256=K73JG7stzHCv9D2L1VNMeS5O2OwGSGHb8KujflB2npo,1464
+servefs-0.2.3.dist-info/METADATA,sha256=fHDFSPX6CPIuxxh8J22lfmtOyJ_vkHpsGKHX6ui6JDQ,3911
+servefs-0.2.3.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+servefs-0.2.3.dist-info/entry_points.txt,sha256=nEcjf2VWZJPN2S-sVYaldjVQtmte9cR38fHn_Zw-Vww,43
+servefs-0.2.3.dist-info/RECORD,,
