@@ -1,0 +1,48 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/base.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/backends/base.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.backends.base.imports
+  module = sessions.backends.base
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/preflight.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/preflight.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.preflight.imports
+  module = sessions.preflight
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/backends/db.py | /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.backends.db.imports-1
+  module = sessions.backends.db
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/backends/db.py | /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.backends.db.imports
+  module = sessions.backends.db
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/exceptions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/exceptions.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.exceptions.imports
+  module = sessions.exceptions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/preflight.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.__init__.imports
+  module = sessions.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.default_settings.imports
+  module = sessions.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/0001_initial.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/migrations/0001_initial.py | /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.migrations.0001_initial.imports
+  module = sessions.migrations.0001_initial
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/0002_alter_session_options_alter_session_expire_date_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/migrations/0002_alter_session_options_alter_session_expire_date_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.migrations.0002_alter_session_options_alter_session_expire_date_and_more.imports
+  module = sessions.migrations.0002_alter_session_options_alter_session_expire_date_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/middleware.py | /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/exceptions.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.middleware.imports
+  module = sessions.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.config.imports
+  module = sessions.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/backends/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.backends.__init__.imports
+  module = sessions.backends.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/migrations/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.migrations.__init__.imports
+  module = sessions.migrations.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/plain/sessions/cli.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/imports/sessions.cli.imports
+  module = sessions.cli

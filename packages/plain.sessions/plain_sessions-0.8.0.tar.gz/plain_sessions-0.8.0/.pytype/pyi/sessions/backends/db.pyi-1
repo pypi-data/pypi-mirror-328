@@ -1,0 +1,33 @@
+# (generated with --quick)
+
+import logging
+from plain.models import transaction
+from plain.utils import timezone
+from typing import Any
+
+CreateError: Any
+DatabaseError: Any
+IntegrityError: Any
+SessionBase: Any
+SuspiciousOperation: Any
+UpdateError: Any
+cached_property: Any
+router: Any
+
+class SessionStore(Any):
+    __doc__: str
+    _session_key: Any
+    model: Any
+    modified: bool
+    def __init__(self, session_key = ...) -> None: ...
+    def _get_session_from_db(self) -> Any: ...
+    @classmethod
+    def clear_expired(cls) -> None: ...
+    def create(self) -> None: ...
+    def create_model_instance(self, data) -> Any: ...
+    def delete(self, session_key = ...) -> None: ...
+    def exists(self, session_key) -> Any: ...
+    @classmethod
+    def get_model_class(cls) -> Any: ...
+    def load(self) -> Any: ...
+    def save(self, must_create = ...) -> Any: ...

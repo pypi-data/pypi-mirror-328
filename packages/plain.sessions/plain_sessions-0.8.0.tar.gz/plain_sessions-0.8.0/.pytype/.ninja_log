@@ -1,0 +1,16 @@
+# ninja log v5
+1	569	1737048785490756442	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/preflight.pyi	3c464016b2ed2b9f
+569	2074	1737048786988367284	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi-1	cfe9358d5804bdce
+2074	3540	1737048788455252648	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/db.pyi	3caba50184098f50
+3540	4123	1737048789044764860	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/exceptions.pyi	ca16352cca62df33
+4123	4654	1737048789576088429	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/__init__.pyi	d5292b1e61e880b0
+4654	5152	1737048790075304988	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/default_settings.pyi	57ad850698d37221
+5152	5686	1737048790608256172	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/0002_alter_session_options_alter_session_expire_date_and_more.pyi	96048c1c1136608f
+5686	6184	1737048791106887859	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/__init__.pyi	977720f0f0e3850f
+6184	6719	1737048791641293201	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/migrations/0001_initial.pyi	d2c4e1b9224b79e7
+6719	7211	1737048792133460011	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/backends/__init__.pyi	4ab7524fdeda0987
+7211	7747	1737048792668906472	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/cli.pyi	c11ce1e5d3ff0a3e
+7747	8273	1737048793195462070	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/config.pyi	842b5171bc741ab
+0	561	1737048944926183107	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/models.pyi-1	71fc975e7ba72c23
+561	1123	1737048945489210398	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/models.pyi	c7c7e918a36e2646
+1123	2489	1737048946849238835	/Users/davegaeddert/Developer/dropseed/plain/plain-sessions/.pytype/pyi/sessions/middleware.pyi	11a6be4a03c0991
