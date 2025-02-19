@@ -1,0 +1,15 @@
+hawkinsdb/__init__.py,sha256=Mx3FUncYBvYotlUr1KJ7HX8CgdDrouVVnBnlIl9wamk,755
+hawkinsdb/base.py,sha256=kOmSZA3f9Kp-A0M4uj9boN8lTKO75wLJ8FQwItBYOAg,10340
+hawkinsdb/config.py,sha256=z7TaPCzUB9WDmLLsTYxB_2P0nkQni0gak5DW-Z32DF4,15146
+hawkinsdb/core.py,sha256=KkKeVbrmyRW24tHHU8mcgtdqA7MYWQIc3THNry7UedY,7231
+hawkinsdb/enrichment.py,sha256=0rHzQhom1FlT6OA_AXt3aT9yEf-K9E4xTTrh-xsZSD8,15059
+hawkinsdb/llm_interface.py,sha256=hwgk2L_78MkAeXSZwvSE5w_tP92NGYN-mqBbF1ae82g,15600
+hawkinsdb/openai_interface.py,sha256=J1pmvlP068qkAeJ4gTPhTJo87_OR7SjDGgg_on5MDA4,7071
+hawkinsdb/py.typed,sha256=1AUZ89GQZfDjEKd7wKqhaaMd34-ioBX11ZVVAddnH8w,53
+hawkinsdb/types.py,sha256=oc4WM8If8roRul0XL8nHg-vxZNWAtrUrJfU3IZU8RIM,2356
+hawkinsdb/storage/__init__.py,sha256=MHaEO3RdYzhBolzQ0xHW9ubfVF8Ee7ktUFYs3AZF5TQ,417
+hawkinsdb/storage/sqlite.py,sha256=kmqXyE50bJmHJV4lnPAKczoFkJ1DRQmQpRHbUTAkvKw,11256
+hawkinsdb-0.1.1.dist-info/METADATA,sha256=ajYvssJs4O-xdsKh0fjLTY79yVYLK8X7QNBl3mYNObM,7995
+hawkinsdb-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+hawkinsdb-0.1.1.dist-info/top_level.txt,sha256=fitfPgEhuWyGdaL0AO_l_FdWiausWb4zWItZtm5LC6Y,10
+hawkinsdb-0.1.1.dist-info/RECORD,,
