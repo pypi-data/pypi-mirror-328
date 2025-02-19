@@ -1,0 +1,7 @@
+bareos_restapi_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareos_restapi_client/client.py,sha256=UcUHfsP7Ar908EijvDyK1yVgqVifFCA7JSxgtMtVSRQ,4766
+bareos_restapi_client/models.py,sha256=gRxKFnRpPdZoQ9Xqby-6-sq6sjVxT3tx6Ybceol7-sQ,25795
+bareos_restapi_client-0.1.20.dist-info/METADATA,sha256=ncJNBFagezUGzccxIhWOBlkKc2XC7QM0nVwyjNDmve8,1384
+bareos_restapi_client-0.1.20.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bareos_restapi_client-0.1.20.dist-info/top_level.txt,sha256=5Wch2vX_3ag6a5Y54NnNImQPtrP3DpGCgHA4lUC9MHQ,22
+bareos_restapi_client-0.1.20.dist-info/RECORD,,
