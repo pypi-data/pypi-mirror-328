@@ -1,0 +1,46 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nexios"
+version = "2.0.13"
+description = "Nexios is a modern, high-performance ASGI web framework for Python."
+authors = ["Chidebele Dunamis <techwithdunamix@example.com>"]
+license = "MIT"
+homepage = "https://github.com/techwithdunamix/nexios"
+repository = "https://github.com/techwithdunamix/nexios"
+readme = "readme.md"
+keywords = [
+    "ASGI",
+    "backend",
+    "framework",
+    "web",
+    "Python",
+    "async",
+    "asynchronous",
+    "fastapi",
+    "web server",
+    "API",
+    "scalable",
+    "real-time",
+    "concurrent",
+    "HTTP",
+    "websocket"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+uvicorn = "*"
+asgiref = "*"
+anyio = "*"
+aiofiles = "*"
+itsdangerous = "*"
+python-multipart = "*"
+pyjwt = "*"
+
+[tool.poetry.scripts]
+nexios = "nexios.cli.main:nexios"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
