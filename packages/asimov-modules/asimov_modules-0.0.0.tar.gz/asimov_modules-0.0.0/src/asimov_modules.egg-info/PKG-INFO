@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: asimov-modules
+Version: 0.0.0
+Summary: ASIMOV Modules for Python
+Author-email: ASIMOV Protocol <support@asimov.so>
+License: Unlicense
+Project-URL: Homepage, https://github.com/asimov-modules/asimov-modules.py
+Project-URL: Documentation, https://github.com/asimov-modules/asimov-modules.py
+Project-URL: Repository, https://github.com/asimov-modules/asimov-modules.py.git
+Project-URL: Issues, https://github.com/asimov-modules/asimov-modules.py/issues
+Project-URL: Changelog, https://github.com/asimov-modules/asimov-modules.py/blob/master/CHANGES.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: General
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: asimov-mlx-module
+
+# ASIMOV Modules for Python
+
+[![License](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
+[![Compatibility](https://img.shields.io/badge/python-3.13%2B-blue)](https://endoflife.date/python)
+[![Package](https://img.shields.io/pypi/v/asimov-modules)](https://pypi.org/project/asimov-modules/)
+
+🚧 _We are building in public. This is presently under heavy construction._
+
+## 🛠️ Prerequisites
+
+- [Python](https://python.org) 3.13+
