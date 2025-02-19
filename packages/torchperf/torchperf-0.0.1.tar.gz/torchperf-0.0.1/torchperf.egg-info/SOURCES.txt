@@ -1,0 +1,6 @@
+LICENSE
+pyproject.toml
+torchperf.egg-info/PKG-INFO
+torchperf.egg-info/SOURCES.txt
+torchperf.egg-info/dependency_links.txt
+torchperf.egg-info/top_level.txt
