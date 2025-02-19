@@ -1,0 +1,23 @@
+#[tool.poetry]
+#name = "supply"
+#version = "0.1.0"
+#description = "Supply Chain Graph Library"
+#authors = ["Nitin Singal"]
+#readme = "../README.md"
+#packages = [
+#    { include = "supply" },  # This tells Poetry where to find the package
+#]
+
+# [tool.poetry.dependencies]
+# python = ">=3.10"
+# maturin = "^1.8.2"
+# jupyter = "^1.1.1"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "supply-chain-graph"
+requires-python = ">=3.10"
+dynamic = ["version"]

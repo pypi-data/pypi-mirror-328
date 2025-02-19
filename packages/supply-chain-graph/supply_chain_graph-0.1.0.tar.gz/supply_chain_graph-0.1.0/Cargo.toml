@@ -1,0 +1,79 @@
+[package]
+name = "supply"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#pyo3 = { version = "0.18.0", features = ["extension-module"] }
+#pyo3 = { version = "0.18.0", features = ["extension-module", "auto-initialize"] }
+
+chrono = "0.4"
+lazy_static = "1.4"
+log = "0.4"
+env_logger = "0.11.4"
+log4rs = "1.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+anyhow = "1.0"
+tempfile = "3.8"
+function_name = "0.3.0"
+parking_lot = "0.12"
+serial_test = "3.2.0"
+actix-web = "4.8.0"
+serde_json = "1.0"
+tokio = { version = "1.40.0", features = ["full"] } 
+
+[target.'cfg(target_os = "macos")'.dependencies]
+mach = "0.3"
+pyo3 = { version = "0.21.0", features = ["abi3-py312"] }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+sysinfo = "0.29"
+pyo3 = { version = "0.21.0", features = ["extension-module", "abi3-py37"] }
+
+[lib]
+name = "supply"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "supply"
+path = "src/main.rs"
+
+#[[test]]
+#name = "demand_planning"
+#path = "tests/integration/demand_planning.rs"
+
+## ensure sample is installed "cargo install --locked samply"
+## To create instrumened build cargo build --release && sample record ./target/release/supply
+#[profile.release]
+#debug = true
+#debug-assertions = true
+# These next settings help prevent too aggressive optimization
+#opt-level = 2
+#inline = false
+#lto = false
+#codegen-units = 1
+
+# just build the test
+# cargo test --release --test test_demand_planning test_car_psr_constrained_planning --no-run
+# Find the test binary by find the one with latest timestamp. it is also printed in the output
+# test_demand_planning-[hash]
+# Run the test with samply
+# RUST_LOG=info samply record target/release/deps/test_demand_planning-8ca310771b6a45ab test_car_psr_constrained_planning --nocapture
+# RUST_LOG=info samply record target/release/deps/test_demand_planning-83174a07eaf23477 test_car_psr_constrained_planning --nocapture
+
+
+# Python location
+# /opt/anaconda3/lib/libpython3.12.dylib
+# export DYLD_LIBRARY_PATH="/opt/homebrew/opt/python@3.12/lib:$DYLD_LIBRARY_PATH"
+# cargo test --release  -- --test-threads=1
+# Sample Python in PATH: /opt/homebrew/opt/python@3.12/bin/python3.12
+# /opt/homebrew/Cellar/python@3.12/3.12.7/Frameworks/Python.framework/Versions/3.12/lib/libpython3.12.dylib
+
+
+
+#/Users/nitinsingal/repos/package-sp/supply_plan/venv/bin:/opt/homebrew/Cellar/python@3.12/3.12.7/Frameworks/Python.framework/Versions/3.12/bin:/Users/nitinsingal/.cursor/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh:/Users/nitinsingal/Tools/eclipse-workspace/package-pyjava-composability/venv/bin:/Users/nitinsingal/.cursor/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh:/Users/nitinsingal/Tools/eclipse-workspace/package-pyjava-composability/venv/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/nitinsingal/.cargo/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin
+
+
+#/Users/nitinsingal/.cursor/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh:/Users/nitinsingal/Tools/eclipse-workspace/package-pyjava-composability/venv/bin:/Users/nitinsingal/.cursor/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh:/Users/nitinsingal/Tools/eclipse-workspace/package-pyjava-composability/venv/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/nitinsingal/.cursor/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh:/Users/nitinsingal/Tools/eclipse-workspace/package-pyjava-composability/venv/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/nitinsingal/.cargo/bin:/opt/homebrew/bin:/opt/homebrew/bin

@@ -1,0 +1,29 @@
+# Operation,Start Date,End Date,Quantity
+#   Operation,FlowDate,FlowQuantity,FlowType,Item
+Make_Laptop_A@Plant1,2024-01-15,2024-01-16,100.00
+  Make_Laptop_A@Plant1,2024-01-15,100.00,Consuming,Disk@Plant1
+  Make_Laptop_A@Plant1,2024-01-15,100.00,Consuming,CPU@Plant1
+  Make_Laptop_A@Plant1,2024-01-15,200.00,Consuming,Memory_8GB@Plant1
+  Make_Laptop_A@Plant1,2024-01-16,100.00,Producing,Laptop_A@Plant1
+  Make_Laptop_A@Plant1,2024-01-15,100.00,LoadResource,Assemble_Laptop@Plant1
+Make_Laptop_A@Plant1,2024-01-20,2024-01-21,100.00
+  Make_Laptop_A@Plant1,2024-01-20,100.00,Consuming,Disk@Plant1
+  Make_Laptop_A@Plant1,2024-01-20,100.00,Consuming,CPU@Plant1
+  Make_Laptop_A@Plant1,2024-01-20,200.00,Consuming,Memory_8GB@Plant1
+  Make_Laptop_A@Plant1,2024-01-21,100.00,Producing,Laptop_A@Plant1
+  Make_Laptop_A@Plant1,2024-01-20,100.00,LoadResource,Assemble_Laptop@Plant1
+Make_Laptop_A@Plant1,2024-01-16,2024-01-17,100.00
+  Make_Laptop_A@Plant1,2024-01-16,100.00,Consuming,Disk@Plant1
+  Make_Laptop_A@Plant1,2024-01-16,100.00,Consuming,CPU@Plant1
+  Make_Laptop_A@Plant1,2024-01-16,200.00,Consuming,Memory_8GB@Plant1
+  Make_Laptop_A@Plant1,2024-01-17,100.00,Producing,Laptop_A@Plant1
+  Make_Laptop_A@Plant1,2024-01-16,100.00,LoadResource,Assemble_Laptop@Plant1
+Make_Laptop_A@Plant1,2024-01-19,2024-01-20,100.00
+  Make_Laptop_A@Plant1,2024-01-19,100.00,Consuming,Disk@Plant1
+  Make_Laptop_A@Plant1,2024-01-19,100.00,Consuming,CPU@Plant1
+  Make_Laptop_A@Plant1,2024-01-19,200.00,Consuming,Memory_8GB@Plant1
+  Make_Laptop_A@Plant1,2024-01-20,100.00,Producing,Laptop_A@Plant1
+  Make_Laptop_A@Plant1,2024-01-19,100.00,LoadResource,Assemble_Laptop@Plant1
+Move_Laptop_A-to-DC1,2024-01-30,2024-01-31,400.00
+  Move_Laptop_A-to-DC1,2024-01-30,400.00,Consuming,Laptop_A@Plant1
+  Move_Laptop_A-to-DC1,2024-01-31,400.00,Producing,Laptop_A@DC1

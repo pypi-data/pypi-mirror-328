@@ -1,0 +1,6 @@
+#pattern: "{d(%H:%M:%S)} {l} [{t:<45}] {m}{n}"
+pattern: "{l} [{t:<40}] {m}{n}"
+level: "info" 
+resize_plans: true
+trace_level: 0
+trace_demands_ids: 0,1,2

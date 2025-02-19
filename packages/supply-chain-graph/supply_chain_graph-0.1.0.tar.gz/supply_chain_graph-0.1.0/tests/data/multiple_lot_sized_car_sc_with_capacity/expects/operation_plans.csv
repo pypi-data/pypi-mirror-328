@@ -1,0 +1,11 @@
+# Operation,Start Date,End Date,Quantity
+#   Operation,FlowDate,FlowQuantity,FlowType,Item
+Body Assembly,2024-01-20,2024-01-23,150.00
+  Body Assembly,2024-01-20,150.00,Consuming,Engine
+  Body Assembly,2024-01-20,750.00,Consuming,Seat
+  Body Assembly,2024-01-23,150.00,Producing,Body
+  Body Assembly,2024-01-20,150.00,LoadResource,CarCapacity
+Car Assembly,2024-01-29,2024-01-31,70.00
+  Car Assembly,2024-01-29,280.00,Consuming,Tyre
+  Car Assembly,2024-01-29,70.00,Consuming,Body
+  Car Assembly,2024-01-31,70.00,Producing,Car
