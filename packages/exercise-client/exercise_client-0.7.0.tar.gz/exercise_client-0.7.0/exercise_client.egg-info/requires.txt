@@ -1,0 +1,4 @@
+requests>=2.32
+colorama>=0.4
+readchar>=4.0
+click
