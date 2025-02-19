@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireImport/__init__.py
+FireImport.egg-info/PKG-INFO
+FireImport.egg-info/SOURCES.txt
+FireImport.egg-info/dependency_links.txt
+FireImport.egg-info/top_level.txt
