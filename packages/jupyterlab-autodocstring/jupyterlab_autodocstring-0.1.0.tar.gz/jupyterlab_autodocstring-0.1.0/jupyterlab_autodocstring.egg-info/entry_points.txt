@@ -1,0 +1,2 @@
+[jupyterlab.extension]
+jupyterlab_autodocstring = jupyterlab_autodocstring
