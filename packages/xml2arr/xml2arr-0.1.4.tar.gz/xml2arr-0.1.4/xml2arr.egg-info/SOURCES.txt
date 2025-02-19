@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+xml2arr/__init__.py
+xml2arr/extractor.py
+xml2arr.egg-info/PKG-INFO
+xml2arr.egg-info/SOURCES.txt
+xml2arr.egg-info/dependency_links.txt
+xml2arr.egg-info/top_level.txt
