@@ -1,0 +1,77 @@
+Metadata-Version: 2.3
+Name: fouriercrop
+Version: 0.1.0
+Summary: A Python class for cropping the central region of a tensor in the Fourier domain.
+Keywords: fouriercrop
+Author: cryoetools
+Author-email: cryoetools@outlook.com
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mrcfile (>=1.5.4,<2.0.0)
+Requires-Dist: numpy (==1.25.0)
+Requires-Dist: pipreqs (>=0.5.0,<0.6.0)
+Requires-Dist: pydata-sphinx-theme (>=0.16.1,<0.17.0)
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Requires-Dist: recommonmark (>=0.7.1,<0.8.0)
+Requires-Dist: sphinx-autobuild (>=2024.10.3,<2025.0.0)
+Requires-Dist: sphinx-markdown-tables (>=0.0.17,<0.0.18)
+Requires-Dist: sphinx-rtd-theme (>=3.0.2,<4.0.0)
+Requires-Dist: torch (==2.1.2+cu118)
+Requires-Dist: typer[all] (>=0.13.0,<0.14.0)
+Project-URL: Bug Tracker, https://github.com/cryoetools/fouriercrop/issues
+Project-URL: Documentation, https://fouriercrop.readthedocs.io
+Project-URL: Homepage, https://github.com/cryoetools/fouriercrop
+Project-URL: Repository, https://github.com/cryoetools/fouriercrop
+Description-Content-Type: text/markdown
+
+
+# fouriercrop
+
+
+<div align="center">
+
+[![PyPI - Version](https://img.shields.io/pypi/v/fouriercrop.svg)](https://pypi.python.org/pypi/fouriercrop)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fouriercrop.svg)](https://pypi.python.org/pypi/fouriercrop)
+[![Tests](https://github.com/cryoetools/fouriercrop/workflows/tests/badge.svg)](https://github.com/cryoetools/fouriercrop/actions?workflow=tests)
+[![Codecov](https://codecov.io/gh/cryoetools/fouriercrop/branch/main/graph/badge.svg)](https://codecov.io/gh/cryoetools/fouriercrop)
+[![Read the Docs](https://readthedocs.org/projects/fouriercrop/badge/)](https://fouriercrop.readthedocs.io/)
+[![PyPI - License](https://img.shields.io/pypi/l/fouriercrop.svg)](https://pypi.python.org/pypi/fouriercrop)
+
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+
+</div>
+
+
+A Python class for cropping the central region of a tensor in the Fourier domain.
+
+
+* GitHub repo: <https://github.com/cryoetools/fouriercrop.git>
+* Documentation: <https://fouriercrop.readthedocs.io>
+* Free software: Apache Software License 2.0
+
+
+## Features
+
+* TODO
+
+## Quickstart
+
+TODO
+
+## Credits
+
+This package was created with [Cookiecutter][cookiecutter] and the [fedejaure/cookiecutter-modern-pypackage][cookiecutter-modern-pypackage] project template.
+
+[cookiecutter]: https://github.com/cookiecutter/cookiecutter
+[cookiecutter-modern-pypackage]: https://github.com/fedejaure/cookiecutter-modern-pypackage
+
