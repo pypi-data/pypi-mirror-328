@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: gothic
+Version: 0.0.1
+Summary: A pattern match->rewrite based programming language with austere & simple syntax/semantics. Like awk, but better.
+Home-page: https://github.com/yourusername/mypackage
+Author: Alexander Davis
+Author-email: talexanderd99@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gothic
+
+A brief description of what your package does.
+
+## Installation
+
+```bash
+pip install gothic
+```
+
+## Usage
+
+```python
+import mypackage
+
+# Add usage examples
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

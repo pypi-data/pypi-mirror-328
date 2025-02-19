@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gothic/__init__.py
+src/gothic/main.py
+src/gothic/tests.py
+src/gothic/utils.py
+src/gothic.egg-info/PKG-INFO
+src/gothic.egg-info/SOURCES.txt
+src/gothic.egg-info/dependency_links.txt
+src/gothic.egg-info/entry_points.txt
+src/gothic.egg-info/top_level.txt

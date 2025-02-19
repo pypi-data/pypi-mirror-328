@@ -1,0 +1,2 @@
+[console_scripts]
+gothic = gothic.main:CLI
