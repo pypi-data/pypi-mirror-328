@@ -1,0 +1,16 @@
+data_quality_kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_quality_kit/accuracy.py,sha256=_PQMT61rW7aLqKOIXDJOac6wKdLWqRT0nn7CKZLh1qs,2086
+data_quality_kit/completeness.py,sha256=SJwSzapsXGJwwubDG_F-o8ut6ogWJHYI-2eNOpLu2kg,366
+data_quality_kit/consistency.py,sha256=kXFvkwZ4Qj2IsiNkJtMLv8oT0lTS2Sdw5pkTgJB3SM4,1804
+data_quality_kit/validity.py,sha256=2Ly3s7cS7IFICCanf1Pyyh6yjbla7tceeZaaR-obKwo,2110
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/global_test_data.py,sha256=hN2dhkNdGgSe4hBj6qzhUaBa9B2p2Ko6eKDpXdYlFT0,734
+tests/test_accuracy.py,sha256=51sol8rrwNP-ZSdoz7iPtvbnJf9f0mdRNfz0Fj0PlLQ,1968
+tests/test_completeness.py,sha256=50JE0CEYuXTMfHbAPr7d7Ig3eiLj-mQIZJ76KRQyNlI,462
+tests/test_consistency.py,sha256=RHWjQQzQow17NMMCTxyBnTPpmy657JwlIqsATXOEZSQ,2462
+tests/test_validity.py,sha256=BflpE3Ao1TGt3Aiv_lwl3_nQi2v3znm26k4z2SMBjeI,2119
+data_quality_kit-0.8.0.dist-info/LICENSE,sha256=dKWdFUsShdnITF9ptwZ9x0wUQHPAdH_fSts34jG6TCw,11525
+data_quality_kit-0.8.0.dist-info/METADATA,sha256=4NlWq4h_qvNSr3oeVO8ZZzPZiW_fFns-i6eZs_LaX6w,3034
+data_quality_kit-0.8.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+data_quality_kit-0.8.0.dist-info/top_level.txt,sha256=xUZTz5Lt1LaQjDcRq0kaqQZMbs7w-GW9iLtA-XjyrR0,23
+data_quality_kit-0.8.0.dist-info/RECORD,,
