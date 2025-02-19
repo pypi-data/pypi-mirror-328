@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "anabrid-redac-core"
+version = "0.1.1"
+description = "Shared base code for REDAC project's software infrastructure"
+authors = ["Daniel Thuerck <thuerck@anabrid.com>"]
+license = "3BSD"
+readme = "README.md"
+packages = [
+  { include = "anabrid", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+setuptools = "^75.8.0"
+pydantic = "^2.10.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
