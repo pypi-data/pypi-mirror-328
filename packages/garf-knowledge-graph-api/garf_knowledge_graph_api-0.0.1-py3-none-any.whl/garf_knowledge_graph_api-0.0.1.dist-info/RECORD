@@ -1,0 +1,9 @@
+garf_knowledge_graph_api/__init__.py,sha256=s9xtqnVlg9dKq7m0PJvMfVJu1GCk1msOMbCQC63TdIU,913
+garf_knowledge_graph_api/api_clients.py,sha256=bTZsX7I0OaAyGHZHK4LTWugAgGZ59ZnD6K6Pp9G3cbw,1662
+garf_knowledge_graph_api/query_editor.py,sha256=yomMxILHPaFQnf8jpntmBFp14NW18MtrjR62WiR_IyI,756
+garf_knowledge_graph_api/report_fetcher.py,sha256=2iADDwSqIp-XUoFw4oy3FBixkSTm4dUsHQHgf08HJ7I,2375
+garf_knowledge_graph_api-0.0.1.dist-info/METADATA,sha256=m2BtdXQIx7PAuyUJImT4iOf9FDjFdBaWbpaXAUMSybg,2528
+garf_knowledge_graph_api-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+garf_knowledge_graph_api-0.0.1.dist-info/entry_points.txt,sha256=jfzzWg95SO84FJHoT4rdX6vfky0zRsdI6u7e8k6bWM8,69
+garf_knowledge_graph_api-0.0.1.dist-info/top_level.txt,sha256=CHKBtMBGuRrAwcwHmjtZDBIU9FQyVkD-w1NMYEUO_Bo,25
+garf_knowledge_graph_api-0.0.1.dist-info/RECORD,,

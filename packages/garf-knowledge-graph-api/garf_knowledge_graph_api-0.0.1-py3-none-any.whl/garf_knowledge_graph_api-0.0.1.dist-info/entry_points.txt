@@ -1,0 +1,2 @@
+[garf]
+knowledge-graph-api = garf_knowledge_graph_api.report_fetcher
