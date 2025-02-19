@@ -1,0 +1,69 @@
+Metadata-Version: 2.2
+Name: tira-measure
+Version: 0.0.11
+Summary: Measuring what really matters.
+Author-email: Maik Fröbe <maik.froebe@uni-jena.de>, Jan Heinrich Merker <heinrich.merker@uni-jena.de>, Tim Hagen <tim.hagen@uni-kassel.de>
+Project-URL: Homepage, https://github.com/tira-io/measure
+Project-URL: Bug Tracker, https://github.com/tira-io/measure/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: typing-extensions~=4.12
+Provides-Extra: tests
+Requires-Dist: bandit[toml]~=1.7; extra == "tests"
+Requires-Dist: mypy~=1.5; extra == "tests"
+Requires-Dist: pytest~=8.0; extra == "tests"
+Requires-Dist: pytest-cov~=6.0; extra == "tests"
+Requires-Dist: ruff~=0.8.1; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx~=8.1; extra == "docs"
+Requires-Dist: myst-parser~=4.0; extra == "docs"
+
+# The Measure Python API
+
+Install via:
+
+```
+pip3 install tira-measure
+```
+
+Usage:
+
+```py
+from tira_measure import Environment
+
+environment = Environment(["git", "system"], ..., polling_ms=1000)  # defaults would be all measures, and some reasonable polling interval.
+
+# Then measure with a context manager...
+with environment.measure():
+  # do something
+
+# ...or a function decorator...
+@environment.measure
+def do_something():
+  # do something
+do_something()
+
+# ...or manually...
+environment.start_measuring()
+# do something
+environment.stop_measuring()
+
+print("start git hash", environment.measurements[0]["git"])
+```
+
+
+
+Run tests via:
+```
+pytest
+```
