@@ -1,0 +1,13 @@
+opuslib_next/__init__.py,sha256=B_pXMfh6GCZuzDtbWvlCZATxa4oU6t0RlEKjUgvBPfs,636
+opuslib_next/api/__init__.py,sha256=FGk-tHC8RvoGyMiFIPMA4RKHYc0M0YKArDCK3uBMtKM,645
+opuslib_next/api/ctl.py,sha256=rsfrTABTf98Xg094O1c-587qNO79GuIrVovcltmPkMY,5787
+opuslib_next/api/decoder.py,sha256=ktnXVoBEaj1yRWNvvpJi30FRViVZpTdPsqa3tF5Czwc,8983
+opuslib_next/api/encoder.py,sha256=xPqJElPFNPZNVqdebGNzJki_YC0RkHKBE_PrVDg4lMQ,5354
+opuslib_next/api/info.py,sha256=JdTmzdmbSpSoiaUwEYOwP4dtqQo4GnQz9ocbyYB0zv4,709
+opuslib_next/classes.py,sha256=qrcz9K_awyuqJ5zrEofqus_n0pXjyfE5bWImxtY6m-0,10823
+opuslib_next/constants.py,sha256=nDI026Bb2ET-6qtKWJJNkVZOQSA4X2KNRTJQihNAJBQ,2425
+opuslib_next/exceptions.py,sha256=s91ahMA9HClqlodvNGwSOXkx4LKurbmYOpJRJybef5w,627
+opuslib_next-1.0.0.dist-info/LICENSE,sha256=QYIcoymg8sVhmqq7eJuB1Aju-hcYLRZbkVg-vftr9Rs,1487
+opuslib_next-1.0.0.dist-info/METADATA,sha256=3-PuFo2EVZXDEq6N0bT6JIJBwsUvYy5af-97t64yhx0,1380
+opuslib_next-1.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+opuslib_next-1.0.0.dist-info/RECORD,,
