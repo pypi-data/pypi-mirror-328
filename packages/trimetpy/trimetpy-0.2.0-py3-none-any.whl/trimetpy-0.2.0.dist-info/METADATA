@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: trimetpy
+Version: 0.2.0
+Summary: Python library for the TriMet API with OOP, currently lets you fetch all running vehicles, and track individual vehicle IDs. Now includes Portland Streetcar vehicles as well.
+Requires-Dist: requests
+Dynamic: requires-dist
+Dynamic: summary
