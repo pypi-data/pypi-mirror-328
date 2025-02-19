@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "infini-retri"
+version = "0.0.3"
+authors = [
+  { name="MrYXJ", email="yxj2017@gmail.com"},
+]
+description = "This package is designed to improve LLMs alility of handling long contexts, which can enhance LLMs to address retrieval task in infinite-length."
+
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "transformers>=4.46.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MrYxJ"
