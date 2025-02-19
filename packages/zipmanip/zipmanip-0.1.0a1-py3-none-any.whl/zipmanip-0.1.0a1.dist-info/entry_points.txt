@@ -1,0 +1,5 @@
+[console_scripts]
+zipmanip = zipmanip:main
+
+[gui_scripts]
+
