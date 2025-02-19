@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: coredotcloud
+Version: 0.1.0
+Summary: A simple system monitoring tool for CoreDotCloud
+Home-page: https://github.com/yourusername/coredotcloud
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: psutil
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+============
+CoreDotCloud
+============
+
+
+.. image:: https://img.shields.io/pypi/v/coredotcloud.svg
+        :target: https://pypi.python.org/pypi/coredotcloud
+
+.. image:: https://img.shields.io/travis/coredottoday/coredotcloud.svg
+        :target: https://travis-ci.com/coredottoday/coredotcloud
+
+
+
+Cloud Tool
+
+
+* Free software: Apache Software License 2.0
+
+
+Features
+--------
+
+* TODO
