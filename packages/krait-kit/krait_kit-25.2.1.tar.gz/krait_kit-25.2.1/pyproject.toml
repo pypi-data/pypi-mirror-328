@@ -1,0 +1,39 @@
+[project]
+name = "krait-kit"
+description = "A versatile Python package for managing and organizing various utilities and tools, including logging, packaging, path handling, and signaled properties."
+readme = "README.md"
+requires-python = ">=3.8"
+version = "25.2.1"
+license = "MIT"
+dependencies = [
+    # all dependencies here
+    "importlib-metadata>=8.5.0",
+    "pyyaml>=6.0.2",
+]
+dynamic = [
+    # "version",
+    # other dynamic fields here
+]
+
+[project.optional-dependencies]
+ci = ["packaging", "tomlkit"]
+all = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+metadata.allow-direct-references = true
+build.packages = [
+    "/packages/lib/src/krait",
+    "/packages/logging/src/krait",
+    "/packages/package/src/krait",
+    "/packages/path/src/krait",
+    "/packages/signal/src/krait",
+    # more packages here
+]
+
+[tool.ruff.lint]
+pydocstyle.convention = "numpy"
+extend-select = ["C", "N", "SIM", "PTH", "I", "PL", "FURB", "D"]
