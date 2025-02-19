@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pgvector-storage
+Version: 0.1.3
+Summary: 
+Author: kirin
+Author-email: kirin.chen1001@gmail.com
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.2.3,<3.0.0)
+Requires-Dist: openai (>=1.63.2,<2.0.0)
+Requires-Dist: psycopg[binary,pool] (>=3.2.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# pgvector-storage
