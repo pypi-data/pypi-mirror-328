@@ -1,0 +1,2 @@
+[console_scripts]
+agentstudio = agentstudio.cli:main
