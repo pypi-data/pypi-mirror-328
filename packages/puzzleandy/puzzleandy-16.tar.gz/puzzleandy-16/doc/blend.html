@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blend</title>
+<link rel=stylesheet href=default.css>
+<script type=text/javascript async
+src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js>
+</script>
+</head>
+<body>
+
+<p>\(\begin{align}
+b &= \text{bottom}\\
+t &= \text{top}
+\end{align}\)</p>
+
+<h2>Normal Group</h2>
+
+<p>\(\text{normal}(b,t) = t\)</p>
+
+<h2>Darken Group</h2>
+
+<p>\(\text{darken}(b,t) = \text{min}(b,t)\)</p>
+
+<p>\(\text{multiply}(b,t) = bt\)</p>
+
+<p>\(\text{color_burn}(b,t) = \begin{cases}
+1&\text{if }b = 1\\
+0&\text{else if }t = 0\\
+1-\min\left(\dfrac{1-b}{t},1\right)&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{linear_burn}(b,t) = \text{max}(b+t-1,0)\)</p>
+
+<p>\(\begin{align}
+Y(R,G,B) &= 0.299R+0.587G+0.114B\\
+\text{darker_color}(b,t) &= \begin{cases}
+b&\text{if }Y(b) \lt Y(t)\\
+t&\text{else}
+\end{cases}
+\end{align}\)</p>
+
+<h2>Lighten Group</h2>
+
+<p>\(\text{lighten}(b,t) = \text{max}(b,t)\)</p>
+
+<p>\(\begin{align}
+\text{screen}(b,t) &= 1-(1-b)(1-t)\\
+                   &= b+t-bt
+\end{align}\)</p>
+
+<p>\(\text{color_dodge}(b,t) = \begin{cases}
+0&\text{if }b = 0\\
+1&\text{else if }t = 1\\
+\min\left(\dfrac{b}{1-t},1\right)&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{linear_dodge}(b,t) = \text{min}(b+t,1)\)</p>
+
+<p>\(\begin{align}
+Y(R,G,B) &= 0.299R+0.587G+0.114B\\
+\text{lighter_color}(b,t) &= \begin{cases}
+t&\text{if }Y(b) \lt Y(t)\\
+b&\text{else}
+\end{cases}
+\end{align}\)</p>
+
+<h2>Contrast Group</h2>
+
+<p>\(\text{overlay}(b,t) = \text{hard_light}(t,b)\)</p>
+
+<p>\(\begin{align}
+D(c) &= \begin{cases}
+((16c-12)c+4)c&\text{if }c \le 0.25\\
+\sqrt{c}&\text{else}
+\end{cases}\\
+\text{soft_light}(b,t) &= \begin{cases}
+b-(1-2t)b(1-b)&\text{if }t \le 0.5\\
+b+(2t-1)(D(b)-b)&\text{else}
+\end{cases}
+\end{align}\)</p>
+
+<p>\(\text{hard_light}(b,t) = \begin{cases}
+\text{multiply}(b,2t)&\text{if }t \le 0.5\\
+\text{screen}(b,2(t-0.5))&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{vivid_light}(b,t) = \begin{cases}
+\text{color_burn}(b,2t)&\text{if }t \le 0.5\\
+\text{color_dodge}(b,2(t-0.5))&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{linear_light}(b,t) = \begin{cases}
+\text{linear_burn}(b,2t)&\text{if }t \le 0.5\\
+\text{linear_light}(b,2(t-0.5))&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{pin_light}(b,t) = \begin{cases}
+\text{darken}(b,2t)&\text{if }t \le 0.5\\
+\text{lighten}(b,2(t-0.5))&\text{else}
+\end{cases}\)</p>
+
+<p>\(\text{hard_mix}(b,t) = \lfloor b+t \rfloor\)</p>
+
+<h2>Inversion Group</h2>
+
+<p>\(\text{difference}(b,t) = \max(b-t,t-b)\)</p>
+
+<p>\(\text{exclusion}(b,t) = b+t-2bt\)</p>
+
+<h2>Cancelation Group</h2>
+
+<p>\(\text{subtract}(b,t) = \text{max}(b-t,0)\)</p>
+
+<p>\(\text{divide}(b,t) = \begin{cases}
+0&\text{if }b = 0\\
+1&\text{else if }b \ge t\\
+b/t&\text{else}
+\end{cases}\)</p>
+
+<h2>Component Group</h2>
+
+<p>\(\text{hue}(b,t) = b_H,t_S,t_L\)</p>
+
+<p>\(\text{saturation}(b,t) = t_H,b_S,t_L\)</p>
+
+<p>\(\text{color}(b,t) = t_H,t_S,b_L\)</p>
+
+<p>\(\text{luminosity}(b,t) = \text{color}(t,b)\)</p>
+
+</body>
+</html>
