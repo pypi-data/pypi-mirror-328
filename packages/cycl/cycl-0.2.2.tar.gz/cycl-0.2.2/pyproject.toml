@@ -1,0 +1,112 @@
+[build-system]
+requires = ['setuptools>=64', 'setuptools-scm>=8']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'cycl'
+version='0.2.2'
+requires-python = '>=3.8'
+description = 'CLI and Python SDK to help identify cross-stack import/export circular dependencies, for a given AWS account and region.'
+readme = 'README.md'
+keywords = ['aws', 'cdk', 'cycle', 'circular', 'dependency', 'infrastructure', 'boto3', 'cloud']
+classifiers = [
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python',
+    'Topic :: Software Development',
+]
+dependencies = [
+    'boto3~=1.0',
+    'networkx~=3.0',
+]
+
+[project.optional-dependencies]
+docs = [
+    'myst-parser==4.0.1',
+    'sphinx_rtd_theme==3.0.2',
+    'sphinx-argparse==0.5.2',
+    'sphinx-autobuild==2024.10.3',
+    'sphinx==8.1.3',
+]
+
+[project.urls]
+Repository = 'http://github.com/tcm5343/cycl'
+Documentation = 'https://tcm5343.github.io/cycl/index.html'
+
+[project.scripts]
+cycl = 'cycl.cli:app'
+
+[tool.ruff]
+line-length = 125
+
+[tool.ruff.lint]
+select = ['ALL']
+ignore = [
+    'COM',      # flake8-commas
+    'D',        # pydocstyle
+    'ERA001',   # commented-out-code
+    'FIX002',   # line-contains-todo
+    'Q000',     # bad-quotes-inline-string
+    'Q003',     # avoidable-escaped-quote
+    'T201',     # print
+    'TD',       # flake8-todos
+]
+
+[tool.ruff.lint.per-file-ignores]
+'tests/**' = [
+    'ANN',      # flake8-annotations
+    'PLR2004',  # magic-value-comparison
+    'S101',     # assert
+]
+'docs/**' = [
+    'INP001',   # implicit-namespace-package
+    'A001',     # builtin-variable-shadowing
+]
+'__init__.py' = [
+    'F401',     # unused-import
+]
+
+[tool.ruff.format]
+quote-style = 'single'
+indent-style = 'space'
+docstring-code-format = true
+
+[tool.coverage.run]
+branch = true
+source = ['./src']
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+skip_covered = true
+skip_empty = true
+exclude_lines = [
+    "if TYPE_CHECKING:",
+]
+omit = [
+    '__*__.py',
+]
+
+[tool.pytest.ini_options]
+log_cli_level = 'INFO'
+addopts = ['--import-mode=importlib']
+
+[tool.tox]
+env_list = ["py39", "py310", "py311", "py312", "py313"]
+skip_missing_interpreters = false
+
+[tool.tox.env_run_base]
+allowlist_externals = ['make']
+package = "editable"
+deps = '-rrequirements-dev.txt'
+commands = [
+    ["make", "validate"],
+    ["make", "test", "ARGS={posargs}"]
+]
