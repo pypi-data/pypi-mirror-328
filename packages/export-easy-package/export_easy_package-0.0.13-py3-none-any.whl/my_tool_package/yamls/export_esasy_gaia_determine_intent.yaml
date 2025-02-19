@@ -1,0 +1,20 @@
+my_tool_package.tools.export_esasy_gaia_determine_intent.export_esasy_gaia_determine_intent:
+  name: ExportEasy GAIA Determine Intent
+  type: custom_llm
+  inputs:
+    connection:
+      type:
+        - CustomConnection
+    api:
+      type:
+        - string
+    deployment_name:
+      type:
+        - string
+    temperature:
+      type:
+        - double
+  description: This is a tool to demonstrate how to customize an LLM tool with a PromptTemplate
+    using Chanel GAIA CustomConnection for ExportEasy.
+  module: my_tool_package.tools.export_esasy_gaia_determine_intent
+  function: export_esasy_gaia_determine_intent

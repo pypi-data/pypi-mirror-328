@@ -1,0 +1,21 @@
+my_tool_package.tools.export_esasy_gaia_determine_reply.export_esasy_gaia_determine_reply:
+  name: export_esasy_gaia_determine_reply
+  type: custom_llm
+  inputs:
+    connection:
+      type:
+        - CustomConnection
+    api:
+      type:
+        - string
+    deployment_name:
+      type:
+        - string
+    temperature:
+      type:
+        - double
+  description: This is a tool to demonstrate how to customize an LLM tool with a PromptTemplate
+    and custom input paraeeters (is_new_session, prompt_variant_first, prompt_variant_second  using
+    Chanel GAIA CustomConnection for ExportEasy.
+  module: my_tool_package.tools.export_esasy_gaia_determine_reply
+  function: export_esasy_gaia_determine_reply
