@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: opengrad
+Version: 0.0.1
+Summary: A small autograd engine and neural net library
+Home-page: https://github.com/iamaryav/opengrad
+Author: Priya Aryav
+Author-email: priya.aryav@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# opengrad
+A small autograd engine and neural net library inspired by micrograd and tinygrad.
