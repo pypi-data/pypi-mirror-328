@@ -1,0 +1,307 @@
+Metadata-Version: 2.2
+Name: Open-AutoTools
+Version: 0.0.3rc2
+Summary: A suite of automated tools accessible via CLI with a simple `autotools` command
+Home-page: https://github.com/BabylooPro/Open-AutoTools
+Author: BabylooPro
+Author-email: maxremy.dev@gmail.com
+Project-URL: Bug Tracker, https://github.com/BabylooPro/Open-AutoTools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Brotli==1.1.0
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.3
+Requires-Dist: cryptography==42.0.2
+Requires-Dist: idna==3.6
+Requires-Dist: importlib-metadata>=7.0.1
+Requires-Dist: joblib==1.3.2
+Requires-Dist: Levenshtein==0.25.0
+Requires-Dist: mutagen==1.47.0
+Requires-Dist: packaging>=23.0
+Requires-Dist: platformdirs==4.2.0
+Requires-Dist: pycryptodomex==3.20.0
+Requires-Dist: pyperclip==1.8.2
+Requires-Dist: python-Levenshtein==0.25.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: rapidfuzz==3.6.1
+Requires-Dist: regex==2023.12.25
+Requires-Dist: requests>=2.32.2
+Requires-Dist: textblob==0.18.0.post0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: tqdm==4.66.2
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: websockets==13.0.1
+Requires-Dist: yapf==0.40.2
+Requires-Dist: yt-dlp>=2024.3.10
+Requires-Dist: zipp==3.17.0
+Requires-Dist: translate==3.6.1
+Requires-Dist: langdetect==1.0.9
+Requires-Dist: deep-translator==1.11.4
+Requires-Dist: netifaces>=0.11.0
+Requires-Dist: speedtest-cli>=2.1.3
+Requires-Dist: psutil>=5.9.0
+Requires-Dist: setuptools>=40.8.0
+Requires-Dist: language-tool-python>=2.7.1
+Requires-Dist: spacy>=3.7.2
+Requires-Dist: beautifulsoup4>=4.12.0
+Provides-Extra: test
+Requires-Dist: pytest>=7.4.0; extra == "test"
+Requires-Dist: pytest-cov>=4.1.0; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Open-AutoTools
+
+Open-AutoTools is an innovative project developed in Python, specifically designed to offer a suite of automated tools directly accessible via the terminal. This project aims to simplify and automate daily tasks for developers and terminal users. It is designed to be used as a set of CLI commands, making its features directly accessible from the user's terminal.
+
+https://github.com/BabylooPro/Open-AutoTools/assets/35376790/d57f2b9d-55f8-4368-bb40-c0010eb9d49a
+
+## How to install to use directly
+
+To install Open-AutoTools, use the following command in your terminal: `pip install open-autotools`
+
+This command installs all the necessary tools to integrate Open-AutoTools into your workflow.
+
+You can also find the package on PyPI at: https://pypi.org/project/Open-AutoTools/
+
+## How to develop more features
+
+Open-AutoTools is developed using Python 3.11.
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows
+
+# Install project dependencies
+pip install -r requirements.txt
+
+# For development, install in editable mode
+pip install -e .
+```
+
+## Key Features
+
+### AutoCaps
+
+- **Description:** Converts any text entered by the user to uppercase.
+- **Usage:**
+  ```
+  ~ ❯ autocaps "Your text here."
+  ```
+- **Output:**
+  ```
+  YOUR TEXT HERE.
+  ```
+
+### AutoLower
+
+- **Description:** Converts any text entered by the user to lowercase.
+- **Usage:**
+  ```
+  ~ ❯ autolower "Your text here."
+  ```
+- **Output:**
+  ```
+  your text here.
+  ```
+
+### AutoPassword
+
+- **Description:** Generates secure random passwords and encryption keys with customizable options.
+- **Usage:**
+  ```
+  ~ ❯ autopassword --length 16
+  ~ ❯ autopassword --no-special --length 8
+  ~ ❯ autopassword --gen-key
+  ~ ❯ autopassword --password-key "your-password" --analyze
+  ```
+- **Options:**
+  - `--length, -l`: Set password length (default: 12)
+  - `--no-uppercase`: Exclude uppercase letters
+  - `--no-numbers`: Exclude numbers
+  - `--no-special`: Exclude special characters
+  - `--min-special`: Minimum number of special characters (default: 1)
+  - `--min-numbers`: Minimum number of numbers (default: 1)
+  - `--gen-key`: Generate a random encryption key
+  - `--password-key`: Generate an encryption key from a password
+  - `--analyze`: Show password strength analysis
+
+These examples demonstrate how the terminal will display the results after executing each command, providing a straightforward way for users to understand the immediate effects of these commands.
+
+### AutoTranslate
+
+- **Description:** Translates text between languages with automatic source language detection.
+- **Usage:**
+
+  ```
+  ~ ❯ autotranslate "Bonjour le monde" --to en
+  Hello world
+
+  ~ ❯ autotranslate "Hello world" --to fr --copy
+  Bonjour le monde
+  // Result also copied to clipboard
+
+  ~ ❯ autotranslate "こんにちは" --to en --detect
+  [Detected: ja] Hello
+
+  ~ ❯ autotranslate --list-languages
+  // Shows all supported languages
+  ```
+
+- **Options:**
+  - `--to`: Target language code (default: en)
+  - `--from`: Source language code (default: auto-detect)
+  - `--copy`: Copy translation to clipboard
+  - `--detect`: Show detected source language
+  - `--list-languages`: Show all supported language codes and names
+
+### AutoSpell (unreleased)
+
+- **Description:** Checks and corrects spelling in text with multi-language support.
+- **Usage:**
+  ```
+  ~ ❯ autospell "Your text with misspellings"
+  ~ ❯ autospell --lang fr "Votre texte avec des fautes"
+  ~ ❯ autospell --file document.txt
+  ```
+- **Options:**
+  - `--lang`: Language code (default: en)
+  - `--file`: Input from file
+  - `--copy`: Copy corrected text to clipboard
+  - `--suggest`: Show alternative suggestions
+  - `--interactive`: Interactive correction mode
+
+### AutoDownload
+
+- **Description:** Downloads videos from YouTube and files from other sources.
+- **Usage:**
+
+  ```bash
+  # Download YouTube video in MP4 format
+  ~ ❯ autodownload https://youtube.com/watch?v=example
+
+  # Download with specific format and quality
+  ~ ❯ autodownload https://youtube.com/watch?v=example --format mp3
+  ~ ❯ autodownload https://youtube.com/watch?v=example --quality 1080p
+  ```
+
+- **Options:**
+
+  - `--format`: Choose output format (mp4 or mp3)
+  - `--quality`: Select video quality (best, 1440p, 1080p, 720p, 480p, 360p, 240p)
+
+- **Features:**
+
+  - Automatic bot detection bypass
+  - Browser cookie integration
+  - Progress tracking
+  - Multiple quality options
+  - MP3 audio extraction
+  - Downloads to user's Downloads folder
+  - Supports both YouTube and general file downloads
+
+- **Setup Requirements:**
+
+  - Chrome browser installed and configured:
+
+    ```bash
+    # First time setup:
+    1. Open Chrome and sign in to YouTube
+    2. Make sure you're logged into your Google account
+    3. Accept YouTube's terms of service in browser
+    ```
+
+  - **Troubleshooting:**
+
+    - If downloads fail with "Sign in to confirm you're not a bot":
+
+      1. Open YouTube in Chrome
+      2. Sign in if not already
+      3. Solve any CAPTCHA if prompted
+      4. Try download again
+
+    - If you get cookie errors:
+      1. Clear Chrome cookies
+      2. Sign in to YouTube again
+      3. Wait a few minutes before downloading
+
+  - **Technical Requirements:**
+    - Chrome browser (for cookie and session handling)
+    - Active YouTube/Google account
+    - Internet connection
+    - Sufficient storage space
+    - yt-dlp library (automatically installed)
+
+  > **Note:** The tool uses your Chrome browser's cookies to authenticate with YouTube. This is required to bypass YouTube's bot detection and download restrictions.
+
+### AutoIP
+
+- **Description:** Displays network information including IP addresses, connectivity tests, speed tests, and more.
+- **Usage:**
+
+  ```bash
+  # Display IP addresses
+  ~ ❯ autoip
+
+  # Run speed test
+  ~ ❯ autoip --speed
+
+  # Test connectivity
+  ~ ❯ autoip --test
+
+  # Show location info
+  ~ ❯ autoip --location
+
+  # Monitor network traffic
+  ~ ❯ autoip --monitor
+
+  # Check common ports
+  ~ ❯ autoip --ports
+
+  # Show DNS servers
+  ~ ❯ autoip --dns
+
+  # Hide IP display and only show tests
+  ~ ❯ autoip --no-ip --test --speed
+  ```
+
+- **Options:**
+
+  - `--test, -t`: Run connectivity tests to popular services
+  - `--speed, -s`: Run internet speed test
+  - `--monitor, -m`: Monitor real-time network traffic
+  - `--ports, -p`: Check status of common ports
+  - `--dns, -d`: Show DNS server configuration
+  - `--location, -l`: Show IP geolocation information
+  - `--no-ip, -n`: Hide IP addresses display
+
+- **Features:**
+  - Local and public IP detection (IPv4 & IPv6)
+  - Internet speed testing
+  - Network connectivity checks
+  - Real-time traffic monitoring
+  - Port scanning
+  - DNS server information
+  - IP geolocation
+
+## License
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
