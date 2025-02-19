@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "resselector"
+version = "0.13.0"
+description = "A package for doing great things!"
+authors = ["NSO"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.3"
+twine = "^6.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
