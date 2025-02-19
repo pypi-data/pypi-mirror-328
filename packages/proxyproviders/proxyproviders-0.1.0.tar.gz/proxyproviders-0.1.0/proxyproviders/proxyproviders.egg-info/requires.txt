@@ -1,0 +1,10 @@
+requests
+
+[dev]
+pytest
+sphinx
+black
+mypy
+coverage
+types-requests
+toml
