@@ -1,0 +1,12 @@
+dtools/fp/__init__.py,sha256=o6PyCogdmf9T69XvMTpgzZ4zTRHR_ZPNWf57NsRVSqM,1299
+dtools/fp/err_handling.py,sha256=MFz6hXqeFNGHIUmASDxtWhFsiAqfl0kK3vidsD_dOQU,14547
+dtools/fp/function.py,sha256=cCYxLw0AnB1eX5Zg7S7gXQN6cU3-aQwBwBDciEn_qiY,2804
+dtools/fp/iterables.py,sha256=4M2rjo0rOf_CvZdIxycxfpGn2KSU0Hw8s47B7fLHJf0,12696
+dtools/fp/lazy.py,sha256=MRuNz833bjySEjRxZD3ODLGDU0MYdKZRDKqOuwlMHN0,4501
+dtools/fp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtools/fp/singletons.py,sha256=p1YMPj-1w0qCgWQYuF9WnY_dOvm789ASmc3J64vuafA,8161
+dtools/fp/state.py,sha256=EBZAuJ84Vz5-mchPBxQ6278C2IRFhvunAC67dk1uddc,4673
+dtools_fp-1.4.1.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+dtools_fp-1.4.1.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+dtools_fp-1.4.1.dist-info/METADATA,sha256=1EJ67Q1wBEaHwKsHWzbxSfv9UsFuzFm2kbxOjc8R3dM,2285
+dtools_fp-1.4.1.dist-info/RECORD,,

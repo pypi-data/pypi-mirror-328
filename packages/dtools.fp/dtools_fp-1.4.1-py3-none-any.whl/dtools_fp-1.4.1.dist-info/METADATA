@@ -1,0 +1,68 @@
+Metadata-Version: 2.3
+Name: dtools.fp
+Version: 1.4.1
+Summary: ### Developer Tools - Pythonic functional programming
+Keywords: functional,functional programming,fp,monad,iterators,maybe,either,lazy,non-strict
+Author-email: "Geoffrey R. Scheller" <geoffrey@scheller.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Dist: dtools.circular-array >=3.9.0, < 3.10
+Requires-Dist: pytest >=8.3 ; extra == "test"
+Requires-Dist: dtools.datastructures >=0.25.0, < 0.26 ; extra == "test"
+Project-URL: Changelog, https://github.com/grscheller/dtools-fp/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://grscheller.github.io/dtools-docs/fp
+Project-URL: Source, https://github.com/grscheller/dtools-fp
+Provides-Extra: test
+
+# Developer Tools - Pythonic functional programming
+
+Functional programming tools which endeavor to be Pythonic.
+
+* **Repositories**
+  * [dtools.fp][1] project on *PyPI*
+  * [Source code][2] on *GitHub*
+* Detailed documentation for dtools.fp
+  * [Detailed API documentation][3] on *GH-Pages*
+
+This project is part of the
+[Developer Tools for Python][4] **dtools.** namespace project.
+
+### Modules
+
+* dtools.fp.err\_handling
+  * monadic tools for handling missing values & unexpected events
+* dtools.fp.function
+  * utilities to manipulate and partially apply functions
+* dtools.fp.iterables
+  * iteration tools implemented in Python
+* dtools.fp.lazy
+  * lazy (non-strict) function evaluation
+* dtools.fp.nothingness
+  * singleton classes representing either a
+    * missing value
+    * sentinel value
+    * failed calculation
+* dtools.fp.state
+  * pure FP handling of state (the state monad)
+
+### Benefits of FP
+
+* improved composability
+* avoid exception driven code paths
+* data sharing becomes trivial due to immutability
+
+---
+
+[1]: https://pypi.org/project/dtools.fp/
+[2]: https://github.com/grscheller/dtools-fp/
+[3]: https://grscheller.github.io/dtools-docs/fp/
+[4]: https://github.com/grscheller/dtools-docs/
+
+
