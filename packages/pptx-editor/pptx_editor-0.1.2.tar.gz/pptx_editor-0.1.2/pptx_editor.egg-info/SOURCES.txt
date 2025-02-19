@@ -1,0 +1,10 @@
+README.md
+setup.py
+pptx_editor/__init__.py
+pptx_editor/editor.py
+pptx_editor.egg-info/PKG-INFO
+pptx_editor.egg-info/SOURCES.txt
+pptx_editor.egg-info/dependency_links.txt
+pptx_editor.egg-info/requires.txt
+pptx_editor.egg-info/top_level.txt
+tests/test_editor.py
