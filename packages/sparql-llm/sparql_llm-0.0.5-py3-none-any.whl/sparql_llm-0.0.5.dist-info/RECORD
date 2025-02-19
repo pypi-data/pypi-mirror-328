@@ -1,0 +1,14 @@
+sparql_llm/__init__.py,sha256=1JiI7sQZLwzEKRuH9xt4YvqxGdiV7dSDYBYMo221gGI,346
+sparql_llm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparql_llm/sparql_examples_loader.py,sha256=PBBZw5vLqIDWsZ1S1EMXaEGAvNmV6nXUqEowfNDE05g,3803
+sparql_llm/sparql_void_shapes_loader.py,sha256=Os2J6QjbQ1XgtLwA4bu0KKh7Cx07joa7F4_8VF7VmUA,7239
+sparql_llm/utils.py,sha256=d4_jYqosXdkUYPqvCRm5ZrMwd14zFHxHZwHE_l13wSk,6363
+sparql_llm/validate_sparql.py,sha256=eaO41E39BFxQTgSsL29B1e5XQRnbvA3kojeBc00yIkg,17315
+sparql_llm/webapp/index.html,sha256=4zo5qyErBSOYa0AUEqLXQJfMhI-VeLRVSUWqPbdmI-A,4599
+sparql_llm/webapp/assets/index-kgiYnNMr.css,sha256=3hKhgEcfnTcKjCKJgDVNR-sMIJtzlhaallnqcVEPbAk,52981
+sparql_llm/webapp/assets/index-xh5Tl7-H.js,sha256=IP3iChFihm52KeUn32risvQn42vuAfK3AJ1KT3vZTjs,146850
+sparql_llm/webapp/assets/sib-logo-ClPlpgYP.png,sha256=fytpvhg1iTZcwTt4nVbXXqsm0STAWKcVNon92DrqvFE,8705
+sparql_llm-0.0.5.dist-info/METADATA,sha256=14koDQtD_cgcG2oUXHXP4dzldRUD4-Ngq7Q_nc7jEc4,11154
+sparql_llm-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+sparql_llm-0.0.5.dist-info/licenses/LICENSE.txt,sha256=ynlsWzIefty920fR3f4mj3LO03KPWw0VH7LVM86o3lY,1102
+sparql_llm-0.0.5.dist-info/RECORD,,
