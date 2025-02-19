@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: minclude
+Version: 1.2.0
+Summary: Remove unnecessary include directives in C/C++ projects
+Home-page: https://github.com/jhasse/minclude
+Download-URL: https://github.com/jhasse/minclude/archive/v1.2.0.tar.gz
+Author: Jan Niklas Hasse
+Author-email: jhasse@bixense.com
+License-File: LICENSE.txt
+Requires-Dist: click
+Requires-Dist: progressbar2
