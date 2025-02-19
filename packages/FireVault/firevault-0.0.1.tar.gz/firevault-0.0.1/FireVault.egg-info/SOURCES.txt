@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireVault/__init__.py
+FireVault.egg-info/PKG-INFO
+FireVault.egg-info/SOURCES.txt
+FireVault.egg-info/dependency_links.txt
+FireVault.egg-info/top_level.txt
