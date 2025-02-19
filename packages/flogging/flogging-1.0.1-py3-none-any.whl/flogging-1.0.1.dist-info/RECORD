@@ -1,0 +1,11 @@
+flogging/__init__.py,sha256=FJqciqmFDjxJddADpaBPAUyGtnzx6wqiSZMFreCqO1M,67
+flogging/__main__.py,sha256=pvd5SZ65Tr9Rwbj-WlVWni5TPUOdWyqtrKJrvoKqTFc,88
+flogging/flogging.py,sha256=WhkPTX__sO0TFCEbZ5EC2rPCUvJfzo0VZBZTkOyKATY,13037
+flogging/version.py,sha256=H1cyo5huHU_7fQTAAI6Xb9vVoBKBPr-l1K7Df1BTHLo,84
+flogging/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flogging/tests/test_main.py,sha256=CI-odp8K4sNypXLx9PZg3Bey051gy3E0HAOAeQvAM8c,210
+flogging-1.0.1.dist-info/LICENSE,sha256=_vF5n2zeiY86PJ3WbmQFFb5sg8JLgeQyJLQb79erVYQ,1067
+flogging-1.0.1.dist-info/METADATA,sha256=d-f66OBHb0EvYUs_dcc8VVQFlFr8QYZYnHpV0Q0lg3Y,7418
+flogging-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+flogging-1.0.1.dist-info/top_level.txt,sha256=gvvrhTFZ1cn4XW2laVD8N0_TpHk3CDXXDV0qDPdXZxo,9
+flogging-1.0.1.dist-info/RECORD,,
