@@ -1,0 +1,13 @@
+humiris_ai/__init__.py,sha256=xB0Dip1j8fvHDoQAk_N_0lzTSm5fMymjOjjJVo8JQdY,156
+humiris_ai/advanced-mixtuning.py,sha256=wkKcJtnDf7jsjIIg7hcuCMio7d7tXRKUyc_KPPgvHgk,1128
+humiris_ai/advanced_mixtuning.py,sha256=gX311L8yYye4CZRJv0s4jtcGR0hQGKTU6SPEo1RJz0A,1155
+humiris_ai/basic-mixtuning.py,sha256=9Sg97Jdx96O_IIT9PxMCAIZRnzUnUALo_J9gvmD1wJI,1140
+humiris_ai/basic_mixtuning.py,sha256=eWwqzxK_VqJM0YRlPfAkmvae5yIUoEmJ4-ZX-mrtNVw,1474
+package/__init__.py,sha256=xB0Dip1j8fvHDoQAk_N_0lzTSm5fMymjOjjJVo8JQdY,156
+package/advanced-mixtuning.py,sha256=wkKcJtnDf7jsjIIg7hcuCMio7d7tXRKUyc_KPPgvHgk,1128
+package/basic-mixtuning.py,sha256=9Sg97Jdx96O_IIT9PxMCAIZRnzUnUALo_J9gvmD1wJI,1140
+humiris_ai-1.0.7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humiris_ai-1.0.7.dist-info/METADATA,sha256=naNL-TlSlKKNlIggzxo2NOTB2aEAVuoRJcx7stSRs3A,1172
+humiris_ai-1.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+humiris_ai-1.0.7.dist-info/top_level.txt,sha256=5_XHWpGcNwmKo1dZX5nftpsBM0cOe-qIvosk1FHBr1M,11
+humiris_ai-1.0.7.dist-info/RECORD,,
