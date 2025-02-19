@@ -1,0 +1,8 @@
+langchain_sambanova/__init__.py,sha256=HN7o8jkDx0LYTxiPvLen9-MdkOgWo5XNCdiwdIvK3fM,529
+langchain_sambanova/chat_models.py,sha256=tVzcuHkrd7EzHPcMzUw-qwXJSk4zrOgm62CcDBc99no,110309
+langchain_sambanova/embeddings.py,sha256=1MoDJ8KFmIS1Sf1f94lOlV2JamJBb1Ab2g75l9RXP_Y,10490
+langchain_sambanova/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_sambanova-0.1.2.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+langchain_sambanova-0.1.2.dist-info/METADATA,sha256=eoGvgKkLYvgPXAVtryJ-n-g7CWTzh2I5lB66dKSusn8,2841
+langchain_sambanova-0.1.2.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+langchain_sambanova-0.1.2.dist-info/RECORD,,
