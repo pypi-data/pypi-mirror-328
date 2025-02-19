@@ -1,0 +1,84 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/printer.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/printer.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.printer.imports
+  module = dev.poncho.printer
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/compat.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/compat.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.compat.imports
+  module = dev.poncho.compat
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/process.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/process.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/compat.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/printer.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.process.imports
+  module = dev.poncho.process
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/color.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/color.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.color.imports
+  module = dev.poncho.color
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/utils.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/utils.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.utils.imports
+  module = dev.utils
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/manager.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/manager.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/color.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/compat.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/printer.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/process.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.manager.imports
+  module = dev.poncho.manager
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pid.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/pid.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.pid.imports
+  module = dev.pid
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/container.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/db/container.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.db.container.imports
+  module = dev.db.container
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/services.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/services.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pid.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/manager.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.services.imports
+  module = dev.services
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/mkcert.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/mkcert.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.mkcert.imports
+  module = dev.mkcert
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/db/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/services.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/container.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.db.cli.imports
+  module = dev.db.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/requests.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/requests.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.requests.imports
+  module = dev.requests
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pdb.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/pdb.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.pdb.imports
+  module = dev.pdb
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/cli.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/mkcert.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pid.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/manager.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/printer.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/services.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.cli.imports
+  module = dev.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/precommit/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/precommit/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/services.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.precommit.cli.imports
+  module = dev.precommit.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/requests.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.views.imports
+  module = dev.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/contribute/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/contribute/cli.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.contribute.cli.imports
+  module = dev.contribute.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/debug.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/debug.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pdb.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.debug.imports
+  module = dev.debug
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/db/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/db/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.db.__init__.imports
+  module = dev.db.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/cli.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/requests.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.__init__.imports
+  module = dev.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/precommit/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/precommit/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/precommit/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.precommit.__init__.imports
+  module = dev.precommit.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/poncho/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.poncho.__init__.imports
+  module = dev.poncho.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.urls.imports
+  module = dev.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/contribute/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/contribute/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/contribute/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.contribute.__init__.imports
+  module = dev.contribute.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.default_settings.imports
+  module = dev.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/entrypoints.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-dev/plain/dev/entrypoints.py | /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/debug.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/dev.entrypoints.imports
+  module = dev.entrypoints

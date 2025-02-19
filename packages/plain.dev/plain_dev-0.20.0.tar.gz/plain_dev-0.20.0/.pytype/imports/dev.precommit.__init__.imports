@@ -1,0 +1,12 @@
+click/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/default.pyi
+plain/cli/print /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/default.pyi
+plain/runtime/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/imports/default.pyi
+dev/pid /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/pid.pyi
+dev/poncho/color /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/color.pyi
+dev/poncho/compat /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/compat.pyi
+dev/poncho/printer /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/printer.pyi
+dev/poncho/process /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/process.pyi
+dev/poncho/manager /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/poncho/manager.pyi
+dev/utils /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/utils.pyi
+dev/services /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/services.pyi
+dev/precommit/cli /Users/davegaeddert/Developer/dropseed/plain/plain-dev/.pytype/pyi/dev/precommit/cli.pyi
