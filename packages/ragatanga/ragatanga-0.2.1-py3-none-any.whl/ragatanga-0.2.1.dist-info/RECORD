@@ -1,0 +1,14 @@
+ragatanga/__init__.py,sha256=3ZKUQLSb4DC9qFzip212sdBakd3mTFqiIU5WbnhQl04,265
+ragatanga/_version.py,sha256=UCpf7MLTcyPl8V99FYQQlTPiQiGTvCj1OfZmR90bis4,18
+ragatanga/main.py,sha256=emb5u6AyNPqkHz0_7V960FC5XFvq2giYgUBU8KfWV3Y,32904
+ragatanga/modal_deploy.py,sha256=Va_7hKxH7zXxekMWIPSFrUKj5Grrlht24Ao7vw5j7yM,911
+ragatanga/setup_volume.py,sha256=XCsDSAp23dfJCEnKjQ6Qfwy15HkAuzDGrROJI-V6iHc,438
+ragatanga/data/knowledge_base.md,sha256=E9Nvdiu4z9zSuMNnPx-2JY5xRvwsp29OZrxIK23xWUU,49154
+ragatanga/data/ontology.ttl,sha256=lRcAxqNY5kbVi4Sk7UUsA_5eoDU99PKoU3hQ7gnPR4I,134238
+ragatanga/data/sample_knowledge_base.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ragatanga/data/sample_ontology.ttl,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ragatanga-0.2.1.dist-info/LICENSE,sha256=ggAKWnA9b57povTOHZLky8mMqs03RHUoKnskIwdMJpY,1065
+ragatanga-0.2.1.dist-info/METADATA,sha256=MuKeYisnjpGP3EKT3eiw8mrsaKmQ3tw2_Y4qBYBXC5I,4423
+ragatanga-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ragatanga-0.2.1.dist-info/top_level.txt,sha256=FFw9GoLwtD-KUynXRW7RBdsrXfKFuhN0VgUFFzdAgdU,10
+ragatanga-0.2.1.dist-info/RECORD,,
