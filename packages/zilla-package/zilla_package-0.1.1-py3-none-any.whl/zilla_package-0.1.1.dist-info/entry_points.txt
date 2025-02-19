@@ -1,0 +1,2 @@
+[console_scripts]
+zilla = zilla_package.app:main
