@@ -1,0 +1,44 @@
+[tool.black]
+target-version = ["py39", "py310", "py311", "py312", "py313"]
+
+[tool.bumpversion]
+current_version = "0.28.0"
+commit = true
+tag = true
+tag_name = "{new_version}"
+
+[[tool.bumpversion.files]]
+filename = 'CHANGES.rst'
+search = "\\(unreleased\\)$"
+replace = "({now:%Y-%m-%d})"
+regex = true
+
+[[tool.bumpversion.files]]
+filename = "docs/conf.py"
+
+[[tool.bumpversion.files]]
+filename = "scrapy_zyte_api/__version__.py"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+check_untyped_defs = true
+ignore_missing_imports = true
+no_warn_no_return = true
+files = [
+    "scrapy_zyte_api",
+    "tests"
+]
+
+[tool.pytest.ini_options]
+junit_family = "xunit2"
+testpaths = [
+    "scrapy_zyte_api/",
+    "tests/"
+]
+minversion = "6.0"
+filterwarnings = [
+    "ignore::DeprecationWarning:twisted.web.http",
+]
