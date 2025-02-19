@@ -1,0 +1,24 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/signing.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/signing.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.signing.imports
+  module = loginlink.signing
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/links.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/links.py | /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/signing.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.links.imports
+  module = loginlink.links
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/forms.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/forms.py | /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/links.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.forms.imports
+  module = loginlink.forms
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/forms.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/links.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.views.imports
+  module = loginlink.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.__init__.imports
+  module = loginlink.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/plain/loginlink/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/loginlink.urls.imports
+  module = loginlink.urls

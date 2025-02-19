@@ -1,0 +1,11 @@
+plain/urls/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/http/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/runtime/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/views/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/forms/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/mail/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+plain/signing /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/imports/default.pyi
+loginlink/signing /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/signing.pyi
+loginlink/links /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/links.pyi
+loginlink/forms /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/forms.pyi
+loginlink/views /Users/davegaeddert/Developer/dropseed/plain/plain-loginlink/.pytype/pyi/loginlink/views.pyi
