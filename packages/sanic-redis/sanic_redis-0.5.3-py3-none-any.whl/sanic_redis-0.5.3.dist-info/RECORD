@@ -1,0 +1,8 @@
+sanic_redis/__init__.py,sha256=GM180QqkLiZabmAi8BVoD-b6pwCzRnU52Vk1vYcmHCw,238
+sanic_redis/_version.py,sha256=K25B5cRxbd2Y1cTvVAAebSFlg1bmeo325UqZhsnzGII,411
+sanic_redis/core.py,sha256=yxEgdVg2vp7gYN4vut3NWkufFnW_D082KzSugHHyKSU,2921
+sanic_redis-0.5.3.dist-info/LICENSE,sha256=CCOkNrW1xP-NMsUrg6_MqqtdkU_J7rg0Q-63A6cvHDY,1063
+sanic_redis-0.5.3.dist-info/METADATA,sha256=rf7yhIZZdk1LoU3Y1wv5jcq1pFA-SWNH2CwaCtUHfyo,4528
+sanic_redis-0.5.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sanic_redis-0.5.3.dist-info/top_level.txt,sha256=URFzTRSjIpiM4b_twPOT-h2Q6cv4_Fn9gR_xIe9LmNA,12
+sanic_redis-0.5.3.dist-info/RECORD,,
