@@ -1,0 +1,2 @@
+[console_scripts]
+run-neuropsy = neuropsy.questions:main
