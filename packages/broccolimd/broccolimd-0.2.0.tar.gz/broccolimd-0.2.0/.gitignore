@@ -1,0 +1,22 @@
+# python
+__pycache__
+*.py[cod]
+build
+dist
+wheels
+*.egg-info
+.cache
+
+# testing
+htmlcov
+_coverage
+.coverage
+.tox/*
+
+# documentation
+docs/_build/*
+
+# dev env
+.envrc
+.direnv
+.venv
