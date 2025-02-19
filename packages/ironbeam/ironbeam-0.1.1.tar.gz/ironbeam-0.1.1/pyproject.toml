@@ -1,0 +1,33 @@
+[project]
+name = "ironbeam"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "David Mckim", email = "davidmckim@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "pandas>=2.2.3",
+    "pip>=24.3.1",
+    "pydantic>=2.10.4",
+    "tool>=0.8.0",
+]
+
+[project.scripts]
+ironbeam = "ironbeam:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14.0",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.8.4",
+    "sphinx-rtd-theme>=3.0.2",
+    "sphinx>=8.1.3",
+]

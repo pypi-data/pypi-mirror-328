@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+**.env
+
+# Pycharm
+**.idea
+
+# Development Files
+DEV_README.md
+check.sh
+**.json
+
+# Sphinx documentation
+docs/_build/
