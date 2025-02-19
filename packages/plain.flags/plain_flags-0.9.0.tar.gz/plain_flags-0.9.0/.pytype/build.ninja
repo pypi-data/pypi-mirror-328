@@ -1,0 +1,48 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/utils.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.utils.imports
+  module = flags.utils
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/exceptions.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.exceptions.imports
+  module = flags.exceptions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/bridge.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.bridge.imports-1
+  module = flags.bridge
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/flags.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.flags.imports-1
+  module = flags.flags
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/bridge.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi-1 /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.bridge.imports
+  module = flags.bridge
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/flags.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.flags.imports
+  module = flags.flags
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/0001_initial.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/migrations/0001_initial.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.migrations.0001_initial.imports
+  module = flags.migrations.0001_initial
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.default_settings.imports
+  module = flags.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/0002_alter_flagresult_unique_together_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/migrations/0002_alter_flagresult_unique_together_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.migrations.0002_alter_flagresult_unique_together_and_more.imports
+  module = flags.migrations.0002_alter_flagresult_unique_together_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.config.imports
+  module = flags.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.__init__.imports
+  module = flags.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/templates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/templates.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.templates.imports
+  module = flags.templates
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/staff.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/staff.py | /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.staff.imports
+  module = flags.staff
+build /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-flags/plain/flags/migrations/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/imports/flags.migrations.__init__.imports
+  module = flags.migrations.__init__

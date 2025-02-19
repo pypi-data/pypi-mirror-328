@@ -1,0 +1,10 @@
+# (generated with --quick)
+
+from flags import exceptions
+from typing import Any
+
+Flag: Any
+settings: Any
+
+def get_flag_class(flag_name: str) -> Any: ...
+def get_flags_module() -> module: ...

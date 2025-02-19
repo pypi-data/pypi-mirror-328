@@ -1,0 +1,16 @@
+# ninja log v5
+0	551	1737048706456090663	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/utils.pyi	b2bafbc58af65757
+551	1036	1737048706942473092	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/exceptions.pyi	9a24a3ebda2ffea0
+1036	1560	1737048707465452338	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi-1	fc1227a4fd7c5abe
+1560	3041	1737048708939675240	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi-1	df8b8d684c8291ba
+3041	4379	1737048710278455641	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/models.pyi-1	5e7ee116abf962c3
+4379	5707	1737048711607407935	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/bridge.pyi	34c359ed9f54e5f8
+5708	7155	1737048713053358803	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/flags.pyi	6e57c00c51159783
+7155	8587	1737048714484691177	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/models.pyi	5a73fa43476473f
+8587	9124	1737048715029850244	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/0002_alter_flagresult_unique_together_and_more.pyi	278e0bda8a9f1cf4
+0	492	1737048918245752964	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/default_settings.pyi	d56534c14a905798
+492	981	1737048918735549247	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/__init__.pyi	3a4061b2c3a5eff0
+982	2264	1737048920011696825	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/templates.pyi	1c7d439de7b86324
+2264	2792	1737048920544650384	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/config.pyi	3f7e105d1c06604f
+2792	4123	1737048921869877576	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/__init__.pyi	9c818c795ae8654c
+0	1330	1737049270785394965	/Users/davegaeddert/Developer/dropseed/plain/plain-flags/.pytype/pyi/flags/migrations/0001_initial.pyi	bdc07176bd39b5b4
