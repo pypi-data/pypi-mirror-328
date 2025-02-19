@@ -1,0 +1,71 @@
+spec:
+  inputs:
+    odoo-version:
+      description: "The Odoo version of your project"
+    job-name:
+      default: "runbot"
+      description: "The name of the job"
+    docker-registry:
+      description: "The docker registry used by the runbot job"
+      default: "registry.mangono.io/odoo-cloud/container"
+    stage:
+      description: "The stage where to add this job"
+      default: test
+    runbot-args:
+      default: "--step-name=all"
+      description: "The option used by the `mangono-runbot run` command"
+    job-tag:
+      default: "runbot2"
+      description: "The name of the tag for this job"
+    other-services:
+      type: array
+      default: []
+      description: "Allow to add other next to Odoo+postgresql"
+    runbot-version:
+      default: "==1.0.0b2"
+      description: "Force the runbot to another version"
+    project-path:
+      default: "$CI_PROJECT_DIR"
+      description: "Allow to change were the runbot run it's config"
+
+---
+
+".tmpl:$[[ inputs.job-name ]]:$[[ inputs.odoo-version ]]":
+  variables:
+    RUNBOT_DIAG_VERBOSE: 1
+  before_script:
+    - pip install "mangono-runbot$[[ inputs.runbot-version ]]"
+    - odoo-runbot --verbose --workdir=$[[ inputs.project-path | expand_vars ]] diag
+
+
+"$[[ inputs.job-name ]]:$[[ inputs.odoo-version ]]":
+  extends: ".tmpl:$[[ inputs.job-name ]]:$[[ inputs.odoo-version ]]"
+  tags:
+    - $[[ inputs.job-tag ]]
+  image:
+    name: $[[ inputs.docker-registry ]]:$[[ inputs.odoo-version ]]
+    entrypoint: [ "" ]
+  stage: $[[ inputs.stage ]]
+  variables:
+    DB_PORT: 5432
+    POSTGRES_USER: "runbot"
+    POSTGRES_PASSWORD: "runbot-password"
+    POSTGRES_HOST_AUTH_METHOD: trust
+  services:
+    - $[[ inputs.other-services ]]
+    - name: postgres:15
+      alias: database
+  script:
+    - export DB_HOST="database" # Force this variable this is the `alias` of the postgresql service
+    - odoo-runbot --verbose --workdir=$[[ inputs.project-path | expand_vars ]] init
+    - odoo-runbot --verbose --workdir=$[[ inputs.project-path | expand_vars ]] run $[[ inputs.runbot-args ]]
+    - coverage report
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+      junit: test_results/*.xml
+
+
