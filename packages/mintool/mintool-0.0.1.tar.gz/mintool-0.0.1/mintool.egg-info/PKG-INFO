@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: mintool
+Version: 0.0.1
+Summary: A simple package for commonly used utilities.
+Author: JialinMin
+Project-URL: Repository, https://github.com/pypa/sampleproject
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## MinTool
+
+A simple package for commonly used utilities.

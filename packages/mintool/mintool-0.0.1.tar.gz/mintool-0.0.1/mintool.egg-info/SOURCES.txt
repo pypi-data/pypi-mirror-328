@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+mintool/__init__.py
+mintool.egg-info/PKG-INFO
+mintool.egg-info/SOURCES.txt
+mintool.egg-info/dependency_links.txt
+mintool.egg-info/top_level.txt
+mintool/file/__init__.py
+mintool/file/read.py
