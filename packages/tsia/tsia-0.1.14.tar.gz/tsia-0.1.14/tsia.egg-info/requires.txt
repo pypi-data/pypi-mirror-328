@@ -1,0 +1,5 @@
+networkx>=2.5
+numpy>=1.17.5
+numba>=0.48.0
+python-louvain>=0.14.0
+pyts>=0.11.0
