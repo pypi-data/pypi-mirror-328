@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mandarin_tamer/__init__.py
+src/mandarin_tamer/mandarin_tamer.py
+src/mandarin_tamer.egg-info/PKG-INFO
+src/mandarin_tamer.egg-info/SOURCES.txt
+src/mandarin_tamer.egg-info/dependency_links.txt
+src/mandarin_tamer.egg-info/top_level.txt
