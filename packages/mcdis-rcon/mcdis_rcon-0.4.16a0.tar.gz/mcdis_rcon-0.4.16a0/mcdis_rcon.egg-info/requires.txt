@@ -1,0 +1,8 @@
+polib
+psutil
+discord.py
+flask
+requests
+nbtlib
+requests
+ruamel.yaml
