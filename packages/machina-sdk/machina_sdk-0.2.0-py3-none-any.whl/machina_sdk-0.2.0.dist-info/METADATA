@@ -1,0 +1,89 @@
+Metadata-Version: 2.2
+Name: machina-sdk
+Version: 0.2.0
+Summary: Machina Sports API SDK
+Author: Fernando Bombassaro Martins
+Author-email: Fernando Bombassaro Martins <fernando@machina.gg>
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9,<4.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests<3.0.0,>=2.26.0
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: requires-python
+
+## Installation
+
+```
+python3.11 -m venv venv
+
+source venv/bin/activate
+
+pip install pdm
+
+pip install build
+
+pdm install
+
+python -m build
+
+pip install ~/machina/machina-core-sdk/dist/machina_sdk-0.1.21-py3-none-any.whl --force-reinstall
+
+```
+
+
+## Publication
+
+pip install twine
+
+twine upload dist/*
+
+
+## Release a version
+```shell
+# Help
+
+semantic-release --help
+
+semantic-release version --help
+
+semantic-release changelog --help
+
+
+# Generate a version
+
+# patch
+# 0.2.2
+semantic-release version --config releaserc.toml --patch
+
+# minor
+# 0.3.0
+semantic-release version --config releaserc.toml --minor
+
+# major
+# 1.0.0
+semantic-release version --config releaserc.toml --major
+
+# prerelease
+# 0.2.1-rc.2
+semantic-release version --config releaserc.toml --prerelease
+
+# patch as prerelease
+# 0.3.1-rc.1
+semantic-release version --config releaserc.toml --patch --as-prerelease
+
+# minor as prerelease
+# 0.3.0-rc.1
+semantic-release version --config releaserc.toml --minor --as-prerelease
+
+# major as prerelease
+# 1.0.0-rc.1
+semantic-release version --config releaserc.toml --major --as-prerelease
+
+# prerelease
+# 0.2.1-rc.2
+semantic-release version --config releaserc.toml --prerelease --as-prerelease
+```
