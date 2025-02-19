@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dibkb_scraper
+Version: 0.1.2
+Summary: A scraper for Amazon product details using ASIN
+Home-page: https://github.com/dibas9110/dibkb_scraper
+Author: Dibas K Borborah
+Author-email: dibas9110@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: pydantic
+
+# dibkb_scraper
+
+Brief description of what your package does.
+
+## Installation
