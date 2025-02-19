@@ -1,0 +1,10 @@
+hearthstone_data/BUILD,sha256=6KjXj0ksAkj0KySvcI7EaWxnIEVVg_iebAs3--WjmNk,7
+hearthstone_data/BountyDefs.xml,sha256=G0jWT_-vfs-6phP4-15tuDhSJPI7M0VfAxsH3oSpqmw,227828
+hearthstone_data/CardDefs.xml,sha256=M4_DbMWHRbAgjbeK7OmWUgvaUGMZldkdkboEWoIpJ8I,92218453
+hearthstone_data/MercenaryDefs.xml,sha256=jHL5eNZo_si--bCTCc856lPuIoix7wXxfS1U_LdwC1A,777237
+hearthstone_data/__init__.py,sha256=VN7LCp_AkB1agpcAESd01TLtS40GelGEKkC5AOQw38M,602
+hearthstone_data-216423.1.dist-info/METADATA,sha256=54sW6P34bGs-8E13mxwMNhGdqGRIs9yphHjRfFCxgpk,745
+hearthstone_data-216423.1.dist-info/WHEEL,sha256=Kh9pAotZVRFj97E15yTA4iADqXdQfIVTHcNaZTjxeGM,110
+hearthstone_data-216423.1.dist-info/top_level.txt,sha256=cWSV4LgHFvZyHR5Q8uwrh2zpkX_OUCVW27H7FVWiHvM,17
+hearthstone_data-216423.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hearthstone_data-216423.1.dist-info/RECORD,,
