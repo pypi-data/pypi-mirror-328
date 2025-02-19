@@ -1,0 +1,10 @@
+optopenhash/__init__.py,sha256=8yU_eY3M2m_d2XgUsddFM7yCK-ldy0obiEVBv67TOtI,141
+optopenhash/elastic_hashing.py,sha256=iF1BCwWAV_-llEpSQAeyuP48oPM6PhCudViN2UR0GK4,4376
+optopenhash/funnel_hashing.py,sha256=5A-02ZSq0uT6T5ie4NuC2_jA0vYQZjATmARuwWEcOAo,5668
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tables.py,sha256=okYJc7o4BbQvZW3D9WtzEflxWbXZMtiRrFa1J7XTYPk,1349
+optopenhash-0.2.0.dist-info/LICENSE,sha256=FNnG0MAiP5u9NFplQFRal2BZH_4zpa5DKYcN5_1QDN0,1070
+optopenhash-0.2.0.dist-info/METADATA,sha256=YoD8BeaPsXF-zTR8h6b2ufoTe6M2y6MS-ANRDiUNz0w,2323
+optopenhash-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+optopenhash-0.2.0.dist-info/top_level.txt,sha256=4z11BE1A-Q7Yr5fUOlCsiPcE6B1rmdJVr_ZEknB3zqg,18
+optopenhash-0.2.0.dist-info/RECORD,,
