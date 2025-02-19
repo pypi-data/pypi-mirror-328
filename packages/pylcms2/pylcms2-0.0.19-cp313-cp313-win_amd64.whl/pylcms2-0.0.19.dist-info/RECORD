@@ -1,0 +1,8 @@
+_lcms2.pyd,sha256=6b7CAP9BFZskKW4IXsQDQgy1DKVtakKc2mBn1PjNNAI,337408
+pylcms2/__init__.py,sha256=a9a2Ya3x0FSBuPTpn9pf4ybYui7IB-EotnJH43vSU1Y,4404
+pylcms2/_lcms2.c,sha256=yC0_O1Pxav6ngfzSlIJTD75nTgxWLPj1ZOy4ACYWZHo,1918
+pylcms2-0.0.19.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pylcms2-0.0.19.dist-info/METADATA,sha256=jN74X_pYGL0Hj9RG0U2MwHos4-6quQa1RThKMT_N-gY,4797
+pylcms2-0.0.19.dist-info/WHEEL,sha256=6bXTkCllrWLYPW3gCPkeRA91N4604g9hqNhQqZWsUzQ,101
+pylcms2-0.0.19.dist-info/top_level.txt,sha256=kEBUTB9Q9oT_XMyAB9KrysSGxHeAMequjjpWzwq4-lQ,15
+pylcms2-0.0.19.dist-info/RECORD,,
