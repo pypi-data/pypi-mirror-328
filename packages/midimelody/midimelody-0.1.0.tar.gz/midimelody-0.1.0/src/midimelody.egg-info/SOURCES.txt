@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/midimelody.egg-info/PKG-INFO
+src/midimelody.egg-info/SOURCES.txt
+src/midimelody.egg-info/dependency_links.txt
+src/midimelody.egg-info/requires.txt
+src/midimelody.egg-info/top_level.txt
+tests/test_generator.py
