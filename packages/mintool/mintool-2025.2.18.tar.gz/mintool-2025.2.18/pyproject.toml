@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mintool"
+version = "2025.02.18"
+description = "A simple package for commonly used utilities."
+authors = [
+    { name="JialinMin" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/JLMin/mintool"
