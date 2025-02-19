@@ -1,0 +1,10 @@
+# (generated with --quick)
+
+import click
+import os
+import sys
+from typing import Any
+
+cli: Any
+load_dotenv: Any
+pytest: Any

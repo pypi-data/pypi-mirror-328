@@ -1,0 +1,21 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/plain/pytest/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/imports/pytest.__init__.imports-1
+  module = pytest.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/plain/pytest/cli.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/imports/pytest.cli.imports-1
+  module = pytest.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/plain/pytest/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi-1 /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/imports/pytest.__init__.imports
+  module = pytest.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/plain/pytest/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/imports/pytest.cli.imports
+  module = pytest.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/plugin.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/plain/pytest/plugin.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/imports/pytest.plugin.imports
+  module = pytest.plugin

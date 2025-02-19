@@ -1,0 +1,4 @@
+# ninja log v5
+1	547	1737048779594020541	/Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi-1	8ecffbe88c046d94
+547	1886	1737048780920919056	/Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/cli.pyi-1	6d4e1274101a156f
+1886	2382	1737048781432887162	/Users/davegaeddert/Developer/dropseed/plain/plain-pytest/.pytype/pyi/pytest/__init__.pyi	41b75c0ccf68f59e
