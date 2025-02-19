@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: ontology_project
+Version: 0.1.0
+Summary: A package to convert CSV files into ontology TTL files and merge them
+Author-email: Priyanka Bharti <priyanka.bharti@npl.co.uk>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rdflib>=6.2.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: owlready2>=0.38
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: scikit-learn>=1.0.0
