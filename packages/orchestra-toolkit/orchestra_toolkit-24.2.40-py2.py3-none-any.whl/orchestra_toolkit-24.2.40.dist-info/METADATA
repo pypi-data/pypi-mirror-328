@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: orchestra-toolkit
+Version: 24.2.40
+Summary: A python interface for networking with HGTP/AvesTerra/Avial
+Author: LEDR Technologies inc.
+Author-email: avesterra@georgetown.edu ; dev@ledr.io
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: Other/Proprietary License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.10
+Requires-Dist: tabulate
+Requires-Dist: treelib
+
