@@ -1,0 +1,23 @@
+WebOb<1.10.0,>=1.8.9
+crank<0.9.0,>=0.8.0
+repoze.lru
+MarkupSafe
+
+[testing]
+pytest
+pytest-cov
+zope.sqlalchemy>=0.4
+repoze.who
+Genshi>=0.5.1
+Mako
+WebTest
+backlash>=0.3.0
+raven
+Beaker
+sqlalchemy
+jinja2
+Kajiki>=0.4.4
+formencode>=1.3.0a1
+
+[testing:python_version >= "3.9"]
+ming>=0.8.0
