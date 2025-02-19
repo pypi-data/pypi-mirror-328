@@ -1,0 +1,3 @@
+[console_scripts]
+yaml-editor=yaml_editor.cli:main
+
