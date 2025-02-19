@@ -1,0 +1,3 @@
+{
+  "observe_ignore": ["CPLS", ".vs", ".git", "venv", ".venv", ".idea", "__pycache__"]
+}
