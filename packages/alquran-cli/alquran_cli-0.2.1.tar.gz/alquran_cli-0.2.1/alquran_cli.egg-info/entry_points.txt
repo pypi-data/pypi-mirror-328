@@ -1,0 +1,2 @@
+[console_scripts]
+alquran = alquran.cli:cli

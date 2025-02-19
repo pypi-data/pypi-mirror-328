@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+alquran/__init__.py
+alquran/cli.py
+alquran/config.py
+alquran/core.py
+alquran/hadits.py
+alquran/surah.py
+alquran_cli.egg-info/PKG-INFO
+alquran_cli.egg-info/SOURCES.txt
+alquran_cli.egg-info/dependency_links.txt
+alquran_cli.egg-info/entry_points.txt
+alquran_cli.egg-info/requires.txt
+alquran_cli.egg-info/top_level.txt
