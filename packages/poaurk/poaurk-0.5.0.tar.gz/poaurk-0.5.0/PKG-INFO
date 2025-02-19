@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: poaurk
+Version: 0.5.0
+Summary: Light Plurk API 2.0 Oauth Library
+Author-email: Dephilia <me@dephilia.moe>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: aiohttp>=3.9.3
+Requires-Dist: oauthlib>=3.2.2
+
+# poaurk
+
+Light plurk + Oauth Library
+
+# Installation
+
+```
+pip install poaurk
+```
+
+## Examples
+
+You can find example usage in the `examples/` directory.
+
+### Running the Basic Authentication Example
+
+1. Setup environ var for POAURK_TEST_KEY, POAURK_TEST_SECRET
+2. Run the script:
+
+```bash
+python examples/basic_auth.py
+```
