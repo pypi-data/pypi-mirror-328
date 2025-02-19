@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+dqchecks/__init__.py
+dqchecks/proteus.py
+dqchecks/transforms.py
+dqchecks/utils.py
+dqchecks/tests/__init__.py
+dqchecks/tests/test_transform.py
+dqchecks/tests/test_utils.py
+ofwat_dqchecks.egg-info/PKG-INFO
+ofwat_dqchecks.egg-info/SOURCES.txt
+ofwat_dqchecks.egg-info/dependency_links.txt
+ofwat_dqchecks.egg-info/requires.txt
+ofwat_dqchecks.egg-info/top_level.txt
