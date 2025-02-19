@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyperclip-stubs/METADATA.toml
+pyperclip-stubs/__init__.pyi
+pyperclip-stubs/py.typed
+types_pyperclip.egg-info/PKG-INFO
+types_pyperclip.egg-info/SOURCES.txt
+types_pyperclip.egg-info/dependency_links.txt
+types_pyperclip.egg-info/top_level.txt
