@@ -1,0 +1,25 @@
+from ewokscore import Task
+
+
+class MyTask(
+    Task,
+    input_names=["a", "b", "c"],
+    optional_input_names=["d", "e"],
+    output_names=["result", "error"],
+):
+    """My task documentation"""
+
+    def run(self):
+        pass
+
+
+def my_other_task(f, g, h=None):
+    """My other task documentation"""
+
+    pass
+
+
+def run(i, j=None, k=None):
+    """Run task documentation"""
+
+    pass
