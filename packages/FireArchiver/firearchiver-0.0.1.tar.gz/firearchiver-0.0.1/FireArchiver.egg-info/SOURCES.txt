@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireArchiver/__init__.py
+FireArchiver.egg-info/PKG-INFO
+FireArchiver.egg-info/SOURCES.txt
+FireArchiver.egg-info/dependency_links.txt
+FireArchiver.egg-info/top_level.txt
