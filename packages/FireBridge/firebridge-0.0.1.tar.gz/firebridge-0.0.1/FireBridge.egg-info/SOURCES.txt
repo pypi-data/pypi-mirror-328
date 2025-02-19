@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireBridge/__init__.py
+FireBridge.egg-info/PKG-INFO
+FireBridge.egg-info/SOURCES.txt
+FireBridge.egg-info/dependency_links.txt
+FireBridge.egg-info/top_level.txt
