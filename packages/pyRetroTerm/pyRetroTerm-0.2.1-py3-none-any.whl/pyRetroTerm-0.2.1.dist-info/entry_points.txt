@@ -1,0 +1,6 @@
+[console_scripts]
+pyretroterm-con = pyretroterm.pyretroterm:main
+
+[gui_scripts]
+pyretroterm = pyretroterm.pyretroterm:main
+termtel = termtel.backend.launcher:main
