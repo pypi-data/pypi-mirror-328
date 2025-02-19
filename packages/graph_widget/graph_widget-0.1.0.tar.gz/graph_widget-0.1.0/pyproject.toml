@@ -1,0 +1,19 @@
+[project]
+name = "graph_widget"
+version = "0.1.0"
+description = "Vasturiano graph as an anywidget"
+readme = "README.md"
+authors = [
+    { name = "Jan Aerts", email = "jan.aerts@kuleuven.be" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "anywidget[dev]>=0.9.13",
+    "marimo>=0.11.6",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
