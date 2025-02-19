@@ -1,0 +1,12 @@
+khmer_text_transliteration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+khmer_text_transliteration/data_processing.py,sha256=qVMA6JudsQW6VdS-Hq4PN6_lQ66L5OufLTFJ_PVhgNs,7333
+khmer_text_transliteration/evaluate.py,sha256=boIAJUk6uTH9d1rx7ywnYslm-ItmcRcD1Sm5U00j0Vw,1668
+khmer_text_transliteration/model.py,sha256=kfSobOlNsP8WyGZvewPr_hQUPuqD57B3SXZE8Obgs8g,1861
+khmer_text_transliteration/predict.py,sha256=HhzCp86CtDC7rkefdL-KknhoEhyjSV-s-Pl47ED32M0,6830
+khmer_text_transliteration/predict_with_clean.py,sha256=QRL1s1bGaiMiWynIrId-oB9SGJ8sZYrAzNoTOkCXbsc,6863
+khmer_text_transliteration/train.py,sha256=aeaprYMrGUBlcjBu_bdjoT1jQl-vxG1ztfQzeElFzlQ,2703
+khmer_english_transliteration-0.1.1.dist-info/LICENSE,sha256=iW7uCtySOiTiK0nWrpZtvGm5AyLSmZFl34Zuaf_p_uA,1076
+khmer_english_transliteration-0.1.1.dist-info/METADATA,sha256=R6RTDXAaZeSzE4cNDF2gj2CbmpMGiBzWYfPDuozIdt0,3848
+khmer_english_transliteration-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+khmer_english_transliteration-0.1.1.dist-info/top_level.txt,sha256=_n2ilGgwVDMShsO8silXlRbvaV9yFifff3ZvsCj4FLg,27
+khmer_english_transliteration-0.1.1.dist-info/RECORD,,
