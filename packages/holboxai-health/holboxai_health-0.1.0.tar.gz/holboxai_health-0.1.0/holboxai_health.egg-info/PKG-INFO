@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: holboxai_health
+Version: 0.1.0
+Summary: A package for medical scribing using AWS Transcribe for the healthcare domain
+Author: saurabh
+Author-email: saurabh.patil@holbox.ai
+Requires-Dist: boto3
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

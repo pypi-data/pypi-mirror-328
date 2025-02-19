@@ -1,0 +1,13 @@
+README.md
+setup.py
+holboxai_health/__init__.py
+holboxai_health/aws_auth.py
+holboxai_health/cli.py
+holboxai_health/transcribe.py
+holboxai_health.egg-info/PKG-INFO
+holboxai_health.egg-info/SOURCES.txt
+holboxai_health.egg-info/dependency_links.txt
+holboxai_health.egg-info/entry_points.txt
+holboxai_health.egg-info/requires.txt
+holboxai_health.egg-info/top_level.txt
+tests/test_transcribe.py
