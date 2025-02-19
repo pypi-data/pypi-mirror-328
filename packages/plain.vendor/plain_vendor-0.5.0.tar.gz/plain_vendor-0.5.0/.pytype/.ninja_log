@@ -1,0 +1,5 @@
+# ninja log v5
+0	522	1737048825142808233	/Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/exceptions.pyi	d52c0490f85af882
+522	2406	1737048827011307338	/Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/deps.pyi	cc30864704bd7e09
+2406	4120	1737048828730829192	/Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/cli.pyi	e7b44567752c4c39
+4120	5923	1737048830532007294	/Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/__init__.pyi	3b71f7a068fb1cca

@@ -1,0 +1,18 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/exceptions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/plain/vendor/exceptions.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/imports/vendor.exceptions.imports
+  module = vendor.exceptions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/deps.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/plain/vendor/deps.py | /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/exceptions.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/imports/vendor.deps.imports
+  module = vendor.deps
+build /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/plain/vendor/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/deps.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/exceptions.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/imports/vendor.cli.imports
+  module = vendor.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/plain/vendor/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/pyi/vendor/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-vendor/.pytype/imports/vendor.__init__.imports
+  module = vendor.__init__
