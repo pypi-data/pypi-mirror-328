@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: TheOptimizer
+Version: 0.1.4
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: numba
+Dynamic: requires-dist
