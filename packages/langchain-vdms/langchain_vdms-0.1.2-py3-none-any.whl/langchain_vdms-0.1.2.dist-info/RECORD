@@ -1,0 +1,8 @@
+langchain_vdms/__init__.py,sha256=TNFgU2IrK7wr0FeNGxrst9cOOZNoJ4mxv2Uz1nuZPWs,368
+langchain_vdms/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_vdms/utils.py,sha256=5cRv8EAzRH5KZASoaz3dfbJV1zICi7TTHYEuZACfgoY,4050
+langchain_vdms/vectorstores.py,sha256=tZ5cbBj4herpyUy9OIZaKjFHwrI3-bbau5SEFyT3PYk,72752
+langchain_vdms-0.1.2.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+langchain_vdms-0.1.2.dist-info/METADATA,sha256=MNnJaQh5BD1pfNuYgDs8Mfk3NOnL8rB4w80NVcqWb9o,2228
+langchain_vdms-0.1.2.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+langchain_vdms-0.1.2.dist-info/RECORD,,
