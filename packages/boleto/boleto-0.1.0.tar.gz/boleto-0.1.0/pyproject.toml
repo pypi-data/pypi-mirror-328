@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "boleto"
+version = "0.1.0"
+description = "SDK para geração de boletos bancários"
+authors = ["GabrielCarvalho <gabrielcarvalho.workk@gmail.com>"]
+repository = "https://github.com/pagme-dev/boleto-sdk-python"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
