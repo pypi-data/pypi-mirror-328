@@ -1,0 +1,1 @@
+from ez_manage_tool.main import initUI
