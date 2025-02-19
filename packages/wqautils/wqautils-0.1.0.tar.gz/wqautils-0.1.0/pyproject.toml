@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wqautils"
+version = "0.1.0"
+description = "This Python package provides tools for water quality analysis, ensuring that key parameters like temperature, dissolved oxygen, conductivity, turbidity, and pH are within normal ranges. Using Pydantic for data validation, the package ensures accurate input handling and provides detailed explanations when values fall outside acceptable limits."
+authors = ["jtdub <james.williams@jtdub.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.10.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.6"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
