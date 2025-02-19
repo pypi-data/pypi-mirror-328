@@ -1,0 +1,11 @@
+mkdocs_languagetool_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_languagetool_plugin/config.py,sha256=poQROcJDceeKk6Ml8332n85YdqX1XH7XqXZlGkgj-nY,2159
+mkdocs_languagetool_plugin/docker.py,sha256=PZN3V0QiDnv9yex-coF35MYYgfBppnc28OODLPyn8yw,4640
+mkdocs_languagetool_plugin/languagetool.py,sha256=L8b-nmOU1Ow1nVquxkbkpe8erTYWO6AOX6QbfbRzln0,3246
+mkdocs_languagetool_plugin/plugin.py,sha256=8na2bn3_q8sQPtSk_Qs5s-t30BULANGcxFH3X7NSXyQ,1848
+mkdocs_languagetool_plugin/tasks.py,sha256=xcu4IL5xm8ZLX0c6d07r-nuzmS0d0mPl6_CRtQzDZao,4859
+mkdocs_languagetool_plugin-0.1.0.dist-info/METADATA,sha256=oc7CbHbu64rFwC7wIOfvFv6hEyT3fvwAZ9ztfKtwmgc,3108
+mkdocs_languagetool_plugin-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mkdocs_languagetool_plugin-0.1.0.dist-info/entry_points.txt,sha256=qNQ5qcDrpZOxE5YbyulKycLs_xdwKFp_6Oj2dGiKRhE,85
+mkdocs_languagetool_plugin-0.1.0.dist-info/top_level.txt,sha256=rTSV5xbY5GEmEp1sEiNkc5jvqsR3Qry6lB48Ozyr_YY,27
+mkdocs_languagetool_plugin-0.1.0.dist-info/RECORD,,
