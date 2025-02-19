@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: ks-market-engine
+Version: 0.0.30
+Project-URL: Documentation, https://github.com/liuyanzhi08/ks-market-engine#readme
+Project-URL: Issues, https://github.com/liuyanzhi08/ks-market-engine/issues
+Project-URL: Source, https://github.com/liuyanzhi08/ks-market-engine
+Author-email: liuyanzhi08 <702368372@qq.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+# todo
+要给每个库加上logger，放置到用户文件夹下默认
+
+# 0.0.12 add numbers.to_decimal

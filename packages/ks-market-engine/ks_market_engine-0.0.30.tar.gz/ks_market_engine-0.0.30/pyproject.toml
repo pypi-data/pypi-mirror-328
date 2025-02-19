@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ks-market-engine"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+
+keywords = []
+authors = [
+  { name = "liuyanzhi08", email = "702368372@qq.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/liuyanzhi08/ks-market-engine#readme"
+Issues = "https://github.com/liuyanzhi08/ks-market-engine/issues"
+Source = "https://github.com/liuyanzhi08/ks-market-engine"
+
+[tool.hatch.version]
+path = "__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:ks_market_engine tests}"
+
+[tool.coverage.run]
+source_pkgs = ["ks_market_engine", "tests"]
+branch = true
+parallel = true
+omit = [
+  "__about__.py",
+]
+
+[tool.coverage.paths]
+ks_market_engine = ["ks_market_engine", "*/ks-market-engine/ks_market_engine"]
+tests = ["tests", "*/ks-market-engine/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
