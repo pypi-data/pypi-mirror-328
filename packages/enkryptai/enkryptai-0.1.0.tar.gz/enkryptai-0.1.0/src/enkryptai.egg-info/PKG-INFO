@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: enkryptai
+Version: 0.1.0
+Summary: A Python SDK with guardrails and red teaming functionality for API interactions
+Home-page: https://github.com/enkryptai/enkryptai-sdk
+Author: Enkrypt AI Team
+Author-email: software@enkryptai.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# enkryptai-sdk
