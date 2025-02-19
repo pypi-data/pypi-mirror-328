@@ -1,0 +1,14 @@
+tgcrypto.cp39-win32.pyd,sha256=nYQFm1yWpmUXl_UDw3dsE26_zdYnhzG0Dc2JYNske60,30720
+tgcrypto/aes256.c,sha256=VK9kTp5ym1ilOrh0wrf-f-ubZC9NOV9vDXqEYTOPIAQ,44819
+tgcrypto/aes256.h,sha256=MfpBapEbmGb9ErEldT41XfCWIAA0IKv5v1NTtR-drbU,541
+tgcrypto/cbc256.c,sha256=TgRemRI7GCC-9iL-pz-FcP55uQHC0Mz72CT0Jnkd4Hs,1102
+tgcrypto/cbc256.h,sha256=PJ0lN5zeUjXers7_3EFoR-IPlZIZvhRMOSoDah6_wmA,159
+tgcrypto/ctr256.c,sha256=FOAACKhoMhLoJQdc6Kd4SIx9JrGp-05FPMXKL1LpTpI,990
+tgcrypto/ctr256.h,sha256=iXwsx1F9I8TByfjpF2WJKEz72X2VBKnfsW-tJMSzt6g,158
+tgcrypto/ige256.c,sha256=xBdh484pzTBLvORdvsn3L_yZg5rJ7UCSkqxoOGzN3yc,1131
+tgcrypto/ige256.h,sha256=quVEuhJjFbBkTU_dpLbJNKHTjdox44eu7nFLizxs1gQ,165
+tgcrypto/tgcrypto.c,sha256=kKvteb72ZJn-na9tBTVYu-YYrfuJamXrNqOWB5lMW2Q,6390
+ElectroCrypto-2.0.2.dev0.dist-info/METADATA,sha256=8XPU7yBuN0i8ZxNxkMLsiz7I8iMbbuHOG7fyLZX8Xz4,1494
+ElectroCrypto-2.0.2.dev0.dist-info/WHEEL,sha256=nit2jk1XD9iB81u5goYHy9pLj6BDgJHNYHDLr0P5SFs,95
+ElectroCrypto-2.0.2.dev0.dist-info/top_level.txt,sha256=eR9kyxn8_DlPGl0M2C-LPSzXX31ptELZjc5trN37lrA,9
+ElectroCrypto-2.0.2.dev0.dist-info/RECORD,,
