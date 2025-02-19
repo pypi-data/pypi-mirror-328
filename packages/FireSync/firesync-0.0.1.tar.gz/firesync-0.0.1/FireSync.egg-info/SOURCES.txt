@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireSync/__init__.py
+FireSync.egg-info/PKG-INFO
+FireSync.egg-info/SOURCES.txt
+FireSync.egg-info/dependency_links.txt
+FireSync.egg-info/top_level.txt
