@@ -1,0 +1,38 @@
+Metadata-Version: 2.2
+Name: pyrception
+Version: 0.2.4
+Author: Alexander Hadjiivanov
+Requires-Python: >=3.11
+License-File: LICENCE.md
+Requires-Dist: av
+Requires-Dist: black
+Requires-Dist: h5py
+Requires-Dist: imageio[ffmpeg]
+Requires-Dist: ipykernel
+Requires-Dist: ipywidgets
+Requires-Dist: loguru
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: plotly[express]
+Requires-Dist: pydantic-settings
+Requires-Dist: rich
+Requires-Dist: ruff
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Provides-Extra: gui
+Requires-Dist: pyqtgraph; extra == "gui"
+Requires-Dist: PySide6; extra == "gui"
+Provides-Extra: cli
+Requires-Dist: cloup; extra == "cli"
+Provides-Extra: events
+Requires-Dist: tonic; extra == "events"
+Provides-Extra: dev
+Requires-Dist: py-spy; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mike; extra == "docs"
+Requires-Dist: mkdocs-jupyter; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mkdocs; extra == "docs"
+Requires-Dist: mkdocstrings[python]; extra == "docs"
