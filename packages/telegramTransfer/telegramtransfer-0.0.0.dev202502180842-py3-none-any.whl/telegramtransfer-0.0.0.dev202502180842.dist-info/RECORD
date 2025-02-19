@@ -1,0 +1,13 @@
+telegramTransfer/.env.example,sha256=llnuYWlTu0G0AGCf7wNwuW0nytsmfGPD_PHdP_Okj-4,185
+telegramTransfer/__init__.py,sha256=U415T55bZwbYb4GPeQMgF7rEzPY8GLvTzeiPad2Bv24,274
+telegramTransfer/__main__.py,sha256=NNVYlHfKsezP-bP_j_hyGDaBTIMkSvBsn0--vstE8F8,142
+telegramTransfer/cli.py,sha256=jr43C96aSBlTnAo8YE0Qxvf5_Yvi00xJ3wEj4odn0Jk,4869
+telegramTransfer/client.py,sha256=gw2vtHEsZ0cC6S2zSzrvG8f0Ijx5n4IhSVy8frW3Vfw,13139
+telegramTransfer/config.json.example,sha256=JDBAZGn72BNlCM0MuNYxh_siTq0GFp61cKxk4ck7jgI,1302
+telegramTransfer/config.py,sha256=OvAiuLgU2SVI68YMX3OI3N7HVbgIigYShMp4QxIL3LM,4870
+telegramTransfer/manager.py,sha256=ki_UFy59VTqKSWzDRf-uhjnGaOZNzkwRcALE7mfcSSk,15151
+telegramtransfer-0.0.0.dev202502180842.dist-info/METADATA,sha256=yqIC5H_L_YX7RtROKzUuZaQNLY0K1rEqFGFJrC_ihi0,43999
+telegramtransfer-0.0.0.dev202502180842.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+telegramtransfer-0.0.0.dev202502180842.dist-info/entry_points.txt,sha256=thL61CeJdO92uVtvi2bx99mSs9O1BovrD7utTSYkJlY,62
+telegramtransfer-0.0.0.dev202502180842.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+telegramtransfer-0.0.0.dev202502180842.dist-info/RECORD,,
