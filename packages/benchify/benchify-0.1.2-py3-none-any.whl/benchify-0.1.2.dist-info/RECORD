@@ -1,0 +1,11 @@
+benchify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+benchify/auth.py,sha256=oOT6bC4oKhgoFNAxEHvAiu2cLnQZvmieQC3LDC8ob4A,1084
+benchify/constants.py,sha256=IsFM7iLuwHszQlUPzzeLX5zRJSYH5RfNQOplAxma25w,452
+benchify/main.py,sha256=1fM2ja6T0cpRjh6JKCHaZv93pHuNKr6EWeOpr7Dp4lQ,10788
+benchify/repo.py,sha256=FTzxshCv2KYoDmLBAJWy-WheuCVLJHyLbzUu6i-Kqs8,1320
+benchify/server.py,sha256=FzCiVhCOQTGZKjvluTjZ0LwoeQqB8omif6jfHfoybEc,2005
+benchify-0.1.2.dist-info/METADATA,sha256=kYY4JmJszglDC7H3Q1WEoA_FV-pW91xIqiTT6SWmc0c,2440
+benchify-0.1.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+benchify-0.1.2.dist-info/entry_points.txt,sha256=vdGHTVz0oUtLLaFB4hBtC2mUqT9X6OZl7UY2dwLeT8I,47
+benchify-0.1.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+benchify-0.1.2.dist-info/RECORD,,
