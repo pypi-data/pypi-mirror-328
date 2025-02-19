@@ -1,0 +1,5 @@
+/dist/
+**/*/.DS_Store
+__pycache__/
+/src/webcli2/web/node_modules/
+/src/webcli2/web/dist/
