@@ -1,0 +1,6 @@
+[console_scripts]
+fb_json_decoder = facebook_json_message_data_parser_public.facebook_json_message_data_parser:main
+fb_json_decoder_upload = facebook_json_message_data_parser_public.mongo.mongo_handler:main
+
+[gui_scripts]
+
