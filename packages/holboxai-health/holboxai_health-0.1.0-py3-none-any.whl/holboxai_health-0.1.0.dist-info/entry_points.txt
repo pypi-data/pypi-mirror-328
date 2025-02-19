@@ -1,0 +1,2 @@
+[console_scripts]
+healthscribe-cli = holboxai_health.cli:main
