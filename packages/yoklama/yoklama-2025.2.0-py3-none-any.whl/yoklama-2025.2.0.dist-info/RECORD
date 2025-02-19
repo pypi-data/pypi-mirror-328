@@ -1,0 +1,8 @@
+src/yoklama/__init__.py,sha256=QhhQgw2vMvjhLBxkj0kuvc7AQEOqSAR0A0KLQwbt_jQ,54
+src/yoklama/ders.py,sha256=7NxH-xuCSIk7eoaKGmqd0YF-zmzjgt4nWNxUue5fbfs,1336
+src/yoklama/ogrenciler.py,sha256=yYIr1Vj7mrNpi-zOqnjlXTpl0mrX5jF1xZSsyNwEXiI,632
+src/yoklama/yariyil.py,sha256=DEPw9fCM9rVllTBy6LpbqICVI_m1rV_JdnXHpwnyAPk,1656
+src/yoklama/yoklama.py,sha256=Bzylg3-WOzEevRAmobjhg7G5Q5ppm5zy0Q3bGnSf7rU,12568
+yoklama-2025.2.0.dist-info/METADATA,sha256=9qiNOerCRB-0GaKgW8hKJUoswh9BgjdhPQ60CrCZi7g,714
+yoklama-2025.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+yoklama-2025.2.0.dist-info/RECORD,,
