@@ -1,0 +1,17 @@
+jprcfai/__init__.py,sha256=Zz2HgRr4hs0GKDgeCWVrBJohEMh9v5ZtzOp2RtfvABM,1101
+jprcfai/code_review_utils.py,sha256=9fig81fE-l3_naVWMYU-gI78b1UCdviWNNV-rPLNxhc,3924
+jprcfai/complex_coding_tasks.py,sha256=x3eC_AFh079mPU1MR6Ddwxl2G1itktbS-2qi4FZ6MYc,20232
+jprcfai/core.py,sha256=Pp-HrcHCPJk3x58zUSf998g1Mm4iksa5XWuKdOrQrJ8,13660
+jprcfai/manual_prompt_engineering.py,sha256=9dbcvuzcv5b_fRiVJ8oBnOyQQtlREuKSntNOIdR_bpA,4265
+jprcfai/assistants/CheckpointStatus.txt,sha256=w32Ivixp-XPy7oz5b-hORiPLDQKFSL273iPxIci6l0Q,606
+jprcfai/assistants/CheckpointerRedirecter.txt,sha256=fDXTEkIOGScQlKesiLHo183KUmJvIEGC1uObUgmo8JQ,1309
+jprcfai/assistants/CodeFixer.txt,sha256=RpTub5KBTzhXtNDEZZpBJWYHQNq1FSSyjt5rNYcfvhI,603
+jprcfai/assistants/PromptRefactor.txt,sha256=Wmf-tRWEZ4FDCHeno2J8FGWXDb92rvmfuzJK_XSWYjo,646
+jprcfai/assistants/Refactor.txt,sha256=aWEzn2nWt-nuM0oZSf6dSA1AKyJqLKktOOoAMDhp8Ts,1742
+jprcfai/assistants/RefactorSummary.txt,sha256=-9Lli0Q0blnWh2JfHrRl2gb8Xy34f-mbQTnRMclVUGE,1533
+jprcfai/assistants/ReviewCode.txt,sha256=PJTwMmBO3aCBeA2S3zRrVVMTfvKPE1NFiPZa0-R3SFk,1375
+jprcfai/assistants/SingleFileCodeModifications.txt,sha256=Xey4MDiUqgrY59w7OtHHZgUt8296X8VZElGm8Nc5e1Y,270
+jprcfai-0.2.7.dist-info/METADATA,sha256=eTflYEuIggIOswNTwanMz_iVDLs_GHTHxsDfyH7xPoY,1344
+jprcfai-0.2.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jprcfai-0.2.7.dist-info/top_level.txt,sha256=T50mHgtLRSAh9l-Y8vw6QlDKyEocjH4BXMdFGzK8ju8,8
+jprcfai-0.2.7.dist-info/RECORD,,
