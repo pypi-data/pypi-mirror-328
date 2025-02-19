@@ -1,0 +1,9 @@
+torch
+triton
+
+[dev]
+pytest
+black
+isort
+flake8
+entmax
