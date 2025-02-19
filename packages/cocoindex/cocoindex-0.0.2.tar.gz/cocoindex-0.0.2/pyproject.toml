@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core>=1.0.0,<2.0.0", "maturin>=1.7.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "cocoindex"
+version = "0.0.2"
+description = "With CocoIndex, users declare the transformation, CocoIndex creates & maintains an index, and keeps the derived index up to date based on source update, with minimal computation and changes."
+authors = [{ name = "CocoIndex", email = "cocoindex.io@gmail.com" }]
+readme = "README.md"
+
+[tool.poetry]
+name = "cocoindex"
+license = "Apache-2.0"
+homepage = "https://cocoindex.io/"
+packages = [{ from = "python", include = "*" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+sentence-transformers = "^3.3.1"
+click = "^8.1.8"
+
+[tool.poetry.group.dev.dependencies]
+maturin = "^1.7.8"
+
+[tool.maturin]
+bindings = "pyo3"
+python-source = "python"
+module-name = "cocoindex._engine"
+features = ["pyo3/extension-module"]

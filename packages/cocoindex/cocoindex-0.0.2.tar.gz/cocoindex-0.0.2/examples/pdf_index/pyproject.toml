@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-index"
+version = "0.1.0"
+description = "Simple example for cocoindex: build embedding index based on local PDF files."
+authors = ["Your Name <you@example.com>"]
+license = "GPL-v3"
+readme = "README.md"
+packages = [{ from = ".", include = "*" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cocoindex = { path = "../..", develop = true }
+python-dotenv = "^1.0.1"
+marker-pdf = "^1.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
