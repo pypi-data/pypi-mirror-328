@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: smwasm
+Version: 0.0.3
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+cd smmo/python/smwasm
+
+maturin develop
+
+maturin build
+
+cargo clean
+maturin develop --release
+maturin build --release
+maturin upload --repository pypi
+
+
+pip3 install --force-reinstall .
+
+python _test/_testit.py
+
