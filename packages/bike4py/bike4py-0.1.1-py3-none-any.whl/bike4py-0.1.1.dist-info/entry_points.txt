@@ -1,0 +1,2 @@
+[console_scripts]
+b4m = bike4py.cli:main
