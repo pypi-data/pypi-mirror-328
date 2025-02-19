@@ -1,0 +1,15 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/pyi/tunnel/client.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/plain/tunnel/client.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/imports/tunnel.client.imports
+  module = tunnel.client
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/pyi/tunnel/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/plain/tunnel/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/pyi/tunnel/client.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/imports/tunnel.cli.imports
+  module = tunnel.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/pyi/tunnel/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/plain/tunnel/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/pyi/tunnel/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-tunnel/.pytype/imports/tunnel.__init__.imports
+  module = tunnel.__init__
