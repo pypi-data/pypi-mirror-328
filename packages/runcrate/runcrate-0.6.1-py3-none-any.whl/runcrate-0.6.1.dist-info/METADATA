@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: runcrate
+Version: 0.6.1
+Summary: Workflow Run RO-Crate toolkit
+Author: RO-Crate community
+Author-email: CRS4 <ro-crate@elixir-europe.org>
+Project-URL: Homepage, https://github.com/ResearchObject/runcrate
+Keywords: ro-crate,workflow,provenance,CWL,CommonWL
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <4,>=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: bdbag>=1.4.1
+Requires-Dist: click~=8.1
+Requires-Dist: cwl-utils==0.37
+Requires-Dist: cwlprov==0.1.1
+Requires-Dist: networkx==3.1
+Requires-Dist: prov>=1.5.1
+Requires-Dist: rocrate<1,>=0.9
+
+Runcrate is a software toolkit to manipulate `Workflow Run RO-Crate <https://www.researchobject.org/workflow-run-crate/>`_ packages. Documentation is at http://www.researchobject.org/runcrate/.
