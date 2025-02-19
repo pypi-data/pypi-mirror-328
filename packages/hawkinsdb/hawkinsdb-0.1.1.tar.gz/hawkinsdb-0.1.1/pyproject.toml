@@ -1,0 +1,91 @@
+[project]
+name = "hawkinsdb"
+version = "0.1.1"  # Incrementing version for new release
+description = "A neuroscience-inspired memory layer for LLM applications"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "litellm>=1.61.6",
+    "tenacity>=8.0.0",
+    "setuptools>=75.8.0",
+    "mock>=5.1.0",
+    "unittest-xml-reporting>=3.2.0",
+    "openai>=1.63.2",
+    "trafilatura>=2.0.0",
+    "twilio>=9.4.5",
+    "lxml>=5.3.1",
+    "build>=1.2.2.post1",
+    "twine>=6.1.0",
+]
+
+authors = [
+    {name = "Harish Santhanalakshmi Ganesan", email = "hawkinsdb@example.com"}
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Database",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.23.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0"
+]
+docs = [
+    "sphinx>=7.0.0",
+    "sphinx-rtd-theme>=1.3.0",
+    "myst-parser>=2.0.0"
+]
+conceptnet = [
+    "networkx>=3.0.0",
+    "requests-cache>=1.1.0"
+]
+llm = [
+    "openai>=1.0.0",
+    "tenacity>=8.2.0",
+    "tiktoken>=0.5.0"
+]
+all = [
+    "networkx>=3.0.0",
+    "requests-cache>=1.1.0",
+    "openai>=1.0.0",
+    "tenacity>=8.2.0",
+    "tiktoken>=0.5.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/harishsg993010/HawkinsDB"
+Documentation = "https://github.com/harishsg993010/HawkinsDB/tree/main/docs"
+Repository = "https://github.com/harishsg993010/HawkinsDB.git"
+Issues = "https://github.com/harishsg993010/HawkinsDB/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["hawkinsdb*"]
+exclude = ["tests*", "examples*", "docs*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
