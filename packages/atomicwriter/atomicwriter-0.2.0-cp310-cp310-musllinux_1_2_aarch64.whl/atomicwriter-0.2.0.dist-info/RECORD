@@ -1,0 +1,10 @@
+atomicwriter/__init__.py,sha256=iTLAc-JFig14g4b55dBgCqTpEtHraAtha6BruDJ_4G0,892
+atomicwriter/__init__.pyi,sha256=3K3Oi_Az0VyHH9S-yNYTFgxuybIm5c6hoq97h9aRLnQ,2653
+atomicwriter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atomicwriter/_impl.cpython-310-aarch64-linux-gnu.so,sha256=b0ZdzWJ3EF0fBGTWtr7idvSmOMTVsa5QiCnqNSZJbYo,723489
+atomicwriter-0.2.0.dist-info/WHEEL,sha256=hLwB14s8gNKewNbJ-mSduOnKWwnUSfC81sppxdtMExY,109
+atomicwriter-0.2.0.dist-info/METADATA,sha256=QRF6YSSnkjhir91iGk4I9KfdCePWYrcem-aw5IYSPRo,4357
+atomicwriter-0.2.0.dist-info/RECORD,,
+atomicwriter-0.2.0.dist-info/licenses/LICENSE-APACHE,sha256=F4oy31_vigJdRZCXgI61i9tZcJzOEgdoKBBlQ0XIO6Y,11350
+atomicwriter-0.2.0.dist-info/licenses/LICENSE-MIT,sha256=8SlhOKgNlNzt6P2r58HTp3gq6Fxma4fehkYOt0Kr734,1077
+atomicwriter.libs/libgcc_s-c8ae3477.so.1,sha256=9V-8eIks1bMNS4WpqkcG8BFshxtKrgXObotCK1Eunmw,201017
