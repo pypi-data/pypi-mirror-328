@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gnistai"
+version = "0.0.1"
+authors = [
+    { name="GnistAI", email="office@gnist.ai" },
+]
+license = { text="Apache-2.0" }
+
+dependencies = [
+    "requests>=2.32.3, <3",
+]
+description = "The official Python library for the GnistAI API"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: Apache Software License"
+]
+
+[project.urls]
+Homepage = "https://gnist.ai/api/docs"
+Repository = "https://github.com/gnistai/gnistai-python"
+Issues = "https://github.com/gnistai/gnistai-python/issues"
