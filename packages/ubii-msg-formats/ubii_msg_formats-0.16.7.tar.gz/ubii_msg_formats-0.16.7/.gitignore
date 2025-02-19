@@ -1,0 +1,13 @@
+node_modules/
+.build/
+.devnotes/
+.node_modules/
+external/*
+*.log
+.vscode/
+.idea/
+proto_compile/*
+dist/*
+.pypirc
+.personal-notes.txt
+.venv-test/
