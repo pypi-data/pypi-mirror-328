@@ -1,0 +1,2 @@
+[console_scripts]
+comfy-installer = comfy_installer.cli:main
