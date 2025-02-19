@@ -1,0 +1,9 @@
+cdFBA/__init__.py,sha256=5biIKQf8WoKUaoT8VwxmTwvCsnVM3uOygOpXrFDZshQ,1697
+cdFBA/utils.py,sha256=BRMpaB2YctJDd0mEQ_oHn5j_VrJAi7jMTCOoUF14HhU,17202
+cdFBA/processes/__init__.py,sha256=fQb25WpyhBujmw6AkEUwixi14zKOZ-QAXVfOXx7VFmU,129
+cdFBA/processes/dfba.py,sha256=VtvGL9C9kW10eTjJJ3Mrm3laxk0s8mRIqbn4b5RQnWM,11366
+cdFBA-0.0.1.dist-info/LICENSE,sha256=CHRkg_2GGad_CtTSzxWHqniHUXdihmdPqrNor2MXizw,1076
+cdFBA-0.0.1.dist-info/METADATA,sha256=dapr_lah4qr0bOnFwjX2XLP2hViL2XPOKvxZc5xnmME,1078
+cdFBA-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cdFBA-0.0.1.dist-info/top_level.txt,sha256=et6SgA4li6OsXOE2htEi35xfTEvnqllGUQzv0eVVPVo,6
+cdFBA-0.0.1.dist-info/RECORD,,
