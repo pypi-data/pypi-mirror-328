@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab_autodocstring",
+  "description": "jupyterlab_autodocstring settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
