@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jushuitan-data-collection
+Version: 1.0.0
+Summary: Jushuitan & Shengsuan Data Collection
+License: MIT
+Author: martianbugs
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: drissionpage (>=4.1.0.17,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# jushuitan-data-collection
+聚水潭 & 胜算数据采集工具
+
+## 安装
+```bash
+pip install jushuitan-data-collection
+```
+
+## 使用方法
+### 连接浏览器
+```python
+from JushuitanDataCollection import Collector
+
+collector = Collector()
+collector.connect_browser(port=9527)
+collector.login(username='your_username', password='your_password')
+```
