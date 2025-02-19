@@ -1,0 +1,7 @@
+numpy
+
+[all]
+svenson[extra]
+
+[extra]
+pandas
