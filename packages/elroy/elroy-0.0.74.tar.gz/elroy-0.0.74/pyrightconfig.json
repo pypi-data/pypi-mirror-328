@@ -1,0 +1,9 @@
+{
+    "include": ["elroy", "tests"],
+    "exclude": [".venv/**", "**/*.ipynb"],
+    "executionEnvironments": [
+        {
+            "root": "elroy"
+        }
+    ]
+}
