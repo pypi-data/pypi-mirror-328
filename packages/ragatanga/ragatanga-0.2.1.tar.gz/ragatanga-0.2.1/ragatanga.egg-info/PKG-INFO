@@ -1,0 +1,152 @@
+Metadata-Version: 2.2
+Name: ragatanga
+Version: 0.2.1
+Summary: A hybrid semantic knowledge base and query system combining ontology-based reasoning with semantic search
+Home-page: https://github.com/jquant/ragatanga
+Author: José Saum
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles==24.1.0
+Requires-Dist: instructor==1.7.2
+Requires-Dist: faiss-cpu==1.10.0
+Requires-Dist: numpy==2.2.3
+Requires-Dist: openai==1.63.2
+Requires-Dist: uvicorn==0.34.0
+Requires-Dist: fastapi==0.115.8
+Requires-Dist: rdflib==7.1.3
+Requires-Dist: owlready2==0.47
+Requires-Dist: python-multipart==0.0.20
+Requires-Dist: loguru==0.7.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Ragatanga - Semantic Knowledge Base and Query System
+
+A sophisticated system that combines ontology-based reasoning with semantic search capabilities to provide intelligent query responses. The system uses a hybrid approach, leveraging both SPARQL queries against an OWL ontology and semantic similarity search over a knowledge base.
+
+## Features
+
+- 🧠 Hybrid query processing combining ontological reasoning and semantic search
+- 🔍 SPARQL query generation from natural language
+- 📚 Knowledge base management with semantic embeddings
+- 🌐 RESTful API endpoints for querying and knowledge management
+- 🔄 Automatic inference materialization
+- 📊 Vector similarity search using FAISS
+
+## Prerequisites
+
+- Python 3.8+
+- OpenAI API key for semantic processing
+- FastAPI for the web API
+- FAISS for efficient similarity search
+- Owlready2 for ontology management
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jquant/ragatanga.git
+cd ragatanga
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up your environment variables:
+```bash
+export OPENAI_API_KEY='your-api-key'
+```
+
+## Project Structure
+
+- `main.py` - Core application with FastAPI endpoints and query processing
+- `modal_deploy.py` - Modal deployment configuration
+- `setup_volume.py` - Volume setup for deployment
+- `ontology.ttl` - Main ontology file
+- `knowledge_base.md` - Knowledge base content
+
+## API Endpoints
+
+- `POST /query` - Process hybrid queries using ontology and semantic search
+- `POST /upload/ontology` - Upload a new ontology file
+- `GET /download/ontology` - Download the current ontology
+- `POST /upload/kb` - Upload a new knowledge base
+- `GET /download/kb` - Download the current knowledge base
+- `GET /describe_ontology` - Get statistics and information about the ontology
+
+## Usage
+
+1. Start the server:
+```bash
+uvicorn main:app --reload
+```
+
+2. Send queries using the API:
+```bash
+curl -X POST "http://localhost:8000/query" \
+     -H "Content-Type: application/json" \
+     -d '{"query": "What are the key concepts in the knowledge base?"}'
+```
+
+## Deployment
+
+The project is configured for deployment using Modal. To deploy:
+
+```bash
+modal deploy modal_deploy.py
+```
+
+## Architecture
+
+The system uses a hybrid approach for query processing:
+
+1. **Ontological Reasoning**
+   - Uses OWL ontology for structured knowledge
+   - Generates SPARQL queries from natural language
+   - Materializes inferences for complete reasoning
+
+2. **Semantic Search**
+   - Embeds knowledge base content using OpenAI embeddings
+   - Uses FAISS for efficient similarity search
+   - Combines results with ontological queries
+
+3. **Result Generation**
+   - Merges results from both approaches
+   - Generates natural language responses
+   - Provides context-aware answers
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Ragatanga
+
+See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions and support, please open an issue on the GitHub repository.
