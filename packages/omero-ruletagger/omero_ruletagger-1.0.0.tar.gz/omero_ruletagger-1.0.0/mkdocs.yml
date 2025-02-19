@@ -1,0 +1,17 @@
+site_name: OMERO.RuleTagger
+theme:
+  name: material
+
+plugins:
+  - mkdocstrings
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+  - autorefs
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Rules File: rules.md
+  - Scheduling: scheduling.md
+  - Limitations: limitations.md
