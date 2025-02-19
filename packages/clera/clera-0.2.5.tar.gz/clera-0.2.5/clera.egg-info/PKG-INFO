@@ -1,0 +1,115 @@
+Metadata-Version: 2.2
+Name: clera
+Version: 0.2.5
+Summary: Develop Simple and Quick GUI Applications with Python
+Author: Erasmus A. Junior
+Author-email: eirasmx@pm.me
+License: GNU LGPLv3
+Project-URL: Documentation, https://clera.readthedocs.io/
+Project-URL: Source, https://github.com/cleragui/main/
+Keywords: gui,clera,simple,simplegui,pyside,pyside6,python,easy
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: PySide6
+Requires-Dist: PyInstaller
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+<div align="center">
+<img src="https://github.com/cleragui/pypi/blob/main/image/logo-with-name.png?raw=true">
+</div>
+
+## **Clera - GUI Development with Python** 
+![PyPI Downloads](https://static.pepy.tech/badge/clera)
+
+---
+
+Clera provides platform for developing python GUI quickly and simply with low learning curve.
+
+<br>
+
+> **NOTE:** Clera is still in the **alpha** stage which means development is not complete its undergoing internal tests and development. To help with the testing process or need tutorial on how to use clera, please send me an email eirasmx@pm.me
+
+<br>
+
+## **THE BASICS**
+
+### **Installation**
+
+```bash
+pip install clera
+```
+
+Your first application and Skeleton of every GUI developed using clera.
+
+**Code:**
+
+```python
+from clera import Window
+window = Window()
+# window widgets and layouts goes here!
+window.run()
+```
+
+**Output:**
+
+![Window](https://github.com/cleragui/pypi/blob/main/image/window.png?raw=true)
+
+> **" Why Complicate Simplicity? "**
+
+<br>
+
+## **PLATFORMS**
+
+> Clera runs on multiple platforms and has a native interface on each.
+
+### **Hardware Support**
+
+- Runs on Desktop and Laptops
+
+### **OS Support**
+
+- Windows
+- Mac
+- Linux
+
+<br>
+
+To run the clera style editor, run "**clera-editor**" in the terminal or command prompt and "**clera-deploy**" to run the clera deploy tool. Also to see a sample of what clera is capable of, check out the editor. It's developed with clera!
+
+<br>
+
+> **INFO:** Visit https://clera.readthedocs.io for documentation and more information.
+
+<br>
+
+---
+
+<br>
+
+### **RELEASE NOTES**
+
+**v0.2.5 (2025-02-18) - Various fixes and additions**
+
+- Docstrings and Documentation (**added**)    
+- Optimized for faster code execution (**fixed**)    
+
+<br>
+
+---
