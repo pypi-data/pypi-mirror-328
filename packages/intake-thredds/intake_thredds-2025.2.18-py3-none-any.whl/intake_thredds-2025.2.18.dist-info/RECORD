@@ -1,0 +1,9 @@
+intake_thredds/__init__.py,sha256=15q9-zlDIcmhI3k2BDHWPZF5r_b7TfLysFqNeOOs2sM,373
+intake_thredds/cat.py,sha256=-BZeOQh2t6N5e60Gg075dKuicWeEDWFXsBVGvmAipeA,1715
+intake_thredds/source.py,sha256=nIM8rXE6hTaOP7QXVxRH3wsWhCDFQnVsRnNNUGf-Kjk,3297
+intake_thredds-2025.2.18.dist-info/LICENSE,sha256=5g93nrckUk8QchYpj20bxibAUkX_FbA48jfdTnr4zRo,11368
+intake_thredds-2025.2.18.dist-info/METADATA,sha256=noCNCn3ByNHWmRqOEbROPsQj9XBzZytChF6RyVaPTyA,4082
+intake_thredds-2025.2.18.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+intake_thredds-2025.2.18.dist-info/entry_points.txt,sha256=u5IckrOVmSXQ8F1Njp9r-rV3BEONNYu_EvYK8zBHWZk,124
+intake_thredds-2025.2.18.dist-info/top_level.txt,sha256=FwpqL7ZsT7pEtPyxM9tuSLFut-NC40Y8P3e7k2zDcag,15
+intake_thredds-2025.2.18.dist-info/RECORD,,
