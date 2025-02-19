@@ -1,0 +1,12 @@
+umd_api/__init__.py,sha256=TuiVvWbEP0r4pn-6NeDacSl8FacZ_hzWCP0lR8NrJns,272
+umd_api/base_api.py,sha256=wD-wdF6yFREPeM16Wjf3SX0BcSl7i2iYeWksOCr9JEg,1342
+umd_api/bus.py,sha256=982OURcESdH9hhpRK_f57V8lv4r1BaDOXNoAm7RocnY,1487
+umd_api/courses.py,sha256=58Uz3rKlGDPzm-YcoFfBNhf_CJOYQE391SB3Qkq2mAc,2078
+umd_api/majors.py,sha256=omz8AkS2shrXAAbvyg0qb2FqsfwhqXYvOxPQSv9e-WU,198
+umd_api/map.py,sha256=av89oh9Zk3f-5GspiqSsx6eKdxr0emsRrEJHAJaPCLE,557
+umd_api/professors.py,sha256=rjQarXjPZnIvVbQ6fWnsZ4RumoWfmhWVPPN-en5Zv6A,279
+umd_api-0.5.1.dist-info/LICENSE,sha256=epJ0YgVcveRY45cuIGBfwMYrGRXf4juTZYwfyPBo_hU,1065
+umd_api-0.5.1.dist-info/METADATA,sha256=Te0i9wnQ--zZ6hedgDSgz-4CeGP_xgU2SrNmczJJuvI,427
+umd_api-0.5.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+umd_api-0.5.1.dist-info/top_level.txt,sha256=NLT3EUj9grpL_abDth10yfnyNFiipY8-8nkeBOb95KY,8
+umd_api-0.5.1.dist-info/RECORD,,
