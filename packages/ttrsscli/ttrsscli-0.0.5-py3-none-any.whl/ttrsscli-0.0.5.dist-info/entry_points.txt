@@ -1,0 +1,3 @@
+[console_scripts]
+ttcli = ttrsscli:main
+ttrsscli = ttrsscli:main
