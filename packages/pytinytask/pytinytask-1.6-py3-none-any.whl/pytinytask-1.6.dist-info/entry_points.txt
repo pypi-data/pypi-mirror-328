@@ -1,0 +1,4 @@
+[console_scripts]
+tiny-task = main:main
+tiny_task = main:main
+tinytask = main:main
