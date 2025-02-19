@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+futilz/__init__.py
+futilz.egg-info/PKG-INFO
+futilz.egg-info/SOURCES.txt
+futilz.egg-info/dependency_links.txt
+futilz.egg-info/top_level.txt
