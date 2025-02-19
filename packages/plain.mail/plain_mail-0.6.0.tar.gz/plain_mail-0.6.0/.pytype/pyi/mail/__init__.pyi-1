@@ -1,0 +1,23 @@
+# (generated with --quick)
+
+import mail.utils
+from typing import Any
+
+BadHeaderError: Any
+CachedDnsName: type[mail.utils.CachedDnsName]
+DEFAULT_ATTACHMENT_MIME_TYPE: Any
+DNS_NAME: mail.utils.CachedDnsName
+EmailMessage: Any
+EmailMultiAlternatives: Any
+SafeMIMEMultipart: Any
+SafeMIMEText: Any
+TemplateEmail: Any
+__all__: list[str]
+forbid_multi_line_headers: Any
+import_string: Any
+make_msgid: Any
+settings: Any
+
+def get_connection(backend = ..., fail_silently = ..., **kwds) -> Any: ...
+def send_mail(subject, message, from_email, recipient_list, fail_silently = ..., auth_user = ..., auth_password = ..., connection = ..., html_message = ...) -> Any: ...
+def send_mass_mail(datatuple, fail_silently = ..., auth_user = ..., auth_password = ..., connection = ...) -> Any: ...

@@ -1,0 +1,144 @@
+# (generated with --quick)
+
+import email
+import email.errors
+import email.header
+import email.headerregistry
+import email.message
+import email.mime.base
+import email.mime.message
+import email.mime.multipart
+import email.mime.text
+import io
+import mail.utils
+import mimetypes
+import pathlib
+from email import charset as Charset, encoders as Encoders, generator
+from typing import Any, Callable, Optional, TypeVar, Union
+
+ADDRESS_HEADERS: set[str]
+Address: type[email.headerregistry.Address]
+BytesIO: type[io.BytesIO]
+DEFAULT_ATTACHMENT_MIME_TYPE: str
+DNS_NAME: mail.utils.CachedDnsName
+Header: type[email.header.Header]
+HeaderParseError: type[email.errors.HeaderParseError]
+MIMEBase: type[email.mime.base.MIMEBase]
+MIMEMessage: type[email.mime.message.MIMEMessage]
+MIMEMultipart: type[email.mime.multipart.MIMEMultipart]
+MIMEText: type[email.mime.text.MIMEText]
+Message: type[email.message.Message]
+Path: type[pathlib.Path]
+RFC5322_EMAIL_LINE_LENGTH_LIMIT: int
+StringIO: type[io.StringIO]
+Template: Any
+TemplateFileMissing: Any
+force_str: Any
+parser: Any
+punycode: Any
+settings: Any
+strip_tags: Any
+utf8_charset: Charset.Charset
+utf8_charset_qp: Charset.Charset
+
+_T0 = TypeVar('_T0')
+
+class BadHeaderError(ValueError): ...
+
+class EmailMessage:
+    __doc__: str
+    attachments: list
+    bcc: list
+    body: Any
+    cc: list
+    connection: Any
+    content_subtype: str
+    encoding: None
+    extra_headers: Any
+    from_email: Any
+    mixed_subtype: str
+    reply_to: Any
+    subject: Any
+    to: list
+    def __init__(self, subject = ..., body = ..., from_email = ..., to = ..., bcc = ..., connection = ..., attachments = ..., headers = ..., cc = ..., reply_to = ...) -> None: ...
+    def _create_attachment(self, filename, content, mimetype = ...) -> Any: ...
+    def _create_attachments(self, msg: _T0) -> _T0: ...
+    def _create_message(self, msg) -> Any: ...
+    def _create_mime_attachment(self, content, mimetype) -> email.mime.base.MIMEBase: ...
+    def _set_list_header_if_not_empty(self, msg, header, values) -> None: ...
+    def attach(self, filename = ..., content = ..., mimetype = ...) -> None: ...
+    def attach_file(self, path, mimetype = ...) -> None: ...
+    def get_connection(self, fail_silently = ...) -> Any: ...
+    def message(self) -> Any: ...
+    def recipients(self) -> list: ...
+    def send(self, fail_silently = ...) -> Any: ...
+
+class EmailMultiAlternatives(EmailMessage):
+    __doc__: str
+    alternative_subtype: str
+    alternatives: Any
+    attachments: list[nothing]
+    bcc: list
+    body: Any
+    cc: list
+    connection: Any
+    extra_headers: Any
+    from_email: Any
+    reply_to: Any
+    subject: Any
+    to: list
+    def __init__(self, subject = ..., body = ..., from_email = ..., to = ..., bcc = ..., connection = ..., attachments = ..., headers = ..., alternatives = ..., cc = ..., reply_to = ...) -> None: ...
+    def _create_alternatives(self, msg: _T0) -> Union[SafeMIMEMultipart, _T0]: ...
+    def _create_message(self, msg) -> Any: ...
+    def attach_alternative(self, content, mimetype) -> None: ...
+
+class MIMEMixin:
+    def as_bytes(self, unixfrom = ..., linesep = ...) -> bytes: ...
+    def as_string(self, unixfrom = ..., linesep = ...) -> str: ...
+
+class SafeMIMEMessage(MIMEMixin, email.mime.message.MIMEMessage):
+    def __setitem__(self, name, val) -> None: ...
+
+class SafeMIMEMultipart(MIMEMixin, email.mime.multipart.MIMEMultipart):
+    encoding: Any
+    def __init__(self, _subtype = ..., boundary = ..., _subparts = ..., encoding = ..., **_params) -> None: ...
+    def __setitem__(self, name, val) -> None: ...
+
+class SafeMIMEText(MIMEMixin, email.mime.text.MIMEText):
+    encoding: Any
+    def __init__(self, _text, _subtype = ..., _charset = ...) -> None: ...
+    def __setitem__(self, name, val) -> None: ...
+    def set_payload(self, payload, charset = ...) -> None: ...
+
+class TemplateEmail(EmailMultiAlternatives):
+    alternatives: Any
+    attachments: list[nothing]
+    bcc: list
+    body: Any
+    body_html: Any
+    cc: list
+    connection: Any
+    context: Any
+    extra_headers: Any
+    from_email: Any
+    reply_to: Any
+    subject: Any
+    template: Any
+    to: list
+    def __init__(self, *, template, context = ..., subject = ..., from_email = ..., to = ..., bcc = ..., connection = ..., attachments = ..., headers = ..., alternatives = ..., cc = ..., reply_to = ...) -> None: ...
+    def get_html_template_name(self) -> str: ...
+    def get_plain_template_name(self) -> str: ...
+    def get_subject_template_name(self) -> str: ...
+    def get_template_context(self) -> Any: ...
+    def render_content(self, context) -> tuple[Any, Any]: ...
+    def render_html(self, context) -> Any: ...
+    def render_plain(self, context) -> Any: ...
+    def render_subject(self, context) -> Any: ...
+
+def forbid_multi_line_headers(name: _T0, val, encoding) -> tuple[_T0, str]: ...
+def formataddr(pair: tuple[Optional[str], str], charset: Union[str, Charset.Charset] = ...) -> str: ...
+def formatdate(timeval: Optional[float] = ..., localtime: bool = ..., usegmt: bool = ...) -> str: ...
+def getaddresses(fieldvalues: list[str]) -> list[tuple[str, str]]: ...
+def make_msgid(idstring: Optional[str] = ..., domain: Optional[str] = ...) -> str: ...
+def message_from_string(s: str, _class: Callable[[], email.message.Message] = ..., *, policy: email._policybase.Policy = ...) -> email.message.Message: ...
+def sanitize_address(addr, encoding) -> str: ...

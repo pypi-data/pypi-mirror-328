@@ -1,0 +1,8 @@
+# ninja log v5
+1	1287	1737048739867281792	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi	30ae12dcaeda68d9
+1287	1798	1737048740383277789	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/base.pyi	62dc95e37c854ce7
+1798	2285	1737048740871508831	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/__init__.pyi	2c66f65ba461a5b
+2285	2831	1737048741414940785	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi-1	70b36857ecae4389
+2831	4573	1737048743143257334	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi-1	884dd1b56bef3bd9
+4573	5900	1737048744478138634	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi	d9d2e309c493d9f3
+1	2688	1737049232170941384	/Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/console.pyi	9093460863eb4874

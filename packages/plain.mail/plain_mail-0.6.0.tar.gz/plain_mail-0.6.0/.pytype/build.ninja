@@ -1,0 +1,42 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/base.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/base.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.base.imports
+  module = mail.backends.base
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/utils.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.utils.imports
+  module = mail.utils
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/console.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/console.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.console.imports
+  module = mail.backends.console
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.__init__.imports
+  module = mail.backends.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.__init__.imports-1
+  module = mail.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/message.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.message.imports-1
+  module = mail.message
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi-1 /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.__init__.imports
+  module = mail.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/message.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.message.imports
+  module = mail.message
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/filebased.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/filebased.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/console.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.filebased.imports
+  module = mail.backends.filebased
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.default_settings.imports
+  module = mail.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/testing.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/testing.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/__init__.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.testing.imports
+  module = mail.backends.testing
+build /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/smtp.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-mail/plain/mail/backends/smtp.py | /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/backends/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/utils.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/__init__.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/pyi/mail/message.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-mail/.pytype/imports/mail.backends.smtp.imports
+  module = mail.backends.smtp
