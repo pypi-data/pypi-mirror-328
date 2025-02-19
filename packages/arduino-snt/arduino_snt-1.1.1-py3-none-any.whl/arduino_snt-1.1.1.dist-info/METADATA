@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: arduino-snt
+Version: 1.1.1
+Summary: Python package to easily control an arduino using Python.
+Home-page: https://github.com/Amzu-bzh/arduino-snt
+Author: Amaury GODOT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyfirmata>=1.1.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# Arduino SNT
+Arduino SNT is a project made for technology course to simplify the use of arduino by students using simple Python code.
+
+## To do
+- [X] Board management
+- [X] Button management
+- [X] Led management
+- [X] Write project documentation
+- [ ] Liquid crystal display screen management
