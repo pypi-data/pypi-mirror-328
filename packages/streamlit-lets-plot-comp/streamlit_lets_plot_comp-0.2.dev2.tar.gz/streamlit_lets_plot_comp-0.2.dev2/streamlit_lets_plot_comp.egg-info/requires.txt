@@ -1,0 +1,2 @@
+streamlit>=0.84.0
+lets-plot>=4.6.0a1
