@@ -1,0 +1,5 @@
+[console_scripts]
+pody=pody.cli.client:app
+pody-serve=pody.cli.serve:main
+pody-user=pody.cli.user:app
+
