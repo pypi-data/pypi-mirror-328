@@ -1,0 +1,11 @@
+TurboGears2>=2.5.0
+gearbox>=0.3.2
+backlash>=0.0.7
+tgext.debugbar
+
+[testing]
+kajiki
+genshi
+jinja2
+mako
+WebTest
