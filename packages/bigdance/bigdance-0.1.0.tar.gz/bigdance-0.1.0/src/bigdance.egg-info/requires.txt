@@ -1,0 +1,13 @@
+numpy
+pandas
+beautifulsoup4
+requests
+lxml
+urllib3
+html5lib
+
+[dev]
+pytest>=7.0
+pytest-cov
+black
+isort
