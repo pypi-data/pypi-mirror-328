@@ -1,0 +1,14 @@
+click/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+plain/packages/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+plain/runtime/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+tomlkit/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/exceptions /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/fields /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/filepost /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/util/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/_collections /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/contrib/socks /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/poolmanager /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+urllib3/util/retry /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/imports/default.pyi
+tailwind/core /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/core.pyi
+tailwind/cli /Users/davegaeddert/Developer/dropseed/plain/plain-tailwind/.pytype/pyi/tailwind/cli.pyi
