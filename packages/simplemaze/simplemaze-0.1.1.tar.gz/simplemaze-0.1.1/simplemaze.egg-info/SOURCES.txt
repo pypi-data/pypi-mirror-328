@@ -1,0 +1,8 @@
+README.md
+setup.py
+simplemaze/__init__.py
+simplemaze.egg-info/PKG-INFO
+simplemaze.egg-info/SOURCES.txt
+simplemaze.egg-info/dependency_links.txt
+simplemaze.egg-info/requires.txt
+simplemaze.egg-info/top_level.txt
