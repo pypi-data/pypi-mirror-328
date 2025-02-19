@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: GetPlayerCard
+Version: 0.4.3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pandas>=2.2.3
+License-File: LICENSE
+Summary: Experimentally get your character card through an object-oriented program
+Keywords: hydroroll,pyo3,rust,get-player-card,get-pc,HydroRoll,HydroRoll-Team
+Home-Page: https://www.hydroroll.team/
+Author: HsiangNianian
+Author-email: HsiangNianian <i@jyunko.cn>
+License:  AGPL-3.0
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Project-URL: homepage, https://getpc.hydroroll.team/
+Project-URL: repository, https://github.com/HydroRoll-Team/GetPlayerCard
+Project-URL: documentation, https://getpc.hydroroll.team/
+
+
