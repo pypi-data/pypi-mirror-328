@@ -1,0 +1,16 @@
+cep/__init__.py,sha256=4EM0_6o0kdvx2hGZmfbzxd5mQBhVdrnEstInanKrwmg,216
+cep/client.py,sha256=NplJssHY31ZwHTdRb6UIt5RlA5EJRzo5s-I6g-bXs8Q,1282
+cep/cuenta.py,sha256=N_zjc2zUlYasU3gqZVN3w_CvR7FyOyy0YJS2qjU4p7I,639
+cep/exc.py,sha256=MAinWEaZJhBNGnLLT_FA4884WKGu_Km1PVBs_LtsBY4,509
+cep/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cep/transferencia.py,sha256=K6zBeGXb7OjMTH-E8bv9bZ3jciP7ZgSqQC2W6_0Kq8g,5157
+cep/version.py,sha256=yooTYUub0cT-rJARHEuyDrYaemFjkIcIcDsCCjnvS8Q,27
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=uyMvRfkhR0hL4Z6AHymNgYoVUAGngSpdeZy_LYPrElY,1537
+tests/test_client.py,sha256=NWnvES0YCSpVeFy_3J2fGtROgHqHybl4jHLiJ9SzUU0,172
+tests/test_transferencia.py,sha256=nZCsyOVCspnuqI1h4yaAgAvSqudsBpX3ztHdcACnqU8,8417
+cepmex-1.0.0.dev3.dist-info/LICENSE,sha256=9GQPE7kl6j7TtaughgZn1IypobZPB0y6CajRzcZQx2U,1063
+cepmex-1.0.0.dev3.dist-info/METADATA,sha256=pUmcMSUQehsKhyT9eE7F36rh5ci9uGsbpJy5dE3ZaDE,3042
+cepmex-1.0.0.dev3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cepmex-1.0.0.dev3.dist-info/top_level.txt,sha256=hnD_nVyeD6E_8HR_tQqfr9-NeqLRw8kW58PwTuCsJ5E,10
+cepmex-1.0.0.dev3.dist-info/RECORD,,
