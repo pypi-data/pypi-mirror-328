@@ -1,0 +1,2 @@
+[uipath_sdk.middlewares]
+register = uipath_langchain.register_middleware:register_middleware
