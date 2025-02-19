@@ -1,0 +1,12 @@
+financial_dataset_loader/__init__.py,sha256=aB1HRhA5sHdGuzyTC87KlwCNKVWQ87vgs-x85qZvqOY,187
+financial_dataset_loader/data_source.py,sha256=azFC5LWVPcY_259KG-QTjpc2AkiBM3Lf41vfIjcdvTA,98
+financial_dataset_loader/dataset_loader_config.py,sha256=iqGwlYGlOqo8pmpSyLzyQjdAh-1tsuDFkDPEjBd1mEk,33
+financial_dataset_loader/dataset_loader_local.py,sha256=cvdJ5lnBe9-yMUg_8YVaP_B17Mnv_EurXaLWBWM5O1c,2660
+financial_dataset_loader/dataset_loader_s3.py,sha256=c6s_ms_pClljteYi1E2S36FcSuEKR8N793f63E09Jdk,2914
+financial_dataset_loader/dataset_loader_universal.py,sha256=_8oMul9v7DamiPTyJXkU8zj75yV1vdA4Tcl1MCdfz-g,2726
+financial_dataset_loader/file_name_formatter.py,sha256=-qfLv-DwW0xd_LvBwS5N-EvNrgLLKaYVUhdpCcY-Uow,1257
+financial_dataset_loader/path_director.py,sha256=em3lUI9n1tnKqPqY26-KhLc-CbaC71rPPXNLdnVxwmM,1085
+financial_dataset_loader-0.1.4.dist-info/METADATA,sha256=hspO668H9w07Au5Ntn2dWy39eUF9G7LeG16EeT8ZC-o,3716
+financial_dataset_loader-0.1.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+financial_dataset_loader-0.1.4.dist-info/top_level.txt,sha256=O8HZuHRmmxheLk-9CKAHtyV1aqpJoUixZO2ldYXuSTI,25
+financial_dataset_loader-0.1.4.dist-info/RECORD,,
