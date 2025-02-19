@@ -1,0 +1,5 @@
+# ninja log v5
+0	547	1737048755976594374	/Users/davegaeddert/Developer/dropseed/plain/plain-oauth/.pytype/pyi/oauth/exceptions.pyi	1928567e4600991e
+547	1111	1737048756537750551	/Users/davegaeddert/Developer/dropseed/plain/plain-oauth/.pytype/pyi/oauth/models.pyi-1	2ef962b09fd4e7ef
+1111	2529	1737048757947817556	/Users/davegaeddert/Developer/dropseed/plain/plain-oauth/.pytype/pyi/oauth/providers.pyi-1	6aa2969327eac78f
+2529	3814	1737048759230925007	/Users/davegaeddert/Developer/dropseed/plain/plain-oauth/.pytype/pyi/oauth/models.pyi	707d4519630a2906
