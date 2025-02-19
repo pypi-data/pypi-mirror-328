@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+libsid/__init__.py
+libsid/test.py
+libsid.egg-info/PKG-INFO
+libsid.egg-info/SOURCES.txt
+libsid.egg-info/dependency_links.txt
+libsid.egg-info/top_level.txt

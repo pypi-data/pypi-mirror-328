@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: libsid
+Version: 0.0.0
+Summary: Tools for making life easy in 3D
+Author-email: Siddhant Bansal <siddhant.bansal@bristol.ac.uk>
+Description-Content-Type: text/markdown
+
+# libsid: Making 3D accessible
+
+This is a personal library for Siddhant to make it easy to interface with various 3D libraries. Goal is to make visualising 3D data and working with it easy across libraries.
