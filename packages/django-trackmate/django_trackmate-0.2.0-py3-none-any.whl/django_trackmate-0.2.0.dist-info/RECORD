@@ -1,0 +1,15 @@
+django_trackmate/__init__.py,sha256=SJqsxJgsjsl0YJVEfm7J9r41bVk2yvZEJtupSvgxtJk,26
+django_trackmate/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_trackmate/apps.py,sha256=CuBtBC-z4OvivfbYwJIXeFFgP5DguycyyIeeofztRMc,239
+django_trackmate/main.py,sha256=8s-RxAyaeBThblLWYNq1usIP5zd4qVN9PwrBr3Wde5s,2208
+django_trackmate/middleware.py,sha256=7muqQZsrlJMofWP7itkfS2pIHJ4_4A0V4eRwcsB-xF0,780
+django_trackmate/models.py,sha256=XkemrqIvUROnDKGa4x3Vyxb-a96iksI9nALyC1vyhMA,1646
+django_trackmate/signals.py,sha256=OnI5w3sXbkpwww3xfi5_JvupiRB4fRVWdVA1Bo7Ilvw,1732
+django_trackmate/tests.py,sha256=dZnDtWkwXMtCrLij3UfiAS0aojAzwPPav1HmBZcNuuI,34
+django_trackmate/utils.py,sha256=9x7Jh2w3aMo0314PBl6d8NY_oFsNo2cqsWs9_KH1708,879
+django_trackmate/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_trackmate-0.2.0.dist-info/LICENSE,sha256=ZCMwXHg1FpVRQD14DNEGQEmfktWxCv0IzBC_84raYto,1069
+django_trackmate-0.2.0.dist-info/METADATA,sha256=wI5197L_Y39CtfjlKZS184PtqKQR92tB5V-4d1TpHjA,6796
+django_trackmate-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_trackmate-0.2.0.dist-info/top_level.txt,sha256=9ceYdRitxTLDNNjMzbC_ZP1HYpwHrfTiVI_vwx-yhps,17
+django_trackmate-0.2.0.dist-info/RECORD,,
