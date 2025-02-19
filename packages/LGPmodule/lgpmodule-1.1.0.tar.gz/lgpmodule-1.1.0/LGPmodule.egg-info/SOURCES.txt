@@ -1,0 +1,8 @@
+README.md
+setup.py
+LGPmodule/__init__.py
+LGPmodule/main.py
+LGPmodule.egg-info/PKG-INFO
+LGPmodule.egg-info/SOURCES.txt
+LGPmodule.egg-info/dependency_links.txt
+LGPmodule.egg-info/top_level.txt
