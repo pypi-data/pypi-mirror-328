@@ -1,0 +1,2 @@
+[console_scripts]
+backbones = backbones._cli:cli.main

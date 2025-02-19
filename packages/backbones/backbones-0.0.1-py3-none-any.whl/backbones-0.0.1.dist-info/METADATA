@@ -1,0 +1,70 @@
+Metadata-Version: 2.2
+Name: backbones
+Version: 0.0.1
+Summary: Backbone networks for computer vision research.
+Author-email: Kurt Stolle <kurt@khws.io>
+Keywords: perception,computer vision,deep learning,object detection,instance segmentation,semantic segmentation
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.6.0
+Requires-Dist: torchvision
+Requires-Dist: safetensors
+Requires-Dist: nvidia-ml-py
+Requires-Dist: regex
+Requires-Dist: unipercept
+Provides-Extra: tests
+Requires-Dist: hypothesis; extra == "tests"
+Requires-Dist: bandit[toml]; extra == "tests"
+Requires-Dist: check-manifest; extra == "tests"
+Requires-Dist: ruff; extra == "tests"
+Requires-Dist: pre-commit; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-sugar; extra == "tests"
+Requires-Dist: pytest-xdist; extra == "tests"
+Requires-Dist: pytest-benchmark; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Requires-Dist: pytest-runner; extra == "tests"
+Requires-Dist: mccabe; extra == "tests"
+Provides-Extra: notebooks
+Requires-Dist: jupyterlab; extra == "notebooks"
+Requires-Dist: ipywidgets; extra == "notebooks"
+Requires-Dist: ipykernel; extra == "notebooks"
+Requires-Dist: ipython-autotime; extra == "notebooks"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+
+# Backbones
+
+A library of backbone architectures for neural networks, standardized for easy
+use in research and development.
+
+This library was created to solve the following problems.
+
+1. Reduce boilerplate that comes with (efficiently) extracting features from
+    some pre-trained network.
+
+2. Implement compatability layers to port weights between different distributors
+    of pre-trained weights.
+
+3. Allow both training and inference of the sub-networks.
+
+## Alternatives
+
+If you are looking for a more general-purpose library, consider using
+[Torchvision](https://pytorch.org/docs/stable/torchvision/index.html) or
+[Timm](https://github.com/huggingface/timm). These libraries are geared towards
+production, and are more feature-rich than this library.
+
+## See Also
+
+- [Pre-trained models](https://huggingface.co/khwstolle/backbones)
+- [Backbones Documentation](https://gh.khws.io/backbones)
