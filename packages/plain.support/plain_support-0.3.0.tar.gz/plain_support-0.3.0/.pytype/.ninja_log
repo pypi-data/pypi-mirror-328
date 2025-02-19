@@ -1,0 +1,6 @@
+# ninja log v5
+1	499	1737048954715762761	/Users/davegaeddert/Developer/dropseed/plain/plain-support/.pytype/pyi/default_settings.pyi	53f775f86b8af517
+0	1363	1737049251944263998	/Users/davegaeddert/Developer/dropseed/plain/plain-support/.pytype/pyi/models.pyi	c86cfbf993ae93a0
+1363	1875	1737049252462578106	/Users/davegaeddert/Developer/dropseed/plain/plain-support/.pytype/pyi/migrations/__init__.pyi	15e8b3e59c077f86
+1875	2421	1737049253008523752	/Users/davegaeddert/Developer/dropseed/plain/plain-support/.pytype/pyi/migrations/0002_alter_supportformentry_options.pyi	968b011c336f3735
+0	535	1737049297421030383	/Users/davegaeddert/Developer/dropseed/plain/plain-support/.pytype/pyi/config.pyi	c5f81d031d27b0ce
