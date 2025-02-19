@@ -1,0 +1,10 @@
+cows3
+jax
+lalsuite
+numpy
+pyfstat
+
+[dev]
+black
+flake8
+pytest

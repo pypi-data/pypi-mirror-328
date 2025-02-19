@@ -1,0 +1,71 @@
+Metadata-Version: 2.2
+Name: fasttracks
+Version: 0.1.0
+Summary: A massively-parallel engine for generic CW detection statistics.
+Author-email: Rodrigo Tenorio <rodrigo.tenorio.marquez@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Rodrigo Tenorio
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Rodrigo-Tenorio/fasttracks
+Project-URL: Issues, https://github.com/Rodrigo-Tenorio/fasttracks/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: cows3
+Requires-Dist: jax
+Requires-Dist: lalsuite
+Requires-Dist: numpy
+Requires-Dist: pyfstat
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# fasttracks
+
+[![arXiv](https://img.shields.io/badge/arXiv-2411.18370-b31b1b.svg)](https://arxiv.org/abs/2411.18370)
+
+A massively-parallel engine to evaluate detection statistics for generic CW signals.
+
+## Citing this work
+
+If `fasttracks` was useful to your research, we would appreciate if you cited
+[Tenorio+ (2024)](https://arxiv.org/abs/2411.18370) where this
+implementation was first presented:
+```
+@article{Tenorio:2024jgc,
+    author = "Tenorio, Rodrigo and M\'erou, Joan-Ren\'e and Sintes, Alicia M.",
+    title = "{A one-stop strategy to search for long-duration gravitational-wave signals}",
+    eprint = "2411.18370",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    reportNumber = "LIGO-P2400425",
+    month = "11",
+    year = "2024",
+    journal = "arXiv e-prints"
+}
+```
+as well as a Zenodo release of this software.

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Rodrigo Tenorio", email = "rodrigo.tenorio.marquez@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = [
+    "cows3",
+    "jax",
+    "lalsuite",
+    "numpy",
+    "pyfstat",
+]
+description = "A massively-parallel engine for generic CW detection statistics."
+dynamic = ["version"]
+license = {file = "LICENSE.md"}
+name = "fasttracks"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "black", 
+    "flake8", 
+    "pytest"
+]
+
+[project.urls]
+Homepage = "https://github.com/Rodrigo-Tenorio/fasttracks"
+Issues = "https://github.com/Rodrigo-Tenorio/fasttracks/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["fasttracks"]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+log_file_level = "DEBUG"
