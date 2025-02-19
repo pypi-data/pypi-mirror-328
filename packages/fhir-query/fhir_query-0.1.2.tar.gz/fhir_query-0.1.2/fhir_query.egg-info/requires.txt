@@ -1,0 +1,4 @@
+aiohttp>=3.11.12
+fhirpathpy>=1.2.1
+pandas>=2.2.3
+requests>=2.32.3
