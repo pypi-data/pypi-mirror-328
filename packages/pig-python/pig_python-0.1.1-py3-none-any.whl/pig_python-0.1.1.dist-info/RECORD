@@ -1,0 +1,13 @@
+pig/__init__.py,sha256=52PteuB-o1aTAmgpKeuDpP5mCNg1N7vFLiM9Cl6X7VU,460
+pig/api_client.py,sha256=qL_aLHM40hiai4HsEWHmDoy78XpyIxCQZlzNh8suQP8,4350
+pig/cli.py,sha256=3DveIcmDeTfMlZu-UrpuBE4ORB2u31uTewZLXyeYb8o,9972
+pig/connection_session.py,sha256=6KEmhnH5SoKM8CUMp0pW_oZXQmeOGOiocTTa8UItQtQ,856
+pig/connections.py,sha256=5jc64SGxvHPtbVdqM1MbNymjvVrAzTwm374to4bmr3Q,8029
+pig/machines.py,sha256=fkcD1qeWgtezIsaE7m6y2PV7G1bshySnHMsxpL3dSSA,4696
+pig/pig.py,sha256=nCq2tyHuc-bNe7q8w4ZKjdUQgYT1IWuT5ZBaMjEIpR8,1913
+pig/sync_wrapper.py,sha256=KBxgda0YI8m_fGuJzssTieyW8wJ9aKThqv0rZtEfmIg,2599
+pig_python-0.1.1.dist-info/METADATA,sha256=WaNdDQn9sDIamPGpq4t_l9Q25SbC-8haShorPFy3IKU,4175
+pig_python-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pig_python-0.1.1.dist-info/entry_points.txt,sha256=HGxiTMx8aGB2kjF9FFYfiLEwX7tUCsFEQRnjcqXMdIg,37
+pig_python-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pig_python-0.1.1.dist-info/RECORD,,
