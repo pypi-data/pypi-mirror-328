@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+numeration_system/__init__.py
+numeration_system/numeration_system.py
+numeration_system.egg-info/PKG-INFO
+numeration_system.egg-info/SOURCES.txt
+numeration_system.egg-info/dependency_links.txt
+numeration_system.egg-info/top_level.txt
