@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+pysplashsurf/__init__.py
+pysplashsurf.egg-info/PKG-INFO
+pysplashsurf.egg-info/SOURCES.txt
+pysplashsurf.egg-info/dependency_links.txt
+pysplashsurf.egg-info/top_level.txt
