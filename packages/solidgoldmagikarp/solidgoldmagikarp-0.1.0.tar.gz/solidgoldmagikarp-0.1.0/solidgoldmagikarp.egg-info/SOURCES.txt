@@ -1,0 +1,7 @@
+README.md
+hello.py
+pyproject.toml
+solidgoldmagikarp.egg-info/PKG-INFO
+solidgoldmagikarp.egg-info/SOURCES.txt
+solidgoldmagikarp.egg-info/dependency_links.txt
+solidgoldmagikarp.egg-info/top_level.txt
