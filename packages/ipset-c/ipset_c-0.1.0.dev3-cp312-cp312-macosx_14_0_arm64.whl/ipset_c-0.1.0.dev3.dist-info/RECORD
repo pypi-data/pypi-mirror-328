@@ -1,0 +1,7 @@
+ipset_c/__init__.py,sha256=osXSHIH3-GDzfCSn95wxstnP-J-qK-tS1RGizH454O4,119
+ipset_c/__init__.pyi,sha256=wOD-18A1uPnk_TecmsFjulDTa7AzUEAQrCW-E2Ugq7U,1228
+ipset_c_ext.cpython-312-darwin.so,sha256=Mye2ly9OHCzbLppnktXxGWo7-1gse4I57dKzZznGYfg,90528
+ipset_c-0.1.0.dev3.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+ipset_c-0.1.0.dev3.dist-info/METADATA,sha256=w8D3l0SvFYr2c7v8i7rBydKFMyb_tiSNBfxgVsrnmVQ,2797
+ipset_c-0.1.0.dev3.dist-info/WHEEL,sha256=fHc739RjoVGIxELzM4RVV97sM2omZjrv4vLsRnx9JOU,106
+ipset_c-0.1.0.dev3.dist-info/RECORD,,
