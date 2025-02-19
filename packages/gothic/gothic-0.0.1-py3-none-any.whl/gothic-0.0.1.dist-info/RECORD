@@ -1,0 +1,10 @@
+gothic/__init__.py,sha256=OmccWQ8Z7QE8hZUC3cDfO06hw94SRaOEoq6zlpx0bww,152
+gothic/main.py,sha256=ppVW64L5nWI4IHZWd8gx3HMMQ7mXn-wRnqWF20AfF5c,18428
+gothic/tests.py,sha256=vFPHQ4y2khOEiICrg1wgKoP9SnS_g-KD7illgs1Nq1c,18877
+gothic/utils.py,sha256=e7yMeNjtqI2HAvJSx9wZkSfQ6pK1C27Ikv7eCycNHBo,2470
+gothic-0.0.1.dist-info/LICENSE,sha256=WVXwihdThGRXo4p8eOfASsZJG4qe5GUG9busCrheLlk,24
+gothic-0.0.1.dist-info/METADATA,sha256=XfEbCyHpsnNjeQV2Zk8t7U4HvoA3eD5g-bon2Y5Zcxs,787
+gothic-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gothic-0.0.1.dist-info/entry_points.txt,sha256=jN0bn0r_uBZAeOBKjdn4-1BSz6AS1BUjR4nSdbF-Ncs,43
+gothic-0.0.1.dist-info/top_level.txt,sha256=VxD2hGW0cTLZEmwEIN-4_k5Jmzh64EN6hroIxxcDIzc,7
+gothic-0.0.1.dist-info/RECORD,,
