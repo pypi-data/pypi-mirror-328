@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hvseispy"
+version = "1.0.2"
+description = "A Python package for Horizontal-to-Vertical Spectral Ratio (HVSR) analysis of seismic data."
+authors = [
+    { name = "Jesús Ochoa", email = "ochoacontrerasjesus8@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "scipy",
+	"matplotlib",
+	"obspy",
+	"pykooh"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",  # Adjust based on your package's status
+]
+keywords = ["seismic", "HVSR", "signal-processing", "geophysics"]
+
+[project.urls]
+Homepage = "https://github.com/JOchoa51/HVSeisPy"
+Repository = "https://github.com/JOchoa51/HVSeisPy"
+
+[project.scripts]  # Uncomment if you have CLI tools
+hvseispy = "hvseispy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # Look for packages in the `src` directory

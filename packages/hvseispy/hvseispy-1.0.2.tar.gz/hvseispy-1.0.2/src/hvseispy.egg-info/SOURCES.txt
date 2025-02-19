@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/hvseispy/IO.py
+src/hvseispy/__init__.py
+src/hvseispy/misc.py
+src/hvseispy/plot_tools.py
+src/hvseispy/seismic.py
+src/hvseispy/specsignal.py
+src/hvseispy.egg-info/PKG-INFO
+src/hvseispy.egg-info/SOURCES.txt
+src/hvseispy.egg-info/dependency_links.txt
+src/hvseispy.egg-info/entry_points.txt
+src/hvseispy.egg-info/requires.txt
+src/hvseispy.egg-info/top_level.txt
