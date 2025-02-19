@@ -1,0 +1,33 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/markdown.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/markdown.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.markdown.imports
+  module = pages.markdown
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/pages.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/pages.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/markdown.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.pages.imports
+  module = pages.pages
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/exceptions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/exceptions.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.exceptions.imports
+  module = pages.exceptions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/registry.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/registry.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/pages.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.registry.imports
+  module = pages.registry
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/exceptions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/registry.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.views.imports
+  module = pages.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.default_settings.imports
+  module = pages.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/config.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/registry.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.config.imports
+  module = pages.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/registry.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.urls.imports
+  module = pages.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-pages/plain/pages/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/pyi/pages/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-pages/.pytype/imports/pages.__init__.imports
+  module = pages.__init__
