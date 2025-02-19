@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+replicats_tvdatafeed.egg-info/PKG-INFO
+replicats_tvdatafeed.egg-info/SOURCES.txt
+replicats_tvdatafeed.egg-info/dependency_links.txt
+replicats_tvdatafeed.egg-info/requires.txt
+replicats_tvdatafeed.egg-info/top_level.txt
+tvDatafeed/__init__.py
+tvDatafeed/consumer.py
+tvDatafeed/datafeed.py
+tvDatafeed/main.py
+tvDatafeed/seis.py
