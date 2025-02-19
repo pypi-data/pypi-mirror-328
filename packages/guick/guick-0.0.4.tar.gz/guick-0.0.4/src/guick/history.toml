@@ -1,0 +1,17 @@
+[main]
+arg_text = "dd"
+arg_int = "1"
+arg_float = "1.1"
+arg_bool = false
+arg_uuid = "12345678123456781234567812345678"
+arg_file = "D:\\Users\\guyfab\\Documents\\TYNDP2024_official\\reference_case\\PTDF_PST_HVDC_merged_model_models_to_merge_T24_NT2030_20241219-115619-k0c5ec01.xiidm_FR-DE_sensi_5.0%.xlsx"
+arg_filepath = "D:\\Users\\guyfab\\Documents\\TYNDP2024_official\\reference_case\\PTDF_PST_HVDC_merged_model_models_to_merge_T24_NT2030_20241219-115619-k0c5ec01.xiidm_FR-DE_sensi_5.0%.xlsx"
+arg_dir = "D:\\Users\\guyfab\\Documents\\TYNDP2024_official\\reference_case"
+arg_choice = "choice2"
+arg_int_range = "1"
+arg_float_range = "1.1"
+arg_passwd = "dd"
+conf_2 = "choice2"
+base_model_2 = false
+conf = "c"
+base_model = "d"
