@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: requsete
+Version: 0.5
+Summary: A sample Python package named requsete
+Home-page: https://github.com/yourusername/requsete
+Author: Ronit Bhansali
+Author-email: ronitbhansali2k1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+A long description of the package.
