@@ -1,0 +1,17 @@
+result
+result-doc
+__pycache__
+dist
+#*#
+*/#*#
+*/*/#*#
+*~
+*.res
+tests/scratch.py
+tests/xyce/diode.cir*
+tests/xyce/*.cir*
+tests/ngspice/*.raw
+tests/ngspice/*.cir
+tests/flycheck_*
+tests/xschem/simulation
+doc/_build

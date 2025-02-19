@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: 2025 Federico Beffa <beffa@fbengineering.ch>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fbespice"
+authors = [
+  { name="Federico Beffa", email="beffa@fbengineering.ch" },
+]
+description = "Python library for inteaction with SPICE-like simulators"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.26"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+keywords = ["spice", "xyce", "CAD", "electronics", "netlist", "simulation"]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[tool.hatch.build.targets.sdist]
+include = ["/src/fbespice"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fbespice"]
+
+[tool.hatch.version]
+path = "VERSION"
+pattern = "(?P<version>[^']+)"
+
+[project.urls]
+Homepage = "https://gitlab.com/fbengineering/fbespice"
+Documentation = "https://fbengineering.gitlab.io/fbespice"
