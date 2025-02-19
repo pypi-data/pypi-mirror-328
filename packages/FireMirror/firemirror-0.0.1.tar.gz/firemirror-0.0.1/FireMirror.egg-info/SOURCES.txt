@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireMirror/__init__.py
+FireMirror.egg-info/PKG-INFO
+FireMirror.egg-info/SOURCES.txt
+FireMirror.egg-info/dependency_links.txt
+FireMirror.egg-info/top_level.txt
