@@ -1,0 +1,2 @@
+[console_scripts]
+book-list = nicegui_book_list:main

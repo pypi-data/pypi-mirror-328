@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: nicegui-book-list
+Version: 0.1.1
+Summary: Book list sample application on tortoise database
+Project-URL: docs, https://saitotsutomu.github.io/nicegui-book_list/
+Project-URL: homepage, https://github.com/SaitoTsutomu/nicegui-book_list
+Author-email: Saito Tsutomu <tsutomu7@hotmail.co.jp>
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.12
+Requires-Dist: fire>=0.7.0
+Requires-Dist: nicegui>=2.11.1
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: tortoise-orm>=0.24.0
+Description-Content-Type: text/markdown
+
+# BookList Web Application on NiceGUI
+
+Web application to manage authors and books.
+
+![](https://raw.githubusercontent.com/SaitoTsutomu/nicegui-book_list/master/images/main.png)
+
+This application uses NiceGui and tortoise.
+
+https://nicegui.io/
+
+https://tortoise.github.io/
+
+## usage
+
+```
+uv run --with nicegui-book_list book-list
+
+or
+
+pip install nicegui-book_list
+book-list
+```
+
+## document
+
+https://saitotsutomu.github.io/nicegui-book_list/
