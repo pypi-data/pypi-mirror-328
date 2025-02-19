@@ -1,0 +1,5 @@
+- id: aircheck
+  name: Validate Airflow DAGs
+  entry: aircheck
+  language: python
+  types: [python]

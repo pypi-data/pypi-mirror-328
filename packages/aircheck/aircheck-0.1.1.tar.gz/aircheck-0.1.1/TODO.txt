@@ -1,0 +1,11 @@
+[x] TESTS
+[x] README
+[] LICENSE HEADERS
+[x] CLEANUP (also so that it can be used as a standalone package)
+[x] PRE-COMMIT
+[] GH CI
+[x] PYPI
+[] GH CD
+[] DOCKER
+[] coverage in CI
+[] PR title

@@ -1,0 +1,31 @@
+[project]
+name = "aircheck"
+version = "v0.1.1"
+description = "Tool and pre-commit hook airflow DAG integrity validation"
+readme = "README.md"
+authors = [
+    { name = "Aleksander Wojnarowicz", email = "alwojnarowicz@gmail.com" }
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+requires-python = "<3.13"
+packages = [{include = "aircheck", from = "src"}]
+
+dependencies = [
+    "apache-airflow>=2.0.0",
+    "click>=8.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "ruff",
+]
+
+[project.scripts]
+aircheck = "aircheck.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
