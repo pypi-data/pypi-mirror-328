@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyvd"
+version = "1.0.1"
+description = "Calculate birthrate and mortality from WPP data"
+authors = [
+  { name="Katherine Rosenfeld"},
+  { name="Kurt Frey"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.0",
+]
+license = {file = "LICENSE"}
+
+[dependency-groups]
+dev = [
+  "pytest"
+]
+
+docs = [
+  "pandoc",
+  "pypandoc",
+  "sphinx>=7.3.7",
+  "sphinx-autodoc-typehints",
+  "pydata-sphinx-theme",
+  "sphinx-design",
+  "readthedocs-sphinx-search",
+  "sphinxcontrib-napoleon",
+  "ipykernel", # For tutorials,
+  "ipywidgets", # For the tutorials,
+  "nbconvert>=7.10.0", # For tutorials,
+  "nbsphinx>=0.9.5", # For tutorials,
+  "plantweb",
+  "sciris",
+  "matplotlib",
+  "scipy"
+]
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyvd*"]
+
+[tool.setuptools.package-data]
+pyvd = ["data/*"]  # Include all files in pyvd/data
+
+[tool.bumpversion]
+current_version = "1.0.1"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+ignore_missing_files = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+setup_hooks = []
+pre_commit_hooks = []
+post_commit_hooks = []
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
+
+[[tool.bumpversion.files]]
+filename = "pyvd/version.py"
+search = '__version__ = "{current_version}"'
+replace = '__version__ = "{new_version}"'
+
+[[tool.bumpversion.files]]
+filename = 'pyvd/version.py'
+search = "__versiondate__ = '\\d{{4}}-\\d{{2}}-\\d{{2}}'"
+replace = "__versiondate__ = '{now:%Y-%m-%d}'"
+regex = true
