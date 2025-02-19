@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PuriPy"
+version = "0.1.0"
+description = "A secure Python pre-validation library for AI/ML playgrounds that purifies code."
+requires-python = ">=3.9"
+authors = [
+    { name="Nicholas Davidson", email="nicholas@purify-ai.com" }
+]
+readme = "README.md"
+license = { file="LICENSE" }
+dependencies = [
+    "bandit",
+    "flake8"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
