@@ -1,0 +1,3 @@
+[console_scripts]
+scribe = scribe.streamer:main
+scribe-install = scribe.install_desktop:main
