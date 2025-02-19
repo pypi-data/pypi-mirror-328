@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/_version.py
+src/zilla_package/app.py
+src/zilla_package/zilla.py
+src/zilla_package.egg-info/PKG-INFO
+src/zilla_package.egg-info/SOURCES.txt
+src/zilla_package.egg-info/dependency_links.txt
+src/zilla_package.egg-info/entry_points.txt
+src/zilla_package.egg-info/requires.txt
+src/zilla_package.egg-info/top_level.txt
+tests/test_zilla.py
