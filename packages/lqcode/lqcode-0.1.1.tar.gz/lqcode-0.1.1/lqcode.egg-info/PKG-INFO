@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: lqcode
+Version: 0.1.1
+Summary: 绿旗编程AI课程SDK
+Home-page: https://github.com/TivonFeng/lqcode
+Author: TivonFeng
+Author-email: tivonfeng@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+1. 安装
+```bash
+pip install lqcode
+```
+
+2. 使用
