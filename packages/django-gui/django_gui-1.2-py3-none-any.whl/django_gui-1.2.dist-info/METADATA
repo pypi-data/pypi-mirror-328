@@ -1,0 +1,64 @@
+Metadata-Version: 2.2
+Name: django_gui
+Version: 1.2
+Summary: Open Django project as desktop application!
+Author: nekogen
+Author-email: neko.gen@gmail.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: psutil
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Django-GUI
+
+Open Django project as desktop application!
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```bash
+python3 -m pip install django-gui
+```
+
+## Usage
+
+First of all, configure `settings.py` in your Django project:
+
+```python
+MIDDLEWARE = [
+    "django_gui.whitenoise.middleware.WhiteNoiseMiddleware",
+    ...
+]
+
+STATIC_URL = "static/"
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+```
+After, you can start your Django application like this:
+
+```python
+import django_gui
+from .wsgi import application
+
+django_gui.DjangoGUI(app=application).run()
+
+```
+
+## License
+Django-GUI released under the MIT License
