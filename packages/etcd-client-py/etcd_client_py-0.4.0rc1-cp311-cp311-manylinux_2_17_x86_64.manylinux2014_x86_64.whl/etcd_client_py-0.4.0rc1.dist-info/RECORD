@@ -1,0 +1,8 @@
+etcd_client_py-0.4.0rc1.dist-info/METADATA,sha256=KluP4k8WayNWiqflb8jTHsSKjB8pGz_X_2WUfQRJs80,8376
+etcd_client_py-0.4.0rc1.dist-info/WHEEL,sha256=XnK820Pryh2R9tJ2-qIreyEgo537zLg__2HX0vNsOx0,129
+etcd_client_py-0.4.0rc1.dist-info/licenses/LICENSE,sha256=9uf0TQ8p0jNgu_RrjOPjthQ4fgJHQa6oLTvGbO5y_8Q,1060
+etcd_client/__init__.py,sha256=HG2xVbWYDWDE8k5IU5TBmFLidyNkemTkx9yFh7XeQn4,127
+etcd_client/__init__.pyi,sha256=IxFroNFTaPMlNkkRexlxdFAdPEi5Cs14isB_kpJq-1c,10633
+etcd_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etcd_client/etcd_client.cpython-311-x86_64-linux-gnu.so,sha256=Vv4NY7hZvHiJU_Ba7iYt2dBmjEitn3MA0FuqhBywN3c,5696680
+etcd_client_py-0.4.0rc1.dist-info/RECORD,,
