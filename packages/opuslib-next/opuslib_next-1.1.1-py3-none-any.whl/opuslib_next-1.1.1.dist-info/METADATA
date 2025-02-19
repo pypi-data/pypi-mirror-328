@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: opuslib_next
+Version: 1.1.1
+Summary: Python bindings to the libopus, IETF low-delay audio codec
+Home-page: https://github.com/kalicyh/opuslib-next
+License: BSD-3-Clause
+Author: kalicyh
+Author-email: kalicyh@qq.com
+Requires-Python: >=3.13,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: setuptools (>=75.8.0,<76.0.0)
+Requires-Dist: wheel (>=0.45.1,<0.46.0)
+Project-URL: Documentation, https://github.com/kalicyh/opuslib-next
+Project-URL: Repository, https://github.com/kalicyh/opuslib-next/issues
+Description-Content-Type: text/markdown
+
+# **python-opus**
+
+Python bindings to the libopus, IETF low-delay audio codec
+
+**About the Fork**  
+------------
+
+Since the original author of [opuslib](https://github.com/orion-labs/opuslib) has not maintained or updated the library for a long time, I decided to fork and update it to fix issues.
+
+**Contributing**  
+-------------
+
+If you want to contribute, please follow the [pep8](http://www.python.org/dev/peps/pep-0008/) guideline and include tests.
+
