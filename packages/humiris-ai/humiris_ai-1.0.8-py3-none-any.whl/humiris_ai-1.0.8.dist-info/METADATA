@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: humiris_ai
+Version: 1.0.8
+Summary: Humiris AI is a library that allows developers to seamlessly integrate Mixture of AI Basic and Advanced into their applications.
+Home-page: https://github.com/joeai-tech-org/humiris-pip-package
+Author: Hilario Houmey
+Author-email: h.hilario@humiris.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Humiris Installation and Usage Guide
+
+## Prerequisite
+
+Please ensure you have Python (version 3.6 or higher) installed before proceeding.
+
+## Steps to Install and Run Humiris
+
+### Install Humiris
+
+You can install Humiris using pip:
+
+```bash
+# Using pip
+pip install humiris
+```
+
+# Usage
+
+For more detailed information, please refer to the [Humiris Development Documentation](https://docs.humiris.ai/Python).
