@@ -1,0 +1,152 @@
+todos
+------
+
+new release
+- adapt readme
+- adapt notebooks
+- in gitpages branch
+    - adapt release notes
+    - adapt index
+- adapt releases in project.toml
+- merge back into main
+- set tag and push tag (format vx.x.x)
+- on github -> under code releases: draft new release
+
+
+-----
+2.1.0
+- [ok] save -> create folder if not exists
+- [ok] special "concat files to file" helper function
+       -> static method in Raw/JoinedBag concat_filebased
+- [ok] load functions for  Raw/JoinedBag can directly apply filters during the load process
+- [ok] check performance of filterload function
+
+- [ok] improve concat logic, don't load files, instead use helper function
+  -> [ok] check and compare performance / memory usage
+  -> [ok] anzahl rows alt und neu vergleichen
+
+- [ok] Notebook -> low memory usage _6_1_
+  - use filters in collectors
+  - use filters in load function
+  - write your own load function for special cases
+  - concatenate directly on the files
+    -> examples where that is being used in pipelines
+
+- [ok] add "check release notes" link in readme somewhere at the top in a prominent manner
+
+-- maybe make cut here for 2.1.0 ?
+
+
+- maybe introduce a first notebook explaining segments and what they show with examples
+- maybe also provide segmentsinfo per Tag? kind of overview
+  value count, damit prioritäten definiert werden können.
+
+- Flatten Segments -> general, which axis, per tag,
+   - think about having a new databag -> segmentbag
+   - would we need some special metadata?
+   - for instance if you want to concat bags?
+
+- standardized bag concat sollte auch file variante erhalten.
+  - dann könnte demo pipeline auch quarters einzeln standardisieren und am Ende zusammen concaten
+
+- automation process -> besser auch jedes einzelne zip zu standardisieren
+  und dann die ergebnisse zusammen zu concaten.
+
+
+2.2.0
+- spezieller segmentfilter -> z.B. nur ProductOrService Filter mit spezifischen Values?
+- adapt standardizer, use specific segment infos
+
+
+
+----------
+- use of str and Path is inconsistence. it would be nice if both could be used
+
+
+- overwrite serial execution per task
+- in cf haben wir oft auch zusätzliche 'cash' tags -> benötigen wir diese im bs auch?
+- maxqtr prepivot rule also for bs und is
+
+- standardize oustanding shares, resp. validate
+  (see: https://github.com/hansjoergw/sec-fincancial-statement-data-set/issues/13)
+  "but as i understand, they do not have the same exact meaning. i haven't investigated that, so i am not sure if you
+  can assume that they are the same, resp. close enough to treat them that way. in the cp, the value appears
+  as entitycommonstocksharesoutstanding (if present), in the balance sheet as commonstocksharesoutstanding,
+  and in the incomestatement as weightedaveragenumberofsharesoutstandingbasic."
+
+  -> adding entitycommonstocksharesoutstanding from cp
+  -> adding commonstocksharesoutstanding to bs
+  -> provide default handling of choosing which value for final "outstandingshares"
+
+
+
+- discord channel?
+- evtl. sollte jede regel noch eine "explanation" bekommen. ein text, der die regel spezifisch erklärt,
+  nicht allgemein wie in description.
+
+- usecase/analyzes ausarbeiten und eigenes notebook mit beispielen
+
+- idea: using configuration file as parameter or as option instead of only class:
+  input medium feedback:
+  "what do you think about letting update() and configurationmanager take config_file_name with default value ''?
+  this seems to provide more explicit control. i know this would affect many functions which take config.
+  how about replacing it by config_file_name?"
+
+
+next:
+- vlt switch um parallele verarbeitung komplett auszuschalten?
+- vlt switch maximale parallelität?
+
+- new notebook, examples
+  -> reading primary financial statements for a single report, display bs, is, cf for a report
+  -> analyse changes in one tag for one company
+  -> compare basic data of two companies
+
+- supporting dataset with notes -> v.2
+
+- es wäre gut, wenn der standardstatementpresenter noch eine kolonne "year", noch welcher auch sortiert ist
+  die sortierung über adsh alleine ermöglicht keine sauber sortierung pro jahr
+  man könnte hierfür auch das report year aus sub verwenden
+
+- pipelines: einfaches konzept um standard flows zu kapseln
+  z.b. collector als input bis zur presentation
+  -> z.b. für selektierte ciks daten so aufbereiten, dass sie alle vorhandenen jahre in spalten angezeigt werden
+
+- update des config files
+  fehlende inhalte müssen gesetzt und auf default gesetzt werden, oder?
+  überflüssige inhalte müssen entfernt werden
+  -> im moment noch nicht notwendig -> würde erst notwendig, falls
+     optionen nicht mehr benützt werden
+
+- in company collector -> eine sicht für sämtlich jahre zeigen -> mit jahren als spalten, aber
+   - versuchen die selben tags zu zeigen, notfalls mit null...
+   - reihenfolge könnte ein problem sein
+
+- - warning, falls daten nicht indexiert sind
+    -> hinweis message beim laden der config
+    -> config for autocheck to download / autodownload
+
+
+later
+-build timeline for company
+-correct quarter naming -> was meine ich damit?
+-db-version for updates
+
+
+checkout für visualisierung
+- https://gist.github.com/mwouts/a2de16feb90d33fd89334fb09f62742f
+- https://www.linkedin.com/pulse/interactive-dataframes-jupyter-google-colab-vs-code-pycharm-wouts/?trk=articles_directory
+- https://pbpython.com/dataframe-gui-overview.html
+
+
+ideen
+-----
+- export excel
+- cli
+- https://streamlit.io/ ui
+
+
+look at
+-------
+- https://pypi.org/project/edgartools/1.6.0/
+
