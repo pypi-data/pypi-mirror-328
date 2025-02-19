@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: pytinytask
+Version: 1.7
+Summary: A simple macro recording and replaying tool
+Author: Smart Boy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard
+Requires-Dist: mouse
+Requires-Dist: customtkinter
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Python Tiny Task Desktop Application
+
+
+Tiny Task is a simple macro recording and replaying tool for automating keyboard and mouse actions.
+
+## Features
+- Record keyboard and mouse actions
+- Save and load recorded macros
+- Replay recorded macros
+- Customizable hotkeys
+
+## Installation
+
+Install Tiny Task using pip:
+
+```sh
+pip install pytinytask
