@@ -1,0 +1,15 @@
+sphinx_codeautolink/__init__.py,sha256=f9daXEVfktbAEhCBG0hCmrcpTVgsaP5YvydSG7wnYhw,2765
+sphinx_codeautolink/parse.py,sha256=EfTSwL1fGrnrBpasJfr6Z1UKkmAycEj_XgGMsRD7NdI,25419
+sphinx_codeautolink/warn.py,sha256=YaA4MuVNaIBl-uwJOtcOVSVc8QHFmwjIGtvZ2MbzyFo,140
+sphinx_codeautolink/extension/__init__.py,sha256=G14gDKSAoHfdW5zugWd12sIQ-1GNP42YGsh81tSheoA,11774
+sphinx_codeautolink/extension/backref.py,sha256=flhBBLp1WE4v-aVDBZVtRHTt14behoJ4oSzlW_yo4gY,3867
+sphinx_codeautolink/extension/block.py,sha256=cY0Qr4U8GIDPRXZC2qef_V8i-TfYWf2qNRw-GXBJSCc,16242
+sphinx_codeautolink/extension/cache.py,sha256=u7zTd17qXoFe9YaIRS5MGCNtS4sxTGwbUq5fXJ74N58,1455
+sphinx_codeautolink/extension/directive.py,sha256=7BTUtZoRXgEQ504pG1IWDzxMJeR0Twg82pOzZqxXg5Y,3799
+sphinx_codeautolink/extension/resolve.py,sha256=q_nPJfet85k5f75dWfkqvhL0XBc2xw2X51CH6L47CEI,5912
+sphinx_codeautolink/static/sphinx-codeautolink.css,sha256=PS9p1prTvf9qM1AlQaz6jGcsOWg7qs48F2tE1kCIoXo,239
+sphinx_codeautolink-0.17.0.dist-info/LICENSE,sha256=Uk-JJ5wRsy1F0Q_UdzDC2L5MWCFRPsfTIOAOXUhG5vY,1075
+sphinx_codeautolink-0.17.0.dist-info/METADATA,sha256=cY7HLzJJD0_gV9bGzQWCDlA11gg1uwKVVT5pGdTTvHM,4375
+sphinx_codeautolink-0.17.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sphinx_codeautolink-0.17.0.dist-info/top_level.txt,sha256=hlkFlKnir2aFAJAy64sMaX1HpbzoRNLMKdMaTNegNqY,20
+sphinx_codeautolink-0.17.0.dist-info/RECORD,,
