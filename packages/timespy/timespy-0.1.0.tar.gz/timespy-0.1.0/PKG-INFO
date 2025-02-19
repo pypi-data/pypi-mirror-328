@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: timespy
+Version: 0.1.0
+Summary: A lightweight function profiler for execution time measurement.
+Home-page: https://github.com/croketillo/timespy
+Author: Croketillo
+Author-email: croketillo@gmail.com
+License: GPL-3.0-or-later
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TimeSpy ⏱
+A lightweight function profiler to measure execution time.
+
+## Installation
+```sh
+pip install timespy
+```
+
+## Usage
+
+```sh
+from timespy import profile
+
+@profile
+def my_function():
+    import time
+    time.sleep(1)
+
+my_function()
+print(f"Execution time: {my_function.exec_time:.6f}s")
+```
+
+## License
+
+TimeSpy is licensed under the GNU General Public License v3 (GPLv3).
+See LICENSE for more details.
