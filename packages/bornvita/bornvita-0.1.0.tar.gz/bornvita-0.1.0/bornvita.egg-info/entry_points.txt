@@ -1,0 +1,2 @@
+[console_scripts]
+bornvita = bornvita.brainrot:generate_brainrot

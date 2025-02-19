@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bornvita/__init__.py
+bornvita/brainrot.py
+bornvita.egg-info/PKG-INFO
+bornvita.egg-info/SOURCES.txt
+bornvita.egg-info/dependency_links.txt
+bornvita.egg-info/entry_points.txt
+bornvita.egg-info/top_level.txt
