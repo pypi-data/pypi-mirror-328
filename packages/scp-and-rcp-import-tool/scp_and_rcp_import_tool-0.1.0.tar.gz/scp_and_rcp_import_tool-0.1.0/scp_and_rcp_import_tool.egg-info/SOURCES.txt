@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scp_and_rcp_import_tool/__init__.py
+scp_and_rcp_import_tool/main.py
+scp_and_rcp_import_tool/utils.py
+scp_and_rcp_import_tool.egg-info/PKG-INFO
+scp_and_rcp_import_tool.egg-info/SOURCES.txt
+scp_and_rcp_import_tool.egg-info/dependency_links.txt
+scp_and_rcp_import_tool.egg-info/entry_points.txt
+scp_and_rcp_import_tool.egg-info/requires.txt
+scp_and_rcp_import_tool.egg-info/top_level.txt

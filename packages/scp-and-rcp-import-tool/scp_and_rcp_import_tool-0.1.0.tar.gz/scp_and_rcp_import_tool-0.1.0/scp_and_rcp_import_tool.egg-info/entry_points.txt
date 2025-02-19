@@ -1,0 +1,2 @@
+[console_scripts]
+policy-importer = scp_and_rcp_import_tool.main:validate_policies_from_organizations
