@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyojure/__init__.py
+pyojure/core.py
+pyojure.egg-info/PKG-INFO
+pyojure.egg-info/SOURCES.txt
+pyojure.egg-info/dependency_links.txt
+pyojure.egg-info/top_level.txt
