@@ -1,0 +1,99 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/jobs.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.jobs.imports-1
+  module = worker.jobs
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi-1: infer /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/models.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.models.imports-1
+  module = worker.models
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/jobs.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi-1 /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.jobs.imports
+  module = worker.jobs
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/models.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi-1
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.models.imports
+  module = worker.models
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/workers.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/workers.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.workers.imports
+  module = worker.workers
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/scheduling.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/scheduling.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.scheduling.imports
+  module = worker.scheduling
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/middleware.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.middleware.imports
+  module = worker.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0009_alter_jobresult_status.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0009_alter_jobresult_status.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0009_alter_jobresult_status.imports
+  module = worker.migrations.0009_alter_jobresult_status
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0002_jobresult_remove_jobrequest_completed_at_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0002_jobresult_remove_jobrequest_completed_at_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0002_jobresult_remove_jobrequest_completed_at_and_more.imports
+  module = worker.migrations.0002_jobresult_remove_jobrequest_completed_at_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0014_job_unique_key_jobrequest_unique_key_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0014_job_unique_key_jobrequest_unique_key_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0014_job_unique_key_jobrequest_unique_key_and_more.imports
+  module = worker.migrations.0014_job_unique_key_jobrequest_unique_key_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/scheduling.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/workers.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.cli.imports
+  module = worker.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0013_alter_job_options_alter_jobresult_options_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0013_alter_job_options_alter_jobresult_options_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0013_alter_job_options_alter_jobresult_options_and_more.imports
+  module = worker.migrations.0013_alter_job_options_alter_jobresult_options_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0015_job_worker_uuid_jobresult_worker_uuid_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0015_job_worker_uuid_jobresult_worker_uuid_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0015_job_worker_uuid_jobresult_worker_uuid_and_more.imports
+  module = worker.migrations.0015_job_worker_uuid_jobresult_worker_uuid_and_more
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0001_initial.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0001_initial.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0001_initial.imports
+  module = worker.migrations.0001_initial
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0007_alter_jobresult_status.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0007_alter_jobresult_status.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0007_alter_jobresult_status.imports
+  module = worker.migrations.0007_alter_jobresult_status
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0008_jobrequest_source_jobresult_source.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0008_jobrequest_source_jobresult_source.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0008_jobrequest_source_jobresult_source.imports
+  module = worker.migrations.0008_jobrequest_source_jobresult_source
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.config.imports
+  module = worker.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0017_job_queue_jobrequest_queue_jobresult_queue.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0017_job_queue_jobrequest_queue_jobresult_queue.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0017_job_queue_jobrequest_queue_jobresult_queue.imports
+  module = worker.migrations.0017_job_queue_jobrequest_queue_jobresult_queue
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0006_rename_completed_at_jobresult_ended_at.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0006_rename_completed_at_jobresult_ended_at.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0006_rename_completed_at_jobresult_ended_at.imports
+  module = worker.migrations.0006_rename_completed_at_jobresult_ended_at
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.__init__.imports
+  module = worker.migrations.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.__init__.imports
+  module = worker.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0016_remove_job_worker_uuid_remove_jobresult_worker_uuid.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0016_remove_job_worker_uuid_remove_jobresult_worker_uuid.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0016_remove_job_worker_uuid_remove_jobresult_worker_uuid.imports
+  module = worker.migrations.0016_remove_job_worker_uuid_remove_jobresult_worker_uuid
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0012_job_jobresult_job_uuid_alter_jobresult_status.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0012_job_jobresult_job_uuid_alter_jobresult_status.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0012_job_jobresult_job_uuid_alter_jobresult_status.imports
+  module = worker.migrations.0012_job_jobresult_job_uuid_alter_jobresult_status
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0003_jobresult_status.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0003_jobresult_status.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0003_jobresult_status.imports
+  module = worker.migrations.0003_jobresult_status
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0005_remove_jobresult_updated_at.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0005_remove_jobresult_updated_at.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0005_remove_jobresult_updated_at.imports
+  module = worker.migrations.0005_remove_jobresult_updated_at
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0018_jobrequest_unique_job_class_unique_key.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0018_jobrequest_unique_job_class_unique_key.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0018_jobrequest_unique_job_class_unique_key.imports
+  module = worker.migrations.0018_jobrequest_unique_job_class_unique_key
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0010_alter_jobresult_status.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0010_alter_jobresult_status.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0010_alter_jobresult_status.imports
+  module = worker.migrations.0010_alter_jobresult_status
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/staff.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/staff.py | /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.staff.imports
+  module = worker.staff
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0004_alter_jobresult_options.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0004_alter_jobresult_options.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0004_alter_jobresult_options.imports
+  module = worker.migrations.0004_alter_jobresult_options
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.default_settings.imports
+  module = worker.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/migrations/0011_jobrequest_retries_jobrequest_retry_attempt_and_more.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-worker/plain/worker/migrations/0011_jobrequest_retries_jobrequest_retry_attempt_and_more.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/imports/worker.migrations.0011_jobrequest_retries_jobrequest_retry_attempt_and_more.imports
+  module = worker.migrations.0011_jobrequest_retries_jobrequest_retry_attempt_and_more

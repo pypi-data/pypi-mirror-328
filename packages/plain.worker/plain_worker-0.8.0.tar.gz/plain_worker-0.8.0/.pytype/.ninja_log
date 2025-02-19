@@ -1,0 +1,6 @@
+# ninja log v5
+1	1530	1737048834573700965	/Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi-1	b203869c0dce52e0
+1530	3008	1737048836040469663	/Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi-1	34a57e20057679e9
+1	1514	1737048960322622026	/Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi-1	b203869c0dce52e0
+1514	3054	1737048961860032040	/Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/jobs.pyi	89325a37d30a617a
+3054	4524	1737048963333641154	/Users/davegaeddert/Developer/dropseed/plain/plain-worker/.pytype/pyi/worker/models.pyi	23d3d2fca7754c63

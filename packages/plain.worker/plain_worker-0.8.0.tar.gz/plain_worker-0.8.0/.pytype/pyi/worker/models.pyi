@@ -1,0 +1,102 @@
+# (generated with --quick)
+
+import datetime
+import logging
+import traceback
+import uuid
+from plain import models
+from plain.models import transaction
+from plain.utils import timezone
+from typing import Any, Optional
+
+logger: logging.Logger
+settings: Any
+
+class Job(Any):
+    class Meta:
+        indexes: list
+        ordering: list[str]
+    __doc__: str
+    created_at: Any
+    job_class: Any
+    job_request_uuid: Any
+    objects: Any
+    parameters: Any
+    priority: Any
+    queue: Any
+    retries: Any
+    retry_attempt: Any
+    source: Any
+    started_at: Any
+    unique_key: Any
+    uuid: Any
+    def as_json(self) -> dict[str, Any]: ...
+    def convert_to_result(self, *, status, error = ...) -> Any: ...
+    def run(self) -> Any: ...
+
+class JobQuerySet(Any):
+    def mark_lost_jobs(self) -> None: ...
+    def running(self) -> Any: ...
+    def waiting(self) -> Any: ...
+
+class JobRequest(Any):
+    class Meta:
+        constraints: list
+        indexes: list
+        ordering: list[str]
+    __doc__: str
+    created_at: Any
+    job_class: Any
+    parameters: Any
+    priority: Any
+    queue: Any
+    retries: Any
+    retry_attempt: Any
+    source: Any
+    start_at: Any
+    unique_key: Any
+    uuid: Any
+    def __str__(self) -> str: ...
+    def convert_to_job(self) -> Any: ...
+
+class JobResult(Any):
+    class Meta:
+        ordering: list[str]
+    __doc__: str
+    created_at: Any
+    ended_at: Any
+    error: Any
+    job_class: Any
+    job_request_uuid: Any
+    job_uuid: Any
+    objects: Any
+    parameters: Any
+    priority: Any
+    queue: Any
+    retries: Any
+    retry_attempt: Any
+    retry_job_request_uuid: Any
+    source: Any
+    started_at: Any
+    status: Any
+    unique_key: Any
+    uuid: Any
+    def retry_job(self, delay: Optional[int] = ...) -> Any: ...
+
+class JobResultQuerySet(Any):
+    def cancelled(self) -> Any: ...
+    def errored(self) -> Any: ...
+    def failed(self) -> Any: ...
+    def lost(self) -> Any: ...
+    def retried(self) -> Any: ...
+    def retry_failed_jobs(self) -> None: ...
+    def retryable(self) -> Any: ...
+    def successful(self) -> Any: ...
+
+class JobResultStatuses(Any):
+    CANCELLED: tuple[str, str]
+    ERRORED: tuple[str, str]
+    LOST: tuple[str, str]
+    SUCCESSFUL: tuple[str, str]
+
+def load_job(job_class_path, parameters) -> Any: ...
