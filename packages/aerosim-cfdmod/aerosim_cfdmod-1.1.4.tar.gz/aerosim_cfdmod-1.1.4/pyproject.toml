@@ -1,0 +1,131 @@
+[project]
+name = "aerosim-cfdmod"
+version = "1.1.4"
+description = "Tools for analysis of CFD cases"
+authors = [
+    { name = "Waine Oliveira Jr", email = "waine@aerosim.io" },
+    { name = "Pablo Penas", email = "pablo@aerosim.io" },
+]
+requires-python = "~=3.10"
+readme = "README.md"
+license = "Apache-2.0"
+dependencies = [
+    "numpy>=1.24,<3",
+    "scipy>=1.11.2,<2",
+    "pandas>=2.1.0,<3",
+    "pydantic>=2.3,<3",
+    "ruamel-yaml>=0.18.5,<0.19",
+    "tables>=3.9.1,<4",
+    "colorama>=0.4.6,<0.5",
+    "matplotlib>=3.7.3,<4",
+    "pyarrow>=19.0.0,<20",
+]
+
+[project.optional-dependencies]
+lnas = ["aerosim-lnas>=0.6.0,<0.7"]
+geometry = [
+    "pymeshlab>=2023,<2024",
+    "trimesh>=4.0,<5",
+]
+docs = [
+    "sphinx-book-theme>=1.0.1,<2",
+    "myst-parser>=4.0,<5",
+    "sphinx-autobuild>=2021.3.14",
+    "nbsphinx>=0.9.3,<0.10",
+    "sphinxcontrib-bibtex>=2.6.1,<3",
+]
+notebook = [
+    "jupyter>=1.0.0,<2",
+    "ipython>=8.15.0,<9",
+    "ipykernel>=6.25.2,<7",
+]
+vtk = [
+    "vtk>=9.2.6,<10",
+    "pyvista>=0.44,<0.45",
+]
+
+[project.urls]
+Homepage = "https://github.com/AeroSim-CFD/cfdmod"
+Repository = "https://github.com/AeroSim-CFD/cfdmod"
+
+[dependency-groups]
+dev = [
+    "black[jupyter]>=23.7.0",
+    "isort>=5.12.0",
+    "tox>=4.18.0,<5",
+    "autoflake>=2.2.1,<3",
+    "json-schema-for-humans>=1.0.2,<2",
+    "pytest>=8.3.2,<9",
+    "ruff>=0.6.8",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["cfdmod"]
+
+[tool.hatch.build.targets.wheel]
+include = ["cfdmod"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[tool.black]
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+include = '(\.pyi?$|\.ipynb)'
+line-length = 99
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 99
+src_paths = ["cfdmod", "tests", "notebooks"]
+skip_glob = ["**/__init__.py"] # avoid circular imports
+
+[tool.ruff]
+lint.fixable = ["ALL"]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    "consulting",
+    "paraview",
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+line-length = 99
+target-version = "py310"

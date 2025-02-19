@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: aerosim-cfdmod
+Version: 1.1.4
+Summary: Tools for analysis of CFD cases
+Project-URL: Homepage, https://github.com/AeroSim-CFD/cfdmod
+Project-URL: Repository, https://github.com/AeroSim-CFD/cfdmod
+Author-email: Waine Oliveira Jr <waine@aerosim.io>, Pablo Penas <pablo@aerosim.io>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Requires-Python: ~=3.10
+Requires-Dist: colorama<0.5,>=0.4.6
+Requires-Dist: matplotlib<4,>=3.7.3
+Requires-Dist: numpy<3,>=1.24
+Requires-Dist: pandas<3,>=2.1.0
+Requires-Dist: pyarrow<20,>=19.0.0
+Requires-Dist: pydantic<3,>=2.3
+Requires-Dist: ruamel-yaml<0.19,>=0.18.5
+Requires-Dist: scipy<2,>=1.11.2
+Requires-Dist: tables<4,>=3.9.1
+Provides-Extra: docs
+Requires-Dist: myst-parser<5,>=4.0; extra == 'docs'
+Requires-Dist: nbsphinx<0.10,>=0.9.3; extra == 'docs'
+Requires-Dist: sphinx-autobuild>=2021.3.14; extra == 'docs'
+Requires-Dist: sphinx-book-theme<2,>=1.0.1; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex<3,>=2.6.1; extra == 'docs'
+Provides-Extra: geometry
+Requires-Dist: pymeshlab<2024,>=2023; extra == 'geometry'
+Requires-Dist: trimesh<5,>=4.0; extra == 'geometry'
+Provides-Extra: lnas
+Requires-Dist: aerosim-lnas<0.7,>=0.6.0; extra == 'lnas'
+Provides-Extra: notebook
+Requires-Dist: ipykernel<7,>=6.25.2; extra == 'notebook'
+Requires-Dist: ipython<9,>=8.15.0; extra == 'notebook'
+Requires-Dist: jupyter<2,>=1.0.0; extra == 'notebook'
+Provides-Extra: vtk
+Requires-Dist: pyvista<0.45,>=0.44; extra == 'vtk'
+Requires-Dist: vtk<10,>=9.2.6; extra == 'vtk'
+Description-Content-Type: text/markdown
+
+# cfdmod
+
+[![Testing Pipeline](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/testing.yaml/badge.svg)](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/testing.yaml)
+[![Docs Deploy](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/pages/pages-build-deployment)
+[![Linting Workflow](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/linting.yaml/badge.svg)](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/linting.yaml)
+[![Release artifacts](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/build_and_deploy_artifacts.yaml/badge.svg)](https://github.com/AeroSim-CFD/cfdmod/actions/workflows/build_and_deploy_artifacts.yaml)
+
+Package to provide analysis and processing tools for CFD cases
+
+## Tests
+
+This codebase uses Pytest framework and it features tests for loft, cp, s1profile, config_models and altimetry modules. To run the tests via CLI:
+
+```bash
+uv run pytest <path/to/tests>
+```
+
+The tests can also be automated to run in different environments, and include dist build commands using <a href="https://tox.wiki/en/stable/" target="_blank">tox</a>:
+
+```bash
+uv run tox
+```
+
+## Memory usage profiling
+
+In order to check memory usage, _memory-profiler_ library is used.
+First, install memory-profiler:
+
+```bash
+pip install -U memory-profiler
+```
+
+Then, run:
+
+```bash
+mprof run -C -M python path_to_script.py
+mprof plot
+```
+
+That will plot the latest profiling data.
+
+## Generating schemas
+
+Schema files serve as a guide to fill config files.
+To generate a schema file for every config model, use the following command:
+
+```bash
+uv run python -m scripts.generate_schemas
+```
+
+In order to setup the schema in VSCode, edit `settings.json`, or the workspace file, to include:
+
+```bash
+"yaml.schemas": {
+    "file:///path/to/cfdmod/output/schema-cfdmod.json": "**/cfdmod/**/\*.yaml"
+}
+```
