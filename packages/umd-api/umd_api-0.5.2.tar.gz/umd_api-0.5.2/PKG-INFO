@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: umd-api
+Version: 0.5.2
+Summary: A package for accessing the UMD API in Python
+Author-email: Eshan Iyer <eshaniyer@duck.com>
+License: MIT
+Project-URL: Documentation, https://github.com/Nazchanel/umd-api-python
+Project-URL: Source, https://github.com/Nazchanel/umd-api-python
+Keywords: umd,education,API
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# UMD API
