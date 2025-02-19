@@ -1,0 +1,9 @@
+name: tephi-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - matplotlib>=3.10
+  - numpy
+  - scipy
+  - pip
