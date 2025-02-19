@@ -1,0 +1,8 @@
+.wtr_watcher.mesonpy.libs/libwatcher-c.so.0.13.5,sha256=BJ803EoxEXmaMIq_YvJkPEBQ__THnglitY3m11bwGOk,638216
+wtr_watcher-0.13.5.dist-info/WHEEL,sha256=CgVnlYzMeJKqUufax3M8FccKMuF1f5fJgetpxkcoku8,133
+wtr_watcher-0.13.5.dist-info/license,sha256=iG6m2xYGD1OW017_2x9kbLJuLT7Yp28ZlPdufy6tM4Q,1070
+wtr_watcher-0.13.5.dist-info/METADATA,sha256=bS-s6r4eI1XYMDTjmsBF4C7IzOR1Wr1slOB8idh-_v8,28406
+wtr_watcher-0.13.5.dist-info/RECORD,,
+wtr_watcher-0.13.5.data/purelib/watcher.py,sha256=IcMxJJp4QpPfHx_z1W3oZ4lq5OzccufNpi5VaK44eDQ,5787
+wtr_watcher-0.13.5.data/purelib/__init__.py,sha256=WYEin1f1QKkw865JLRj9FH_uaEANy39lGQ5MxFx792s,126
+wtr_watcher-0.13.5.data/headers/wtr/watcher-c.h,sha256=jdkiQX3qANh9hn6u0xufoG6sLD96sEP6zhfaYGvO5GY,1859
