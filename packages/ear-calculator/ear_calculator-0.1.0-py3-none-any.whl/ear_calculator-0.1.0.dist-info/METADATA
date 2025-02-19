@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: ear-calculator
+Version: 0.1.0
+Summary: A module to calculate Eye Aspect Ratio (EAR) from images
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://github.com/yourusername/ear-calculator
+Project-URL: Bug Tracker, https://github.com/yourusername/ear-calculator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: opencv-python
+Requires-Dist: dlib
+
+# ear-calculator
+
+A Python module to compute Eye Aspect Ratio (EAR) from images.
+
+## Installation
+
+```bash
+pip install ear-calculator
+```
