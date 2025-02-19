@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: runnable_hub
+Version: 0.3
+Summary: Runnable Hub is a middleware for large models, enabling management and execution of complex inference tasks with a flexible architecture and support for multiple task types.
+Home-page: https://github.com/alibaba/sreworks-ext/tree/main/runnable-hub
+Author: jiongen.zje
+Author-email: jiongen.zje@alibaba-inc.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: aiohttp
+Requires-Dist: jinja2
+
+# Runnable Hub
+
+Runnable Hub 是大模型中间件，可以用于管理和执行大模型相关的任务。它提供了一个灵活的架构，允许用户定义和执行复杂的大模型推理任务，并支持多种任务类型的扩展。
+
+```mermaid
+flowchart TD
+    bizApp1(AI业务应用) -->|SDK| sub
+    bizApp2(AI业务应用2) -->|SDK| sub
+    sub[("`
+    文件存储(本地|OSS|S3 ...)
+    消息队列(Redis ...)
+    `")] --> hub1[["`
+    RunnableHub
+    Python`"]]
+    sub --> hub2[["`
+    RunnableHub
+    Java`"]]
+
+    hub1 --> LLM_WORKER & PROCESS_WOKRER & API_WORKER & CHAIN_WORKER
+    hub2 --> AGENT_WORKER & TOOL_WORKTER
+
+```
