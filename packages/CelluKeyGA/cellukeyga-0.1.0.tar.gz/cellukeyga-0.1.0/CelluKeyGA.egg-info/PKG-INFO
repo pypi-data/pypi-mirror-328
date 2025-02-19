@@ -1,0 +1,89 @@
+Metadata-Version: 2.2
+Name: CelluKeyGA
+Version: 0.1.0
+Summary: A Python library that integrates **Cellular Genetic Algorithm (Cellular GA)** with **Biased Random-Key Genetic Algorithm (BRKGA)** to enhance optimization capabilities.
+Home-page: https://github.com/SevgiAkten/CelluKeyGA
+Author: Sevgi Akten Karakaya, Mehmet Hakan Satman
+Author-email: sevgiakten@gmail.com, mhsatman@gmail.com
+Project-URL: Documentation, https://sevgiakten.github.io/CelluKeyGA/
+Project-URL: Source, https://github.com/SevgiAkten/CelluKeyGA
+Project-URL: Issue Tracker, https://github.com/SevgiAkten/CelluKeyGA/issues
+Project-URL: PyPI, https://pypi.org/project/CelluKeyGA/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest<9.0,>=8.0; extra == "dev"
+Requires-Dist: pytest-xdist<4.0,>=3.0; extra == "dev"
+Requires-Dist: grip==4.6.2; extra == "dev"
+Requires-Dist: Markdown==3.6; extra == "dev"
+Requires-Dist: Markdown-Editor==1.0.7; extra == "dev"
+Requires-Dist: path-and-address==2.0.1; extra == "dev"
+Requires-Dist: pluggy==1.5.0; extra == "dev"
+Requires-Dist: six==1.16.0; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx<8.0,>=7.4.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme<3.0,>=2.0.0; extra == "docs"
+Requires-Dist: sphinxcontrib-applehelp<3.0,>=2.0.0; extra == "docs"
+Requires-Dist: sphinxcontrib-htmlhelp<3.0,>=2.1.0; extra == "docs"
+Requires-Dist: sphinxcontrib-jquery<5.0,>=4.1; extra == "docs"
+Requires-Dist: sphinxcontrib-jsmath<2.0,>=1.0.0; extra == "docs"
+Requires-Dist: sphinxcontrib-qthelp<3.0,>=2.0.0; extra == "docs"
+Requires-Dist: sphinxcontrib-serializinghtml<3.0,>=2.0.0; extra == "docs"
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+[![License](https://img.shields.io/github/license/SevgiAkten/pycellga)](https://github.com/SevgiAkten/CelluKeyGA/blob/main/LICENSE)
+[![Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://sevgiakten.github.io/CelluKeyGA/)
+![Status](https://img.shields.io/badge/Status-Development-orange?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/SevgiAkten/pycellga)
+![GitHub Contributors](https://img.shields.io/github/contributors/SevgiAkten/CelluKeyGA)
+[![PyPI version](https://img.shields.io/pypi/v/CelluKeyGA.svg)](https://pypi.org/project/CelluKeyGA/)
+
+
+Note: This section is under development......
+
+
+# CelluKeyGA
+
+🚀 **CelluKeyGA** is a Python library that integrates **Cellular Genetic Algorithm (Cellular GA)** with **Biased Random-Key Genetic Algorithm (BRKGA)** to enhance optimization capabilities. This project aims to provide a flexible and efficient evolutionary computing framework for solving complex optimization problems.
+
+## 🔹 Features
+- Combines **Cellular GA** and **BRKGA** for improved solution diversity and performance.
+- Designed for solving **combinatorial and continuous optimization** problems.
+- **Modular and extensible** structure for easy customization.
+
+## 🛠️ Applications
+CelluKeyGA can be applied in various domains, including:
+- ✅ Scheduling and routing problems.
+- ✅ Machine learning hyperparameter optimization.
+- ✅ Engineering design optimization.
+- ✅ Any problem requiring robust metaheuristic search strategies.
+
+## 📦 Installation
+```bash
+pip install CelluKeyGA 
+```
+
+## 🚀 Getting Started
+```python
+from cellukeyga import CelluKeyGA
+
+# Example usage
+ckga = CelluKeyGA()
+ckga.run()
+```
+
+## 📂 Roadmap
+- [ ] Implement core algorithm.
+- [ ] Add benchmark test problems.
+- [ ] Provide detailed documentation.
+- [ ] Integrate with pymoo.
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues and pull requests.
+
+## 📜 License
+MIT License (or any other license you prefer).
