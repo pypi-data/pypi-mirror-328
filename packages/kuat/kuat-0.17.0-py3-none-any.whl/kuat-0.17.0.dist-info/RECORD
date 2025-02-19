@@ -1,0 +1,14 @@
+kuat/__init__.py,sha256=B1OTZi_O--bp1_LqfCkrBwaYbW4oQdagNwy1wuvHLoY,238
+kuat/angle_axis.py,sha256=TRniLXsn3nrNyDUyrIrHIQXy9CQ75a0orEI7KfeI8dU,2059
+kuat/euclidean.py,sha256=D0FFwOiCCm4JdN5OFQNmsCBZFVqi35cjKpfYIwcV7N0,4803
+kuat/matrix44.py,sha256=V7K44_JzV_fjsPdGXX5SV1kITbEbi2OpWvzMwrB14OY,2305
+kuat/quaternion.py,sha256=6oSOoy7GQVP-JB3djm4nluHJ86eO7QpY5_mtM_jPLHQ,9240
+kuat/rotation33.py,sha256=9JLBxDMEuPs-z8WD3rEMEFEKeLByG2AfgCFcR_pzvJs,6252
+kuat/transform.py,sha256=26eRR0tNt4puxhbIjMMpKVsYZoTo4vEeCpW66bvrtqo,5548
+kuat/util.py,sha256=txthGHQwAR4rWN7dWIlDtjCfFEkfqFYFpx5xJYl4qCw,1721
+kuat-0.17.0.dist-info/LICENSE,sha256=H4HUThUGrvNxhGU9LTHQCubk9FPUMd6XHCh5vpYGZbg,10139
+kuat-0.17.0.dist-info/METADATA,sha256=sAgtH0r3xMPptrLTA1zr_3i9N6SnjrmOPsZNVZJnFBQ,1645
+kuat-0.17.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kuat-0.17.0.dist-info/top_level.txt,sha256=P_8mYM1TqXVb1yIqiaQikrkXgL-kdaB3RdJjBtVEwfw,5
+kuat-0.17.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kuat-0.17.0.dist-info/RECORD,,
