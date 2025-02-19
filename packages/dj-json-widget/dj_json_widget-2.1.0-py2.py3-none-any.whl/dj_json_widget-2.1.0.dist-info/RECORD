@@ -1,0 +1,17 @@
+django_json_widget/__init__.py,sha256=HVx0XJJ9OYFWBBPBCUFYb8Nm43ChPg9GZLh_dkxh9qI,22
+django_json_widget/apps.py,sha256=8wg8K1Y3rXeg-InmRuTv70CJzTlygch84qMsSACSdJg,129
+django_json_widget/models.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_json_widget/urls.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_json_widget/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_widget/widgets.py,sha256=u8lWipSa9gU9VCOT5BhRdpx70_X2AM6YUkSmyKaxy9U,2913
+django_json_widget/static/css/django_json_widget.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_widget/static/dist/jsoneditor.min.css,sha256=zTX3kNTTFF3dsubaDeCVa_Ht_K7PmWUkCfClnKGw2bI,37117
+django_json_widget/static/dist/jsoneditor.min.js,sha256=I64rLwI3BZqTMGyrmdgS8Jd73KQPgMBo2NzfCSdMLMs,1028923
+django_json_widget/static/dist/img/jsoneditor-icons.svg,sha256=RcmL8O6GXayRBNC_ZZJTudnHui3UPkX1VUSFV1DP0B4,31482
+django_json_widget/templates/django_json_widget.html,sha256=A-_OwSPMilJT0736GCm68VpASeSB6YEfCjFT2fMD5Xs,1035
+dj_json_widget-2.1.0.dist-info/AUTHORS.rst,sha256=RpTKzHFjl251vwWCsjPM5BU-44oJnBn4rH-VYX0QFsg,608
+dj_json_widget-2.1.0.dist-info/LICENSE,sha256=pEB94HhHNXgC19jsgMuLAEjAML4B7t6PDR8oKuk2lpA,1115
+dj_json_widget-2.1.0.dist-info/METADATA,sha256=-SM7uEYrFDQQ9TISRJBYE022QgSTspqVtw1-YL4XIqc,4468
+dj_json_widget-2.1.0.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+dj_json_widget-2.1.0.dist-info/top_level.txt,sha256=UkT3A6RbuH1C8POX38O2MG3UM2A8hgQBr59B_bioFm8,19
+dj_json_widget-2.1.0.dist-info/RECORD,,
