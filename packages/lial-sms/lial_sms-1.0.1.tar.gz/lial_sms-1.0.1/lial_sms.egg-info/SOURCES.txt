@@ -1,0 +1,8 @@
+README.md
+setup.py
+lial_sms/__init__.py
+lial_sms.egg-info/PKG-INFO
+lial_sms.egg-info/SOURCES.txt
+lial_sms.egg-info/dependency_links.txt
+lial_sms.egg-info/requires.txt
+lial_sms.egg-info/top_level.txt
