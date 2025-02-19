@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: st_attn
+Version: 1.0.0
+Summary: Sliding Tile Atteniton Kernel Used in FastVideo
+Home-page: https://github.com/hao-ai-lab/FastVideo/tree/add_slinding_tile/csrc/sliding_tile_attention
+Author: Hao AI Lab
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 12 :: 12.4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.5.1
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
