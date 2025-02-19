@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nextcloud-micos-export
+Version: 0.5.2
+Summary: Move files from input to output folder and delete old files from output folder.
+Author-Email: "Kirchhoff Datensysteme Services GmbH & Co. KG" <service@kds-kg.de>
+License: GPL-3.0
+Requires-Python: >=3.9
+Requires-Dist: wiederverwendbar[rich]>=0.2.15
+Requires-Dist: pid>=3.0.4
+Requires-Dist: PyMySQL>=1.1.1
+Requires-Dist: schedule>=1.2.2
+Description-Content-Type: text/markdown
+
+# nextcloud_micos_export
+Move files from input to output folder and delete old files from output folder.
