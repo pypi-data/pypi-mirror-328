@@ -1,0 +1,14 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/basic_message.py,sha256=paxLTFJNqI_PJPlK16BOTOvQyWh__8cRkLqwA7nBmiI,386
+examples/basic_message_without_hostname.py,sha256=ozWLHwYHBG5DVLsn2jVFalHcPVzdRW6-zUtWf2JMH64,417
+examples/complete_error_traceback.py,sha256=ryvKCcO9ISW2WgB57FSo9viR509jGxEzhXWryWZyqYc,772
+examples/error_message.py,sha256=kBTG63k1WckUpmAKvUslTHxaNaQ-ukCDY2esMpFwZ-M,561
+examples/success_message.py,sha256=AzvIbYzwF0VtyJQqz62Z5Zi476JmtNgRQyY_CSN_m-U,634
+slack_logger/__init__.py,sha256=HgpObRzeDfnHxkyAxsVs5a7uho_iFqz42jvkvcgR8u0,67
+slack_logger/message_logger.py,sha256=9K77Bk7GXtPqr13F_oLUrGI3Ns3TQAfiQUoNrJmWCMo,5154
+slack_logger/utils.py,sha256=hxMUFH6PCeaPW8o4cM24AtA5ZXMUcuWe61TeEBQ3ieQ,720
+python_slack_logger-0.10.1.dist-info/LICENSE,sha256=0RqhYCLIKqhJLhMdkRPeIuBgExf-RZPBT6lp6i9dWXI,1072
+python_slack_logger-0.10.1.dist-info/METADATA,sha256=P47B4zOBc5kdc_ClkB7ZrMFZWGQec-szCerfbEOiWko,9085
+python_slack_logger-0.10.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_slack_logger-0.10.1.dist-info/top_level.txt,sha256=HvYIE9e4u7pnTT9y2jllFmzgQCyhMOQ-zo_Og8fMp_0,22
+python_slack_logger-0.10.1.dist-info/RECORD,,
