@@ -1,0 +1,4 @@
+
+[:sys_platform == "darwin"]
+mlx>=0.23
+mlx-lm>=0.21

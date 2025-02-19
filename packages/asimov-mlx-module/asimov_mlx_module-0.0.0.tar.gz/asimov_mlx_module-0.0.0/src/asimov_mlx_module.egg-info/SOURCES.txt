@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+requirements.txt
+src/asimov_mlx_module.egg-info/PKG-INFO
+src/asimov_mlx_module.egg-info/SOURCES.txt
+src/asimov_mlx_module.egg-info/dependency_links.txt
+src/asimov_mlx_module.egg-info/entry_points.txt
+src/asimov_mlx_module.egg-info/requires.txt
+src/asimov_mlx_module.egg-info/top_level.txt
+src/asimov_mlx_prompter/__init__.py
+src/asimov_mlx_prompter/__main__.py
