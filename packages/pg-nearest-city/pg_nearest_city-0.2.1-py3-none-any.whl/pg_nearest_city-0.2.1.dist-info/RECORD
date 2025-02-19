@@ -1,0 +1,14 @@
+pg_nearest_city/__init__.py,sha256=WDseWcYoTRsf-ArAAKo995qQgyFBW3n8mqiZUxYNdx4,256
+pg_nearest_city/__version__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+pg_nearest_city/base_nearest_city.py,sha256=l7mnkAWtkNdHyCaVDMOl4kw4K4FOA_7ZMKgqw0OS-qI,5588
+pg_nearest_city/_async/__init__.py,sha256=MvhhOo6zjdWX23G8hZ017yFFlEo16vpAN-_rsMO_sxA,28
+pg_nearest_city/_async/nearest_city.py,sha256=VdmO2Kgbqqrjs-9kb4py83JUWR7RLucsvXLQb9jQAuc,11719
+pg_nearest_city/_sync/__init__.py,sha256=MvhhOo6zjdWX23G8hZ017yFFlEo16vpAN-_rsMO_sxA,28
+pg_nearest_city/_sync/nearest_city.py,sha256=XY9YBHCfNT9UJKQZAHHpVofIBpkpQ2OcLD2hZDKv3kE,11346
+pg_nearest_city/data/cities_1000_simple.txt.gz,sha256=xtYsUAX0ZoeDQO77QgiQnXJ5Y6EqJljSdd2nS91QhbY,2052791
+pg_nearest_city/data/voronois.wkb.gz,sha256=np46lTfIVTUDQCI_8tijT3_DsPl5V-wUonnez9OupBc,11065649
+pg_nearest_city-0.2.1.dist-info/METADATA,sha256=sci0nT-BFqIFjqMFrKs49-rUXYhBLmN8E9300S12q7k,6929
+pg_nearest_city-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pg_nearest_city-0.2.1.dist-info/entry_points.txt,sha256=S98Yg1fi5V3mtS47Ad6sZ4dQbFkWVOhhuUULRbogXLI,44
+pg_nearest_city-0.2.1.dist-info/licenses/LICENSE.md,sha256=5OJovemUIvPUdoFeqYzfz-JCTAvxHJka8Rnyr_csQe8,34102
+pg_nearest_city-0.2.1.dist-info/RECORD,,
