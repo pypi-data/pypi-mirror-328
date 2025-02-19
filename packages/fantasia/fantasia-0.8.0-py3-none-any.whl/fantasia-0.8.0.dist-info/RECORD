@@ -1,0 +1,11 @@
+fantasia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fantasia/config.yaml,sha256=FPb2U48ekV30TlWmEbbfUo3a-Sf8K076zXeXgu31VPc,3271
+fantasia/constants.yaml,sha256=S1yLt5wT4v4Q24aEQceKOU31LX8fh-Fy7oZtw8aQ0G8,2924
+fantasia/main.py,sha256=p8q8_f2FZ5_nHJE3PG9djrqlct2x2D1XGycIdpbjmTM,9956
+fantasia/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fantasia/src/embedder.py,sha256=_NJUd1Nc0YkFhAUTC7ke8DeMBgqErmLDz57EIEOutxE,13012
+fantasia/src/helpers.py,sha256=8-0Po5LpLeQC4e9IHKghjOFxY0TiAh1fmElT6dHolRc,2561
+fantasia/src/lookup.py,sha256=9YqFwPOQVxu_qa7hZL7CK891ncFunyDEsrP5VwKCEOo,20319
+fantasia-0.8.0.dist-info/METADATA,sha256=vHgZbH4fSTqRXGyARr2wRQfZ9pscxsWG2cj00TOKc44,4535
+fantasia-0.8.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+fantasia-0.8.0.dist-info/RECORD,,
