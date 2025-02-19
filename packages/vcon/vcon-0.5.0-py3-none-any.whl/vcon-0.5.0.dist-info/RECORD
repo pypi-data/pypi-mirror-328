@@ -1,0 +1,9 @@
+vcon/__init__.py,sha256=RtKllM8h0Nki0KJPWo9VqxcqdEhCja721pILELmkMuA,43
+vcon/civic_address.py,sha256=sR-2RmCNmj2S921PKX3vM7WZc_BCYqUV-SeSQkdDo8U,3033
+vcon/dialog.py,sha256=_JS_N5QmEIW2QaiO83sYa0txW_B-cv698V1Dl3cv9_Y,11519
+vcon/party.py,sha256=UrEC8qyQyfWcQqu3KXq6GL5fcWybeCQVifCNJLB2QZ4,3042
+vcon/vcon.py,sha256=K_9SNPQAi_0i_1C4DDgkNg5soHUXkrCRtgTVdojMZ9k,42013
+vcon-0.5.0.dist-info/LICENSE.txt,sha256=awVY0En2vpvmjwmtOab76wlr5MLMkLHVJruY0zzjkJ8,1070
+vcon-0.5.0.dist-info/METADATA,sha256=7s8V53qBUSc954UlxzBDp_QWRZmFPFE6f5Nb04tahxY,8559
+vcon-0.5.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+vcon-0.5.0.dist-info/RECORD,,
