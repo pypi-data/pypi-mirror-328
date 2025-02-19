@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="analytic_multilevel">
+        <t t-call="account_analytic_report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="account_analytic_report.internal_layout">
+                    <t t-call="account_analytic_report.report_analytic_multilevel_base" />
+                </t>
+            </t>
+        </t>
+    </template>
+    <template id="report_analytic_multilevel_base">
+        <t t-set="title"> Analytic Multilevel Report - <t t-out="company_name" /> - <t
+                t-out="currency_name" />
+        </t>
+        <t t-set="company_name" t-value="Company_Name" />
+        <t class="page">
+            <div class="row">
+                <h4
+                    class="mt0"
+                    t-out="title or 'Odoo Report'"
+                    style="text-align: center;"
+                />
+            </div>
+            <t t-call="account_analytic_report.report_analytic_multilevel_filters" />
+            <div class="act_as_table_ml list_table" style="margin-top: 10px;" />
+            <div class="act_as_table_ml data_table" style="width: 100%;">
+                <t
+                    t-call="account_analytic_report.report_analytic_multilevel_lines_header"
+                />
+                <t t-foreach="analytic_balance" t-as="balance">
+                    <t t-set="style" t-value="'font-size:12px;'" />
+                    <t
+                        t-call="account_analytic_report.report_analytic_multilevel_line"
+                    />
+                </t>
+            </div>
+            <t t-call="account_analytic_report.report_analytic_multilevel_account_footer" />
+        </t>
+    </template>
+    <template id="account_analytic_report.report_analytic_multilevel_filters">
+        <div class="act_as_table_ml data_table" style="width: 100%;">
+            <div class="act_as_row_ml labels">
+                <div class="act_as_cell_ml left">Date range filter</div>
+                <div class="act_as_cell_ml left">Analytic account at 0 filter</div>
+            </div>
+            <div class="act_as_row_ml">
+                <div class="act_as_cell_ml left"> From: <span t-out="date_from"
+                        t-options="{'widget': 'date'}" /> To <span t-out="date_to"
+                        t-options="{'widget': 'date'}" />
+                </div>
+                <div class="act_as_cell_ml left">
+                    <t t-if="hide_analytic_account_at_0">Hide</t>
+                    <t t-if="not hide_analytic_account_at_0">Show</t>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="account_analytic_report.report_analytic_multilevel_lines_header">
+        <div class="act_as_thead">
+            <div class="act_as_row_ml labels">
+                <div class="act_as_cell_ml left" style="width: 18.25%;">Analytic Plan</div>
+                <div class="act_as_cell_ml left" style="width: 18.25%;">Analytic Account</div>
+                <div class="act_as_cell_ml right" style="width: 9%;">Debit</div>
+                <div class="act_as_cell_ml right" style="width: 9%;">Credit</div>
+                <div class="act_as_cell_ml right" style="width: 9%;">Balance</div>
+            </div>
+        </div>
+    </template>
+    <template id="account_analytic_report.report_analytic_multilevel_line">
+        <div
+            class="act_as_row_ml lines unfolded_group"
+            t-att-data-group-level="str(balance.get('level', 0))"
+            t-att-class="'act_as_row_ml lines unfolded_group' if balance['item'].get('is_root', False) else 'act_as_row_ml lines d-none'"
+        >
+            <t t-set="summary" t-value="balance.get('summary', False)" />
+            <t t-set="item" t-value="balance.get('item', False)" />
+            <div class="act_as_cell_ml left" t-att-style="style">
+                <t
+                    t-if="item.get('id', 0) and item.get('model', '') == 'account.analytic.plan'">
+                    <t t-if="item.get('parent_model', '') == 'account.analytic.plan'">
+                        <span
+                            t-att-style="'margin-left:' + str(24 * balance.get('level', 0)) + 'px;'"
+                        >
+                        </span>
+                    </t>
+                    <t t-if="balance.get('children', [])">
+                        <span
+                            class="fa fa-caret-right grouping-arrow"
+                        />
+                        <span class="grouping">
+                            <t t-out="summary['plan_id']" />
+                            <span>
+                                (<t t-out="balance['account_count']" />)
+                            </span>
+                        </span>
+                    </t>
+                    <t t-else="">
+                        <span>
+                            <t t-out="summary['plan_id']" />
+                            <span>
+                                (<t t-out="balance['account_count']" />)
+                            </span>
+                        </span>
+                    </t>
+                </t>
+            </div>
+            <div class="act_as_cell_ml left" t-att-style="style">
+                <t
+                    t-if="item.get('id', 0) and item.get('model', '') == 'account.analytic.account'">
+                    <t t-if="item.get('parent_model', '') == 'account.analytic.account'">
+                        <span
+                            t-att-style="'margin-left:' + str(24 * (balance.get('level', 0) - item.get('parent_level', 0))) + 'px;'"
+                        >
+                        </span>
+                    </t>
+                    <t t-if="balance.get('children', [])">
+                        <span
+                            class="fa fa-caret-right grouping-arrow"
+                        />
+                        <span class="grouping">
+                            <t t-out="summary['account_id']" />
+                        </span>
+                    </t>
+                    <t t-else="">
+                        <span>
+                            <t t-out="summary['account_id']" />
+                        </span>
+                    </t>
+                </t>
+            </div>
+            <div class="act_as_cell_ml right" t-att-style="style">
+                <span
+                    t-att-res-id="item['id']"
+                    res-model="account.analytic.line"
+                    t-att-domain="[['id', 'in', balance['line_ids']]]"
+                    view-type="list"
+                >
+                    <t
+                        t-out="summary['debit']"
+                        t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id}"
+                    />
+                </span>
+            </div>
+            <div class="act_as_cell_ml right" t-att-style="style">
+                <span
+                    t-att-res-id="item['id']"
+                    res-model="account.analytic.line"
+                    t-att-domain="[['id', 'in', balance['line_ids']]]"
+                    view-type="list"
+                >
+                    <t
+                        t-out="summary['credit']"
+                        t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id}"
+                    />
+                </span>
+            </div>
+            <div class="act_as_cell_ml right" t-att-style="style">
+                <span
+                    t-att-res-id="item['id']"
+                    res-model="account.analytic.line"
+                    t-att-domain="[['id', 'in', balance['line_ids']]]"
+                    view-type="list"
+                >
+                    <t
+                        t-out="summary['balance']"
+                        t-options="{'widget': 'monetary', 'display_currency': res_company.currency_id}"
+                    />
+                </span>
+            </div>
+        </div>
+        <t t-foreach="balance.get('children', [])" t-as="balance">
+            <t t-set="style" t-value="'font-size:12px;'" />
+            <t
+                t-call="account_analytic_report.report_analytic_multilevel_line"
+            />
+        </t>
+    </template>
+    <template id="account_analytic_report.report_analytic_multilevel_account_footer">
+    </template>
+</odoo>

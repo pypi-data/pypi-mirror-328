@@ -1,0 +1,8 @@
+/* Styles of html report */
+.account_title span {
+    font-size: 1rem !important;
+}
+
+.act_as_cell_ml {
+    font-size: 0.9rem !important;
+}

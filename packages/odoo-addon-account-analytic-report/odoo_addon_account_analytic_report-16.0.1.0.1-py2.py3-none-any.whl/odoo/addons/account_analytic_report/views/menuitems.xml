@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+        parent="account.menu_finance_reports"
+        id="menu_account_analytic_reports"
+        name="Account Analytic Reports"
+        groups="account.group_account_user"
+    />
+    <menuitem
+        parent="menu_account_analytic_reports"
+        id="menu_account_analytic_multilevel_report"
+        name="Analytic Multilevel Report"
+        action="account_analytic_report.action_analytic_multilevel_wizard"
+    />
+</odoo>
