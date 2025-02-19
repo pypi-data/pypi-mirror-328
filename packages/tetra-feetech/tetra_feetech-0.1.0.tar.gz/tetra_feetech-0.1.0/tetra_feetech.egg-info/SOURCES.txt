@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+feetech/__init__.py
+feetech/client.py
+tetra_feetech.egg-info/PKG-INFO
+tetra_feetech.egg-info/SOURCES.txt
+tetra_feetech.egg-info/dependency_links.txt
+tetra_feetech.egg-info/requires.txt
+tetra_feetech.egg-info/top_level.txt
