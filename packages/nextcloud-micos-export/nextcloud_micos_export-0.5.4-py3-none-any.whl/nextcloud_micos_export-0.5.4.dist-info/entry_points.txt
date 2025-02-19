@@ -1,0 +1,5 @@
+[console_scripts]
+nextcloud-micos-export = nextcloud_micos_export.__main__:main
+
+[gui_scripts]
+
