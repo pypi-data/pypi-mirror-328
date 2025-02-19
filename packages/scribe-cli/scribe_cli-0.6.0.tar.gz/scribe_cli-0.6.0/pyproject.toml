@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scribe-cli"
+dynamic = ["version"]
+description = "scribe is a local speech recognition tool that provides real-time transcription using vosk and whisper AI."
+authors = [
+    { name="Mahé Perrette", email="mahe.perrette@gmail.com" }
+]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "sounddevice",
+    "tqdm",
+    "requests",
+    "pyperclip",
+]
+optional-dependencies = { keyboard = ["pynput"], whisper = ["openai-whisper"], vosk = ["vosk"], all = ["pynput", "openai-whisper", "vosk"] }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+keywords = [
+    "speech recognition",
+    "transcription",
+    "AI",
+    "language",
+    "vosk",
+    "whisper",
+    "openai",
+    "keyboard",
+    "clipboard",
+]
+
+[tool.setuptools]
+packages = [ "scribe", "scribe_data" ]
+
+[tool.setuptools_scm]
+write_to = "scribe/_version.py"
+
+
+[project.urls]
+Homepage = "https://github.com/perrette/scribe"
+
+[project.scripts]
+scribe = "scribe.streamer:main"
+scribe-install = "scribe.install_desktop:main"
