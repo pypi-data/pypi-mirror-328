@@ -1,0 +1,6 @@
+[console_scripts]
+photobooth = photobooth.__main__:main
+
+[photobooth11]
+gpio_lights = photobooth.plugins.gpio_lights.gpio_lights
+wled = photobooth.plugins.wled.wled
