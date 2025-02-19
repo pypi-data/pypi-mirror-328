@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+ontology_project/Ec3EpdCsv_to_Ec3Epd_onto1.py
+ontology_project/McpCsv_to_Mcp_onto3.py
+ontology_project/TruCsv_to_Tru_onto2.py
+ontology_project/__init__.py
+ontology_project/merge_ontology.py
+ontology_project/runner.py
+ontology_project.egg-info/PKG-INFO
+ontology_project.egg-info/SOURCES.txt
+ontology_project.egg-info/dependency_links.txt
+ontology_project.egg-info/entry_points.txt
+ontology_project.egg-info/requires.txt
+ontology_project.egg-info/top_level.txt
