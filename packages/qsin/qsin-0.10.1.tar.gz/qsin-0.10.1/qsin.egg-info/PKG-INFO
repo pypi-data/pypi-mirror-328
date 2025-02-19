@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: qsin
+Version: 0.10.1
+Maintainer: Ulises Rosas
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: scikit-learn
+Dynamic: classifier
+Dynamic: maintainer
+Dynamic: requires-dist
