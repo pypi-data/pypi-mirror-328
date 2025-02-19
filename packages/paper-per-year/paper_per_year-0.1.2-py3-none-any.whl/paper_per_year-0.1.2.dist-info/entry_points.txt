@@ -1,0 +1,2 @@
+[console_scripts]
+paper-per-year = paper_per_year:main

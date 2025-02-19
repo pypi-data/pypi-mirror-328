@@ -1,0 +1,7 @@
+paper_per_year/__init__.py,sha256=CbQkloUfITIGHEhxrgWcICijr13TdqFivtDkPMkgFis,118
+paper_per_year/cli.py,sha256=yfk-C3Hozo2EQs8Kt9GRaHxl5wfGU6pgWMvtAmFWT2A,940
+paper_per_year/core.py,sha256=ko_tZTQPr-nmVETTPI-0bse15g86-ZWx4Q2tgPfDI5I,6466
+paper_per_year-0.1.2.dist-info/METADATA,sha256=vb5DLCtTPsmV03Iz4Sx979RxdE46GRk7nZcL62-_dIo,3110
+paper_per_year-0.1.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+paper_per_year-0.1.2.dist-info/entry_points.txt,sha256=UXli-8xsGwfC9tmaL4xcSCkcgN6vBLp032MTMahAddo,55
+paper_per_year-0.1.2.dist-info/RECORD,,
