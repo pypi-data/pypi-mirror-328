@@ -1,0 +1,3 @@
+grpcio
+betterproto
+betterproto[compiler]
