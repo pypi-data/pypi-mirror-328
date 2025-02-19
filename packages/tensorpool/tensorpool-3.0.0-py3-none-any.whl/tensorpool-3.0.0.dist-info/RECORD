@@ -1,0 +1,10 @@
+tensorpool/__init__.py,sha256=7J5CZcvuQOMTYPv3h8pv2vyar43AGek0V77hwDFa7uA,161
+tensorpool/helpers.py,sha256=UMlfJ6qZcR4Ub7nYeMo50JdMe8gUp2cJlZhAFl5_pOE,23010
+tensorpool/main.py,sha256=upK3zIOrgLGpIbEP8GTl8c0bVVOiiYLk0TngQUC9HBo,10863
+tensorpool/spinner.py,sha256=Mi_7A6V6884jYMTnZTEzBYRVk3uTEQdhp5HEBIHs5W4,1680
+tensorpool-3.0.0.dist-info/LICENSE,sha256=dfAHQoPtMnJ-0HHy4RscjLZTOI4a5ZprFw7-ou7mwp4,1071
+tensorpool-3.0.0.dist-info/METADATA,sha256=FGfb5U9eTQx6WAaQYNJE_PxzHFQZOoz8Cst_qbjh1iA,6758
+tensorpool-3.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+tensorpool-3.0.0.dist-info/entry_points.txt,sha256=FkLxkVEEF7OgxvvDMjQiS9S5g_Zyw2pz7P_S0a6waxk,78
+tensorpool-3.0.0.dist-info/top_level.txt,sha256=wIWqJ4lrViqFAgbaPXeYvXUhp6YNFRd_pWWjD62bEFI,11
+tensorpool-3.0.0.dist-info/RECORD,,
