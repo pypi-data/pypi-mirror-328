@@ -1,0 +1,14 @@
+fixtures
+testtools
+twisted
+psutil
+
+[doc]
+sphinx
+
+[test]
+coverage
+systemfixtures>=0.6.2
+
+[test:python_version < "3"]
+mock
