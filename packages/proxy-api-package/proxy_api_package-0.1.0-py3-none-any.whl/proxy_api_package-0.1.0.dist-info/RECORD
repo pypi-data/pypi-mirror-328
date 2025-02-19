@@ -1,0 +1,8 @@
+proxy_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxy_api/api_client.py,sha256=HWAap-CTARx6nUx0Bg9lvp8bFK6s3Nv2hwdUUqTqcXk,8340
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_api_client.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxy_api_package-0.1.0.dist-info/METADATA,sha256=W7vFESbgvA1Y080LnDoE5l90cwvA3Yk0CFgM00B6nT8,2973
+proxy_api_package-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+proxy_api_package-0.1.0.dist-info/top_level.txt,sha256=FNmWFtPiyCYifuEBBW3QATLHeTwyBz4tzeOxrWBeyQA,15
+proxy_api_package-0.1.0.dist-info/RECORD,,
