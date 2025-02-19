@@ -1,0 +1,7 @@
+numpy
+
+[all]
+stac-japan-geo[extra]
+
+[extra]
+pandas

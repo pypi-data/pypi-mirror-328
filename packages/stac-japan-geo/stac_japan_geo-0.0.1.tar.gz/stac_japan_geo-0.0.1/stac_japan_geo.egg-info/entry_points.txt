@@ -1,0 +1,2 @@
+[console_scripts]
+stac_japan_geo = stac_japan_geo.cli:main
