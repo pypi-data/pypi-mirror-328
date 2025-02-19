@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: anabrid-redac-core
+Version: 0.1.1
+Summary: Shared base code for REDAC project's software infrastructure
+License: 3BSD
+Author: Daniel Thuerck
+Author-email: thuerck@anabrid.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: setuptools (>=75.8.0,<76.0.0)
+Description-Content-Type: text/markdown
+
+# anabrid-redac-core
