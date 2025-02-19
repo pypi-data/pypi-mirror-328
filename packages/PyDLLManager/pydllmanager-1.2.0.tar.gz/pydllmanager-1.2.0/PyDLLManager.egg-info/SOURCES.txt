@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+PyDLLManager.egg-info/PKG-INFO
+PyDLLManager.egg-info/SOURCES.txt
+PyDLLManager.egg-info/dependency_links.txt
+PyDLLManager.egg-info/top_level.txt
+pydllmanager/__init__.py
