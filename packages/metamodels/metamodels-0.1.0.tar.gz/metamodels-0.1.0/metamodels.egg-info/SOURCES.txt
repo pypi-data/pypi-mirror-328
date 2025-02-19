@@ -1,0 +1,8 @@
+setup.py
+metamodels/__init__.py
+metamodels/core.py
+metamodels.egg-info/PKG-INFO
+metamodels.egg-info/SOURCES.txt
+metamodels.egg-info/dependency_links.txt
+metamodels.egg-info/requires.txt
+metamodels.egg-info/top_level.txt
