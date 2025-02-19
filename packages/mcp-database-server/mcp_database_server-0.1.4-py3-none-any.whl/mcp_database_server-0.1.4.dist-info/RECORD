@@ -1,0 +1,9 @@
+mcp_database_server/__init__.py,sha256=hUUVR2Nchnzlmt9V9Npvz0y30fBqCKIJCV1G2dCre84,70
+mcp_database_server/config.py,sha256=ibzgkmATomMVB8s6nQiQkLubpJb7M0CV7TjGVs68W8k,326
+mcp_database_server/database.py,sha256=lUgidMZpihhO4XIqDYv3NyouB7p4ERFf1kw3eCJtLtM,875
+mcp_database_server/server.py,sha256=tQhkgltfPDOE1mFfZ_sBBQLc2IjmR1SZIsg6yypgZfU,10047
+mcp_database_server/types.py,sha256=Kq4XNkxUBBKF4BOPbk7L49jdju9RP5Iq9rY3VeX-3bE,5740
+mcp_database_server-0.1.4.dist-info/METADATA,sha256=110Sz8eVhd351TqH6YKouHcahPgTiqCeC-U5T_HuE2I,364
+mcp_database_server-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_database_server-0.1.4.dist-info/entry_points.txt,sha256=i8YRFDH42TdtBYMSXRVkNECTUrwcmDH2ZcxOhtqKDEM,65
+mcp_database_server-0.1.4.dist-info/RECORD,,
