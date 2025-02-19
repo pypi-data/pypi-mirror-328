@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+versioneer.py
+dynamax/_version.py
+dynamax.egg-info/PKG-INFO
+dynamax.egg-info/SOURCES.txt
+dynamax.egg-info/dependency_links.txt
+dynamax.egg-info/top_level.txt
