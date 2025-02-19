@@ -1,0 +1,1 @@
+from platzky_google_tag_manager.entrypoint import process as process
