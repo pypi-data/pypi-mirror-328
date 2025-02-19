@@ -1,0 +1,14 @@
+README.md
+setup.py
+LAMMPS-AST/__init__.py
+LAMMPS-AST/comparator.py
+LAMMPS-AST/error_handler.py
+LAMMPS-AST/parser.py
+LAMMPS-AST/sanitizer.py
+LAMMPS-AST/transformer.py
+lammps_ast.egg-info/PKG-INFO
+lammps_ast.egg-info/SOURCES.txt
+lammps_ast.egg-info/dependency_links.txt
+lammps_ast.egg-info/entry_points.txt
+lammps_ast.egg-info/requires.txt
+lammps_ast.egg-info/top_level.txt

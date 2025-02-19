@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lammps-ast
+Version: 0.0.1
+Summary: A LAMMPS script parser and sanitizer using Lark
+Home-page: https://github.com/ethanholbrook/LAMMPS-AST
+Author: Juan C. Verduzco, Ethan W. Holbrook
+Author-email: eholbrooe@purdue.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: lark-parser>=0.12.0
+Requires-Dist: colorama
+Requires-Dist: graphviz
+Requires-Dist: zss
+
+# LAMMPS-AST
