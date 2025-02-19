@@ -1,0 +1,12 @@
+PyVarTools/__init__.py,sha256=59RxypJUvgk8jtevF1K2vKgYCuZ1RcIgArXbPzl1Suw,89
+PyVarTools/format_tools.py,sha256=WxHkCljoiyF8C3Y8KkfBfsE334r2uORpiezfVeob7Gc,4824
+PyVarTools/python_instances_tools.py,sha256=6CHGTjJgfIiDKc2ygQJ7x2PnbZZuxq65-hzbqsAlCYc,3938
+PyVarTools/var_utilities.py,sha256=Muxon2MFRmlWMn6htDGzv8Jbbd3vERK-pTrU7J_9KOM,1565
+PyVarTools/math/__init__.py,sha256=-pL38jOvCcK53-8ekF4hhK8jwOI-CNlRG5BzeHMeAsQ,37
+PyVarTools/math/basic_vars.py,sha256=WcwPi6O4n-RgeLighRPLsMlU4qNk2qdhd5ihePvZOaQ,12479
+PyVarTools/math/graph_2D.py,sha256=CTqDSUZkRDd4Qk7Y_kpvVK-6WWPOBdBxJQks3xnKbJQ,13109
+PyVarTools/math/vars.py,sha256=IgPjFJEbv-X9vGzkzVJw-WM33qWwz5muDy3FCwsdevs,14236
+PyVarTools-1.4.0.dist-info/METADATA,sha256=ymdxQGfF7puycCc5uhFkRXgraDiLt7fgKxoL328J0vc,3323
+PyVarTools-1.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+PyVarTools-1.4.0.dist-info/top_level.txt,sha256=WsE6wXCt66jrNRutAF-zAkHBpnN-HTkBKeZM_DU-330,11
+PyVarTools-1.4.0.dist-info/RECORD,,
