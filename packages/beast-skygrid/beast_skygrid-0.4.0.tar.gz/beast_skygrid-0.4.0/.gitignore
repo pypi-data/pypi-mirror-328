@@ -1,0 +1,7 @@
+.conda
+.DS_Store
+dist
+*.pyc
+.snakemake
+tests/data/vre.fasta
+example
