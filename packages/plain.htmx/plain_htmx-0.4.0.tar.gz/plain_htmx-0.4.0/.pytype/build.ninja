@@ -1,0 +1,15 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/pyi/htmx/templates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/plain/htmx/templates.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/imports/htmx.templates.imports
+  module = htmx.templates
+build /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/pyi/htmx/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/plain/htmx/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/pyi/htmx/templates.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/imports/htmx.views.imports
+  module = htmx.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/pyi/htmx/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/plain/htmx/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-htmx/.pytype/imports/htmx.__init__.imports
+  module = htmx.__init__
