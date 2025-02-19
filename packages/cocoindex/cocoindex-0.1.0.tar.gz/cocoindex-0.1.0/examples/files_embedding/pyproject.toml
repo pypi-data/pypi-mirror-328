@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "files-embedding"
+version = "0.1.0"
+description = "Simple example for cocoindex: build embedding index based on local files."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ from = ".", include = "*" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cocoindex = { path = "../..", develop = true }
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

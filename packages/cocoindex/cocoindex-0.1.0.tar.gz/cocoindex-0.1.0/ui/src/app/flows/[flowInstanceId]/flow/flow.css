@@ -1,0 +1,31 @@
+.react-flow {
+  --xy-background-color: var(--color-background);
+}
+
+.react-flow__panel,
+.react-flow__controls-button,
+.react-flow__node {
+  background: var(--color-background);
+  color: inherit;
+  border-color: var(--gray-a3);
+  /* panel control buttons */
+  svg {
+    stroke: var(--color);
+    fill: var(--color);
+  }
+}
+
+.react-flow__node {
+  background: transparent;
+}
+
+.OpNode,
+.SourceNode,
+.SinkNode {
+  background: var(--color-background);
+}
+
+.react-flow__controls-button:hover {
+  background: var(--accent-a5);
+}
+

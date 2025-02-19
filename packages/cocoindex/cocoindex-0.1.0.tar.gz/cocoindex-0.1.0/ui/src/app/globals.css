@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radix-themes {
+  --color-background: #F5F5EF;
+
+  /* allotment */
+  --focus-border: var(--accent-9);
+  --separator-border: var(--gray-a3);
+
+  --chunk-lightness: 60%;
+  --chunk-bracket-lightness: 40%;
+  --similarity-score-lightness: 70%;
+}
+
+.dark .radix-themes {
+  --color-background: #191919;
+  --color: white;
+
+  --chunk-lightness: 40%;
+  --chunk-bracket-lightness: 60%;
+  --similarity-score-lightness: 30%;
+}
+
+.layer-1 {
+  background-color: #EBEBE0;
+}
+
+.dark .layer-1 {
+  background-color: #262626;
+}
