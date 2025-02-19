@@ -1,0 +1,59 @@
+Metadata-Version: 2.2
+Name: simpleenvs
+Version: 0.6.2
+Summary: Implementations of various sequential decision problems as MDPs using the SimpleOptions framework.
+Author-email: Joshua Evans <jbe25@bath.ac.uk>
+License: MIT License
+        
+        Copyright (c) 2020 Joshua Evans
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/Ueva/BaRL_Envs
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Natural Language :: English
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: simpleoptions
+Requires-Dist: importlib_resources
+Requires-Dist: importlib_metadata
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: pygame
+Requires-Dist: gymnasium
+Requires-Dist: distinctipy
+
+# SimpleEnvs
+
+A collection of Reinforcement Learning (RL) environments which I have implemented as part of my research. Hopefully this collection will grow over time, and prove useful to others as well.
+
+All of these environments use an interaction API similar to that used by [OpenAI Gym](https://github.com/openai/gym), however we do not implement Gym's `Env` class directly. Instead, we use the [SimpleOptions](https://github.com/Ueva/BaRL-SimpleOptions/blob/master/simpleoptions/environment.py) `BaseEnvironment` interface.
+
+Many of the smaller, discrete environments (e.g. Taxi, Hanoi, Rooms) are designed with graph-based reinforcement learning methods in mind. They naturally support building state transition graphs out-of-the-box using the built-in `generate_interaction_graph` method, and one-step lookahead is available using the `get_successors` method.
+
+The easiest way to install this package is to simply run `pip install simpleenvs`. Alternatively, you can install from source: simply download this repository and run the command `pip install .` in the root directory.
+
+The code in this repository is well commented, but additional examples and documentation are coming soon!

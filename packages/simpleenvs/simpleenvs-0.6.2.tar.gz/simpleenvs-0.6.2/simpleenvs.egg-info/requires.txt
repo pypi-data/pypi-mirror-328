@@ -1,0 +1,8 @@
+simpleoptions
+importlib_resources
+importlib_metadata
+numpy
+networkx
+pygame
+gymnasium
+distinctipy
