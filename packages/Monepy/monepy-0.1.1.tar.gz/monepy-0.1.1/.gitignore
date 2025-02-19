@@ -1,0 +1,8 @@
+.gitignore
+.pytest_cache
+.venv
+.vscode
+.coverage
+__pycache__
+dist
+docs/build
