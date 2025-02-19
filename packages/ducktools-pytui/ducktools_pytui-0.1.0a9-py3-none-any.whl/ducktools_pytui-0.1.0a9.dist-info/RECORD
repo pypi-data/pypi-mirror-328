@@ -1,0 +1,13 @@
+ducktools/pytui/__init__.py,sha256=gBu7eStJFe6_Cyo9yZZF3BGTti57x1moDELcnnZXMf4,813
+ducktools/pytui/__main__.py,sha256=0AmPTmPaZ7miKxzCo5Ripzyh1dDqJWP4_6r7CADpfSE,897
+ducktools/pytui/_version.py,sha256=k0EOlVaqTnuxeOdJCCUk713m6HuhlD8vG7741OW6Vpw,54
+ducktools/pytui/commands.py,sha256=529UaAZxnpJufiXrXLh2oA0ilrcK840B0jcVSHnpqf0,6357
+ducktools/pytui/ui.py,sha256=jyYZGiEi1sVMyOWyzEYMEDG_xW58fksWEuiYsrOAA_A,11688
+ducktools/pytui/util.py,sha256=RVufPR30tlf1zo2NL80Lc6OmPqYDrzqVbIBFSE1FPEA,2413
+ducktools/pytui/shell_scripts/activate_pytui.sh,sha256=sEt07AHEGOQ7zSeY1zVm-ylH8rP1mUkY4ugNTIp0Dlg,529
+ducktools_pytui-0.1.0a9.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ducktools_pytui-0.1.0a9.dist-info/METADATA,sha256=KxS_YytdPb_iJWir93m2t_NDag9D1qzkzzN92MBCNxk,2775
+ducktools_pytui-0.1.0a9.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ducktools_pytui-0.1.0a9.dist-info/entry_points.txt,sha256=I-3KfiS7qydQFdSAm9x1DuUQWrYG52Bzgr4cGWuI9FQ,104
+ducktools_pytui-0.1.0a9.dist-info/top_level.txt,sha256=uSDLtio3ZFqdwcsMJ2O5yhjB4Q3ytbBWbA8rJREganc,10
+ducktools_pytui-0.1.0a9.dist-info/RECORD,,
