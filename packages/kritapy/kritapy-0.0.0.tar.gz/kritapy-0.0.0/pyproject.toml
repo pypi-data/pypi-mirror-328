@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kritapy"
+description = "Python library for creating and manipulating Krita documents programmatically"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["krita", "image", "graphics", "digital art"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Graphics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "Pillow>=9.0.0",
+    "numpy>=1.20.0",
+    "python-lzf>=0.2.4",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/cozy-creator/kritapy"
+Repository = "https://github.com/cozy-creator/kritapy.git"
+Issues = "https://github.com/cozy-creator/kritapy/issues"
