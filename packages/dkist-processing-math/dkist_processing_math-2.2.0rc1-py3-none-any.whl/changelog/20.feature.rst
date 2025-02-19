@@ -1,0 +1,2 @@
+Add `stddev_numpy_arrays` function for computing the per-pixel standard deviation of an iterable of arrays.
+If a `generator` is provided this function is very memory-light, even for huge inputs.
