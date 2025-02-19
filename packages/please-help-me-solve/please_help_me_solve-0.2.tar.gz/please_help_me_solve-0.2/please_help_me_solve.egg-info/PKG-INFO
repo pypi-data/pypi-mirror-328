@@ -1,0 +1,122 @@
+Metadata-Version: 2.2
+Name: please_help_me_solve
+Version: 0.2
+Description-Content-Type: text/markdown
+Requires-Dist: google-generativeai>=0.7.2
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+
+# Please Help Me Solve
+
+A Python package that leverages Google's Gemini AI to help developers quickly analyze and fix code errors. This tool provides intelligent error analysis and suggests fixes for your code issues.
+
+## Features
+
+- Automatic error message analysis
+- AI-powered solution suggestions
+- Optional code context inclusion for more accurate fixes
+- Clear and concise fix explanations
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install please_help_me_solve
+```
+
+## Setup
+
+### 1. Get Your Gemini API Key
+
+1. Visit the [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Create or select a project
+3. Generate an API key
+
+### 2. Set Up Environment Variable
+
+Set up the GOOGLE_API_KEY environment variable with your Gemini API key:
+
+#### Windows
+
+Command Prompt:
+
+```cmd
+set GOOGLE_API_KEY=your-api-key-here
+```
+
+PowerShell:
+
+```powershell
+$env:GOOGLE_API_KEY="your-api-key-here"
+```
+
+#### macOS/Linux
+
+Bash:
+
+```bash
+export GOOGLE_API_KEY=your-api-key-here
+```
+
+To make it permanent, add it to your shell profile (~/.bashrc, ~/.zshrc, etc.):
+
+```bash
+echo 'export GOOGLE_API_KEY=your-api-key-here' >> ~/.bashrc  # for bash
+# or
+echo 'export GOOGLE_API_KEY=your-api-key-here' >> ~/.zshrc   # for zsh
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+from please_help_me_solve import please_help_me_solve
+
+try:
+    # Your code that might raise an exception
+    result = 10 / 0
+except Exception as e:
+    # Get AI-powered fix suggestions
+    please_help_me_solve(str(e))
+```
+
+### Including Code Context
+
+For more accurate fix suggestions, you can include the code context:
+
+```python
+from please_help_me_solve import please_help_me_solve
+
+try:
+    # Your code that might raise an exception
+    result = 10 / 0
+except Exception as e:
+    # Get AI-powered fix suggestions with code context
+    please_help_me_solve(str(e), provide_code=True)
+```
+
+## Example Output
+
+```
+ERROR IS: [division by zero]
+FIX BY AI: The error occurs because you're trying to divide by zero, which is mathematically undefined. To fix this, ensure the denominator is not zero before performing the division.
+
+FIXED CODE:
+# Add a check for zero before division
+denominator = 0
+if denominator != 0:
+    result = 10 / denominator
+else:
+    print("Cannot divide by zero")
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

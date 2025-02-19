@@ -1,0 +1,9 @@
+README.md
+setup.py
+please_help_me_solve/__init__.py
+please_help_me_solve/main.py
+please_help_me_solve.egg-info/PKG-INFO
+please_help_me_solve.egg-info/SOURCES.txt
+please_help_me_solve.egg-info/dependency_links.txt
+please_help_me_solve.egg-info/requires.txt
+please_help_me_solve.egg-info/top_level.txt
