@@ -1,0 +1,9 @@
+requests>=2.25.0
+pandas>=1.0.0
+pyarrow>=3.0.0
+tqdm
+pytest>=6.0.0
+pytest-benchmark>=3.4.1
+psutil>=5.8.0
+pyarrow>=3.0.0
+pandas>=1.0.0
