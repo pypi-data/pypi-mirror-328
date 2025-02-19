@@ -1,0 +1,99 @@
+Metadata-Version: 2.4
+Name: dagster-db
+Version: 0.2.3
+Summary: Dagster IO managers and type handlers for databases
+Project-URL: Source, https://github.com/j-blackwell/dagster-db
+Author-email: James Blackwell <33688964+j-blackwell@users.noreply.github.com>
+License: MIT License
+        
+        Copyright (c) 2025 James Blackwell
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: <3.14,>=3.10
+Requires-Dist: dagster-pandas>=0.25.11
+Requires-Dist: dagster-polars>=0.25.11
+Requires-Dist: dagster>=1.9.11
+Requires-Dist: jinja2>=3.1.5
+Provides-Extra: bigquery
+Requires-Dist: dagster-gcp>=0.25.11; extra == 'bigquery'
+Provides-Extra: duckdb
+Requires-Dist: dagster-duckdb>=0.25.11; extra == 'duckdb'
+Description-Content-Type: text/markdown
+
+# dagster-db
+
+Dagster IO managers and type handlers for databases.
+Wraps the standard IO managers with useful functions that can be scpecific to
+each type handler, and provides better metadata out of the box.
+
+- Apply custom generic transformations to ensure all outputs comply with database.
+- Apply custom validation checks before deleting from / writing to the database.
+- Add custom metadata.
+
+Use `polars`, `pandas` or execute a jinja-templated `SQL` query on the database
+with the custom `SqlQuery` class which builds `dagster`s powerful table slice
+logic into an io-manager ready framework.
+
+Use `TypeHandlers` out of the box, or extend to implement custom behaviours.
+
+## duckdb
+
+### Installation
+
+```bash
+uv add dagster-db[duckdb]
+```
+
+### Definition
+
+```py
+import dagster as dg
+from dagster_db import build_custom_duckdb_io_manager
+custom_io_manager = build_custom_duckdb_io_manager().configured({"database": "./.tmp/database.duckdb"})
+
+defs = dg.Definitions(
+    ...,
+    resources={"io_manager": custom_io_manager},
+)
+```
+
+### Usage
+
+```py
+import dagster as dg
+import polars as pl
+from dagster_db import SqlQuery
+
+@dg.asset
+def my_asset(context: dg.AssetExecutionContext) -> pl.DataFrame:
+    return pl.DataFrame({"a": [1, 2, 3]})
+
+@dg.asset
+def my_asset_downstream(
+    context: dg.AssetExecutionContext,
+    my_asset: SqlQuery,
+) -> SqlQuery:
+    return SqlQuery("SELECT *, a+1 AS b FROM {{ my_asset }}", my_asset)
+```
