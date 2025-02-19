@@ -1,0 +1,10 @@
+ottos_oranges/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ottos_oranges/lib/seed.py,sha256=BHQaGNobW7wYl9_R5ZjSeqSlSl12nSfnMcdBJTSi-Ts,6764
+ottos_oranges/lib/synthetic.py,sha256=bTsQ9U5B5Skpegz4FSEjr2bbO6t-NuLsIWRg1k8F3kI,22261
+ottos_oranges/lib/transform.py,sha256=tcTvdEgKcu2KJrP-7hn16HaR5CxeTOyve9ivWdfL1jQ,99
+ottos_oranges/ui/cli.py,sha256=vl9FxYRJYBFkmtt1RyBWIRO855w9Syzce7sfHFK_3UM,1257
+ottos_oranges/ui/gui.py,sha256=1gcybd109jDjR931xxSrpADv_zS2kwx81yMY0yS0D94,576
+ottos_oranges-0.0.1.dist-info/METADATA,sha256=8oneUKmKj_DTm89EWjIzc_4QKO14MLAv67CHswnPl9Y,1591
+ottos_oranges-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ottos_oranges-0.0.1.dist-info/entry_points.txt,sha256=3kzERgcO8eHPmbKHq8LVFacGda9Kjqu9Z5lYgG8mhtA,59
+ottos_oranges-0.0.1.dist-info/RECORD,,

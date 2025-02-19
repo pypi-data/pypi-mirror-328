@@ -1,0 +1,2 @@
+[console_scripts]
+ottos-oranges = ottos_oranges.ui.cli:app
