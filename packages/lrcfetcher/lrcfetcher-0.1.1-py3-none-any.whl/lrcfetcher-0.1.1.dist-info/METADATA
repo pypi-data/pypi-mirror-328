@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: lrcfetcher
+Version: 0.1.1
+Summary: Fetch lyrics from the internet for you FLAC files
+Author-email: Egor Ternovoi <cofob@riseup.net>
+Requires-Python: >=3.13
+Requires-Dist: mutagen>=1.47.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: tqdm>=4.67.1
+Description-Content-Type: text/markdown
+
+# lrcfetcher
+
+A tool to automatically embed synchronized lyrics into your FLAC files. It supports both local `.lrc` files and an online API ([LRCLIB.net](https://lrclib.net/)).
+
+## Installation
+
+Install this package locally:
+
+```sh
+pip install lrcfetcher
+```
+
+## Usage
+
+```sh
+lrcfetcher [DIRECTORY] [OPTIONS]
+```
+
+- `DIRECTORY` (optional, defaults to current directory)
+- `-f, --force`: Overwrite existing lyrics if present
+- `--only-local`: Use only local `.lrc` files
+- `--only-online`: Always fetch lyrics from an API
+- `--local-folder PATH`: Specify a folder containing `.lrc` files
+
+## Example
+
+```sh
+lrcfetcher .
+```
+
+This will search for `.flac` files in the current directory, skip any that already have lyrics.

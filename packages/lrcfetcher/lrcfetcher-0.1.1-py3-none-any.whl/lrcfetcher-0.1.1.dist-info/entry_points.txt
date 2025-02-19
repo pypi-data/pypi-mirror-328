@@ -1,0 +1,2 @@
+[console_scripts]
+lrcfetcher = lrcfetcher.__main__:main
