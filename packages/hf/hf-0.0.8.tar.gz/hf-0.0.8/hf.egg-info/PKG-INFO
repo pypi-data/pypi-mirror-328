@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hf
+Version: 0.0.8
+Summary: Simple Mapping interface to HuggingFace
+Home-page: https://github.com/thorwhalen/hf
+License: mit
+Keywords: datasets,data science,artificial intelligence,AI
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dol
+
+# hf
+
+Simple Mapping interface to HuggingFace
+
+To install:	```pip install hf```
+
+
+# Examples
+
+```python
+from hf.base import HfModels, HfDatasets
+
+d = HfDatasets()
+list(d)
+# ['stingning/ultrachat', 'allenai/WildChat-1M']
+
+data = d['stingning/ultrachat']
+```
+
+
