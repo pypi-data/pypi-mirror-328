@@ -1,0 +1,17 @@
+# ninja log v5
+1	1354	1737048054743908879	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/logs/utils.pyi	62850f8ecffbaa08
+1354	2766	1737048056153476123	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/logs/loggers.pyi	46dd3ff1ac7c8539
+2766	4240	1737048057629135692	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/logs/configure.pyi	2fab9b3dd9186964
+4240	5442	1737048058833065862	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/utils/duration.pyi	8ca5dc6b2c246376
+5442	6910	1737048060298365212	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/config.pyi	2d3ca4b4074d6093
+6910	8382	1737048061767984660	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/registry.pyi-1	54ed2605f20d5375
+8382	9955	1737048063335306723	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/runtime/user_settings.pyi-1	f3f4f834c2de9c3
+9955	11493	1737048064877086910	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/registry.pyi	2b291e9f0339095e
+0	1320	1737048242787566099	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/json.pyi-1	c39fd282a223bbca
+1320	2840	1737048244303822409	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/runtime/user_settings.pyi-1	f3f4f834c2de9c3
+1	1236	1737048520263485950	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/__init__.pyi-1	156bf5ffffa13061
+1236	2472	1737048521498452905	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/__init__.pyi	c4d38c996f804f49
+2472	4038	1737048523057219205	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/packages/registry.pyi	2b291e9f0339095e
+1	524	1737048588819781640	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/utils/hashable.pyi	b80263a6bb5edb11
+524	1851	1737048590141977101	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/utils/module_loading.pyi	3e2c45469294d5d3
+1	485	1737048620466116610	/Users/davegaeddert/Developer/dropseed/plain/plain/plain/.pytype/pyi/utils/itercompat.pyi	570382667dd1583c
