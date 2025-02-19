@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+sais_prism/__init__.py
+sais_prism/_version.py
+sais_prism.egg-info/PKG-INFO
+sais_prism.egg-info/SOURCES.txt
+sais_prism.egg-info/dependency_links.txt
+sais_prism.egg-info/requires.txt
+sais_prism.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sais-prism"
+version = "0.1.0"
+description = "SAIS Prism: A unified interface for ML data access and lifecycle management"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name="shepard", email="zhaoxun@sais.com.cn" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "mlflow>=2.0.0",
+    "PyYAML>=6.0",
+    "scikit-learn>=1.2.0"
+]
+
+[tool.setuptools_scm]
+write_to = "sais_prism/_version.py"
+write_to_template = "__version__ = '{version}'"
