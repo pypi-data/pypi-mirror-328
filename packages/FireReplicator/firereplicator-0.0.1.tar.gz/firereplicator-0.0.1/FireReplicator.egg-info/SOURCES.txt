@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireReplicator/__init__.py
+FireReplicator.egg-info/PKG-INFO
+FireReplicator.egg-info/SOURCES.txt
+FireReplicator.egg-info/dependency_links.txt
+FireReplicator.egg-info/top_level.txt
