@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireRelay/__init__.py
+FireRelay.egg-info/PKG-INFO
+FireRelay.egg-info/SOURCES.txt
+FireRelay.egg-info/dependency_links.txt
+FireRelay.egg-info/top_level.txt
