@@ -1,0 +1,4 @@
+"""
+scalar1 tests that extensions are parsed
+"""
+scalar scalar1

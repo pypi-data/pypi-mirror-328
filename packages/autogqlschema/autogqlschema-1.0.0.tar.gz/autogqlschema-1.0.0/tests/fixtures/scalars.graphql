@@ -1,0 +1,11 @@
+directive @directive1 on SCALAR
+
+"scalar1 tests parsing the simplest possible scalar definition"
+scalar scalar1
+
+"""
+scalar2 tests that directives are parsed.
+
+It also tests that multiline docstrings are formatted correctly.
+"""
+scalar scalar2 @directive1

@@ -1,0 +1,16 @@
+extend schema @directive1 @directive2 {
+    mutation: MyMutationRootType1
+    subscription: MySubscriptionRootType1
+}
+
+type MyMutationRootType1 {
+    field1: Int
+}
+
+type MySubscriptionRootType1 {
+    field1: Int
+}
+
+directive @directive1 on SCHEMA
+
+directive @directive2 on SCHEMA

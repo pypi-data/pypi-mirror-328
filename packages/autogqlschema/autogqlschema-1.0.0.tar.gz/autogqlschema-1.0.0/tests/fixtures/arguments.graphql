@@ -1,0 +1,99 @@
+"""
+A directive to apply to arguments
+"""
+directive @directiveA on ARGUMENT_DEFINITION
+
+directive @directiveB(arg1: Int, arg2: Int) on ARGUMENT_DEFINITION
+
+enum enum1 {
+    ENUMVALUE
+}
+
+input input1 {
+    one: Int
+    two: Int
+}
+
+"""
+A type to test different argument configurations
+"""
+type TestArgumentType {
+    """
+    fieldA1 tests parsing with multiple arguments
+    """
+    fieldA1(
+        "arg1 tests that arguments can be documented"
+        arg1: Int
+        """
+        arg2 tests that arguments can be documented.
+        
+        It also tests that multiline docstrings are formatted correctly.
+        """
+        arg2: input1
+    ): String
+
+    """
+    fieldB1 tests parsing with an argument directive
+    """
+    fieldB1(arg1: input1 @directiveA): String
+
+    """
+    fieldB2 tests parsing with an argument directive that has const arguments
+    """
+    fieldB2(arg1: input1 @directiveB(arg1: 1, arg2: 2)): String
+
+    """
+    fieldC1 tests parsing with an argument that has a default integer value
+    """
+    fieldC1(arg1: Int = 600): String
+
+    """
+    fieldC2 tests parsing with an argument that has a default float value
+    """
+    fieldC2(arg1: Float = 1.5): String
+
+    """
+    fieldC3 tests parsing with an argument that has a default string value
+    """
+    fieldC3(arg1: String = "mystring"): String
+
+    """
+    fieldC4 tests parsing with an argument that has a default boolean value
+    """
+    fieldC4(arg1: Boolean = true): String
+
+    """
+    fieldC5 tests parsing with an argument that has a default null value
+    """
+    fieldC5(arg1: Int = null): String
+
+    """
+    fieldC6 tests parsing with an argument that has a default enum value
+    """
+    fieldC6(arg1: enum1 = ENUMVALUE): String
+
+    """
+    fieldC7 tests parsing with an argument that has a default list value
+    """
+    fieldC7(arg1: [Int] = [1, 2]): String
+
+    """
+    fieldC8 tests parsing with an argument that has a default object value
+    """
+    fieldC8(arg1: input1 = {one: 1, two: 2}): String
+
+    """
+    fieldD1 tests parsing with an argument that has a list type
+    """
+    fieldD1(arg1: [input1]): String
+
+    """
+    fieldD2 tests parsing with an argument that has a list type
+    """
+    fieldD2(arg1: input1!): String
+
+    """
+    fieldD3 tests parsing with an argument that has a list type with non-null values
+    """
+    fieldD3(arg1: [input1!]): String
+}

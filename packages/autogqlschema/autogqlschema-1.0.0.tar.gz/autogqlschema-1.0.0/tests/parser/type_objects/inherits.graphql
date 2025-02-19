@@ -1,0 +1,17 @@
+interface interface1 {
+    fieldA: String
+}
+
+interface interface2 {
+    fieldB: String
+}
+
+"type1 tests parsing a single inherited type"
+type type1 implements interface1 {
+    field1: Int
+}
+
+"type2 tests parsing multiple inherited types"
+type type2 implements interface1 & interface2 {
+    field1: Int
+}

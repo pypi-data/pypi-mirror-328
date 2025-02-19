@@ -1,0 +1,4 @@
+interface interface1 {
+    "interface1.field1 tests parsing the simplest possible type field definition"
+    field1: Int
+}

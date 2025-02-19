@@ -1,0 +1,19 @@
+directive @directive1 on UNION
+
+type type1 {
+    field1: Int
+}
+
+type type2 {
+    field1: Int
+}
+
+"union1 tests parsing the simplest possible union definition"
+union union1 = type1 | type2
+
+"""
+union2 tests that directives are parsed.
+
+It also tests that multiline docstrings are formatted correctly.
+"""
+union union2 @directive1 = type1 | type2

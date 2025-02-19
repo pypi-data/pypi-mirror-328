@@ -1,0 +1,22 @@
+directive @directiveA on OBJECT | FIELD_DEFINITION
+
+"""
+type1 tests parsing the simplest possible type definition
+"""
+type type1 {
+    "type1.field1 tests parsing the simplest possible type field definition"
+    field1: Int
+}
+
+"""
+type2 tests that directives are parsed
+"""
+type type2 @directiveA {
+    "type2.field1 tests that directives are parsed"
+    field1: Int @directiveA
+    "type2.field2 tests that arguments are parsed"
+    field2(
+        "arg1 tests that arguments can be documented"
+        arg1: Int = 0
+    ): String
+}

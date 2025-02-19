@@ -1,0 +1,4 @@
+directive @directiveA on ENUM
+
+extend enum enum2 @directiveA
+

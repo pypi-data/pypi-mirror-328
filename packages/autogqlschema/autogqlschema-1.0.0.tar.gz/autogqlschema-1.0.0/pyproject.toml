@@ -1,0 +1,52 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "autogqlschema"
+authors = [
+    {name = "Ashley Whetter", email = "ashley@awhetter.co.uk"},
+]
+readme = "README.rst"
+license = {file = "LICENSE.rst"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Plugins",
+    "Framework :: Sphinx :: Extension",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Documentation :: Sphinx",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "graphqldomain>=0.2.0",
+    "myst-parser>=0.16.0",
+    "sphinx>=4.0",
+    "typing-extensions>=4.0",
+]
+dynamic = ["description", "version"]
+
+[project.urls]
+Source = "https://github.com/AWhetter/autogqlschema"
+Documentation = "https://autogqlschema.readthedocs.org"
+
+[tool.flit.sdist]
+include = ["tests/"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.towncrier]
+directory = "doc/changes"
+filename = "CHANGELOG.rst"
+package = "autogqlschema"
+title_format = "v{version} ({project_date})"
+underlines = ["-", "^", "\""]

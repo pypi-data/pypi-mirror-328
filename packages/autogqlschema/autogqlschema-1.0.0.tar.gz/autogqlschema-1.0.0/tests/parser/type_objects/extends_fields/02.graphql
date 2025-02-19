@@ -1,0 +1,4 @@
+extend type type1 {
+    "type1.field2 tests parsing the simplest possible type extension of fields"
+    field2: Int
+}

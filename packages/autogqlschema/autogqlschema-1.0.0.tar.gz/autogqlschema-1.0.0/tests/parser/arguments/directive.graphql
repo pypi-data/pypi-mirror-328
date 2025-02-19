@@ -1,0 +1,26 @@
+"""
+A directive to apply to arguments
+"""
+directive @directiveA on ARGUMENT_DEFINITION
+
+directive @directiveB(arg1: Int, arg2: Int) on ARGUMENT_DEFINITION
+
+input input1 {
+    one: Int
+    two: Int
+}
+
+"""
+A type to test different argument configurations
+"""
+type TestArgumentType {
+    """
+    fieldB1 tests parsing with an argument directive
+    """
+    fieldB1(arg1: input1 @directiveA): String
+
+    """
+    fieldB2 tests parsing with an argument directive that has const arguments
+    """
+    fieldB2(arg1: input1 @directiveB(arg1: 1, arg2: 2)): String
+}

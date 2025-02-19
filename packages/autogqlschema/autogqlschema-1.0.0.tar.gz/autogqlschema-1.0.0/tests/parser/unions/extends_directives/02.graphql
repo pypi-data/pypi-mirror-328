@@ -1,0 +1,3 @@
+directive @directiveA on UNION
+
+extend union union2 @directiveA

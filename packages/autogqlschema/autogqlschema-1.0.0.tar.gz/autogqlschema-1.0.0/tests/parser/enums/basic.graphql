@@ -1,0 +1,18 @@
+directive @directiveA on ENUM | ENUM_VALUE
+
+"""
+enum1 tests parsing the simplest possible enum definition
+"""
+enum enum1 {
+    "enum1.value1 tests parsing the simplest possible enum value definition"
+    value1
+}
+
+"""
+enum2 tests that directives are parsed
+"""
+enum enum2 @directiveA {
+    "enum2.value1 tests that directives are parsed"
+    value1 @directiveA
+}
+

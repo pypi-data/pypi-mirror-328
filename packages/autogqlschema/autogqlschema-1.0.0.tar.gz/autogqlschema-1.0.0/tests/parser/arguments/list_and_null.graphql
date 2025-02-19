@@ -1,0 +1,24 @@
+input input1 {
+    one: Int
+    two: Int
+}
+
+"""
+A type to test different argument configurations
+"""
+type TestArgumentType {
+    """
+    fieldD1 tests parsing with an argument that has a list type
+    """
+    fieldD1(arg1: [input1]): String
+
+    """
+    fieldD2 tests parsing with an argument that has a list type
+    """
+    fieldD2(arg1: input1!): String
+
+    """
+    fieldD3 tests parsing with an argument that has a list type with non-null values
+    """
+    fieldD3(arg1: [input1!]): String
+}

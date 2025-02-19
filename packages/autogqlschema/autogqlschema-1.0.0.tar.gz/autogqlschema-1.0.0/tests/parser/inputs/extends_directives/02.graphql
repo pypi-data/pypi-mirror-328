@@ -1,0 +1,3 @@
+directive @directiveA on INPUT_OBJECT
+
+extend input input1 @directiveA 

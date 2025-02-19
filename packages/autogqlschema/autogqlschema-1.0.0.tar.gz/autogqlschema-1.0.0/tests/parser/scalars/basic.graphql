@@ -1,0 +1,11 @@
+directive @directiveA on SCALAR
+
+"""
+scalar1 tests parsing the simplest possible scalar definition
+"""
+scalar scalar1
+
+"""
+scalar2 tests that directives are parsed
+"""
+scalar scalar2 @directiveA

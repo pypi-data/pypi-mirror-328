@@ -1,0 +1,18 @@
+type MyQueryRootType {
+    field1: Int
+}
+
+type MyMutationRootType {
+    field1: Int
+}
+
+type MySubscriptionRootType {
+    field1: Int
+}
+
+"schema1 tests that all operation types are rendered and linked."
+schema {
+    query: MyQueryRootType
+    mutation: MyMutationRootType
+    subscription: MySubscriptionRootType
+}

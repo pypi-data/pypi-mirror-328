@@ -1,0 +1,8 @@
+type MyQueryRootType {
+    field1: Int
+}
+
+"schema1 tests that mutation and subscription optypes are optional."
+schema {
+    query: MyQueryRootType
+}

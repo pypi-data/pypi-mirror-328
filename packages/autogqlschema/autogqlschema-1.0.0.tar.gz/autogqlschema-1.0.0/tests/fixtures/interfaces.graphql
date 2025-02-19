@@ -1,0 +1,26 @@
+directive @directive1 on INTERFACE | FIELD_DEFINITION
+
+"interface1 tests parsing the simplest possible interface definition"
+interface interface1 {
+    "interface1.field1 tests parsing the simplest possible interface field definition"
+    field1: String
+}
+
+"""
+interface2 tests that directives are parsed.
+
+It also tests that multiline docstrings are formatted correctly.
+"""
+interface interface2 @directive1 {
+    """
+    interface2.field1 tests that directives are parsed.
+
+    It also tests that multiline docstrings are formatted correctly.
+    """
+    field1: Int @directive1
+    "interface2.field2 tests that arguments are parsed"
+    field2(
+        "arg1 tests that arguments can be documented"
+        arg1: Int = 0
+    ): String
+}

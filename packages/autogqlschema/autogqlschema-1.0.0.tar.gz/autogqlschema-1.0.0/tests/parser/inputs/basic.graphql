@@ -1,0 +1,19 @@
+directive @directiveA on INPUT_OBJECT | INPUT_FIELD_DEFINITION
+
+"""
+input1 tests parsing the simplest possible input definition
+"""
+input input1 {
+    "input1.field1 tests parsing the simplest possible input field definition"
+    field1: Float
+}
+
+"""
+input2 tests that directives are parsed
+"""
+input input2 @directiveA {
+    "input2.field1 tests that directives are parsed"
+    field1: Int @directiveA
+    "input2.field2 tests that default values are parsed"
+    field2: String = "defaultvaluefield2"
+}

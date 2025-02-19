@@ -1,0 +1,3 @@
+directive @directiveA on INTERFACE
+
+extend interface interface1 @directiveA 

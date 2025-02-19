@@ -1,0 +1,4 @@
+input input1 {
+    "input1.field1 tests parsing the simplest possible input field definition"
+    field1: Int
+}

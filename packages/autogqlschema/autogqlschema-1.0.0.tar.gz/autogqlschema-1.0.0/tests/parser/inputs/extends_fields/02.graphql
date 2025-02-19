@@ -1,0 +1,4 @@
+extend input input1 {
+    "input1.field2 tests parsing the simplest possible input extension of fields"
+    field2: Int
+}

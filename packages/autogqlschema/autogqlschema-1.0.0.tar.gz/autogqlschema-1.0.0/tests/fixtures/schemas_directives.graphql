@@ -1,0 +1,25 @@
+directive @directive1 on SCHEMA
+directive @directive2 on SCHEMA
+
+type MyQueryRootType {
+    field1: Int
+}
+
+type MyMutationRootType {
+    field1: Int
+}
+
+type MySubscriptionRootType {
+    field1: Int
+}
+
+"""
+schema1 tests that directives are parsed, and operation types are rendered and linked.
+
+It also tests that multiline docstrings are formatted correctly.
+"""
+schema @directive1 @directive2 {
+    query: MyQueryRootType
+    mutation: MyMutationRootType
+    subscription: MySubscriptionRootType
+}

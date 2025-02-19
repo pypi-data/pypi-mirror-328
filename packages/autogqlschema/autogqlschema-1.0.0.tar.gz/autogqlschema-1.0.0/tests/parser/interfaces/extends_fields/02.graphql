@@ -1,0 +1,4 @@
+extend interface interface1 {
+    "interface1.field2 tests parsing the simplest possible interface extension of fields"
+    field2: Int
+}

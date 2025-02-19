@@ -1,0 +1,9 @@
+type type1 {
+    field1: Int
+}
+
+type type2 {
+    field1: Int
+}
+
+union union1 = type1 | type2

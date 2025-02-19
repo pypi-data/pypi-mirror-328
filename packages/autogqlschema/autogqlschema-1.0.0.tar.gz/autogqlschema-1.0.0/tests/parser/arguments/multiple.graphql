@@ -1,0 +1,19 @@
+input input1 {
+    one: Int
+    two: Int
+}
+
+"""
+A type to test different argument configurations
+"""
+type TestArgumentType {
+    """
+    fieldA1 tests parsing with multiple arguments
+    """
+    fieldA1(
+        "arg1 tests that arguments can be documented"
+        arg1: Int
+        "arg2 tests that arguments can be documented"
+        arg2: input1
+    ): String
+}

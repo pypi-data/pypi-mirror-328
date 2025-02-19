@@ -1,0 +1,3 @@
+directive @directiveA on OBJECT
+
+extend type type1 @directiveA 

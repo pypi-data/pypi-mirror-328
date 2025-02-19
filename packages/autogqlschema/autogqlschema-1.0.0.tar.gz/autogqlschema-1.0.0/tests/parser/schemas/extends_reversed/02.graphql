@@ -1,0 +1,7 @@
+schema {
+    query: MyQueryRootType1
+}
+
+type MyQueryRootType1 {
+    field1: Int
+}

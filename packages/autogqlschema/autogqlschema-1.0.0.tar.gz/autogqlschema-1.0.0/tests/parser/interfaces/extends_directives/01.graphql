@@ -1,0 +1,3 @@
+interface interface1 {
+    field1: Int
+}

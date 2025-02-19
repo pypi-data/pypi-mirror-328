@@ -1,0 +1,4 @@
+type type1 {
+    "type1.field1 tests parsing the simplest possible type field definition"
+    field1: Int
+}

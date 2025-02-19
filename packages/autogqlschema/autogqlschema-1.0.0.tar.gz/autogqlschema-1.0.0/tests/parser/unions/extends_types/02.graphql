@@ -1,0 +1,5 @@
+type type3 {
+    field1: Int
+}
+
+extend union union1 = type3

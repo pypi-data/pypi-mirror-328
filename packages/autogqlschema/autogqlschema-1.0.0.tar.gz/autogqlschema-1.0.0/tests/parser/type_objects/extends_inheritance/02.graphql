@@ -1,0 +1,5 @@
+interface interface2 {
+    fieldB: String
+}
+
+extend type type1 implements interface2

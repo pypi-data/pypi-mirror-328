@@ -1,0 +1,8 @@
+interface interface1 {
+    fieldA: String
+}
+
+"type1 tests parsing extensions to inheritance"
+type type1 implements interface1 {
+    field1: Int
+}

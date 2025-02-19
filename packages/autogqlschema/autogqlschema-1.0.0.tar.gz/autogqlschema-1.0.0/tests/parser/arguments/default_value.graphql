@@ -1,0 +1,53 @@
+enum enum1 {
+    ENUMVALUE
+}
+
+input input1 {
+    one: Int
+    two: Int
+}
+
+"""
+A type to test different argument configurations
+"""
+type TestArgumentType {
+    """
+    fieldC1 tests parsing with an argument that has a default integer value
+    """
+    fieldC1(arg1: Int = 600): String
+
+    """
+    fieldC2 tests parsing with an argument that has a default float value
+    """
+    fieldC2(arg1: Float = 1.5): String
+
+    """
+    fieldC3 tests parsing with an argument that has a default string value
+    """
+    fieldC3(arg1: String = "mystring"): String
+
+    """
+    fieldC4 tests parsing with an argument that has a default boolean value
+    """
+    fieldC4(arg1: Boolean = true): String
+
+    """
+    fieldC5 tests parsing with an argument that has a default null value
+    """
+    fieldC5(arg1: Int = null): String
+
+    """
+    fieldC6 tests parsing with an argument that has a default enum value
+    """
+    fieldC6(arg1: enum1 = ENUMVALUE): String
+
+    """
+    fieldC7 tests parsing with an argument that has a default list value
+    """
+    fieldC7(arg1: [Int] = [1, 2]): String
+
+    """
+    fieldC8 tests parsing with an argument that has a default object value
+    """
+    fieldC8(arg1: input1 = {one: 1, two: 2}): String
+}
