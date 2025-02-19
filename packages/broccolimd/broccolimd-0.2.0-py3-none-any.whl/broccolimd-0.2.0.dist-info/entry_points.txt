@@ -1,0 +1,2 @@
+[console_scripts]
+broccolimd = broccolimd.main:cli
