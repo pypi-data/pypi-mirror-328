@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyunixlzw/__init__.py
+src/pyunixlzw/__main__.py
+src/pyunixlzw/compress.py
+src/pyunixlzw/decompress.py
+src/pyunixlzw.egg-info/PKG-INFO
+src/pyunixlzw.egg-info/SOURCES.txt
+src/pyunixlzw.egg-info/dependency_links.txt
+src/pyunixlzw.egg-info/entry_points.txt
+src/pyunixlzw.egg-info/requires.txt
+src/pyunixlzw.egg-info/top_level.txt
+tests/test_compress.py
+tests/test_uncompress.py

@@ -1,0 +1,34 @@
+
+[build-system]
+requires = [
+    "setuptools"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{name = "Justin Berthelot"}]
+description = "A pure-Python3 implementation of UNIX compress and decompress."
+keywords = [
+    "compress",
+    "decompress",
+    "lzw",
+    "uncompress",
+    "unix"
+]
+license = {text = "MIT"}
+maintainers = [{name = "Justin Berthelot"}]
+name = "pyunixlzw"
+readme = "README.md"
+requires-python = ">3.6"
+version = "1.0.0.0"
+
+[project.scripts]
+pyunixlzw = "pyunixlzw.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/jbert1/pyunixlzw"
+
+[project.optional-dependencies]
+tests = [
+    "unittest"
+]

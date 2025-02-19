@@ -1,0 +1,2 @@
+[console_scripts]
+pyunixlzw = pyunixlzw.__main__:main
