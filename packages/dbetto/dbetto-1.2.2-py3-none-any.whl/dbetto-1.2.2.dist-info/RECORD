@@ -1,0 +1,13 @@
+dbetto/__init__.py,sha256=1mYfut4_zyCrsBV9OBT2lgNraFyQg-AEcElZ8MC98sc,992
+dbetto/_version.py,sha256=XEVwqOPlIChKtEnSO5v_SvghWXnn9WeQSoJ436w3v9Y,411
+dbetto/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+dbetto/attrsdict.py,sha256=UJUwVeScIb48jcDha-dKnQ3b2vb1lM83L5ip_Lej2GA,8208
+dbetto/catalog.py,sha256=KenMhc7DoFwOqxDMyH13JHONU1MC7B7-fzPkG8aIFZs,12240
+dbetto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbetto/textdb.py,sha256=f-ocpH39UKg77efMt0_mOiU3_UwLmBpz-xyq7wcYTo0,13495
+dbetto/time.py,sha256=Yjn6cBVgB7iUrGsMHLxzMebGZWXbGxFIXlDDm-g7Drc,1546
+dbetto/utils.py,sha256=Ia9_uDNbrVgDoe-7-VyI3zix2xTtLyKYx0W4N7ow4KA,2361
+dbetto-1.2.2.dist-info/METADATA,sha256=U7COJkYSwuBC44WYsC_jYQjC36VRkoBVFs7UcstAEPA,4517
+dbetto-1.2.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dbetto-1.2.2.dist-info/licenses/LICENSE,sha256=yO1J9FccKANTlBrPhCtWEiFW9nIJFT_AEqR86iinBf4,1054
+dbetto-1.2.2.dist-info/RECORD,,
