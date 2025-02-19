@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <record id="view_maintenance_equipment_form_inherit_new_page" model="ir.ui.view">
+            <field name="name">maintenance.equipment.form.inherit.orri.berria</field>
+            <field name="model">maintenance.equipment</field>
+            <field name="inherit_id" ref="maintenance.hr_equipment_view_form"/>
+            <field name="arch" type="xml">
+                <!-- Notebook-ean kokatu -->
+                <xpath expr="//notebook" position="inside">
+                    <!-- Orri berri bat sortu -->
+                    <page string="Eremu berriak" name="eremu_orri_berria">
+                        <group>
+                            <field name="x_cpu" string="CPU"/>
+                            <field name="x_ram" string="RAM"/>
+                            <field name="x_sistema_eragilea" string="Sistema eragilea"/>
+                            <field name="x_lizentzia_gakoa" string="Lizentzia gakoa"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

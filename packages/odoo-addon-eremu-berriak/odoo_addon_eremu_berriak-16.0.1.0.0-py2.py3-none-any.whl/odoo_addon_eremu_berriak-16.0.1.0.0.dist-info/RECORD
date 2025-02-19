@@ -1,0 +1,16 @@
+odoo/addons/eremu_berriak/.gitignore,sha256=hXJmj4AOlAmZx0SRPQVtjHtmzskf09Nx80lzNNWRlMs,847
+odoo/addons/eremu_berriak/__init__.py,sha256=KNIjy4s6XxuFBGm5-g8AeQipkBH8wbGw2XMAHczhoxc,71
+odoo/addons/eremu_berriak/__manifest__.py,sha256=aDWC5IGj75Q7xfqFxXYxbJMHaj1_KUWIcXczMFlXouA,931
+odoo/addons/eremu_berriak/controllers/__init__.py,sha256=SfzcBmVrVBMY3Zgtc7vd4-8oLTGQoHIl5xYOjyn-H0g,50
+odoo/addons/eremu_berriak/controllers/controllers.py,sha256=lM799bXtZQL-dLoK243IJTTzVMZySDx3neOaw_3vODg,789
+odoo/addons/eremu_berriak/demo/demo.xml,sha256=ny-U9tYmrxzryn-wwx5G1uqWAOwgQSPUZjY2SnT2SqE,944
+odoo/addons/eremu_berriak/models/__init__.py,sha256=fdf2VGti_YRSbcqIw53Qyjsv1wTGVzuJ9Vwd5ry6-wY,59
+odoo/addons/eremu_berriak/models/mantenance_equipment.py,sha256=rDMESC5untftXbnlxlBmMiq5T4U5qbG0Na_fq4evWkc,386
+odoo/addons/eremu_berriak/security/ir.model.access.csv,sha256=SsmhEAUt0ZpFc4-TfyRmRnOTt8nBOfJm4xx9J2GVpHc,197
+odoo/addons/eremu_berriak/views/eremuBerriak_bista.xml,sha256=GCtNu-nuDG-5H23RQ_XmPHcSobSTAWtCxjnHZKEImOY,1088
+odoo/addons/eremu_berriak/views/templates.xml,sha256=H8whNJD6sGjF-bkoghUJgK8f1rd1HC15SLCFs7wnvsM,630
+odoo/addons/eremu_berriak/views/views.xml,sha256=uL04DWT3y8JfzH7cbNYNFSRjwRuT1m0jKlSTASaLhZs,1873
+odoo_addon_eremu_berriak-16.0.1.0.0.dist-info/METADATA,sha256=uLK_AwByHrztjHeMYt7HS-cM4R57lj1YHFdTT9OAmBQ,453
+odoo_addon_eremu_berriak-16.0.1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+odoo_addon_eremu_berriak-16.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_eremu_berriak-16.0.1.0.0.dist-info/RECORD,,
