@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireClone/__init__.py
+FireClone.egg-info/PKG-INFO
+FireClone.egg-info/SOURCES.txt
+FireClone.egg-info/dependency_links.txt
+FireClone.egg-info/top_level.txt
