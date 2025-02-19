@@ -1,0 +1,2 @@
+[console_scripts]
+generate_deployments = op_orm.deployment_generator:run_cli_k8s_deployment_generator

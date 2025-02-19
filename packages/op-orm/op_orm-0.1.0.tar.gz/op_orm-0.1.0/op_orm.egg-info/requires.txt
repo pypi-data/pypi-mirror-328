@@ -1,0 +1,8 @@
+onepassword-sdk
+jinja2
+
+[dev]
+pytest
+debugpy
+twine
+build

@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "op-orm"
+version = "v0.1.0"
+dependencies = [
+    "onepassword-sdk",
+    "jinja2",
+]
+requires-python = ">=3.12"
+authors = [
+    {name = "Ilke", email = "github@ilke.dev"},
+]
+maintainers = [
+    {name = "Ilke", email = "github@ilke.dev"},
+]
+description = "Object Relational Mapping for 1Password items, manage 1Password vaults with code."
+readme = "README.md"
+keywords = [
+    "1password", 
+    "orm", 
+    "op", 
+    "op-orm", 
+    "onepassword", 
+    "onepassword-sdk",
+    "devops", 
+    "secret-management", 
+    "password-manager",
+    "credentials",
+    "security",
+    "kubernetes",
+    "k8s",
+    "vault",
+    "secret-management",
+    "secret-store",
+    "api-keys",
+    "database-credentials",
+    "ssh-keys",
+    "infrastructure",
+    "automation",
+    "configuration-management"
+    ]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Security",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE.txt"}
+
+[tool.setuptools]
+packages = ["op_orm"]  # Declare the actual package name
+package-dir = {"op_orm" = "op_orm"}  # Declare the source directory
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "debugpy",
+    "twine",
+    "build",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+pythonpaths = [
+    "op_orm",
+]
+testpaths = [
+    "tests",
+]
+
+[project.scripts]
+generate_deployments = "op_orm.deployment_generator:run_cli_k8s_deployment_generator"
