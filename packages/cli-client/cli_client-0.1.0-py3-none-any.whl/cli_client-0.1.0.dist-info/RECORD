@@ -1,0 +1,13 @@
+cli_client/__init__.py,sha256=z3q50ySpi0_FJ3DRWkXAFFf-_XWnQMPCitZDb6_gT9s,393
+cli_client/__main__.py,sha256=h9tafUlztKTVCweR2lPlzxAADPWMl5IbdwaBRKmsFwY,1834
+cli_client/client.py,sha256=QXgzqhrGfxlOvz3svwmTtDaQmeI7RSmPpDykv7_HFUY,14042
+cli_client/config.py,sha256=mJAyqprZeX53bDr0OFMqYrPuHYQ7ThqMX71A0Q70hAI,2123
+cli_client/exceptions.py,sha256=44V4cA10d2h93BGAw15r5_DughuJTJRy3lQMj129dE8,544
+cli_client/models.py,sha256=6HqbUqvJOQqYo6fPvn4qx8tp8WqD97OMaKr8WSTv3-4,493
+cli_client/utils.py,sha256=nLkQ6EAZYzXNyOgfnSCiqJ_ecOAOSTDWDCtrM4-ktVw,462
+cli_client-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_client-0.1.0.dist-info/METADATA,sha256=EfzVC3xKI8sMsxaKmdFHA69NLjPxe0HOlGwaFaQlFHI,15323
+cli_client-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cli_client-0.1.0.dist-info/entry_points.txt,sha256=lKwaEJ9YONq42oepvivB4FIW3_T2LW3A-9hSlJ4kF8A,56
+cli_client-0.1.0.dist-info/top_level.txt,sha256=AcMnZhVcBvDUqihE-gAtTRkXPuHpZuhELUCYdzMdZJA,11
+cli_client-0.1.0.dist-info/RECORD,,
