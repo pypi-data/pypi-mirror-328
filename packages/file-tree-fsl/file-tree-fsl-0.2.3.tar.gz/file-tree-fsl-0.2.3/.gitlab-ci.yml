@@ -1,0 +1,7 @@
+test:
+  image: python:3.8
+  tags:
+    - docker
+  script:
+    - pip install . pytest
+    - pytest file_tree_fsl/test_load.py
