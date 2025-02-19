@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/diffidm.egg-info/PKG-INFO
+src/diffidm.egg-info/SOURCES.txt
+src/diffidm.egg-info/dependency_links.txt
+src/diffidm.egg-info/requires.txt
+src/diffidm.egg-info/top_level.txt
+src/layer/__init__.py
+src/layer/layer.py
