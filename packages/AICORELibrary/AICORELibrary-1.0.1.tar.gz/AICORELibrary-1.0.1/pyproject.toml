@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AICORELibrary"
+version = "1.0.1"
+authors = [
+  { name="IT Dev HOTD Python Developer"},
+]
+description = "AI Core Package for AI"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+sqlalchemy = ["sqlalchemy"]
+numpy = ["numpy"]
+pandas = ["pandas"]
+arrow = ["pyarrow"]
+orjson = ["orjson"]
+tzlocal = ["tzlocal"]
+
+[tool.poetry]
+readme = "README.md"
+
+[tool.setuptools.package-data]
+mypkg = ["*.py"]
+
+
