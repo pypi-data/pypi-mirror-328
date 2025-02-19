@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pythia-ai"
+version = "0.0.1"
+description = "Your personal code oracle."
+authors = ["The Epic <theepic.dev.83@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
