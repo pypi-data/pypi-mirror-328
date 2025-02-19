@@ -1,0 +1,15 @@
+qsin/ElasticNetCV.py,sha256=oaq2ogAGQqI5tfaUrIbfb6sqR86vieou5ZbBcN1oi-s,6967
+qsin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qsin/isle_path.py,sha256=nnvdrpD-w5iRCB4SC0WjG_0Sb0HhSsar1GfpKAXOluA,8509
+qsin/path_subsampling.py,sha256=HRt3TKXsr5vxG6lSkloGrUa8X2kRHbqR-GaYMjgj8-I,14661
+qsin/sparse_solutions.py,sha256=QC2XplV5b4HPQbZoiyXukjbrTdGf0CbgKy8A2CWKRv8,26440
+qsin/utils.py,sha256=pGdrX0sH6ZEvILqmQZ04sGbq_XSaI1IRRuLzvTMYtR4,2471
+qsin-0.10.1.data/scripts/infer_nets_batches.jl,sha256=E8E728tDyxJJkcros477pQA0WtQc19AC55yiXiqxy8A,8767
+qsin-0.10.1.data/scripts/infer_qlls.jl,sha256=r7x-48-sYWX1yDPZqovyGU-AKUF2VQY0O9KeYUPcOuw,5044
+qsin-0.10.1.data/scripts/sim_nets.R,sha256=N1X1n7KKVOZFdWwbg57mYWkck17Pgqa7rQlS-2nuX3Q,3600
+qsin-0.10.1.dist-info/LICENSE,sha256=e4HMc6kGHsdS35NmbKX5B74IOPyLQVMXaE1MacfX_gg,1077
+qsin-0.10.1.dist-info/METADATA,sha256=gGGwV2Ul828XuFBG9bgE48OM74sjk4bwb2pfyeYY4r4,277
+qsin-0.10.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+qsin-0.10.1.dist-info/entry_points.txt,sha256=VoapTsOe2RjSP5n2EVKYtH2Xm0xslIfe9DHgACn2I6k,67
+qsin-0.10.1.dist-info/top_level.txt,sha256=Cml-kPcqbogWHg0Rq8qeUQuEcxow4hub1rrju-Busl8,5
+qsin-0.10.1.dist-info/RECORD,,
