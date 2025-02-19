@@ -1,0 +1,10 @@
+pyunixlzw/__init__.py,sha256=JeaY3Hg8LtTqxD3P9iQcKu2itnoA2RFe9ifu4ro-Xx4,66
+pyunixlzw/__main__.py,sha256=BScppbnYyWmQXhvQG5c3x7jH6TJlzdzJkGbr_lsQzwA,9425
+pyunixlzw/compress.py,sha256=JTvaG1zTwgd7oXZfrBPYXwmYDaqJbIHWDFV5aMySfEI,8799
+pyunixlzw/decompress.py,sha256=ClNNcW05SXzQlRiWGOgMt5SkLOOBy7ubRTKGC_VJCzE,9560
+pyunixlzw-1.0.0.0.dist-info/LICENSE,sha256=W6-QSNYJ9oP6l4bgHZf7l7rX1YeUBsOpseCWtr57G50,1094
+pyunixlzw-1.0.0.0.dist-info/METADATA,sha256=ic0qlBVStpC3Ep6mOI6u_ZwU2OdPrhpEWuVQjZpA7Vg,2480
+pyunixlzw-1.0.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyunixlzw-1.0.0.0.dist-info/entry_points.txt,sha256=Ysc24CVpdKhc9WutqVfHNe8evamaHtRW17jbvfGtqC4,54
+pyunixlzw-1.0.0.0.dist-info/top_level.txt,sha256=fuMyvL9WaqXUHSJ3BfBMlA2ElIyJwqJxLqxpuMIwrnY,10
+pyunixlzw-1.0.0.0.dist-info/RECORD,,
