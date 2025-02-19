@@ -1,0 +1,33 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/models.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/models.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.models.imports
+  module = cache.models
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/core.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/core.py | /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.core.imports
+  module = cache.core
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/core.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.__init__.imports
+  module = cache.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/migrations/0002_rename_cacheitem_cacheditem.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/migrations/0002_rename_cacheitem_cacheditem.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.migrations.0002_rename_cacheitem_cacheditem.imports
+  module = cache.migrations.0002_rename_cacheitem_cacheditem
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.config.imports
+  module = cache.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.cli.imports
+  module = cache.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/migrations/0001_initial.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/migrations/0001_initial.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.migrations.0001_initial.imports
+  module = cache.migrations.0001_initial
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/migrations/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/migrations/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.migrations.__init__.imports
+  module = cache.migrations.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/staff.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-cache/plain/cache/staff.py | /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/pyi/cache/models.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-cache/.pytype/imports/cache.staff.imports
+  module = cache.staff
