@@ -1,0 +1,12 @@
+abraxos/__init__.py,sha256=IoT3n1z8tRUk6KIg72__UH4EarQMi3pZadbBPIkx9rc,199
+abraxos/extract.py,sha256=O2jLzvmLr5ynv-oDcsKkhX6BJ9J8e-nxioeS4UvUiUM,3533
+abraxos/load.py,sha256=_WQalPxMG31mW6h6I6mqXCk6SaIxx8NUleSAa7M2Uag,3444
+abraxos/transform.py,sha256=Mnv2NJJtsPSpc6rSCUhqNl0KodbqS2AJj6YT5IYaurM,2374
+abraxos/utils.py,sha256=XUaldm_b022rLUMEPalpgthlchB4zGpj_jDswInS74o,1108
+abraxos/validate.py,sha256=66noo11t1N7b9oRaVmUKNbLHgs9ya8BWGwT4xU49c98,2437
+tests/test_read.py,sha256=yEk93UFafUt4dV7hyJ-qnTthGgN-jKy8ZAWVnq8BesU,653
+abraxos-0.0.5.dist-info/LICENSE.txt,sha256=azYVfDfu7XkkJSSRK48Hu4bIhOPmjvv379nIrK5dXVc,1061
+abraxos-0.0.5.dist-info/METADATA,sha256=JhWRmz-j5LUc3xWd4hRh24m5jb__N_HLH_ln0eiEFrc,2013
+abraxos-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+abraxos-0.0.5.dist-info/top_level.txt,sha256=Q_bpJIBYMs-gjiiMuomnRmOis2_KF5meuj4Qr7tvcm8,14
+abraxos-0.0.5.dist-info/RECORD,,
