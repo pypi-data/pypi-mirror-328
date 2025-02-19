@@ -1,0 +1,8 @@
+waldur_mcp_server/__init__.py,sha256=v2UpkufK6E6__uq_OETVdq-g9lYQqtNyAVL4nFhTt_k,215
+waldur_mcp_server/meta.yaml,sha256=SqOumDdaGXoeI0VFeRiLhCW0OTWU00HbN30mgs_P7v4,35800
+waldur_mcp_server/server.py,sha256=HzoTPGp1b8DELn1me0iBYuVJD5u3rFhIaue2KtX4es8,6125
+waldur_mcp_server-0.1.0.dist-info/METADATA,sha256=oAkn0B7y7VeH57ocPfhhDXmLLJGsQTCylcEEoy4vNno,2910
+waldur_mcp_server-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+waldur_mcp_server-0.1.0.dist-info/entry_points.txt,sha256=aR5hLg3htUaWv4r-agm7M4MLXrqggza-EGVBCkJ2b7g,61
+waldur_mcp_server-0.1.0.dist-info/licenses/LICENSE.md,sha256=gElJHMgcByYFm0RTf9LilQ6pJP_dQ5nt08Nymh1JiXg,1084
+waldur_mcp_server-0.1.0.dist-info/RECORD,,
