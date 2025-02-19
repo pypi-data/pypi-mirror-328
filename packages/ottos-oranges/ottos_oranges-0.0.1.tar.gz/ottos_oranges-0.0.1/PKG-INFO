@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: ottos-oranges
+Version: 0.0.1
+Summary: Otto's Oranges
+Project-URL: Homepage, https://github.com/ascend-io/ascend-community
+Project-URL: Bug Tracker, https://github.com/ascend-io/ascend-community/issues
+Author-email: Ascend <hello@ascend.io>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: faker
+Requires-Dist: ibis-framework[bigquery,datafusion,deltalake,duckdb,polars,snowflake,sqlite]
+Requires-Dist: plotly
+Requires-Dist: pydantic-ai
+Requires-Dist: python-dotenv
+Requires-Dist: rich
+Requires-Dist: shiny
+Requires-Dist: shinyswatch
+Requires-Dist: shinywidgets
+Requires-Dist: typer
+Provides-Extra: dev
+Requires-Dist: ipykernel; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: jupyter; extra == 'dev'
+Requires-Dist: nbclient; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Otto's Oranges
+
+Data generation for Otto's Oranges.
+
+## Setup
+
+Clone the repo:
+
+```bash
+git clone git@github.com:ascend-io/ascend-community.git
+```
+
+or:
+
+```bash
+gh repo clone ascend-io/ascend-community
+```
+
+Change into the directory:
+
+```bash
+cd ascend-community/ottos-oranges
+```
+
+Install `just` and `uv`:
+
+```
+brew install just uv
+```
+
+`just setup`:
+
+```bash
+just setup
+```
+
+Source the Python vritual environment:
+
+```bash
+source .venv/bin/activate
+```
+
+Run the data generation:
+
+```bash
+ottos-oranges datagen --days 1
+```
+
