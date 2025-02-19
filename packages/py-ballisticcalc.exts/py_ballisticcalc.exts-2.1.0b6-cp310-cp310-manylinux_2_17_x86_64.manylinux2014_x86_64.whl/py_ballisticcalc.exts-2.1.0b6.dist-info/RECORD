@@ -1,0 +1,17 @@
+py_ballisticcalc_exts/trajectory_calc.pyi,sha256=mGI6nPqjIC0YJF01BEL-Eud5mv8NcPx-rmtYk7xNZW8,760
+py_ballisticcalc_exts/vector.cpython-310-x86_64-linux-gnu.so,sha256=LOmkn4x_s4c1MFIgkI9cQQh-0bHHs5Z9PhVO5gS2GsU,464752
+py_ballisticcalc_exts/cy_euler.cpython-310-x86_64-linux-gnu.so,sha256=I5M7hAihDjeHNY030y0L1pJflqs9hjLl6l6VreVxJR4,374184
+py_ballisticcalc_exts/trajectory_calc.cpython-310-x86_64-linux-gnu.so,sha256=4B5QVKacOxIVRlbmL1porsnFaorr4zUwvn57Eb7lml0,883744
+py_ballisticcalc_exts/__init__.py,sha256=W4E5z0GCZn1pgkqOkcK_vB_FLFGBePOYCQerhtOG4CM,417
+py_ballisticcalc_exts/cy_euler.c,sha256=JCZfNQstF0kTgWv26_98SER3cYtiU-4cetY5FgNWoXQ,339783
+py_ballisticcalc_exts/vector.pyi,sha256=UY0B_dRBIhOdC43zhGti0jLZvAsegfTjHxgWd7e6S3A,1157
+py_ballisticcalc_exts/trajectory_data.pyi,sha256=xEQrudrovkUYFynLQ1r6K-t-LcitMHdt5i_Ax4KEBVc,698
+py_ballisticcalc_exts/vector.c,sha256=rCl7ZSEaMpzV5ZlWt7Zo5Ec13l8-XVfDzfiPDYBSovc,447352
+py_ballisticcalc_exts/trajectory_calc.c,sha256=tpdNyYQCsZV1TpT4Rth0eInCm5VcIvzCB8qkfG7vud8,681922
+py_ballisticcalc_exts/trajectory_data.cpython-310-x86_64-linux-gnu.so,sha256=IpA_4uFMQZ98TgNonN3cnAdLBpV4TY2rpkHdFOIBLxU,537840
+py_ballisticcalc_exts/trajectory_data.c,sha256=7z94PltqSGCWbX138fWcfkU61Veh8bA3-ZYOHHc7Y0c,446763
+py_ballisticcalc.exts-2.1.0b6.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+py_ballisticcalc.exts-2.1.0b6.dist-info/WHEEL,sha256=ViyZsTV2upbIniGkknQiIrLPLs1cJIoIfr1wsV7PMic,151
+py_ballisticcalc.exts-2.1.0b6.dist-info/METADATA,sha256=xh6_uLWaznrYtNU9y82FwYyWp9hrQ-ja1XFbRm-tmME,25855
+py_ballisticcalc.exts-2.1.0b6.dist-info/top_level.txt,sha256=PUuca7fmBjPxHDzUzWYfb2pi6j54yVqvF0hsu6lJPZY,22
+py_ballisticcalc.exts-2.1.0b6.dist-info/RECORD,,
