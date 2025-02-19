@@ -1,0 +1,7 @@
+setup.py
+trimetpy.py
+trimetpy.egg-info/PKG-INFO
+trimetpy.egg-info/SOURCES.txt
+trimetpy.egg-info/dependency_links.txt
+trimetpy.egg-info/requires.txt
+trimetpy.egg-info/top_level.txt
