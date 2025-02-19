@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+docker_chatgpt_files_generator.egg-info/PKG-INFO
+docker_chatgpt_files_generator.egg-info/SOURCES.txt
+docker_chatgpt_files_generator.egg-info/dependency_links.txt
+docker_chatgpt_files_generator.egg-info/requires.txt
+docker_chatgpt_files_generator.egg-info/top_level.txt
+docker_files_generator/__init__.py
+docker_files_generator/main.py

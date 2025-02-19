@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: docker-chatgpt-files-generator
+Version: 0.1.2
+Summary: ChatGPT docker files generator.
+Home-page: https://github.com/Tsyhanok-Ivan
+Author: tsyhanok-ivan
+Author-email: tsyhanok.ivan.dmytrovych@gmail.com
+Keywords: docker chatgpt python generator
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests==2.32.3
+Requires-Dist: openai==1.63.2
