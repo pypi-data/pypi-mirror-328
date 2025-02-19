@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: pyRIMLS
+Version: 0.0.1
+Summary: A PyTorch implementation of the RIMLS reconstruction algorithm.
+Author-email: Kyle Fogarty <ktf25@cam.ac.uk>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
