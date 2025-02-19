@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: pcs-annotator
+Version: 0.1.1
+Summary: A Python library for classification tasks using multiple LLMs 
+Project-URL: Homepage, https://github.com/salsina/PCS-Python-Library
+Project-URL: Issues, https://github.com/salsina/PCS-Python-Library/issues
+Author-email: Sina Salimian <sina99.sn@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: langchain
+Requires-Dist: langchain-anthropic
+Requires-Dist: langchain-community
+Requires-Dist: langchain-groq
+Requires-Dist: langchain-huggingface
+Requires-Dist: langchain-openai
+Requires-Dist: python-dotenv
+Description-Content-Type: text/markdown
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
