@@ -1,0 +1,13 @@
+op_orm/__init__.py,sha256=h_PxdQmzglW76ly07_QtiYrLGsSKWgDycNiIcA2jQlc,72
+op_orm/client.py,sha256=JRvMoJxTjiK6uPTDMxlJqB53fvSxN269mmW2HWeLU_4,4583
+op_orm/deployment_generator.py,sha256=hOxk6lOJMrVGELfhquo4HTiJMG_MoKoMRMVTFg-ml2k,3563
+op_orm/exceptions.py,sha256=yyIkJUx1DcwnUN2JD8I7LsiLs57o9fWYR1ghbaqP_Jg,105
+op_orm/fields.py,sha256=-Lk88G5wnIshfPbjm7zSEKnPp-3-3QgezP7rffA_Yxg,4585
+op_orm/models.py,sha256=XZGTGLf66uF4aiiRbfqdGu2mOBgtcfd-cBGtzVRE0_4,6255
+op_orm/types.py,sha256=WSw6_Xv47XytHzkEWlbitOEaXmkupXJAO_SvqWOXloY,3452
+op_orm-0.1.0.dist-info/LICENSE.txt,sha256=ikyVUQgqReKCkX0GK0wmDUuXZfDeeGwnawPwGRATyUY,35131
+op_orm-0.1.0.dist-info/METADATA,sha256=S-5ZVMV-XkwCzYl0_OB3arJtTYHzufZh_cKDZUIfvvg,46342
+op_orm-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+op_orm-0.1.0.dist-info/entry_points.txt,sha256=RieuVMrDp9zyfojc5aKSRM2mOmsBkPK6JXNYHFAVG6g,102
+op_orm-0.1.0.dist-info/top_level.txt,sha256=hWMTNRVbLHBdG4oLdArwjdvGaGjABZYFQuA0nPhKKa0,7
+op_orm-0.1.0.dist-info/RECORD,,
