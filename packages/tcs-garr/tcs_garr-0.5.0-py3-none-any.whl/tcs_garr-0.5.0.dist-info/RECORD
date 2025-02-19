@@ -1,0 +1,9 @@
+tcs_garr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcs_garr/harica_client.py,sha256=i9hbzfN7K7yzXIrrgBkzUa8cZGJu_OPQhwh2WB7AlCA,20917
+tcs_garr/main.py,sha256=89bJ-GicpfLKZMBE-ydzC2R3B8qw144zJjPwP5Kxqm4,19912
+tcs_garr/utils.py,sha256=-CcRV5LPrDZkMpMaUq7DnAsxP6JV_RsINhedM1h4NW0,104
+tcs_garr-0.5.0.dist-info/LICENSE.md,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+tcs_garr-0.5.0.dist-info/METADATA,sha256=MSQ8ru6kUJijChAM0YfEqaus1v2oWvdjaeNoXXl1XVY,10431
+tcs_garr-0.5.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+tcs_garr-0.5.0.dist-info/entry_points.txt,sha256=Qc7lTrCzkR8v44q0c90EZrGeXZzedYvks_h5_ooxClQ,47
+tcs_garr-0.5.0.dist-info/RECORD,,
