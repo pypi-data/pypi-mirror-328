@@ -1,0 +1,15 @@
+LICENSE
+PROJECT_DESCRIPTION.md
+README.md
+setup.py
+uhsr/__init__.py
+uhsr/bm25.py
+uhsr/core.py
+uhsr/faiss_retrieval.py
+uhsr/similarity.py
+uhsr/utils.py
+uhsr.egg-info/PKG-INFO
+uhsr.egg-info/SOURCES.txt
+uhsr.egg-info/dependency_links.txt
+uhsr.egg-info/requires.txt
+uhsr.egg-info/top_level.txt
