@@ -1,0 +1,10 @@
+gptdiff/__init__.py,sha256=o1hrK4GFvbfKcHPlLVArz4OunE3euIicEBYaLrdDo0k,198
+gptdiff/applydiff.py,sha256=nvTerBtFuXWf1j6nisGY7CQ6qJCIM8J9UHxgoiWReoY,11116
+gptdiff/gptdiff.py,sha256=XN05Zbr1H69_iG8Bx8RQ34vTXXg3WHDANRcGo3ihrhA,31518
+gptdiff/gptpatch.py,sha256=opakY6j_I05ZNx2ACYgxB8SxoZ3POf9iFxDkV5Yn1oU,2393
+gptdiff-0.1.24.dist-info/LICENSE.txt,sha256=zCJk7yUYpMjFvlipi1dKtaljF8WdZ2NASndBYYbU8BY,1228
+gptdiff-0.1.24.dist-info/METADATA,sha256=TE_nbtNX0IMjDek5MHxvDDUaAeVhCXw7p5kCmh0TpZg,8785
+gptdiff-0.1.24.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gptdiff-0.1.24.dist-info/entry_points.txt,sha256=0VlVNr-gc04a3SZD5_qKIBbtg_L5P2x3xlKE5ftcdkc,82
+gptdiff-0.1.24.dist-info/top_level.txt,sha256=XNkQkQGINaDndEwRxg8qToOrJ9coyfAb-EHrSUXzdCE,8
+gptdiff-0.1.24.dist-info/RECORD,,
