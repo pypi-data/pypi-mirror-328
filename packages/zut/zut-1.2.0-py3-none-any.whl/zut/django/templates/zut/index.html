@@ -1,0 +1,12 @@
+{% extends 'zut/layout.html' %}
+{% load static %}
+
+{% block title %}{{ _("Welcome") }}{% endblock %}
+
+{% block content %}
+<h1 class="display-4 text-center">{{ _("Welcome") }}</h1>
+
+{% if request.user.is_authenticated %}
+<div class="text-center"><img src="{% static 'zut/hug.png' %}"></div>
+{% endif %}
+{% endblock %}

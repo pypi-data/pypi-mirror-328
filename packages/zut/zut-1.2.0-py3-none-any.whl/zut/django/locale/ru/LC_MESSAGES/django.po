@@ -1,0 +1,101 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zut\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-18 01:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sébastien Hocquet <seb@ipamo.net>\n"
+"Language-Team: Sébastien Hocquet <seb@ipamo.net>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: zut/django/templates/zut/index.html:4 zut/django/templates/zut/index.html:7
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: zut/django/templates/zut/layout_base.html:22
+#: zut/django/templates/zut/layout_base.html:41
+msgid "Home"
+msgstr "Начало"
+
+#: zut/django/templates/zut/layout_base.html:42
+#: zut/django/templates/zut/profile.html:4
+#: zut/django/templates/zut/profile.html:8
+msgid "Profile"
+msgstr "Профиль"
+
+#: zut/django/templates/zut/layout_base.html:47
+msgid "Administration panel"
+msgstr "Панель администратора"
+
+#: zut/django/templates/zut/layout_base.html:51
+msgid "Log out"
+msgstr "Выйти"
+
+#: zut/django/templates/zut/layout_base.html:55
+#: zut/django/templates/zut/login.html:4 zut/django/templates/zut/login.html:7
+#: zut/django/templates/zut/login.html:45
+#: zut/django/templates/zut/register.html:32
+msgid "Log in"
+msgstr "Войти"
+
+#: zut/django/templates/zut/layout_base.html:57
+#: zut/django/templates/zut/login.html:47
+#: zut/django/templates/zut/register.html:4
+#: zut/django/templates/zut/register.html:7
+#: zut/django/templates/zut/register.html:31
+msgid "Register"
+msgstr ""
+
+#: zut/django/templates/zut/layout_base.html:67
+msgid "Close all"
+msgstr "Закрыть все"
+
+#: zut/django/templates/zut/layout_base.html:104
+msgid "Language"
+msgstr "Язык"
+
+#: zut/django/templates/zut/layout_base.html:104
+msgid ":"
+msgstr ":"
+
+#: zut/django/templates/zut/logged_out.html:4
+#: zut/django/templates/zut/logged_out.html:7
+msgid "Logged out"
+msgstr "Вышли из"
+
+#: zut/django/templates/zut/logged_out.html:9
+msgid "You have been logged out of the web site."
+msgstr "Вы вышли из веб-сайта."
+
+#: zut/django/templates/zut/logged_out.html:11
+msgid "Log in again"
+msgstr "Войти снова"
+
+#: zut/django/templates/zut/login.html:13
+#, python-format
+msgid ""
+"You are logged in as <b>%(username)s</b>, but you are not authorized to "
+"access this page. Do you want to log in as another user?"
+msgstr ""
+"Вы вошли как <b>%(username)s</b>, но у вас нет доступа к этой странице. Вы "
+"хотите войти в систему как другой пользователь?"
+
+#: zut/django/templates/zut/login.html:17
+msgid "You must log in to access this page."
+msgstr "Вы должны авторизоваться, чтобы получить доступ к этой странице."
+
+#: zut/django/templates/zut/profile.html:13
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: zut/django/templates/zut/register.html:13
+#, python-format
+msgid "You are logged in as <b>%(username)s</b>."
+msgstr "Вы вошли как <b>%(username)s</b>."

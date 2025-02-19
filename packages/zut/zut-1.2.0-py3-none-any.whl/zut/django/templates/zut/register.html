@@ -1,0 +1,38 @@
+{% extends 'zut/layout.html' %}
+{% load i18n zut %}
+
+{% block title %}{{ _("Register") }}{% endblock %}
+
+{% block content %}
+<h1>{{ _("Register") }}</h1>
+
+
+{% if request.method == 'GET' %}
+{% if user.is_authenticated %}
+<div class="alert alert-warning">
+    {% blocktrans with username=request.user.username %}You are logged in as <b>{{ username }}</b>.{% endblocktrans %}
+</div>
+{% endif %}
+{% endif %}
+
+
+<div class="row">
+<div class="col-lg-6">
+<form action="{% url 'zut:register' %}" method="post">
+    {% csrf_token %}
+
+    <input type="hidden" name="next" value="{% if next != '/logout' %}{{ next }}{% endif %}" />
+
+    {{ form | form_horizontal }}
+
+    <div class="row mb-3">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8">
+            <button type="submit" class="btn btn-primary">{{ _("Register") }}</button>
+            <a href="{% url 'zut:login' %}{% if next %}?next={{ next }}{% endif %}" class="btn btn-secondary" role="button">{{ _("Log in") }}</a>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+{% endblock %}

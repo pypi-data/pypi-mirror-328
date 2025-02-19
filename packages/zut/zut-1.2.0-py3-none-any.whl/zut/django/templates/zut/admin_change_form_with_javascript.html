@@ -1,0 +1,8 @@
+{% extends 'admin/change_form.html' %}
+{% load static %}
+
+{% block admin_change_form_document_ready %}
+{{ block.super }}
+<script src="{% static '/' %}{{ opts.app_label }}/admin/{{ opts.model_name }}_change_form.js">
+</script>
+{% endblock %}

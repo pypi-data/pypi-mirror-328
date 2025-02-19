@@ -1,0 +1,54 @@
+{% extends 'zut/layout.html' %}
+{% load i18n zut %}
+
+{% block title %}{{ _("Log in") }}{% endblock %}
+
+{% block content %}
+<h1>{{ _("Log in") }}</h1>
+
+
+{% if next and request.method == 'GET' %}
+{% if user.is_authenticated %}
+<div class="alert alert-warning">
+    {% blocktrans with username=request.user.username %}You are logged in as <b>{{ username }}</b>, but you are not authorized to access this page. Do you want to log in as another user?{% endblocktrans %}
+</div>
+{% else %}
+<div class="alert alert-warning">
+    {{ _("You must log in to access this page.") }}
+</div>
+{% endif %}
+{% endif %}
+
+
+<div class="row">
+<div class="col-lg-6">
+<form action="{% url 'zut:login' %}" method="post">
+    {% csrf_token %}
+
+    <input type="hidden" name="next" value="{% if next != '/logout' %}{{ next }}{% endif %}" />
+
+    {% if form.non_field_errors %}
+    <div class="alert alert-danger" role="alert">
+        {% for error in form.non_field_errors %}
+        {% if not forloop.first %}<br />{% endif %}{{ error }}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% for field in form %}
+    {{ field | field_horizontal }}
+    {% endfor %}
+
+    <div class="row mb-3">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8">
+            <button type="submit" class="btn btn-primary">{{ _("Log in") }}</button>
+            {% if registration_opened %}
+            <a href="{% url 'zut:register' %}{% if next %}?next={{ next }}{% endif %}" class="btn btn-secondary" role="button">{{ _("Register") }}</a>
+            {% endif %}
+        </div>
+    </div>
+</form>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'zut/layout.html' %}
+{% load i18n %}
+
+{% block title %}{{ _("Profile") }}{% endblock %}
+
+
+{% block content %}
+<h1>{{ _("Profile") }}</h1>
+
+<div class="row">
+<div class="col-lg-6"> {# Column 1 #}
+    <dl class="row">
+        <dt class="col-sm-4">{{ _("Username") }}</dt>
+        <dd class="col-sm-8">{{ object.username }}</dd>
+    </dl>
+</div>
+</div>
+{% endblock %}
