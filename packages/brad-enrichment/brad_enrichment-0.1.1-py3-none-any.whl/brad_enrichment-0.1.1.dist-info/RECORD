@@ -1,0 +1,10 @@
+brad_enrichment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brad_enrichment/brad_enrichment.py,sha256=JKcgxOV06E6Vs3E07Ilv8XSErlyZu4NkPg4xh1fF9MA,25853
+brad_enrichment/enrichment_cli.py,sha256=EA5eK6Y2fybKP17HqBWCK50xPwuZcMvwp4TdBkmDQ6I,2488
+brad_enrichment/enrichment_endpoints.py,sha256=btPiFHDLeeXOyHLQTfVsjy46HQheR475PNGNvoAKqks,15475
+brad_enrichment/enrichment_literature_database.py,sha256=Xm_KQDPqlTFPdUGHUuC0xaEXx4t5PK-9MXJANnLgzps,4911
+brad_enrichment-0.1.1.dist-info/METADATA,sha256=YT2iae1uKrz9AQUopzORsC5oJuCYRBYIbpxP2Dv-dVs,4413
+brad_enrichment-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+brad_enrichment-0.1.1.dist-info/entry_points.txt,sha256=Eo5L6C4LpF0ZletwVjBR454zsl5RK-2cAF4_gK--zWY,138
+brad_enrichment-0.1.1.dist-info/top_level.txt,sha256=ETRdCLneBFJLXz2lcWP-StMFidw3etsiKqqIIIwvfHo,16
+brad_enrichment-0.1.1.dist-info/RECORD,,

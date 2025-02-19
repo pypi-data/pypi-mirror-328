@@ -1,0 +1,3 @@
+[console_scripts]
+brad-builddb = brad_enrichment.enrichment_literature_database:cli
+brad-enrichment = brad_enrichment.brad_enrichment:cli
