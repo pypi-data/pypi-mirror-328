@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: ai4clinic
+Version: 0.0.4
+Summary: AI 4 Clinic
+Author: Katyna Sada del Real, Josefina Arcagni
+Author-email: ksada@unav.es
+Keywords: python,first package
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchmetrics>=0.11.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+AI 4 Clinic
