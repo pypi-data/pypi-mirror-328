@@ -1,0 +1,9 @@
+pydantic_ai_deepagent/__init__.py,sha256=IcDTs1pnAe33XnTfWk-sy2NtloFMy9ooGFumoUxiUY0,138
+pydantic_ai_deepagent/deepagent.py,sha256=hDlhUN88hzvTg4CQ5Vj6wEiesfElVM94ZQlOucPSPRU,3231
+pydantic_ai_deepagent/reasoning/__init__.py,sha256=oO3KCPNQPDADNfAlfebwcjhKhtxCAB5b0wvYNjJp2dY,45
+pydantic_ai_deepagent/reasoning/_utils.py,sha256=FnzhxWMTrFv3JxtzQYy41FuE_F5oKpnR2cD9sH3HOB0,9531
+pydantic_ai_deepagent/reasoning/deepseek.py,sha256=mS9B_JNbprzcQ3L7GntUaOy1qmNKMbWu2V-XJlmDMzs,13546
+pydantic_ai_deepagent-0.0.2.dist-info/METADATA,sha256=M9-Q-LnQc46nPQuD25w8c6x6IQ6EvNEwWrNM5J0oZLM,3162
+pydantic_ai_deepagent-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pydantic_ai_deepagent-0.0.2.dist-info/licenses/LICENSE,sha256=f6lY5S3N6SdAJXOsm69rSY9j0jo0jJRZ7fJvd8i2pyU,1497
+pydantic_ai_deepagent-0.0.2.dist-info/RECORD,,
