@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "ctrlai-core"
+version = "1.0.0"
+description = "Core protocol for Ctrl AI, an open standard for personalized AI knowledge"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ctrlai-com/ctrlai-core"
+repository = "https://github.com/ctrlai-com/ctrlai-core"
+documentation = "https://github.com/ctrlai-com/ctrlai-core/docs"
+keywords = ["ai", "protocol", "knowledge-management", "personalization"]
+packages = [
+    { include = "validation" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.0.0"
+jsonschema = "^4.0.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+black = "^23.7.0"
+isort = "^5.12.0"
+mypy = "^1.5.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "--cov=validation --cov-report=term-missing" 
