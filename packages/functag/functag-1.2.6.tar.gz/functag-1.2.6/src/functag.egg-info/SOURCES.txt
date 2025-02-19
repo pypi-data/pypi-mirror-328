@@ -1,0 +1,17 @@
+.gitignore
+.python-version
+README.md
+pyproject.toml
+uv.lock
+.github/workflows/ci.yaml
+.github/workflows/release.yaml
+src/functag/__init__.py
+src/functag/py.typed
+src/functag/registry.py
+src/functag.egg-info/PKG-INFO
+src/functag.egg-info/SOURCES.txt
+src/functag.egg-info/dependency_links.txt
+src/functag.egg-info/top_level.txt
+tests/annotate_test.py
+tests/requires_one_test.py
+tests/smoke_test.py
