@@ -1,0 +1,74 @@
+Metadata-Version: 2.2
+Name: bazooka
+Version: 1.0.0
+Summary: Reliable HTTP client
+Home-page: https://github.com/infraguys/bazooka
+Author: InfraGuys
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: pbr<=5.8.1,>=1.10.0
+Requires-Dist: requests<=2.32.3,>=2.12.0
+Requires-Dist: yretry<2.0.0,>=1.0.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+Bazooka - reliable HTTP client
+==============================
+
+.. image:: https://github.com/infraguys/bazooka/actions/workflows/tests.yaml/badge.svg
+    :target: https://github.com/infraguys/bazooka/actions/workflows/tests.yaml
+
+Features:
+
+* retries out of box
+* full-compatible interface with requests
+* by default client raises exception if status code isn't 2xx
+* curl-like logging out of box
+* correlation-id support
+
+
+Example
+=======
+
+.. code-block:: python
+
+  >>  from bazooka import client
+  >>
+  >>  c = client.Client()
+  >>
+  >>  print c.get('http://eis/').json()
+
+or
+
+.. code-block:: python
+
+  >>  import bazooka
+  >>
+  >>  c = bazooka.Client(...)
+
+
+Duration logging is enabled by default for client.
+You can use log_duration flag to enable duration logging
+
+.. code-block:: python
+
+  >>  c = client.Client(log_duration=False)
+
+or
+
+.. code-block:: python
+
+  >>  c.log_duration = False
+
