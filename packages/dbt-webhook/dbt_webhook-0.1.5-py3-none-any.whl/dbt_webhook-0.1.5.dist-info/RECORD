@@ -1,0 +1,9 @@
+dbt_webhook/__init__.py,sha256=bqIzQYox4LV0PCXs0OmS824_OOkybXbxALSLuDsA2zw,66
+dbt_webhook/config.py,sha256=XXFyeXDaoD0XdhmySILel8exzl_EFqUrqJE_jXqwucI,3038
+dbt_webhook/events.py,sha256=EsOZ8xtM5t1ZX-2uZKxQbg0SMvSoLrsyXvNvcK4RGzI,2758
+dbt_webhook/plugin.py,sha256=Jl52TX6zP_jVrsXj7Zpf_QR94ScFV-Qxh-HvYWtePtE,10429
+dbt_webhook-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbt_webhook-0.1.5.dist-info/METADATA,sha256=8ZP3ErtODMVeq62hURpsPwc_NRUxtB1-ONU_DgYHIN8,588
+dbt_webhook-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dbt_webhook-0.1.5.dist-info/top_level.txt,sha256=ACnIVOxP1jLINep8BKU0Vxpg8QYDoxgGJ3DLbq7wxQM,12
+dbt_webhook-0.1.5.dist-info/RECORD,,
