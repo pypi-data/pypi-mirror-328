@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: ortho_modificator
+Version: 0.0.2
+Summary: A python package for Orthophoto analysis and modification.
+Author-email: Marc Muehleisen <marc.muehleisen@gmx.de>
+License: MIT License
+Project-URL: Homepage, https://github.com/gismam/ortho_modificator
+Keywords: ortho_modificator
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: ortho_modificator[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# ortho_modificator
+
+
+[![image](https://img.shields.io/pypi/v/ortho_modificator.svg)](https://pypi.python.org/pypi/ortho_modificator)
+[![image](https://img.shields.io/conda/vn/conda-forge/ortho_modificator.svg)](https://anaconda.org/conda-forge/ortho_modificator)
+
+
+**A python package for Orthophoto analysis and modification.**
+
+
+-   Free software: MIT License
+-   Documentation: https://gismam.github.io/ortho_modificator
+
+
+## Features
+
+-   Create interactive maps with minimal lines of code
+-   Great tool for GIS
+-   hello world
