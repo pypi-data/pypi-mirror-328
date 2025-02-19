@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/puregen/__init__.py
+src/puregen/__main__.py
+src/puregen.egg-info/PKG-INFO
+src/puregen.egg-info/SOURCES.txt
+src/puregen.egg-info/dependency_links.txt
+src/puregen.egg-info/entry_points.txt
+src/puregen.egg-info/requires.txt
+src/puregen.egg-info/top_level.txt
