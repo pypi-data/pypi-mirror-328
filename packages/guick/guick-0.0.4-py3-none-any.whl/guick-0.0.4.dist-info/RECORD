@@ -1,0 +1,11 @@
+guick/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guick/_version.py,sha256=b8Tfyn46wV92NWm_uziWVxCW3zTxPV8EyFKcI9HhXcA,23
+guick/gui.py,sha256=I3006s9KC5A5OGxQSUEUUOzvTKG2usvoI6WIZ027jVQ,30401
+guick/history.toml,sha256=bFQUKSO_pwWNWBELt5UEiV6ALD20pMFEvv4wyj-WsZY,741
+guick/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guick/test_notebook.py,sha256=QIEOgMsZRvcG9Ma-qbdB2Fhv-gmxbFv4fAkOAoVkdk8,3924
+guick/test_notebook2.py,sha256=CxEB-JTAWcInzFBhkAcRgdbMsyHj6NuNJbn9YOFC8uc,2886
+guick-0.0.4.dist-info/METADATA,sha256=7eosE8VIUO5DljrtqI-qEFnep09ldkKqrgmYyVXn6Ak,3995
+guick-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+guick-0.0.4.dist-info/licenses/LICENSE.txt,sha256=A34jG5atT3iAOxoKnN7msrDjiak_b41AZCx3rsqnxdo,1080
+guick-0.0.4.dist-info/RECORD,,
