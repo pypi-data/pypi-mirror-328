@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+rapidus/__init__.py
+rapidus/client.py
+rapidus.egg-info/PKG-INFO
+rapidus.egg-info/SOURCES.txt
+rapidus.egg-info/dependency_links.txt
+rapidus.egg-info/requires.txt
+rapidus.egg-info/top_level.txt
