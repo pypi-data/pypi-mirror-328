@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: stegawave-cli
+Version: 0.1.0
+Summary: CLI tool for Stegawave API
+Author-email: Sean Fahey <sean@stegawave.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: typer>=0.9.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: rich>=13.3.5
+Requires-Dist: pydantic>=2.4.2
