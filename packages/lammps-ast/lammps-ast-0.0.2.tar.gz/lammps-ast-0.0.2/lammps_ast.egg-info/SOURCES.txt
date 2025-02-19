@@ -1,0 +1,8 @@
+README.md
+setup.py
+lammps_ast.egg-info/PKG-INFO
+lammps_ast.egg-info/SOURCES.txt
+lammps_ast.egg-info/dependency_links.txt
+lammps_ast.egg-info/entry_points.txt
+lammps_ast.egg-info/requires.txt
+lammps_ast.egg-info/top_level.txt
