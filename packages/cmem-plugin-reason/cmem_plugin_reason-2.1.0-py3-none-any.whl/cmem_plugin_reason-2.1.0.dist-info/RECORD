@@ -1,0 +1,14 @@
+cmem_plugin_reason/__init__.py,sha256=1TRDrF6M8TJkTmb9ZzCNDhf3VK_fNjxYCwgs3q6QfPI,25
+cmem_plugin_reason/doc/__init__.py,sha256=VN6cY1VzsHiDwP2ZVGiy4KeBBqkQzqcoFGMbpeRSqwQ,248
+cmem_plugin_reason/doc/reason_doc.md,sha256=mUKQDzZsC9W2TWFyhZYa-xgQpXR_zbTAs6ke8jsNKkU,7349
+cmem_plugin_reason/doc/validate_doc.md,sha256=1iVMjAmpJZiWiAxE4XhUijOXqfdu-NgzVkbSbZLtTXc,2579
+cmem_plugin_reason/file-icons--owl.svg,sha256=bDpcA-nEa2_Hj3bFvY0-ea65X5HgOsZJUiPy9hg4U_w,2542
+cmem_plugin_reason/fluent--brain-circuit-24-regular.svg,sha256=izlVVJFJfaaQvZ8LvDBanw7Ecy2EbYYU08MAkPfr9x0,2467
+cmem_plugin_reason/plugin_reason.py,sha256=ZwkccDqawvwNg5uBNnLzVOMHZ32Mlm-a1x9rGGMdISQ,24989
+cmem_plugin_reason/plugin_validate.py,sha256=q7IxDGNwDkXjTP6n0L0Ff5AKwQs7YeJi3kT699bMeVo,14343
+cmem_plugin_reason/robot.jar,sha256=kYkMLoPQ8JLdCHMTdvFUs2YQVEz76GhTN6G_ckTMqi0,95221545
+cmem_plugin_reason/utils.py,sha256=Y_r7WOdxyaD4RE2ILEztTjkKQm_SlRENUyIXkx0zEY4,8313
+cmem_plugin_reason-2.1.0.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_reason-2.1.0.dist-info/METADATA,sha256=bzwfTcjlpdM9BUqhsZS-IzlqdPpiIYNrZsV963ilwqY,2837
+cmem_plugin_reason-2.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+cmem_plugin_reason-2.1.0.dist-info/RECORD,,
