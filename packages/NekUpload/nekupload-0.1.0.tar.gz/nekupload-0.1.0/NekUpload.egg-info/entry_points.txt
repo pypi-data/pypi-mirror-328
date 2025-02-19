@@ -1,0 +1,3 @@
+[console_scripts]
+nekupload = NekUpload.cli:main
+nekupload-app = NekUpload.app:main
