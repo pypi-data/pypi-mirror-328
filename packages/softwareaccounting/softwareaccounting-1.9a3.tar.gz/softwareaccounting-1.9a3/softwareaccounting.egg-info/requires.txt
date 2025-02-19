@@ -1,0 +1,6 @@
+peewee
+PyYAML
+requests
+
+[post-receiver]
+Flask

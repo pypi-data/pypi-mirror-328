@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softwareaccounting"
+requires-python = ">=3.6"
+dependencies = [
+    "peewee",
+    "PyYAML",
+    "requests",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+post-receiver = ["Flask"]
+
+[tool.setuptools]
+packages = [
+    "sams",
+    "sams.aggregator",
+    "sams.loader",
+    "sams.output",
+    "sams.pidfinder",
+    "sams.sampler",
+    "sams.backend",
+    "sams.software",
+    "sams.xmlwriter",
+    "sams.listener",
+]
+
+script-files = [
+    "scripts/sams-aggregator.py",
+    "scripts/sams-collector.py",
+    "scripts/sams-post-receiver.py",
+    "scripts/sams-software-extractor.py",
+    "scripts/sams-software-updater.py",
+    "extras/sgas-sa-registrant/bin/sgas-sa-registrant",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "sams.__version__"}
+
+[tool.ruff]
+line-length = 140
+
+[tool.ruff.lint]
+extend-select = ["E", "I"]
