@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: raphaelcodex
+Version: 0.0.1
+Summary: ChioneRaphael
+Author: Chione Raphael
+Author-email: chioneraphael@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pyperclip
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
