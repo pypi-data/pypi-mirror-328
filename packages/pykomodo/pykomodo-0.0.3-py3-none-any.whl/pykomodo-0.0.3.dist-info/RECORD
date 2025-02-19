@@ -1,0 +1,12 @@
+pykomodo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykomodo/command_line.py,sha256=OY0aEs3qfmuQLfQC1VEJBAqmCg9u5Gjvp6ndji52oiQ,4070
+pykomodo/config.py,sha256=UddY0sDIRlsZApnlQF70VE7b9KMsOoY_3yqFPtB71jw,453
+pykomodo/core.py,sha256=b01G9FZPart7rb08FiUnOjegkygpCkfazgVekgSvaOc,3683
+pykomodo/enhanced_chunker.py,sha256=oFT5P3o0lzZL53eYg9_ZBWE8I9hDF3YclzEh7JGCNZY,12605
+pykomodo/multi_dirs_chunker.py,sha256=LpFSPETZoNc1E16YkHqJ1apxfYSV3lXrhsyKHL0FBw4,11068
+pykomodo-0.0.3.dist-info/METADATA,sha256=tvQFXsRp0eGcZ5XFyl0MCAp7dw8Mu0p-ulVeiPUDoAM,137
+pykomodo-0.0.3.dist-info/NOTICE,sha256=MSJviJuqCt9jL5g5PNX-DLJ-1vIJLkGc2HCKz9wSW_Q,74
+pykomodo-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pykomodo-0.0.3.dist-info/entry_points.txt,sha256=JhHUT9Iu1sYd1jR4JM_2pCLBdkeUB3JPMDu5Hii_2s8,54
+pykomodo-0.0.3.dist-info/top_level.txt,sha256=Bf9-R4Me6eIXynoavF5G0WETeFs3ZUrTFW-jd_IuqUw,9
+pykomodo-0.0.3.dist-info/RECORD,,
