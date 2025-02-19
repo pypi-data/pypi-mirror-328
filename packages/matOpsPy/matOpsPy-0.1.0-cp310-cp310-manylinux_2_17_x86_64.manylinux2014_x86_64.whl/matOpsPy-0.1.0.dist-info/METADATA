@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: matOpsPy
+Version: 0.1.0
+Summary: Python bindings for matOps library
+Author: Mayank Vats
+Author-email: dev-theorist.e5xna@simplelogin.com
+Keywords: Linear Algebra,Matrices
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pybind11>=2.13.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
