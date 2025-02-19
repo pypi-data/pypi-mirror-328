@@ -1,0 +1,10 @@
+ekispert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ekispert/client.py,sha256=R9K7v_kyuSdhb9h4OCmCcjSIJE8Vhfh7bZuMFzoMVa4,938
+ekispert/model.py,sha256=HfcQ0_Suh_8ywonAtbwyTSJVI-YGYYmqNaxVkvdG7hc,132
+ekispert/query.py,sha256=6iloT46LVojTHggk8GuBUtzVsmLMrah4dUIY8oRmlYw,148
+ekispert-0.1.0.dist-info/LICENSE,sha256=uyPx-GU935nEybODqPllenUk5ZicZ8-oHftdIH-ioJw,1092
+ekispert-0.1.0.dist-info/METADATA,sha256=63AIzGt7w2XRRMx-xHY9x14J11oGzGoalMeQ5D7EZJk,1712
+ekispert-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ekispert-0.1.0.dist-info/entry_points.txt,sha256=qnxo9zrm29gymyLIAgpYLgSmHbWUIr1WHmUI-4cdFsk,63
+ekispert-0.1.0.dist-info/top_level.txt,sha256=nD1S3fncbmuGn8REAMj9RZmnFJt06RmaDj76pJFgDPA,9
+ekispert-0.1.0.dist-info/RECORD,,
