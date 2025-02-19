@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "anabrid-redac-client"
+version = "0.1.1"
+description = "Client module for REDAC project's software infrastructure"
+authors = ["Daniel Thuerck <thuerck@anabrid.com>"]
+license = "3BSD"
+readme = "README.md"
+packages = [
+  { include = "anabrid", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lucipy = "^1.6.0"
+typer = "^0.15.1"
+python-dateutil = "^2.9.0.post0"
+urllib3 = "^2.3.0"
+aiohttp = "^3.11.12"
+yaspin = "^3.1.0"
+anabrid-redac-core = "^0.1.0"
+requests = "^2.32.3"
+
+[tool.poetry.scripts]
+redacli = "anabrid.redaccess.api.client.redacli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
