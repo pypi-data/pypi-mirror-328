@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cross_crypto/__init__.py
+cross_crypto/decrypt.py
+cross_crypto/encrypt.py
+cross_crypto/keygen.py
+cross_crypto_py.egg-info/PKG-INFO
+cross_crypto_py.egg-info/SOURCES.txt
+cross_crypto_py.egg-info/dependency_links.txt
+cross_crypto_py.egg-info/requires.txt
+cross_crypto_py.egg-info/top_level.txt

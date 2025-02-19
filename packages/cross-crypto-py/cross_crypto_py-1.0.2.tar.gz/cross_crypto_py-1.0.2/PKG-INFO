@@ -1,0 +1,100 @@
+Metadata-Version: 2.2
+Name: cross-crypto-py
+Version: 1.0.2
+Summary: Biblioteca de cifrado híbrido para la comunicación segura entre TypeScript y Python utilizando AES-GCM (256 bits) y RSA-OAEP (4096 bits).
+Home-page: https://github.com/acadyne/cross-crypto-py
+Author: Jose Fabian Soltero Escobar
+Author-email: acadyne@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/acadyne/cross-crypto-py#readme
+Project-URL: Source, https://github.com/acadyne/cross-crypto-py
+Project-URL: Tracker, https://github.com/acadyne/cross-crypto-py/issues
+Keywords: encryption,cryptography,security,typescript,python,rsa,aes,hybrid-encryption,cross-platform,secure-communication,data-protection,crypto,gcm,oaep
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: JavaScript
+Classifier: Framework :: AsyncIO
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography>=40.0.2
+Requires-Dist: pycryptodome>=3.17
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 🚀 Cross Crypto Py 🐍🔒  
+**Encriptación híbrida segura entre Python y TypeScript (AES-GCM + RSA-OAEP).**  
+
+## 📌 Introducción  
+Cross Crypto Py es una librería de encriptación híbrida que combina **AES-GCM** para cifrado simétrico y **RSA-OAEP** para el intercambio seguro de claves. Su principal ventaja es la interoperabilidad entre **Python** y **TypeScript**, permitiendo cifrar datos en un lenguaje y descifrarlos en el otro sin problemas.  
+
+## 🛠️ Uso  
+
+```python
+from cross_crypto.keygen import generateRSAKeys
+from cross_crypto.encrypt import encryptHybrid
+from cross_crypto.decrypt import decryptHybrid
+
+# 🔑 Generar un par de claves RSA de 4096 bits
+keys = generateRSAKeys()
+publicKey = keys["publicKey"]
+privateKey = keys["privateKey"]
+
+# 📩 Datos a encriptar
+data = { "mensaje": "Hola AcaDyne desde Python" }
+
+# 🔒 Encriptación (Cross Crypto)
+encrypted = encryptHybrid(data, publicKey)
+print("\n🛡️ Datos Encriptados:", encrypted)
+
+# 🔓 Desencriptación (Cross Crypto)
+decrypted = decryptHybrid(encrypted, privateKey)
+print("\n✅ Datos Desencriptados:", decrypted)
+```
+## 🎯 Características
+✅ Encriptación híbrida: AES-GCM + RSA-OAEP
+✅ Interoperabilidad total entre Python y TypeScript
+✅ Seguridad avanzada con RSA de 4096 bits
+✅ Ideal para cifrado de datos sensibles
+
+## 📦 Instalación
+
+### Python
+Instala el paquete con:
+
+```bash
+$ pip install cross-crypto-py
+```
+
+🔗 [PyPI](https://pypi.org/project/cross-crypto-py/)
+🔗 Repositorio de la versión en JavaScript/TypeScript: [Cross Crypto TS](https://github.com/acadyne/cross-crypto-ts)
+
+## 📄 Licencia
+Este proyecto se encuentra bajo la licencia MIT.
