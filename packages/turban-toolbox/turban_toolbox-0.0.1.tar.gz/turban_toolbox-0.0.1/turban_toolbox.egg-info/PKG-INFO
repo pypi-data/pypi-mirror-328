@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: turban-toolbox
+Version: 0.0.1
+Summary: Turbulence Analysis Toolbox
+Author-email: Achim Randelhoff <ara@akvaplan.niva.no>, Peter Holtermann <peter.holtermann@io-warnemuende.de>
+License: GPLv03
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+Turbulence Analysis Toolbox (Turban-Toolbox)
+============================================
+
+Welcome to the turban-toolbox
+
+
+
+
