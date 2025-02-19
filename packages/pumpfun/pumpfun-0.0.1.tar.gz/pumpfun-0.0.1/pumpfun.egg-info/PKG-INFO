@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pumpfun
+Version: 0.0.1
+Summary: pump.fun frontend API Wrapper for Python
+Author: Gian Glen
+Author-email: gianlopez.cv@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/netgian/pumpfun
+Project-URL: Documentation, https://frontend-api.pump.fun/api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# pump.fun API wrapper for Python
