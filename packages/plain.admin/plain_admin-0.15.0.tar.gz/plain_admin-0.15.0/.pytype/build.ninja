@@ -1,0 +1,93 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/base.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/cards/base.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.cards.base.imports
+  module = staff.cards.base
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.settings.imports
+  module = staff.impersonate.settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/tables.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/cards/tables.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.cards.tables.imports
+  module = staff.cards.tables
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/charts.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/cards/charts.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.cards.charts.imports
+  module = staff.cards.charts
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/permissions.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/permissions.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/settings.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.permissions.imports
+  module = staff.impersonate.permissions
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/core.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/querystats/core.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.querystats.core.imports
+  module = staff.querystats.core
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/cards/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/charts.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/tables.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.cards.__init__.imports
+  module = staff.cards.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/types.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/views/types.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.views.types.imports
+  module = staff.views.types
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/registry.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/views/registry.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.views.registry.imports
+  module = staff.views.registry
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/permissions.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.views.imports
+  module = staff.impersonate.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/querystats/middleware.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/core.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.querystats.middleware.imports
+  module = staff.querystats.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/base.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/views/base.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/registry.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/types.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/cards/__init__.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.views.base.imports
+  module = staff.views.base
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/middleware.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/permissions.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.middleware.imports
+  module = staff.impersonate.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/querystats/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/middleware.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.querystats.views.imports
+  module = staff.querystats.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/models.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/views/models.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/base.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.views.models.imports
+  module = staff.views.models
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/middleware.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/middleware.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/middleware.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/middleware.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.middleware.imports
+  module = staff.middleware
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/querystats/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.querystats.urls.imports
+  module = staff.querystats.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.urls.imports
+  module = staff.impersonate.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/config.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/config.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.config.imports
+  module = staff.config
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/views/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/models.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/registry.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/types.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.views.__init__.imports
+  module = staff.views.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/middleware.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.__init__.imports
+  module = staff.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/models.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/models.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.models.imports
+  module = staff.impersonate.models
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/toolbar.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/toolbar.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.toolbar.imports
+  module = staff.toolbar
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/templates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/templates.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/registry.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.templates.imports
+  module = staff.templates
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.default_settings.imports
+  module = staff.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/querystats/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/middleware.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.querystats.__init__.imports
+  module = staff.querystats.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/impersonate/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/middleware.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.impersonate.__init__.imports
+  module = staff.impersonate.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/impersonate/urls.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/querystats/urls.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/base.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/views/registry.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.urls.imports
+  module = staff.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/pyi/staff/dates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-staff/plain/staff/dates.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-staff/.pytype/imports/staff.dates.imports
+  module = staff.dates
