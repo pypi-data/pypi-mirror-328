@@ -1,0 +1,10 @@
+README.md
+setup.py
+./__init__.py
+./client.py
+./models.py
+bareos_restapi_client.egg-info/PKG-INFO
+bareos_restapi_client.egg-info/SOURCES.txt
+bareos_restapi_client.egg-info/dependency_links.txt
+bareos_restapi_client.egg-info/requires.txt
+bareos_restapi_client.egg-info/top_level.txt

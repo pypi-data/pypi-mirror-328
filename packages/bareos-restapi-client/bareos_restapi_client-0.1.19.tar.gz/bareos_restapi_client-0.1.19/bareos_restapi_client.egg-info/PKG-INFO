@@ -1,0 +1,58 @@
+Metadata-Version: 2.2
+Name: bareos-restapi-client
+Version: 0.1.19
+Summary: A client for Bareos REST API
+Home-page: https://github.com/yourusername/your-repo
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pydantic
+Requires-Dist: fastapi
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Bareos REST API Client
+
+`Bareos REST API` 에 대한 파이썬 클라이언트 모듈입니다.
+
+## 설치
+
+```bash
+pip install bareos_restapi_client
+```
+
+## 사용법
+
+```py
+# e.g.
+from bareos_restapi_client import models
+from bareos_restapi_client import BareosRestApiClient
+
+client = BareosRestApiClient(base_url='', username='', password='')
+
+client_data = models.clientResource(
+    name="testuser",
+    address="10.0.0.1",
+    password="supersecret",
+    connectionfromclienttodirector="yes",
+    connectionfromdirectortoclient="no",
+    heartbeatinterval="60",
+    tlsenable="no",
+    tlsrequire="no",
+    enabled="yes"
+)
+
+response = client.create_client(client_data=client_data)
+```
