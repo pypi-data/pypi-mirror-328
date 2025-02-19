@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: tiksing
+Version: 0.0.2
+Summary: tiksing
+Author: tiksing (singtok singtok)
+Author-email: <singtok@tiksing.com>
+Keywords: tiktok,tiktok,tiktok,tiktok,tiktok,tiktok
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: summary

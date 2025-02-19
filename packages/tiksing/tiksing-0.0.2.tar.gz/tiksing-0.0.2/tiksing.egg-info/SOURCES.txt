@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tiksing/__init__.py
+tiksing.egg-info/PKG-INFO
+tiksing.egg-info/SOURCES.txt
+tiksing.egg-info/dependency_links.txt
+tiksing.egg-info/top_level.txt
