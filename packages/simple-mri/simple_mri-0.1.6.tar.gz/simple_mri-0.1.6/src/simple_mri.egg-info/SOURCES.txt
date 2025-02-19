@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/simple_mri/__init__.py
+src/simple_mri/py.typed
+src/simple_mri/simple_mri.py
+src/simple_mri.egg-info/PKG-INFO
+src/simple_mri.egg-info/SOURCES.txt
+src/simple_mri.egg-info/dependency_links.txt
+src/simple_mri.egg-info/requires.txt
+src/simple_mri.egg-info/top_level.txt
+tests/test_affines.py
