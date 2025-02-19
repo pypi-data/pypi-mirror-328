@@ -1,0 +1,17 @@
+agda-2.7.0.1.dist-info/RECORD,,
+agda-2.7.0.1.dist-info/LICENSE,sha256=TFYGq7nMYwWoEhrDp5cpzftzCOrcwlXLKpDLsBkmqis,1066
+agda-2.7.0.1.dist-info/WHEEL,sha256=NW1RskY9zow1Y68W-gXg0oZyBRAugI1JHywIzAIai5o,109
+agda-2.7.0.1.dist-info/entry_points.txt,sha256=ZB9dqP6YQG11A8Z3WcgsbE0E47h7gawFlf-U08ovnqg,80
+agda-2.7.0.1.dist-info/top_level.txt,sha256=88XvtZ_oCo0WpIgK7LXBbbTuYah6mUZ3iqg0WClwRIA,5
+agda-2.7.0.1.dist-info/METADATA,sha256=jcwStHV6WZtiGAZyWVRd5maPmt2h2BK3tziCcgW7EZ0,4028
+agda/Binding.hs,sha256=poR7YrRRegKlj98eK7fUubWgaTnyReijiBReZhU8K6Y,1461
+agda/__init__.py,sha256=xk657W9yJE0RSSzniEn0k_3rGhGjYOworiGBH3mAciU,902
+agda/_binding.pyi,sha256=-Q2FcwtrVf3y98OaAjxq9tVvliPMC5kXj7QQ5EIfPfg,276
+agda/binding.def,sha256=x7gLyv2JWYW4bNIcn-2mQaMqx9liTEIhilaw-N6J144,26
+agda/binding.i,sha256=t_9pMVDZIaH8pu-9eRk9upwVLwVvicqBTW8k-lLe79A,1262
+agda/_binding.py,sha256=b3whtYkpZzHknfuyB1urdkzx-G4Ub-h4LoiFM9bF-HM,580
+agda/_binding.cpython-311-darwin.so,sha256=SndeOzmwjNlT_sww3fXr2_k_iNHgmeK1hGEpgUMw4MQ,152800880
+agda/Paths_Agda.hs,sha256=aIP2Qfyu_4Mgi0rVbGyV0e8M9Lhq4_J9rWeSLdT6W4g,796
+agda/__main__.py,sha256=NqBBt-d-LglK0xs_3PWpt2FCMS8y8E5ZYn_eeby6Af0,339
+agda/mode/__init__.py,sha256=efjwkiY_7OIqsq7mhy-HIfhH_PoLd3CyfHPbSMWwR2o,276
+agda/mode/__main__.py,sha256=OJSyPO6kUjnbFw6Ym0lYOLmaDCgHNITKu6KS6VPY2FY,354
