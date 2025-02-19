@@ -1,0 +1,15 @@
+exercise_client/__init__.py,sha256=VXF7Fe6T_8aVAj_c2RtPrQ0ReN22BCOum-mJE8DSF6A,21576
+exercise_client/config.py,sha256=RBwPtCQCKRJV11FP6ErY6HRJw07Ef60NqYeSJkHfg9E,270
+exercise_client/cutie.py,sha256=4tCtzT8VSRq8ncfq9YFHNuIdxzsQv2PrJPQxUDNan50,13691
+exercise_client/cutie_example.py,sha256=40K3HFe0nfirbEwSIPKOlrtqtjvjR879ZLipTMfvp5o,2107
+exercise_client/docker.py,sha256=NkdvcmN_uaZ5KXaFOT4mBUyvYZ6mFNKtxqRGtNXy0sc,6339
+exercise_client/gitlab.py,sha256=6j12xKBWD-R_I80lQDN-I1z36mV9htIIJcUtNTzMC4Q,1859
+exercise_client/jupyter.py,sha256=7CIAeeWeV11BnEOQIsCve14rQfNFnp3BeusKuNedcMY,9178
+exercise_client/select.py,sha256=WnjUAl2c-sUChgljZpgXOLyOqvWd4G639o7JK-qgv3o,4701
+exercise_client/utils.py,sha256=UUl1SZGyEnAks3aWaiiiQO2EN7SEidWWNAe4FmeEnS0,1267
+exercise_client-0.7.0.dist-info/LICENSE,sha256=Ae2ukwq_8nM76cA49TnSgZ0GKT3hmLV2Y8LMGBAPmOk,1068
+exercise_client-0.7.0.dist-info/METADATA,sha256=jtpGteC2l0u8gZ0ZROXqJYSa_eW522jbF6ltRLmIs3s,7048
+exercise_client-0.7.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+exercise_client-0.7.0.dist-info/entry_points.txt,sha256=vWmrjkH0oQWzxy1qV4BTkl4ivm_mrNghOA1fsVeL9ww,97
+exercise_client-0.7.0.dist-info/top_level.txt,sha256=iQ6Q7eBVYOYd9iQKs24nD0hbi75UdczDTIFJfLtivis,16
+exercise_client-0.7.0.dist-info/RECORD,,

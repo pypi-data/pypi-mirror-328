@@ -1,0 +1,3 @@
+[console_scripts]
+franklin = exercise_client:franklin
+franklin-jupyter = exercise_client:jupyter
