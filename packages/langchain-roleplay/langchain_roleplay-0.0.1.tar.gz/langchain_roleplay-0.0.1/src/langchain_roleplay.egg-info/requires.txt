@@ -1,0 +1,5 @@
+langchain>=0.3.17
+langgraph>=0.2.70
+pydantic>=2.10.6
+PyYAML>=6.0.2
+langchain-openai>=0.3.4
