@@ -1,0 +1,130 @@
+{
+  "created_at": 1739554160,
+  "default_sorting_field": "",
+  "enable_nested_fields": false,
+  "fields": [
+    {
+      "facet": false,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "name",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": true,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "type",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": false,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "comment",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": false,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "address",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": true,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "city",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": true,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "state",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": false,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "working_hours",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "facet": true,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "has_swimming_facilities",
+      "optional": false,
+      "sort": true,
+      "stem": false,
+      "store": true,
+      "type": "bool"
+    },
+    {
+      "facet": false,
+      "index": true,
+      "infix": false,
+      "locale": "",
+      "name": "unit_pricing_detail",
+      "optional": false,
+      "sort": false,
+      "stem": false,
+      "store": true,
+      "type": "string"
+    },
+    {
+      "name": "embedding",
+      "type": "float[]",
+      "embed": {
+        "from": ["product_name"],
+        "model_config": {
+          "model_name": "openai/text-embedding-3-large",
+          "api_key": "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"
+        }
+      }
+    }
+  ],
+  "name": "unidades",
+  "num_documents": 116,
+  "symbols_to_index": [],
+  "token_separators": []
+}
