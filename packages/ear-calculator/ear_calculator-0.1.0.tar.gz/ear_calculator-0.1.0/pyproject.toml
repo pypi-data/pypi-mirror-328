@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ear-calculator"
+version = "0.1.0"
+description = "A module to calculate Eye Aspect Ratio (EAR) from images"
+readme = "README.md"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "scipy",
+    "opencv-python",
+    "dlib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/ear-calculator"
+"Bug Tracker" = "https://github.com/yourusername/ear-calculator/issues"
