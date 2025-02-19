@@ -1,0 +1,10 @@
+np/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np/flight/__init__.py,sha256=DtGXy2rAzJEuGWuPXfzK1xe4y2puS0M9pZJrUfGNmAI,94
+np/flight/numpy_client.py,sha256=L7f4xdtaidPfvPIF7YyO-OZuHulHI-FSULX6acDWZmo,4572
+np/flight/numpy_server.py,sha256=6-e8zqBxOeS7lGKESQ-ZXp63Yzq0vcNKmgxPoEPvVWw,4941
+np/flight/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np/flight/utils/alter.py,sha256=WSzIgp4EJYPaylYTTbjoOJcgLeltbaKWqFuWkASkWvI,2485
+numpy_flight-0.0.4.dist-info/METADATA,sha256=_YwXEw0Bj0kwPWdxiS_u4NPPf0NcRz_2LUuz01c3ZUs,4931
+numpy_flight-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+numpy_flight-0.0.4.dist-info/licenses/LICENSE,sha256=iFK9pty9SZbssugIfrx-2NP22FL9L4u9sOw8v9m8Jzk,1083
+numpy_flight-0.0.4.dist-info/RECORD,,
