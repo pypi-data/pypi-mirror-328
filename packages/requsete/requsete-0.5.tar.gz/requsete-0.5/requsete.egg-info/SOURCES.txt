@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+requsete/__init__.py
+requsete.egg-info/PKG-INFO
+requsete.egg-info/SOURCES.txt
+requsete.egg-info/dependency_links.txt
+requsete.egg-info/top_level.txt
