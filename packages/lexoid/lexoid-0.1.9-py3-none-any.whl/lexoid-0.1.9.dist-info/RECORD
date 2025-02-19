@@ -1,0 +1,9 @@
+lexoid/api.py,sha256=EYyKwfdrjM94bslqTb7Db_wz0R2WioFPkJAqeDJJchY,8790
+lexoid/core/parse_type/llm_parser.py,sha256=eu6zcl_uHVJ7-t506yfQT4jHpg2QGHV2CznS9X12lLQ,10515
+lexoid/core/parse_type/static_parser.py,sha256=j3khirFnXq2j3IFEu0TsYWA5sHMpe_oQLFM9Uv3hScM,14100
+lexoid/core/prompt_templates.py,sha256=svSMH0yhm6ZjtOeTtUUEiCYi81ebVY9EZKPKP0Q921o,6311
+lexoid/core/utils.py,sha256=coVab6fCSSDpIN39WLQ6ciZVRiIx3qTsqjn2EbTmMks,18428
+lexoid-0.1.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lexoid-0.1.9.dist-info/METADATA,sha256=EegftW7ka6fSzaEos97N2-JPjkpO3tt4wyuL9oha014,4575
+lexoid-0.1.9.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+lexoid-0.1.9.dist-info/RECORD,,
