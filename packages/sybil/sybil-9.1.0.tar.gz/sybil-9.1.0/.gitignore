@@ -1,0 +1,11 @@
+/bin
+build
+/dist
+/*.egg-info
+/include
+/lib
+.coverage*
+_build/
+.*cache/
+pytestdebug.log
+__pycache__/

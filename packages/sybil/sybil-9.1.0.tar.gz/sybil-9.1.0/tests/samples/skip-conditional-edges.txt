@@ -1,0 +1,20 @@
+.. skip: next if(True, reason="skip 1")
+
+>>> raise Exception('should not run!')
+
+>>> run.append(1)
+
+.. skip: start if(False, reason="skip 2")
+
+These should both run:
+
+>>> run.append(2)
+
+>>> run.append(3)
+
+.. skip: end
+
+This should also run:
+
+>>> run.append(4)
+
