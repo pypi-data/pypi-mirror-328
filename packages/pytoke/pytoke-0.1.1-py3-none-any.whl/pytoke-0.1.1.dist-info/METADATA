@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: pytoke
+Version: 0.1.1
+Summary: A library for calculating fertility and parity scores with visualizations using tokenizers.
+Home-page: https://github.com/karimnihal/pytoke
+Author: Ada Zhang, Nihal Karim, Hamza Louzan, Victor Wei
+Author-email: abz200026@gmail.com, karimnihal@gmail.com, hamzalouzan5@gmail.com, victorwei0916@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pytoke
+
+**pytoke** is a Python library that calculates fertility and parity scores for text using tokenizers from the [transformers](https://github.com/huggingface/transformers) library. It also provides visualization tools to analyze token metrics across datasets.
+
+## Features
+
+- **Fertility Score:** Calculate the ratio of token count to word count for a given text.
+- **Parity Score:** Compare token counts between two texts (e.g., original and translated).
+- **TokenMetrics Class:** Easily process and visualize token metrics for a dataset.
+
+## Installation
+
+Install pytoke using pip:
+
+```bash
+pip install pytoke
+```
+## Works Cited
+
+Parity calculation from https://arxiv.org/abs/2305.15425 (page 3).
