@@ -1,0 +1,2 @@
+[console_scripts]
+dq = plmdp.cli.cli:main
