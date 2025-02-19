@@ -1,0 +1,2 @@
+[console_scripts]
+laco = laco._cli:cli.main
