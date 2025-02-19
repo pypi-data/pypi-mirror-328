@@ -1,0 +1,110 @@
+Metadata-Version: 2.3
+Name: vic2png
+Version: 0.4.1
+Summary: Utility for converting .VIC/.IMG images to compressed image formats.
+Author-email: Jacqueline Ryan <Jacqueline.Ryan@jpl.caltech.edu>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Dist: pvl == 1.3.2
+Requires-Dist: numpy >= 1.20
+Requires-Dist: pillow >= 9.0
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pyright ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: tox ; extra == "dev"
+Project-URL: Homepage, https://github.com/nasa-jpl/vic2png
+Project-URL: Issue Tracker, https://github.com/nasa-jpl/vic2png/issues
+Project-URL: Repository, https://github.com/nasa-jpl/vic2png
+Provides-Extra: dev
+
+# vic2png
+Utility for converting .VIC/.IMG images to compressed image formats.
+
+## Installation
+
+### From PyPI
+```bash
+pip install vic2png
+```
+
+### From Source
+```bash
+git clone https://github.com/nasa-jpl/vic2png
+cd vic2png/
+python3 -m venv venv # Optional
+source venv/bin/activate # Optional
+pip install .
+```
+
+## Usage
+
+### Command Line Interface
+
+```bash
+usage: vic2png [-h] [-o OUT] [-f FORMAT] [-dnmax DNMAX] [-dnmin DNMIN] [--silent] FILE
+
+positional arguments:
+  FILE                  Vicar or PDS .VIC/.IMG format file to be converted
+
+options:
+  -h, --help            show this help message and exit
+  -o OUT, --out OUT     Output directory or whole filename
+  -f FORMAT, --format FORMAT
+                        Output format, default is .png but can provide jpg or tif
+  -dnmax DNMAX          Max. DN value to clip the upper bound of data in the input image.
+  -dnmin DNMIN          Min. DN value to clip the lower bound of data in the input image.
+  --silent              If used, no output will be printed during execution.
+```
+
+### Example CLI Usage
+
+```bash
+# Basic conversion to PNG
+vic2png image.vic
+
+# Convert to JPEG with custom output path
+vic2png image.vic -o output/converted.jpg
+
+# Convert with DN value clipping (and tif format output)
+vic2png image.vic -dnmin 0 -dnmax 255 -f .tif
+```
+
+## Python Usage
+
+This package can be used directly in Python scripts:
+
+```python
+from vic2png import vic2png
+
+# Basic conversion
+out_png = vic2png("image.vic")
+
+# Advanced usage with all options
+out_path = vic2png(
+    source=Path("image.vic"),
+    out=Path("output/converted.jpg"),
+    fmt=".jpg",
+    dnmin=0,
+    dnmax=255,
+    verbose=True
+)
+```
+
+## Author
+
+[Jacqueline Ryan](mailto:Jacqueline.Ryan@jpl.caltech.edu), Jet Propulsion Laboratory
+
