@@ -1,0 +1,11 @@
+langchain_hana_prototype/__init__.py,sha256=A4aBR0HmGbx8R7p7TK76uT-5yIdjDy3rMzwVwu7eohA,478
+langchain_hana_prototype/embeddings.py,sha256=ueqyXPBmqIC5vJft2sHGtH8vQL51b8dD3vyQlD_loJI,1906
+langchain_hana_prototype/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_hana_prototype/query_constructors.py,sha256=jjOywUvIYazMYru-_m6eEsKBv2k-Jyxo1nZ00p-pjbM,1632
+langchain_hana_prototype/utils.py,sha256=7hq0-gkF4l3InTXbaCq7DmH-5Ewauu5yqqcXHcw0B-s,323
+langchain_hana_prototype/vectorstores.py,sha256=OI9hHo6d3W39DJG4xTdifZwl5vMmb61Xo3mzy0b3Jls,43940
+langchain_hana_prototype-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+langchain_hana_prototype-1.0.2.dist-info/LICENSES/Apache-2.0.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+langchain_hana_prototype-1.0.2.dist-info/METADATA,sha256=K251Bhg2gGkZZTb3GHga6xkk6L6YVz586Gu2eHVo0Lo,3678
+langchain_hana_prototype-1.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+langchain_hana_prototype-1.0.2.dist-info/RECORD,,
