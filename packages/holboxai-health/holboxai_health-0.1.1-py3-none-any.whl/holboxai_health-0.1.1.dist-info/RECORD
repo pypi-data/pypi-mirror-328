@@ -1,0 +1,9 @@
+holboxai_health/__init__.py,sha256=2Ga5vwNk3HnNw7WkhZFj9HlyqRm4TuCoGzTI2y9HvzM,37
+holboxai_health/aws_auth.py,sha256=k2x84bqTqmcDsbv7Qt2dZbthwS3LQKBQ5TP8snNrOVg,515
+holboxai_health/cli.py,sha256=HGm1djn3oo-0gNjWk30PhyUcxY67-v2FS5CRe_pjX1Q,802
+holboxai_health/transcribe.py,sha256=YFtbjn_cDjj62mi8Y_ulRqFKT7IjWq8p56dSQueEKmE,5157
+holboxai_health-0.1.1.dist-info/METADATA,sha256=fCQlD9stXH8bkMFI0jw87GrWgkv-7SXAnuvUpMtEABo,1792
+holboxai_health-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+holboxai_health-0.1.1.dist-info/entry_points.txt,sha256=h3aQSdGBoFbzlP0Du4Bt6wOFhPXHl-dsDLDHHk5hILY,62
+holboxai_health-0.1.1.dist-info/top_level.txt,sha256=WrhNn8rWsQ5OXIfbiFeIbjwggjM1K9RFxtvOGknjUC4,16
+holboxai_health-0.1.1.dist-info/RECORD,,
