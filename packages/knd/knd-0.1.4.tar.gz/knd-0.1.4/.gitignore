@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+memories/
+# Virtual environments
+.venv
+*.json
+*job*
+resumes
+*.parquet
+*.csv
+chroma_db

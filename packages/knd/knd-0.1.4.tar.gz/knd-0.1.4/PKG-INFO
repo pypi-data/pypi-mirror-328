@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: knd
+Version: 0.1.4
+Summary: Add your description here
+Author-email: Hamza Farhan <thehamza96@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: beanie>=1.29.0
+Requires-Dist: chromadb>=0.6.3
+Requires-Dist: crawl4ai>=0.4.247
+Requires-Dist: fastapi[standard]>=0.115.7
+Requires-Dist: google-generativeai>=0.8.4
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: ipywidgets>=8.1.5
+Requires-Dist: logfire>=3.2.0
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: marimo>=0.11.0
+Requires-Dist: markitdown>=0.0.1a3
+Requires-Dist: motor>=3.7.0
+Requires-Dist: polars>=1.20.0
+Requires-Dist: pyarrow>=19.0.0
+Requires-Dist: pydantic-ai>=0.0.21
+Requires-Dist: pydantic[email]>=2.10.6
+Requires-Dist: pymupdf4llm>=0.0.17
+Requires-Dist: pytest-asyncio>=0.25.3
+Requires-Dist: pytest-harvest>=1.10.5
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: python-fasthtml>=0.12.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sentence-transformers>=3.4.0
+Requires-Dist: streamlit>=1.42.0
+Requires-Dist: tenacity>=9.0.0
