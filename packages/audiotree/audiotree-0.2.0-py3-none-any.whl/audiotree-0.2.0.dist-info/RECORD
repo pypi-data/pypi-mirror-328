@@ -1,0 +1,15 @@
+audiotree/__init__.py,sha256=mPJilQMhscwEEpSIp3o-trY8AhuiGP3LLEdPzSzrp30,375
+audiotree/core.py,sha256=pJ0P9JtHUmFyegvTcRAGR8aZoO4d9n6tVVIz0jiB0EY,14442
+audiotree/loudness.py,sha256=gVWeDdajGAZLJLLzWj27v_ym_lI2oWffVb6DAhjqexw,1002
+audiotree/resample.py,sha256=4r89_Wqg7_M20WkGOl_siQuHWm5jJN5R88pEwt0qZa8,3067
+audiotree/datasources/__init__.py,sha256=83u479ZJS0ILw13SEgtlM8Hw6beFfQZFIyRh_FN9KoI,310
+audiotree/datasources/core.py,sha256=wmaYdVurmBRc-RIC8QeJqMrZs3OlS-k6dXuugaI5QHY,11563
+audiotree/transforms/__init__.py,sha256=66oc2kDc6NAixNejbA-JTp4hx1iFopWdhoe6ta4BKAc,704
+audiotree/transforms/base.py,sha256=fa7Rra2iGuUuPjc9h6pStcCZRbIA0o04fM61R7hLlZM,12580
+audiotree/transforms/core.py,sha256=rORI7C2VXdvDnRzprn_AX08Q97B2vChD9v0VJxT9AsQ,12168
+audiotree/transforms/helpers.py,sha256=noxQGWSMDAdw2SKrybrGDIcpdL6x7rQIalnJ3YTVsfY,6145
+audiotree-0.2.0.dist-info/LICENSE,sha256=LRM84sIpWKw_l_TCeYw2Ymh7gAfSIQrWu4MCxojQBNo,1068
+audiotree-0.2.0.dist-info/METADATA,sha256=xy7XYIxK1EubEbBWp73Db8u17xY4mV9MmSqfGD5oN14,1022
+audiotree-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+audiotree-0.2.0.dist-info/top_level.txt,sha256=4ns4VL5Amvv0HTL9iEE6XZgKtaLCXONSBAeTsJ4iBIo,10
+audiotree-0.2.0.dist-info/RECORD,,
