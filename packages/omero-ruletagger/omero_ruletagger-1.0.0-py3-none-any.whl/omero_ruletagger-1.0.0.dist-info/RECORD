@@ -1,0 +1,11 @@
+omero_ruletagger/__about__.py,sha256=8gUK1oYaXhUk46WdCstAwSwv-2t9nbK908_Lp_HQBEs,151
+omero_ruletagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omero_ruletagger/__main__.py,sha256=wXrAipi_7TixGQQtbH1BSrDnwhfr5z8KoPnBlsskrXk,9761
+omero_ruletagger/compiler.py,sha256=fgbJpU19ipkBhss__5wlcL8jUg7hvurSTP_YjDCnsb8,19701
+omero_ruletagger/getter.py,sha256=vFKYim-2QXxE2why82uSU3D38Kw5hYFZC06QFwSancw,5876
+omero_ruletagger/logic.py,sha256=Y-N8kUrZH_5Bg-v1Tn-2tAbcWBXsxPJAIX-waMGrgoQ,1920
+omero_ruletagger/tagger.py,sha256=1UUnmwgK_iR9PFlnqv10HTXMVv_thuCWJGZewobZHHE,13713
+omero_ruletagger-1.0.0.dist-info/METADATA,sha256=wTKTVwvRZWRHzbxxLqMAkVolOQm7GhwrOW3qN-l6B7I,5893
+omero_ruletagger-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+omero_ruletagger-1.0.0.dist-info/licenses/LICENSE.txt,sha256=g-g_MSYD9bY-dMaZqJP6LzxscgMsRtIX3wERzYAYc6Q,1095
+omero_ruletagger-1.0.0.dist-info/RECORD,,
