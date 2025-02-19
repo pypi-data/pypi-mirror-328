@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: cepy-dict
+Version: 2025.2.17
+Summary: A sleepy Chinese-english dictionary library
+Author-email: Erik Swanson <theerikswanson@gmail.com>
+License-Expression: GPL-3.0-or-later
+License-File: COPYING
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Cepy-dict -- A sleepy Chinese-english dictionary in python
+
+
+
+## CC-CEDICT
+
+This package includes
+[CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict).
+
+CC-CEDICT is a chinese-english dictionary licensed under the [CC BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. It is
+redistributed in this library under the GPLv3, a compatible license.
