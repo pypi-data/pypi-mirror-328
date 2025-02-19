@@ -1,0 +1,26 @@
+FROM python:3.11-slim AS python-base
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+ENV PYSETUP_PATH="/ampere"
+
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y 
+
+WORKDIR $PYSETUP_PATH
+
+# uv install dependencies
+COPY pyproject.toml uv.lock README.md ./
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --extra common --extra api --frozen --no-install-project --no-editable
+
+# APP CODE -------
+COPY .env .
+COPY ampere/ ./ampere
+
+# Ensure project dependencies are fully installed
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --extra common --extra api --frozen --no-editable
+
+EXPOSE 8000
+
+ENTRYPOINT [ "uv", "run", "uvicorn", "ampere.api.main:app", "--host", "0.0.0.0", "--port", "8000" ]

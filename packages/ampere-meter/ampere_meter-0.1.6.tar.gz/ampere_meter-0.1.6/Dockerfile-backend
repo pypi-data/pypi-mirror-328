@@ -1,0 +1,39 @@
+FROM python:3.11-slim AS python-base
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+ENV PYSETUP_PATH="/ampere" \ 
+    DAGSTER_HOME=/ampere/data/dagster
+
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y 
+
+
+WORKDIR $PYSETUP_PATH
+# uv install dependencies
+# viz - required for caching plots
+COPY pyproject.toml uv.lock README.md ./
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --extra common --extra backend --extra viz --frozen --no-install-project --no-editable
+
+
+# DBT ---------
+COPY dbt_project.yml .
+COPY profiles.yml .
+COPY packages.yml .
+COPY dbt_packages/ ./dbt_packages
+COPY target/ ./target
+COPY models/ ./models
+COPY data-tests ./data-tests
+
+# GCLOUD ---------
+COPY .config/ ./.config
+COPY .env .
+
+RUN uv run dbt deps --profiles-dir .
+
+# APP CODE -------
+COPY ampere/ ./ampere
+
+# sync the project
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --extra common --extra backend --extra viz --frozen --no-editable

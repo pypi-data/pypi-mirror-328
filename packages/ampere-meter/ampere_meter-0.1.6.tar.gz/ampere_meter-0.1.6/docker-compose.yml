@@ -1,0 +1,93 @@
+services:
+  backend_dagster_webserver:
+    deploy:
+      resources:
+        limits:
+          memory: 6144M
+    build:
+      context: .
+      dockerfile: ./Dockerfile-backend
+    entrypoint:
+      - uv
+      - run 
+      - dagster-webserver
+      - -h
+      - "0.0.0.0"
+      - -p
+      - "3000"
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.ampere_backend.rule=Host(`${AMPERE_BACKEND}`)"
+      - "traefik.http.routers.ampere_backend.entrypoints=websecure"
+      - "traefik.http.routers.ampere_backend.tls.certresolver=myresolver"
+
+      - "traefik.http.routers.ampere_backend.middlewares=auth"
+      - "traefik.http.middlewares.auth.basicauth.users=${BACKEND_ADMIN}:$$apr1$$4fgqfc7O$$BCgqHyFgMEcp0oRep4yoG0"
+    volumes:
+      - ampere_data:/ampere/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/io_manager_storage:/tmp/io_manager_storage
+    networks:
+      - jb-proxy
+  backend_dagster_daemon:
+    deploy:
+      resources:
+        limits:
+          memory: 6144M
+    build:
+      context: .
+      dockerfile: ./Dockerfile-backend
+    entrypoint:
+      - uv
+      - run
+      - dagster-daemon
+      - run
+    restart: on-failure
+    volumes: # Make docker client accessible so we can launch containers using host docker
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/io_manager_storage:/tmp/io_manager_storage
+      - ampere_data:/ampere/data
+    networks:
+      - jb-proxy
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile-api
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.api.rule=Host(`api-ampere.jeffbrennan.dev`)"
+      - "traefik.http.routers.api.entrypoints=websecure"
+      - "traefik.http.routers.api.tls.certresolver=myresolver"
+    volumes:
+      - ampere_data:/ampere/data
+    networks:
+      - jb-proxy
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile-frontend
+    volumes:
+      - ampere_data:/ampere/data
+    labels:
+        - "traefik.http.routers.frontend.rule=Host(`ampere.jeffbrennan.dev`)"
+        - "traefik.enable=true"
+        - "traefik.http.routers.frontend.entrypoints=websecure"
+        - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+    networks:
+        - jb-proxy
+volumes:
+  letsencrypt:
+    external: true
+  ampere_data:
+      driver: local
+      driver_opts:
+        type: 'none'
+        o: 'bind'
+        device: 'data'
+networks:
+  jb-proxy:
+    external: true

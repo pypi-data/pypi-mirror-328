@@ -1,0 +1,16 @@
+*.env
+*.idea
+/scratch
+data/*
+!data/dagster/dagster.yaml
+
+target/
+logs/
+dbt_packages/
+tmp*
+
+*.DS_Store
+*.pyc
+*.sh
+
+.config

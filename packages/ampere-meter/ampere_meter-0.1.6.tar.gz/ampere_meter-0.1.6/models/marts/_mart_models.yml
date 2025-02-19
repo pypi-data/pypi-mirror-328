@@ -1,0 +1,182 @@
+models:
+  - name: mart_downloads_summary
+    config:
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+      meta:
+        dagster:
+          group: bigquery_daily
+    constraints:
+      - type: primary_key
+        columns: [repo, download_date, group_name, group_value]
+    columns:
+      - name: repo
+        data_type: string
+      - name: download_date
+        data_type: timestamp with time zone
+      - name: group_name
+        data_type: string
+      - name: group_value
+        data_type: string
+      - name: download_count
+        data_type: uinteger
+  - name: mart_feed_events
+    config:
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+    constraints:
+      - type: primary_key
+        columns: [repo_name, user_name, event_id, event_type, event_action]
+    columns:
+      - name: repo_name
+        data_type: string
+      - name: user_name
+        data_type: string
+      - name: full_name
+        data_type: string
+      - name: event_id
+        data_type: string
+      - name: event_type
+        data_type: string
+      - name: event_action
+        data_type: string
+      - name: event_data
+        data_type: string
+      - name: event_timestamp
+        data_type: timestamp with time zone
+      - name: event_link
+        data_type: string
+  - name: mart_issues
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+
+    config:
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+    constraints:
+      - type: primary_key
+        columns: [repo, title]
+    columns:
+      - name: comments
+        data_type: bigint
+      - name: repo
+        data_type: string
+      - name: author
+        data_type: string
+      - name: title
+        data_type: string
+      - name: body
+        data_type: string
+      - name: date
+        data_type: string
+      - name: '"days old"'
+        data_type: bigint
+  - name: mart_issues_summary
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+
+    config:
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+    constraints:
+      - type: primary_key
+        columns: [repo]
+    columns:
+      - name: repo
+        data_type: string
+      - name: '"open issues"'
+        data_type: bigint
+      - name: '"median issue age (days)"'
+        data_type: double
+      - name: '"new issues (this month)"'
+        data_type: bigint
+      - name: '"closed issues (this month)"'
+        data_type: bigint
+  - name: mart_stargazers_pivoted
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+    columns:
+      - name: user_name
+        data_tests:
+          - unique
+  - name: mart_repo_summary
+    config:
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+    constraints:
+      - type: primary_key
+        columns: [repo_name, metric_type, metric_date]
+    columns:
+      - name: repo_name
+        data_type: string
+      - name: "metric_type"
+        data_type: string
+      - name: "metric_date"
+        data_type: date
+      - name: "metric_count"
+        data_type: usmallint
+  - name: mart_status_details
+    config:
+      materialized: view
+      contract:
+        enforced: true
+      on_schema_change: append_new_columns
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+    constraints:
+      - type: primary_key
+        columns: [model]
+    columns:
+      - name: model_type
+        data_type: string
+      - name: model_folder
+        data_type: string
+      - name: model
+        data_type: string
+      - name: page
+        data_type: string[]
+      - name: timestamp_col
+        data_type: string
+      - name: timestamp
+        data_type: timestamp with time zone
+      - name: records
+        data_type: uinteger
+        data_tests:
+          - not_null
+
+  - name: mart_status_summary
+    config:
+      materialized: view
+      contract:
+        enforced: true
+    meta:
+      dagster:
+        group: github_metrics_daily_4
+    columns:
+      - name: summary
+        data_type: string
+      - name: downloads
+        data_type: string
+      - name: feed
+        data_type: string
+      - name: issues
+        data_type: string
+      - name: network_followers
+        data_type: string
+      - name: network_stargazers
+        data_type: string

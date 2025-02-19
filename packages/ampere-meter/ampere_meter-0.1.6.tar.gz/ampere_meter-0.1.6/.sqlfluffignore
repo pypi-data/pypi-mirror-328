@@ -1,0 +1,6 @@
+/.venv/
+/dbt_packages/
+/target/
+/scripts/
+*.py
+models/helpers/helper_date_spine.sql

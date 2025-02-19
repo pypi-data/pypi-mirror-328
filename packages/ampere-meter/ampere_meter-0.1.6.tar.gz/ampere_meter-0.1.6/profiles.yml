@@ -1,0 +1,13 @@
+ampere:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "data/backend.duckdb"
+      extensions:
+        - delta
+      threads: 8
+      settings:
+        memory_limit: "4GB"
+        max_temp_directory_size: "125GB"
+        TimeZone: UTC
