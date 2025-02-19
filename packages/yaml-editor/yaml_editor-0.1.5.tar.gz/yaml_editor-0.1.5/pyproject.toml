@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "yaml-editor"
+version = "0.1.5"
+description = "A web-based YAML editor with tabular interface"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "yaml_editor"}]
+include = ["yaml_editor/templates/*"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.0"
+pyyaml = "^6.0"
+pydantic = "^1.10.7"
+jinja2 = "^3.1.2"
+
+[tool.poetry.scripts]
+yaml-editor = "yaml_editor.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
