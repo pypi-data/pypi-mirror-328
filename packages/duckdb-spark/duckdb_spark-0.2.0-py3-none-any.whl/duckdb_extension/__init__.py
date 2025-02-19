@@ -1,0 +1,1 @@
+from .duckdb_extension import register_duckdb_extension
