@@ -1,0 +1,2 @@
+[console_scripts]
+arb-xl = arb_xl.main:main
