@@ -1,0 +1,94 @@
+<!----------------------------------------------------------
+- ベースとなるコンテンツ
+------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>7Bank-Brain</title>
+        <!-- <meta name="description" content="ディスクリプションを入力"> -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <!-- スタイルシート(全体レイアウト、サイドバー)-->
+        <link rel="stylesheet" href="/static/css/base.css">
+        <link rel="stylesheet" href="/static/css/sidebar.css">
+    </head>
+
+    <body>
+        <div class="app">
+            <!-- ヘッダー -->
+            <div class="header">
+                <image src="/static/images/logo.png" class="logo">
+                <image src="/static/images/logo_title.png" class="logo">
+            </div>
+            <div class="main">
+                <!-- サイドバー -->
+                <div class="sidebar">
+                    <!-- チャットメニュー -->
+                    <a href="/chat" class="menu">
+                        <img src="/static/images/chat.png" alt="">チャット
+                    </a>
+                    <!-- プロンプトテンプレートメニュー -->
+                    <a href="/chat_prompt_template" class="submenu">
+                        <img src="/static/images/chat_prompt_template.png" alt="">プロンプトテンプレート
+                    </a>
+                    <!-- チャット履歴メニュー　-->
+                    <a href="/chat_history" class="submenu">
+                        <img src="/static/images/chat_history.png" alt="">チャット履歴
+                    </a>
+                    <!-- お気に入りを表示 -->
+                    <div class="clipped_thread_list_container">
+                        {% for clipped_thread in clipped_thread_list %}
+                        <!-- お気に入りボタン(14文字に調整) -->
+                        <a href="{{url_for('views.chat_with_thread', thread_id=clipped_thread.thread_id)}}" class="clipped_thread">・{{clipped_thread.thread_name[:14]}}</a><br>
+                        {% endfor %}
+                    </div>
+                    <!-- 高度チャットメニュー -->
+                    <a href="/advanced_chat" class="menu">
+                        <img src="/static/images/advanced_chat.png" alt="">高度チャット(o1)
+                    </a>
+                    <!-- AIクローンメニュー -->
+                    <a href="/ai_clone" class="menu">
+                        <img src="/static/images/ai_clone.png" alt="">AIクローン
+                    </a>
+                    <!-- 社内情報検索メニュー -->
+                    <a href="/internal_search" class="menu">
+                        <img src="/static/images/internal_search.png" alt="">社内情報検索
+                    </a>
+                    <!-- カスタム検索メニュー　-->
+                    <a href="/internal_custom_search_doc" class="submenu">
+                        <img src="/static/images/internal_custom_search.png" alt="">カスタム検索
+                    </a>
+                    <!-- カスタム検索ドキュメントを表示 -->
+                    <div class="clipped_item_list_container">
+                        {% for clipped_doc in clipped_doc_list %}
+                        <!-- クリップリンク(14文字に調整) -->
+                        <a href="{{url_for('views.internal_custom_search', doc_id=clipped_doc.doc_id)}}"
+                            class="clipped_item">・{{clipped_doc.doc_name[:14]}}</a><br>
+                        {% endfor %}
+                    </div>
+                    <!-- Web検索メニュー -->
+                    <a href="/web_search" class="menu">
+                        <img src="/static/images/web_search.png" alt="">Web検索
+                    </a>
+                    <!-- データ分析メニュー -->
+                    <a href="/analysis" class="menu">
+                        <img src="/static/images/analysis.png" alt="">データ分析
+                    </a>
+                    <!-- 画像生成メニュー -->
+                    <a href="/image_gen" class="menu">
+                        <img src="/static/images/image_gen.png" alt="">画像生成
+                    </a>
+                    <!-- コミュニティメニュー -->
+                    <a href="https://teams.microsoft.com/l/channel/19%3Ac9f76f9b4ff14bbf8b0e15472bd6f4cf%40thread.tacv2/21_7Bank-Brain%E5%88%A9%E7%94%A8%E8%80%85%E5%B0%82%E7%94%A8%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3?groupId=6a5893c7-e1e3-41eb-a6fe-2267ff9a6187&tenantId=c5e7b887-3271-49ce-be8f-5b8b0443ae09" class="menu" target="_blank" rel="noopener noreferrer">
+                        <img src="/static/images/community.png" alt="">コミュニティ
+                    </a>
+                </div>
+                <!-- メイン領域 -->
+                {% block main_content %}
+                チャットなど個別コンテンツを実装
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

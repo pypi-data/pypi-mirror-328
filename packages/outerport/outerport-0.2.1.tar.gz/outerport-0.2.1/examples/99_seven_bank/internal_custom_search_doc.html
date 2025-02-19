@@ -1,0 +1,78 @@
+<!----------------------------------------------------------
+- 社内情報カスタム検索のドキュメント画面のコンテンツ
+------------------------------------------------------------>
+{% extends "base_and_sidebar.html" %}
+
+{% block main_content %}
+<link rel="stylesheet" href="/static/css/internal_custom_search_doc.css">
+<div class="internal_custom_search_doc_content">
+    <!-- ファイルアップロードボタン -->
+    <div class="internal_custom_search_doc_upload_container">
+        <form action="{{ url_for('views.internal_custom_search_doc_upload') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="internal_custom_search_upload_doc" class="internal_custom_search_doc_upload_file" accept=".pdf, .docx, .doc, .pptx, .ppt, .xlsx, .xls, .txt, .csv">
+            <button type="submit" class="internal_custom_search_doc_upload_button" onclick="disableButton()">アップロード</button>
+            <label class="internal_custom_search_doc_upload_note">※アップロードファイルは1週間後に自動削除されます</label>
+        </form>
+    </div>
+
+    <!-- ドキュメントテーブル　-->
+    <div class="internal_custom_search_doc_table_container">
+        <table class="internal_custom_search_doc_table">
+            <thead class="internal_custom_search_doc_table_head">
+                <!-- テーブル見出し表示 -->
+                <tr class="internal_custom_search_doc_table_head_row">
+                    <th scope="col" class="internal_custom_search_doc_table_head_row_cell">クリップ</th>
+                    <th scope="col" class="internal_custom_search_doc_table_head_row_cell">直近利用</th>
+                    <th scope="col" class="internal_custom_search_doc_table_head_row_cell">ドキュメント名</th>
+                    <th scope="col" class="internal_custom_search_doc_table_head_row_cell">　</th>
+                </tr>
+            </thead>
+            <tbody class="internal_custom_search_doc_table_body">
+                {% for doc in doc_list %}
+                <!-- ドキュメント情報表示 -->
+                <tr class="internal_custom_search_doc_table_body_row">
+                    <!-- クリップ設定/解除チェックボックス-->
+                    <td class="internal_custom_search_doc_table_body_row_cell">
+                        <form method="POST" action="{{ url_for('views.internal_custom_search_clip_doc') }}">
+                            <input type="checkbox" class="internal_custom_search_doc_clipped" {% if doc.is_clipped %} checked {% endif %}
+                                onchange="this.form.submit()">
+                            <input type="hidden" name="hidden_doc_id" value="{{doc.doc_id}}" />
+                            <input type="hidden" name="hidden_is_clipped" value="{{not doc.is_clipped}}" />
+                        </form>
+                    </td>
+                    <!-- 直近利用ラベル -->
+                    <td class="internal_custom_search_doc_table_body_row_cell">{{doc.last_use_date}}</td>
+                    <!-- ドキュメント名リンクボタン(20文字に調整) -->
+                    <td class="internal_custom_search_doc_table_body_row_cell_docname">
+                        <a href="{{url_for('views.internal_custom_search', doc_id=doc.doc_id)}}"
+                            class="internal_custom_search_doc_name">{{"{:　<20}".format(doc.doc_name)}}</a>
+                    </td>
+                    <!-- 削除ボタン-->
+                    <td class="internal_custom_search_doc_table_body_row_cell">
+                        <form method="POST" action="{{ url_for('views.internal_custom_search_del_doc') }}">
+                            <button type="button" class="internal_custom_search_doc_delete" onclick="this.form.submit()">
+                                <img src="/static/images/internal_custom_search_doc_trash_can.png">
+                            </button>
+                            <input type="hidden" name="hidden_doc_id" value="{{doc.doc_id}}" />
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script type="text/javascript">
+
+    // 送信ボタンが押されたら、ボタンの表示文字を変更してボタン無効化
+    function disableButton() {
+        document.getElementById('exec_prompt_form').submit();
+        const button = document.getElementById('send_prompt_button');
+        button.textContent = "アップロード中"
+        button.disabled = true;
+    }
+</script>
+{% endblock %}
+

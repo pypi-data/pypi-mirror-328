@@ -1,0 +1,71 @@
+<!----------------------------------------------------------
+- 社内情報検索コンテンツ
+------------------------------------------------------------>
+{% extends "base_and_sidebar.html" %}
+
+{% block main_content %}
+<link rel="stylesheet" href="/static/css/internal_search.css">
+<div class="internal_search_content">
+    <!-- ドキュメント名 -->
+    <div class="internal_search_doc_name">{{doc_name}}の検索</div>
+
+    <!-- 入力エリア(検索依頼テキストエリアと送信ボタン)-->
+    <form method="POST" action="{{ url_for('views.internal_search_exec_prompt') }}" id="exec_prompt_form"
+        class="internal_search_input_container">
+        <textarea class="internal_search_input_text_area" placeholder="検索したいことを入力してください。" name="internal_search_prompt"
+            oninput="resizeTextarea(this)">{% if prompt %}{{prompt}}{% endif %}</textarea>
+        <button type="submit" class="internal_search_input_send_button" id="send_prompt_button"
+            onclick="disableButton()">送信</button>
+        <input type="hidden" name="hidden_doc_name" value="{{doc_name}}" />
+        <input type="hidden" name="hidden_doc_id" value="{{doc_id}}" />
+        <!-- 送信中のインジケーター -->
+        <div id="internal_search_loadingIndicator" class="internal_search_loadingIndicator"></div>
+    </form>
+
+    {% if internal_search_result %}
+    <!-- 検索結果エリア -->
+    <div class="internal_search_result_container">
+        <div class="internal_search_result_icon"></div>
+        <div class="internal_search_result_text">{{internal_search_result.message | cr | safe}}</div>
+        <!-- エビデンスと理由エリア-->
+        <div class="internal_search_result_evidences_and_reasons_container">
+            {% for evidence_and_reason in internal_search_result.evidences_and_reasons %}
+            <div class="internal_search_result_evidence_title">エビデンス</div>
+            <div class="internal_search_result_evidence">{{evidence_and_reason[0]}}</div>
+            <div class="internal_search_result_reason_title">理由</div>
+            <div class="internal_search_result_reason">{{evidence_and_reason[1]}}</div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- JavaScript -->
+<script type="text/javascript">
+
+    // 送信ボタンが押されたら、ボタンの表示文字を変更してボタン無効化
+    function disableButton() {
+        document.getElementById('exec_prompt_form').submit();
+        const button = document.getElementById('send_prompt_button');
+        button.textContent = "応答待ち"
+        button.disabled = true;
+
+        // インジケーターを表示
+        document.getElementById("internal_search_loadingIndicator").style.display = "block";
+    }
+
+    // テキストエリアの高さ自動調整
+    function resizeTextarea(element) {
+        if (element.value === "") {
+            element.style.height = "48px"; // 空なら高さを初期値に戻す
+        } else {
+            let prevHeight = element.offsetHeight; // 変更前の高さ
+            element.style.height = "auto"; // 高さをリセット
+            let newHeight = element.scrollHeight; // 新しい高さ
+            element.style.height = newHeight + "px"; // 高さを更新
+        }
+    }
+</script>
+
+{% endblock %}
+
