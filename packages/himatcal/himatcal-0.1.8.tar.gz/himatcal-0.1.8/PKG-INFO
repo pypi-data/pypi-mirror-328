@@ -1,0 +1,63 @@
+Metadata-Version: 2.3
+Name: himatcal
+Version: 0.1.8
+Summary: High throughput material calculation
+License: BSD-3
+Author: Congcong Sun
+Author-email: suncongcong000@foxmail.com
+Requires-Python: >=3.11,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: quacc (>=0.12.1,<0.13.0)
+Project-URL: Documentation, https://CCSun21.github.io/himatcal/
+Project-URL: Repository, https://github.com/CCSun21/himatcal
+Project-URL: changelog, https://github.com/CCSun21/himatcal/blob/main/CHANGELOG.md
+Description-Content-Type: text/markdown
+
+# himatcal
+
+![PyPI - version](https://img.shields.io/pypi/v/himatcal)
+![supported python versions](https://img.shields.io/pypi/pyversions/himatcal)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/himatcal)
+
+Some scripts to perform material simulation.
+
+> [!WARNING]
+> 🚧 This repository is still under construction. 🚧
+
+## Installation
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management. To install the package and its dependencies:
+
+1. First, ensure you have Poetry installed:
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   ```
+
+2. Clone the repository and install dependencies:
+   ```bash
+   git clone https://github.com/CCSun21/himatcal.git
+   cd himatcal
+   poetry install
+   ```
+
+3. To activate the virtual environment:
+   ```bash
+   poetry shell
+   ```
+
+Optional dependencies are organized into groups. To install specific groups:
+- For molecule-related features: `poetry install --with molecule`
+- For development tools: `poetry install --with dev`
+
+
