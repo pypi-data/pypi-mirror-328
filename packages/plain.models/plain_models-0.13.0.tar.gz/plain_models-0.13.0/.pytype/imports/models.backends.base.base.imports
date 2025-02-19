@@ -1,0 +1,8 @@
+plain/models/backends/utils /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/imports/default.pyi
+models/backends/base/validation /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/backends/base/validation.pyi
+plain/signals/dispatch/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/imports/default.pyi
+models/backends/signals /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/backends/signals.pyi
+plain/models/db /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/imports/default.pyi
+models/transaction /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/transaction.pyi
+plain/runtime/__init__ /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/imports/default.pyi
+plain/utils/functional /Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/imports/default.pyi

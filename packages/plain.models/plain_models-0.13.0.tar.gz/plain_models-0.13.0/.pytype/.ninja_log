@@ -1,0 +1,4 @@
+# ninja log v5
+6	534	1737048750790295108	/Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/backends/__init__.pyi	6de108922546a6ce
+534	1032	1737048751293580892	/Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/sql/constants.pyi	17d7355956b484b2
+1	1372	1737048933620447767	/Users/davegaeddert/Developer/dropseed/plain/plain-models/.pytype/pyi/models/transaction.pyi	b98e88b74dde199f
