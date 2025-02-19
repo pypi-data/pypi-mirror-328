@@ -1,0 +1,8 @@
+numpy
+Cython
+nbsphinx
+matplotlib
+fitsio
+numpydoc
+jupyter
+sphinx-astropy[confv2]
