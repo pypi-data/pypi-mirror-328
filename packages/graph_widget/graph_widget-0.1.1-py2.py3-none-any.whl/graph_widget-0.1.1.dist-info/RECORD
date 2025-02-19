@@ -1,0 +1,7 @@
+graph_widget/__init__.py,sha256=po2uGW1LyVcGtwqhnzziX2w-GvhdQXOzXX2eCtn20pU,836
+graph_widget/dev.py,sha256=kekvbT2FeDGy1Tj7RMpmxOgQi0LO8lSAA7ALLgMh4KI,2630
+graph_widget/static/widget.css,sha256=VstfyWUCycyslS9ArQtV1VPVVGGX95hcQ2Qm7DvG2rs,42
+graph_widget/static/widget.js,sha256=A8D1Rfpd-lxX-8g43pc1kA0khZXkJikzAg69bA1JBqw,8135
+graph_widget-0.1.1.dist-info/METADATA,sha256=eDl3JqUw74xvckDOG6To4R3VfAY9ngh-C3WPvTOA6JY,1610
+graph_widget-0.1.1.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+graph_widget-0.1.1.dist-info/RECORD,,
