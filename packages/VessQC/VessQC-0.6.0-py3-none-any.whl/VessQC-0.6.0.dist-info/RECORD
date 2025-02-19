@@ -1,0 +1,11 @@
+vessqc/__init__.py,sha256=aeFmgWny4f1GPHbMIWjSY2Y4FK4cQLxM8cCLyTZHwTU,201
+vessqc/_widget.py,sha256=nhnbDoi3vshQ08wRnfyyymthsFg1DwndBbnfpCuIP_I,25570
+vessqc/napari.yaml,sha256=4FTnHm50BThz6nus0yTIqAFuJZ2eOQoL2EsGmqcLRmI,471
+vessqc/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vessqc/_tests/test_widget.py,sha256=Oav_P2IPQugFLzIrSXMfhzeB25tJkCVZRmjc4cfa9mM,17299
+VessQC-0.6.0.dist-info/LICENSE,sha256=5HB0BbxPanh6Sg9tMTZDtzb1uI88N05n0o_sFUsEZL0,1515
+VessQC-0.6.0.dist-info/METADATA,sha256=vj_-LB54KSvRDKIAELHAmG4SCcb15Izu26HNB0GS9c0,5949
+VessQC-0.6.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+VessQC-0.6.0.dist-info/entry_points.txt,sha256=Bh3UlgplNofGdC_0pj3K3UD-5sw_k-QQ40gyP34ckoQ,46
+VessQC-0.6.0.dist-info/top_level.txt,sha256=mvfuMdOC4h0VAM_Dg3c_wV8fht-D71EdEKo2RGgzKnI,7
+VessQC-0.6.0.dist-info/RECORD,,
