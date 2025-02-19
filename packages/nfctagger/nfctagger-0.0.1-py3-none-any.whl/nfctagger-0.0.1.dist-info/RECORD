@@ -1,0 +1,14 @@
+nfctagger/__init__.py,sha256=_N_jGte0yIPAb4Q12KVN7wSEn22VJP1696Me3FIZczo,75
+nfctagger/__main__.py,sha256=f3ltiN8Go8rSQfgC77hYZ7JItTApOfsJ_adzbknsf7c,3932
+nfctagger/data.py,sha256=fvx7cLerGkNeRQfcjJbg3NnVsh9BeL1DrUh2itWHjTk,2288
+nfctagger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nfctagger/tlv.py,sha256=5rAcfAPaSae9RiH12Jarrm_ks1_eN3OSuPFhIyenznY,1269
+nfctagger/devices/__init__.py,sha256=RYBWw3810yFnxF3kWxZPgStSnTi8dkipI0T6KxNqcLg,2244
+nfctagger/devices/acr122.py,sha256=UfO3T19st5Jt_2utMQTdZg4G8GX8YGFOj_aXWHy52DI,1978
+nfctagger/devices/ntag.py,sha256=bsM7NNcaodPOdSGHOCccR8lJSM5YC5wBsDmeRuMS5N8,5519
+nfctagger/devices/pcsc.py,sha256=oeRbmWG8dadNDDkXS2ud4h2QUQ4fhD8HYk1tKnvbCtY,1571
+nfctagger/devices/pn53x.py,sha256=n83JZBnSsz0JS3-HSBaDStfxukyKiPoNzudpO4Hp6EE,2040
+nfctagger-0.0.1.dist-info/METADATA,sha256=s4-uRl8hvQrC6oW91XOHZq0Om-6wX9Wk-GElMcNulJA,1582
+nfctagger-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nfctagger-0.0.1.dist-info/licenses/LICENSE,sha256=AK1MrTxFybavAiPmc6JQg-SPxLhuSoJiYImDUbhH6C0,1071
+nfctagger-0.0.1.dist-info/RECORD,,
