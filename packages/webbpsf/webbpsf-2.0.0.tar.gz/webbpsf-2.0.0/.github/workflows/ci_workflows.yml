@@ -1,0 +1,49 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  retrieve_cache:
+    uses: spacetelescope/webbpsf/.github/workflows/retrieve_cache.yml@beda656c80a0254e6f80649d9c9c49235634522f  # v1.4.0
+    with:
+      minimal: true
+  tests:
+    needs: [ retrieve_cache ]
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Try Python 311
+            os: ubuntu-latest
+            python: '3.11'
+            toxenv: py311-test
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938  # v4.2.0
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3  # v5.2.0
+      with:
+        python-version: ${{ matrix.python }}
+
+    - name: Install Python dependencies
+      run: pip install tox tox-conda>=0.2
+
+    - name: Get WebbPSF Data
+      uses: actions/cache@v4  # v4.0.2
+      with:
+        path: ${{ needs.retrieve_cache.outputs.cache_path }}
+        key: ${{ needs.retrieve_cache.outputs.cache_key }}
+
+    - name: Set WebbPSF data path
+      run: echo "WEBBPSF_PATH=${{ needs.retrieve_cache.outputs.cache_path }}/stpsf-data/" >> $GITHUB_ENV
+
+    - name: Check conda info
+      run: conda info
+
+    - name: Run Sphinx doc build
+      run: tox -e ${{ matrix.toxenv }}

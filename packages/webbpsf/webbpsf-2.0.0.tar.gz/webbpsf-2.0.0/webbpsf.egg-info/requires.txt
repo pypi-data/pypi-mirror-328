@@ -1,0 +1,16 @@
+stpsf>=1.5.2
+
+[docs]
+nbsphinx
+sphinx
+stsci_rtd_theme
+sphinx-astropy
+sphinx-automodapi
+sphinx-issues
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest
+pytest-astropy
