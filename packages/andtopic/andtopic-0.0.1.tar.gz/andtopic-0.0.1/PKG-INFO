@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: andtopic
+Version: 0.0.1
+Summary: A placeholder package for andtopic brand.
+Author-email: Shoichi Seto <seto@andtopic.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# andTopic
+
+This is a placeholder Python package for the "andTopic" brand.
+It currently does nothing, but will be updated in the future.
