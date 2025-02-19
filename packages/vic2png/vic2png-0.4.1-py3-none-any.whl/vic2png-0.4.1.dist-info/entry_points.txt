@@ -1,0 +1,3 @@
+[console_scripts]
+vic2png=vic2png.cli:main
+
