@@ -1,0 +1,8 @@
+nextcloud_micos_export-0.5.5.dist-info/METADATA,sha256=zkuNdGVxhHml45Y-A3kUqtdesyptOnjPxWa9c0QAltw,555
+nextcloud_micos_export-0.5.5.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nextcloud_micos_export-0.5.5.dist-info/entry_points.txt,sha256=jUPmzx85O2tDIaOLbKsCN6URrKJN601BQ9nuhtZlk00,96
+nextcloud_micos_export/__init__.py,sha256=8VmmXW3cLcPNv0DLSvgfI_3hx-ZpsPh1uMULTp5ltJ4,319
+nextcloud_micos_export/__main__.py,sha256=QcEkr3iKO8M4uwCu4OY2OOz4Ov1oIU6La8goxbc5yXg,9106
+nextcloud_micos_export/file_name_models.py,sha256=FzbFME0tGMF5DXvwkd19W0kI9p4ryoKAo9SD4zKrS3c,2371
+nextcloud_micos_export/settings.py,sha256=wEZqDpbfCSzW40flsOkBL8TJ4OG4-dXZno7J7SrhU0g,3503
+nextcloud_micos_export-0.5.5.dist-info/RECORD,,
