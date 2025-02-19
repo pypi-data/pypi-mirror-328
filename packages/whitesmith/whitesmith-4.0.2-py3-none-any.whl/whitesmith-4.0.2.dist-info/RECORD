@@ -1,0 +1,16 @@
+CHANGELOG.rst,sha256=nI7gy-UYBL5lJanx55XXTcFKII91FAtNf4fMd8WgGDM,1580
+whitesmith-4.0.2.dist-info/METADATA,sha256=BcxD0i4HtQkftUmgzdLxU34_qIp0cb6lw42HkU-SxFQ,2372
+whitesmith-4.0.2.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+whitesmith-4.0.2.dist-info/entry_points.txt,sha256=mRsTZk0McUlmKGTUajRJX7NUsEbkGHLAO7ROLb21wA4,74
+whitesmith-4.0.2.dist-info/licenses/LICENSE,sha256=O24cf-QWT1Q3vBNfLySFaaXMkICtLxpROkdYyg5Q59g,1080
+whitesmith/__init__.py,sha256=QqFVNBTX5_illFkCrn1Myl63RXoK-woghZsnSCcnWa4,239
+whitesmith/entrypoint.py,sha256=Tz5X3NpHhMPPBylb-4_7LncdnzrIKTV_qcroj1KN9G0,1196
+whitesmith/generate_handlers.py,sha256=5TrFlcVBvsI3QHnK1wPUgLuv8dpdfC9ee_tWA2Jr-vU,4941
+whitesmith/model.py,sha256=LHF-yMfyrvtyxIA5p3XuHNrO8o6l1XmIjiDEHYoWddk,1380
+whitesmith/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whitesmith/router.py,sha256=nZ2Vu0JztzxjxuMZg6zGgKSZKG05oL7BvrQj3wPlW9A,1648
+whitesmith/templates/conftest.jinja2,sha256=zXtSaAwr6JK7KIkZxpO1Nl5lI9l8LpxaL-36RTelL90,350
+whitesmith/templates/fixtures.jinja2,sha256=Eyn3ZMzOeQLawcjRKvltmB0mt-CB5nDymzqDtz2xXXI,896
+whitesmith/templates/handlers.jinja2,sha256=VLuMQDAMj1wJlcs7dBiuBiu6gzKfco5KoIy4WquDj9E,1232
+whitesmith/transport.py,sha256=7MQ3TIPMtjwx-ciZGSF-iiFPj0VGmk-bjqkHeSeOFno,1168
+whitesmith-4.0.2.dist-info/RECORD,,
