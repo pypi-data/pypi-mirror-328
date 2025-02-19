@@ -1,0 +1,13 @@
+magnific/__init__.py,sha256=yezr8qkGnIqboQs46fx_3gKS68yah-ZGq_ZdD8hXr0I,615
+magnific/conversation.py,sha256=yJVM3rTey3hFLfK0YBycAS4wxB6i0y7VQFqg0Ph6e9U,4501
+magnific/evaluation.py,sha256=JpsPYnhFHGqPmIlIlaVBa2JB5jk3wAAEY8SpzledFw8,296
+magnific/llm_config.py,sha256=vDhjuU9bpOd59F9-pSm-KpE7Ex8MVDmsRAM6ETNGYIA,252
+magnific/llm_providers.py,sha256=XPD7s-_lMigt6w8SRpcHZog1g1MkcIlLEsc9jJM2doI,10659
+magnific/test_runner.py,sha256=ldzVU7RexbUV3-TJ-SeEUCbFHImccYm4xxqIM__ntuc,3652
+magnific/evaluators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnific/evaluators/evalrunner.py,sha256=Bj-_aLRhu8d3h06lTdeQgZvMsHFgMi4XEIMZdBo_7SU,1694
+magnific/evaluators/evaluator.py,sha256=RqCXl6XqRXyK0cBiqJxltT6jpiRktc1_ljnIm3aprvU,699
+magnific_llm_evals-0.0.2.dist-info/METADATA,sha256=pb7wYprpQzKNlAq_8bE35H__i0dd2PkB0svb8VRi1GE,13866
+magnific_llm_evals-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+magnific_llm_evals-0.0.2.dist-info/top_level.txt,sha256=_Z9lERkPj8BYuVyQhaTtff1wbHcKJW_sQkLfJyjWCtE,9
+magnific_llm_evals-0.0.2.dist-info/RECORD,,
