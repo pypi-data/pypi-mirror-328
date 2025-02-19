@@ -1,0 +1,2 @@
+[console_scripts]
+search-ai = search_ai:run_search_ai

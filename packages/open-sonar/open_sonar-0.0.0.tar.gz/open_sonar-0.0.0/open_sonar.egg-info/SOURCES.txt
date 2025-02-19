@@ -1,0 +1,9 @@
+README.md
+setup.py
+open_sonar.egg-info/PKG-INFO
+open_sonar.egg-info/SOURCES.txt
+open_sonar.egg-info/dependency_links.txt
+open_sonar.egg-info/entry_points.txt
+open_sonar.egg-info/top_level.txt
+search-ai/__init__.py
+search-ai/bin/search-ai

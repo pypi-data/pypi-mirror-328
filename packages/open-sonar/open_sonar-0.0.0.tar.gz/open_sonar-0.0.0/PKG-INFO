@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: open-sonar
+Version: 0.0.0
+Summary: Still in development. Do not use till version 0.1.0.
+Author: Rohan Adwankar
+Author-email: rohan.adwankar@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: summary
+
+Porting over the go functionality to python.
+Do not use till version 0.1.0.
