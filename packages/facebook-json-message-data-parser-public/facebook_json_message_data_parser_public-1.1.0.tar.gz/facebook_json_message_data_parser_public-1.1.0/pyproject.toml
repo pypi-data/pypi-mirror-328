@@ -1,0 +1,35 @@
+[project]
+name = "facebook-json-message-data-parser-public"
+version = "1.1.0"
+description = "Facebook JSON Message Parser and MongoDB Uploader"
+authors = [
+    { name = "tadeasf", email = "business@tadeasfort.com" },
+]
+dependencies = [
+    "tqdm>=4.67.1",
+    "pymongo>=4.11.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+fb_json_decoder = "facebook_json_message_data_parser_public.facebook_json_message_data_parser:main"
+fb_json_decoder_upload = "facebook_json_message_data_parser_public.mongo.mongo_handler:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.build]
+includes = [
+    "src/facebook_json_message_data_parser_public",
+]
