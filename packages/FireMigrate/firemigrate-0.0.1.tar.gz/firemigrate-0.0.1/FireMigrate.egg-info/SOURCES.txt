@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireMigrate/__init__.py
+FireMigrate.egg-info/PKG-INFO
+FireMigrate.egg-info/SOURCES.txt
+FireMigrate.egg-info/dependency_links.txt
+FireMigrate.egg-info/top_level.txt
