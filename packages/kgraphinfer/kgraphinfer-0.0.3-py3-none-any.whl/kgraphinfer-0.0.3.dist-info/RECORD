@@ -1,0 +1,11 @@
+kgraphinfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphinfer/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphinfer/kgraphservice_infer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphinfer/logic_infer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphinfer/parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgraphinfer/parser/kgraph_infer_parser.py,sha256=5c7uXRM46hh7LaApL_WRIY4M9vgpCqHwtLCTVsB9JHw,10309
+kgraphinfer-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kgraphinfer-0.0.3.dist-info/METADATA,sha256=gNUKCFNlJgS4ji5PtuNGaE32i4WR_0B1KFc_9gJZSYo,824
+kgraphinfer-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+kgraphinfer-0.0.3.dist-info/top_level.txt,sha256=KPQOw5mLc45GnmySRMWPW5XKhq3u1AU2PrsDYkgZL-8,12
+kgraphinfer-0.0.3.dist-info/RECORD,,
