@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffidm"
+version = "0.0.2"
+description = "Parallelized differentiable IDM computation layer for traffic simulation"
+authors = [
+  { name="Sanghyun Son", email="shh1295@umd.edu" },
+  { name="Laura Zheng", email="lyzheng@umd.edu" },
+]
+license = { file = "LICENSE" }
+readme = "INSTALL.md"
+requires-python = ">=3.7"
+keywords = ["traffic", "parallelized", "differentiable", "trajectory", "optimization"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+# Optional: specify the directory of your package
+# and any dependencies needed at runtime
+[project.urls]
+Homepage = "https://github.com/SonSang/diffidm"
+
+[tool.setuptools.packages.find]
+where = ["src"]
