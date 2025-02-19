@@ -1,0 +1,2 @@
+[console_scripts]
+stegawave = stegawave.cli:app
