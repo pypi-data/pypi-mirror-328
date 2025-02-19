@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+tablefiller/__init__.py
+tablefiller/generator.py
+tablefiller/schema.py
+tablefiller/types.py
+tablefiller.egg-info/PKG-INFO
+tablefiller.egg-info/SOURCES.txt
+tablefiller.egg-info/dependency_links.txt
+tablefiller.egg-info/requires.txt
+tablefiller.egg-info/top_level.txt
+tests/test_generator.py
+tests/test_types.py
