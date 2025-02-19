@@ -1,0 +1,9 @@
+README.md
+setup.py
+sinapy/__init__.py
+sinapy.egg-info/PKG-INFO
+sinapy.egg-info/SOURCES.txt
+sinapy.egg-info/dependency_links.txt
+sinapy.egg-info/entry_points.txt
+sinapy.egg-info/requires.txt
+sinapy.egg-info/top_level.txt
