@@ -1,0 +1,11 @@
+pymosp/__init__.py,sha256=VDBdEoRbDJBb8KijPVPdyqX0J4zo7cWf1UfHiF9Mlfs,71
+pymosp/api.py,sha256=jgX5e5JOHpdnm0YZg9o5yovs4aScFS8c700YZwXOsb0,3913
+pymosp/exceptions.py,sha256=gqjobCow3cclJNPf2DNorjf3tlZzSCar8lby8wzV200,208
+pymosp/mospobject.py,sha256=tc03lw9TB61HRifp_CvLNtuM7wDysXCpg55VJzfw54k,219
+pymosp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymosp-0.5.3.dist-info/AUTHORS.md,sha256=SO5Du1vbXGLaOE4TqwI3VsQ2IzFiLB0qCIym0CMvluo,365
+pymosp-0.5.3.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pymosp-0.5.3.dist-info/METADATA,sha256=vFHAXBmML6FEm0ehsgP0DHQwPzqPcubKS0Sglbv10sY,4521
+pymosp-0.5.3.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+pymosp-0.5.3.dist-info/entry_points.txt,sha256=o1--KfwuFR0cYS-_5JOwAzRf_xgTL6LnAjkOI521Psk,42
+pymosp-0.5.3.dist-info/RECORD,,
