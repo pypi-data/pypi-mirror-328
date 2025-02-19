@@ -1,0 +1,17 @@
+[project]
+name = "grabip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "awade12", email = "awade75009@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+grabip = "grabip:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
