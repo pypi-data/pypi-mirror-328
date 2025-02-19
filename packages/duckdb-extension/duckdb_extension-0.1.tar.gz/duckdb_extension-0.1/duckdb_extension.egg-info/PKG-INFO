@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: duckdb-extension
+Version: 0.1
+Summary: A custom PySpark extension for writing data to DuckDB
+Home-page: https://github.com/yourusername/duckdb_extension
+Author: Channabasav Angadi
+Author-email: channuangadi077@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DuckDB Extension for PySpark
+
+This is a custom PySpark extension that allows writing data from PySpark DataFrames into DuckDB.
+
+## Installation
+
+To install the extension, you can use `pip`:
+
+```bash
+
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+duckdb_extension/__init__.py
+duckdb_extension/duckdb_extension.py
+duckdb_extension/example_usage.py
+duckdb_extension.egg-info/PKG-INFO
+duckdb_extension.egg-info/SOURCES.txt
+duckdb_extension.egg-info/dependency_links.txt
+duckdb_extension.egg-info/requires.txt
+duckdb_extension.egg-info/top_level.txt
