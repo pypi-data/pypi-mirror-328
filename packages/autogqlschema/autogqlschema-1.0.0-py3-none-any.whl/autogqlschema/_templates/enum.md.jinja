@@ -1,0 +1,10 @@
+```{gql:enum} {{ signature }}
+
+{% if description %}
+{{ description }}
+
+{% endif %}
+{% for child in children %}
+{{ renderer.render(child) }}
+{% endfor %}
+```
