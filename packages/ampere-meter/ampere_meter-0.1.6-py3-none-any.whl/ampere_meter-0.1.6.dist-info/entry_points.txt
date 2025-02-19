@@ -1,0 +1,2 @@
+[console_scripts]
+ampere = ampere.cli.app:app
