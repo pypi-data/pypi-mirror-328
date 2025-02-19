@@ -1,0 +1,10 @@
+czifile/__init__.py,sha256=SAdabxOEoZD2SdiddUrdcHl2sPoIkDj7oJtZgdhadGI,126
+czifile/__main__.py,sha256=QdJqNru-wK2KdOTl3H_0p0OGQ3kWD07wDe21ahXc29Q,157
+czifile/czi2tif.py,sha256=o6Q1kadOcng7yUNOBEWtGCpiuyIt1fnCLd4MUTM6EKo,835
+czifile/czifile.py,sha256=6xT1WedKgL5uTC4y1jVR1skqp7g9PAb9UjL2hRWfpvA,47980
+czifile-2019.7.2.1.dist-info/LICENSE,sha256=SY6CVJ5YikwXXkRn0YKIxlqno2ZZUKVG8XmDd3v_haA,1535
+czifile-2019.7.2.1.dist-info/METADATA,sha256=uw15ITfkKgYhknNlC-BlnNBk2kDNPNCiaD4RwipmX38,5325
+czifile-2019.7.2.1.dist-info/WHEEL,sha256=umevUEtYglx3BsmRdkbeexA0ajsvOK25YhJUBycYWFg,97
+czifile-2019.7.2.1.dist-info/entry_points.txt,sha256=cxvl6yt0Ds89AzzYquFzUfOm7HkxIruYCzFXfmjrPlI,81
+czifile-2019.7.2.1.dist-info/top_level.txt,sha256=hdEmsKpnw8yvkTy66XLliE2ZLcf1fgu71ylOTGr-U9s,8
+czifile-2019.7.2.1.dist-info/RECORD,,
