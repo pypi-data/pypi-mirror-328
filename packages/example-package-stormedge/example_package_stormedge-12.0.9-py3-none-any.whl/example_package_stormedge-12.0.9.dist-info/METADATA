@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: example_package_stormedge
+Version: 12.0.9
+Summary: xxx
+Home-page: http://www.baidu.com
+Author: ZZL
+Author-email: sdfds@qq.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
