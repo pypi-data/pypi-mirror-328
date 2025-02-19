@@ -1,0 +1,9 @@
+gitbook_scraper/__init__.py,sha256=-ETeg4T7QE8dRWCeyya_x2uF5YWIJdkqBesbi2Cytjg,527
+gitbook_scraper/cli.py,sha256=_Azjwid9DCGJQgg-OucOQalpEl_UvL3nWggqubOnEro,2888
+gitbook_scraper/exceptions.py,sha256=_DSLP67evKZAadEse5-VX_ZantyOL7omojr6-5uRsKI,561
+gitbook_scraper/scraper.py,sha256=iXdiF1EG2BhlRZutgL-RFDZfukkZtpZzK6HRqr28ooU,18922
+gitbook_scraper-0.1.1.dist-info/METADATA,sha256=jhFKAOUm0kXUgfkwos7QuSy3OIpLTKvB1KooUOxMsVc,3930
+gitbook_scraper-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gitbook_scraper-0.1.1.dist-info/entry_points.txt,sha256=HpWKdLg0q2ls6B-UYKH6SRPjxELBMrU9ebSRbtw81kw,61
+gitbook_scraper-0.1.1.dist-info/licenses/LICENSE,sha256=x3g4ndLHRDmQpKfxpuyxG5LJRUxKt0CzqQkkhUNu_L0,1062
+gitbook_scraper-0.1.1.dist-info/RECORD,,
