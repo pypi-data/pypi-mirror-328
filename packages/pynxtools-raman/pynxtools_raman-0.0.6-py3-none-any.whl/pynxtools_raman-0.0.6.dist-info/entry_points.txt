@@ -1,0 +1,5 @@
+[console_scripts]
+download_rod_file = pynxtools_raman.rod.rod_get_file:trigger_rod_download
+
+[pynxtools.reader]
+raman = pynxtools_raman.reader:RamanReader
