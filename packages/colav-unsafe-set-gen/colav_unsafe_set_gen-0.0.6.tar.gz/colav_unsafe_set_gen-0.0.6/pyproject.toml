@@ -1,0 +1,23 @@
+[project]
+name = "colav_unsafe_set_gen"
+version = "0.0.6"
+description = "A custom unsafe_set generator for dynamic vessels based on COLAV: Indices of interest."
+authors = [
+    {name = "Ryan",email = "r.mckee@qub.ac.uk"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "scipy (>=1.15.1,<2.0.0)",
+    "numpy (>=2.2.3,<3.0.0)"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["setuptools>=61.0", "poetry-core>=2.0.0,<3.0.0"]
+build-backend = "setuptools.build_meta"
+
