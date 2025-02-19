@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+adt/__init__.py
+adt/examples.py
+adt.egg-info/PKG-INFO
+adt.egg-info/SOURCES.txt
+adt.egg-info/dependency_links.txt
+adt.egg-info/top_level.txt
+tests/test.py

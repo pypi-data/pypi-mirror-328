@@ -1,0 +1,104 @@
+# PROJECT
+# =====
+
+[project]
+name = "adt"
+dynamic = ["version"]
+description = "Algebraic Data Types in Python"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+authors = [
+    { name = "Lewis Gaul", email = "lewis.gaul@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/LewisGaul/python_adt/"
+Issues = "https://github.com/LewisGaul/python_adt/issues/"
+Documentation = "https://adt.readthedocs.io/"
+
+[build-system]
+requires = ["setuptools >= 61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+license-files = []  # https://github.com/pypa/setuptools/issues/4759#issuecomment-2547778989
+
+[tool.setuptools.packages.find]
+include = ["adt"]
+
+[tool.setuptools.dynamic]
+version = { attr = "adt.__version__" }
+
+# TOOLS
+# =====
+
+# BLACK
+# -----
+[tool.black]
+line-length = 88
+target_version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+    | \.git/
+    | .*venv.*/
+    | __pycache__/
+  )
+)
+'''
+
+
+# ISORT
+# -----
+[tool.isort]
+# Make compatible with Black
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+# Other options
+order_by_type = true
+lines_after_imports = 2
+skip = ""
+skip_glob = "*venv*"
+
+
+# PYTEST
+# ------
+[tool.pytest.ini_options]
+testpaths = "tests/"
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+python_files = "*test.py"
+python_classes = "*Tests, *Test"
+python_functions = "test_*"
+
+
+# COVERAGE
+# --------
+[tool.coverage.run]
+omit = [
+    "*venv*/**"
+]
+
+[tool.coverage.report]
+omit = []
+exclude_lines = [
+    "pass",
+    "if __name__ == .__main__.:",
+    "return NotImplemented",
+    "raise NotImplementedError",
+]
+precision = 1
