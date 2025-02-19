@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: svenson
+Version: 0.0.1
+Summary: svenson is a test project for trainning purpose
+Author-email: kunmi Adebanjo <kunmi.i.a@outlook.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/khunmi/svenson
+Keywords: svenson
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: svenson[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# svenson
+
+
+[![image](https://img.shields.io/pypi/v/svenson.svg)](https://pypi.python.org/pypi/svenson)
+[![image](https://img.shields.io/conda/vn/conda-forge/svenson.svg)](https://anaconda.org/conda-forge/svenson)
+
+
+**svenson is a test project for trainning purpose**
+
+
+-   Free software: MIT License
+-   Documentation: https://khunmi.github.io/svenson
+    
+
+## Features
+
+-   TODO

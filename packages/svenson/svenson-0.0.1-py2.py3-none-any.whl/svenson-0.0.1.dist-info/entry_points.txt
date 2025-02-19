@@ -1,0 +1,2 @@
+[console_scripts]
+svenson = svenson.cli:main
