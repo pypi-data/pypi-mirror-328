@@ -1,0 +1,2 @@
+[console_scripts]
+iopathlib = iopathlib.cli:cli.main
