@@ -1,0 +1,2 @@
+[console_scripts]
+ez_manage_ui = ez_manage_tool:initUI
