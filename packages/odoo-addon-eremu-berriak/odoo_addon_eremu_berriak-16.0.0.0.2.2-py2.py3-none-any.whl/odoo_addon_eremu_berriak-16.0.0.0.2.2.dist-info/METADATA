@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo-addon-eremu-berriak
+Version: 16.0.0.0.2.2
+Summary: Herentzia bidez mantenuko ekipoei eremu berriak gehitzeko modulua
+Home-page: https://fpzornotzalh.eus/
+Author: Zornotza LHII Infor
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Python: >=3.10
+Requires-Dist: odoo (<16.1dev,>=16.0a)
+
+
+Ekipoetarako eremu berriak
+
+
