@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireSnap/__init__.py
+FireSnap.egg-info/PKG-INFO
+FireSnap.egg-info/SOURCES.txt
+FireSnap.egg-info/dependency_links.txt
+FireSnap.egg-info/top_level.txt
