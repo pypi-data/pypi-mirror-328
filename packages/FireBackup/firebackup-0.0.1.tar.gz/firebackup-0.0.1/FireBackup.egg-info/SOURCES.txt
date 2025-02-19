@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+FireBackup/__init__.py
+FireBackup.egg-info/PKG-INFO
+FireBackup.egg-info/SOURCES.txt
+FireBackup.egg-info/dependency_links.txt
+FireBackup.egg-info/top_level.txt
