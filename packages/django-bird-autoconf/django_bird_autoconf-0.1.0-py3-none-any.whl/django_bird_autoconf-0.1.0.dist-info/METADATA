@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: django-bird-autoconf
+Version: 0.1.0
+Summary: django-bird plugin for autoconfiguring your Django project
+Project-URL: Documentation, https://github.com/joshuadavidthomas/django-bird-autoconf#readme
+Project-URL: Issues, https://github.com/joshuadavidthomas/django-bird-autoconf/issues
+Project-URL: Source, https://github.com/joshuadavidthomas/django-bird-autoconf
+Author-email: Josh <josh@joshthomas.dev>
+License: MIT License
+        
+        Copyright (c) 2025 Josh Thomas
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Django :: 5.1
+Classifier: Framework :: Django :: 5.2
+Classifier: Framework :: Setuptools Plugin
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Requires-Dist: django-bird>=0.16.1
+Description-Content-Type: text/markdown
+
+# django-bird-autoconf
+
+[![PyPI](https://img.shields.io/pypi/v/django-bird-autoconf)](https://pypi.org/project/django-bird-autoconf/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-bird-autoconf)
+![Django Version](https://img.shields.io/badge/django-4.2%20%7C%205.0%20%7C%205.1%20%7C%205.2-%2344B78B?labelColor=%23092E20)
+<!-- https://shields.io/badges -->
+<!-- django-4.2 | 5.0 | 5.1 | 5.2-#44B78B -->
+<!-- labelColor=%23092E20 -->
+
+[django-bird](https://github.com/joshuadavidthomas/django-bird) plugin for autoconfiguring your Django project.
+
+## Requirements
+
+- Python 3.10, 3.11, 3.12, 3.13
+- Django 4.2, 5.0, 5.1, 5.2
+- django-bird >= 0.16.1
+
+## Installation
+
+1. Install the package from PyPI:
+
+    ```bash
+    python -m pip install django-bird-autoconf
+
+    # or if you like the new hotness
+
+    uv add django-bird-autoconf
+    uv sync
+    ```
+
+2. The plugin should automatically be loaded by django-bird, no configuration required.
+
+## Getting Started
+
+After installation, django-bird-autoconf will automatically configure the necessary settings in your project needed for django-bird.
+
+> [!NOTE]
+> This plugin retains the same behavior as `settings.DJANGO_BIRD["ENABLE_AUTO_CONFIG"] = True` prior to v0.16.1. Please refer to the django-bird's [documentation](https://django-bird.readthedocs.io/configuration.html#manual-setup) on manual setup to see what it does.

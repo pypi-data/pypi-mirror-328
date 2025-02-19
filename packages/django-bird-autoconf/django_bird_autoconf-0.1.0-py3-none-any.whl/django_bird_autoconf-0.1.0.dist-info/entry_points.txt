@@ -1,0 +1,2 @@
+[django-bird]
+autoconf = django_bird_autoconf.plugin
