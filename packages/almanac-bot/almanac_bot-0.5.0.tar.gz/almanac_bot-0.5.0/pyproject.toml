@@ -1,0 +1,43 @@
+[project]
+name = "almanac-bot"
+keywords = [ "twitter", "history" ]
+# https://python-poetry.org/docs/pyproject/#classifiers
+dynamic = [ "authors", "description", "license", "version", "classifiers", "readme" ]
+
+[project.urls]
+# https://python-poetry.org/docs/pyproject/#urls
+homepage = "https://python-poetry.org/"
+repository = "https://github.com/logoff/almanac-bot"
+documentation = "https://python-poetry.org/docs/"
+"Bug Tracker" = "https://github.com/logoff/almanac-bot/issues"
+
+[tool.poetry]
+name = "almanac-bot"
+packages = [{ include = "almanacbot" }]
+version = "0.5.0"
+description = "Almanac bot for Twitter."
+authors = [ "logoff" ]
+license = "MIT"
+readme = ["README.md"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg = {extras = ["binary"], version = "^3.2.4"}
+sqlalchemy = "^2.0.38"
+tweepy = "^4.15.0"
+schedule = "^1.2.2"
+babel = "^2.17.0"
+typer = "^0.15.1"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.32.0"
+pre-commit = "^4.1.0"
+ruff = "^0.9.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

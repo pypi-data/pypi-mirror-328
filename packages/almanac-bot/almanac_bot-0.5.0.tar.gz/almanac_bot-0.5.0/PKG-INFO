@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: almanac-bot
+Version: 0.5.0
+Summary: Almanac bot for Twitter.
+License: MIT
+Author: logoff
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: babel (>=2.17.0,<3.0.0)
+Requires-Dist: psycopg[binary] (>=3.2.4,<4.0.0)
+Requires-Dist: schedule (>=1.2.2,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.38,<3.0.0)
+Requires-Dist: tweepy (>=4.15.0,<5.0.0)
+Requires-Dist: typer (>=0.15.1,<0.16.0)
+Description-Content-Type: text/markdown
+
+Almanac Bot
+===========
+
+[![PyPi package](https://img.shields.io/pypi/v/almanac-bot.svg)](https://pypi.python.org/pypi/almanac-bot)
+
+Almanac bot for Twitter.
+
+## Dependencies
+* [Docker](https://www.docker.com/)
+* [Python 3.12+](https://www.python.org/)
+* [PostgreSQL 17.3+](https://www.postgresql.org/)
+* [just](https://just.systems/)
+
+## How to run it locally
+1. Create a valid config file
+```sh
+cp config.ini.default config.ini
+```
+
+And fill the fields with valid values.
+
+2. Launch it with Docker Compose
+```sh
+just docker-serve-site
+```
+
+Stop it with `Ctrl+C`.
+
