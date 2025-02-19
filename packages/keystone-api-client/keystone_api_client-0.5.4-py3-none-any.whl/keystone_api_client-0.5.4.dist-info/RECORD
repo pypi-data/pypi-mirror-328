@@ -1,0 +1,6 @@
+keystone_client/__init__.py,sha256=I2Ifhwg5H8vpORTrWf_CeGHlaLcSV1btoQSJQ3W89Tk,102
+keystone_client/client.py,sha256=8BnhWIL1R0gxRtBR4QBbXuOd9RFLQIycVCswEICV9Tk,12877
+keystone_client/schema.py,sha256=lvSIEi1txTV0S-kv5X0bEB0YJgrMzPCquGswqMLKL5o,1295
+keystone_api_client-0.5.4.dist-info/METADATA,sha256=ZGf3D9Yxjr9REwo4Buk1Z58rKKhOgH60Omlu6Y8I0Aw,858
+keystone_api_client-0.5.4.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+keystone_api_client-0.5.4.dist-info/RECORD,,
