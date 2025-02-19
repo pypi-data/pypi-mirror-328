@@ -1,0 +1,6 @@
+# ninja log v5
+0	1935	1737048726289357868	/Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/generator.pyi	ad5fcd22dd17117c
+1935	3543	1737048727899376395	/Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/core.pyi	6944f22dfa277b0b
+3544	4858	1737048729217828920	/Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/cli.pyi	e45b2ebc3e007eb
+4858	6156	1737048730515504823	/Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/templates.pyi	9c92a5c97f6a7c8b
+6156	7462	1737048731820796972	/Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/__init__.pyi	a32ce3145e26eac0

@@ -1,0 +1,21 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/generator.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/plain/importmap/generator.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/imports/importmap.generator.imports
+  module = importmap.generator
+build /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/core.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/plain/importmap/core.py | /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/generator.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/imports/importmap.core.imports
+  module = importmap.core
+build /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/cli.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/plain/importmap/cli.py | /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/core.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/imports/importmap.cli.imports
+  module = importmap.cli
+build /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/templates.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/plain/importmap/templates.py | /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/core.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/imports/importmap.templates.imports
+  module = importmap.templates
+build /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/plain/importmap/__init__.py | /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/pyi/importmap/cli.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-importmap/.pytype/imports/importmap.__init__.imports
+  module = importmap.__init__
