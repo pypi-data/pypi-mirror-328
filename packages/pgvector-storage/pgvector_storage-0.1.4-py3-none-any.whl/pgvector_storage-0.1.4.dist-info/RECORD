@@ -1,0 +1,7 @@
+pgvector_storage/.gitignore,sha256=5JRRlYYsqt_yt6iFvvzhbqh2FTUQMqwo6WwIuFzlGR8,13
+pgvector_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvector_storage/document.py,sha256=M9TpZFgL4O4xg1l7hODX1KT9_V-Vf3q_w-1zJTerpdc,201
+pgvector_storage/pgvector_storage_dao.py,sha256=7lK53H_j53N8Ob85RQNQ9ks_uYI69oFlEmRRIdYUT1k,3846
+pgvector_storage-0.1.4.dist-info/METADATA,sha256=wPdub9fe9UX7gU8lVyI5JuPBBGJNyVp_9Jk6Xmlevig,494
+pgvector_storage-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pgvector_storage-0.1.4.dist-info/RECORD,,
