@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: txfixtures
+Version: 0.5.2
+Summary: Treat Twisted applications as Python test fixtures
+Home-page: https://launchpad.net/txfixtures
+Author: Martin Pool
+Author-email: mbp@canonical.com
+License: GPLv3
+Platform: POSIX
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+License-File: AUTHORS
+Requires-Dist: fixtures
+Requires-Dist: testtools
+Requires-Dist: twisted
+Requires-Dist: psutil
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: systemfixtures >=0.6.2 ; extra == 'test'
+Requires-Dist: mock ; (python_version < "3") and extra == 'test'
+
+Twisted integration with Python Testfixtures
+============================================
+
+txfixtures hooks into the testtools 'test fixture' interface, so that you can
+write tests that rely on having an external Twisted daemon.
+
+Documentation: http://txfixtures.readthedocs.io/
+
+See:
+
+- https://launchpad.net/txfixtures
+- https://launchpad.net/testtools
+
+Licence: GPLv3
+
