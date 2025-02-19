@@ -1,0 +1,16 @@
+aiohttp
+cachetools
+fastapi
+ipaddress
+maxminddb
+redis
+requests
+uvicorn
+
+[dev]
+black
+flake8
+httpx
+pytest
+pytest-asyncio
+pytest-mock
