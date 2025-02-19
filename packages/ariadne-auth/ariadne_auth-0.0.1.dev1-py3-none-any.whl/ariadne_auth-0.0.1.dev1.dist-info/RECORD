@@ -1,0 +1,15 @@
+ariadne_auth/__about__.py,sha256=L2FhMuJ0qtrWlLlwx5MgJ22E8PyxZnV2fk-vM7Sc-iY,86
+ariadne_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ariadne_auth/authz.py,sha256=js2OxTlXwD6kCS-5Qd-8E4TZpD4azuVqVkWl8dviC_0,5533
+ariadne_auth/exceptions.py,sha256=P-fJAWEQRQqG9Hqu8jV8-dFVd4v4A9fzC98SIwwFxgg,272
+ariadne_auth/types.py,sha256=NVHQWvX3XSV5vahO2hO12Ct5lG36hFNOyXsYTFCwvDY,857
+ariadne_auth/test_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ariadne_auth/test_app/__main__.py,sha256=5HuVk-ftCAU4rrV6ylUfwALyENqRifyVNV5kUubLuU0,998
+ariadne_auth/test_app/app.py,sha256=Jd8tAevXrqHKgTV-jveouYrM7DVJ7HRzyLt77J7V4cg,4141
+ariadne_auth/test_app/example_request.graphql,sha256=aDsK8ze6YJ6X1gm-BWIpX9Vy7Ith4KXILOIH_qzkCKo,212
+ariadne_auth/test_app/schema.graphql,sha256=97wcyJJD8D7I-HJpmYOXqTNDOnl0luLvZ5ybS1_rybY,636
+ariadne_auth/test_app/test_data.py,sha256=-9Et7jE8R2TfzcpZWyXy8AlXpWbeRMdBcJwv3mqbj9U,1784
+ariadne_auth-0.0.1.dev1.dist-info/METADATA,sha256=CsrqahAlm3xwy6tHMiWWceIHqJyKSBiWpEuHS5TrYKE,5034
+ariadne_auth-0.0.1.dev1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ariadne_auth-0.0.1.dev1.dist-info/licenses/LICENSE.txt,sha256=GfQ2JmWSLp6tkmFJqfvYKvKywa3EEBCsuaQcsJMLWDU,1511
+ariadne_auth-0.0.1.dev1.dist-info/RECORD,,
