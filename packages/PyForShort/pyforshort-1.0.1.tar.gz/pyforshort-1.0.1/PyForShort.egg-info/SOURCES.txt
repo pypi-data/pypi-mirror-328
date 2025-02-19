@@ -1,0 +1,7 @@
+License.md
+README.md
+setup.py
+PyForShort.egg-info/PKG-INFO
+PyForShort.egg-info/SOURCES.txt
+PyForShort.egg-info/dependency_links.txt
+PyForShort.egg-info/top_level.txt
