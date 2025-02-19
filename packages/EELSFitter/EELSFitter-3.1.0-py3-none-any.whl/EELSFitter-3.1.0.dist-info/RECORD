@@ -1,0 +1,17 @@
+EELSFitter/__init__.py,sha256=7DfWmzsYyX9SRhWomXonay_dd9yvPjZoqCM0myLDpnA,353
+EELSFitter/version.py,sha256=Ah9mufgaFOuYeGj0cgGeTJtiOE2fxYqln83t6drhem8,173
+EELSFitter/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EELSFitter/core/gainpeakfitter.py,sha256=rCiN1OCjdX_N7e8e5KgccDWLD-tWO27ZN1tK53KfJ78,47887
+EELSFitter/core/spectral_image.py,sha256=KXgpzsXJ5ss6kkpTe2gkucFWHwqHn0GA8AWYZzxGH3U,113802
+EELSFitter/core/training.py,sha256=TCgqLWUYFLpcp7pOOdgbp5X9DEqvZ6IQ3dEePi8y_o0,43646
+EELSFitter/plotting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EELSFitter/plotting/heatmaps.py,sha256=NjCzTeNAwQXPtjpPM_HFVLcePPiRjLYs7NWquGCOK-c,6795
+EELSFitter/plotting/hyperparameters.py,sha256=fDzXfLVsvQzXybg0-eV8ETf5ZtLiwqIOpf5o7XpQr6o,2614
+EELSFitter/plotting/mva_perf.py,sha256=-dbcCcgrje05-VhB2ADSGX5UdSWRemySWHPiQtU5eYg,1874
+EELSFitter/plotting/training_perf.py,sha256=tSSdcHudU8RGf56iWWt-qexVgzmAEXCAgXvwkN4-fMo,974
+EELSFitter/plotting/zlp.py,sha256=FKbjo2jBY-HnC8I7YT_4rKSCynsU5s8VxRo2PkmvUso,7718
+EELSFitter-3.1.0.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+EELSFitter-3.1.0.dist-info/METADATA,sha256=53S4bdMAFLy5k10bFs1YPYrn148ajysvjMCslriCt14,1097
+EELSFitter-3.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+EELSFitter-3.1.0.dist-info/top_level.txt,sha256=gHiAn8GAiFzg9O7d4Sj_rtlSJqe7Cqnv4jJEVKg43vA,11
+EELSFitter-3.1.0.dist-info/RECORD,,
