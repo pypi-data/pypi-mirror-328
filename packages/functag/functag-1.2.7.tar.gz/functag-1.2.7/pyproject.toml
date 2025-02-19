@@ -1,0 +1,25 @@
+[project]
+name = "functag"
+# version = "0.1.1"
+dynamic = ["version"]
+description = " Package with general decorators for annotating functions and classes"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.9.6",
+]
+
+[tool.basedpyright]
+ignore = ['src/'] # WIP type safety -- decorators are annoying
+
+[tool.setuptools_scm]
