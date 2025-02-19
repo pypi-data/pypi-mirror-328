@@ -1,0 +1,11 @@
+strip_hints/__init__.py,sha256=46pSbaMVYfFbYFrwQGUAFC4J69JxW6mgsT3smcfw8vI,251
+strip_hints/import_hooks.py,sha256=tOfxIcuV30THpe3gb1oiBxLdhLY0kyGcSInR2ui_a6E,4830
+strip_hints/import_hooks_py3.py,sha256=www_iQ6xDCr7HfvmyO3oSHfjjP9TRQOEBZ7O08nQVaI,2499
+strip_hints/strip_hints_main.py,sha256=gUE8Ya1ZjAgRU2G1_erjuUweMHJq7VcC2_eTVfLMZ44,29137
+strip_hints/token_list.py,sha256=wSNowfyKvvFkhC39SHLnowvLC6KvFVGCcV1_t3SyG0o,16552
+strip_hints-0.1.12.dist-info/LICENSE.txt,sha256=Ks5TalTDIG3GXXpzeCQ7taS7bOtm3InCsHug67-0aqY,1080
+strip_hints-0.1.12.dist-info/METADATA,sha256=JzA8cPfNroVnHo79uvLUB2kcDFKFJbbAAY70ME9yl_o,11638
+strip_hints-0.1.12.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+strip_hints-0.1.12.dist-info/entry_points.txt,sha256=Nu9ewkjIWfnQmmGtAsMyqa8zD8rNNkpuqyzF0bO-SH4,82
+strip_hints-0.1.12.dist-info/top_level.txt,sha256=tSkx4NqeAmiHHY3kM5bRv1b-vLPgXBH8kqN3TzvTnGI,12
+strip_hints-0.1.12.dist-info/RECORD,,
