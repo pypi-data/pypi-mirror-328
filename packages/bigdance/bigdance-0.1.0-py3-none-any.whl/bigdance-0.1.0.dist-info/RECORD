@@ -1,0 +1,10 @@
+bigdance/__init__.py,sha256=OgLvqz1dR9gs8MaiO1REDYK2nEHpbhCHpddQ_g5TxWc,1217
+bigdance/bigdance_integration.py,sha256=3b1gRoOP-BBkKDL20ZKHoW8mExFWE80UQ1v4_lU8-Oo,6193
+bigdance/bracket_analysis.py,sha256=gaho-Hyx8_1eg2eAKCRd9q4MkMZXPXQ-5-lMpEVh_ss,10410
+bigdance/cbb_brackets.py,sha256=DsZLLlmDKnfVAjaWAzfZOZXjFc60jBNHj1RYJiAmzGA,13338
+bigdance/wn_cbb_scraper.py,sha256=VnY9a2R5Uq_JhHMYFm0q2lVj9JAJRSMVCXy0F5Ku1BE,20621
+bigdance-0.1.0.dist-info/LICENSE,sha256=o9NA4YxTBa13CtxVrzmKWhV6jI3n6bzZFXVPugGMLdI,1070
+bigdance-0.1.0.dist-info/METADATA,sha256=VZXTdVkFbrmOwIwv3OJifk8vZsqWzsTgFW_RR8RbeQU,3169
+bigdance-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bigdance-0.1.0.dist-info/top_level.txt,sha256=0fLFOXGI-bzgxcQfG-nOUjLTFbxHmZCaTiJ5I46-L9k,9
+bigdance-0.1.0.dist-info/RECORD,,
