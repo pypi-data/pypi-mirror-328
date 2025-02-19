@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+optopenhash/__init__.py
+optopenhash/elastic_hashing.py
+optopenhash/funnel_hashing.py
+optopenhash.egg-info/PKG-INFO
+optopenhash.egg-info/SOURCES.txt
+optopenhash.egg-info/dependency_links.txt
+optopenhash.egg-info/top_level.txt
+tests/__init__.py
+tests/test_tables.py
