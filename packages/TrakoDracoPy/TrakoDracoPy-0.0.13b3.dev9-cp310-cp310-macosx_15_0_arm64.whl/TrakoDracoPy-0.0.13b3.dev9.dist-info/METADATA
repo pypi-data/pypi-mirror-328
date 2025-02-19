@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: TrakoDracoPy
+Version: 0.0.13b3.dev9
+Summary: Python wrapper for Google's Draco Mesh Compression Library with Trako support
+Home-page: https://github.com/haehn/TrakoDracoPy
+Author: Manuel Castro, Daniel Haehn
+Author-email: macastro@princeton.edu, haehn@mpsych.org
+License-File: LICENSE
+Requires-Dist: pytest
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

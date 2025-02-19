@@ -1,0 +1,13 @@
+# draco pkg-config.
+prefix=/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install
+exec_prefix=/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install/bin
+libdir=/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install/lib
+includedir=/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install/include
+
+Name: Draco
+Description: 3D Compression.
+Version: 1.3.5
+Requires:
+Conflicts:
+Libs: -L/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install/lib -ldraco
+Cflags: -I/private/var/folders/nq/x1yhmxpn7519xtnfmq2mhgwr0000gn/T/build-via-sdist-k8rm55cy/trakodracopy-0.0.13b3.dev9/_skbuild/macosx-15.0-arm64-3.10/cmake-install/include -std=c++11
