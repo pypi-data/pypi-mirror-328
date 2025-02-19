@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pykitten.egg-info/PKG-INFO
+pykitten.egg-info/SOURCES.txt
+pykitten.egg-info/dependency_links.txt
+pykitten.egg-info/top_level.txt
