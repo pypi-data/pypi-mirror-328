@@ -1,0 +1,8 @@
+nfdrs4py/__init__.py,sha256=Dgk89wwsDzsxvvZFVMXTRpL4NGxaEmFv3GjXXXugGYg,105
+nfdrs4py/_nfdrs4_bindings.cp311-win_amd64.pyd,sha256=j1Rsp7FiMHwPsxHD4tDDjJSnpSp51Jgl4FpZBv-vU6o,980480
+nfdrs4py/nfdrs4_bindings.py,sha256=co7YHHg9GW-s-56ZwyQ1oLzrqskaJQEuFsyssiWXCRQ,67918
+nfdrs4py/nfdrs4py.py,sha256=s-4x1N3g6Hr5GilF_Hge0mS_bjMrS4Ryuu68Rvzddbg,26743
+nfdrs4py-0.2.2.dist-info/METADATA,sha256=sYu9QHKhOWpsfPkHuhE9Inzve1CHg1FnMY_bBIK3Cuk,177
+nfdrs4py-0.2.2.dist-info/WHEEL,sha256=yNnHoQL2GZYIUXm9YvoaBpFjGlUoK9qq9oqYeudrWlE,101
+nfdrs4py-0.2.2.dist-info/top_level.txt,sha256=Hm0Ie_22GT7krYMISF68s3fHSISoyyKp8Wp5BTP-3WY,9
+nfdrs4py-0.2.2.dist-info/RECORD,,
