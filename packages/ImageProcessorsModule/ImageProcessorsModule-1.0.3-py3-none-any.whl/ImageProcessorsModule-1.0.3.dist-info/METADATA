@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: ImageProcessorsModule
+Version: 1.0.3
+Summary: Services for processing and creating TensorFlow or PyTorch records
+Author-email: Brian Mark Anderson <markba122@gmail.com>
+License: GNU Affero General Public License v3
+Project-URL: Homepage, https://github.com/brianmanderson/Image_Processors_Module
+Project-URL: Repository, https://github.com/brianmanderson/Image_Processors_Module
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Image_Processors
+## All of the image processors for various generators and record makers
+### Image_Processors_DataSet -> Fed into Data_Generators TFRecord_to_Dataset_Generator
+### Image_Processors_Keras_Generator -> Fed into Data_Generators Keras_Generators
+### Image_Processors_TFRecord -> Fed into Make_Single_Images Make_TFRecord_Class
