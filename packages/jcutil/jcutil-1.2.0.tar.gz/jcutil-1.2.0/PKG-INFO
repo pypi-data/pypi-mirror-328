@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jcutil
+Version: 1.2.0
+Summary: Some python util tolls in one package for your web app'
+Home-page: https://github.com/bspiritxp/jcutil.git
+License: MIT
+Keywords: utilities,tools
+Author: Jochen.He
+Author-email: thjl@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: SQLAlchemy (>=2.0.38,<3.0.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: jcramda (>=1.0.6,<2.0.0)
+Requires-Dist: pycryptodomex (>=3.11.0,<4.0.0)
+Requires-Dist: pymongo (>=4.0,<5.0)
+Requires-Dist: python-consul (>=1.1.0,<2.0.0)
+Requires-Dist: python-dotenv (>=0.19.2,<0.20.0)
+Project-URL: Repository, https://github.com/bspiritxp/jcutil.git
