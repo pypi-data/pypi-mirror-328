@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: mascope_sdk
+Version: 0.1.1
+Summary: Mascope's public SDK library, wrapping the app's REST API.
+License: MIT
+Author: Oskari Kausiala
+Author-email: oskari.kausiala@karsa.fi>
+Maintainer: Oskari Kausiala
+Maintainer-email: oskari.kausiala@karsa.fi>
+Requires-Python: >=3.8
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests (>=2.32,<3.0)
+Project-URL: Bug Tracker, https://github.com/Karsa-Oy/Mascope/issues
+Project-URL: Documentation, https://github.com/Karsa-Oy/Mascope
+Project-URL: Homepage, https://karsa.fi/
+Project-URL: Repository, https://github.com/Karsa-Oy/Mascope
+Description-Content-Type: text/markdown
+
+# Mascope SDK
+
+This library exposes a public Mascope Python SDK for end-users to leverage especially in Jupyter notebooks.
+
