@@ -1,0 +1,36 @@
+rule infer
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.venv/bin/python3 -m pytype.main --imports_info $imports --module-name $module --platform darwin -V 3.12 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/hashers.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/hashers.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.hashers.imports
+  module = passwords.hashers
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/core.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/core.py | /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/hashers.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.core.imports
+  module = passwords.core
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/forms.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/forms.py | /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/core.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/hashers.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.forms.imports
+  module = passwords.forms
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/views.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/views.py | /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/forms.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.views.imports
+  module = passwords.views
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/validators.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/validators.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.validators.imports
+  module = passwords.validators
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/__init__.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/__init__.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.__init__.imports
+  module = passwords.__init__
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/tokens.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/tokens.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.tokens.imports
+  module = passwords.tokens
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/urls.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/urls.py | /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/views.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.urls.imports
+  module = passwords.urls
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/default_settings.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/default_settings.py
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.default_settings.imports
+  module = passwords.default_settings
+build /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/models.pyi: check /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/plain/passwords/models.py | /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/validators.pyi /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/pyi/passwords/hashers.pyi
+  imports = /Users/davegaeddert/Developer/dropseed/plain/plain-passwords/.pytype/imports/passwords.models.imports
+  module = passwords.models
