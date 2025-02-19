@@ -1,0 +1,6 @@
+README.md
+setup.py
+cxlop.egg-info/PKG-INFO
+cxlop.egg-info/SOURCES.txt
+cxlop.egg-info/dependency_links.txt
+cxlop.egg-info/top_level.txt
