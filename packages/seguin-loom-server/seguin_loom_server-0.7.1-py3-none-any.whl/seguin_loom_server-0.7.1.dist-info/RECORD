@@ -1,0 +1,13 @@
+seguin_loom_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seguin_loom_server/favicon-32x32.png,sha256=JBwtv2Dse_E5JtSDaJy8-MfkoFgveUo-PjpmoT5KdKY,956
+seguin_loom_server/loom_server.py,sha256=0hwqciHibB21repKzIyniI-6A67CL8RtL2445YVP_E4,4256
+seguin_loom_server/main.py,sha256=5ofG6xv3bP8P1bvjov-6Wcv5NUb2IlGiGGofmC1gP78,475
+seguin_loom_server/mock_loom.py,sha256=C-25NG2JO7Wuinmf83WqUYo8U9yv2tf3PCZZMdXr_gY,5215
+seguin_loom_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seguin_loom_server/version.py,sha256=zXwc3b9BERPWtflm1K1MbiP8jSiTHoL9AH-ZtBqWzPc,78
+seguin_loom_server-0.7.1.dist-info/LICENSE.txt,sha256=WYC5uPw5Ygf8ajOqm8rvtkVeQ8qw9BvSYqwUpicb-ZA,1060
+seguin_loom_server-0.7.1.dist-info/METADATA,sha256=2ynihAw4s2qxAAP_TG6sS4PgOqagmyrLSK28Va94PGQ,1945
+seguin_loom_server-0.7.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+seguin_loom_server-0.7.1.dist-info/entry_points.txt,sha256=jkkQC1RkMXzAt7_OIpMutZD3ArcWGNIuYe8TSUtYNbU,76
+seguin_loom_server-0.7.1.dist-info/top_level.txt,sha256=PNrK6ttiRal01rLRhtzWNHcV57IoOPpYQlue18whrOc,19
+seguin_loom_server-0.7.1.dist-info/RECORD,,
