@@ -1,0 +1,1 @@
+BASE_URL = "https://vpaa-api-server-stnkl.ondigitalocean.app"
