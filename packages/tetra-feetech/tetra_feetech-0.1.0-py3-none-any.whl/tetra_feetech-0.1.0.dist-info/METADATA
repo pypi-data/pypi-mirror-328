@@ -1,0 +1,70 @@
+Metadata-Version: 2.2
+Name: tetra-feetech
+Version: 0.1.0
+Summary: A more ergonomic wrapper for the feetech Python SDK
+Author-email: Brian Smith <brian@tetradynamics.ai>
+License: MIT License
+        
+        Copyright (c) 2025 tetra-dynamics
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/tetra-dynamics/tetra-feetech
+Project-URL: Repository, https://github.com/tetra-dynamics/tetra-feetech
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: feetech-servo-sdk
+
+# Feetech
+
+A more ergonomic library for controlling Feetech servos.
+
+Install by running:
+
+```
+pip install -e .
+```
+
+Example usage:
+
+```
+import feetech
+import time
+
+client = feetech.Client('/dev/ttyACM0')
+client.connect() # can also use `with feetech.Client('/dev/ttyACM0') as client:` to avoid needing to call connect/disconnect
+
+motor_id = 1
+
+# Torque enable servo 1
+client.enable(motor_id)
+
+# Read the current motor position in degrees
+pos = client.read_present_posiiton(motor_id)
+
+# Rotate the servo 15 degrees
+client.write_goal_position(motor_id, pos + 15)
+
+time.sleep(1)
+
+new_pos = client.read_present_position(motor_id)
+print(f'moved servo from {pos} to {new_pos} degrees')
+
+client.disconnect()
+```
