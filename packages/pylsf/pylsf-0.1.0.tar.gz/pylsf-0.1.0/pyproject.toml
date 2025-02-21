@@ -1,0 +1,39 @@
+[project]
+name = "pylsf"
+version = "0.1.0"
+description = "collection of CLI tools for LSF monitoring"
+readme = "README.md"
+authors = [
+    { name = "Ben Hoover", email = "24350185+bhoov@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.3",
+    "tyro>=0.9.14",
+]
+license = { text = "MIT" }
+keywords = ["cluster", "gpu", "utilities"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.scripts]
+pylsf_avail = "pylsf.cli:check_gpus_cli"
+pylsf_hello = "pylsf.cli:print_hello_cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pylsf"]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "ipykernel>=6.29.5",
+    "twine>=6.1.0",
+]
