@@ -1,0 +1,3 @@
+[console_scripts]
+cluttercatcher=clutter_catcher.cli:main
+
