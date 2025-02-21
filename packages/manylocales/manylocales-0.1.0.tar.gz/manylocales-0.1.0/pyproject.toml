@@ -1,0 +1,84 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "manylocales"
+dynamic = ["version"]
+description = 'AI translations in your CI/CD pipeline'
+readme = "README.md"
+requires-python = ">=3.8"
+license-files = ["LICENSE.md"]
+keywords = [
+    "translation",
+    "localization",
+    "internationalization",
+    "l10n",
+    "i18n",
+    "gettext",
+]
+authors = [
+  { name = "ManyLocales", email = "hello@manylocales.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "polib>=1.2.0",
+    "PyYAML>=6.0.2",
+    "openai>=1.0.0",
+]
+
+[project.urls]
+Documentation = "https://github.com/manylocales/manylocales#readme"
+Issues = "https://github.com/manylocales/manylocales/issues"
+Source = "https://github.com/manylocales/manylocales"
+Homepage = "https://manylocales.com"
+
+[project.scripts]
+manylocales = "manylocales.cli:cli"
+
+[tool.hatch.version]
+path = "src/manylocales/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/manylocales tests}"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/manylocales"]
+
+[tool.coverage.run]
+source_pkgs = ["manylocales", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/manylocales/__about__.py",
+]
+
+[tool.coverage.paths]
+manylocales = ["src/manylocales", "*/manylocales/src/manylocales"]
+tests = ["tests", "*/manylocales/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
