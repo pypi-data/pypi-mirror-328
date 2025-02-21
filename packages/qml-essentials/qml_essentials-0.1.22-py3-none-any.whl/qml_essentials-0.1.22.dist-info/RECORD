@@ -1,0 +1,10 @@
+qml_essentials/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qml_essentials/ansaetze.py,sha256=ceDtUV6GSgmWlbFrzBQ1TRlLzhrel-Q4XLHaxkpHAPg,51010
+qml_essentials/coefficients.py,sha256=VDcVQntyk2YU1lZGzrJ6VOGAFEDadXlL74tz18KlXgc,3363
+qml_essentials/entanglement.py,sha256=BHvtP2WKmtWC1YVizewS97uueFPI4xCTQd768tBQsts,3057
+qml_essentials/expressibility.py,sha256=BJyexwmwF7ismLBqMZwkY8VpPDgY4smm6apLyhLwWUY,8953
+qml_essentials/model.py,sha256=qAardEiAisAjjHqvr7c4A3U7VKab8Qzm-q5ba8m-sL4,26606
+qml_essentials-0.1.22.dist-info/LICENSE,sha256=GYdULImK3JDmk-8LKrdmcELALedYR3Vhb9J-lVxWJuU,1276
+qml_essentials-0.1.22.dist-info/METADATA,sha256=9dOIW88SWxLR9iTdam7xettSDODYr0oHuwuYj0nveTw,2347
+qml_essentials-0.1.22.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+qml_essentials-0.1.22.dist-info/RECORD,,
