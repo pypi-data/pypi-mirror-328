@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+chess2.egg-info/PKG-INFO
+chess2.egg-info/SOURCES.txt
+chess2.egg-info/dependency_links.txt
+chess2.egg-info/top_level.txt
