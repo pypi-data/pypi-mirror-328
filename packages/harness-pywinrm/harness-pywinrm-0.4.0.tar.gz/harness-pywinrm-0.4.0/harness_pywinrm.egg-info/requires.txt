@@ -1,0 +1,9 @@
+pykerberos
+pywinrm
+
+[dev]
+pytest
+pytest-cov
+
+[test]
+unittest
