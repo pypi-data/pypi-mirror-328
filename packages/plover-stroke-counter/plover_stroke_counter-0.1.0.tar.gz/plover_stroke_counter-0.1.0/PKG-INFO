@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: plover-stroke-counter
+Version: 0.1.0
+Summary: A Plover plugin to count the number of strokes.
+Author: Your Name
+Keywords: plover plover_plugin stenography strokes counter
+Requires-Dist: plover>=4.0.0.dev10

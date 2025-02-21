@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+plover_stroke_counter/__init__.py
+plover_stroke_counter.egg-info/PKG-INFO
+plover_stroke_counter.egg-info/SOURCES.txt
+plover_stroke_counter.egg-info/dependency_links.txt
+plover_stroke_counter.egg-info/entry_points.txt
+plover_stroke_counter.egg-info/requires.txt
+plover_stroke_counter.egg-info/top_level.txt
+plover_stroke_counter.egg-info/zip-safe

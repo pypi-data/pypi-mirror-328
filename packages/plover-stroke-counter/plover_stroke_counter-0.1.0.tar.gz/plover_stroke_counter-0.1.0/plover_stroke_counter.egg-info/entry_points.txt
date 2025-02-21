@@ -1,0 +1,2 @@
+[plover.meta]
+stroke_counter = plover_stroke_counter:StrokeCounter
