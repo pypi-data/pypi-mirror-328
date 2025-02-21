@@ -1,0 +1,15 @@
+Database_comparator/Fasta_maker.py,sha256=s3v2-pNdx8HonySUpqAtyW6aBST-zr1he-K-Prs9D-w,3885
+Database_comparator/__init__.py,sha256=AAttcjyQlxDOl-dQ-NKpQjyQu0Jtc7Xmqc0g9Hd_m08,58
+Database_comparator/config_class.py,sha256=0nYYDYgeb_5Q7-ZfjZdvwZVXptdQC-T2vS72X-AoSMw,33479
+Database_comparator/db_aligner.py,sha256=inoGzuetLJX6arN_ekC-ku41x8by5bC6PMMGb_AY1M4,6207
+Database_comparator/db_blast.py,sha256=8S8CH3eoy-J0JzqzuhiRD1zs-fZEEXTK7Dg91HfM45w,8245
+Database_comparator/db_compare.py,sha256=zDpVulXyI9DIjFZMx7MWnpTy_m85XBOc_XhDYKi_VIE,6173
+Database_comparator/db_exact_match.py,sha256=KtOa75y3MjcdAhB8ehqIDoQaVOCSoFeOPIEYGY47png,6918
+Database_comparator/db_fast_hamming.py,sha256=YmgJfCtgR0iM8lx6MuSthZ4t7oPWUTTPSU0q7uvAMHQ,7904
+Database_comparator/db_hamming.py,sha256=uVuMvbZR97Es9PX3Nv6iuuwj5DUqJtvWZI_5uQGMppk,5853
+Database_comparator/test.py,sha256=abbpj9ps8Fs8-LlJOdpzBW18X_RaJ7mFATjZsZKXG9Q,535
+database_comparator-1.0.6.dist-info/LICENSE,sha256=Zr_ReE91M0exPHGfq9xMXkie-wEl1fx3pSpDZJ7XQ0g,1094
+database_comparator-1.0.6.dist-info/METADATA,sha256=wgyplsvwVZkqu-vKRV1c93pJ4BXjJGAxGM_tu0014q4,18833
+database_comparator-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+database_comparator-1.0.6.dist-info/top_level.txt,sha256=u-3vrsdgCJgKh10sx5_8uwlXUquiHIMsyFDhmRriX94,20
+database_comparator-1.0.6.dist-info/RECORD,,
