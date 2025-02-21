@@ -1,0 +1,9 @@
+ai_models_aurora_gfs/__init__.py,sha256=zZZpbKIoGWwdCOuo6YSruLR7C0GzvzI1Wzhyqaa0K7M,456
+ai_models_aurora_gfs/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+ai_models_aurora_gfs/model.py,sha256=01FdPJqGZsnj3o9D8RKW0MLfqk07KrRPcG-KrKKxkKs,8230
+ai_models_aurora_gfs-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ai_models_aurora_gfs-0.0.1.dist-info/METADATA,sha256=p3VLobPH6MjroFL1aEeGR-Plumem_yNLu4yEwVtz0AU,14067
+ai_models_aurora_gfs-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ai_models_aurora_gfs-0.0.1.dist-info/entry_points.txt,sha256=vdxnoMUrckOMdgH-32VCyFgGA_JH6eFffYVsmmuNia8,275
+ai_models_aurora_gfs-0.0.1.dist-info/top_level.txt,sha256=eCWB6IwXnx_qPBU_WE6mAhmFMy6-SUZY9JyX87j5FvY,21
+ai_models_aurora_gfs-0.0.1.dist-info/RECORD,,
