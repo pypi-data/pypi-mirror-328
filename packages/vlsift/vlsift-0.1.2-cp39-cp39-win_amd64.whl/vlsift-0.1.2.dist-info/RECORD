@@ -1,0 +1,15 @@
+vlsift/__init__.py,sha256=fB6ADugzFdHIOQiajnBttiXbXFvpfGWEb4ht3CoC6ag,18
+vlsift/utils.py,sha256=goYCNMTzkRLs1-BzjENCi5p2dxokscREGXowQfGjGhg,1969
+vlsift/_vl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlsift/data/ascent.descr,sha256=GeVfZLsZF6i7lCc73RY22oXdfMoVkAOSyDim0RwH7HM,874622
+vlsift/data/ascent.frame,sha256=HpnLtpGtJf7ZHGSjvsV0mHJ8QVAe5YAKKuBcPiPHQ54,91646
+vlsift/sift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlsift/sift/cysift.cp39-win_amd64.pyd,sha256=cus230b87kuMv7mYo2yl93lmTO61EogmTv8Kah8CBzg,250368
+vlsift/sift/sift.py,sha256=A4eN3dzq0d34FMoOvpYb5Tysj5GWTEEdciFo0DyLs4M,5937
+vlsift/sift/tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+vlsift/sift/tests/sift_test.py,sha256=Swp-vVafyMNIUnOrJBlCegdPxXsw-jzCxyt08CPDroA,3966
+vlsift-0.1.2.dist-info/LICENSE.txt,sha256=LVww2Hpcnd4GA-OMboZBt4ziA4MZd8OG0r4NfChL-Vs,1308
+vlsift-0.1.2.dist-info/METADATA,sha256=6EgD-vOFurk95x8z2BEzumEa2uqdE1zLN08rtIqm_QY,1253
+vlsift-0.1.2.dist-info/WHEEL,sha256=agy-BJge3afXwWznUXANATmKFW4eqelqRR0uf608A_0,99
+vlsift-0.1.2.dist-info/top_level.txt,sha256=unX9ujOA5ygvoMtKfpNQPNTda_rrSOgxyWAG5IuDas0,7
+vlsift-0.1.2.dist-info/RECORD,,
