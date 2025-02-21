@@ -1,0 +1,17 @@
+numpy<2.0.0,>=1.26
+pandas>=2.0
+matplotlib
+seaborn
+scipy<1.15.0,>=1.7.1
+tqdm
+scikit-learn>=1.5.0
+emcee==3.1.6
+
+[dev]
+pytest
+flake8>=3.9.2
+black>=22.3.0
+isort>=5.10.1
+mypy
+pre-commit
+autoflake
