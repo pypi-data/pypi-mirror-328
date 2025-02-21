@@ -1,0 +1,9 @@
+roboclaw_python-0.5.8.dist-info/METADATA,sha256=1Snin3_nbEhE7jDooTmmkZaWyBVkJre2GVPCpfpjYuQ,2439
+roboclaw_python-0.5.8.dist-info/WHEEL,sha256=vS4CBdQ10Qi6rBAI8f1DyE5-LIRnmwxXldA1mb0tnCc,108
+roboclaw_python.libs/libcap-a3db2a14.so.2,sha256=mCeDxzCx-twwWflrKeVjkLimHCOaTax3Kg8YDML4L4Y,55585
+roboclaw_python.libs/libudev-d7e9474b.so.1,sha256=Auxuk9CDRLYniichTKdC65bZrQeeKwQwa7tlhtpJcvE,222297
+roboclaw_python/__init__.py,sha256=Ttw9IiQswYREUHeOAGftl3ZRRmPVmu3SwcgNfEEPL1w,143
+roboclaw_python/__init__.pyi,sha256=Kion7qtWOHnursCIf4k1Mu86QJV2_cl8BblDOLN41MQ,2646
+roboclaw_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboclaw_python/roboclaw_python.cpython-311-x86_64-linux-gnu.so,sha256=DUFlMdhj51ruhbOWI7Vic4Xn2H137rr0Tgn883Y0jUY,793393
+roboclaw_python-0.5.8.dist-info/RECORD,,
