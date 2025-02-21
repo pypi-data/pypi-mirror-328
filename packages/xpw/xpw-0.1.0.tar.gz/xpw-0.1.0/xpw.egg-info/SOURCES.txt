@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xpw/__init__.py
+xpw/attribute.py
+xpw/ldapauth.py
+xpw/password.py
+xpw/pwhasher.py
+xpw.egg-info/PKG-INFO
+xpw.egg-info/SOURCES.txt
+xpw.egg-info/dependency_links.txt
+xpw.egg-info/entry_points.txt
+xpw.egg-info/requires.txt
+xpw.egg-info/top_level.txt
+xpw.egg-info/zip-safe
