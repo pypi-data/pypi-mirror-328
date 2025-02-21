@@ -1,0 +1,16 @@
+tracksim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracksim/cell_models.py,sha256=SJ8onBwm9ueTs_j1k0JeQjf6T4dkOOkEazH0SrZI44g,2941
+tracksim/example_trips.py,sha256=lyGidL79CGA4iacuEyL5ULWritPVhmFxH1p3iWKPepA,392
+tracksim/pack_models.py,sha256=bIvTXwxlqlHIZhvi0nw1JBqPbkOkgYMF68X15x0VV1k,908
+tracksim/temperature_models.py,sha256=jLxR2eVJolAbT2raRtJqhyAAds37VEn8A60PNWBzpKY,929
+tracksim/tracksim.py,sha256=Zos3C7_BUA3Skc6pU2upPGEQnldu2w_ewwlX5HwmZDo,50442
+tracksim/vehicle_models.py,sha256=ZMFpZMNxWsZ49onFf_hpRP9UonoC-rsf0a8hVrqOE0s,3180
+tracksim/battery_data/Zheng2024_OCV.npy,sha256=Xar3XgFio0iGQjkgYkAAu_WXOiqQrZEn8X6qnAMXzJs,16144
+tracksim/example_trip_data/Weinreich2025_E45_1.csv,sha256=0XvRNTNJheZqOjj95sqs0VaGJFtpYgiwndg2dX5vvlE,49920
+tracksim/example_trip_data/Weinreich2025_E45_2.csv,sha256=glrOBgJOhjnFgqfZYEGY1vCbOsBEW54a-WbhkZwxlpw,36183
+tracksim/example_trip_data/udds.csv,sha256=vzwRy1F4yxieyGiwMjonaZH6mO9-OMGRjB38-LUiRIM,20739
+tracksim/example_trip_data/us06.csv,sha256=T7mID6qiYAgGwNmHhdxT4i-T5a4faSDFR0UztCo6OF0,9877
+pytracksim-0.0.4.dist-info/METADATA,sha256=k-fS0CuzdAX-x7ShnZGiSJR0nuYv7IpwKFmWUEMemuI,442
+pytracksim-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pytracksim-0.0.4.dist-info/licenses/LICENSE,sha256=6P0zDvIe1fDR0y4OkEMedlPeG7MUmtgudpWQWR3Xc8Y,1116
+pytracksim-0.0.4.dist-info/RECORD,,
