@@ -1,0 +1,9 @@
+principle_alignment/__init__.py,sha256=0kCXo2Pg3Row7ewC3-XUuZdSgdyQbq1QKdenry4QuJA,65
+principle_alignment/play.py,sha256=RM4h32qGWzV4MyfZRLyfEW3fh-RUDLx4e9eToVcxn8g,40
+tests/__init__.py,sha256=wwzI0HWMz0FUp4V66XGRfzeaK3gaQUnIjDstG8ZUpFI,40
+tests/test_main.py,sha256=zAps6gQTrN22MPPpih9YYbntAvcbPrbBHsn1c1Mi7HU,312
+principle_alignment-0.1.0.dist-info/LICENSE,sha256=KGrtPw_4nMvIhN_MZGma969K99tb1MedJd3RUbrWmNU,1075
+principle_alignment-0.1.0.dist-info/METADATA,sha256=dhVTfyIXwCDNwTdKJ6LBSRc-fwpNnJQ3qliO686nFAo,1247
+principle_alignment-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+principle_alignment-0.1.0.dist-info/top_level.txt,sha256=C3_qaIC1Lr_Qh6BMC5rnT98EMXKuKEs0kZ9T7uNTn7U,26
+principle_alignment-0.1.0.dist-info/RECORD,,
