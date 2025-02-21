@@ -1,0 +1,10 @@
+chatspec/__init__.py,sha256=hdu7XASNo3GjOsW08TxLCfsuGNcrnZXCcc-jxLKNCgA,676
+chatspec/markdown.py,sha256=qPvnaWWlzFE8OusozUDMQvZ65jELWTQXUdMlP23RBnI,23762
+chatspec/mock.py,sha256=5EDQB7mTcUGughuf4EuZZQ8qSWpAc2o9P_b96AaYt3I,21602
+chatspec/params.py,sha256=rXS5deu2r7qJDhaZBxgJL55l6p8Fqzvjd8EleVY4Xnc,9240
+chatspec/types.py,sha256=jQ-NHrV3m8KY7UMi4NRds4MF58owbPjILh0N7TzmRfQ,16672
+chatspec/utils.py,sha256=B0CZ6HBTBZhGR9oY-d_NkaHVr1NUkhBdwJFx5sp6Vr0,49939
+chatspec-0.0.8.dist-info/METADATA,sha256=hC2NVPsZRSs5CGyTi3xZL1eauPcbn-5SNv5MHaYferg,26086
+chatspec-0.0.8.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+chatspec-0.0.8.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chatspec-0.0.8.dist-info/RECORD,,
