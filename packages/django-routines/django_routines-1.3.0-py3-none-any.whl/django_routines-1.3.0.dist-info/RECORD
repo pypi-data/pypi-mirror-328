@@ -1,0 +1,9 @@
+django_routines/__init__.py,sha256=4_hGbQyw2py5jhQG9HkVX7RjmCNgdpS7bI_mn5t6dHI,14746
+django_routines/apps.py,sha256=b4ekAgubw-s1S86MC4KUPKDZl7RGwJltywqun2qwZ_M,141
+django_routines/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_routines/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_routines/management/commands/routine.py,sha256=_iZWRYMJfG4BbT45lAfmxEC8rHk5paPVPp09faH0oM0,14848
+django_routines-1.3.0.dist-info/LICENSE,sha256=wl1TpREO4H7IvzS7rr5wQ7hUCg-9wfwYlDIoeUeCwuc,1073
+django_routines-1.3.0.dist-info/METADATA,sha256=BQoTh6JrWjdOD15bWZDkqV3h6Tp3i03FPY8IbSDm2m8,12161
+django_routines-1.3.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+django_routines-1.3.0.dist-info/RECORD,,
