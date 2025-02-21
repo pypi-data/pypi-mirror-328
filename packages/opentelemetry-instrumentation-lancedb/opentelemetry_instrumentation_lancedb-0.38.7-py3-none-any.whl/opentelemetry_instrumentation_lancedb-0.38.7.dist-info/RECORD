@@ -1,0 +1,9 @@
+opentelemetry/instrumentation/lancedb/__init__.py,sha256=wyZNghdnCuYbU56IUWRgcn5dsseUTDU8g4wlwufsRvI,2347
+opentelemetry/instrumentation/lancedb/config.py,sha256=CtypZov_ytI9nSrfN9lWnjcufbAR9sfkXRA0OstDEUw,42
+opentelemetry/instrumentation/lancedb/utils.py,sha256=3RNlK7T3biRSsijtCgIemp2Z-I8xBO2ZWtpdQdzmz4E,807
+opentelemetry/instrumentation/lancedb/version.py,sha256=RanUfcT5k652mRHEv7z2fcayUpT7ohxKS4Y7VRiWOuY,23
+opentelemetry/instrumentation/lancedb/wrapper.py,sha256=lfoWfIYmbU2TMPi5vHejUeGuBcScSw53G_QGvmAOB7g,2352
+opentelemetry_instrumentation_lancedb-0.38.7.dist-info/METADATA,sha256=nxV4_a9LjFO8SaLXkeQM5QnDITJFJIjteIfP4nwZ5NU,1572
+opentelemetry_instrumentation_lancedb-0.38.7.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+opentelemetry_instrumentation_lancedb-0.38.7.dist-info/entry_points.txt,sha256=7zFAshUikUG9DkZZj4hSj7nnChHlEwIKemknfwmjDs0,94
+opentelemetry_instrumentation_lancedb-0.38.7.dist-info/RECORD,,
