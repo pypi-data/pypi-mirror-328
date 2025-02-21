@@ -1,0 +1,12 @@
+pigeon/__init__.py,sha256=4gOJdfaDgVliNLRVa6inPlXbzIolbrezG9qxGunvkG8,61
+pigeon/__main__.py,sha256=Iv12JZIPejfT4Wg0egvIuN9qu3tHj8MhGuLbwi9IikE,4024
+pigeon/client.py,sha256=fDmI1-EDkTzKk2K07kmUDirba0xfD8Ke_gzYQEB-L7A,12222
+pigeon/exceptions.py,sha256=CrbdpqDIge1bMjCvGsS_pSDURwISls8UUjLJd_tOq_g,96
+pigeon/messages.py,sha256=AybZBebrXM02y7NPvFIsDmepAXwKtYzrtSP0QT6vyg8,1009
+pigeon/utils.py,sha256=BuY8jYKxmm3Y1R0aUwZAiO-NqUJVss4z6n3MhsfpK3A,3730
+pigeon_client-2.3.0.dist-info/LICENSE,sha256=tZfQIUX7uNGacTb751ZWInVenJl6OwYQihcGbYrKSts,1463
+pigeon_client-2.3.0.dist-info/METADATA,sha256=zG97auEWD9G9uuITRrASEg-r0KRJ4gRLxtUzxD1NV1k,3063
+pigeon_client-2.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pigeon_client-2.3.0.dist-info/entry_points.txt,sha256=bjkdjwpg97A7MIBFEj_qQEJdYSg3hD6fSym1V3fbzFw,48
+pigeon_client-2.3.0.dist-info/top_level.txt,sha256=MHypcfB4SkdKCc6EustfQyqNkI1AmFhuNiws-rRaRcs,7
+pigeon_client-2.3.0.dist-info/RECORD,,
