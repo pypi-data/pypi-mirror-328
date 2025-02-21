@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: thds.mops
+Version: 3.6.20250219172032
+Summary: ML Ops tools for Trilliant Health
+Author: Trilliant Health
+Description-Content-Type: text/markdown
+Requires-Dist: ansicolors
+Requires-Dist: azure-core
+Requires-Dist: azure-identity
+Requires-Dist: azure-storage-file-datalake
+Requires-Dist: cachetools
+Requires-Dist: tblib<3.0.0,>=2.0.0
+Requires-Dist: thds.adls>=3.1
+Requires-Dist: thds.core>=1.32
+Requires-Dist: thds.humenc>=1.0
+Requires-Dist: tomli; python_version < "3.11"
+Provides-Extra: k8s
+Requires-Dist: kubernetes>=18.20; extra == "k8s" and extra == "k8s"
+
+# `mops`
+
+`mops` is a Python library for ML Operations.
+
+`mops` solves for three core issues:
+
+- Transfer of
+  [pure](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/docs/pure_functions.adoc)
+  function execution to
+  [remote](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/docs/remote.adoc)
+  execution environments with more &| different compute resources
+- [Efficient](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/docs/optimizations.adoc)
+  transfer of large blob data to/from other environments.
+- [Memoization](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/docs/memoization.adoc)
+  — i.e. _reproducibility and fault tolerance_ — for individual functions.
+
+It is used by
+[decorating or wrapping your pure function and then calling it](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/docs/basic_usage.adoc)
+like a normal function.
+
+### read the docs
+
+[Browse our full documentation here.](https://github.com/TrilliantHealth/trilliant-data-science/libs/mops/README.adoc)
