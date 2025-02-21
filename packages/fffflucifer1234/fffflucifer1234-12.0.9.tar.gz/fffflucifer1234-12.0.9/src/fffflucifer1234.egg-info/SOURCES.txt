@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/fffflucifer1234.egg-info/PKG-INFO
+src/fffflucifer1234.egg-info/SOURCES.txt
+src/fffflucifer1234.egg-info/dependency_links.txt
+src/fffflucifer1234.egg-info/top_level.txt
+src/justlucifer123456/__init__.py
+src/justlucifer123456/pp.py
+src/liudilucifer12345/__init__.py
+src/liudilucifer12345/pp.py
