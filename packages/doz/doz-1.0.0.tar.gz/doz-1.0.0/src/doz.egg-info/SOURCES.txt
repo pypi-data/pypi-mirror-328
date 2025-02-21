@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/doz/__init__.py
+src/doz/doz.py
+src/doz/fdz.py
+src/doz/gpts-int.py
+src/doz/helpers.py
+src/doz/used.py
+src/doz.egg-info/PKG-INFO
+src/doz.egg-info/SOURCES.txt
+src/doz.egg-info/dependency_links.txt
+src/doz.egg-info/top_level.txt
