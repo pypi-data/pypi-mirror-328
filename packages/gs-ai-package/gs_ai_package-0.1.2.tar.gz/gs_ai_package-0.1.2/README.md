@@ -1,0 +1,104 @@
+Below is an example README in Markdown format:
+
+---
+
+```markdown
+# GS AI Package
+
+The **GS AI Package** is a library developed for standardizing and streamlining internal projects for the GreenShare Experiments team. This package provides a suite of tools to associate directional information with public transport data, specifically for occupancy (crowding) and evasion data provided by public transport companies.
+
+## Features
+
+- **DirectionProcessor Class**: A new class introduced in version **0.1.1**.
+  - Associates the direction with public transport data.
+  - Provides methods to process, normalize, and fill missing values in the data.
+  - Uniformizes directional information across various projects.
+  
+- **Data Processing Functions**: Includes functions to:
+  - Check if column names are in snake_case.
+  - Calculate direction distribution based on the most common values.
+  - Fill missing directions using trip-based modes.
+  - Uniformize direction values within groups.
+
+## Installation
+
+You can install the package from PyPI using `pip`:
+
+```bash
+pip install gs_ai_package
+```
+
+For testing and development, you can also install it from TestPyPI:
+
+```bash
+pip install --index-url https://test.pypi.org/simple/ gs_ai_package
+```
+## Running Tests
+
+The package includes tests to verify functionality and ensure code quality. To run the tests, follow these steps:
+
+1. **Install Testing Dependencies:**
+
+   Ensure you have `pytest` and `pytest-cov` installed:
+   
+   ```bash
+   pip install pytest pytest-cov
+   ```
+
+2. **Run Tests:**
+
+   From the root directory of the project, run:
+   
+   ```bash
+   pytest --cov=gs_ai_package --cov-report=term-missing
+   ```
+
+   This command runs all tests and shows a coverage report in the terminal.
+
+## Documentation
+
+The full documentation for this package is generated using Sphinx and is available online (e.g., via Read the Docs or GitHub Pages).
+
+To build the documentation locally:
+
+1. Navigate to the `docs/` folder:
+   
+   ```bash
+   cd docs
+   ```
+
+2. Build the HTML documentation:
+   
+   ```bash
+   make html
+   ```
+
+3. Open the generated documentation in your browser by navigating to the `build/html/index.html` file.
+
+Alternatively, you can use `sphinx-autobuild` for automatic rebuilding and live preview:
+
+```bash
+sphinx-autobuild . build/html
+```
+
+Then open `http://127.0.0.1:8000` in your browser.
+
+## Contributing
+
+Contributions are welcome! If you wish to contribute, please follow these guidelines:
+
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Write tests for your changes.
+- Ensure all tests pass and the coverage is maintained.
+- Submit a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Project URLs
+
+- **Source Code:** [https://github.com/PietroCosseddu/gs_ai_package](https://github.com/PietroCosseddu/gs_ai_package)
+- **Documentation:** (Link to your documentation site, e.g., Read the Docs or GitHub Pages)
+

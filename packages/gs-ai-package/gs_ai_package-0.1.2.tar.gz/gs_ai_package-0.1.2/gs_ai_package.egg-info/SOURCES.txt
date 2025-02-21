@@ -1,0 +1,10 @@
+README.md
+setup.py
+gs_ai_package/__init__.py
+gs_ai_package/direction_processor.py
+gs_ai_package.egg-info/PKG-INFO
+gs_ai_package.egg-info/SOURCES.txt
+gs_ai_package.egg-info/dependency_links.txt
+gs_ai_package.egg-info/requires.txt
+gs_ai_package.egg-info/top_level.txt
+tests/test_direction_processor.py
