@@ -1,0 +1,66 @@
+[project]
+name = "GCfit"
+version = "2.0"
+description = "Fitting of multimass equilibrium models of globular clusters"
+authors = [
+    {name = "Nolan Dickson", email = "nolan.dickson@smu.ca"},
+    {name = "Peter Smith", email = "smith.peter.902@gmail.com"},
+    {name = "Vincent Henault-Brunet", email= "Vincent.Henault@smu.ca"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["GCfit", "Globular Cluster", "Star Cluster"]
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy",
+    "scipy",
+    "astropy",
+    "astro-limepy",
+    "astro-ssptools",
+    "emcee",
+    "dynesty",
+    "h5py",
+    "tqdm",
+    "gala",
+    "schwimmbad",
+    "matplotlib",
+    "corner",
+    "shapely",
+    "sphinx-toggleprompt",
+    "ads"
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+documentation = "https://gcfit.readthedocs.io"
+repository = "https://github.com/nmdickson/GCfit.git"
+
+[project.scripts]
+GCfitter = "gcfit.scripts:GCfitter.main"
+generate_model_CI = "gcfit.scripts:generate_model_CI.main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = [
+  "gcfit/resources/*.hdf",
+  "gcfit/resources/*msp.dat",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["gcfit"]

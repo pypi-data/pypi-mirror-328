@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+devnotes*
+*vscode*
+/build
+/dist
+/results
+*ipynb_checkpoints*
+/.profiling
+
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# docs
+docs/build
+docs/source/**/generated/
