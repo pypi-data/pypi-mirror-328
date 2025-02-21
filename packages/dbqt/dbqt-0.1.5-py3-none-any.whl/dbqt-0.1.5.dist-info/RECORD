@@ -1,0 +1,11 @@
+dbqt/app.py,sha256=0bz67K4YTnFsAIIQjovEqACeAcebuRxSdPT_3GTR21Q,784
+dbqt/connections.py,sha256=rx6GlJSSPLe8aHWRd_sVtXD8zuCxrWgEBWoumn1bOAI,9890
+dbqt/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbqt/tools/colcompare.py,sha256=DTVjdlf7BbeNhmPSH-GQ8fRzlA83Qw4HwJQa0yDI21k,12717
+dbqt/tools/combine.py,sha256=TVjtcGRmxNkjHH79uRGzMMjG0xtGKfdbCuZ4Hi60X44,2205
+dbqt/tools/dbstats.py,sha256=vl4NRRpkerq5neAdv62HIneOP861oUC7GJZAfCyyItM,1465
+dbqt-0.1.5.dist-info/LICENSE,sha256=5YGAgYqB6N1zT_VFPD5cbRiESFF9SW1-O1EmXjZuqYc,1065
+dbqt-0.1.5.dist-info/METADATA,sha256=ehDmY1II17oXCgzza-iR9NBpJ7Hiiqk80I-Tm9tPrzY,4622
+dbqt-0.1.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+dbqt-0.1.5.dist-info/entry_points.txt,sha256=GgCDy_Dl7o6bVdR7-FZLOxzWENak2prfyK7UobMXbXU,38
+dbqt-0.1.5.dist-info/RECORD,,
