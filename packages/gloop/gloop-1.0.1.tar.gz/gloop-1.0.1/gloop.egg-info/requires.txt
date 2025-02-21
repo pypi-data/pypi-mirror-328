@@ -1,0 +1,2 @@
+type_enforced>=1.10.1
+PuLP==2.9.0
