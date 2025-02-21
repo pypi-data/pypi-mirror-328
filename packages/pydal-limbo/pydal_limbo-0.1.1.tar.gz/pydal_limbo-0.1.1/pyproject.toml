@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pydal-limbo"
+dynamic = ["version"]
+description = "Custom pyDAL adapter for limbo (SQLite rebuild)"
+readme = "README.md"
+requires-python = ">=3.10"
+license-expression = "MIT"
+authors = [
+    {name = "Robin van der Noord", email = "robin.vdn@educationwarehouse.nl"}
+]
+urls = { "Homepage" = "https://github.com/robinvandernoord/pydal-adapter-limbo" }
+
+dependencies = [
+    "pydal",
+    "pylimbo",
+]
+
+[project.optional-dependencies]
+# Uncomment and replace <DEV_REQUIREMENTS> with actual dev dependencies if you have them.
+dev = [
+    "hatch",
+    "python-semantic-release<8",
+]
+
+[tool.setuptools.packages.find]
+where = ["pydal_limbo"]
+
+[tool.semantic_release]
+branch = "master"
+version_variable = "pydal_limbo/__about__.py:__version__"
+change_log = "CHANGELOG.md"
+upload_to_repository = false
+upload_to_release = false
+build_command = "hatch build"
+version_source = "tag"
+
+[tool.hatch.version]
+path = "pydal_limbo/__about__.py"
