@@ -1,0 +1,3 @@
+dist
+flask_socket_generator_app
+templates
