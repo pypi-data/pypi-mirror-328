@@ -1,0 +1,9 @@
+microsoftdesigner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microsoftdesigner/constants.py,sha256=4MdEY24Eh9ctIx1oqTQnqIUdZvKwVsKWvFM-HvuL7FM,758
+microsoftdesigner/gen_images.py,sha256=tUJIRzNaGg7hvTtmeWqp-PAe4NkERYELuNGiNh1hJG4,6052
+microsoftdesigner/logger.py,sha256=w5_8sBVzGon9QRvGJzxSd4LJu0U02hwXrzYvfXb4QRk,401
+microsoftdesigner/utils.py,sha256=duOkivCqAxB0PjlBdYM6xPZUGLti5PxDPY4UuNpFS-Y,1219
+microsoftdesigner-0.0.11.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+microsoftdesigner-0.0.11.dist-info/METADATA,sha256=4S_jXgatukVN9ZP-xDWhHf4bwBK6rLWAUXJzh_hT7wA,2543
+microsoftdesigner-0.0.11.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+microsoftdesigner-0.0.11.dist-info/RECORD,,
