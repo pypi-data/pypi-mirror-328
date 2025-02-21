@@ -1,0 +1,15 @@
+flatpaker/__init__.py,sha256=jyty7VVUEdvuKYHd_VZ3kYkdbBkl2WGESPPKmIKcxAE,534
+flatpaker/config.py,sha256=ORDOntzM76iPYx1AMIh-ixqqFLTdcVzTfrIBKdN7n8Q,962
+flatpaker/description.py,sha256=yTp6oVhLHBjXtQ3tfAsIyTIDG-rsDII67mP2_2lYFU4,2217
+flatpaker/entry.py,sha256=oAUXcqG_tFx-C02I9udtjHx3bFQV9Hc6EficL3ZAQlk,5028
+flatpaker/util.py,sha256=BWe4oh4YBFVudtvP-JsDN9wgcV43Jel3CQdImspTxkQ,6269
+flatpaker/data/com.github.dcbaker.flatpaker.Platform.yml,sha256=wBEd57MW99po_j0Z3fklhvi73Fs0hEE2_e1Z9njS71A,649
+flatpaker/data/com.github.dcbaker.flatpaker.Sdk.yml,sha256=ACfJGCHIhwod96OWzi46tLyYBmt0OYb3q4S3XC1eP6o,1139
+flatpaker/impl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatpaker/impl/renpy.py,sha256=H1NsyoimC_V4CuGqF7cg_ETVsHcdnxfDbpBshp51_6c,8309
+flatpaker/impl/rpgmaker.py,sha256=HQzVD9TXAZ64-Z9WmD4p1HiNq7BjZ40kx7ogRT9ZJMg,2559
+flatpaker-0.0.6.dist-info/entry_points.txt,sha256=_6R4HPhjK68ou2LtVSgm26ltyMaQF4tCQT-L9ymdOgQ,50
+flatpaker-0.0.6.dist-info/LICENSE,sha256=QqvRDZzvUrvgv6CnNh5LdWCnoF19JuPUYzE-Qs8pNFY,1068
+flatpaker-0.0.6.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+flatpaker-0.0.6.dist-info/METADATA,sha256=dbk6M9U11IvtHxFESjjRNvvFCLPHK_mRy118R3cDh6k,6972
+flatpaker-0.0.6.dist-info/RECORD,,
