@@ -1,0 +1,10 @@
+License.txt
+README.md
+setup.py
+time_travel_debugger/__init__.py
+time_travel_debugger/debugger.py
+time_travel_debugger.egg-info/PKG-INFO
+time_travel_debugger.egg-info/SOURCES.txt
+time_travel_debugger.egg-info/dependency_links.txt
+time_travel_debugger.egg-info/requires.txt
+time_travel_debugger.egg-info/top_level.txt
