@@ -1,0 +1,179 @@
+# HyperFlow: Next-Generation Computational Framework for Machine Learning & Deep Learning
+
+![Project Image](https://raw.githubusercontent.com/Shyanil/HyperFlow/refs/heads/main/The%20HyperFlow/HyperFlow_FlowUnit.png)
+
+📄 [Read the Full Documentation](https://drive.google.com/file/d/1DfNKxcDb-VEAI13xm1UwnLyZwF5_1_t_/view?usp=sharing)
+
+## 🚀 Introduction
+
+HyperFlow is an advanced computational framework designed to enhance machine learning and deep learning research. At its core is the **FlowUnit** class, an optimized and modular implementation supporting:
+
+- 🔢 **Mathematical operations**
+- ⚙️ **Activation functions**
+- 📉 **Optimization techniques**
+- 🔄 **Backpropagation**
+
+HyperFlow provides simplicity and power, making it ideal for understanding neural networks, automatic differentiation, and optimization techniques.
+
+## 🎯 Inspiration
+
+Inspired by [Micrograd](https://github.com/karpathy/micrograd) by **Andrej Karpathy**, HyperFlow extends its capabilities by offering:
+
+- 🚀 Advanced mathematical operations
+- 🎯 Broader activation function support
+- ⚡ Optimized backpropagation
+- 🔍 Enhanced modularity
+
+It serves as a lightweight yet powerful alternative to complex deep learning frameworks like PyTorch.
+
+## 💡 Why HyperFlow?
+
+✅ **Lightweight & Transparent** – Focuses on raw Python implementations to help understand ML/DL concepts.  
+⚡ **Efficient & Optimized** – Uses map functions for better performance.  
+🔧 **Flexible & Powerful** – Supports neural networks, including backpropagation.  
+📉 **Minimal NumPy Dependency** – Encourages learning without excessive reliance on pre-built libraries.
+
+## 🔑 Core Functionalities
+
+### 🔢 Mathematical Operations
+
+- `create2darray`, `convert2darray`, `add`, `sub`, `mul`, `matmul`, `dot`, `pow`
+
+### ⚙️ Activation Functions
+
+- `sigmoid`, `tanh`, `ReLU`, `Leaky ReLU`, `softmax`
+
+### 📉 Loss Functions
+
+- `categorical_cross_entropy`, `binary_cross_entropy`, `mse_loss`
+
+### 🔄 Optimization & Backpropagation
+
+- `backpropagate`, `gradient_descent`
+
+## 🧠 Neural Network Implementation
+
+The **Neuron.py** module simplifies the creation of:
+
+- 🏗 **Neurons**
+- 🔗 **Layers**
+- 🏛 **Complete Neural Networks**
+
+This module offers full control over weights, biases, and architecture for in-depth experimentation.
+
+## 📌 Examples & Outputs
+
+### ✅ Dot Product Calculation
+
+```python
+from hyperflow import FlowUnit
+
+a = FlowUnit([1, 2, 3])
+b = FlowUnit([4, 5, 6])
+
+result = a.__dot__(b)
+print(f"Dot product result: {result.data}")
+```
+
+**Output:**
+
+```
+Dot product result: 32
+```
+
+### 🔄 Backpropagation Test
+
+```python
+def test_backpropagation():
+    x = FlowUnit(2.0)
+    y = FlowUnit(-3.0)
+    z = FlowUnit(1.5)
+
+    a = x.sigmoid()
+    b = y.tanh()
+    c = z.relu()
+    d = x.leaky_relu()
+
+    loss = a + b + c + d
+    loss.backpropagate()
+
+    print(f"x.grad: {x.grad}")
+    print(f"y.grad: {y.grad}")
+    print(f"z.grad: {z.grad}")
+
+test_backpropagation()
+```
+
+**Output:**
+
+```
+x.grad: 1.1049935854035067
+y.grad: 0.00986603716543999
+z.grad: 1.0
+```
+
+### 🔢 Activation Function Tests
+
+```python
+def test_flow_unit_functions():
+    data = np.array([1.0, 2.0, 3.0])
+    flow_unit = FlowUnit(data)
+
+    sigmoid_out = flow_unit.sigmoid()
+    print("Sigmoid Output:", sigmoid_out.data)
+
+    tanh_out = flow_unit.tanh()
+    print("Tanh Output:", tanh_out.data)
+
+    relu_out = flow_unit.relu()
+    print("ReLU Output:", relu_out.data)
+
+    leaky_relu_out = flow_unit.leaky_relu(alpha=0.01)
+    print("Leaky ReLU Output:", leaky_relu_out.data)
+
+    softmax_out = flow_unit.softmax()
+    print("Softmax Output:", softmax_out.data)
+
+test_flow_unit_functions()
+```
+
+**Output:**
+
+```
+Sigmoid Output: [0.731 0.880 0.952]
+Tanh Output: [0.761 0.964 0.995]
+ReLU Output: [1.0 2.0 3.0]
+Leaky ReLU Output: [1.0 2.0 3.0]
+Softmax Output: [0.090 0.244 0.665]
+```
+
+### 📉 Loss Function Tests
+
+```python
+def test_loss_functions():
+    logits = FlowUnit(np.array([2.0, 1.0, 0.1]))
+    target = [1, 0, 0]
+
+    cce_loss = LossFunctions.categorical_cross_entropy(logits, target)
+    print("Categorical Cross-Entropy Loss:", cce_loss.data)
+
+    inputs = FlowUnit(np.array([[1.0, 2.0], [3.0, 4.0]]))
+    target = FlowUnit(np.array([1, 0]))
+    parameters = (FlowUnit(np.array([0.5, -0.5])), FlowUnit(0.1))
+
+    bce_loss = LossFunctions.binary_cross_entropy_loss(inputs, target, parameters)
+    print("Binary Cross-Entropy Loss:", bce_loss.data)
+
+test_loss_functions()
+```
+
+**Output:**
+
+```
+Categorical Cross-Entropy Loss: 0.417
+Binary Cross-Entropy Loss: [0.715]
+```
+
+## 📚 Explore More Use Cases
+
+Find more examples and use cases in the [GitHub repository](https://github.com/Shyanil/HyperFlow).
