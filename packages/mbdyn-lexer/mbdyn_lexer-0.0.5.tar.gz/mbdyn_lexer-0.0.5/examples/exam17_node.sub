@@ -1,0 +1,8 @@
+set: Nodelabel_n = Index;
+
+structural: Nodelabel_n, dynamic,
+   position,         (Index-1)*Length_Full+Length_Half, 0., 0.,
+   orientation,      eye,
+   velocity,         null,
+   angular velocity, null;
+   

@@ -1,0 +1,8 @@
+set: Nodelabel_n = Index;
+set: Bodylabel_n = Index;
+
+body: Bodylabel_n, Nodelabel_n,
+   Mass,
+   null,
+   diag, Ixx, Iyy, Izz;
+   

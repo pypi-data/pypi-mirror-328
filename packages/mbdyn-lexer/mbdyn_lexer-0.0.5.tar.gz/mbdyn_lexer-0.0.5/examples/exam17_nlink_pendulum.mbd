@@ -1,0 +1,65 @@
+/* https://www.sky-engin.jp/en/MBDynExamples/index.html
+   Example 17 (C) 2010-2011 Sky Engineering Laboratory Inc.
+   
+   Modified by Andre Zettel 2025
+*/
+begin: data;
+   problem: initial value;
+end: data;
+
+begin: initial value;
+   initial time:   0.;
+   final time:     5.;
+   time step:      1.e-3;
+   max iterations: 10;
+   tolerance:      1.e-7;
+   derivatives tolerance: 1e6;  # TODO: FIXME
+end: initial value;
+
+begin: control data;
+   structural nodes: 3;
+   rigid bodies:     3;
+   joints:           3;
+   gravity;
+end: control data;
+
+set: real Mass = 0.2;
+set: real Length_Full = 0.2;
+set: real Length_Half = 1./2.* Length_Full;
+
+set: real Ixx = 0;
+set: real Iyy = Mass*Length_Full^2./12.;
+set: real Izz = Iyy;
+
+set: integer Nodelabel_1 = 1;
+set: integer Nodelabel_n;
+set: integer Bodylabel_n;
+set: integer Jointlabel_1 = 1;
+set: integer Jointlabel_n;
+
+set: integer Index;
+
+begin: nodes;
+   set: Index = 1; include: "exam17_node.sub";
+   set: Index = 2; include: "exam17_node.sub";
+   set: Index = 3; include: "exam17_node.sub";
+end: nodes;
+
+begin: elements;
+   set: Index = 1; include: "exam17_body.sub";
+   set: Index = 2; include: "exam17_body.sub";
+   set: Index = 3; include: "exam17_body.sub";
+   
+   joint: Jointlabel_1, 
+      revolute pin, 
+         Nodelabel_1, 
+            position, -Length_Half, 0., 0.,
+            orientation, 1, 1., 0., 0., 3, 0., 1., 0.,
+            position, null,
+            orientation, 1, 1., 0., 0., 3, 0., 1., 0.;
+       
+   set: Index = 2; include: "exam17_joint.sub";
+   set: Index = 3; include: "exam17_joint.sub";
+
+   gravity: uniform, 0., 0., -1., const, 9.81;
+end: elements;

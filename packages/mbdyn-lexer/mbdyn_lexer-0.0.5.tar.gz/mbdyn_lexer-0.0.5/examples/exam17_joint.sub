@@ -1,0 +1,11 @@
+set: Nodelabel_n  = Index;
+set: Jointlabel_n = Index;
+
+joint: Jointlabel_n, 
+   revolute hinge, 
+      Nodelabel_n-1,
+         position, Length_Half, 0., 0.,
+         orientation, 1, 1., 0., 0., 3, 0., 1., 0.,
+      Nodelabel_n,
+         position, -Length_Half, 0., 0.,
+         orientation, 1, 1., 0., 0., 3, 0., 1., 0.; 
