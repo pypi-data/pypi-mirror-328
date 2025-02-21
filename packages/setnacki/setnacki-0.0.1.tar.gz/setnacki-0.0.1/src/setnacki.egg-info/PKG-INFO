@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: setnacki
+Version: 0.0.1
+Summary: The card game Setback
+Home-page: https://github.com/bernackimark/setback
+Author: Bernacki
+Author-email: bernackimark@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.2; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+# setnacki
+Library built upon cardnacki for playing the card game Setback
+
+0.0.1 (2025-02-19):
+ - initial version; it probably does not work
