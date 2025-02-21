@@ -1,0 +1,2 @@
+[console_scripts]
+ntree = ncopa.tree:main

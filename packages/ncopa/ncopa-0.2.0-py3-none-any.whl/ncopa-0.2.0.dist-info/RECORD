@@ -1,0 +1,12 @@
+ncopa/__init__.py,sha256=AhI97RJgEO5if5_DX1AaFdI8OcFokoQS0J-rkA_3J8A,210
+ncopa/comment.py,sha256=PagyiZd_EvHRVBqQ3bkPmdm8Xdnpo9ManXWxqBMatJ0,594
+ncopa/find.py,sha256=pteeNzi2A40G-VmL9G3Nnx2WF50mDKNxR7R3hqmyYO0,980
+ncopa/parse.py,sha256=Qeho0e8L5AT9vcXME23SaS6nPmBNcDspJ6Y3Kfwu7jk,1397
+ncopa/search.py,sha256=MELsbP-6EHEYkNxOw3eXh7KYB1ftOO1O0Qr9fboOG2s,1289
+ncopa/traverse.py,sha256=u-eya_tIvW0UeFRoeQnyl7Ytom26HyI5IVk41Hrm6dk,732
+ncopa/tree.py,sha256=kk8qgXHA2mZ6gO0MvhadKGSid02q6Y_MNooj-REkbck,730
+ncopa-0.2.0.dist-info/METADATA,sha256=NCxgIiea9W5Yzy7zw_NS4ochf5gG6-wAtzSnh1R-8L0,731
+ncopa-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ncopa-0.2.0.dist-info/entry_points.txt,sha256=qXZ_KlH56p4pTVQ2q-XFtB2vYlGsUdWaJOqTbM16suY,42
+ncopa-0.2.0.dist-info/licenses/LICENSE,sha256=wL94DgRCtRy6PZGQ1eeoERidW9QV4y_dI3mddOOcQAw,1493
+ncopa-0.2.0.dist-info/RECORD,,
