@@ -1,0 +1,7 @@
+h3<5,>=4.2.1
+shapely
+requests
+ratelimit
+backoff
+boto3
+pandas
