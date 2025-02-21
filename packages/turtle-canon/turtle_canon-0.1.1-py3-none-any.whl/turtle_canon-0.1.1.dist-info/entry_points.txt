@@ -1,0 +1,2 @@
+[console_scripts]
+turtle-canon = turtle_canon.cli.cmd_turtle_canon:main
