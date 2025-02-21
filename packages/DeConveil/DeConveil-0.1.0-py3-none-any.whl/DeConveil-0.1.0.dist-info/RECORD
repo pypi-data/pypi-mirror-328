@@ -1,0 +1,12 @@
+DeConveil/__init__.py,sha256=_6FL_AYiycv9nP3mKJiQ4zl4aU83YSWnV2YoIZr9Mv0,188
+DeConveil/dds.py,sha256=gJDe6uoolAaS6v7C9DIRM_05LDuhlQO3u6WbMamMMbA,49126
+DeConveil/default_inference.py,sha256=Ym4mOq4yG7CbvtWF_HqibJrWQLTpUHRgsqGo2cKE5OA,9570
+DeConveil/ds.py,sha256=WUpSTCxMt1yeQf6zORmNUnz-whwyTaizmg0i_09v73c,29512
+DeConveil/grid_search.py,sha256=Gy9wLBe1YrJdimpTz4oFrTGv6pvhK3kVPa6FrI2vq8o,5189
+DeConveil/inference.py,sha256=fcvoL7KHuuLVxF8sz7QIT9A1o80sIRpOcIvyyF_rJGc,10480
+DeConveil/utils_CNaware.py,sha256=cRyPMNHW0JjXEonDHlRNAuzHrP9egJ2aERSRvp5ugGI,25182
+DeConveil-0.1.0.dist-info/LICENSE,sha256=BJ0f3JRteiF7tjiARi8syxiu4yKmckc0nWlHCKXttKQ,1078
+DeConveil-0.1.0.dist-info/METADATA,sha256=SNyxZkjZxPh2ZtIsAkGDlbgibe-AqGsPta6a10n65oc,1075
+DeConveil-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+DeConveil-0.1.0.dist-info/top_level.txt,sha256=LI9aJqnkaO3AawK0hV1oHW0dd6n16Jv3uZyQdC2n0bg,10
+DeConveil-0.1.0.dist-info/RECORD,,
