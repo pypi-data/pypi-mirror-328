@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: orderly-sdk
+Version: 0.3.0
+Summary: Orderly Rest and Websocket SDK
+Author-email: Bob Liu <akagi201@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Requires-Python: >=3.13
+Requires-Dist: aiohttp>=3.11.12
+Requires-Dist: base58>=2.1.1
+Requires-Dist: cryptography>=44.0.1
+Requires-Dist: eth-keys>=0.6.1
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: requests>=2.32.3
+Requires-Dist: types-requests>=2.32.0.20241016
+Requires-Dist: websockets>=15.0
+Description-Content-Type: text/markdown
+
+# orderly-sdk-py
+
+[![PyPI version](https://badge.fury.io/py/orderly-sdk.svg)](https://badge.fury.io/py/orderly-sdk) [![Pdoc Badge](https://img.shields.io/badge/docs-orderly_sdk-green)](https://akagi201.github.io/orderly-sdk-py/)
+
+Orderly.Network Async Python SDK for EVM API(v2)
+
+**Note: Only async Rest and Websocket APIs are maintained.**
+
+## API docs
+
+* <https://orderly.network/docs/build-on-evm/building-on-evm>
