@@ -1,0 +1,18 @@
+# Coverage
+.coverage
+coverage.xml
+
+# Python
+.egg*
+dist/
+__pycache__*
+*.pyc
+
+# Application
+logs/
+
+# Documentation
+site/
+
+# Testing/linting
+.*_cache/

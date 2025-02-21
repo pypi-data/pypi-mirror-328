@@ -1,0 +1,156 @@
+name: CI - Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'push-action/**'
+
+jobs:
+  basic-tests:
+    name: External
+    uses: SINTEF/ci-cd/.github/workflows/ci_tests.yml@v2.9.0
+    with:
+      # General setup
+      install_extras: "[dev]"
+
+      # pre-commit (use pre-commit.ci)
+      run_pre-commit: false
+
+      # pylint & safety
+      python_version_pylint_safety: "3.10"
+      run_pylint: false
+
+      run_safety: true
+      # ID: 70612
+      #   Package: Jinja2
+      #   Has been disputed by the maintainer and multiple third parties.
+      #   For more information see: https://github.com/advisories/GHSA-f6pv-j8mr-w6rr
+      safety_options: |
+        --ignore=70612
+
+      # Build dist
+      run_build_package: true
+      python_version_package: "3.10"
+      build_libs: "build"
+      build_cmd: "python -m build"
+
+      # Build documentation
+      run_build_docs: true
+      python_version_docs: "3.10"
+      warnings_as_errors: true
+      use_mkdocs: true
+
+      update_python_api_ref: true
+      update_docs_landing_page: true
+      package_dirs: "turtle_canon"
+
+  pytest:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install python dependencies
+      run: |
+        python -m pip install -U pip
+        pip install -U setuptools wheel
+        pip install -e .[dev]
+
+    - name: Test with pytest
+      run: pytest -vvv --color=yes --cov-report=xml
+
+    - name: Upload coverage to Codecov
+      if: github.repository == 'CasperWA/turtle-canon'
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        fail_ci_if_error: true
+        env_vars: OS,PYTHON
+        name: turtle-canon
+        flags: turtle-canon
+      env:
+        OS: ubuntu-latest
+        PYTHON: ${{ matrix.python-version }}
+
+  as-pre-commit-hook:
+    name: As a pre-commit hook (py ${{ matrix.python-version }}, pre-commit ${{ matrix.pre-commit-version }})
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        pre-commit-version:
+          - "==1.15.0"  # minimum pre-commit version for turtle-canon
+          # latest major versions
+          - "~=1.0"
+          - "~=2.0"
+          - "~=3.0"
+          - "~=4.0"
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+        exclude:
+          - pre-commit-version: "==1.15.0"
+            python-version: "3.11"
+          - pre-commit-version: "==1.15.0"
+            python-version: "3.12"
+          - pre-commit-version: "==1.15.0"
+            python-version: "3.13"
+          - pre-commit-version: "~=1.0"
+            python-version: "3.11"
+          - pre-commit-version: "~=1.0"
+            python-version: "3.12"
+          - pre-commit-version: "~=1.0"
+            python-version: "3.13"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U setuptools wheel
+        pip install "pre-commit${{ matrix.pre-commit-version }}"
+
+    - name: Set 'rev' to current commit SHA
+      run: sed -i "s|COMMIT_SHA|${GITHUB_SHA}|" .github/utils/.pre-commit-config.yaml
+
+    - name: Test pre-commit hook
+      run: pre-commit run -c .github/utils/.pre-commit-config.yaml --all-files --verbose && exit 1 || exit 0
+
+    - name: Check files
+      run: |
+        if [ -z "$(git status --porcelain tests)" ]; then
+          echo "Turtle Canon did not canonize any files under tests/ !"
+
+          echo "pre-commit log:"
+          cat "/home/runner/.cache/pre-commit/pre-commit.log"
+          exit 1
+        fi
+        if [ -n "$(git status --porcelain tests/static/rdflib_canonized)" ]; then
+          echo "Turtle Canon canonized already canonized files under tests/static/rdflib_canonized !"
+
+          echo "pre-commit log:"
+          cat "/home/runner/.cache/pre-commit/pre-commit.log"
+          exit 1
+        fi
+
+        # Now everything should run fine
+        pre-commit run -c .github/utils/.pre-commit-config.yaml --all-files

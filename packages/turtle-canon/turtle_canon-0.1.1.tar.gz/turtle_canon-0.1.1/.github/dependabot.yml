@@ -1,0 +1,33 @@
+version: 2
+
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: monday
+    time: "03:22"
+  target-branch: main
+  labels:
+  - dependencies
+  - CI/CD
+  - skip_changelog
+  groups:
+    pyproject:
+      applies-to: "version-updates"
+      patterns:
+        - "*"
+    pyproject-security:
+      applies-to: "security-updates"
+      patterns:
+        - "*"
+
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "03:11"
+  target-branch: main
+  labels:
+  - CI/CD
+  - skip_changelog
