@@ -1,0 +1,2 @@
+[console_scripts]
+splg = splg.runtime:main
