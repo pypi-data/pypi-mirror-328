@@ -1,0 +1,77 @@
+Metadata-Version: 2.2
+Name: ir_explain
+Version: 0.1
+Summary: A Python Library for Explainable IR methods
+Home-page: https://github.com/souravsaha/ir_explain/
+Author: Sourav Saha
+Author-email: souravsaha.juit@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython==8.12.3
+Requires-Dist: matplotlib==3.9.4
+Requires-Dist: nltk==3.9.1
+Requires-Dist: numpy==1.24.4
+Requires-Dist: pandas==2.2.3
+Requires-Dist: rank_bm25==0.2.2
+Requires-Dist: scikit_learn==1.6.0
+Requires-Dist: scipy==1.10.1
+Requires-Dist: sentence_transformers==3.3.1
+Requires-Dist: scikit-image
+Requires-Dist: torch==2.2.0
+Requires-Dist: ir_datasets
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: pyserini==0.21.0
+Requires-Dist: gensim==4.3.1
+Requires-Dist: torchtext==0.17.0
+Requires-Dist: h5py
+Requires-Dist: captum==0.7.0
+Requires-Dist: genosolver==0.1.0.6
+Requires-Dist: cvxpy==1.3.2
+Requires-Dist: pytorch-lightning
+Requires-Dist: faiss-cpu==1.8.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ir_explain
+
+## Installing requirements
+
+```
+git clone https://github.com/souravsaha/ir_explain.git
+```
+```
+conda create -n ir_explain python=3.9
+```
+```
+pip install .
+```
+Note that for now we have tested ir_explain on Python 3.9 and Java 11. we will test on newer versions of Python soon and update.
+
+Before running the ir_explain library, set the JAVA HOME as follows (replace the path appropriately):
+```
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+```
+
+## Usage
+
+As of now, we have established a single pipeline with pointwise component. 
+
+### To get started 
+
+You can run the programs test_point_wise.py, test_pair_wise.py, and test_list_wise.py to get the pipeline. 
+
+## Contributing
+
+IR Explain library is open-source, and we are open to all the contributions from IR and NLP community. If you find a bug please report to the issue tracker, even better to send us a pull-request on Github. 
