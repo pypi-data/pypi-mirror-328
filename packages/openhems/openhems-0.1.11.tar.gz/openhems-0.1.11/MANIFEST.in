@@ -1,0 +1,5 @@
+
+graft data
+
+recursive-include data/*.yaml
+include src/openhems/modules/web/templates/*.jinja2
