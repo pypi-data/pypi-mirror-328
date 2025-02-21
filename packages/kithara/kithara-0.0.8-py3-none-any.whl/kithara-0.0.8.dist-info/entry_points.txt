@@ -1,0 +1,6 @@
+[console_scripts]
+kithara=cli.main:main
+
+[kithara.commands]
+multihost=cli.multihost:main
+
