@@ -1,0 +1,14 @@
+pidibble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidibble/baseparsers.py,sha256=xx6zOhrgF5huhgfGWaRpUDyMrZaV_ZdwxH7J3_o1oOs,2904
+pidibble/baserecord.py,sha256=m7Z3ajzaoTSGbSPKq2vvJkd8PB-bGvBfRaq4bnnbyPI,1623
+pidibble/hex.py,sha256=pEV4WowKU0KraYpC4bm0azEJyJ8nxWyPByyOoYBynd0,511
+pidibble/mmcif_parse.py,sha256=hcgvCUyO3YL372kQkJN0Y07rBvVV1MaNQqHNQ2jJ-k0,8970
+pidibble/pdbparse.py,sha256=pAngCWf5qlHRj8recEtEQYAr61e6GpsyB8cOWLroa4Y,12968
+pidibble/pdbrecord.py,sha256=w4abFByfxOjS5qwBnIox7BGoqx7FwOxA9cCcquxaiTk,19051
+pidibble/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidibble/resources/mmcif_format.yaml,sha256=rQM2BxpnLbMaDqaWP8T5l_gV6SkuwyfjzhCGDNOgQU8,5331
+pidibble/resources/pdb_format.yaml,sha256=nAizB9Labp6CJigHWxpEPPNEtZ9E7MQ90NzEnOa_X_k,25027
+pidibble-1.3.1.dist-info/METADATA,sha256=TXjw2UoFyyh26bGfIzLWxxr_bdvWNY5WTmmzE6-Zxps,4783
+pidibble-1.3.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pidibble-1.3.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pidibble-1.3.1.dist-info/RECORD,,
