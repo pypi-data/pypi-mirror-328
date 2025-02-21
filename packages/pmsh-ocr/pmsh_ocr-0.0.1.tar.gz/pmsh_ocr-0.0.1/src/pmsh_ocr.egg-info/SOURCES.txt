@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/pmsh/__init__.py
+src/pmsh/detect.py
+src/pmsh/pmsh_ocr.py
+src/pmsh/recognize.py
+src/pmsh/tokenize.py
+src/pmsh/models/decoder_loop.onnx
+src/pmsh/models/encoder_ctc.onnx
+src/pmsh_ocr.egg-info/PKG-INFO
+src/pmsh_ocr.egg-info/SOURCES.txt
+src/pmsh_ocr.egg-info/dependency_links.txt
+src/pmsh_ocr.egg-info/requires.txt
+src/pmsh_ocr.egg-info/top_level.txt

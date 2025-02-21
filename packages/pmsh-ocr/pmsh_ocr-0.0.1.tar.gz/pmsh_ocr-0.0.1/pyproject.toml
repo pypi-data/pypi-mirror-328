@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmsh-ocr"
+version = "0.0.1"
+description = "Primary Math Screen Handwriting OCR (pmsh-ocr) is a Python package for recognizing primary mathematical expressions handwritten on screen."
+authors = [
+    { name = "Martin HM MaDing", email = "mading5@xdf.cn" }
+]
+license = {"text" = "MIT"}
+readme = "README.md"
+keywords = ["Primary Math", "Screen Handwriting", "OCR"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "onnxruntime",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/pmsh-ocr"
+
+[tool.setuptools.package-data]
+"pmsh.models" = ["*.onnx"]
