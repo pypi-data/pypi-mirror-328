@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/SVFS/__init__.py
+src/SVFS/svfs.py
+src/svfs3.egg-info/PKG-INFO
+src/svfs3.egg-info/SOURCES.txt
+src/svfs3.egg-info/dependency_links.txt
+src/svfs3.egg-info/requires.txt
+src/svfs3.egg-info/top_level.txt
