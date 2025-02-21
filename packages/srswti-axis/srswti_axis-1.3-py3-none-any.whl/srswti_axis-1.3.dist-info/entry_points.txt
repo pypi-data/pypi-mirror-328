@@ -1,0 +1,2 @@
+[console_scripts]
+srswti-axis-post-install = srswti_axis.post_install:main
