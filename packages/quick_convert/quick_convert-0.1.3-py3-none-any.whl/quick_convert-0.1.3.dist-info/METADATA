@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quick_convert
+Version: 0.1.3
+Summary: Code to compare performance of various intermediate files
+Author: Mark Baggett
+Author-email: markpbaggett@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Requires-Dist: tifftools (>=1.5.2,<2.0.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Mark Convert
+
+## Using
+
+```shell
+markcovert path -t jp2 -p path/to/files -o /path/to/output/destination
+```
+

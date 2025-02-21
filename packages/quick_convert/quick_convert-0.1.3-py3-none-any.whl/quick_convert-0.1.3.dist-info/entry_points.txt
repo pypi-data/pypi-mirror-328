@@ -1,0 +1,3 @@
+[console_scripts]
+markconvert=quick_convert.convert:cli
+
