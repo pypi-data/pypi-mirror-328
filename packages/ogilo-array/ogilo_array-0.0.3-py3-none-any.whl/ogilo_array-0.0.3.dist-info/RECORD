@@ -1,0 +1,16 @@
+ogilo/__init__.py,sha256=5_5uz_gkTz0zJHpUY3AokTatDtlz87S_zg-VUajDsxI,76
+ogilo/checks.py,sha256=zNtNia3vuVda3VxI8sin5ZSMi3t13Rx3D2oX14YSX4k,633
+ogilo/cli.py,sha256=NJ8_AEq6ToDP03KjUUABHNmjgfaVmBhHIIhzuewrzRw,9622
+ogilo/io.py,sha256=AC-0yLVWi6O729nkwxwT3L98EBEUmxIxiSdL94SbUd0,3857
+ogilo/types.py,sha256=xt221NSbDitzVcZJ3M1rF2A5paY6TxB4WG0wQCwy_kc,410
+ogilo/utils.py,sha256=zT4XOJB6Gur17tTQqi4G36dzIu6wPLR3nVeU07z54MY,4021
+ogilo/data/handles/illumina-pcr-handles.csv,sha256=cSpfSkXRUttVhoAE-06nViohv-kSVELZEDQ9KZJSUUQ,123
+ogilo/data/handles/sanson2018-pcr-handles.csv,sha256=6eoviXe-2kSeGR4ruHwWnEETnvtiwz06yN1Cu7waD88,339
+ogilo/data/handles/subramanian2018-pcr-handles.csv,sha256=Dc_UphkbTnCSusP3oHHkONYtRd8i7MtxTJeonIAnyMk,446414
+ogilo/data/handles/winston2022-pcr-handles.csv,sha256=7kxqy0uYAI06ThDY0HxpoDHG2oBub5NHgQXOymCO_GQ,5062
+ogilo_array-0.0.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+ogilo_array-0.0.3.dist-info/METADATA,sha256=cAjlRbNTMp8WoOq37F1p0UBlWi6zND2e_AbCfaPoiCg,13901
+ogilo_array-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ogilo_array-0.0.3.dist-info/entry_points.txt,sha256=ukF3QvEfhVhwW6DwgAHIrRD6TmKHYqqn-d76X6LsCYE,41
+ogilo_array-0.0.3.dist-info/top_level.txt,sha256=gM5G7F0Ax0MR1DQYXYpdUDyYhuTG2V7xxIe5kp6Py_k,6
+ogilo_array-0.0.3.dist-info/RECORD,,
