@@ -1,0 +1,31 @@
+# Compiled files
+*.pyc
+*.pyd
+
+# Build files
+build/
+dist/
+zospy.egg-info/
+
+# Documentation build files
+docs/_build/
+docs/api/
+# Examples are automatically copied on build
+docs/examples/
+
+# Tool and cache folders
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.ruff_cache/
+.venv/
+
+# Editor settings
+.idea/
+.vscode/
+
+# Temporary data files
+scripts/**/*.pickle
+scripts/**/*.zos
+scripts/**/*.ZDA

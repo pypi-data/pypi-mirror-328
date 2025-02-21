@@ -1,0 +1,51 @@
+name: Continuous Integration
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up uv
+      id: setup-uv
+      uses: astral-sh/setup-uv@v3
+    - name: Build package
+      run: uv build --python ${{ matrix.python }}
+    - name: Install package
+      run: uv venv --python ${{ matrix.python }} && uv pip install --find-links ./dist/ zospy
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up uv
+        id: setup-uv
+        uses: astral-sh/setup-uv@v3
+      - name: Lint code
+        run: |
+          uvx hatch fmt --check
+      - name: Lint docstrings
+        if: always() # Run even if previous step fails
+        run: |
+          uvx pydocstringformatter --exit-code examples scripts tests zospy
+
+  check_file_updates:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'skip changelog')
+    name: Check CHANGELOG.md for updates
+    steps:
+        - uses: actions/checkout@v4
+        - name: Check for file updates
+          id: changed-files
+          uses: tj-actions/changed-files@v41
+          with:
+            files: CHANGELOG.md
+        - name: Fail if nothing changed
+          if: steps.changed-files.outputs.any_changed != 'true'
+          run: exit 1
