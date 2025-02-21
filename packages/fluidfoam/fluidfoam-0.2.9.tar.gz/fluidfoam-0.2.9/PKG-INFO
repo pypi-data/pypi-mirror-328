@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: fluidfoam
+Version: 0.2.9
+Summary: Openfoam PostProcessing Python Tools
+Author-email: Cyrille Bonamy <cyrille.bonamy@univ-grenoble-alpes.fr>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/fluiddyn/fluidfoam
+Project-URL: Issues, https://github.com/fluiddyn/fluidfoam/issues
+Project-URL: Documentation, https://fluidfoam.readthedocs.io
+Keywords: Openfoam,postprocessing,python,CFD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.txt
+Requires-Dist: numpy>=1.11
+Requires-Dist: matplotlib>=1.5
+Requires-Dist: scipy>=1.7.4
+Requires-Dist: netCDF4
