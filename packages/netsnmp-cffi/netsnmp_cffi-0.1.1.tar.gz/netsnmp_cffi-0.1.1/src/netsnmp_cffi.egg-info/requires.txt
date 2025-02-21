@@ -1,0 +1,16 @@
+cffi
+
+[dev]
+build
+coverage
+ipython
+pre-commit
+pytest
+pytest-cov
+pytest-asyncio
+retry
+ruff
+snmpsim>=1.0
+towncrier
+tox
+twine
