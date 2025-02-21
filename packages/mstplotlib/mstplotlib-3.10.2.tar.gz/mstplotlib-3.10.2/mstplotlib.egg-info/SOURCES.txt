@@ -1,0 +1,6 @@
+setup.py
+mstplotlib.egg-info/PKG-INFO
+mstplotlib.egg-info/SOURCES.txt
+mstplotlib.egg-info/dependency_links.txt
+mstplotlib.egg-info/requires.txt
+mstplotlib.egg-info/top_level.txt
