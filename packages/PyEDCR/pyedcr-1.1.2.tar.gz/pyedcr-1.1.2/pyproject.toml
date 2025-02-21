@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyEDCR"
+version = "1.1.2"
+description = "PyEDCR is a metacognitive neuro-symbolic method for learning error detection and correction rules in deployed ML models using combinatorial sub-modular set optimization"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Lab V2", email = "pshak02@asu.edu" }
+]
+keywords = ["machine learning", "error detection", 'neurosymbolic AI', "metacognition", 'error correction', 'rule learning',
+    'artificial intelligence', 'data science', 'data mining', 'data analysis']
+
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0.0"
+]
+
+# Specify where your source code is located
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyedcr"]  # Replace with the actual path to your package
+
