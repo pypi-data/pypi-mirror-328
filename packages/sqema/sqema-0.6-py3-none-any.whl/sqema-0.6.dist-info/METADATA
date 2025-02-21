@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: sqema
+Version: 0.6
+Summary: Sqema (Species Quantification from Environmental nucleic acid Metabarcode Abundance) is a software package for generating species abundance distributions from data taken from environmental DNA or RNA (eNA) data sets. SQEMA works on the assumption that the abundance of species in environments that eNA is sampled from follow predictable patterns of abundance. SADs have been studied extensively by ecologists and they provide valuable null hypotheses for the real abundance of species.
+Author-email: Simon Jarman <simon.jarman@curtin.edu.au>
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
