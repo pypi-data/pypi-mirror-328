@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: secureutils
+Version: 0.1.0
+Summary: A Python utility module for secure requests, file operations, certificate management, and SQLite handling
+Author: zxc4we
+Author-email: zxc4we028@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: astor>=0.8.1
+Requires-Dist: cryptography>=42.0.0
+Requires-Dist: openai>=1.63.2
+Requires-Dist: requests>=2.32.3
+Requires-Dist: setuptools>=75.8.0
+Requires-Dist: urllib3>=2.3.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-python

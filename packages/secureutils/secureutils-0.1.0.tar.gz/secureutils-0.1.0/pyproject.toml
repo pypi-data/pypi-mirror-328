@@ -1,0 +1,16 @@
+[project]
+name = "secureutils"
+version = "0.1.0"
+description = "A Python utility module for secure requests, file operations, certificate management, and SQLite handling"
+requires-python = ">=3.11"
+dependencies = [
+    "astor>=0.8.1",
+    "cryptography>=42.0.0",
+    "openai>=1.63.2",
+    "requests>=2.32.3",
+    "setuptools>=75.8.0",
+    "urllib3>=2.3.0",
+]
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
