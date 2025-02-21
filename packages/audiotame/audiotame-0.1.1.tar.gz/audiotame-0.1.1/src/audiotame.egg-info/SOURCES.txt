@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/audiotame/acx.py
+src/audiotame/app.py
+src/audiotame/audiotame.py
+src/audiotame/audiotame.sh
+src/audiotame/main.py
+src/audiotame.egg-info/PKG-INFO
+src/audiotame.egg-info/SOURCES.txt
+src/audiotame.egg-info/dependency_links.txt
+src/audiotame.egg-info/entry_points.txt
+src/audiotame.egg-info/requires.txt
+src/audiotame.egg-info/top_level.txt
