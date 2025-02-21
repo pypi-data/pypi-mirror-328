@@ -1,0 +1,8 @@
+setup.py
+hello_py_2024.egg-info/PKG-INFO
+hello_py_2024.egg-info/SOURCES.txt
+hello_py_2024.egg-info/dependency_links.txt
+hello_py_2024.egg-info/requires.txt
+hello_py_2024.egg-info/top_level.txt
+utils/__init__.py
+utils/hello.py
