@@ -1,0 +1,13 @@
+src/vicentin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/vicentin/utils.py,sha256=DiZrMo54ypI2kMEMCB24f2U049qcsAPWolQ9C1o16Aw,423
+src/vicentin/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/vicentin/image/differentiation.py,sha256=3QL--15WH9ezL5P4n2wGFss_NE6iyIJgjeO_-CJRgXQ,4827
+src/vicentin/image/utils.py,sha256=K4MF7bZx6RkYV2Ozlw_cw81QuOwtfttEetUkIl9cH9o,4667
+src/vicentin/image/video/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/vicentin/image/video/optical-flow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/vicentin/image/video/optical-flow/block-matching.py,sha256=yIWBziciHFhpbUVKYuorzSdxnhYQ4u7xFoSwK-6wXyU,2600
+vicentin-0.1.1.dist-info/LICENSE,sha256=gA7ktZz73_sH-rNVP7xvxhKdjSLh6UCX1zRfEcQHSW0,1072
+vicentin-0.1.1.dist-info/METADATA,sha256=908DbmOYXulEMgJHyd8Cgh81xA81OFS46I5jo6Qjh5k,455
+vicentin-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+vicentin-0.1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+vicentin-0.1.1.dist-info/RECORD,,
