@@ -1,0 +1,44 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: "v0.9.6"
+    hooks:
+      - id: ruff
+        args: ["--fix"]
+  - repo: https://github.com/PyCQA/isort
+    rev: 6.0.0
+    hooks:
+      - id: isort
+        exclude: ".*(.fits|.fts|.fit|.header|.txt|tca.*|extern.*|sunkit_image/extern)$"
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-ast
+      - id: check-case-conflict
+      - id: trailing-whitespace
+        exclude: ".*(.fits|.fts|.fit|.header|.txt)$"
+      - id: check-yaml
+      - id: debug-statements
+      - id: check-added-large-files
+        args: ["--enforce-all", "--maxkb=1054"]
+        exclude: "sunkit_image/data/test/asda_vxvy.npz"
+      - id: end-of-file-fixer
+        exclude: ".*(.fits|.fts|.fit|.header|.txt|tca.*|.json)$|^CITATION.rst$"
+      - id: mixed-line-ending
+        exclude: ".*(.fits|.fts|.fit|.header|.txt|tca.*)$"
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+        args: [ "--write-changes" ]
+  - repo: https://github.com/crate-ci/typos
+    rev: dictgen-v0.3.1
+    hooks:
+      - id: typos
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: "v1.14.1"
+    hooks:
+      - id: mypy
+        additional_dependencies: ["types-setuptools"]
+ci:
+  autofix_prs: false
+  autoupdate_schedule: "quarterly"

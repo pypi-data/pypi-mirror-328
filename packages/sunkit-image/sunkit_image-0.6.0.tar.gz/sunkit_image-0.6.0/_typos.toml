@@ -1,0 +1,9 @@
+default.extend-ignore-identifiers-re = [
+    "NDCube",
+    "EIT",
+    "RHE",
+    # Badly named variables
+    "iy_ip",
+    "iy",
+    "BA",
+]
