@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: aanalyticsact-eu
+Version: 0.0.1
+Summary: adobe analytics library for Team ACT
+Home-page: https://github.com/YK124/Glory-s
+Author: Youngkwang Cho
+Author-email: youngkwang.cho@concentrix.com
+License: MIT
+Keywords: adobe,analytics,api
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aanalytics2
+Requires-Dist: pymysql
+Requires-Dist: aanalyticsactauth
+Requires-Dist: pandas
+
+# Adobe Analytics for Team ACT v0.0.1 in Samsung EU Org.
+
+This module has been built to provide a better environment specifically for adobe analysts in Team ACT.
+
+## New in 0.0.1
+
+- retrieve_by_RS_breakdownTotal / retrieve_by_RS_breakdown / retrieve_by_RS 함수 사용 가능
+- 4개의 RS (UK, DE, ES, PT) 접근 가능
