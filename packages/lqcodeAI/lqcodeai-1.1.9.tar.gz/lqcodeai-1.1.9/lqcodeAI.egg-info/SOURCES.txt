@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lqcodeAI/__init__.py
+lqcodeAI.egg-info/PKG-INFO
+lqcodeAI.egg-info/SOURCES.txt
+lqcodeAI.egg-info/dependency_links.txt
+lqcodeAI.egg-info/top_level.txt
+tests/test.py
