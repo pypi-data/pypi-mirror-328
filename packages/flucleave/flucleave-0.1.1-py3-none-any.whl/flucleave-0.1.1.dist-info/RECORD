@@ -1,0 +1,15 @@
+flucleave/__init__.py,sha256=DhB7Zhz-uJVr2nmeblZkGpm2XUM_8NjDy3KQ19_W7sE,1698
+flucleave/cleavage_json_to_csv.py,sha256=h8qWaa0kw01Sg2PqzyIubFU5CTXeOZ-aDGJCoa5a4Fk,3028
+flucleave/cli.py,sha256=hP8jAbr4YyKSvxPjLWOtbRXRqZbVjXlzr4dwnlTmvJQ,2726
+flucleave/config.py,sha256=AQ0DHaz-TfYuGAeIh6AwKRXlKjMjjsLZJgLzFKO3-xg,1519
+flucleave/model.py,sha256=jQFjpGXYTNquLUHUGFG2IFm3id-tmm9qJW-mQv8vOyM,3299
+flucleave/predict.py,sha256=xJ6FBN-LsrcmwKuY_H3sXr9k6hky6BYN2jP08_v3mP0,4186
+flucleave/test_predict.py,sha256=wJ_bRAQZtxZCjU0OJNbAempob8LOlGAYsPJoo5P3gBk,3146
+flucleave/train.py,sha256=EKW2rAoxvgOPATRjSnLHJE2xtri9ovw5BMrvI2dL7jE,6980
+flucleave/utils.py,sha256=V-9-IJbeEdOnXi1M8fp4wgY9ijB7BxqA1tusTYnuzvM,3947
+flucleave-0.1.1.dist-info/LICENSE,sha256=PqAFQIfAgMC3c1Ik9Vh8H5V6dYsQdymhjKB83yDUeRg,1071
+flucleave-0.1.1.dist-info/METADATA,sha256=ARmtcMVCmyOD5i9YNftuYlx0Yipe85Nd2lDV8Eyc6f8,1919
+flucleave-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+flucleave-0.1.1.dist-info/entry_points.txt,sha256=rmNbbdYR0qSnartef9CypsNsFhN4gCRt07WJV2kLgIY,49
+flucleave-0.1.1.dist-info/top_level.txt,sha256=8t_Oyjstj4RreXTYmPnzy4wWv5u2qspBx6eLn9vN07w,10
+flucleave-0.1.1.dist-info/RECORD,,
