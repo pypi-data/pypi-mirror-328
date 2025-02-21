@@ -1,0 +1,15 @@
+name: owa
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pygobject
+  - gst-python
+  - gst-libav
+  - gstreamer
+  - gst-plugins-base
+  - gst-plugins-good
+  - gst-plugins-bad
+  - gst-plugins-ugly

@@ -1,0 +1,41 @@
+{% set name = "open-world-agents" %}
+{% set version = "0.1.0" %}
+
+package:
+  name: "{{ name }}"
+  version: "{{ version }}"
+
+source:
+  # Option A: If your code is a local folder, see the docs on relative paths or packaging with setup.py
+  # Option B: Download from GitHub (commits/tags)
+  git_url: https://github.com/open-world-agents/open-world-agents.git
+  # git_rev: v0.1.0
+
+build:
+  number: 0
+  script: python -m pip install .  # or python setup.py install
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    # Add your runtime dependencies here
+    - requests
+
+about:
+  home: "https://github.com/yourusername/open-world-agents"
+  license: "MIT"
+  summary: "Open World Agents is a modular agent system for real-time event processing."
+  description: "Open World Agents is a powerful modular agent system that enables dynamic module registration..."
+
+# 'test' is optional but recommended
+test:
+  commands:
+    - python -c "import owa; print('Test successful')"
+
+# If you have multiple maintainers, list them in extra/recipe-maintainers
+extra:
+  recipe-maintainers:
+    - yourusername

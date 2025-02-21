@@ -1,0 +1,99 @@
+site_name: Open World Agents
+site_description: A modular agent system with dynamic module registration and real-time event processing
+repo_url: https://github.com/yourusername/open-world-agents
+repo_name: open-world-agents
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs # I think omitting this is better to show Awesome Examples
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [projects]
+          options:
+            docstring_style: google
+            show_source: true
+  - git-revision-date-localized:
+      type: datetime
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Get Started:
+    - Welcome to OWA: index.md
+    - Why use OWA: why.md
+    # 전체 독스에서 자신이 필요한 정보를 찾는 방법 & 컨택 방법 써놓기
+    # 초기에는, 이 레포를 시험삼아 써보는 연구자들 타겟으로 공개하고,
+    # 저와 윤성님에게 편하게 DM하라고 메시지를 적어둡니다
+    - Help with OWA: help_with_owa.md
+    - Installation: install.md
+    - Contributing: contributing.md 
+    - Changelog: changelog.md # Later
+  - Project Overview: project_overview.md
+  - OWA-Env:
+    - Why use OWA Env: env/why.md
+    - Architecture of OWA Env: env/architecture.md
+    - Installation & Usage: env/install_and_usage.md
+    # owa-env-examples 참고하라고 써둘 예정
+    - Custom Plugins: env/custom_plugins.md
+    - Lists of Plugins:
+      - Standard Environment: env/plugins/std.md
+      - Desktop Environment: env/plugins/desktop_env.md
+      - Gstreamer Environment: env/plugins/gstreamer_env.md
+      - Omniparser: env/plugins/omniparser.md
+  - OWA-Recorder:
+    - Why use OWA Recorder: recorder/why.md
+    - Install & Usage: recorder/install_and_usage.md
+    - Data format & Conversion: recorder/data_format.md
+  - 🚀 Awesome Examples:
+    - Multimodal Game Agent: examples/multimodal_game_agent/overview.md
+    - Omniparse + InternLM GUI Agent: examples/gui_agent/overview.md
+    - Interactve World Model: examples/interactive_world_model/overview.md
+    - Usage with transformers: examples/usage_with_transformers.md
+    - Usage with LLM Inference Engines(ollama, ...): examples/usage_with_llm.md
+  - API Reference: api_reference.md # Later
