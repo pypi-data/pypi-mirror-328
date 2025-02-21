@@ -1,0 +1,16 @@
+[project]
+name = "chanter"
+version = "0.0.1"
+authors = [
+  { name="Struan Stevenson", email="struan.stevenson@ed.ac.uk" },
+]
+description = "A very simple galaxy spectrum modeller"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE.txt"}
+dynamic = ["dependencies"]
+
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
