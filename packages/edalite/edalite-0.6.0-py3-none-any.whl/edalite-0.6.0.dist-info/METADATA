@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: edalite
+Version: 0.6.0
+Summary: for event driven architecture
+Author: hyeonho cho
+Author-email: 111675679+aesthetics-of-record@users.noreply.github.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: redis[hiredis] (>=5.2.1,<6.0.0)
+Description-Content-Type: text/markdown
+
+
