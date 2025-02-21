@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+spherical_inr.egg-info/PKG-INFO
+spherical_inr.egg-info/SOURCES.txt
+spherical_inr.egg-info/dependency_links.txt
+spherical_inr.egg-info/requires.txt
+spherical_inr.egg-info/top_level.txt
