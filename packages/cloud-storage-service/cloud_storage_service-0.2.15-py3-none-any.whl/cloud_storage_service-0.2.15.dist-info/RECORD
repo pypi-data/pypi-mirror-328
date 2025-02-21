@@ -1,0 +1,10 @@
+cloud_storage_service/__init__.py,sha256=9FhkQscN655Cc0r4okj23uPhVN52xL8ygSknEqEYdcM,166
+cloud_storage_service/aws_storage.py,sha256=fdygvtUvU14QZN0t4T_CTgsBTA0tIAkrS6XCaFJ8C9Q,43755
+cloud_storage_service/azure_storage.py,sha256=c686D0rFo5X9-EhXjhhkxYEs0Tky5r4JmS01zk7SgsA,45321
+cloud_storage_service/gcp_storage.py,sha256=WqF_kxCUqq9hDxd5zQ1NabXfE4UoxYnQPUK-wPLsR50,42489
+cloud_storage_service/storage_manager.py,sha256=L9oxX83hmealpqugxAQg7j0JzkcotD0dP5mtYlsfxng,2416
+cloud_storage_service-0.2.15.dist-info/LICENSE,sha256=3qyi84eOMPYSKYxV3Gt83gu2wVE6qSFY8KnsI46o4Ro,482
+cloud_storage_service-0.2.15.dist-info/METADATA,sha256=FFGCrDczRwHw8INpW7Ml3prYD9OjByXUjiq6EK09kfc,3189
+cloud_storage_service-0.2.15.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cloud_storage_service-0.2.15.dist-info/top_level.txt,sha256=El6K8sONNHrrGrLmDVvg1VxCaroP72x6z7XbnPik1AY,22
+cloud_storage_service-0.2.15.dist-info/RECORD,,
