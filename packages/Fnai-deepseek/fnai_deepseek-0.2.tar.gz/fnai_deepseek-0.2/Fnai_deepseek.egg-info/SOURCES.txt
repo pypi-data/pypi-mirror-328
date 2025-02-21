@@ -1,0 +1,5 @@
+setup.py
+Fnai_deepseek.egg-info/PKG-INFO
+Fnai_deepseek.egg-info/SOURCES.txt
+Fnai_deepseek.egg-info/dependency_links.txt
+Fnai_deepseek.egg-info/top_level.txt
