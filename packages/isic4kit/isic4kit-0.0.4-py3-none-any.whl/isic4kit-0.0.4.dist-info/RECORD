@@ -1,0 +1,13 @@
+isic4kit/__init__.py,sha256=TwabRNi9J9S0D3x3jUviXa0Tx2_8cgZEudRz-rPc4x0,338
+isic4kit/base.py,sha256=vWkFqKxZ-aBeAGVqI6mT_viENltrNCqsXOlI-bePVvw,2499
+isic4kit/data/ar.json,sha256=y6TwaOmz8nE-atAeear7CJP_siwpSlk2Tm882zvqoZg,193886
+isic4kit/data/en.json,sha256=aVnHNnts3jCtGQVcdRRKqmrWuIUOiGEe1NfReO3T8ns,174158
+isic4kit/isic4.py,sha256=TDb1B3SXmK_SE0W0FlMDvgLD9W7PKUxHTbJQR0wAq_A,1126
+isic4kit/loader.py,sha256=9RGlTFXL-RE9g1KiMYOGCdkqvfZrBs7sv3ElV4Ji488,3637
+isic4kit/models.py,sha256=C54Tbrw0QC4C0fdCfyMSH1fjLip1t8z9vOx8YQUF8N8,10207
+isic4kit/search.py,sha256=5zhaqx2xzb1KkHEYklvUm_r2DPd-Xj5UxF8fO55xxoU,4194
+isic4kit/tree.py,sha256=DvXHsw_MgRB9IqUJgGfzYC0lOQfyMRXg3khkd934tNg,2425
+isic4kit-0.0.4.dist-info/LICENCE,sha256=i1Ycn_u1H1cM1Hs48A3JTvbx29Fsn-g-q_E9prwtqfc,1074
+isic4kit-0.0.4.dist-info/METADATA,sha256=FLuUkPXgG3PR9iwRA2ilUyqQNQ8_qBvMQMJAuZij68k,13298
+isic4kit-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+isic4kit-0.0.4.dist-info/RECORD,,
