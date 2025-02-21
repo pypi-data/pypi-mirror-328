@@ -1,0 +1,31 @@
+name: metator
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python<3.12
+  - hicstuff
+  - networkx
+  - checkv
+  - biopython<=1.80
+  - pysam
+  - pairtools
+  - pyfastx
+  - cooler
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - bowtie2
+  - pairix
+  - bwa
+  - samtools
+  - prodigal
+  - hmmer
+  - gcc
+  - java-jdk
+  - pip:
+    - micomplete
+    - metator
