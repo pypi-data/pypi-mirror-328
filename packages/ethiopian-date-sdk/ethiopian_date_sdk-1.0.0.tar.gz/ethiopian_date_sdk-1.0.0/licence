@@ -1,0 +1,7 @@
+
+---
+
+### Step 7: Publish the SDK
+1. Build the package:
+   ```bash
+   python setup.py sdist bdist_wheel
