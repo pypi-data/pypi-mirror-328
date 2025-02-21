@@ -1,0 +1,6 @@
+class Source:
+    def read_data(self, query=None):
+        pass
+
+    def write_data(self, df=None, table=None):
+        pass
