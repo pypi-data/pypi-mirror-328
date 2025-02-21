@@ -1,0 +1,8 @@
+gevent
+greenlet
+pillow
+psutil
+pyinstaller
+pynput
+pyscreenshot
+tabulate
