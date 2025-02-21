@@ -1,0 +1,14 @@
+---
+format_version: "1.0"
+revision:
+   authors:
+        - {$ref: "persons/EXAMPLE.person.yaml"} # Reference to a file,
+                                                 # or fields of a person element
+   date: "2024-09-30" # yyyy-mm-dd
+filter:
+   type : "ANALOG"
+   # OPTIONAL elements (default value in parenthesis)
+   delay.seconds: 0  # Seconds that the conversion delays the data (0)
+# OPTIONAL
+notes: 
+   - ""
