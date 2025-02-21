@@ -1,0 +1,1 @@
+from phycat.phycat_cli import main
