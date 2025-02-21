@@ -1,0 +1,8 @@
+syntax = "proto2";
+package record;
+
+// message type representing the rows in your input dataset table.
+message BatchRecord {
+  required string custom_id = 1;
+  required string request = 2;
+}
