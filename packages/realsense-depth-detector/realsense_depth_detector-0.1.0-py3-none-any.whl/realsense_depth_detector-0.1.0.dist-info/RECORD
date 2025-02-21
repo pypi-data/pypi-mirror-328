@@ -1,0 +1,8 @@
+realsense_depth_detector/__init__.py,sha256=nBceyNmmnHFSMHmc0slq_8-uZcPPqpMHnsg38-i-1pk,134
+realsense_depth_detector/config.py,sha256=SNl1OfXlVKmXNpefIOhknjM7aASj_4Y5Gj7bW20Za3I,319
+realsense_depth_detector/detector.py,sha256=m9I89D59gn_tap96ksItpfwTt24Gvf8rpuosIHfrfQM,3801
+realsense_depth_detector-0.1.0.dist-info/LICENSE,sha256=NItZs7W07wKzyHOgWZsx_oT3S1taWxVJwX0uLR09j7k,1077
+realsense_depth_detector-0.1.0.dist-info/METADATA,sha256=-iWhOB5sZ_gvFq0bv3kedXecGgoClgRWafLCAIoA_j0,1679
+realsense_depth_detector-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+realsense_depth_detector-0.1.0.dist-info/top_level.txt,sha256=VyDXzl-Z7XWjk2ckD1gAXNMGJoI2pSc6LR_mS7d1ZKc,25
+realsense_depth_detector-0.1.0.dist-info/RECORD,,
