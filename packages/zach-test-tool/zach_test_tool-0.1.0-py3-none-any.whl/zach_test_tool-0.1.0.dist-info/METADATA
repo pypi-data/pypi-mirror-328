@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: zach-test-tool
+Version: 0.1.0
+Summary: 
+Author: zach.zhou
+Author-email: zach.zhou@airwallex.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: web
+Requires-Dist: requests (>=2.28,<3.0) ; extra == "web"
+Description-Content-Type: text/markdown
+
+
