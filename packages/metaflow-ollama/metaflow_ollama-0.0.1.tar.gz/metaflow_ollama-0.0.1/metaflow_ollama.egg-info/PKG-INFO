@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: metaflow-ollama
+Version: 0.0.1
+Summary: An EXPERIMENTAL Ollama decorator for Metaflow
+Author: Outerbounds
+Author-email: hello@outerbounds.co
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: summary
