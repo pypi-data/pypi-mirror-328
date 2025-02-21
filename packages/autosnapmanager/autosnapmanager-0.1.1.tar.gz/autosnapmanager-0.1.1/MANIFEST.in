@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include autosnapmanager/screencaps/android/bin *
+recursive-include autosnapmanager/actions/clicks/android/bin *
