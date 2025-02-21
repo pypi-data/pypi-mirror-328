@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/gh_semantic_release.egg-info/PKG-INFO
+src/gh_semantic_release.egg-info/SOURCES.txt
+src/gh_semantic_release.egg-info/dependency_links.txt
+src/gh_semantic_release.egg-info/top_level.txt
+src/scottzach1/semantic_release/__init__.py
