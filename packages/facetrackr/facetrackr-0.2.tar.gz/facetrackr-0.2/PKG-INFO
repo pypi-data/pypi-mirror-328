@@ -1,0 +1,123 @@
+Metadata-Version: 2.2
+Name: facetrackr
+Version: 0.2
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+
+# **facetrackr** 🕵️‍♂️🎥  
+_A Face Recognition and Timestamp Extraction Tool for Videos_
+
+## **Overview**  
+**facetrackr** is a Python package that allows users to detect and recognize faces in videos using AWS Rekognition. It provides a seamless way to upload face images to a collection, process videos, and retrieve timestamps where the face is detected.
+
+## **Features**
+✅ Add a face image to an AWS Rekognition collection  
+✅ Process a video to detect the given face  
+✅ Retrieve timestamps of face appearances  
+✅ Easy-to-use command-line interface  
+
+---
+
+## **Installation**  
+
+Ensure you have Python **3.7+** installed. Then install `facetrackr` using:
+
+```sh
+pip install facetrackr
+```
+
+---
+
+## **Usage**
+After installing, run the following command in your terminal:
+
+```sh
+python -m facetrackr
+```
+
+You will be prompted to enter:
+1. The **path of the face image** you want to recognize.
+2. The **path of the video** in which you want to detect the face.
+
+### **Example**
+```
+Enter the path of the face image: ./images/person.jpg
+Enter the path of the video: ./videos/sample.mp4
+```
+If the face is found in the video, the output will be:
+
+```
+Starting face detection in video...
+
+Final Detection Report:
+Face detected at 12.5 seconds with ID: person_123
+Face detected at 28.7 seconds with ID: person_123
+```
+
+---
+
+## **Demo Code**
+You can also integrate `facetrackr` into your own Python script. Below is an example demonstrating how to use the package:
+
+```python
+from facetrackr.face_collection import FaceCollection
+from facetrackr.video_processing import VideoProcessor
+
+def main():
+    face_image_path = input("Enter the path of the face image: ").strip()
+    video_path = input("Enter the path of the video: ").strip()
+
+    # Initialize face collection handler
+    face_collection = FaceCollection()
+    
+    # Add face to AWS Rekognition collection
+    face_id, external_image_id = face_collection.add_face(face_image_path)
+
+    if face_id:
+        print("\nStarting face detection in video...\n")
+
+        # Initialize video processor
+        video_processor = VideoProcessor()
+        detection_results = video_processor.process_video(video_path, external_image_id)
+
+        print("\nFinal Detection Report:")
+        for detection in detection_results:
+            print(f"Face detected at {detection['timestamp']} seconds with ID: {detection['external_image_id']}")
+    else:
+        print("Face was not added to collection. Exiting.")
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+## **Requirements**
+Before running the package, install dependencies:
+```sh
+pip install -r requirements.txt
+```
+
+---
+
+## **AWS Configuration**
+Since this package relies on AWS Rekognition, ensure you have:
+1. An **AWS account** with Rekognition enabled.
+2. **AWS credentials** configured using:
+   ```sh
+   aws configure
+   ```
+3. The necessary permissions in IAM for Rekognition.
+
+---
+
+
+## **License**
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
