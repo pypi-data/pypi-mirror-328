@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: femos
+Version: 0.0.17
+Summary: My small library for neuroevolution
+Home-page: https://github.com/estissy/femos
+Author: estissy
+Author-email: estissy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: humanize
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# Femos
+
+My small library for neuroevolution
+
+This is my set of classes and functions to build genetic algorithms.
+Right now they are specified for evolving neural networks weights.
+With this stuff in every new neuroevolution project you can just focus on constructing evaluation function.
+
+# Releasing new version
+
+1. python -m build
+2. python -m twine upload dist/*
