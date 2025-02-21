@@ -1,0 +1,5 @@
+[console_scripts]
+biggo-mcp-server = biggo_mcp_server:main
+
+[gui_scripts]
+biggo-mcp-server = biggo_mcp_server:main
