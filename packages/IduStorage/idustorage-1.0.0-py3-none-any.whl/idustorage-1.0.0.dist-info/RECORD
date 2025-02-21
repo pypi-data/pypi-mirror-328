@@ -1,0 +1,10 @@
+idustorage/__init__.py,sha256=HjxbYL7YtpasYp6kEjA2ofak4_nC1mSCaq-NRCTGycY,101
+idustorage/_version.py,sha256=yEua9VnP9VFiGgylbTQwBLwj4hrJJ-2nvhaGlPzZfvQ,19
+idustorage/storage/__init__.py,sha256=UeqiBRBrNrNV8d2QXzaVUvmGVbOpGUUJ0D9jXCM7idE,47
+idustorage/storage/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idustorage/storage/interfaces/cacheable.py,sha256=E6xkb6DGtYY9Zgk8U_-IewW-5aHxECGw3h4V4dd32ds,600
+idustorage/storage/interfaces/storage_interface.py,sha256=A3oFlzGichuYZRAdDdsSHlacXheUlKyf4ydZeYigt90,572
+idustorage/storage/storage.py,sha256=8J6PMAL-JLBiKYou8gL2UXhdTzk-mRFsPaqLtfFhC1M,5198
+idustorage-1.0.0.dist-info/METADATA,sha256=yjb7Ebu3FMdGbiq09TXAStdFwKeF6o4YNdasqsHDPVE,516
+idustorage-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+idustorage-1.0.0.dist-info/RECORD,,
