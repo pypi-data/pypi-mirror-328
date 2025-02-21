@@ -1,0 +1,11 @@
+digdem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digdem/download_data.py,sha256=xyBoLTni68Xa7EWDKuT44lrvneNltDPvhBd2on6cLCw,1072
+digdem/gis.py,sha256=jGbji4RHsjcldPd4EtJZXtEGYZD3qZYypsO-Xm7MH3U,6591
+digdem/plot.py,sha256=sx_fBc9cQLU09SYUdbRJ4MNVYyDb-ug140Fg8l_lmcI,6282
+digdem/section.py,sha256=nYMtAyvYS5gBRTUaN9xjSKjpiU2KDF6qxz9mM41yngI,19285
+digdem/surfmod.py,sha256=13lmAdM0dOo-DxzboF9AbF_0tvtUDLKwbcwrRM_S8Vk,24556
+digdem-0.2.4.dist-info/LICENSE,sha256=vtwujwMMad8T8uWQS6bGYzmTty4EzBqNXrD1E6s6wxY,1071
+digdem-0.2.4.dist-info/METADATA,sha256=SshFOqGT_CDlKF-iEtIbal8KvToEfE362v7AHsOJ9no,5493
+digdem-0.2.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+digdem-0.2.4.dist-info/top_level.txt,sha256=DkAyb2o6YTQcnGvEqQFW7dpotKhz1V-8yroFAdctnNI,7
+digdem-0.2.4.dist-info/RECORD,,
