@@ -1,0 +1,2 @@
+[console_scripts]
+srswti-axis-post-install = python -m srswti_axis.post_install
