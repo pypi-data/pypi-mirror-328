@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: pygalaga
+Version: 1.0.4
+Summary: A simple Galaga clone using Pygame
+License: MIT
+Author: Abhishek Prakash
+Author-email: abhishek.g.prakash@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pygame (>=2.5.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pygalaga
+![{ABACB63A-016A-482B-9A33-0EF2D8224F65}](https://github.com/user-attachments/assets/f921a575-8438-4816-a0a0-efbb75a96cd0)
+
+
+# Installation
+```bash
+pip install pygalaga
+```
+```bash
+# Use below command to start the game
+pygalaga
+```
+
