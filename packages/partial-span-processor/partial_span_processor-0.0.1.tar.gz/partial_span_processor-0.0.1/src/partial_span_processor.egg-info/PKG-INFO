@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: partial-span-processor
+Version: 0.0.1
+Summary: OTEL Python SDK extension supporting partial spans
+Author-email: Mladjan Gadzic <gadzic.mladjan@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/mladjan-gadzic/partial-span-processor
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-exporter-otlp
+Requires-Dist: opentelemetry-exporter-otlp-proto-common
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc
+Requires-Dist: opentelemetry-exporter-otlp-proto-http
+Requires-Dist: opentelemetry-proto
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: opentelemetry-semantic-conventions
+
+# partial-span-processor
+OTEL Python SDK extension supporting partial spans
