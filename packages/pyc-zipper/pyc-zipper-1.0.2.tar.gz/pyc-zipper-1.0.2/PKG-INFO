@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyc-zipper
+Version: 1.0.2
+Summary: pyc-zipper is a complete toolchain for compressing, obfuscating, and unpacking pyc files based on Python's underlying bytecode.pyc-zipper是基于Python的底层字节码，实现的一套完整的pyc文件的压缩、混淆和脱壳工具链。
+Home-page: https://github.com/qfcy/pyc-zipper
+Author: qfcy
+Author-email: 3076711200@qq.com
+Keywords: pyc,bytecode,packer,reverse-engineering,obfuscator,compressor,unpacker,anti-reversing,pyinstaller,压缩,加壳,混淆,脱壳,逆向
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+``pyc-zipper`` is a complete toolchain for compressing, packing, and unpacking pyc files based on Python's underlying bytecode.
+
+For the usage and documentation, see `pyc-zipper · GitHub <https://github.com/qfcy/pyc-zipper>`_ .
