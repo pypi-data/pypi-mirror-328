@@ -1,0 +1,5 @@
+[console_scripts]
+manage_simple_keys = manage_simple_keys:main
+
+[gui_scripts]
+
