@@ -1,0 +1,12 @@
+zarrs-0.1.3.dist-info/METADATA,sha256=Ugnu3d2tIo200OdbuqPM9H48j-vRj4lrckJRxyd53WQ,8850
+zarrs-0.1.3.dist-info/WHEEL,sha256=8tKmwb3aeXaLJBYgSl6ahUJGBpB605-iMTJthul8CFo,106
+zarrs-0.1.3.dist-info/licenses/LICENSE,sha256=vwIsJjEfVFehyyqcb7B3dAXAniaFMmk8u7IoiJAfBJ4,1099
+zarrs.libs/libgcc_s-1e52349c.so.1,sha256=Ani0u_W_tB8ESsFePO4D2mn2lrgWLhyFdw6RETxBTYM,437537
+zarrs.libs/libstdc++-e3b7606c.so.6,sha256=0od4MdFOKqq1GTnbD4qV7uMNWb0Hte3YHycydGf5nOU,18138121
+zarrs/__init__.py,sha256=4oWtWDZO8r7z4Uh7Fy_brmkxXDpULQdgjlA0iFw98eA,573
+zarrs/_internal.pyi,sha256=-2Vy3NqBAS2g-ShALrzknK7Kqxpha17FjO6o35khlyY,1226
+zarrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zarrs/pipeline.py,sha256=oQxZybIhBNldqDUxZYIWyhqhZwO9KkZHCoW8-QX-psY,8631
+zarrs/utils.py,sha256=uKIDi2EKRJRFdlyCElEvZrooVXkbmO4ZoE5fTHFNHGo,6763
+zarrs/_internal.abi3.so,sha256=zwwAgWjlO278v6S2pv_0XGRDd4QttOTCOqF_PC6EGNY,7450785
+zarrs-0.1.3.dist-info/RECORD,,
