@@ -1,0 +1,85 @@
+Python Connector License Agreement
+Copyright 2022-2025, Devart. All Rights Reserved
+--------------------------------------------------
+
+PLEASE READ THIS LICENSE AGREEMENT CAREFULLY. BY INSTALLING OR USING THIS SOFTWARE, YOU CONFIRM YOUR ACCEPTANCE OF AND AGREEMENT TO BE LEGALLY BOUND BY THE TERMS AND CONDITIONS OF THIS LICENSE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT INSTALL OR USE THE SOFTWARE AND PROMPTLY RETURN IT TO DEVART.
+
+INTRODUCTION
+
+This Devart End-User License Agreement ("Agreement") is a legal agreement between you (either an individual person or a single legal entity) and Devart, governing the use of the Python Connector software application, including its source code, demos, intermediate files, printed materials, and online or electronic documentation contained within this installation file. For the purposes of this Agreement, the software program(s) and accompanying documentation will collectively be referred to as the "Software."
+
+LICENSE
+
+1. GRANT OF LICENSE
+
+The enclosed Software is provided under a license, not sold. You are granted the following rights and privileges, subject to the limitations, restrictions, and terms outlined in this Agreement.
+
+1.1. If you are a legally licensed user, your rights to use the Software are determined by the license type specified in the registration letter provided by Devart upon purchase. You are entitled to the following:
+- Under the Single Developer License, you may install and use the Software on one or more computers, provided it is used exclusively by a single developer for developing, testing, and deploying applications in compliance with this Agreement. 
+- Under the Team License, you may install and use the Software on one or more computers, provided it is used by up to four (4) developers within a single company at one physical address, exclusively for developing, testing, and deploying applications in compliance with this Agreement.
+- Under the Site License, you may install and use the Software on one or more computers, provided it is used by developers within a single company at one physical address, exclusively for developing, testing, and deploying applications in compliance with this Agreement. 
+- Under the OEM License, you may install and use the Software on one or more computers within a single company and deploy it as part of a licensee's application to web servers, application servers, batch servers, desktops, and other end-user devices. The OEM License allows the installation and use of the application containing the Software without incurring additional fees in favor of the licensor.
+
+1.2. If you are a legally licensed user, your rights to use the Software depend on the License Type specified in the registration letter provided by Devart upon purchase:
+- Under the Subscription-based License, you may install and use the Software on a single computer only for the duration of the subscription term specified at purchase. An Internet connection is required for license activation and status verification while using the Software. Once the subscription term expires, you must either discontinue using the Software or renew the license for a new subscription term.
+- Under the Perpetual License, you may install and use a specific version of the Software on a single computer without requiring an active subscription. A subscription, if active, grants access to new product releases, regular updates, and support for new server versions during the subscription term.
+
+1.3. If you are a legally licensed user of the Software, you are entitled to the following:
+- Make one copy of the Software solely for archival purposes, or copy the Software onto the hard disk of your computer while retaining the original for archival purposes.
+- Develop and test applications using the Software, subject to the limitations outlined below.
+
+1.4. If you have the OEM License, you are also entitled to: 
+- Create and distribute multiple copies of the Software for deployment to end users. 
+- Deploy the Software to end users either as a standalone installation package or as an integrated component of your Applications. 
+
+1.5. You may use evaluation versions of the Software as outlined in the Evaluation section.
+
+No additional rights or privileges are granted under this Agreement.
+
+2. LIMITATIONS
+
+The Software is licensed for use only by legally registered users, subject to the terms and conditions of this Agreement. The use of the Software is subject to the following restrictions:
+
+2.1. You may not reverse engineer, decompile, or disassemble the Software.
+
+2.2. You may not create or distribute any Python packages derived from the Software through inheritance for public distribution or commercial sale.
+
+2.3. You may not reproduce or distribute any part of the Software documentation without explicit written permission from Devart.
+
+2.4. You may not distribute or sell any portion of the Software without integrating it into your Applications.
+
+2.5. You may not transfer, assign, or modify the Software, in whole or in part. The Software license is non-transferable, and the Software installation package may not be transferred.
+
+2.6. You may not remove or modify any Devart copyright, trademark, or other proprietary rights notices contained in any part of Devart files.
+
+3. REDISTRIBUTION
+
+This license grants you a non-exclusive right to compile, reproduce, and distribute new software programs created using the Software. You cannot distribute the Software integrated into your Applications unless you are an OEM License holder. All Devart files remain the exclusive property of Devart.
+
+4. TRANSFER
+
+You may not transfer the Software to any individual or entity without express written permission from Devart. Specifically, you may not share copies of the Software under the Desktop Edition with other co-developers without obtaining a separate license for each individual. 
+
+5. TERMINATION
+
+Devart reserves the right to terminate this Agreement immediately, without prior notice or judicial resolution, if any provision of the Agreement is violated. Upon termination, you must delete all copies of the Software, including any accompanying written materials. 
+
+6. EVALUATION
+
+Devart may provide evaluation ("Trial") versions of the Software. You are permitted to transfer or distribute Trial versions only in their original installation package form. If the Software is marked as a "Trial" version, you may install and use it for up to 30 calendar days from the date of installation (the "Trial Period"). Use of the Trial version is strictly limited to evaluating the Software and is not permitted for developing or deploying applications in a production environment. Applications developed using Trial versions of the Software may not be used for any commercial purposes. Upon expiration of the Trial Period, you must uninstall the Software and destroy all copies, along with any accompanying documentation.
+
+7. WARRANTY
+
+The Software and accompanying documentation are provided "AS IS", without any warranty of any kind. Devart disclaims all warranties, whether express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose or use.
+
+8. SUBSCRIPTION AND SUPPORT
+
+The Software is sold on a subscription basis. A subscription grants you the right to download updates, improvements, and enhancements from Devart's website as they become available during the active subscription period. The initial subscription period lasts for one year from the date of license purchase. Subscriptions are automatically activated upon purchase and can be renewed by Devart upon receipt of the applicable fees. Licensed users with an active subscription are entitled to request technical assistance for using the Software via email. Devart will make reasonable efforts to address your inquiries but does not guarantee that all issues or problems will be resolved or fixed.
+
+Devart reserves the right to discontinue support for legacy versions of Python and databases.
+
+9. COPYRIGHT
+
+The Software is the confidential and proprietary copyrighted work of Devart and is protected by international copyright laws and treaty provisions. You may not remove or alter the copyright notice from any copy of the Software or its accompanying written materials. 
+
+This Agreement constitutes the entire understanding between the parties and supersedes any other agreements, whether written, oral, express, or implied.
