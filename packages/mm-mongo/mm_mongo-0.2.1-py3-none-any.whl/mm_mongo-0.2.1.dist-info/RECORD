@@ -1,0 +1,12 @@
+mm_mongo/__init__.py,sha256=lvtm4KmlioukFxKVmfVNRlSUjuHAVleedPARDyU-2J8,518
+mm_mongo/codecs.py,sha256=DHgduCf8P6x-6QE_JVinWnNSqVjSm_k7E1b23Cclm-U,448
+mm_mongo/collection.py,sha256=8lN0ZDTOL_K1nQB-vVP-4fn4vU1GFD3AFU9PbHwo2cA,6289
+mm_mongo/connection.py,sha256=dstrU9omRGkxYxeckKT_zs35_SnZfA_QUGMDws-fczQ,443
+mm_mongo/json_.py,sha256=hrGwOF9JdrcaeveeLUMNBRQqgcvn7iO2KKOj1f5glww,1546
+mm_mongo/model.py,sha256=WDgtiNBwLpoawApgKFlayI9G-3d8o8xjZIVo3-YTOIk,1264
+mm_mongo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mm_mongo/pydantic.py,sha256=_DhwRbUuCnEvjhww5gScKrCwYjYsnFMnIFspmJXnyqk,1234
+mm_mongo/types_.py,sha256=cXYPQKwVQk6B-ucbzFQ9zLSRNpOKVRY-eaGXDGlRxZo,329
+mm_mongo-0.2.1.dist-info/METADATA,sha256=kMtDeQjWeopYXnXFDJ-WOk-aLAGrL_Hmc-nz6JcOC9I,136
+mm_mongo-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mm_mongo-0.2.1.dist-info/RECORD,,
