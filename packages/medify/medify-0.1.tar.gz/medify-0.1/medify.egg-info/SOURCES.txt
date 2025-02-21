@@ -1,0 +1,13 @@
+README.md
+setup.py
+medify/__init__.py
+medify/aws_auth.py
+medify/cli.py
+medify/transcribe.py
+medify.egg-info/PKG-INFO
+medify.egg-info/SOURCES.txt
+medify.egg-info/dependency_links.txt
+medify.egg-info/entry_points.txt
+medify.egg-info/requires.txt
+medify.egg-info/top_level.txt
+tests/test_transcribe.py

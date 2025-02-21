@@ -1,0 +1,2 @@
+[console_scripts]
+healthscribe-cli = medify.cli:main
