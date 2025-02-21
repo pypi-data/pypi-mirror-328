@@ -1,0 +1,25 @@
+dummy
+Target '.' seems worth protecting
+tmp/stown.69393098-ac35-4e0c-b49f-154f28be2932.tmp -> ../expected.json
+tmp/stown.944fb95a-cfc8-4679-b1ce-47c1dfef9603.tmp -> ../expected.json
+Unsupported action: smile
+Depth limit (0) reached
+Source stown.801c4715-e8c5-4437-84a4-e2f763c14f0f.tmp not found
+. -> .
+Source . and target are identical
+tmp -> data
+  tmp/salt -> data/salt
+tmp/salt -> ../data/salt
+  tmp/healthy -> data/healthy
+    tmp/healthy/.banana -> data/healthy/dot-banana
+tmp/healthy/.banana -> ../../data/healthy/dot-banana
+    tmp/healthy/pear -> data/healthy/pear
+tmp/healthy/pear -> ../../data/healthy/pear
+  tmp/.sugar -> data/dot-sugar
+tmp/.sugar -> ../data/dot-sugar
+  tmp/NaCl -> data/NaCl
+tmp/NaCl -> ../data/NaCl
+tmp/stown.fa32f47b-5ffe-4721-bdfc-abd20703b7d3.tmp -> data/salt
+Target 'tmp/stown.fa32f47b-5ffe-4721-bdfc-abd20703b7d3.tmp' seems worth protecting
+tmp/stown.b4132304-ca36-4b1a-aad8-61c0051e89ed.tmp -> expected.json
+tmp/stown.b4132304-ca36-4b1a-aad8-61c0051e89ed.tmp removed
