@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/OrcidXtract/__init__.py
+src/OrcidXtract/constants.py
+src/OrcidXtract/exceptions.py
+src/OrcidXtract/main.py
+src/OrcidXtract/orcid_extractor.py
+src/OrcidXtract/report_generator.py
+src/OrcidXtract/restfull.py
+src/OrcidXtract/test.py
+src/OrcidXtract/utils.py
+src/OrcidXtract.egg-info/PKG-INFO
+src/OrcidXtract.egg-info/SOURCES.txt
+src/OrcidXtract.egg-info/dependency_links.txt
+src/OrcidXtract.egg-info/entry_points.txt
+src/OrcidXtract.egg-info/requires.txt
+src/OrcidXtract.egg-info/top_level.txt
