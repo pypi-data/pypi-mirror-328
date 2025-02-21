@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iapytoo"
+version = "0.0.2"
+description = "Un toolkit pour vite coder un modèle pytorch d'IA utilisant MLflow"
+
+authors = [
+  { name = "Jean-François Lecomte", email = "zwergon@free.fr" }
+]
+
+license = { text = "Apache-2.0" }
+
+
+readme = "README.md"
+requires-python = ">=3.7"
+
+[tool.setuptools]
+packages = ["iapytoo", 
+  "iapytoo.dataset",
+  "iapytoo.metrics", 
+  "iapytoo.utils", 
+  "iapytoo.predictions", 
+  "iapytoo.train"
+]
+
+license-files = ["LICENSE"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
