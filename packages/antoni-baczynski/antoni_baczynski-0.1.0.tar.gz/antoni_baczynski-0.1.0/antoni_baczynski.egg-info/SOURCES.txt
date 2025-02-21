@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+antoni_baczynski/__init__.py
+antoni_baczynski/main.py
+antoni_baczynski.egg-info/PKG-INFO
+antoni_baczynski.egg-info/SOURCES.txt
+antoni_baczynski.egg-info/dependency_links.txt
+antoni_baczynski.egg-info/top_level.txt

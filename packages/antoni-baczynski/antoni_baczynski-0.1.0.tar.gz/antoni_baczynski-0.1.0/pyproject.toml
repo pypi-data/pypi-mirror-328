@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antoni_baczynski"
+version = "0.1.0"
+authors = [
+    { name="Antoni Baczyński", email="twojemail@example.com" }
+]
+description = "Przykładowy pakiet o nazwie antoni_baczynski do publikacji na PyPI"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/twoje_repo"
+"Bug Tracker" = "https://github.com/twoje_repo/issues"
