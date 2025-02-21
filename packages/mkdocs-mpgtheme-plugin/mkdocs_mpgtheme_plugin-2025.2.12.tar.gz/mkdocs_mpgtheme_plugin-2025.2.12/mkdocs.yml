@@ -1,0 +1,36 @@
+site_name: MkDocs MPG Theme
+strict: true
+plugins:
+  - search
+  - mpgtheme
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: de
+          name: Deutsch
+          build: true
+theme:
+  name: material
+  # logo: _assets/header-logo.svg
+  # footer_logo: _assets/footer-logo.svg
+  custom_dir: overrides
+  font: false
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.indexes
+extra:
+  support_email: mail@thms.de
+  support_phone: +49 123 456 789
+  privacy_policy_url: https://example.org/privacy-policy/
+  imprint_url: https://example.org/imprint/
+  copyright_string: ACME Inc.
