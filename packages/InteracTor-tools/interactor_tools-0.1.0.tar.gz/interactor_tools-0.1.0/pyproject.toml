@@ -1,0 +1,19 @@
+[tool.poetry.scripts]
+InteracTor = "InteracTor:main"
+
+[tool.poetry]
+
+name = "InteracTor-tools"  # Nome do pacote
+version = "0.1.0"  # Versão do pacote
+description = "InteracTor is a tool for molecular structure analysis and conversion, allowing the extraction of interactions and relevant features for biochemical studies"
+authors = ["Jose Cleydson F Silva jferreiradasilva@ufl.edu"]
+license = "MIT"  # Ou outra licença, se aplicável
+
+packages = [{ include = "InteracTor.py" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Ajuste conforme sua versão do Python
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
