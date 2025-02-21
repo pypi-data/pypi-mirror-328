@@ -1,0 +1,9 @@
+Fnai_deepseek/__init__.py,sha256=v43RUKAC80d7Xcn16KrqNt8DVaHBaTnVzdy5l4OIUDY,126
+Fnai_deepseek/api.py,sha256=CWLd0fzoymGnl0o8Z_rsfSVd8Vgx9e0zHjBulCQmhnY,2798
+Fnai_deepseek/core_test.py,sha256=obNl39IPLPd5oEoJ47JOVU42TaDUQM5tzx4fa1anYxo,475
+Fnai_deepseek/llm_api.py,sha256=cNZR5hv9ulxXgFZ6p_BSQe6duTOtzeaQc5XcO9OZKkc,4296
+Fnai_deepseek/str_api.py,sha256=BUIazQ78C3kq_CdZZP239CPMEJTZY-l6W618RTuKMPM,2819
+Fnai_deepseek-0.5.dist-info/METADATA,sha256=nwqYaJW0xEbFzIhuFKCmz7UaNNIWcEBTZb3Ts_9clXA,320
+Fnai_deepseek-0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+Fnai_deepseek-0.5.dist-info/top_level.txt,sha256=MW23fkdFE-UbKuCLqzVMFlElfTTEMDXQFa1625BU2PE,14
+Fnai_deepseek-0.5.dist-info/RECORD,,
