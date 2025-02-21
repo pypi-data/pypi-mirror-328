@@ -1,0 +1,12 @@
+aiohttp
+argparse
+asyncio
+beautifulsoup4
+colorama
+requests
+tqdm
+
+[dev]
+black
+flake8
+pytest
