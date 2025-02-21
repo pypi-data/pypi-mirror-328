@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: lsj-toolkit
+Version: 1.0.2
+Summary: cloudflare and dingtalk
+Author: elijah
+License: MIT
+Requires-Python: >=3.9
+Dynamic: author
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
