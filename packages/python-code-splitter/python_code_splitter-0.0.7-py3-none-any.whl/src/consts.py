@@ -1,0 +1,2 @@
+GIT_COMMIT = False
+ROOT_PATH = "."
