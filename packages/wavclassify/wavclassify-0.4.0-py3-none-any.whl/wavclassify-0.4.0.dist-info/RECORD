@@ -1,0 +1,14 @@
+wavclassify/__init__.py,sha256=6TMVa-XN0H9g39n3U-zggLhOvN1-BKs-w0uCW0tsvpA,118
+wavclassify/__main__.py,sha256=hhH17lkw-ZalKp9NolnPGwW0KYxbXirspWvhBKNyBks,67
+wavclassify/browser_tools.py,sha256=SeqP3w8t42zmJcuAITumRQQkbnsxHZHzeVosvI_NQe4,2241
+wavclassify/cli.py,sha256=4BH3UNbvMHd_NYWkI0HL55H_BdBHeNXn7gWSfLXvZPg,3709
+wavclassify/click.wav,sha256=GfLyLLADWNizVaE2-BDXZR3TuitPlpzZWxue1ipxrl8,30020
+wavclassify/click_sound.py,sha256=Wf9G27O1aV4whXpHK7aVyd79gmtK7Rxj5TVhAvSZwBM,260
+wavclassify/gui.py,sha256=TDcjWORHw-EYuJA4oBbt5W-zsHwOMi9pvM1wYJesQD0,5385
+wavclassify/lib.py,sha256=38GGlqD0HvVKyR2NMD1_SgX7woffaPRoH7P01zqt1Zw,5953
+wavclassify/.vscode/settings.json,sha256=oS2tpEG78sQeQ1MkI3rg70d7nsgYtlngOhhK_ye7JFQ,232
+wavclassify-0.4.0.dist-info/entry_points.txt,sha256=27dlPcfU17NK7e1vVmONMX7supe01x6mC-kFI6ZB6mY,56
+wavclassify-0.4.0.dist-info/LICENSE,sha256=QtnRu3B0IdESAPi6ER2VDzTogJJgpVncLVxYjRIi7VE,1083
+wavclassify-0.4.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+wavclassify-0.4.0.dist-info/METADATA,sha256=g-mo8F_TqpJK7i2SYjVArEW5VwemQhTf_RmACF9MPtA,430
+wavclassify-0.4.0.dist-info/RECORD,,
