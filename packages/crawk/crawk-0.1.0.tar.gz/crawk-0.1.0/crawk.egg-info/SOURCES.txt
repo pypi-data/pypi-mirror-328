@@ -1,0 +1,9 @@
+README.md
+crawk.py
+pyproject.toml
+crawk.egg-info/PKG-INFO
+crawk.egg-info/SOURCES.txt
+crawk.egg-info/dependency_links.txt
+crawk.egg-info/requires.txt
+crawk.egg-info/top_level.txt
+tests/test_crawk.py
