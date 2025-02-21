@@ -1,0 +1,11 @@
+aqueductus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aqueductus/main.py,sha256=SvFnEEWNzqJkI2Emc6ia52PFavvcLqp47ifQBDItQWI,846
+aqueductus/providers.py,sha256=eOTgof-CHwTOXNYB-0515KsjOlnXaV0zp2lTGmr46ro,2559
+aqueductus/reporter.py,sha256=I4MH30DsPkrJBwYBSuhNW4brokoM5XAiItyjvA1Qob8,3209
+aqueductus/runner.py,sha256=IY4ESoe4Wcqfl-YVl8KIEB_rAIouiYasQGuKKqG24sQ,5689
+aqueductus/testers.py,sha256=v5ZsQtvqq_INDQLnmcAksm4vqYftaesyb9uVuJ6femA,8599
+aqueductus-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aqueductus-1.0.0.dist-info/METADATA,sha256=OO73gb9hkrkJJ0gJcl1otEU_YUKx97LuFDkL69oUgsU,5248
+aqueductus-1.0.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+aqueductus-1.0.0.dist-info/entry_points.txt,sha256=zsX6fnOiDnResxIca0fOtkme7Ojv557VUriZ1Hk-3Yo,51
+aqueductus-1.0.0.dist-info/RECORD,,
