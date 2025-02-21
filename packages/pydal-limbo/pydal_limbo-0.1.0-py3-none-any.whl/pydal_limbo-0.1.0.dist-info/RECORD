@@ -1,0 +1,7 @@
+pydal_limbo/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pydal_limbo/__init__.py,sha256=4YXZVZav310gGOUKdslphVD4URA9yqKEKsZGburTsH8,33
+pydal_limbo/adapter_limbo.py,sha256=0kA7ErofRcuJ9RufVB_1QYyQLsufUJaLAuVJ17UfM3E,840
+pydal_limbo/limbo_dbapi2/dbapi2.py,sha256=Gg-oM2dpN3rQw28XxcmzK3mYkZ0ygfzNlzrYdm0IohY,4663
+pydal_limbo-0.1.0.dist-info/METADATA,sha256=w7YEi6Y9BTTG3Jk9ptOdKw5vEFgXBROS2PcqLw7qZyo,1431
+pydal_limbo-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pydal_limbo-0.1.0.dist-info/RECORD,,
