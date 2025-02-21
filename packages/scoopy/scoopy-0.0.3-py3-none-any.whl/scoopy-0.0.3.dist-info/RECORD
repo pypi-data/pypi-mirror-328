@@ -1,0 +1,11 @@
+scoopy/__init__.py,sha256=s3X9o3yFAwk3BIWs4og99q8Tpv9edPJeB9RxhCsMK5I,721
+scoopy/base.py,sha256=bhfm0LNDEvR3BJRnKkqwenlomvKmUUVKb7YpgO5zHTY,948
+scoopy/data_sources.py,sha256=IVfXjS9_LMVte5GY0U5PwiuIfS0ZhvyUqPX4F3ULMfc,4697
+scoopy/util.py,sha256=aJmdc7mUlGnP2ht2qyUQv-JGCL9gG1am4ZtUQ__i9qI,677
+scoopy/examples/__init__.py,sha256=CcXmPv0_lKVwbniO8b2fHo4zjxx6NCkSIpi6iyhGnIU,28
+scoopy/examples/search_and_save_news.py,sha256=Dr7DNrphyx-MzxI8rzxtFNrXNRna-WNCp1YlXr_bWuw,737
+scoopy-0.0.3.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+scoopy-0.0.3.dist-info/METADATA,sha256=jp4WZuR53SBAhk22fkWXKlr10lEsfWASUu0qZBijLVg,482
+scoopy-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scoopy-0.0.3.dist-info/top_level.txt,sha256=uox1qSUT5OyhC5BqsC-C2-epvY-zWc4Uxeye9BKXfvU,7
+scoopy-0.0.3.dist-info/RECORD,,
