@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: BugInjectX
+Version: 0.1.9
+Summary: Automated vulnerability scanner for SQL Injection (SQLi), SSRF, and XSS.
+Home-page: https://github.com/greynodesecurity/BugInjectX
+Author: Z3r0 S3c
+Author-email: z3r0s3c@greynodesecurity.com
+License: MIT
+Project-URL: Source Code, https://github.com/greynodesecurity/BugInjectX
+Project-URL: Bug Tracker, https://github.com/greynodesecurity/BugInjectX/issues
+Project-URL: Documentation, https://github.com/greynodesecurity/BugInjectX/wiki
+Keywords: security,bug bounty,pentesting,SQLi,SSRF,XSS,infosec,hacking,penetration testing,web security,vulnerability scanning,ethical hacking,bug bounty automation,cybersecurity
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: colorama
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
+Requires-Dist: asyncio
+Requires-Dist: argparse
+Requires-Dist: injector
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# BugInjectX
+
+**BugInjectX** is a powerful, Python-based tool designed for automated vulnerability discovery, focusing on **SQL Injection (SQLi)**, **Cross-Site Scripting (XSS)**, and **Server-Side Request Forgery (SSRF)** attacks. It leverages dictionary-based payload injections to identify vulnerabilities in web applications by testing URL and header parameters for potential exploits.
+
+## Features
+
+- **Automated Vulnerability Testing**: Detects SQLi, XSS, and SSRF vulnerabilities.
+- **Dictionary-based Payload Injection**: Uses extensive, custom dictionaries for payloads.
+- **Color-coded Output**: Easy-to-read, color-coded feedback in the terminal.
+- **Custom Headers**: Inject custom headers like `X-BUG-HUNTER-ID` for enhanced anonymity.
+- **Async Operations**: Utilizes `asyncio` and `aiohttp` for high-speed, efficient attacks.
+- **Cross-Platform**: Works on any system with Python 3+ installed.
+
+## Why BugInjectX?
+
+BugInjectX is designed for bug hunters, penetration testers, and security researchers who need an efficient and streamlined method to automate vulnerability testing. With built-in support for common CVEs like SQLi, XSS, and SSRF, BugInjectX is your go-to tool for comprehensive web application testing.
+
+### Supported Vulnerabilities
+- **SQL Injection (SQLi)**: Tests for SQLi flaws in URL and header parameters.
+- **Cross-Site Scripting (XSS)**: Identifies XSS vulnerabilities via payload injection.
+- **Server-Side Request Forgery (SSRF)**: Tests for SSRF vulnerabilities by injecting payloads that manipulate server-side requests.
+
+## Installation
+
+To install **BugInjectX**, simply run:
+
+```bash
+pip install buginjectx
+```
+
+Alternatively, you can install from source:
+
+1. Clone the Repository:
+```bash
+git clone https://github.com/GreyNodeSecurity/BugInjectX
+```
+2. Navigate to the project directory:
+```bash
+cd BugInjectX
+```
+3. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+_If you are using some O.S. like Kali, or you get the following error;_
+```bash
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Kali-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have pypy3-venv installed.
+    
+    If you wish to install a non-Kali-packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    For more information, refer to the following:
+    * https://www.kali.org/docs/general-use/python3-external-packages/
+    * /usr/share/doc/python3.12/README.venv
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+```
+_Please use the following command:_
+```bash
+pipx install -r requirements.txt
+```
+**OR BUILD ENVIRONMENT:**
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+## Quick Start
+Once installed, BugInjectX can be run with the following command:
+```bash
+python3 main.py
+```
+
+### Sample Usage
+1. Run BugInjectX with custom Target:
+```bash
+python3 main.py --target https://target.com --header "X-BUG-HUNTER-ID: Z3r0-S3c"
+```
+2. Test with Custom Payload Dictionaries:
+```bash
+python3 main.py --target https://target.com --sql-payloads /path/to/sql_payloads.txt --xss-payloads /path/to/xss_payloads.txt --ssrf-payloads /path/to/ssrf_payloads.txt
+```
+
+# Configuration
+**BugInjectX** allows you to specifically custom payload dictionaries for each vulnerability type (SQLi, XSS, SSRF). You can easily specify the location of these dictionaries in the command-line arguments:  
+* `--sql-payloads`: Path to the SQLi Payloads File.  
+* `--xss-payloads`: Path to the XSS Payloads File.  
+* `--ssrf-payloads`: Path to the SSRF Payloads File.  
+* `--header`: Optional custom header for your requests (e.g., `X-BUG-HUNTER-ID`).  
+  
+# Contributing
+We welcome contributions! If you’d like to contribute to BugInjectX, please fork the repository, create a new branch, and submit a pull request. We are particularly looking for:
+
+Improvements to existing features:
+* Bug fixes
+* Additional payload dictionaries for new vulnerabilities
+
+# Contact
+* **Name:** _Z3r0 S3c_  
+* **Email:** _z3r0s3c@greynodesecurity.com_
+* **Twitter:** _@Z3r0_S3c_
+* **Company:** _Grey Node Security_
+* **Web:** _https://greynodesecurity.com_
+
