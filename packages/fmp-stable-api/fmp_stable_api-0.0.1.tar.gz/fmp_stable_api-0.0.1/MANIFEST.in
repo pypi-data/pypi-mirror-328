@@ -1,0 +1,3 @@
+include FMP/fmp_endpoints.json
+include pyproject.toml
+include setup.py

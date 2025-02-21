@@ -1,0 +1,7 @@
+requests
+ratelimit
+websockets
+
+[dev]
+pytest
+twine
