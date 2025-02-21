@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: abcdefgji-ti
+Version: 0.0.1
+Summary: YouTube Data API v3
+Home-page: 
+Author: Google
+Author-email: team@openapitools.org
+License: Creative Commons Attribution 3.0
+Keywords: OpenAPI,OpenAPI-Generator,YouTube Data API v3
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<3.0.0,>=1.25.3
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+    The YouTube Data API v3 is an API that provides access to YouTube data, such as videos, playlists, and channels.
+    
