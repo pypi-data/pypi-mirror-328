@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "stormedgesto"
+version = "1.8.0"
+description = "hahahhahh"
+authors = [{name = "liudi", email = "test@qq.com"}]
+
+dependencies = [
+    "gmssl"
+]
+module = "liudi12345"
+
+
+
+[tool.flit.module]
+name = "foo"
+
+## 定义包含的模块
+#packages = [
+#    { include = "liudi123455" },
+#    { include = "justtest123" }
+#]
