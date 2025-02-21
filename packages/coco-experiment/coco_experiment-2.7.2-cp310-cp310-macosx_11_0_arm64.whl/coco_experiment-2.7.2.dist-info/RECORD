@@ -1,0 +1,11 @@
+coco_experiment-2.7.2.dist-info/RECORD,,
+coco_experiment-2.7.2.dist-info/WHEEL,sha256=PyQFRynAJoyZSY4x-mzpOdkkuaJ40di4hJqN3-yAcP4,93
+coco_experiment-2.7.2.dist-info/METADATA,sha256=PqBKnMjvSI-BeQ5gHYklt3futuGOGEnwkOqjIX8dQoQ,2816
+cocoex/_version.py,sha256=OLtk8JxhJpsKOSplscdKOe0PVQjemi-i7u04WQ2MXmY,172
+cocoex/interface.cpython-310-darwin.so,sha256=doTJXqZgHvBI3uUljF7k1tUndlc6afA4qsLek_bjimo,882640
+cocoex/__init__.py,sha256=EE8fSAcrKrkXBJl51V4cwZzD8ydE-Ssg1PDUZpygBMs,22778
+cocoex/solvers.py,sha256=5Rz8728O556jMs5K918ODXYu13-d9TxFMN8P6oGl-3A,1244
+cocoex/exceptions.py,sha256=Zo5UxZpk2w_M_2IfjkZiS7zvga1RvLAjepsf2RPM1yw,793
+cocoex/noiser.py,sha256=K2k1jcggX8ygt7YlVqzJO05fWM37fVqOTmgoSqyZrfE,10574
+cocoex/bare_problem.cpython-310-darwin.so,sha256=7C1C7mzFTvmEsTmnyufIKVySgyRbltfgputFQ7D8Exw,809072
+cocoex/utilities.py,sha256=QW0jXQ8NQ00sVN-wtVkUFHOYGaaU71OL4jFQbbSogcI,41491
