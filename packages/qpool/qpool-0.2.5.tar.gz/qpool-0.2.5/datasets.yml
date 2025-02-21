@@ -1,0 +1,5 @@
+"WHO GHO - Full":
+  filter: "code == code"
+
+"Hepatitis":
+  filter: "code.str.contains('HEP', regex=True, na=False)"
