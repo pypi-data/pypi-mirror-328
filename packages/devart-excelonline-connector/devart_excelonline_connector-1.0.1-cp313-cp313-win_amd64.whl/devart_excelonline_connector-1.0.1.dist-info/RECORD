@@ -1,0 +1,11 @@
+devart/excelonline/__init__.py,sha256=aAp011qrrPTpA1qr8exFGc_WTGUaQbHpSoBb56LY2hs,1049
+devart/excelonline/excelonline.cp313-win_amd64.pyd,sha256=EwBkYUXAPH97pf8QAxvHAmVDhoKZIgp3omCk9otsvQE,904344
+devart/excelonline/excelonline.pyi,sha256=siUkOQO84--DMMEy7dZvnuJzIkp7UehEJPErcZaZIU0,12770
+devart/excelonline/ExcelOnline/Devart.Python.ExcelOnlineEngine.dll,sha256=KmkgqOFrwjxk0CoVlFZ_xrufghkEpO4pLVWcRs4yJRM,10289152
+devart/excelonline/ExcelOnline/sqlite3.dll,sha256=CkFtk1k8MzrSu52Eg5XvOT0NIvYIsXTE6xkBurbR-RI,1277952
+devart/excelonline/sqlalchemy/__init__.py,sha256=XTpIcSmPQsYJESk6z8s8PnQWhm6_UYjK00n9thp-Gbk,1298
+devart_excelonline_connector-1.0.1.dist-info/LICENSE,sha256=5qX9Cly-WMpA_8s71pvyZ8RT_7IbTMQlM4s5FiZc4bY,8568
+devart_excelonline_connector-1.0.1.dist-info/METADATA,sha256=RwNay0ri5V66Z1ojVzJ1rcCRLFgeG7vDAD18AQhQyeo,3071
+devart_excelonline_connector-1.0.1.dist-info/WHEEL,sha256=YY3whN5zaIpzxWCxMHGQtwoICDXEsGAh-bKATaD2hj4,101
+devart_excelonline_connector-1.0.1.dist-info/top_level.txt,sha256=h_mZcghGiX6pnc-Kb1EoAfIW2iHeDA0kJKfcLJMbq44,7
+devart_excelonline_connector-1.0.1.dist-info/RECORD,,
