@@ -1,0 +1,8 @@
+google-api-python-client>=2.0.0
+google-auth>=2.0.0
+selenium>=4.0.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+youtube_transcript_api>=0.4.0
+svgpathtools>=1.4.0
+trio-websocket==0.11.1
