@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+realsense_depth_detector/__init__.py
+realsense_depth_detector/config.py
+realsense_depth_detector/detector.py
+realsense_depth_detector.egg-info/PKG-INFO
+realsense_depth_detector.egg-info/SOURCES.txt
+realsense_depth_detector.egg-info/dependency_links.txt
+realsense_depth_detector.egg-info/requires.txt
+realsense_depth_detector.egg-info/top_level.txt
