@@ -1,0 +1,2 @@
+[console_scripts]
+runllama = src.main:runner

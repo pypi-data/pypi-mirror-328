@@ -1,0 +1,58 @@
+[project]
+name = "runllama"
+version = "0.2.0"
+description = "Simple CLI runner for Ollama (LLM) models"
+authors = [
+    { name = "Manasseh", email = "believemanasseh@gmail.com" },
+]
+maintainers = [
+    {name = "Manasseh", email = "believemanasseh@gmail.com"},
+]
+requires-python = ">=3.10"
+dynamic = [ "classifiers" ]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = [
+    "ollama",
+    "llama",
+    "large language model (LLM)",
+    "ai",
+    "artificial intelligence",
+    "machine learning",
+    "natural language processing (NLP)",
+    "conversational ai"
+]
+dependencies = [
+    "ollama (==0.4.7)",
+    "click (==8.1.8)"
+]
+
+[tool.poetry]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable"
+]
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.9.5"
+pytest = "8.3.4"
+
+[project.scripts]
+runllama = "src.main:runner"
+
+[project.urls]
+homepage = "https://github.com/believemanasseh/RunLlama"
+issues = "https://github.com/believemanasseh/RunLlama/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
