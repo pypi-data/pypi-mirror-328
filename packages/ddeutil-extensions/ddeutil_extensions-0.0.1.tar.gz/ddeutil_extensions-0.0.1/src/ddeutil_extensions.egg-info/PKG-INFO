@@ -1,0 +1,108 @@
+Metadata-Version: 2.2
+Name: ddeutil-extensions
+Version: 0.0.1
+Summary: Extension functions and objects
+Author-email: ddeutils <korawich.anu@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ddeutils/ddeutil-extensions/
+Project-URL: Source Code, https://github.com/ddeutils/ddeutil-extensions/
+Keywords: extensions,utility
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fmtutil
+Requires-Dist: ddeutil-workflow
+Provides-Extra: test
+Requires-Dist: python-dotenv==1.0.1; extra == "test"
+Requires-Dist: sqlalchemy==2.0.38; extra == "test"
+Requires-Dist: fsspec==2024.6.1; extra == "test"
+Requires-Dist: ddeutil-extensions[aws,polars,sftp]; extra == "test"
+Provides-Extra: polars
+Requires-Dist: polars==0.20.31; extra == "polars"
+Requires-Dist: pyarrow==17.0.0; extra == "polars"
+Provides-Extra: sftp
+Requires-Dist: paramiko==3.4.0; extra == "sftp"
+Requires-Dist: sshtunnel==0.4.0; extra == "sftp"
+Provides-Extra: aws
+Requires-Dist: boto3==1.34.151; extra == "aws"
+
+# Extensions
+
+[![size](https://img.shields.io/github/languages/code-size/ddeutils/ddeutil-extensions)](https://github.com/ddeutils/ddeutil-extensions)
+[![gh license](https://img.shields.io/github/license/ddeutils/ddeutil-extensions)](https://github.com/ddeutils/ddeutil-extensions/blob/main/LICENSE)
+[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+An **extensions functions and objects** which provides all plug-ins and objects
+that use for data processing and transformation.
+
+## :round_pushpin: Installation
+
+```shell
+pip install -U ddeutil-extensions
+```
+
+## :rocket: Features
+
+This extensions package provides 3 main components:
+
+- Plug-in the extension tasks that use with the [Workflow](https://github.com/ddeutils/ddeutil-extensions)
+- Connection and Dataset interface objects
+- Schema models
+
+### Connection
+
+The connection for worker able to do anything.
+
+```yaml
+conn_postgres_data:
+  type: conn.Postgres
+  url: 'postgres//username:${ENV_PASS}@hostname:port/database?echo=True&time_out=10'
+```
+
+```python
+from ddeutil.extensions.conn import Conn
+
+conn = Conn.from_loader(name='conn_postgres_data', externals={})
+assert conn.ping()
+```
+
+### Dataset
+
+The dataset is defined any objects on the connection. This feature was implemented
+on `/extensions` because it has a lot of tools that can interact with any data systems
+in the data tool stacks.
+
+```yaml
+ds_postgres_customer_tbl:
+  type: dataset.PostgresTbl
+  conn: 'conn_postgres_data'
+  features:
+    id: serial primary key
+    name: varchar( 100 ) not null
+```
+
+```python
+from ddeutil.extensions.datasets.pg import PostgresTbl
+
+dataset = PostgresTbl.from_loader(name='ds_postgres_customer_tbl', externals={})
+assert dataset.exists()
+```
+
+## :speech_balloon: Contribute
+
+I do not think this project will go around the world because it has specific propose,
+and you can create by your coding without this project dependency for long term
+solution. So, on this time, you can open [the GitHub issue on this project :raised_hands:](https://github.com/ddeutils/ddeutil-extensions/issues)
+for fix bug or request new feature if you want it.
