@@ -1,0 +1,69 @@
+Metadata-Version: 2.2
+Name: sourcestack
+Version: 0.0.7
+Summary: A python package for using the https://sourcestack.co/ API.
+Home-page: https://github.com/workflowing/sourcestack
+Author: Kevin Sylvestre
+Author-email: kevin@ksylvest.com
+License: MIT
+Keywords: sourcestack
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# SourceStack
+
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/workflowing/sourcestack/blob/main/LICENSE)
+[![PyPi](https://img.shields.io/pypi/v/sourcestack)](https://pypi.org/project/sourcestack/)
+[![GitHub](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/workflowing/sourcestack)
+
+## Installation
+
+```bash
+pip install sourcestack
+```
+
+## Usage
+
+```python
+from sourcestack.client import Client
+
+client = Client(api_key="fake-api-key")
+client.jobs.by_name(name="...")
+client.jobs.by_parent(parent="...")
+client.jobs.by_url(url="https://...")
+client.jobs.by_uses_product(uses_product="...")
+client.jobs.by_uses_category(uses_category="...")
+```
+
+## Contributing
+
+```bash
+pip install -r requirements.txt
+```
+
+### Building
+
+```bash
+bin/build
+```
+
+### Publishing
+
+```bash
+bin/publish
+```
