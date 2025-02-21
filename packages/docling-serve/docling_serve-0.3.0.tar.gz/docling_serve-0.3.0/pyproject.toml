@@ -1,0 +1,180 @@
+[project]
+name = "docling-serve"
+version = "0.3.0"  # DO NOT EDIT, updated automatically
+description = "Running Docling as a service"
+license = {text = "MIT"}
+authors = [
+    {name="Michele Dolfi", email="dol@zurich.ibm.com"},
+    {name="Guillaume Moutier", email="gmoutier@redhat.com"},
+    {name="Anil Vishnoi", email="avishnoi@redhat.com"},
+    {name="Panos Vagenas", email="pva@zurich.ibm.com"},
+    {name="Panos Vagenas", email="pva@zurich.ibm.com"},
+    {name="Christoph Auer", email="cau@zurich.ibm.com"},
+    {name="Peter Staar", email="taa@zurich.ibm.com"},
+]
+maintainers = [
+    {name="Michele Dolfi", email="dol@zurich.ibm.com"},
+    {name="Anil Vishnoi", email="avishnoi@redhat.com"},
+    {name="Panos Vagenas", email="pva@zurich.ibm.com"},
+    {name="Christoph Auer", email="cau@zurich.ibm.com"},
+    {name="Peter Staar", email="taa@zurich.ibm.com"},
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    # "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "docling~=2.23",
+    "fastapi[standard]~=0.115",
+    "httpx~=0.28",
+    "pydantic~=2.10",
+    "pydantic-settings~=2.4",
+    "python-multipart>=0.0.14,<0.1.0",
+    "typer~=0.12",
+    "uvicorn[standard]>=0.29.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+ui = [
+    "gradio~=5.9"
+]
+tesserocr = [
+    "tesserocr~=2.7"
+]
+rapidocr = [
+    "rapidocr-onnxruntime~=1.4; python_version<'3.13'",
+    "onnxruntime~=1.7",
+]
+cpu = [
+  "torch>=2.6.0",
+  "torchvision>=0.21.0",
+]
+cu124 = [
+  "torch>=2.6.0",
+  "torchvision>=0.21.0",
+]
+
+[dependency-groups]
+dev = [
+    "autoflake~=2.3",
+    "black~=24.8",
+    "flake8~=7.1",
+    "isort~=5.13",
+    "mypy~=1.11",
+    "pre-commit~=3.8",
+    "pytest~=8.3",
+    "pytest-asyncio~=0.24",
+    "pytest-check~=2.4",
+    "python-semantic-release~=7.32",
+]
+
+[tool.uv]
+package = true
+conflicts = [
+  [
+    { extra = "cpu" },
+    { extra = "cu124" },
+  ],
+]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu124", extra = "cu124" },
+]
+torchvision = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu124", extra = "cu124" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.setuptools.packages.find]
+include = ["docling_serve"]
+
+[project.scripts]
+docling-serve = "docling_serve.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/DS4SD/docling-serve"
+# Documentation = "https://ds4sd.github.io/docling"
+Repository = "https://github.com/DS4SD/docling-serve"
+Issues = "https://github.com/DS4SD/docling-serve/issues"
+Changelog = "https://github.com/DS4SD/docling-serve/blob/main/CHANGELOG.md"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+known_third_party = ["docling", "docling_core"]
+line_length = 88
+py_version=311
+
+[tool.autoflake]
+in-place = true
+remove-all-unused-imports = true
+remove-unused-variables = true
+expand-star-imports = true
+recursive = true
+
+[tool.mypy]
+pretty = true
+# strict = true
+no_implicit_optional = true
+plugins = "pydantic.mypy"
+python_version = "3.10"
+
+[[tool.mypy.overrides]]
+module = [
+    "easyocr.*",
+    "tesserocr.*",
+    "rapidocr_onnxruntime.*",
+    "docling_conversion.*",
+    "gradio_ui.*",
+    "response_preparation.*",
+    "helper_functions.*",
+    "requests.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+minversion = "8.2"
+testpaths = [
+    "tests",
+]
+addopts = "-rA --color=yes --tb=short --maxfail=5"
+markers = [
+"asyncio",
+]
+
+[tool.semantic_release]
+# for default values check:
+# https://github.com/python-semantic-release/python-semantic-release/blob/v7.32.2/semantic_release/defaults.cfg
+
+version_source = "tag_only"
+branch = "main"
+
+# configure types which should trigger minor and patch version bumps respectively
+# (note that they must be a subset of the configured allowed types):
+parser_angular_allowed_types = "build,chore,ci,docs,feat,fix,perf,style,refactor,test"
+parser_angular_minor_types = "feat"
+parser_angular_patch_types = "fix,perf"
