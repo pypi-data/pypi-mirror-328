@@ -1,0 +1,11 @@
+prayerpy/__init__.py,sha256=Ro8d3AnmN79AZzTZUAg3ZsVxS44fs20Sqjr-Q7G9Pnc,25
+prayerpy/config.py,sha256=dx8zfvtskpoLpXDOoMTUpRlKyNkr_MQbA-HeI7hAQo8,587
+prayerpy/degree_geometry.py,sha256=ze2VSDxO_1w3QX7XY_RFppuhxZMh1FHoLBYNAmpWP7U,1405
+prayerpy/equation_of_time.py,sha256=xbj1yGndnFm96RndnkBIzYNmNR1yCkHGoqU45VgIY6o,1318
+prayerpy/main.py,sha256=M5MqhDKLiJazZejLb5rZSyj93ELw1kSI_iVy1lWrNrk,2884
+prayerpy/prayer_time.py,sha256=W34PuXc04X6_UAwzefWm9HHpV1oVSuOv0lHcWwDEBic,3049
+prayerpy/sun_declination.py,sha256=DsbmSfsSrUnQt6SLLHm4WrZiEfRI62_gTcl0FLmNqQE,880
+prayerpy-0.1.dist-info/METADATA,sha256=qhaYxVJ1KML0y8B4fyDJplfmdmX3KOwHVNITGcWqAng,3585
+prayerpy-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+prayerpy-0.1.dist-info/top_level.txt,sha256=6Wq1Gpo3fg_J_4ARU0C7MYNpe7L-KO_Fh6rwNJLCkvA,9
+prayerpy-0.1.dist-info/RECORD,,
