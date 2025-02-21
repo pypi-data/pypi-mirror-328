@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: gd_sm
+Version: 0.1.1
+Summary: python实现的国密SM2/SM3/SM4算法库
+Author-email: liudi <di.liu@quantum-info.com>
+Description-Content-Type: text/markdown
+Project-URL: Home, https://www.quantumtest.top
+
+# gd_sm
+
+## 这是一个纯python实现的国密算法库，参考了gmssl的实现，按照自己的需求进行了一定的改进
