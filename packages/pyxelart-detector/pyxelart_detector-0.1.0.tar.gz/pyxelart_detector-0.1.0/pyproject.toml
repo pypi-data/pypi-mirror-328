@@ -1,0 +1,15 @@
+[project]
+name = "pyxelart-detector"
+version = "0.1.0"
+description = "A library to detect if an image is likely pixel art."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "mpl-interactions>=0.24.2",
+    "pillow>=11.1.0",
+    "pyqt6>=6.8.1",
+    "scikit-image>=0.25.1",
+    "scipy>=1.15.2",
+    "termcolor>=2.5.0",
+]

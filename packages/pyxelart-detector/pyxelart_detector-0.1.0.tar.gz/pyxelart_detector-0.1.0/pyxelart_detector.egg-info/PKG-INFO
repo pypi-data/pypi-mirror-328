@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: pyxelart-detector
+Version: 0.1.0
+Summary: A library to detect if an image is likely pixel art.
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: mpl-interactions>=0.24.2
+Requires-Dist: pillow>=11.1.0
+Requires-Dist: pyqt6>=6.8.1
+Requires-Dist: scikit-image>=0.25.1
+Requires-Dist: scipy>=1.15.2
+Requires-Dist: termcolor>=2.5.0

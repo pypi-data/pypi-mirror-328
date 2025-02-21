@@ -1,0 +1,7 @@
+matplotlib>=3.10.0
+mpl-interactions>=0.24.2
+pillow>=11.1.0
+pyqt6>=6.8.1
+scikit-image>=0.25.1
+scipy>=1.15.2
+termcolor>=2.5.0
