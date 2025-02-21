@@ -1,0 +1,11 @@
+guick_version.py,sha256=i8qLKSB-M_2sK8Ki12tEukTqt-1hbzWILoVBfuEwpBQ,484
+guick/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guick/_version.py,sha256=lqmIIrkbXmweKOeyhhWfWiwg9qGKf0FXFbIdJdLo-m8,441
+guick/gui.py,sha256=UfpzLIN8erWMVGWoKD9fqCnoTFauvfKgtYDV_QLZTGQ,30222
+guick/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guick/test_notebook.py,sha256=QIEOgMsZRvcG9Ma-qbdB2Fhv-gmxbFv4fAkOAoVkdk8,3924
+guick/test_notebook2.py,sha256=CxEB-JTAWcInzFBhkAcRgdbMsyHj6NuNJbn9YOFC8uc,2886
+guick-0.5.post1.dev0.dist-info/METADATA,sha256=eXVci2MDCxBLA0u7j1b08H8qeysw_axvYPLAc45bOP4,4048
+guick-0.5.post1.dev0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+guick-0.5.post1.dev0.dist-info/top_level.txt,sha256=pw-nMelyX5N3k5b5Mjxwql7xx-8bU8de6bLcufXr5R0,20
+guick-0.5.post1.dev0.dist-info/RECORD,,
