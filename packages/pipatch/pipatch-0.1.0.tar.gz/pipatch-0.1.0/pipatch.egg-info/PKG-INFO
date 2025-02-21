@@ -1,0 +1,47 @@
+Metadata-Version: 2.2
+Name: pipatch
+Version: 0.1.0
+Summary: Minimal patching tool for Python packages.
+Author: Teddy van Jerry (Wuqiong Zhao)
+Author-email: me@teddy-van-jerry.org
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# `pipatch` = `pip` + `patch`
+Minimal patching tool for Python packages.
+
+## Installation
+```sh
+pip install pipatch
+```
+
+## Usage
+Check out the `Pipatch` class.
+Documentation is coming soon.
+
+## License
+Copyright ©️ 2025 Teddy van Jerry ([Wuqiong Zhao](https://wqzhao.org)).
+This project is licensed under the [MIT License](LICENSE).

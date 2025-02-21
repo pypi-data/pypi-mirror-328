@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pipatch/__init__.py
+pipatch/pipatch.py
+pipatch.egg-info/PKG-INFO
+pipatch.egg-info/SOURCES.txt
+pipatch.egg-info/dependency_links.txt
+pipatch.egg-info/requires.txt
+pipatch.egg-info/top_level.txt
