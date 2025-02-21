@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scoopy
+Version: 0.0.5
+Summary: Python interface to live news
+Home-page: https://github.com/thorwhalen/scoopy
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dol
+Requires-Dist: argh
+Requires-Dist: requests
+
+# scoopy
+
+Python interface to live news
+
+To install:	```pip install scoopy```
+
+Depending on what news API you use, you may need an API key. Example:
+* https://newsdata.io/
