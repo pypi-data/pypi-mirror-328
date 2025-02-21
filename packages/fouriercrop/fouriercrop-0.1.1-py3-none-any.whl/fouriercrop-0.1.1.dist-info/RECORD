@@ -1,0 +1,9 @@
+fouriercrop/__init__.py,sha256=0kWe4_NbYaAbZCZTmkNbaloyVZ05DztBI3CdenPtkSI,255
+fouriercrop/cli.py,sha256=SlU3sf2W7ntQQ4X0gNihyDBnYuK2O5z_LH1x6wadEHE,1193
+fouriercrop/fouriercrop.py,sha256=Erwca6iLAoZoLbZUM7z3g7ufU1TkXcgXdr_gYbVlg8Q,6615
+fouriercrop/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fouriercrop-0.1.1.dist-info/LICENSE.rst,sha256=e6WqT4zQN8YstWt9tq57dmJ05iXckCSdOlngbJ_DSPQ,581
+fouriercrop-0.1.1.dist-info/METADATA,sha256=_mXesubq4OLNNQInG1KyWsrm2ff5yl5Vb6klJZwx304,3314
+fouriercrop-0.1.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+fouriercrop-0.1.1.dist-info/entry_points.txt,sha256=atuB8s14One1KQMlhJ9fN0-dJx3tsNFYKMOdmp3K0fE,51
+fouriercrop-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+fouriercrop=fouriercrop.cli:app
+
