@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: Fnai_deepseek
+Version: 0.5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Dynamic: classifier
+Dynamic: requires-python

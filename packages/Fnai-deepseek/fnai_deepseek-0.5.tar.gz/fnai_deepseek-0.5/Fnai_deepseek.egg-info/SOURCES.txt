@@ -1,0 +1,10 @@
+setup.py
+Fnai_deepseek/__init__.py
+Fnai_deepseek/api.py
+Fnai_deepseek/core_test.py
+Fnai_deepseek/llm_api.py
+Fnai_deepseek/str_api.py
+Fnai_deepseek.egg-info/PKG-INFO
+Fnai_deepseek.egg-info/SOURCES.txt
+Fnai_deepseek.egg-info/dependency_links.txt
+Fnai_deepseek.egg-info/top_level.txt
