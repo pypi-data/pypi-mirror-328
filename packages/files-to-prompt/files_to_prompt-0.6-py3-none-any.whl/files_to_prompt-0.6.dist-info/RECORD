@@ -1,0 +1,9 @@
+files_to_prompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+files_to_prompt/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+files_to_prompt/cli.py,sha256=K5UyTm-vyf390Aq5cC-4J1IV8zxwIJeG9l4QTnRDZiU,8906
+files_to_prompt-0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+files_to_prompt-0.6.dist-info/METADATA,sha256=oYIqmMw6-Z_grAGIKRhkI1elAECTZGB7Jttxz-8xkMg,7358
+files_to_prompt-0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+files_to_prompt-0.6.dist-info/entry_points.txt,sha256=OMWSAI0ndyQ1l8ImtJlbKMkuIr8Etkkc63ibwpayz8k,60
+files_to_prompt-0.6.dist-info/top_level.txt,sha256=ZKSMJABY-VCcniAkNdn7BJjvlqQEA5RVGy1selFNxqM,16
+files_to_prompt-0.6.dist-info/RECORD,,
