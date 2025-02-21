@@ -1,0 +1,11 @@
+cxx_image_io/io.py,sha256=q1o_mMS-QNWRImitmH5Uib261hU81-x64yVT6DY6oyY,7548
+cxx_image_io/__init__.py,sha256=wQVY6c3cNsEcUzQ7G2BGoQlY78_Z9C4NK0x5tijMj1g,637
+cxx_image_io/libexif.dylib,sha256=dBynUJ1JMrDS0Xz8c01HpjvP7yfEG3ysMOPq0H-mXqY,264528
+cxx_image_io/utils.py,sha256=raq6ZtxcXLwJlFtn6KBLFrKnhtnpH_WaGSZEpb-7lzc,12335
+cxx_image_io/cxx_image.cpython-311-darwin.so,sha256=rFSriXtAutE5MOE6aFN6m04n9lEwtyVUQjCdXDrq_vQ,3477008
+cxx_image_io/.dylibs/libexif.dylib,sha256=L1gmV-bxZ_w09DEh4uRKrd3ZJ9soTYsDgiXK0nSY_oM,282672
+cxx_image_io-1.0.12.dist-info/LICENSE.md,sha256=N8PvVOBetYqtxJt0prtYKDUCtTD90bUmhaSKxCdePtU,1083
+cxx_image_io-1.0.12.dist-info/RECORD,,
+cxx_image_io-1.0.12.dist-info/WHEEL,sha256=NW1RskY9zow1Y68W-gXg0oZyBRAugI1JHywIzAIai5o,109
+cxx_image_io-1.0.12.dist-info/top_level.txt,sha256=qfJHhjlSV-6njNwlUODGXv8V6CNBhvGOjZQShPnbsBQ,23
+cxx_image_io-1.0.12.dist-info/METADATA,sha256=Adpj4NcALTMwPwDUtMc2boyARCnk3vWWo2cpePCLfDc,18077
