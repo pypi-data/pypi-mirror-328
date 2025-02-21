@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: cmaboss
+Version: 1.0.0b26
+Summary: MaBoSS python bindings
+Author: contact@vincent-noel.fr
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
