@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+DeConveil/__init__.py
+DeConveil/dds.py
+DeConveil/default_inference.py
+DeConveil/ds.py
+DeConveil/grid_search.py
+DeConveil/inference.py
+DeConveil/utils_CNaware.py
+DeConveil.egg-info/PKG-INFO
+DeConveil.egg-info/SOURCES.txt
+DeConveil.egg-info/dependency_links.txt
+DeConveil.egg-info/requires.txt
+DeConveil.egg-info/top_level.txt
