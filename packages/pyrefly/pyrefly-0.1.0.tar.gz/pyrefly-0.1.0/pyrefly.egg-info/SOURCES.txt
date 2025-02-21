@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pyrefly/__init__.py
+pyrefly.egg-info/PKG-INFO
+pyrefly.egg-info/SOURCES.txt
+pyrefly.egg-info/dependency_links.txt
+pyrefly.egg-info/entry_points.txt
+pyrefly.egg-info/top_level.txt
