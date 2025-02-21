@@ -1,0 +1,13 @@
+CITATION.cff
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+inline_reference/__init__.py
+inline_reference/inline_reference.py
+inline_reference.egg-info/PKG-INFO
+inline_reference.egg-info/SOURCES.txt
+inline_reference.egg-info/dependency_links.txt
+inline_reference.egg-info/requires.txt
+inline_reference.egg-info/top_level.txt
