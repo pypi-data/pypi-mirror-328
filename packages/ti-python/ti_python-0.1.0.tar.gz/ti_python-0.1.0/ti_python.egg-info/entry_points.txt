@@ -1,0 +1,2 @@
+[console_scripts]
+ti-python = ti_python.cli:main

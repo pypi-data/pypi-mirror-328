@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+ti_python/__init__.py
+ti_python/__main__.py
+ti_python/compiler.py
+ti_python/generate.py
+ti_python/tokenizer.py
+ti_python/types.py
+ti_python.egg-info/PKG-INFO
+ti_python.egg-info/SOURCES.txt
+ti_python.egg-info/dependency_links.txt
+ti_python.egg-info/entry_points.txt
+ti_python.egg-info/top_level.txt
