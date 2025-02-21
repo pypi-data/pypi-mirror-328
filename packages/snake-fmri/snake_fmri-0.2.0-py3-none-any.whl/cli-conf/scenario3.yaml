@@ -1,0 +1,94 @@
+# ---
+# title: 1mm SPARKLING fMRI
+# author: Pierre-Antoine Comby, Alexandre Vignaud, Philippe Ciuciu
+# description: This is the configuration used for the scenario 3 of the SNAKE Paper
+# ---
+
+defaults:
+  - base_config
+  - handlers:
+    - activation-block
+  - sampler:
+    - load-trajectory
+  - reconstructors:
+      - adjoint
+      - sequential
+  - _self_
+
+cache_dir: ${oc.env:PWD}/cache
+result_dir: results/scenario3
+filename:  ${cache_dir}/scenario3_${engine.model}_${engine.snr}.mrd
+
+sim_conf:
+  max_sim_time: 300
+  seq: {TR: 50, TE: 25,  FA: 12}
+  hardware:
+    n_coils: 32
+    dwell_time_ms: 0.001
+
+  shape: [182, 218, 182]
+  fov_mm: [181.0, 217.0, 181.0]
+
+phantom:
+  name: brainweb
+  sub_id: 5
+  tissue_file: "tissue_7T"
+
+handlers:
+  activation-block:
+    event_name: block_on
+    block_on: 20 # seconds
+    block_off: 20 #seconds
+    duration: 300 # seconds
+    delta_r2s: 1000 # millisecond^-1
+
+sampler:
+  load-trajectory:
+    path: ${oc.env:PWD}/sparkling-3d.bin
+    constant: true
+
+engine:
+  n_jobs: 3
+  chunk_size: 180
+  model: "simple"
+  snr: 1000
+  nufft_backend: "cufinufft"
+
+reconstructors:
+  adjoint:
+    nufft_backend: "gpunufft"
+    density_compensation: "pipe"
+  sequential:
+    nufft_backend: "gpunufft"
+    density_compensation: False
+    restart_strategy: COLD
+    max_iter_per_frame: 20
+    wavelet: "sym8"
+
+
+
+
+
+hydra:
+  job:
+    chdir: true
+
+  run:
+    dir: ${result_dir}/outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+  sweep:
+    dir: ${result_dir}/multirun/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.num}
+
+  callbacks:
+    # gather_files:
+    #   _target_: hydra_callbacks.MultiRunGatherer
+    #   aggregator:
+    #     _partial_: true
+    #     _target_: snkf.cli.utils.aggregate_results
+
+    log_job:
+      _target_: hydra.experimental.callbacks.LogJobReturnCallback
+    latest_run:
+      _target_: hydra_callbacks.LatestRunLink
+      run_base_dir:  ${result_dir}/outputs
+      multirun_base_dir:  ${result_dir}/multirun
