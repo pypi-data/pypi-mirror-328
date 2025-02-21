@@ -1,0 +1,824 @@
+[32m2025-02-17 16:11:29.996[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:11:29.997[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:29.998[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:30.069[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:30.069[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:30.096[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:30.102[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:30.105[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:30.107[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:30.112[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:11:30.113[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:11:31.576[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:11:31.577[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:33.093[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:11:33.095[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:33.095[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:33.162[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:33.162[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:33.184[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:33.277[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:11:37.666[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:37.667[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:37.787[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:37.790[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:11:37.791[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:11:38.417[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:11:38.417[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:39.038[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:11:39.040[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:39.040[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:39.085[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:39.085[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:39.099[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:39.102[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:39.103[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:39.104[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:39.106[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.csv[0m
+[32m2025-02-17 16:11:39.106[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.dot.csv[0m
+[32m2025-02-17 16:11:39.108[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:39.660[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:11:39.661[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:39.661[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:39.705[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:39.706[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:39.718[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:39.766[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:11:42.347[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:42.348[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:42.454[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:42.456[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:42.458[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.csv[0m
+[32m2025-02-17 16:11:42.458[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.dot.csv[0m
+[32m2025-02-17 16:11:42.458[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:42.976[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:11:42.977[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:42.977[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:43.020[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:43.021[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:43.033[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:43.037[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:43.038[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:43.039[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:43.039[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:43.041[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.csv[0m
+[32m2025-02-17 16:11:43.042[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.dot.csv[0m
+[32m2025-02-17 16:11:43.641[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\circle.out.pdf[0m
+[32m2025-02-17 16:11:43.642[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:44.219[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:11:44.219[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:44.220[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:44.263[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:44.264[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:44.277[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:44.322[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:11:46.567[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:46.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:46.679[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:46.679[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:46.681[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.csv[0m
+[32m2025-02-17 16:11:46.682[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\circle.dot.csv[0m
+[32m2025-02-17 16:11:47.259[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\circle.out.pdf[0m
+[32m2025-02-17 16:11:47.259[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:47.813[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:11:47.814[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:47.814[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:47.857[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:47.857[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:47.869[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:47.874[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:47.876[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:47.877[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:47.879[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:11:47.880[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:11:47.880[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:48.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:11:48.363[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:48.363[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:48.405[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:48.405[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:48.417[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:48.423[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:48.424[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:48.426[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:48.426[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:48.428[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:11:48.429[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:11:48.995[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:11:48.996[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:49.544[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:11:49.544[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:49.544[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:49.588[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:49.588[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:49.599[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:49.605[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:49.607[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:49.621[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:49.632[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:11:49.633[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:11:49.633[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:50.138[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\circle.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:11:50.138[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:50.138[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\circle.png[0m
+[32m2025-02-17 16:11:50.182[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:50.182[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:50.194[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:50.198[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:50.201[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:50.214[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:50.216[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:50.225[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:11:50.225[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:11:50.811[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:11:50.811[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:51.363[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:11:51.364[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:51.364[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:51.407[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:51.407[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:51.418[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:51.419[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:51.420[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:51.421[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:51.421[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:51.423[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:11:51.424[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:11:51.954[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:11:51.954[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:52.508[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:11:52.509[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:52.509[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:52.553[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:52.553[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:52.565[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:52.610[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:11:54.834[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:54.835[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:54.944[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:54.945[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:54.947[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:11:54.947[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:11:55.467[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:11:55.467[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:56.033[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:11:56.034[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:56.034[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:56.077[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:56.077[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:56.090[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:56.090[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:56.091[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:56.092[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:56.095[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.csv[0m
+[32m2025-02-17 16:11:56.095[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.dot.csv[0m
+[32m2025-02-17 16:11:56.096[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:56.578[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:11:56.580[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:56.580[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:56.623[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:56.623[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:56.635[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:56.680[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:11:58.860[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:58.861[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:58.967[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:58.968[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:58.970[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.csv[0m
+[32m2025-02-17 16:11:58.970[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.dot.csv[0m
+[32m2025-02-17 16:11:58.971[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:11:59.475[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:11:59.475[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:59.475[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:11:59.520[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:11:59.520[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:11:59.532[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:11:59.533[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:11:59.534[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:11:59.535[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:11:59.535[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:11:59.537[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.csv[0m
+[32m2025-02-17 16:11:59.538[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.dot.csv[0m
+[32m2025-02-17 16:12:00.069[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\square.out.pdf[0m
+[32m2025-02-17 16:12:00.069[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:00.607[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:12:00.607[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:00.607[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:00.650[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:00.650[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:00.662[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:00.706[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:02.936[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:02.937[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:03.043[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:03.043[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:03.046[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.csv[0m
+[32m2025-02-17 16:12:03.046[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square.dot.csv[0m
+[32m2025-02-17 16:12:03.562[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\square.out.pdf[0m
+[32m2025-02-17 16:12:03.563[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:04.108[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:04.109[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:04.109[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:04.153[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:04.153[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:04.165[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:04.165[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:04.167[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:04.168[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:04.169[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:04.171[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:04.171[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:04.171[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:04.655[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:04.655[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:04.656[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:04.699[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:04.700[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:04.712[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:04.713[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:04.713[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:04.715[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:04.715[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:04.718[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:04.718[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:05.245[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:12:05.245[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:05.782[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:05.782[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:05.783[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:05.825[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:05.825[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:05.837[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:05.838[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:05.840[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:05.854[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:05.855[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:05.864[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:05.864[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:05.864[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:06.344[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:06.345[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:06.345[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square.png[0m
+[32m2025-02-17 16:12:06.387[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:06.387[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:06.401[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:06.401[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:06.403[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:06.417[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:06.418[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:06.426[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:06.426[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:06.966[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:12:06.966[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:07.512[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:12:07.512[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:07.514[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:07.555[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:07.555[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:07.567[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:07.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:07.569[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:07.570[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:07.571[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:07.573[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:12:07.573[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:12:08.094[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:12:08.094[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:08.628[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:12:08.629[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:08.629[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:08.673[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:08.674[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:08.685[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:08.722[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:10.532[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:10.533[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:10.640[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:10.641[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:10.643[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:12:10.643[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:12:11.172[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:12:11.173[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:11.712[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:11.712[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:11.713[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:11.755[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:11.756[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:11.767[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:11.768[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:11.769[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:11.770[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:11.773[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.csv[0m
+[32m2025-02-17 16:12:11.773[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.dot.csv[0m
+[32m2025-02-17 16:12:11.773[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:12.257[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:12.258[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:12.258[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:12.301[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:12.301[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:12.313[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:12.351[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:14.110[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:14.111[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:14.217[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:14.217[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:14.220[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.csv[0m
+[32m2025-02-17 16:12:14.220[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.dot.csv[0m
+[32m2025-02-17 16:12:14.221[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:14.703[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:12:14.703[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:14.704[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:14.746[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:14.746[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:14.759[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:14.759[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:14.760[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:14.762[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:14.762[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:14.764[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.csv[0m
+[32m2025-02-17 16:12:14.764[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.dot.csv[0m
+[32m2025-02-17 16:12:15.296[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\square_rotate.out.pdf[0m
+[32m2025-02-17 16:12:15.296[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:15.872[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:12:15.873[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:15.873[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:15.914[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:15.915[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:15.927[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:15.963[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:17.881[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:17.882[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:17.989[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:17.991[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:17.992[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.csv[0m
+[32m2025-02-17 16:12:17.992[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\square_rotate.dot.csv[0m
+[32m2025-02-17 16:12:18.515[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\square_rotate.out.pdf[0m
+[32m2025-02-17 16:12:18.515[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:19.062[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:19.063[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:19.063[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:19.105[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:19.106[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:19.117[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:19.118[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:19.119[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:19.121[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:19.121[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:19.123[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:19.124[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:19.124[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:19.600[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:19.601[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:19.601[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:19.645[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:19.645[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:19.657[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:19.658[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:19.659[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:19.661[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:19.661[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:19.663[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:19.664[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:20.199[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:12:20.199[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:20.846[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:20.847[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:20.847[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:20.888[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:20.890[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:20.901[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:20.902[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:20.903[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:20.917[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:20.919[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:20.929[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:20.930[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:20.930[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:21.473[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\square_rotate.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:21.473[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:21.474[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\square_rotate.png[0m
+[32m2025-02-17 16:12:21.516[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:21.517[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:21.528[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:21.529[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:21.530[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:21.545[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:21.547[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:21.555[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:21.555[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:22.086[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:12:22.086[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:22.635[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:12:22.636[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:22.636[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:22.679[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:22.679[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:22.692[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:22.695[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:22.695[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:22.696[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:22.697[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:22.698[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:12:22.699[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:12:23.265[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:12:23.265[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:23.853[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:12:23.854[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:23.854[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:23.896[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:23.897[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:23.909[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:23.964[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:26.356[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:26.357[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:26.463[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:26.463[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:26.465[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:12:26.466[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:12:27.049[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:12:27.049[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:27.614[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:27.615[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:27.615[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:27.658[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:27.658[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:27.670[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:27.673[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:27.674[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:27.675[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:27.678[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.csv[0m
+[32m2025-02-17 16:12:27.678[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.dot.csv[0m
+[32m2025-02-17 16:12:27.678[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:28.174[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:28.175[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:28.175[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:28.218[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:28.219[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:28.232[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:28.276[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:32.899[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:32.900[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:33.109[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:33.111[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:33.119[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.csv[0m
+[32m2025-02-17 16:12:33.122[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.dot.csv[0m
+[32m2025-02-17 16:12:33.122[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:35.650[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:12:35.651[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:35.651[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:35.775[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:35.777[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:35.810[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:35.816[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:35.817[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:35.822[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:35.823[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:35.827[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.csv[0m
+[32m2025-02-17 16:12:35.827[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.dot.csv[0m
+[32m2025-02-17 16:12:37.201[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\star.out.pdf[0m
+[32m2025-02-17 16:12:37.201[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:38.785[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:12:38.790[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:38.790[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:38.884[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:38.885[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:38.905[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:38.991[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:42.892[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:42.893[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:43.002[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:43.003[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:43.005[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.csv[0m
+[32m2025-02-17 16:12:43.005[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\star.dot.csv[0m
+[32m2025-02-17 16:12:43.650[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\star.out.pdf[0m
+[32m2025-02-17 16:12:43.650[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:44.271[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:44.272[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:44.272[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:44.318[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:44.319[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:44.333[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:44.339[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:44.340[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:44.342[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:44.342[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:44.344[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:44.345[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:44.345[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:44.896[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:44.898[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:44.898[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:44.943[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:44.943[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:44.958[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:44.963[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:44.964[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:44.966[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:44.967[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:44.969[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:12:44.969[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:12:45.576[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:12:45.576[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:46.223[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:12:46.223[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:46.224[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:46.269[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:46.269[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:46.282[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:46.289[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:46.291[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:46.307[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:46.309[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:46.318[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:46.319[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:46.319[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:46.879[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\star.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:12:46.880[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:46.881[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\star.png[0m
+[32m2025-02-17 16:12:46.929[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (2000, 2000)[0m
+[32m2025-02-17 16:12:46.929[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:46.942[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:46.947[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:46.949[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:46.963[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:46.966[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:46.975[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:12:46.976[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:12:47.571[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:12:47.571[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:48.242[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:12:48.243[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:48.243[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:48.278[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:12:48.279[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:48.323[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:48.331[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:48.332[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:48.333[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:48.334[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:48.337[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:12:48.337[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:12:49.013[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:12:49.013[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:49.616[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:12:49.617[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:49.617[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:49.653[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:12:49.653[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:49.698[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:49.847[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:12:54.046[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:54.048[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:54.153[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:54.153[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:12:54.156[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:12:54.156[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:12:54.806[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:12:54.807[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:55.350[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:55.350[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:55.351[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:55.385[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:12:55.386[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:55.426[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:55.436[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:12:55.437[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:12:55.438[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:12:55.441[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.csv[0m
+[32m2025-02-17 16:12:55.442[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.dot.csv[0m
+[32m2025-02-17 16:12:55.442[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:12:55.926[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:12:55.926[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:55.926[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:12:55.962[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:12:55.962[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:12:56.004[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:12:56.152[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:13:00.186[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:00.187[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:00.292[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:00.293[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:00.296[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.csv[0m
+[32m2025-02-17 16:13:00.296[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.dot.csv[0m
+[32m2025-02-17 16:13:00.296[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:00.776[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:13:00.777[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:00.777[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:00.812[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:00.813[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:00.854[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:00.862[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:00.863[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:00.864[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:00.865[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:00.866[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.csv[0m
+[32m2025-02-17 16:13:00.866[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.dot.csv[0m
+[32m2025-02-17 16:13:01.518[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf2.out.pdf[0m
+[32m2025-02-17 16:13:01.518[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:02.059[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:13:02.060[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:02.060[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:02.096[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:02.097[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:02.138[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:02.283[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:13:06.279[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:06.280[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:06.385[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:06.386[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:06.388[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.csv[0m
+[32m2025-02-17 16:13:06.388[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf2.dot.csv[0m
+[32m2025-02-17 16:13:07.041[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf2.out.pdf[0m
+[32m2025-02-17 16:13:07.041[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:07.593[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:13:07.593[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:07.594[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:07.629[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:07.630[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:07.671[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:07.685[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:07.687[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:07.688[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:07.690[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:07.692[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:13:07.692[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:13:07.692[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:08.177[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:13:08.178[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:08.178[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:08.213[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:08.214[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:08.256[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:08.270[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:08.271[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:08.274[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:08.274[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:08.276[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:13:08.276[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:13:08.930[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:13:08.930[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:09.476[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:13:09.477[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:09.477[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:09.512[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:09.512[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:09.552[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:09.566[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:09.568[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:09.582[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:09.584[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:09.593[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:13:09.593[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:13:09.593[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:10.075[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf2.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:13:10.075[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:10.076[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf2.png[0m
+[32m2025-02-17 16:13:10.110[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (4000, 6000)[0m
+[32m2025-02-17 16:13:10.111[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:10.152[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:10.166[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:10.168[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:10.181[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:10.183[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:10.192[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:13:10.193[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:13:10.857[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:13:10.857[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:11.393[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out='../data/leaf-dots.csv', out_image=True)[0m
+[32m2025-02-17 16:13:11.394[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:11.394[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:11.428[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:11.428[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:11.470[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:11.478[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:11.479[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:11.480[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:11.481[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:11.483[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.csv[0m
+[32m2025-02-17 16:13:11.483[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-dots.dot.csv[0m
+[32m2025-02-17 16:13:12.128[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-dots.out.pdf[0m
+[32m2025-02-17 16:13:12.128[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:12.692[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out='../data/leaf-chaincode.csv', out_image=True)[0m
+[32m2025-02-17 16:13:12.693[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:12.693[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:12.728[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:12.729[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:12.772[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:12.925[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:13:17.041[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:17.042[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:17.149[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:17.150[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:17.152[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.csv[0m
+[32m2025-02-17 16:13:17.152[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf-chaincode.dot.csv[0m
+[32m2025-02-17 16:13:17.814[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf-chaincode.out.pdf[0m
+[32m2025-02-17 16:13:17.814[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:18.359[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:13:18.359[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:18.359[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:18.393[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:18.394[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:18.434[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:18.444[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:18.445[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:18.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:18.449[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.csv[0m
+[32m2025-02-17 16:13:18.449[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.dot.csv[0m
+[32m2025-02-17 16:13:18.449[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:18.927[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=False)[0m
+[32m2025-02-17 16:13:18.928[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:18.928[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:18.962[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:18.963[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:19.005[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:19.156[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:13:23.231[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:23.232[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:23.342[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:23.344[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:23.346[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.csv[0m
+[32m2025-02-17 16:13:23.347[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.dot.csv[0m
+[32m2025-02-17 16:13:23.347[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:23.829[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='dots', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:13:23.830[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:23.830[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:23.865[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:23.866[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:23.906[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:23.914[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:23.916[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:23.917[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:23.917[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:23.918[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.csv[0m
+[32m2025-02-17 16:13:23.918[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.dot.csv[0m
+[32m2025-02-17 16:13:24.569[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf.out.pdf[0m
+[32m2025-02-17 16:13:24.570[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:25.125[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=35, n_dots=512, method='chain_code', skip_normalize=False, out=None, out_image=True)[0m
+[32m2025-02-17 16:13:25.126[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:25.126[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:25.162[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:25.162[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:25.202[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:25.354[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m889[0m - [1mGot valid chain code[0m
+[32m2025-02-17 16:13:29.412[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:29.413[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:29.521[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:29.521[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:29.523[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.csv[0m
+[32m2025-02-17 16:13:29.524[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\leaf.dot.csv[0m
+[32m2025-02-17 16:13:30.177[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\leaf.out.pdf[0m
+[32m2025-02-17 16:13:30.177[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:30.738[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=False)[0m
+[32m2025-02-17 16:13:30.738[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:30.739[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:30.773[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:30.774[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:30.817[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:30.832[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:30.833[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:30.835[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:30.835[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:30.837[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:13:30.838[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:13:30.838[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:31.351[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=64, n_dots=512, method='dots', skip_normalize=False, out='../data/512_64.csv', out_image=True)[0m
+[32m2025-02-17 16:13:31.352[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:31.352[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:31.387[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:31.388[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:31.435[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:31.451[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:31.453[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:31.454[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:31.455[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:31.457[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.csv[0m
+[32m2025-02-17 16:13:31.457[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\512_64.dot.csv[0m
+[32m2025-02-17 16:13:32.118[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\512_64.out.pdf[0m
+[32m2025-02-17 16:13:32.118[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:32.678[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=False)[0m
+[32m2025-02-17 16:13:32.679[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:32.679[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:32.713[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:32.714[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:32.756[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:32.770[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:32.771[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:32.786[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:32.788[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:32.796[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:13:32.797[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:13:32.797[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m
+[32m2025-02-17 16:13:33.317[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m861[0m - [1mNamespace(input='E:\\Linux\\Ellishape\\src\\data\\leaf.png', n_harmonic=64, n_dots=4096, method='dots', skip_normalize=False, out='../data/4096_64.csv', out_image=True)[0m
+[32m2025-02-17 16:13:33.318[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m867[0m - [1mE:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:33.318[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m868[0m - [1mInput E:\Linux\Ellishape\src\data\leaf.png[0m
+[32m2025-02-17 16:13:33.358[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m878[0m - [1mImage size: (6000, 4000)[0m
+[32m2025-02-17 16:13:33.359[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m880[0m - [1mFinding contours[0m
+[32m2025-02-17 16:13:33.410[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m886[0m - [1mBiggest contour found[0m
+[32m2025-02-17 16:13:33.432[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m897[0m - [1mGot efd[0m
+[32m2025-02-17 16:13:33.434[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m901[0m - [1mEfd normalized[0m
+[32m2025-02-17 16:13:33.448[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m911[0m - [1mReconstructed curve[0m
+[32m2025-02-17 16:13:33.451[0m | [1mINFO    [0m | [36m__main__[0m:[36moutput_csv[0m:[36m772[0m - [1mAppend data to existed file[0m
+[32m2025-02-17 16:13:33.459[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m915[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.csv[0m
+[32m2025-02-17 16:13:33.460[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m916[0m - [1mOutput data: E:\Linux\Ellishape\src\data\4096_64.dot.csv[0m
+[32m2025-02-17 16:13:34.174[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m919[0m - [1mOutput image: E:\Linux\Ellishape\src\data\4096_64.out.pdf[0m
+[32m2025-02-17 16:13:34.174[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_main[0m:[36m920[0m - [1mDone[0m

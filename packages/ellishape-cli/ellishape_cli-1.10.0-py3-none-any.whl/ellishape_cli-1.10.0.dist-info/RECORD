@@ -1,0 +1,10 @@
+ellishape_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellishape_cli/__main__.py,sha256=KiQbBvKgMB2i8CPJjeVJpKttCJRwVVm4drqXbqxu1Sc,86
+ellishape_cli/cli.py,sha256=_YQzlFdDux85At7T3hK-jFpe9vRKIjcl7afK_ifUaik,36539
+ellishape_cli/get_kind_list.py,sha256=kDQ79Wu4F2uLNzLsB-dYs0l1ugeK_B9kusqOuTIDYsw,701
+ellishape_cli/global_vars.py,sha256=0y_dyB3R3kSSCgCmPJDht6720wnnKMWgTVOFICXar14,823
+ellishape_cli/log.txt,sha256=3vQkr9YJEkes4YrhPWIKMxiEII1zpDDFquiqWT676H0,126392
+ellishape_cli/tree.py,sha256=8tcVyAvl2okqkY4o0xFuLqpmtGmRVySWtyQQixYlOKc,14267
+ellishape_cli-1.10.0.dist-info/METADATA,sha256=_3P4wGA1wKII40gSrbF1EqKBKM0zR1oQ4bYy1xKZi_8,846
+ellishape_cli-1.10.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ellishape_cli-1.10.0.dist-info/RECORD,,
