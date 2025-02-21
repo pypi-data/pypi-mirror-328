@@ -1,0 +1,2404 @@
+"indication"|"icd"|"source_data"
+Acute gouty arthritis|ICD-11: FA25.0|public
+African trypanosomiasis|ICD-11: 1F51|public
+Albinism|ICD-11: EC23.2|public
+Allergic skin disorder|ICD-11: 4A82|public
+Amyloidosis|ICD-11: 5D00|public
+Anaesthesia|ICD-11: 9A78.6|public
+Androgen deficiency|ICD-11: 5A81.1|public
+Ascites|ICD-11: ME04|public
+Axial spondyloarthritis|ICD-11: FA92.0|public
+Cardiovascular disease|ICD-11: BA00-BE2Z|public
+Cerebral X-linked adrenoleukodystrophy|ICD-11: 5C57.1|public
+Cervical Intraepithelial neoplasia|ICD-11: 2E66.1|public
+Chronic granulomatous disease|ICD-11: 4A00.0Y|public
+Chronic inflammatory demyelinating polyneuropathy|ICD-11: 8C01.3|public
+Circulatory disorder|ICD-11: BE2Z|public
+Cockayne syndrome|ICD-11: LD2B|public
+Common cold|ICD-11: CA00|public
+Contrast imaging|ICD-11: N.A.|public
+Corneal abrasion|ICD-11: NA06.4|public
+Coronary microvascular disease|ICD-11: BA86|public
+Cushing disease|ICD-11: 5A70|public
+Degenerative high myopia|ICD-11: 9B76|public
+Dermatologic infection|ICD-11: 1F28|public
+Dermatomyositis|ICD-11: 4A41.0|public
+Digestive organ benign neoplasm|ICD-11: 2E92|public
+Dry cough|ICD-11: MD12|public
+Dystonic disorder|ICD-11: 8A02|public
+Eczema|ICD-11: EA80-EA89|public
+Erosive esophagitis|ICD-11: DA25.0|public
+Extremities vasodilatation|ICD-11: EG00|public
+Female genital system disease|ICD-11: GA6Z|public
+Functional bladder disorder|ICD-11: GC50|public
+Gastrointestinal cancer|ICD-11: 2C11|public
+Gingivitis|ICD-11: DA0B|public
+Gonorrheal vaginitis|ICD-11: GA02|public
+Gram-positive bacterial infection|ICD-11: 1B74-1G40|public
+Graves ophthalmopathy|ICD-11: 9C82.3|public
+Haemolytic uraemic syndrome|ICD-11: 3A21.2|public
+Heart block|ICD-11: BC63|public
+Heart injury|ICD-11: NB31|public
+Hemorrhage|ICD-11: MG27|public
+Hemorrhagic fever|ICD-11: 1D61|public
+Hepatitis B|ICD-11: 1E51|public
+Herpes simplex virus infection|ICD-11: 1F00|public
+Hypereosinophilic syndrome|ICD-11: 2A20.3|public
+Hyperlipidaemia|ICD-11: 5C80|public
+Hyperlipoproteinemia|ICD-11: 5C80|public
+Hypersensitivity|ICD-11: 4A80-4A85|public
+Hypo-kalaemia|ICD-11: 5C77|public
+Hypo-thyroidism|ICD-11: 5A00|public
+Hypoplasminogenemia|ICD-11: DA0D.3|public
+Immune thrombocytopenic purpura|ICD-11: 3B64.13|public
+Influenza A virus H5N1 infection|ICD-11: 1E30|public
+Investigative surgical procedure|ICD-11: QB8Z|public
+Kidney fibrosis|ICD-11: GC01|public
+Long QT syndrome|ICD-11: BC65.0|public
+Mature gastrointestinal nematode infection|ICD-11: 1F6Y|public
+Mesothelin Positive tumour|ICD-11: 2C51-2F10|public
+Nasopharyngitis|ICD-11: CA00|public
+Neonatal malabsorption syndrome|ICD-11: KB89|public
+Nerve injury|ICD-11: ND56.4|public
+Neurofibromatosis 1|ICD-11: LD2D.10|public
+Nicotine dependence|ICD-11: 6C4A.2|public
+Non-typhoidal salmonella|ICD-11: 1A09|public
+Pelvic inflammatory disease|ICD-11: GA05|public
+Peripheral nervous system tumour|ICD-11: 2B5E|public
+Pleural mesothelioma|ICD-11: 2C26.0|public
+Prader-Willi syndrome|ICD-11: LD90.3|public
+Psoriatic arthritis|ICD-11: FA21|public
+Psoriatic disorder|ICD-11: EA90|public
+Pulmonary arterial hypertension|ICD-11: BB01.0|public
+Qualitative platelet defect|ICD-11: 3B62|public
+Refractory metastatic multiple myeloma|ICD-11: 2A83.1|public
+Resorption of radiopaque agents|ICD-11: N.A.|public
+Respiratory allergy|ICD-11: 4A80|public
+Scleroderma|ICD-11: 4A42|public
+Severe sepsis|ICD-11: 1G40-1G41|public
+Stabilize muscle contraction|ICD-11: FB3Z|public
+Thiamine deficiency|ICD-11: 5B5A|public
+Thllium and radioactive isotopes of caesium poisoning|ICD-11: NE61|public
+Thymidine kinase 2 deficiency|ICD-11: 5C55.1|public
+Trematode infection|ICD-11: 1F8Y|public
+Tripeptidyl peptidase 1 deficiency|ICD-11: 5C50|public
+Uterine fibroid|ICD-11: 2E86|public
+Visceral spasms|ICD-11: MD81.4|public
+Vitamin C deficiency|ICD-11: 5B56|public
+Vulvovaginal Candidiasis|ICD-11: 1F23.10|public
+Achondroplasia|ICD-11: LD24.00|public
+Acquired methaemoglobinaemia|ICD-11: 3A93|public
+Active duodenal ulcer|ICD-11: DA63|public
+Acute bacterial skin infection|ICD-11: 1C41|public
+Acute gout flare|ICD-11: FA25.0|public
+Acute radiation syndrome|ICD-11: NF00|public
+Alcohol dependence|ICD-11: 6C40.2|public
+Anal fistula|ICD-11: DB50.1|public
+Anemia|ICD-11: 3A00-3A9Z|public
+Aneurysmal subarachnoid hemorrhage|ICD-11: 8B01.0|public
+Angioimmunoblastic T-cell Lymphoma|ICD-11: 2A90.9|public
+Arterial thrombosis|ICD-11: DB61-DD30|public
+Aspergillosis|ICD-11: 1F20|public
+B-lineage lymphoma|ICD-11: 2A86|public
+Bacterial vaginosis|ICD-11: MF3A|public
+Burns|ICD-11: N.A.|public
+Cheyne-stokes respiration|ICD-11: MD11.Y|public
+Cognitive impairment|ICD-11: 6D71|public
+Colon polyp|ICD-11: DB35|public
+Coronary heart disease|ICD-11: BA80.Z|public
+Cutaneous melanoma|ICD-11: 2C30|public
+Delayed graft function|ICD-11: 4B24.0|public
+Dermatophytosis|ICD-11: 1F28.2|public
+Ehlers-Danlos syndrome|ICD-11: LD28.1|public
+Familial adenomatous polyposis|ICD-11: 2B90.Y|public
+Female infertility|ICD-11: GA31.Z|public
+Focal dystonia|ICD-11: 8A02.1|public
+Functional dyspepsia|ICD-11: DD90.3|public
+Gastrointestinal infection|ICD-11: 1A40.Z|public
+Giant axonal neuropathy|ICD-11: 8C2Y|public
+Gingival disease|ICD-11: DA0B|public
+Glioblastoma multiforme|ICD-11: 2A00.0|public
+Glioma|ICD-11: 2A00.0|public
+Glycogen storage disease type II|ICD-11: 5C51.3|public
+Gram-negative bacterial infection|ICD-11: 1B74-1G40|public
+Grass pollen hypersensitivity|ICD-11: 4B07|public
+Gynecological disease|ICD-11: GA6Z|public
+Head injury|ICD-11: NA00-NA0Z|public
+Hematologic disease|ICD-11: 3C0Z|public
+Hepatic fibrosis/cirrhosis|ICD-11: DB93|public
+Hypo-osmolality/hyponatraemia|ICD-11: 5C72|public
+Irritable bowel syndrome|ICD-11: DD91.0|public
+Isosporiasis|ICD-11: 1A33|public
+Keratosis|ICD-11: ED56|public
+Large granular lymphocytic leukemia|ICD-11: 2A90.1|public
+Leber's congenital amaurosis|ICD-11: 9B70|public
+Lymphatic malformation|ICD-11: LA90.1|public
+Malignant solid tumour|ICD-11: 2C10-2F32|public
+Marijuana use disorder|ICD-11: 6C41|public
+Medical/surgical procedure injury|ICD-11: PK80-PK81|public
+Melasma|ICD-11: ED60.1|public
+Metastatic digestive system neoplasm|ICD-11: 2D8Y|public
+Mild hypocalcemia|ICD-11: 5B5K.1|public
+Mitochondrial disease|ICD-11: 5C53.Y|public
+Myelofibrosis|ICD-11: 2A20.2|public
+Non-small-cell lung cancer|ICD-11: 2C25.Y|public
+Obstructive hypertrophic cardiomyopathy|ICD-11: BC43.12|public
+Ophthalmic devices/implants/grafts injury|ICD-11: PK97|public
+Pancreatic internal secretion disorder|ICD-11: 5A4Y|public
+Pancreatic tumour|ICD-11: 2C10|public
+Pancytopenia|ICD-11: 3A70.Z|public
+Parkinson disease|ICD-11: 8A00.0|public
+Pertussis|ICD-11: 1C12|public
+Postoperative inflammation|ICD-11: 1A00-CA43.1|public
+Pre-eclampsia|ICD-11: JA24|public
+Pulmonary sarcoidosis|ICD-11: 4B20.0|public
+Radiation syndrome|ICD-11: NF00|public
+Retina cancer|ICD-11: 2D02|public
+Retina venous occlusion|ICD-11: 9B74.1|public
+Retinal detachment|ICD-11: 9B73|public
+Retinitis pigmentosa|ICD-11: 9B70|public
+Rhinitis|ICD-11: FA20|public
+Severe combined immunodeficiency|ICD-11: 4A01.10|public
+Sickle-cell disorder|ICD-11: 3A51|public
+Spinal cord/cranial nerve neoplasm|ICD-11: 2A02|public
+Sweetener|ICD-11: N.A.|public
+T-cell acute lymphocytic leukaemia|ICD-11: 2B33.4|public
+Transthyretin familial amyloid cardiomyopathy|ICD-11: 5D00.20|public
+Ulcer|ICD-11: CA02-CB40|public
+Urinary/pelvic organs injury|ICD-11: NB92|public
+Vasculitis|ICD-11: 4A44|public
+Vitamin B1 deficiency|ICD-11: 5B5A|public
+bronchial hyperreactivity|ICD-11: CB40|public
+Addison disease|ICD-11: 5A74.0|public
+Ankylosing spondylitis|ICD-11: FA92.0|public
+Anterior uveitis|ICD-11: 9A96|public
+Appearance/behaviour symptom|ICD-11: MB23|public
+Ataxia-telangiectasia|ICD-11: 4A01.31|public
+Benzodiazepine overdose|ICD-11: PC91|public
+Bowel habit change|ICD-11: ME05|public
+Cardiac disease|ICD-11: BA00-BE2Z|public
+Central precocious puberty|ICD-11: 5A60.3|public
+Chronic insomnia|ICD-11: 7A00|public
+Chronic myelogenous leukaemia|ICD-11: 2A20.0|public
+Coagulation defect|ICD-11: 3B10|public
+Coxsackie virus infection|ICD-11: 1D91|public
+Cystitis|ICD-11: GC00|public
+Deep vein thrombosis|ICD-11: BD71|public
+Diabetic nephropathy|ICD-11: GB61.Z|public
+Diabetic neuropathy|ICD-11: 8C0Z|public
+Dravet syndrome|ICD-11: 8A61.11|public
+Dyspareunia|ICD-11: GA12|public
+Fetal trimethadione syndrome|ICD-11: LD2F.0Y|public
+Flavivirus infection|ICD-11: 1C80|public
+Gastric ulcer|ICD-11: DA60|public
+Glioblastoma|ICD-11: 2A00|public
+Glutamate excitotoxity|ICD-11: 5C73|public
+Gonococcal urethritis|ICD-11: 1A70.0Y|public
+Haematopoietic/lymphoid cancer|ICD-11: 2B33.5|public
+Haemorrhage|ICD-11: MG27|public
+Hepatic encephalopathy|ICD-11: DB99.5|public
+Hepatitis A virus infection|ICD-11: 1E50.0|public
+Hepatitis virus infection|ICD-11: 1E50-1E51|public
+Hereditary hemorrhagic telangiectasia|ICD-11: LA90.00|public
+High blood pressure|ICD-11: BA00|public
+High-risk myelofibrosis|ICD-11: 2A20.2|public
+Hormone deficiency|ICD-11: 5A61.1|public
+Hormone replacement therapy|ICD-11: 8E01|public
+Hydrocephalus|ICD-11: 8D64|public
+Hyperphagia|ICD-11: MG43.9|public
+Hypopharyngeal squamous cell carcinoma|ICD-11: 2B6D.0|public
+IgG4 related disease|ICD-11: 4A43.0|public
+Influenza A virus H9N2 infection|ICD-11: 1E30|public
+Intracranial embolism|ICD-11: 8B22.1|public
+Irritability|ICD-11: MB24|public
+Knee pain|ICD-11: ME82|public
+Late-stage acute myeloid leukaemia|ICD-11: 2A60|public
+Localisation|ICD-11: N.A.|public
+Lung disease|ICD-11: CA60-CA8Z|public
+Lung structural developmental anomaly|ICD-11: LA75|public
+Male hormonal deficiency|ICD-11: 5A81|public
+Malignant adrenal gland cancer|ICD-11: 2D11|public
+Monkeypox virus infection|ICD-11: 1E71|public
+Morning sickness|ICD-11: SC00|public
+Mucopolysaccharidosis|ICD-11: 5C56.3|public
+Multiple myeloma|ICD-11: 2A83|public
+Ocular pain|ICD-11: MC18|public
+Premature labour|ICD-11: JB00|public
+Primary haemophagocytic lymphohistiocytosis|ICD-11: 4A01.23|public
+Prurigo|ICD-11: EC91|public
+Rabies|ICD-11: 1C82|public
+Skin surgical scar|ICD-11: EL50|public
+Smallpox|ICD-11: 1E70|public
+Spinal cord injury|ICD-11: ND51.2|public
+Stroke|ICD-11: 8B20|public
+Type 2 glycogen storage disease|ICD-11: 5C51.3|public
+Unspecific body region injury|ICD-11: ND56|public
+Ureteral cancer|ICD-11: 2C92|public
+Urolithiasis|ICD-11: GB7Z|public
+Venom poisoning|ICD-11: NE61|public
+Wernicke-Korsakoff Syndrome|ICD-11: 5B5A.1|public
+Acinetobacter baumannii infection|ICD-11: CA40.0Y|public
+Acute bronchitis|ICD-11: CA42|public
+Adrenocortical carcinoma|ICD-11: 2D11.Z|public
+Adrenocortical insufficiency|ICD-11: 5A74|public
+Anal fissure/fistula|ICD-11: DB50|public
+Anca-associated vasculitis|ICD-11: 4A44.A|public
+Anhedonia|ICD-11: MB24.2|public
+Bacterial pneumonia|ICD-11: CA40.0|public
+Charcot marie tooth disease|ICD-11: 8C21.Z|public
+Chronic open-angle glaucoma|ICD-11: 9C61.0|public
+Common warts|ICD-11: 1E80|public
+Complex regional pain syndrome|ICD-11: 8D8A.0|public
+Congestive cardiac insufficiency|ICD-11: BD1Z|public
+Contracture|ICD-11: FA30-FA34|public
+Crigler-najjar syndrome type 1|ICD-11: 5C58.00|public
+Dental caries|ICD-11: DA08.0|public
+Diabetes insipidus|ICD-11: 5A61.5|public
+Diabetic Macular Oedema|ICD-11: 9B71.02|public
+Diabetic macular edema|ICD-11: 9B71.02|public
+Elevated C-reactive protein|ICD-11: MA14.15|public
+Endocrine gland neoplasm|ICD-11: 2F37|public
+Ephelides|ICD-11: ED61.0|public
+Eyelid inflammatory/movement disorder|ICD-11: 9A05|public
+Familial hypercholesterolemia|ICD-11: 5C80.00|public
+Female genital tract inflammation|ICD-11: GA0Z|public
+Gastroesophageal reflux disease|ICD-11: DA22.Z|public
+Genetic epileptic syndromes with variable age of onset|ICD-11: 8A61.4Y|public
+Genitourinary disease|ICD-11: GA0Z-GC8Z|public
+Gout|ICD-11: FA25|public
+H5N1 influenza infection|ICD-11: 1E30|public
+Harmful effects of drugs, medicaments or biological substances|ICD-11: NE60|public
+Henipavirus encephalitis|ICD-11: 1D63|public
+Hypoalbuminemia|ICD-11: 5C53.2|public
+Idiopathic interstitial pneumonitis|ICD-11: CB03|public
+Idiopathic multicentric Castlemans disease|ICD-11: 2A81.Y|public
+Indeterminate colitis|ICD-11: DD72|public
+Infectious disease|ICD-11: 1A00-CA43.1|public
+Inflammatory skin condition|ICD-11: EF20.Y|public
+Ischemia|ICD-11: 8B10-8B11|public
+Kidney failure|ICD-11: GB6Z|public
+Lip/oral cavity/pharynx neoplasm|ICD-11: 2B6E|public
+Locally advanced rectal cancer|ICD-11: 2B92|public
+Lumbo-sacral radiculopathy|ICD-11: 8B93.Y|public
+Lung infection|ICD-11: CA4Z|public
+Malignant carcinoid syndrome|ICD-11: 5B10|public
+Malignant mesenchymal neoplasm|ICD-11: 2B5D-2B5Y|public
+Methamphetamine dependence|ICD-11: 6C46.2|public
+Mucositis|ICD-11: CA00|public
+Multi-drug resistant tuberculosis|ICD-11: MG52.00|public
+Multiple sclerosis|ICD-11: 8A40|public
+Muscle atrophy|ICD-11: FB32.Y|public
+Mycobacterium infection|ICD-11: 1B10-1B21|public
+Myelofibrosis|ICD-11: 2A22|public
+Neurofibromatosis type 2|ICD-11: LD2D.11|public
+Nodular prurigo|ICD-11: EC91.0|public
+Non-cystic fibrosis bronchiectasis|ICD-11: CA24|public
+Obstructive airway disease|ICD-11: CB40.Y|public
+Ocular cancer|ICD-11: 2D00-2D07|public
+Oculopharyngeal muscular dystrophy|ICD-11: 9C82.1|public
+Oedema|ICD-11: MG29|public
+Organ transplant rejection|ICD-11: NE84|public
+Osteoarthritis|ICD-11: FA00-FA05|public
+Osteopathy/chondropathy|ICD-11: FB8Y|public
+Ovarian stimulation|ICD-11: LB45.1|public
+Palmar hyperhidrosis|ICD-11: EE00.00|public
+Pancreatic islet transplantation failure|ICD-11: NE84|public
+Panic disorder|ICD-11: 6B01|public
+Parvovirus infection|ICD-11: 1D93|public
+Perianal fistula|ICD-11: DB50.1|public
+Pheumatoid arthritis|ICD-11: FA2Z|public
+Plasma cell myeloma|ICD-11: 2A83.1|public
+Poliomyelitis|ICD-11: 1C81|public
+Postmenopausal vaginal atrophy|ICD-11: GA30.2|public
+Preterm labour/delivery|ICD-11: JB00|public
+Progressive supranuclear palsy|ICD-11: 8A00.10|public
+Prolymphocytic leukaemia|ICD-11: 2A82.1|public
+Rectal adenocarcinoma|ICD-11: 2B92|public
+Rectum cancer|ICD-11: 2B92|public
+Rosacea|ICD-11: ED90.0|public
+Scabies|ICD-11: 1G04|public
+Shoulder lesion|ICD-11: FB53|public
+Skin disease|ICD-11: EA00-EM0Z|public
+Skin sensation disturbance|ICD-11: ME65|public
+Spastic paralysis|ICD-11: MB5Y|public
+Sterilant|ICD-11: N.A.|public
+Supraventricular tachyarrhythmia|ICD-11: BC81|public
+Surgical site infection|ICD-11: NE81.2|public
+Type-1/2 diabete|ICD-11: 5A10-5A11|public
+Weight gain|ICD-11: MG43.6|public
+Adrenogenital disorder|ICD-11: 5A71|public
+Alpha-1-antitrypsin deficiency|ICD-11: 5C5A|public
+Amino acid absorption/transport disorder|ICD-11: 5C60|public
+Anxiety disorder|ICD-11: 6B00-6B0Z|public
+Arthropathy|ICD-11: FA11-FA5Z|public
+Aspirin-induced asthma|ICD-11: CA23.20|public
+Atypical hemolytic uremic syndrome|ICD-11: 3A10.Y|public
+Autoimmune pulmonary alveolar proteinosis|ICD-11: CB04.31|public
+Back pain|ICD-11: ME84.Z|public
+Blindness|ICD-11: 9D90|public
+Bone injury|ICD-11: ND56.Y|public
+Chronic myocardial ischemia|ICD-11: BA6Z|public
+Chronic post cancer treatment pain|ICD-11: 8E43|public
+Coronary artery disease|ICD-11: BA80|public
+Coronavirus Disease 2019 (COVID-19)|ICD-11: 1D6Y|public
+Coxiella infection|ICD-11: 1C33|public
+Cryopyrin-associated periodic syndromes|ICD-11: 4A60.1|public
+Cutaneous candidiasis|ICD-11: 1F23.14|public
+Diabetic macular degeneration|ICD-11: 9B78|public
+Diabetic retinopathy|ICD-11: 9B71.0|public
+Ebola virus infection|ICD-11: 1D60.0|public
+Esophageal cancer|ICD-11: 2B70|public
+Esophagus sensitivity|ICD-11: DA2Y-DA2Z|public
+Expectorant|ICD-11: MD10|public
+Flatworm infection|ICD-11: 1F70-1F86|public
+Gastrointestinal disease|ICD-11: DE2Z|public
+Hay fever|ICD-11: CA08.00|public
+Heart failure|ICD-11: BD10-BD1Z|public
+Heart failure with preserved ejection fraction|ICD-11: BD11.0|public
+Heparin-induced thrombocytopenia|ICD-11: 3B64.12|public
+Human immunodeficiency virus-1 infection|ICD-11: 1C62|public
+Hypothalamic hypogonadism|ICD-11: 5A61.2|public
+Idiopathic inflammatory myopathy|ICD-11: 4A41|public
+Inflammatory bowel disease|ICD-11: DD72|public
+Injury|ICD-11: NA00-ND5Z|public
+Lactation failure|ICD-11: JB46.3|public
+Leukaemia|ICD-11: 2A60-2B33|public
+Mastocytosis|ICD-11: 2A21|public
+Microvascular angina|ICD-11: BA86|public
+Myxoid round cell liposarcoma|ICD-11: 2B59|public
+Non-hodgkin lymphoma|ICD-11: 2B33.5|public
+Non-insulin dependent diabetes|ICD-11: 5A11|public
+Nystagmus|ICD-11: 9C84|public
+Onchocerciasis|ICD-11: 1F6A|public
+Ophthalmic infection|ICD-11: 1F00.1|public
+Pancreatic ductal carcinoma|ICD-11: 2C10.0|public
+Phakomatoses/hamartoneoplastic syndrome|ICD-11: LD2D|public
+Pneumocystis pneumonia|ICD-11: CA40.20|public
+Polycythemia vera|ICD-11: 2A20.4|public
+Primary biliary cholangitis|ICD-11: DB96.1|public
+Proctitis|ICD-11: DB33.Z|public
+Psychotic disorder|ICD-11: 6A20-6A25|public
+Relapsing-remitting multiple sclerosis|ICD-11: 8A40.0|public
+Respiratory syncytial virus infection|ICD-11: 1C80|public
+Richter syndrome|ICD-11: 2A81.Y|public
+Ringworm infection|ICD-11: 1F28|public
+Schistosomiasis|ICD-11: 1F86|public
+Sexually transmitted infection|ICD-11: 1A9Y-1A9Z|public
+Skin burns|ICD-11: ME65.0|public
+Small round cell desmoplastic tumour|ICD-11: 2A20.5|public
+Social phobia|ICD-11: 6B04|public
+Spasm|ICD-11: MB47.3|public
+Spontaneous urticaria|ICD-11: EB00|public
+Syphilis|ICD-11: 1A61-1A6Z|public
+Systemic lupus erythematosus|ICD-11: 4A40.0|public
+T lymphoblastic leukaemia|ICD-11: 2B33.4|public
+Thalassemia|ICD-11: 3A50|public
+Thymoma|ICD-11: 2C27|public
+Tinea cruris|ICD-11: 1F28.3|public
+Transient ischaemic attack|ICD-11: 8B10|public
+Vaginal disease|ICD-11: GA1Y|public
+Vascular systems peripheral arterial disorder|ICD-11: BD5Z|public
+infection in the ear canal|ICD-11: AA0Y|public
+Acute promyelocytic leukaemia|ICD-11: 2A60.0|public
+Adenovirus infection|ICD-11: 1A20|public
+Anaplastic astrocytoma|ICD-11: 2A00.0|public
+Artery stenosis|ICD-11: BD52|public
+Arthropathy|ICD-11: FA11-FA38|public
+Articular cartilage disorder|ICD-11: FA34.Y|public
+Asthma|ICD-11: CA23|public
+Ataxic disorder|ICD-11: 8A03|public
+Basal cell nevus syndrome|ICD-11: 2C32|public
+Bladder disorder|ICD-11: GC01|public
+Blood transfusion|ICD-11: QB98|public
+Bone induction|ICD-11: FC0Z|public
+Bone related disease|ICD-11: FB82-FB85|public
+CLN3 Batten disease|ICD-11: 5C56|public
+Cervical cancer|ICD-11: 2C77|public
+Cervical dilation|ICD-11: JB02.0|public
+Chronic fatigue syndrome|ICD-11: 8E49|public
+Cold agglutinin disease|ICD-11: 3A20.1|public
+Congenital adrenal hyperplasia|ICD-11: 5A71.01|public
+Congenital hyperinsulinism|ICD-11: 5A4Y|public
+Coronary atherosclerosis|ICD-11: BA80|public
+Cutaneous lupus erythematosus|ICD-11: EB5Z|public
+Cutaneous wart|ICD-11: 1E80|public
+Dermatomycosis|ICD-11: EA60|public
+Diabetic complication|ICD-11: 5A2Y|public
+Dyskinesia|ICD-11: MB47.4|public
+Dyslipidemia|ICD-11: 5C80-5C81|public
+Endotoxic shock|ICD-11: 1G41|public
+Examination of eyes or vision|ICD-11: QA00.6|public
+Excessive bleeding|ICD-11: GA30.02|public
+Fanconi's anemia|ICD-11: 3A70.0|public
+Generalized myasthenia gravis|ICD-11: 8C60|public
+Germ cell tumour|ICD-11: 2C80.2|public
+Growth failure|ICD-11: LD2F.1Y|public
+Histamine H3-associated disorder|ICD-11: NE61|public
+Hypercalciuria|ICD-11: MF98.0|public
+Implantation failure|ICD-11: QB50|public
+Infestations of lice and scabies|ICD-11: 1G00.Z|public
+Inflammatory arthritis|ICD-11: FA2Z|public
+MRSA infection|ICD-11: 1D01.0Y|public
+Malignant perivascular epithelioid cell tumour|ICD-11: 2B5Y|public
+Mediastinal large B-cell lymphoma|ICD-11: 2A60.32|public
+Metabolism inborn error|ICD-11: 5C50|public
+Narcolepsy|ICD-11: 7A20|public
+Nasal congestion|ICD-11: MD11.9|public
+Nasal polyp|ICD-11: CA0J|public
+Nematode infection|ICD-11: 1F60-1F69|public
+Obstructive lung disease|ICD-11: CA22.Z|public
+Oesophagus motility disorder|ICD-11: DA21|public
+Oropharyngeal squamous cell carcinoma|ICD-11: 2B6A.0|public
+Pertussis|ICD-11: 1C12.Z|public
+Poisoning due to pesticides and chemicals|ICD-11: NE6Z|public
+Pulmonary eosinophilia|ICD-11: CB02|public
+Skin imperfections|ICD-11: EK71|public
+Skin ulcer|ICD-11: ME60.Z|public
+Small intestine developmental anomaly|ICD-11: DA90|public
+Stem cell engraftment|ICD-11: QB63.8|public
+Stimulants use disorder|ICD-11: 6C46|public
+Subarachnoid haemorrhage|ICD-11: 8B01|public
+Thrombotic stroke|ICD-11: 8B20|public
+Tuberculosis|ICD-11: 1B10-1B12|public
+Urticaria|ICD-11: EB00-EB05|public
+Varicella|ICD-11: 1E90|public
+Vitamin D deficiency|ICD-11: 5B57|public
+Vulvovaginitis|ICD-11: GA02.0|public
+West nile virus infection|ICD-11: 1D46|public
+X-rays imaging|ICD-11: N.A.|public
+Acidosis|ICD-11: 5C73|public
+Aniridia|ICD-11: LA11.3|public
+Aplastic anemia|ICD-11: 3A70|public
+Brain and central nervous system tumour|ICD-11: 2A00.11|public
+Cancer cachexia|ICD-11: MG20.0|public
+Cartilage lesions|ICD-11: NC93.3Z|public
+Chronic blistering skin disorder|ICD-11: ME63.3|public
+Coagulation defect|ICD-11: 3B10.0|public
+Congenital ichthyosiform erythroderma|ICD-11: EC20.02|public
+Congenital plasminogen activator inhibitor type 1 deficiency|ICD-11: 3B50.1|public
+Cytomegaloviral disease|ICD-11: 1D82|public
+Cytomegalovirus infection|ICD-11: 1D82|public
+Dengue|ICD-11: 1D20-1D2Z|public
+Dermal necrosis|ICD-11: MC85|public
+Diffuse systemic sclerosis|ICD-11: 4A42.1|public
+Diuretic vasodilator|ICD-11: BA00|public
+Esophageal squamous cell carcinoma|ICD-11: 2E60.1|public
+Exacerbation of acute asthma|ICD-11: CA23.30|public
+Glycogen storage disease type IA|ICD-11: 5C51.3|public
+HIV-infected patients with tuberculosis|ICD-11: 1B10-1B14|public
+Hepatic metastasis|ICD-11: 2D80|public
+Herpetic keratitis|ICD-11: 1F00.10|public
+Hormonally-responsive breast cancer|ICD-11: 2C60-2C65|public
+Hospital-acquired pneumonia|ICD-11: CA40.Z|public
+Hypertrophic cardiomyopathy|ICD-11: BC43.1|public
+Hypoparathyroidism|ICD-11: 5A50|public
+Hypotension|ICD-11: BA20-BA21|public
+Infectious gastroenteritis/colitis|ICD-11: 1A40|public
+Influenza A virus H7N1 infection|ICD-11: 1E30|public
+Intellectual development disorder|ICD-11: LD90|public
+LennoxGastaut syndrome|ICD-11: 8A62.1|public
+Leukocyte adhesion deficiency type 1|ICD-11: 4A00.0Y|public
+Memory loss|ICD-11: MB21.1Z|public
+Menopausal disorder|ICD-11: GA30|public
+Motor neuron disease|ICD-11: 8B60|public
+Muscular wasting|ICD-11: 8C7Y|public
+Myalgia|ICD-11: FB56.2|public
+Mydriasis|ICD-11: LA11.62|public
+Myeloma|ICD-11: 2A83|public
+Myocardial disease|ICD-11: BC43.20|public
+Nausea/vomiting|ICD-11: MD90|public
+Neurological disorder|ICD-11: 6B60|public
+Neurological toxicity disorder|ICD-11: 8D43|public
+Newborn muscle tone disorder|ICD-11: KB08|public
+Nipah virus infection|ICD-11: 1D63|public
+Obsessive-compulsive disorder|ICD-11: 6B20|public
+Oral cavity squamous cell carcinoma|ICD-11: 2B6E.0|public
+Pediculosis|ICD-11: 1G00|public
+Pemphigus|ICD-11: EB40|public
+Pest attack|ICD-11: N.A.|public
+Polymyositis|ICD-11: 4A41.1|public
+Pseudomonas infection|ICD-11: 1B92|public
+Ragweed hypersensitivity allergic disease|ICD-11: 4A8Z|public
+Refractory sickle cell ulcers|ICD-11: 3A51|public
+Relapsed or refractory chronic lymphocytic leukaemia|ICD-11: 2A82.0|public
+Retinoblastoma|ICD-11: 2D02.2|public
+Sciatica/lumbar radicular pain|ICD-11: ME84.3|public
+Seasonal influenza infection|ICD-11: 1E30|public
+Shock|ICD-11: MG40|public
+Skeletal anomaly|ICD-11: LD24|public
+Skin allergy|ICD-11: 4A82|public
+Sphingolipidosis|ICD-11: 5C56.0|public
+T-cell acute lymphoblastic leukaemia|ICD-11: 2A90.5|public
+Thrombin deficiency|ICD-11: 3B14.Z|public
+Thrombosis|ICD-11: DB61-GB90|public
+Trichotillomania|ICD-11: 6B25.0|public
+Triple negative breast cancer|ICD-11: 2C60-2C65|public
+Urothelial carcinoma|ICD-11: 2C92.0|public
+Ventricular arrhythmias|ICD-11: BC71|public
+Viral encephalitis|ICD-11: 1C80|public
+Absence seizure|ICD-11: 8A68.2|public
+Acute respiratory failure|ICD-11: CB41.0|public
+Agitation|ICD-11: 6A70.3|public
+Aneurysm|ICD-11: BD51.Z|public
+Anorexia nervosa cachexia|ICD-11: 6B80|public
+Apnea|ICD-11: MD11.0|public
+Bone marrow transplantation|ICD-11: QB63.6|public
+Brain disease|ICD-11: 8C70-8E61|public
+Cardiomyopathy|ICD-11: BC43|public
+Choriocarcinoma|ICD-11: 2C75.0|public
+Chronic lymphocytic leukaemia|ICD-11: 2A82.0|public
+Common wart|ICD-11: 1E80|public
+Dementia|ICD-11: 6D80-6D8Z|public
+Dermal ulcers|ICD-11: 1A36|public
+Dermatophytosis|ICD-11: 1F28|public
+Essential thrombocythemia|ICD-11: 3B63.1Z|public
+Facial pain|ICD-11: MB6Y|public
+Fracture|ICD-11: ND56|public
+Friedreich's ataxia|ICD-11: 8A03.10|public
+Functional bowel syndrome|ICD-11: DD91.0|public
+Hantavirus infection|ICD-11: 1D62|public
+Inborn porphyrin/heme metabolism error|ICD-11: 5C58|public
+Influenza virus infection|ICD-11: 1E30-1E32|public
+Intestinal cancer|ICD-11: 2C0Z|public
+Iron deficiency anaemia|ICD-11: 3A00|public
+Iron-deficiency anemia|ICD-11: 3A00|public
+Jock itch|ICD-11: 1F28.3|public
+Lipidaemia|ICD-11: 5C8Z|public
+Liver cirrhosis|ICD-11: DB93.1|public
+Lymphatic disease|ICD-11: BD9Z|public
+Mammary analogue secretory carcinoma|ICD-11: 2C60|public
+Measles|ICD-11: 1F03|public
+Melanoma|ICD-11: 2C30|public
+Melioidosis|ICD-11: 1C42|public
+Mental disease|ICD-11: 6E8Z|public
+Metastatic liver cancer|ICD-11: 2C12|public
+Nail/perionychium infection|ICD-11: EE12|public
+Neurogenic detrusor overactivity|ICD-11: GC01|public
+Neutropenia|ICD-11: 4B00|public
+Non-dermatophyte superficial dermatomycose|ICD-11: 1F2D|public
+Non-proliferative diabetic retinopathy|ICD-11: 9B71.00|public
+Occlusive arterial disease|ICD-11: BD4Z|public
+Occlusive disease|ICD-11: BD4Z|public
+Oesophagogastric junction cancer|ICD-11: 2B71.Z|public
+Oral lichen planus|ICD-11: EA91.4|public
+Promyelocytic leukaemia|ICD-11: 2A82.1|public
+Pyoderma gangrenosum|ICD-11: EB21|public
+Respiratory syndrome coronavirus infection|ICD-11: 1D92|public
+Ricin poisoning|ICD-11: NE61|public
+Secondary hypertension|ICD-11: BA04|public
+Sepsis|ICD-11: 1G40-1G41|public
+Skin tag/polyp|ICD-11: EK71|public
+Skin/mucosal anomaly|ICD-11: LD27|public
+Streptococcus infection|ICD-11: 1B53|public
+T-cell lymphoma|ICD-11: 2A90|public
+Testosterone deficiency|ICD-11: 5A81.1|public
+Trichuris trichiura infection|ICD-11: 1F6G|public
+Urinary system clinical sympton|ICD-11: MF8Y|public
+Ventilator-associated pneumonia|ICD-11: PK81.0|public
+Visual disturbance|ICD-11: 9D90|public
+Worm infection|ICD-11: 1F90.Z|public
+Acquired nystagmus|ICD-11: 9C84|public
+Actinic keratosis|ICD-11: EK90.0|public
+Acute myocardial infarction|ICD-11: BA41|public
+Airway inflammation|ICD-11: CA05|public
+Amyotrophic lateral sclerosis|ICD-11: 8B60.0|public
+B-cell chronic lymphocytic leukaemia|ICD-11: 2A82.00|public
+Bacteremia|ICD-11: 1A73|public
+Bone metastases|ICD-11: 2D50|public
+Breathing abnormality|ICD-11: MD11|public
+Bupicavaine toxicity|ICD-11: NE6Z|public
+Cardiac arrest|ICD-11: MC82|public
+Cardiac fibrosis|ICD-11: DB98.8|public
+Cartilage disorder|ICD-11: FA34|public
+Cerebral cavernous malformation|ICD-11: 8B22.41|public
+Cerebral edema|ICD-11: 8D60.1|public
+Clostridium difficile enterocolitis|ICD-11: 1A04|public
+Congenital myopathy|ICD-11: 8C72|public
+Ductal carcinoma|ICD-11: 2E65.2|public
+Facial wrinkles|ICD-11: EJ9Y|public
+Fungal infection|ICD-11: 1F29-1F2F|public
+GM2 gangliosidosis|ICD-11: 5C56.00|public
+Ganglioneuroblastoma|ICD-11: 2A00.11|public
+Gastroesophageal junction adenocarcinoma|ICD-11: 2B71|public
+Heterozygous familial hypercholesterolemia|ICD-11: 5C80.00|public
+Hypokalemia|ICD-11: 5C77|public
+Intentional self-harm|ICD-11: PC91|public
+Intracranial embolism|ICD-11: 8B22|public
+Joint infection|ICD-11: FA10|public
+Kidney cancer|ICD-11: 2C90.0|public
+Labyrinthitis|ICD-11: AB30.1|public
+Lipoprotein disorder|ICD-11: 5C80-5C8Z|public
+Macular telangiectasia type 2|ICD-11: 9B75.3|public
+Maroteaux-lamy syndrome|ICD-11: 5C56.33|public
+Meningioma metastases|ICD-11: 2D51|public
+Mental/behavioural/neurodevelopmental disorder|ICD-11: 6E20-6E8Z|public
+Metastatic epithelial tumour|ICD-11: 2D60|public
+Miscarriage|ICD-11: JA00.0|public
+Monitored anaesthesia care|ICD-11: N.A.|public
+Mumps virus infection|ICD-11: 1D80|public
+Non-muscle invasive bladder cancer|ICD-11: 2C94|public
+Obstetric embolism|ICD-11: JB42|public
+Oral mucositis|ICD-11: DA01|public
+Ovarian cancer|ICD-11: 2C73|public
+Paraganglioma|ICD-11: 2E92.2|public
+Paratyphoid (A) enteric fever|ICD-11: 1A08|public
+Peritoneal mesothelioma|ICD-11: 2C51.2|public
+Pituitary hypofunction|ICD-11: 5A61|public
+Pollakiuria|ICD-11: MF50.1|public
+Rubella prophylaxis|ICD-11: 1F02|public
+Secondary hyperparathyroidism|ICD-11: 5A51.1|public
+Syndrome X|ICD-11: 5C53.4|public
+Tauopathy|ICD-11: 6D85.Y|public
+Tendon injuries|ICD-11: NC96.0|public
+Thymic cancer|ICD-11: 2C27|public
+Thyroid disease|ICD-11: 5A00-5A06|public
+Tibial nonunions|ICD-11: FB80.8|public
+Transplant rejection|ICD-11: NE84|public
+Traumatic brain injury|ICD-11: NA07.Z|public
+Urinary dysfunction|ICD-11: GC2Z|public
+Urinary system disease|ICD-11: GC2Z|public
+Vaginal infection|ICD-11: GA02.0|public
+Vascular system developmental anomaly|ICD-11: LA90|public
+Whim syndrome|ICD-11: 4A00.Y|public
+Wiskott-Aldrich syndrome|ICD-11: 3B62.0|public
+Zinc deficiency|ICD-11: 5B5K.2|public
+concerning food/fluid intake symptom|ICD-11: MG43|public
+Achromatopsia|ICD-11: 9B70|public
+Acquired haemolytic anaemia|ICD-11: 3A20|public
+Acute diabete complication|ICD-11: 5A2Y|public
+Adrenomedullary hyperfunction|ICD-11: 5A75|public
+Alloimmune thrombocytopenia|ICD-11: 3B64.13|public
+Analgesia|ICD-11: MB40.8|public
+Angioedema|ICD-11: 4A00.15|public
+Antimicrobial drug resistance|ICD-11: MG50-MG52|public
+Aplastic anaemia|ICD-11: 3A70|public
+Attention deficit hyperactivity disorder|ICD-11: 6A05|public
+B-cell prolymphocytic leukaemia|ICD-11: 2A82.1|public
+Breast cancer|ICD-11: 2C60-2C65|public
+Cholera|ICD-11: 1A00|public
+Chronic heart failure|ICD-11: BD1Z|public
+Chronic tympanic membrane perforation|ICD-11: AB13|public
+Clotting disorder|ICD-11: 3B4Z|public
+Conduction disorder|ICD-11: BC63|public
+Contusion|ICD-11: ND56.0|public
+Cutaneous squamous cell carcinoma|ICD-11: 2C30|public
+Diffuse large B-cell lymphoma|ICD-11: 2A81|public
+Digestive system disease|ICD-11: DE2Z|public
+Ependymoma|ICD-11: 2A00.0Y|public
+Erectile dysfunction|ICD-11: HA01.1|public
+Exocrine pancreatic insufficiency|ICD-11: DC35.1|public
+Eye anterior segment structural developmental anomaly|ICD-11: LA11|public
+Fear-related disorder|ICD-11: 6B0Z|public
+Gallbladder/bile ducts/liver structural developmental anomaly|ICD-11: LB20|public
+Gastro-oesophageal reflux disease|ICD-11: DA22|public
+Glioblastoma of brain|ICD-11: 2A00.00|public
+HIV-associated diarrhoea|ICD-11: 1A2Z|public
+Hematopoietic stem cell transplantation|ICD-11: QB63|public
+Hereditary amyloidosis|ICD-11: 5D00.2|public
+Hidradenitis suppurativa|ICD-11: ED92.0|public
+Hyper-lipoproteinaemia|ICD-11: 5C80|public
+Hyperlipidemia|ICD-11: 5C80|public
+IgA nephropathy|ICD-11: MF8Y|public
+Inborn lipid metabolism error|ICD-11: 5C52|public
+Influenza A virus H1N1 infection|ICD-11: 1E30|public
+Influenza A virus H3N2 infection|ICD-11: 1E30|public
+Intrahepatic cholangiocarcinoma|ICD-11: 2C12.10|public
+Joint direct infection|ICD-11: FA10|public
+Juvenile idiopathic arthritis|ICD-11: FA24|public
+Kidney failure|ICD-11: GB60-GB6Z|public
+Kidney transplant rejection|ICD-11: NE84|public
+Kinetoplastids|ICD-11: 1F61-1G2Z|public
+Lung inflammation|ICD-11: CA40.Z|public
+Lung injury|ICD-11: NB32.3Z|public
+Macular degeneration|ICD-11: 9B75|public
+Miosis|ICD-11: LA11.62|public
+Muscle calcification/ossification|ICD-11: FB31|public
+Muscular atrophy|ICD-11: 8B61|public
+Myotonic dystrophy|ICD-11: 8C71.0|public
+Nail plate acquired deformity|ICD-11: EE10|public
+Neonatal hyperbilirubinaemia|ICD-11: KA87|public
+Non-thrombocytopenic purpura|ICD-11: 3B60|public
+Nonvalvular atrial fibrillation|ICD-11: BC81.3Y|public
+Obesity|ICD-11: 5B81|public
+Peroxisomal disorder|ICD-11: 5C57|public
+Phlegmy cough|ICD-11: SA80-SA8Z|public
+Post-transplant lymphoproliferative disorder|ICD-11: 2B32|public
+Premature ejaculation|ICD-11: HA03.0Z|public
+Propionic acidemia|ICD-11: 5C50.E0|public
+Prostate cancer|ICD-11: 2C82.0|public
+Rectosigmoid junction cancer|ICD-11: 2B91.Z|public
+Recurrent adult burkitt lymphoma|ICD-11: 2A85.6|public
+Respiratory depression|ICD-11: MD11.5|public
+Reticular veins|ICD-11: EF20|public
+Scapulohumeral periarthritis|ICD-11: FB53|public
+Seasonal influenza|ICD-11: 1E30|public
+Skin photoaging|ICD-11: EJ20|public
+Sleep-wake disorder|ICD-11: 7A00-7B2Z|public
+Tardive dyskinesia|ICD-11: 8A02.10|public
+Thrombocytosis|ICD-11: 3B63|public
+Tonus and reflex abnormality|ICD-11: MB47|public
+Wilson disease|ICD-11: 5C64.00|public
+X-linked myotubular myopathy|ICD-11: 8C72|public
+XY disorder of sex development due to androgen resistance|ICD-11: LD2A.4|public
+#N/A	#N/A|""|public
+Acute decompensated heart failure|ICD-11: BD1Z|public
+Acute intermittent hepatic porphyria|ICD-11: 5C58.11|public
+Acute laryngitis/tracheitis|ICD-11: CA05|public
+Advanced malignancy|ICD-11: 2A00-2F9Z|public
+Aerodigestive tract cancer|ICD-11: 2C29.Z|public
+Amyloid polyneuropathy|ICD-11: 5D00.20|public
+Atrial flutter|ICD-11: BC81.2Z|public
+Autosomal dominant polycystic kidney disease|ICD-11: GB81|public
+Bacterial infection|ICD-11: 1A00-1C4Z|public
+Bronchiectasis|ICD-11: CA24|public
+COPD|ICD-11: 1D6Y|public
+Cancer related pain|ICD-11: MG30|public
+Cestodes infection|ICD-11: 1F70-1F76|public
+Chlamydia infection|ICD-11: 1A81|public
+Chronic skin disorder|ICD-11: ME63|public
+Chronic/stable angina|ICD-11: BA40.1|public
+Colon cancer|ICD-11: 2B90|public
+Contact dermatitis|ICD-11: EK00-EK0Z|public
+Convulsion|ICD-11: 8A68.Z|public
+Coronavirus infection|ICD-11: 1D92|public
+Cytomegalovirus Disease|ICD-11: 1D82|public
+Dementia|ICD-11: 6D80-6D86|public
+Dengue fever|ICD-11: 1D2Z|public
+Diabetic angiopathy|ICD-11: BD53.Y|public
+Discovery agent|ICD-11: N.A.|public
+Dyspepsia|ICD-11: MD92|public
+Dystrophic epidermolysis bullosa|ICD-11: EC32|public
+Enterobacteriaceae infection|ICD-11: MG50.C|public
+Epithelial ovarian cancer|ICD-11: 2B5D|public
+Fabry disease|ICD-11: 5C56.01|public
+Glanders|ICD-11: 1B92|public
+Gonococcal infection|ICD-11: 1A70-1A7Z|public
+Haemophilia A|ICD-11: 3B10.0|public
+Healthcare-associated pneumonia|ICD-11: CA00-CA40|public
+Hematologic tumour|ICD-11: 2B33.Y|public
+Hemorrhagic cystitis|ICD-11: GC00.1|public
+Henipavirus Encephalitis|ICD-11: 1D63|public
+Herbicide|ICD-11: N.A.|public
+Hyperthermia|ICD-11: MG26|public
+Hypertriglyceridemia|ICD-11: 5C80.1|public
+Hypoglycemia|ICD-11: 5A41|public
+Idiopathic CD4+ lymphocytopenia|ICD-11: 4A00.2|public
+Inflammatory breast cancer|ICD-11: 2C62|public
+Inherited coagulation factor deficiency|ICD-11: 3B14|public
+Insulin-resistant disorder|ICD-11: 5A44|public
+Intermittent claudication|ICD-11: BD40.00|public
+Ischaemic/haemorrhagic stroke|ICD-11: 8B20|public
+Kidney stone|ICD-11: GB70.0Z|public
+LambertEaton myasthenic syndrome|ICD-11: 8C62|public
+Left ventricular dysfunction|ICD-11: BD11|public
+Leptospira infection|ICD-11: 1B91|public
+Lipid metabolism disorder|ICD-11: 5C52.Z|public
+Lleum inflammation|ICD-11: 1A40.0|public
+Lower limb mononeuropathy|ICD-11: 8C11|public
+Lyme disease|ICD-11: 1C1G|public
+Mature T-cell lymphoma|ICD-11: 2A90|public
+Menstrual disorder|ICD-11: GA20.3|public
+Metastatic renal cancer|ICD-11: 2D50|public
+Metastatic sarcoma|ICD-11: 2D50-2E2Z|public
+Mineral deficiency|ICD-11: 5B5K|public
+Nausea and vomiting|ICD-11: MD90|public
+Oral cancer|ICD-11: 2B6E|public
+Osteosarcoma|ICD-11: 2B51|public
+Ovarian dysfunction|ICD-11: 5A80|public
+Pancreatic exocrine dysfunction|ICD-11: DC3Z|public
+Post-traumatic stress disorder|ICD-11: 6B40|public
+Pressure ulcers|ICD-11: EH90|public
+Psoriasis|ICD-11: EA90|public
+Renal transplantation|ICD-11: NE84|public
+Reperfusion injury|ICD-11: ND56.Z|public
+Salmonella typhoid|ICD-11: 1A09|public
+Sarcoidosis|ICD-11: 4B20.5|public
+Sleep-related breathing disorder|ICD-11: 7A4Z|public
+Type-1/2 diabetes|ICD-11: 5A10-5A11|public
+#N/A|#N/A|public
+Acute upper respiratory infection|ICD-11: CA07|public
+Adjuvant ovarian cancer|ICD-11: 2C73|public
+Age-related macular degeneration|ICD-11: 9B75.0|public
+Alagille syndrome|ICD-11: LB20.0Y|public
+Allodynia|ICD-11: MB40.1|public
+Arginase 1 deficiency|ICD-11: 5C50.A2|public
+Atypical teratoid/rhabdoid tumour|ICD-11: 2A00.1Y|public
+Blepharospasm|ICD-11: 9A05.Z|public
+Chikungunya virus infection|ICD-11: 1D40|public
+Chordoma|ICD-11: 5A61.0|public
+Chronic neuropathic pain|ICD-11: MG30.5|public
+Contact dermatitis|ICD-11: EK0Z|public
+Contraception|ICD-11: QA21|public
+Coronary vasospastic disease|ICD-11: BA85|public
+Cushing syndrome|ICD-11: 5A70|public
+Edema|ICD-11: MG29|public
+Endocrine disease|ICD-11: 5B3Z|public
+Enzyme deficiency|ICD-11: 5C51-5C57|public
+Epidermal dysplasias|ICD-11: EK90|public
+Gastrointestinal ulcer|ICD-11: DA60.Z|public
+Heart arrhythmia|ICD-11: BC65|public
+Hemorrhoids|ICD-11: DB60|public
+Hepatitis C virus infection|ICD-11: 1E51.1|public
+Hereditary inclusion body myositis|ICD-11: 4A41.2|public
+Homozygous familial hypercholesterolemia|ICD-11: 5C80.00|public
+Horner syndrome|ICD-11: 8D8A.1|public
+Human immunodeficiency virus infection|ICD-11: 1C62|public
+Hunter syndrome|ICD-11: 5C56.31|public
+Hypersomnia|ICD-11: 7A21|public
+Hypo-glycaemia|ICD-11: 5A41|public
+Immune thrombocytopenia|ICD-11: 3B64|public
+Intestinal strongyloidiasis due to nematode parasite|ICD-11: 1F6B|public
+Kidney/heart transplant rejection|ICD-11: NE84|public
+Lysosomal storage disease|ICD-11: 5C56.Z|public
+Male infertility|ICD-11: GB04|public
+Mammary tumour|ICD-11: 2C60-2C6Z|public
+Mesothelin positive tumour|ICD-11: 2C51-2F10|public
+Metabolic acidosis|ICD-11: 5C73|public
+Metastatic biliary tract neoplasms|ICD-11: 2C14-2C17|public
+Multiple system atrophy|ICD-11: 8D87.0|public
+Myocardial ischemia|ICD-11: BA6Z|public
+Necrotizing soft tissue infection|ICD-11: 1B71|public
+Nematode disease|ICD-11: 1F6Y|public
+Nephritic syndrome|ICD-11: GB40|public
+Opioid dependence|ICD-11: 6C43.2Z|public
+Optic neuritis|ICD-11: 9C40.1|public
+Osteogenesis imperfecta|ICD-11: LD24.K0|public
+Osteonecrosis|ICD-11: FB81|public
+Osteopetrosis|ICD-11: LD24.10|public
+Perianal wart|ICD-11: 1A95|public
+Peritoneal cancer|ICD-11: 2C51.Z|public
+Pineoblastoma|ICD-11: 2A00.20|public
+Plasmodium falciparum malaria|ICD-11: 1F40|public
+Polyomavirus infection|ICD-11: 1C80|public
+Postoperative inflammation|ICD-11: 1A00-CA43|public
+Proteus syndrome|ICD-11: LD2C|public
+Prurigo nodularis|ICD-11: EC91.0|public
+Pulmonary thromboembolism|ICD-11: BB00|public
+Reflux disease|ICD-11: DA22|public
+Sanfilippo syndrome|ICD-11: 5C56.3Y|public
+Sinusitis|ICD-11: CA0A.Z|public
+Sjogren syndrome|ICD-11: 4A43|public
+Soft tissue disorder|ICD-11: FB56|public
+Substance abuse|ICD-11: 6C40|public
+Trypanosomiasis|ICD-11: 1D51-1F53|public
+Uveitis|ICD-11: 9A96.Z|public
+Vaso-occlusive crisis|ICD-11: BE2Y|public
+Ventricular tachyarrhythmia|ICD-11: BC71|public
+Abortion|ICD-11: JA00|public
+Acquired hypermelanosis|ICD-11: ED60|public
+Acute hyperammonaemia|ICD-11: 5C50.A|public
+Acute otitis media|ICD-11: AB00|public
+Acute respiratory distress syndrome|ICD-11: CB00|public
+Advanced gum disease|ICD-11: DA0D|public
+Al amyloidosis|ICD-11: 5D00.0|public
+Allergic rhinitis|ICD-11: CA08.0|public
+Arteries/arterioles disorder|ICD-11: BD52|public
+Bipolar disorder|ICD-11: 6A60|public
+Blood brain barrier|ICD-11: 5C61.5|public
+Burn and burn infection|ICD-11: ND90-NE2Z|public
+CNS birth injury|ICD-11: KA40|public
+Chronic pain|ICD-11: MG30|public
+Circadian rhythm sleep disorder|ICD-11: 7A60-7A65|public
+Clostridium difficile associated diarrhea|ICD-11: 1A04|public
+Corneal neovascularization|ICD-11: 9A78|public
+Emphysema|ICD-11: CA21|public
+Encephalitis virus infection|ICD-11: 1C83-1C84|public
+Endometrial cancer|ICD-11: 2C76|public
+Fragile X syndrome|ICD-11: LD55|public
+Giant cell arteritis|ICD-11: 4A44.2|public
+Haemophilia B|ICD-11: 3B11.0|public
+Head and neck cancer|ICD-11: 2D42|public
+Hemorrhagic shock|ICD-11: MG40.1|public
+Hyperhidrosis|ICD-11: EE00|public
+Inborn error of metabolism|ICD-11: 5C50-5C59|public
+Labour/delivery anaesthesia complication|ICD-11: JB0C|public
+Liver vascular disorder|ICD-11: DB98|public
+Malignant rhabdoid tumour|ICD-11: 2A00.1Y|public
+Meniere disease|ICD-11: AB31.0|public
+Metabolic disorder|ICD-11: 5C50-5D2Z|public
+Metastatic cancer|ICD-11: 2D50-2E2Z|public
+Myasthenia gravis|ICD-11: 8C60|public
+Neisseria meningitis infection|ICD-11: 1C1C.0|public
+Nervous system disease|ICD-11: 8A00-8E7Z|public
+Neuromyelitis optica spectrum disorder|ICD-11: 8E4A.0|public
+Neurotransmitter metabolic error|ICD-11: 5C59|public
+Non-syndromic ichthyosis|ICD-11: EC20.0Y|public
+Norovirus infection|ICD-11: 1A23|public
+Penile squamous cancer|ICD-11: 2C81|public
+Peripheral nerve damage|ICD-11: ND56.4|public
+Primary sclerosing cholangitis|ICD-11: DB96.2|public
+Pulmonary emphysema|ICD-11: CA21.Z|public
+Respiratory papillomatosis|ICD-11: 2F00.1|public
+Respiratory tract inflammation|ICD-11: CA07|public
+Sarcoidosis|ICD-11: 4B20|public
+Severe acute respiratory syndrome (SARS)|ICD-11: 1D65|public
+Sex development malformative disorder|ICD-11: LD2A|public
+Shigella diarrhea|ICD-11: 1A02|public
+Skin inflammation|ICD-11: EF20.Y|public
+Thrombocythemia|ICD-11: 3B63|public
+Thrombotic thrombocytopenic purpura|ICD-11: 3B64.14|public
+Transthyretin amyloid cardiomyopathy|ICD-11: 5D00.20|public
+Xerophthalmia|ICD-11: 5B55.Y|public
+infection associated with diabetic foot ulcers|ICD-11: BD54|public
+Acquired melanotic macule/lentigine|ICD-11: ED61|public
+Acute asthma|ICD-11: CA23|public
+Acute biphenotypic leukaemia|ICD-11: 2B33.4|public
+Acute cardiac ischemia|ICD-11: BA4Z|public
+Aortic aneurysm|ICD-11: BD50|public
+Autism spectrum disorder|ICD-11: 6A02|public
+Brain cancer|ICD-11: 2A00|public
+Bronchopulmonary dysplasia|ICD-11: KB29.0|public
+Castlemans disease|ICD-11: 4B2Y|public
+Cataract|ICD-11: 9B10|public
+Cervical cancer|ICD-11: 2C77.0|public
+Chronic arterial occlusive disease|ICD-11: BD4Z|public
+Chronic lower extremities peripheral venous insufficiency|ICD-11: BD74|public
+Chronic lung disease|ICD-11: CA20.11|public
+Colitis|ICD-11: 1A40.Z|public
+Colorectal cancer|ICD-11: 2B91|public
+Complex partial seizure|ICD-11: 8A68.0|public
+Conjunctivitis|ICD-11: 9A60|public
+Cornea epithelial defect|ICD-11: 9A78|public
+Dermal/subcutaneous connective tissue atrophy/degeneration|ICD-11: EE40|public
+Dermatological disease|ICD-11: DA24.Y|public
+Eclampsia|ICD-11: JA25|public
+Enterocolitis|ICD-11: 1A40.Z|public
+Enthesopathy|ICD-11: FB53-FB55|public
+Fertility problem|ICD-11: 5A61|public
+Follicular lymphoma|ICD-11: 2A80|public
+Gestational trophoblastic neoplasia|ICD-11: 2F33-2F76|public
+Glabellar frown line|ICD-11: NA0Z|public
+Globoid cell leukodystrophy|ICD-11: 8A44.4|public
+Graft-versus-host disease|ICD-11: 4B24|public
+Hairy cell leukaemia|ICD-11: 2A82.2|public
+Hirsutism|ICD-11: ED72|public
+Hypoplastic left heart syndrome|ICD-11: LA89.3|public
+Infection of P. falciparum|ICD-11: 1F40|public
+Inflammation|ICD-11: 1A00-CA43.1|public
+Iron overload disease|ICD-11: 5C64.10|public
+Ischemic heart disease|ICD-11: BA40-BA6Z|public
+Knee injuries|ICD-11: NC9Z|public
+Knee osteoarthritis|ICD-11: FA01|public
+Leukodystrophy|ICD-11: 8A44|public
+Liver failure|ICD-11: DB99.7|public
+Lupus erythematosus|ICD-11: 4A40|public
+Marginal zone lymphoma|ICD-11: 2A85.0|public
+Mature B-cell lymphoma|ICD-11: 2A85|public
+Metapneumovirus infection|ICD-11: CA40.13|public
+Metastatic breast cancer|ICD-11: 2C6Y|public
+Metastatic liver/bile duct neoplasm|ICD-11: 2D80|public
+Metastatic peritoneum neoplasm|ICD-11: 2D91|public
+Morton neuroma|ICD-11: 8C11.6|public
+Mycoses|ICD-11: 1F2Z|public
+Neovascular age-related macular degeneration|ICD-11: 9B78.3Z|public
+Nervous system inflammation|ICD-11: 1D0Y|public
+Neuromuscular disease|ICD-11: 8C6Y|public
+Neurotrophic keratitis|ICD-11: 9A74|public
+Non-erosive gastro-esophageal reflux disease|ICD-11: DA22.0|public
+Ovulation dysfunction|ICD-11: 5A80|public
+Panic attacks|ICD-11: MB23.H|public
+Peripheral vascular disease|ICD-11: BD4Z|public
+Peritoneal metastasis|ICD-11: 2D91|public
+Pigmented villonodular synovitis|ICD-11: FA27.1|public
+Pituitary gland disorder|ICD-11: 5A60-5A61|public
+Postherpetic neuralgia|ICD-11: 1E91.5|public
+Primitive neuroectodermal tumour medulloblastoma|ICD-11: 2A00.11|public
+Prostate disease|ICD-11: GA91|public
+Prostate hyperplasia|ICD-11: GA90|public
+Pulmonary fibrosis|ICD-11: CB03.4|public
+Retinal inflammation|ICD-11: 9B72|public
+Retinal vein occlusion|ICD-11: 9B74|public
+Seasonal allergic rhinitis|ICD-11: CA08.01|public
+Shingles|ICD-11: 1E91|public
+Sinus rhythm disorder|ICD-11: BC9Y|public
+Testicular cancer|ICD-11: 2C80|public
+Thyroid cancer|ICD-11: 2D10|public
+Tinea versicolor|ICD-11: 1F2D.0|public
+Urinary tract infection|ICD-11: GC08|public
+Uterine serous carcinoma|ICD-11: 2C72.1|public
+Vulnerary|ICD-11: ND56.Z|public
+Acute graft versus host disease|ICD-11: 4B24.0|public
+Aging skin|ICD-11: EE40|public
+Amenorrhea|ICD-11: GA20.0|public
+Amyloid transthyretin cardiomyopathy|ICD-11: 5D00.20|public
+Arterial occlusive disease|ICD-11: BD40|public
+Arthralgia|ICD-11: ME82|public
+B-cell lymphoma|ICD-11: 2A86|public
+Bleeding disorder|ICD-11: GA20-GA21|public
+Bone growth disorder|ICD-11: FB86|public
+Brain injury|ICD-11: NA07.Z|public
+Carbacephem|ICD-11: 1A00-1C4Z|public
+Cerebrovascular disease|ICD-11: 8B2Z|public
+Chemotherapy or radiotherapy-induced mucositis|ICD-11: DA42-DA60|public
+Choroidal dystrophy|ICD-11: 9B61|public
+Chronic idiopathic constipation|ICD-11: DC32|public
+Coeliac disease|ICD-11: DA95|public
+Cold type autoimmune haemolytic anemia|ICD-11: 3A20.1|public
+Dysplasia|ICD-11: LB30-LD2F|public
+Familial chylomicronemia syndrome|ICD-11: 5C80|public
+Fecal incontinence|ICD-11: ME07|public
+Gastric disease|ICD-11: DA40-DA7Z|public
+Geographic retinal atrophy|ICD-11: 9B78.9|public
+Glomerulonephritis|ICD-11: 5D00.Y|public
+Graft rejection in heart transplantation|ICD-11: NE84|public
+Hand, foot and mouth disease|ICD-11: 1F05.0|public
+Hemangioma|ICD-11: 2E81-2F2Y|public
+Hepatitis D virus infection|ICD-11: 1E51.2|public
+Herpes simplex infection|ICD-11: 1F00|public
+Hormone receptor positive and HER2-negative advanced or metastatic breast cancer|ICD-11: 2C60-2C65|public
+Hyperkalemia|ICD-11: 5C76|public
+Hypophosphatasia|ICD-11: 5C64.3|public
+Idiopathic thrombocytopenic purpura|ICD-11: 3B64.10|public
+Inborn carbohydrate metabolism error|ICD-11: 5C51|public
+Increased intracranial pressure|ICD-11: 8D60|public
+Interstitial cystitis|ICD-11: GC00.3|public
+Intra-abdominal infection|ICD-11: 1A40|public
+Laxative|ICD-11: FA34.1|public
+Leishmania braziliensis infection|ICD-11: 1F54.2|public
+Liver metastasis|ICD-11: 2D80|public
+Low bone mass disorder|ICD-11: FB83|public
+Malignant neoplasm|ICD-11: 2A00-2F9Z|public
+Malignant thymoma|ICD-11: 2C27.2|public
+Mast cell leukaemia|ICD-11: 2A21.00|public
+Menkes disease|ICD-11: 5C64.0|public
+Mesothelial tumour|ICD-11: 2F10|public
+Metachromatic leukodystrophy|ICD-11: 5C56.02|public
+Metastatic colorectal cancer|ICD-11: 2B91|public
+Metastatic non-hodgkin's lymphoma|ICD-11: 2B33.5|public
+Methamphetamine use disorder|ICD-11: 6C46|public
+Molybdenum cofactor deficiency|ICD-11: 5B5K.A|public
+Mucopolysaccharidosis type IIIB|ICD-11: 5C56.3Y|public
+Multidrug resistant infection|ICD-11: MG51|public
+Muscular pain|ICD-11: FB56|public
+Neoplasm|ICD-11: 2A00-2F9Z|public
+Neurologic conditions associated with aminoacylase 1 deficiency|ICD-11: 5C50.E1|public
+Nodal marginal zone lymphoma|ICD-11: 2A85.0|public
+Ocular allergy|ICD-11: 4A81|public
+Parasitic worm infestation|ICD-11: 1F90|public
+Perianal crohn disease|ICD-11: DD70.4|public
+Plasmodium vivax malaria|ICD-11: 1F41|public
+Pleomorphic sarcoma|ICD-11: 2B54|public
+Pneumonia due to Klebsiella pneumoniae|ICD-11: CA40.03|public
+Psychomotor agitation|ICD-11: MB23.M|public
+Pulmonary disease|ICD-11: 1B10-1F85|public
+Subacute cutaneous lupus erythematosus|ICD-11: EB50|public
+Transthyretin amyloidosis|ICD-11: 5D00|public
+Tremor-related disorder|ICD-11: 8A04|public
+Unspecific substance use disorder|ICD-11: 6C4Z|public
+Vascular purpura|ICD-11: 3B60|public
+Yersinia infection|ICD-11: 1B93|public
+Abdominal pelvic pain|ICD-11: MD81|public
+Aberrant vascularization|ICD-11: BE2Z|public
+Acute coronary syndrome|ICD-11: BA41|public
+Acute kidney injury|ICD-11: GB60|public
+Acute myelogenous leukaemia|ICD-11: 2A41|public
+Acute/chronic pain|ICD-11: MG30-MG31|public
+Alpha-1 antitrypsin deficiency|ICD-11: 5C5A|public
+Autoimmune diabetes|ICD-11: 5A10|public
+B-cell acute lymphoblastic leukaemia|ICD-11: 2B33.3|public
+Bardet biedl syndrome|ICD-11: 5A61.0|public
+Bladder disease|ICD-11: DC11-DC1Z|public
+Bordetella pertussis infection|ICD-11: 1C12.0|public
+CLN2 Batten disease|ICD-11: 5C56|public
+Calcific uremic arteriolopathy|ICD-11: EB90.42|public
+Cervical dystonia|ICD-11: 8A02.0Y|public
+Chemoprotection|ICD-11: N.A.|public
+Chronic alcoholism|ICD-11: 6C40.2Z|public
+Chronic idiopathic urticaria|ICD-11: EB00.1|public
+Community-acquired pneumonia|ICD-11: CA40.Z|public
+Constitutional neutropenia|ICD-11: 4B00.0|public
+Copper metabolism disorder|ICD-11: 5C64.0|public
+Dermatitis|ICD-11: EA80-EA89|public
+Duchenne dystrophy|ICD-11: 8C70|public
+Ejaculatory dysfunction|ICD-11: HA03|public
+Enterobiasis|ICD-11: 1F65|public
+Extranodal NK/T-cell Lymphoma|ICD-11: 2A90.6|public
+Fibrodysplasia ossificans progressiva|ICD-11: FB31.1|public
+Filariasis|ICD-11: 1F66|public
+Genital herpes|ICD-11: 1A94|public
+Geographic atrophy|ICD-11: 9B75|public
+Growth hormone deficiency|ICD-11: 5A61.3|public
+Haematological malignancy|ICD-11: 2B33.Y|public
+Hair/hair growth developmental defect|ICD-11: LC30|public
+Heart attack|ICD-11: BA41|public
+Hemophilia|ICD-11: 3B10.0|public
+Hepatovirus infection|ICD-11: 1E51|public
+Hereditary haemolytic anaemia|ICD-11: 3A10|public
+Hidradenitis suppurativa|ICD-11: ED92|public
+Infantile spasm|ICD-11: 8A62.0|public
+Inherited retinal dystrophy|ICD-11: 9B70|public
+Invasive candidiasis|ICD-11: 1F23|public
+Irritable bowel syndrome|ICD-11: DD91|public
+Ischemic optic neuropathy|ICD-11: 9C40.4|public
+Keratoconus|ICD-11: 9A78.50|public
+Meningioma|ICD-11: 2A01|public
+Methicillin-resistant staphylococci infection|ICD-11: 1A00-1A09|public
+Mood disorder|ICD-11: 6A60-6E23|public
+Motion sickness|ICD-11: NF08.3|public
+Myopic macular degeneration|ICD-11: 9B75.Y|public
+Neuroendocrine cancer|ICD-11: 2B72.1|public
+Oesophageal ulcer|ICD-11: DA25|public
+Ophthalmic surgery injury|ICD-11: PK97|public
+Oropharyngeal cancer|ICD-11: 2B6A|public
+Premature ageing appearance|ICD-11: LD2B|public
+Pruritus|ICD-11: EC90|public
+Pyruvate dehydrogenase complex deficiency|ICD-11: 5C53.02|public
+Scorpion envenoming syndrome|ICD-11: 8D43|public
+Skin and skin-structure infection|ICD-11: 1F28-1G0Z|public
+Somnolence|ICD-11: MG42|public
+Status epilepticus seizure|ICD-11: 8A66.1Y|public
+Testicular germ cell tumour|ICD-11: 2C80.2|public
+Trematode disease|ICD-11: 1F8Y|public
+Vascular disease|ICD-11: BE2Z|public
+Vasomotor symptom|ICD-11: CA08|public
+Vitamin B12 deficiency|ICD-11: 5B5F|public
+Von Willebrand disease|ICD-11: 3B12|public
+Waldenstrom macroglobulinemia|ICD-11: 2A85.4|public
+X-linked Adrenoleukodystrophy|ICD-11: 5C57|public
+uveitic macular edema|ICD-11: 9B78|public
+Acute lymphocytic leukaemia|ICD-11: 2B33.3|public
+Acute viral hepatitis|ICD-11: 1E50|public
+Advanced cancer|ICD-11: 2A00-2F9Z|public
+Arenavirus disease|ICD-11: 1D61|public
+Aromatic L-amino acid decarboxylase deficiency|ICD-11: 5C59.00|public
+Ataxia|ICD-11: MB45.0|public
+Bacillary dysentery|ICD-11: 1A02|public
+Biliary tract cancer|ICD-11: 2C17|public
+Blood-forming organ disease|ICD-11: 3C0Z|public
+C. difficile infection|ICD-11: 1A04|public
+CNS non-viral infection|ICD-11: 1D0Y|public
+Cardiac output syndrome|ICD-11: BC43|public
+Castleman's disease|ICD-11: 4B2Y|public
+Cell proliferative disorder|ICD-11: FB86|public
+Chondrosarcoma|ICD-11: 2B50|public
+Cirrhosis|ICD-11: DB93|public
+Cocaine addiction|ICD-11: 6C45.2|public
+Congestive heart failure|ICD-11: BD10|public
+Contraceptive management|ICD-11: QA21|public
+Critical limb ischemia|ICD-11: BD4Y|public
+Cystine urolithiasis|ICD-11: GB70-GB7Z|public
+Dental disease|ICD-11: DA08|public
+Diabetic foot ulcer|ICD-11: BD54|public
+Diagnostic radiopharmaceutical|ICD-11: N.A.|public
+Dizziness and giddiness|ICD-11: MB48|public
+Endometriosis|ICD-11: GA10|public
+Epileptic encephalopathy|ICD-11: 8A62|public
+Exudative age-related macular degeneration|ICD-11: 9B78.3Z|public
+Gastric motility disorder|ICD-11: DA21|public
+Hepatitis C|ICD-11: 1E51|public
+Human immunodeficiency virus disease|ICD-11: 1C60-1C62|public
+Hyperkalaemia|ICD-11: 5C76|public
+Infantile colics|ICD-11: DD93.1|public
+Infectious meningitis|ICD-11: 1D01|public
+Intervertebral disc displacement|ICD-11: FB1Y|public
+Intoxication|ICD-11: 6C40-6C4B|public
+Invasive aspergillosis|ICD-11: 1F20.0|public
+Lewy body dementia|ICD-11: 6D82|public
+Light sensitivity impairment|ICD-11: 9D45|public
+Liver disease|ICD-11: DB90-BD99|public
+Meningococcal infection|ICD-11: 1C1C|public
+Metastatic lymph node neoplasm|ICD-11: 2D60|public
+Metastatic tumour|ICD-11: 2D50-2E2Z|public
+Multiple structural anomalies syndrome|ICD-11: LD2F|public
+Musculoskeletal system/connective tissue disease|ICD-11: FC0Z|public
+Myeloproliferative syndrome|ICD-11: 2A22|public
+Myopathy|ICD-11: 8C7Y|public
+Necrotising fasciitis|ICD-11: 1B71|public
+Neisseria gonorrhoeae infection|ICD-11: 1A7Z|public
+Neonatal hyperbilirubinemia|ICD-11: KA87|public
+Nervous system paraneoplastic or autoimmune disorders|ICD-11: 8E4A.1|public
+Nicotine use disorder|ICD-11: 6C4A|public
+Non-specific cutaneous vascular sympton|ICD-11: ME64|public
+Ocular disease|ICD-11: N.A.|public
+Pandemic influenza infection|ICD-11: 1E30|public
+Pediatric glioma|ICD-11: 2A00.0|public
+Pregnancy/childbirth/puerperium maternal infection|ICD-11: JB63|public
+Primary insomnia|ICD-11: 7A00|public
+Primary mediastinal B-cell lymphoma|ICD-11: 2A81|public
+Pseudomonas aeruginosa infections|ICD-11: GC08|public
+Psoriasis vulgaris|ICD-11: EA90|public
+Radiocontrast agent|ICD-11: N.A.|public
+Raynaud phenomenon|ICD-11: BD42|public
+Renal artery disease|ICD-11: BD40.2|public
+Respiratory disease|ICD-11: CB40|public
+Respiratory tract disease|ICD-11: CB7Z|public
+Salivary gland dysfunction|ICD-11: 5B0Z|public
+Sarcopenia|ICD-11: FB32.Y|public
+Sciatica|ICD-11: ME84.3|public
+Spinal pain|ICD-11: ME84|public
+Staphylococcus infection|ICD-11: 1B5Y|public
+Strongyloidiasis|ICD-11: 1F6B|public
+Suicidal ideation|ICD-11: MB26.A|public
+Tourette syndrome|ICD-11: 8A05.00|public
+Trigeminal neuralgia|ICD-11: 8B82.0|public
+Urgency|ICD-11: N.A.|public
+Vibrio cholerae infection|ICD-11: 1A00|public
+Virus infection|ICD-11: 1A24-1D9Z|public
+Von hippel-lindau disease|ICD-11: 5A75|public
+Acquired haemolytic anemia|ICD-11: 3A4Z|public
+Acute lymphoblastic leukaemia|ICD-11: 2A85|public
+Adolescent meningitis|ICD-11: 1D01.10|public
+Arteriosclerosis|ICD-11: BD40|public
+Autoimmune liver disease|ICD-11: DB96|public
+Autosomal Recessive Ichthyosis|ICD-11: ED20|public
+Biliary cancer|ICD-11: 2E92.7|public
+Blastic plasmacytoid dendritic cell neoplasm|ICD-11: 2A60.5|public
+Brain ischaemia|ICD-11: 8B1Z|public
+Breast in situ carcinoma|ICD-11: 2E65|public
+CNS anomalies syndrome|ICD-11: LD20|public
+Chemotherapy/radiotherapy-induced mucositis|ICD-11: DA42-DA60|public
+Cholangiocarcinoma|ICD-11: 2C12.10|public
+Chronic functional vomiting|ICD-11: DD90.4|public
+Chronic myeloid leukaemia|ICD-11: 2A20|public
+Clostridium infection|ICD-11: 1A04|public
+Congenital ichthyosis|ICD-11: EC20|public
+Congenital thrombotic thrombocytopenic purpura|ICD-11: 3B64.14|public
+Coronary thrombosis|ICD-11: BA43|public
+Cutaneous T-cell lymphoma|ICD-11: 2B01|public
+Epithelioid mesothelioma|ICD-11: 2F10|public
+Erythema|ICD-11: ME64.0|public
+Estrogen deficiency|ICD-11: FB83.0Y|public
+Ewing sarcoma|ICD-11: 2B52|public
+Factor VIII deficiency|ICD-11: 3B10|public
+Faecal incontinence|ICD-11: ME07|public
+Falciparum malaria|ICD-11: 1F40-1F45|public
+Fatigue|ICD-11: MG22|public
+Fatty liver disease|ICD-11: DB92.Z|public
+Fever|ICD-11: MG26|public
+Genitourinary tract cancer|ICD-11: 2C8Z|public
+HER2/NEU overexpressing breast cancer|ICD-11: 2C60-2C65|public
+Hepatocellular carcinoma|ICD-11: 2C12.02|public
+Hereditary haemolytic anemia|ICD-11: 3A10.3|public
+Herpes zoster|ICD-11: 1E91|public
+Hutchinson-Gilford progeria syndrome|ICD-11: LD2B|public
+Hypersalivation|ICD-11: DA04.6|public
+Hyponatraemia|ICD-11: 5C72|public
+Impetigo|ICD-11: 1B72|public
+Incontinence|ICD-11: MF50.2|public
+Infantile malignant osteopetrosis|ICD-11: LD24.10|public
+Infertility|ICD-11: GB04|public
+Inner ear disease|ICD-11: AB30-AB37|public
+Intervertebral disc degeneration|ICD-11: FA80|public
+Klebsiella pneumonie|ICD-11: CA40.03|public
+Leigh syndrome|ICD-11: 5C53.24|public
+Leptomeningeal sarcoma|ICD-11: 2A01.0|public
+Long-chain fatty acid oxidation disorder|ICD-11: BC43.10|public
+Lupus nephritis|ICD-11: 4A40.0Y|public
+Lyme borreliosis|ICD-11: 1C1G|public
+Lymphatic filariasis|ICD-11: 1F66.3|public
+Malignant mesothelioma|ICD-11: 2C26.0|public
+Meningitis|ICD-11: 1D01|public
+Meningococcal disease|ICD-11: 1C1C|public
+Metastatic gastric or gastroesophageal junction cancer|ICD-11: 2D8Y|public
+Molluscum contagiosum infection|ICD-11: 1E76|public
+Mood/affect symptom|ICD-11: MB24|public
+Muscle injury|ICD-11: NC16.3|public
+Muscular dystrophy|ICD-11: 8C70|public
+Myocardial infarction|ICD-11: BA41-BA43|public
+Non-arteritic anterior ischemic optic neuropathy|ICD-11: 9C40.40|public
+Obstructive sleep apnoea|ICD-11: 7A41|public
+Oesophagitis|ICD-11: DA24|public
+Oesophagogastric junction cancer|ICD-11: 2B71|public
+Opioid use disorder|ICD-11: 6C43|public
+Paronychia|ICD-11: 1F23.13|public
+Pediatric cancer|ICD-11: 2A00-2F9Z|public
+Phenylketonuria|ICD-11: 5C50.0|public
+Piscicide|ICD-11: N.A.|public
+Pompe disease|ICD-11: 5C51.3|public
+Primary axillary hyperhidrosis|ICD-11: EE00.01|public
+Primary immune thrombocytopenia|ICD-11: 3B64.10|public
+Primary myelofibrosis|ICD-11: 2A20.2|public
+Pten-deficient tumour|ICD-11: 2C50-2F93|public
+Pulmonary embolism|ICD-11: BB00|public
+Reproduction|ICD-11: JA00-JA02|public
+Schizophrenia|ICD-11: 6A20|public
+Severe acute respiratory syndrome|ICD-11: 1D65|public
+Spinal stenosis|ICD-11: FA82|public
+Structural developmental anomalies of liver|ICD-11: LB20.0|public
+Type 2 diabetes|ICD-11: 5A11|public
+Undiagnosed blood transfusion|ICD-11: QB98|public
+Vascular dementia|ICD-11: 6D81|public
+Vertigo meniere disease|ICD-11: AB31.0|public
+Vitamin B6 deficiency|ICD-11: 5B5D|public
+leukaemia|ICD-11: 2A60-2B33|public
+Abdominal surgical procedure|ICD-11: N.A.|public
+Acquired immune deficiency syndrome|ICD-11: 1C62.3|public
+Acute myeloid leukaemia|ICD-11: 2A60|public
+Adrenal cancer|ICD-11: 2D11|public
+Anaplastic glioma|ICD-11: 2A00.0|public
+Anogenital warts|ICD-11: 1A95|public
+Autoimmune hepatitis|ICD-11: DB96.0|public
+B-cell non-hodgkin lymphoma|ICD-11: 2B33.5|public
+Bronchitis|ICD-11: CA20|public
+CLN1 disease|ICD-11: 5C56.1|public
+Cachexia|ICD-11: MG20|public
+Cardiac failure|ICD-11: BD10-BD13|public
+Choreiform disorder|ICD-11: 8A01|public
+Choroid plexus carcinoma|ICD-11: 2A02.12|public
+Choroidal neovascularization|ICD-11: 9B76|public
+Chronic low back pain|ICD-11: MG30.02|public
+Diphtheria|ICD-11: 1C17|public
+Duchenne muscular dystrophy|ICD-11: 8C70.1|public
+Eosinophilic esophagitis|ICD-11: DA24.1|public
+Eyelid inflammatory disorder|ICD-11: 9A02|public
+Female hypogonadism|ICD-11: GA30.6|public
+Female sexual arousal dysfunction|ICD-11: HA01.1|public
+Filovirus disease|ICD-11: 1D60|public
+Gangrene|ICD-11: MC85|public
+Gastric adenocarcinoma|ICD-11: 2B72|public
+Genetic cardiac arrhythmia|ICD-11: BC65|public
+Gynecologic cancer|ICD-11: 2F33-2F76|public
+Hot flushes|ICD-11: GA30|public
+Hyperuricaemia|ICD-11: 5C55.Y|public
+Hypoactive sexual desire dysfunction|ICD-11: HA00|public
+Ileus|ICD-11: DA93.0|public
+Immunoproliferative disorder|ICD-11: 2B32|public
+Insecticide|ICD-11: N.A.|public
+Insufficient tear production|ICD-11: 5B55.Y|public
+Intrathoracic organs injury|ICD-11: NB32|public
+Leishmania infection|ICD-11: 1F54.0|public
+Lymphangioleiomyomatosis|ICD-11: CB07|public
+Lymphoma|ICD-11: 2A80-2A86|public
+Major depressive disorder|ICD-11: 6A70.3|public
+Male sexual disorder|ICD-11: HA02.0|public
+Malignant pleural mesothelioma|ICD-11: 2C26.0|public
+Mesothelioma|ICD-11: 2C51.2|public
+Migraine|ICD-11: 8A80|public
+Moderate and severe hypertension|ICD-11: BA00.Z|public
+Morning sickness disorder|ICD-11: SC00|public
+Mucopolysaccharidosis type IIIA|ICD-11: 5C56.3Y|public
+Muscle fatigue|ICD-11: FB32.5|public
+Myopia|ICD-11: 9D00.0|public
+Nervous system paraneoplastic/autoimmune disorder|ICD-11: 8E4A|public
+Neuromyelitis optica|ICD-11: 8A43|public
+Neuronal ceroid lipofuscinosis|ICD-11: 5C56.1|public
+Nocturia|ICD-11: MF55|public
+Non-alcoholic steatohepatitis|ICD-11: DB92.1|public
+Non-eosinophilic asthma|ICD-11: CA23|public
+Pain|ICD-11: MG30-MG3Z|public
+Parkinsonism|ICD-11: 8A00|public
+Prostate cancer|ICD-11: 2C82|public
+Pseudoxanthoma elasticum|ICD-11: EC40|public
+Reactive arthropathy|ICD-11: FA11|public
+Rett syndrome|ICD-11: LD90.4|public
+Rhabdomyosarcoma|ICD-11: 2B55|public
+Seborrhea|ICD-11: ED91.2|public
+Senile lentigines|ICD-11: ED61.0|public
+Spontaneous abortion|ICD-11: JA00.0|public
+Stress|ICD-11: 6B40-6B45|public
+Substance use disorder|ICD-11: 6C4Z|public
+Testicular dysfunction|ICD-11: 5A81|public
+Tinnitus|ICD-11: MC41|public
+Upper respiratory infection|ICD-11: CA07|public
+Venous thrombosis|ICD-11: BA43|public
+Ventricular fibrillation|ICD-11: BC71.1|public
+Whooping cough|ICD-11: 1C12|public
+Wound healing|ICD-11: EL8Y|public
+X-linked chronic granulomatous disease|ICD-11: 4A00|public
+Abdominal stomach pain|ICD-11: DD91.4|public
+Acne vulgaris|ICD-11: ED80|public
+Acquired prion disease|ICD-11: 8E01|public
+Acute heart failure|ICD-11: BD10-BD13|public
+Acute lung injury|ICD-11: NB32.3|public
+Acute or chronic pain|ICD-11: MG30-MG31|public
+Adrenal adenoma|ICD-11: 2F37.Y|public
+Advanced solid tumour|ICD-11: 2A00-2F9Z|public
+Allergic/hypersensitivity disorder|ICD-11: 4A80-4A8Z|public
+Autoimmune disease|ICD-11: 4A40-4A45|public
+Binge eating disorder|ICD-11: 6B82|public
+Bone disease|ICD-11: FC0Z|public
+Bronchioalveolar carcinoma|ICD-11: 2C25.0|public
+Candidiasis|ICD-11: 1F23|public
+Cerebral salt-wasting syndrome|ICD-11: 5C72|public
+Christmas disease|ICD-11: 3B11|public
+Chronic periodontitis|ICD-11: DA0C.Y|public
+Clostridioides difficile infection|ICD-11: 1A04|public
+Condyloma|ICD-11: 1A95|public
+Conjunctiva disorder|ICD-11: 9A60|public
+Cryptococcal meningitis infection|ICD-11: 1D01.10|public
+Depression|ICD-11: 6A70-6A7Z|public
+Diabetic cataract|ICD-11: 9B10.21|public
+Dysbetalipoproteinemia|ICD-11: 5C80.2|public
+Eexposure to noxious substances harmful effect|ICD-11: NE61|public
+Essential tremor or related tremors|ICD-11: 8A04.1|public
+Factor IX deficiency|ICD-11: 3B11|public
+Folate deficiency anaemia|ICD-11: 3A02|public
+Gallbladder disease|ICD-11: DC11.3|public
+Gastroparesis|ICD-11: DA41.00|public
+Heart beat abnormality|ICD-11: MC81|public
+Heart failure|ICD-11: BD10-BD13|public
+Heart failure with reduced ejection fraction|ICD-11: BD11.2|public
+Histoplasma infection|ICD-11: 1F2A.Z|public
+Homocystinuria|ICD-11: 5C50.B|public
+Hookworm infection|ICD-11: 1F68|public
+Human papillomavirus infection|ICD-11: 1A9Y|public
+Huntington disease|ICD-11: 8A01.10|public
+Hyperglycemia|ICD-11: MA18.0|public
+Impacted cerumen|ICD-11: AA42|public
+Intermittent explosive disorder|ICD-11: 6C73|public
+Intestinal toxicities from therapy|ICD-11: DA94.1|public
+Leber congenital amaurosis|ICD-11: 9B70|public
+Leukopenia|ICD-11: 4B00.0Z|public
+Malignant pleural effusion|ICD-11: 2D72|public
+Middle East Respiratory Syndrome (MERS)|ICD-11: 1D64|public
+Muscle hypertonia|ICD-11: MB47.8|public
+Myelodysplastic syndrome|ICD-11: 2A37|public
+Myelopathy|ICD-11: 8B42|public
+Myotonic disorder|ICD-11: 8C71|public
+Neonatal respiratory distress|ICD-11: CB04.2|public
+Neurobehavioral disorder|ICD-11: 8A00-8A0Z|public
+Obesity|ICD-11: 5B80-5B81|public
+Open-angle glaucoma|ICD-11: 9C61|public
+Ophthalmic disease|ICD-11: 5A02.0|public
+Opioid use disorder|ICD-11: 6C43.2Z|public
+Peripheral arterial disease|ICD-11: BD4Z|public
+Premenstrual syndrome|ICD-11: GA34.40|public
+Preterm labour|ICD-11: JB00|public
+Propagation of disease by mosquito|ICD-11: 1C80-1D48|public
+Refractory hematologic malignancy|ICD-11: 2A85.5|public
+Reversal of the anticoagulant effects of dabigatran|ICD-11:N.A.|public
+Rosacea|ICD-11: ED90|public
+Seizure disorder|ICD-11: 8A6Z|public
+Semliki forest virus infection|ICD-11: 1D9Y|public
+Serious infection|ICD-11: 1H0Z|public
+Skin fungal infection disorder|ICD-11: EA60|public
+Skin infection|ICD-11: 1F28-1G0Z|public
+Small intestine motility disorder|ICD-11: DA93|public
+Solid tumour/cancer|ICD-11: 2A00-2F9Z|public
+Spinocerebellar ataxia|ICD-11: 8A03.16|public
+Synovial sarcoma|ICD-11: 2B5A|public
+Thrombotic microangiopathy|ICD-11: 3B65|public
+Trigeminal nerve disorder|ICD-11: 8B82|public
+Tuberous sclerosis|ICD-11: LD2D.2|public
+Typhoid fever|ICD-11: 1A07|public
+Urinary incontinence|ICD-11: MF50.2|public
+Vitamin K deficiency|ICD-11: 5B59|public
+XIAP deficiency|ICD-11: 4A01.22|public
+Abnormal urine serum electrolytes level|ICD-11: MF98|public
+Acute myeloid lymphoma|ICD-11: 2A80|public
+Acute repetitive seizure|ICD-11: 8A67|public
+Adenocarcinoma|ICD-11: 2D40|public
+Alopecia areata|ICD-11: ED70.2|public
+Alpha-mannosidosis|ICD-11: 5C56.21|public
+Anaplastic large cell lymphoma|ICD-11: 2A90.A|public
+Anaplastic mixed oligoastrocytoma|ICD-11: 2A00.0Y|public
+Anorexia nervosa|ICD-11: 6B80|public
+Astrocytoma|ICD-11: 2A00.0Y|public
+Blastomycosis|ICD-11: 1F22|public
+Body-focused behaviour disorder|ICD-11: 6B25|public
+Carcinoid syndrome|ICD-11: 5B10|public
+Cardiomegaly|ICD-11: BC45|public
+Central and peripheral nervous disease|ICD-11: 8A04-8E7Z|public
+Chronic HBV infection|ICD-11: 1E51.0Z|public
+Chronic low-back pain|ICD-11: MG30|public
+Chronic suppurative otitis media|ICD-11: AA91|public
+Colorectal cancer|ICD-11: 2B91.Z|public
+Corneal disease|ICD-11: 9A78.Z|public
+Cutaneous lupus erythematosus|ICD-11: EB50-EB5Z|public
+Disorder of calcium metabolism|ICD-11: 5C64.5|public
+Duodenal ulcer|ICD-11: DA63|public
+Dwarfism|ICD-11: 5B11|public
+Dysuria|ICD-11: MF50.7|public
+Ear disease|ICD-11: AA0Y-AC0Z|public
+Fallopian tube cancer|ICD-11: 2C74|public
+GM1 gangliosidosis|ICD-11: 5C56.00|public
+HCV-1 and HCV-4 infection|ICD-11: 1E51|public
+High cholesterol level|ICD-11: 5C80.0|public
+Hodgkin lymphoma|ICD-11: 2B30|public
+Hypernatremia|ICD-11: 5C71|public
+Hypophosphatemic rickets|ICD-11: 5C63.22|public
+Hypothyroidism|ICD-11: 5A00|public
+Immune System disease|ICD-11: 4A01-4B41|public
+Immune dysregulation|ICD-11: 4A01.2|public
+Insulinoma|ICD-11: 2C10.1|public
+Ischemia-reperfusion injury|ICD-11: DB98.B|public
+Liposarcoma|ICD-11: 2B59|public
+Medical abortion|ICD-11: JA00.1Z|public
+Microorganisms infection|ICD-11: 1A00-1A09|public
+Mineral-electrolyte metabolism disorder|ICD-11: 5C64|public
+Mitochondrial respiratory chain disease|ICD-11: 5C53.2|public
+Monogenic autoinflammatory syndrome|ICD-11: 4A60|public
+Muscle disease|ICD-11: FB3Z|public
+Narcotic depression|ICD-11: 6A7Z|public
+Nasopharyngeal carcinoma|ICD-11: 2B6B|public
+Neurofibromatosis type 1|ICD-11: LD2D.10|public
+Onychomycosis|ICD-11: EE12.1|public
+Ovarian epithelial cancer|ICD-11: 2C73|public
+Pachyonychia|ICD-11: EE10.3|public
+Palmoplantar pustulosis|ICD-11: EA90.42|public
+Paroxysmal nocturnal haemoglobinuria|ICD-11: 3A21|public
+Pediatric immunological disease|ICD-11: GB4Z|public
+Pediatric lennox-gastaut syndrome|ICD-11: 8A62.1|public
+Pouchitis|ICD-11: N.A.|public
+Progressive multifocal leukoencephalopathy|ICD-11: 8A45.02|public
+Proliferative vitreoretinopathy|ICD-11: 9B78.2|public
+Radiographic contrast medium|ICD-11: N.A.|public
+Recurring respiratory infection|ICD-11: CA07-CA45|public
+Sensation disturbance|ICD-11: MB40|public
+Severe asthma|ICD-11: CA23|public
+Sexually transmitted infection|ICD-11: 1A9Z|public
+Social anxiety disorder|ICD-11: 6B04|public
+Spine/trunk injury|ICD-11: ND51|public
+Squamous head and neck cell carcinom|ICD-11: 2D60.0|public
+Stargardt disease|ICD-11: 9B70|public
+Tension-type headache|ICD-11: 8A81|public
+Tuberculosis|ICD-11: 1B10-1B14|public
+Uveal Melanoma|ICD-11: 2D0Y|public
+Vasodilatation of extremities|ICD-11: EG00|public
+Venous leg ulcer|ICD-11: BD74.3|public
+Vitiligo|ICD-11: ED63.0|public
+Vitreoretinopathy|ICD-11: 9B78|public
+Vitreous body disorder|ICD-11: 9B8Z|public
+Vulvar squamous intraepithelial lesion|ICD-11: 2E66.1|public
+Zika virus infection|ICD-11: 1D48|public
+Abnormal micturition|ICD-11: MF50|public
+Acquired cutaneous blood vessel malformation|ICD-11: EF20|public
+Acute pain|ICD-11: MG31|public
+Adaptive immunity immunodeficiency|ICD-11: 4A01|public
+Adult respiratory distress syndrome|ICD-11: CB00|public
+Aging|ICD-11: MG2A|public
+Alcoholic hepatitis|ICD-11: DB94.1|public
+Amyloid cardiomyopathy|ICD-11: 5D00.20|public
+Anaemia|ICD-11: 3A90|public
+Antiphospholipid syndrome|ICD-11: 4A45|public
+Ascariasis|ICD-11: 1F62|public
+Bronchial asthma|ICD-11: CA23|public
+CLN6 disease|ICD-11: 5C56.1|public
+Caerulein stimulated gastric and pancreatic secretion|ICD-11: 5A4Y|public
+Calciphylaxis|ICD-11: EB90.42|public
+Cardiac events|ICD-11: MC82|public
+Cholelithiasis|ICD-11: DC11|public
+Cryptosporidiosis|ICD-11: 1A32|public
+Dental plaque|ICD-11: DA08.4|public
+Dercum disease|ICD-11: EF02.1|public
+Dermal neurofibromatoses|ICD-11: LD2D|public
+Desmoid tumour|ICD-11: 2F7C|public
+Diabetic kidney disease|ICD-11: GB61.Z|public
+Distal renal tubular acidosis|ICD-11: GB90.44|public
+Dizziness|ICD-11: MB48|public
+Enuresis|ICD-11: 6C00|public
+Escherichia coli infection|ICD-11: 1A03|public
+Food allergy|ICD-11: 4A85.2|public
+Gastrointestinal stromal tumour|ICD-11: 2B5B|public
+Gaucher disease|ICD-11: 5C56.0Y|public
+General pain disorder|ICD-11: 8E43|public
+Generalized anxiety disorder|ICD-11: 6B00|public
+Generalized pustular psoriasis|ICD-11: EA90.40|public
+Grade IV malignant glioma|ICD-11: 2A00.0|public
+Haemolytic anemia|ICD-11: 3A20-3A2Z|public
+Hair loss|ICD-11: ED70|public
+Hepatic veno-occlusive disease|ICD-11: DB98.6|public
+Hyperaldosteronism|ICD-11: 5A72|public
+Hyperinsulinemia|ICD-11: 5A4Y|public
+Hyperkinetic movement disorder|ICD-11: 6B60.8|public
+Hypocalcemia|ICD-11: 5B5K.1|public
+Hypocholesterolemia|ICD-11: 5C81|public
+Immunodeficiency|ICD-11: 4A00-4A85|public
+Inborn metabolism deficiency|ICD-11: 5C50-5C59|public
+Inflammation associated with osteoarthritis|ICD-11: FA00-FA05|public
+Insomnia|ICD-11: 7A00-7A0Z|public
+Legionella infection|ICD-11: 1C19|public
+Lesion|ICD-11: 8A00-8C12|public
+Magnesium intoxication|ICD-11: 5C64.4|public
+Malignant uterine tumour|ICD-11: 2C76.Z|public
+Menstrual cycle bleeding disorder|ICD-11: GA20|public
+Motor neurone disease|ICD-11: 8B60|public
+Myocardial fibrosis|ICD-11: BC43.20|public
+NSAID-associated gastric ulcer|ICD-11: DA60|public
+Narcolepsy type 2|ICD-11: 7A20.1|public
+Nervous system cancer|ICD-11: 2A00|public
+Neuroblastoma|ICD-11: 2D11.2|public
+Occlusive coronary artery disease|ICD-11: BA80|public
+Osteoporosis|ICD-11: FB83.0|public
+Paroxysmal nocturnal haemoglobinuria|ICD-11: 3A21.0|public
+Phospholipid syndrome|ICD-11: 4A45|public
+Platelet aggregation disorder|ICD-11: 3B62|public
+Postoperative pain|ICD-11: MG30-MG3Z|public
+Primary biliary cirrhosis|ICD-11: DB96.1|public
+Progressive familial intrahepatic cholestasis|ICD-11: 5C58.03|public
+Radiculopathy|ICD-11: 8B93|public
+Recurrent malignant glioma|ICD-11: 2A00.0|public
+Refractory chronic myeloid leukaemia|ICD-11: 2A20|public
+Rheumatic fever|ICD-11: 1B40|public
+Rheumatoid arthritis|ICD-11: FA20|public
+Rickets|ICD-11: 5B57|public
+Small-cell lung cancer|ICD-11: 2C25.Y|public
+Stomach cancer|ICD-11: 2B72|public
+Systemic sclerosis|ICD-11: 4A42|public
+T-cell mediated immune dysfunction|ICD-11: 4A01.1Y|public
+Therapeutic intestinal toxicity|ICD-11: DA94|public
+Type-2 diabetes|ICD-11: 5A11|public
+Uterine ligament/parametrium/uterine adnexa neoplasm|ICD-11: 2C72|public
+Weight loss|ICD-11: MG43.5|public
+X-linked retinoschisis|ICD-11: 9B73.11|public
+AIDS-related lymphoma|ICD-11: 2B33.5|public
+Acute bronchial asthma|ICD-11: CA23|public
+Alcohol use disorder|ICD-11: 6C40.2|public
+Alkalosis|ICD-11: 5C74|public
+Allergic contact dermatitis|ICD-11: EK00|public
+Alveolar soft part sarcoma|ICD-11: 2A60-2C35|public
+Alzheimer's dementia|ICD-11: 6D80|public
+Anaerobic bacterial infection|ICD-11: 1A00-1A09|public
+Anal intraepithelial neoplasia|ICD-11: 2E92.5|public
+Angiosarcoma|ICD-11: 2B56|public
+Atherosclerosis|ICD-11: BD40|public
+Autosomal dominant hypocalcemia|ICD-11: 5A50.0Y|public
+Azoospermia|ICD-11: GB04.0|public
+Bone cancer|ICD-11: 2B5Z|public
+Candidemia|ICD-11: 1F23.3Y|public
+Canine and feline spontaneous neoplasm|ICD-11: 2A00-2F9Z|public
+Carotid artery disease|ICD-11: 8B10|public
+Chronic cough|ICD-11: MD12|public
+Chronic pancreatitis|ICD-11: DC32|public
+Chronic plaque psoriasis|ICD-11: EA90.0|public
+Circulatory system disease|ICD-11: BE2Z|public
+Corneal deformity|ICD-11: 9A78.5|public
+Coronary ischemia|ICD-11: BA50-BA51|public
+Diarrhea|ICD-11: DA90|public
+Dissociative neurological symptom disorder|ICD-11: 6B60|public
+Dystonia|ICD-11: 8A02|public
+Endocarditis|ICD-11: BB40-BA42|public
+Essential hypertension|ICD-11: BA00|public
+Factor VII deficiency|ICD-11: 3B14|public
+Fetal growth restriction|ICD-11: KA20.1Z|public
+Frailty|ICD-11: MG2A|public
+Functional bowel disorder|ICD-11: DD91|public
+Graves disease|ICD-11: 5A02.0|public
+Head-neck squamous cell carcinoma|ICD-11: 2D60.0|public
+Heavy metal poisoning|ICD-11: NE60|public
+Hemangiosarcoma|ICD-11: 2B56.1|public
+Hyperphenylalaninemia|ICD-11: 5C50|public
+Hypertensive emergency|ICD-11: BA03|public
+Hypo-parathyroidism|ICD-11: 5A50|public
+Hypopharyngeal cancer|ICD-11: 2B6D|public
+Intracerebral haemorrhage|ICD-11: 8B00|public
+Junin virus infection|ICD-11: 1D6Y|public
+Keloid|ICD-11: EE60|public
+Keratoconjunctivitis sicca|ICD-11: 9A79|public
+Klebsiella infection|ICD-11: 1C4Y|public
+Lambert-Eaton syndrome|ICD-11: 8C62|public
+Lipoatrophy/lipodystrophy|ICD-11: EF01|public
+Lips/oral mucosa miscellaneous disorder|ICD-11: DA02|public
+Malignant digestive organ neoplasm|ICD-11: 2C11|public
+Myelodysplastic malignancy|ICD-11: 2A44|public
+Neurogenic orthostatic hypotension|ICD-11: 8D87.0Y|public
+Non-alcoholic fatty liver disease|ICD-11: DB92|public
+Non-small-cell lung cancer|ICD-11: 2C25|public
+Nontraumatic intracerebral hemorrhage|ICD-11: 8B00.4|public
+Paralysis|ICD-11: 8B60|public
+Parasitic infection|ICD-11: 1D0Y-1G2Z|public
+Pervasive developmental disorder|ICD-11: 6A00-6A0Z|public
+Pulmonary hypertension|ICD-11: BB01|public
+Respiratory infection|ICD-11: CA07-CA4Z|public
+Retrovirus infection|ICD-11: 1D9Y|public
+Reversal of anticoagulation|ICD-11: N.A.|public
+Rheumatic fever|ICD-11: 1B40-1B42|public
+Spinal disease|ICD-11: FA72|public
+Staphylococcal/streptococcal disease|ICD-11: 1B5Y|public
+Streptococcal B infection|ICD-11: 1G40|public
+Urethral cancer|ICD-11: 2C93|public
+Vaginitis|ICD-11: GA02|public
+Vision impairment|ICD-11: 9D90|public
+Warm autoimmune hemolytic anemia|ICD-11: 3A20.0|public
+Acquired hypomelanotic disorder|ICD-11: ED63|public
+Acute leukaemia|ICD-11: 2A60|public
+Addictive disorder|ICD-11: 6C50-6C5Z|public
+Allergic asthma|ICD-11: CA23.0|public
+Anabolic metabolism|ICD-11: 5C50-5C8Z|public
+Angelman syndrome|ICD-11: LD90.0|public
+Angiogenesis disorder|ICD-11: BE2Z|public
+Appendicitis|ICD-11: DB10|public
+Atopic dermatitis|ICD-11: EA80|public
+Blood chemistry clinical sympton|ICD-11: MA18|public
+Canavan disease|ICD-11: 5C50.E1|public
+Cardiac arrhythmia|ICD-11: BC9Z|public
+Cerebral amyloid angiopathy|ICD-11: 5D00.0|public
+Chronic back pain|ICD-11: ME86|public
+Chronic kidney disease|ICD-11: GB61|public
+Chronic myelomonocytic leukaemia|ICD-11: 2A40|public
+Claudication|ICD-11: FA11|public
+Contrast medium for intravenous urography|ICD-11: GC2Z|public
+Cough|ICD-11: MD12|public
+Deafness|ICD-11: AB52|public
+Dysmenorrhea|ICD-11: GA34.3|public
+Dysrhythmias|ICD-11: BC9Z|public
+Elevated Lipoprotein(a)|ICD-11: 5C80.1|public
+Entamoeba histolytica infection|ICD-11: 1A36.Z|public
+Enterococcus faecium infection|ICD-11: 1D01.0Y|public
+Episode|ICD-11: N.A.|public
+Euvolemic hyponatremia|ICD-11: 5C72|public
+Female pelvic pain|ICD-11: GA34|public
+Fibrosis|ICD-11: GA14-GC01|public
+Filarial disease|ICD-11: 1F66|public
+Folate-deficiency anemia|ICD-11: 3A02.Y|public
+Gastritis|ICD-11: DA42|public
+Genital organ in situ carcinoma|ICD-11: 2E67|public
+Head and body lice|ICD-11: 1G00.0|public
+Helminth infection|ICD-11: 1F90.0|public
+Hereditary spinocerebellar ataxia|ICD-11: 8A03.1|public
+Herniation disk|ICD-11: ND51.2|public
+Heroin and opiate withdrawal|ICD-11: 6C43|public
+Hyperoxaluria|ICD-11: 5C51.2|public
+Hyperthyroidism|ICD-11: 5A02|public
+Inflammatory liver disease|ICD-11: DB97|public
+Intractable insomnia|ICD-11: 7A00|public
+Iron deficiency|ICD-11: 5B5K.0|public
+Irregularities|ICD-11: N.A.|public
+Liver disease|ICD-11: DB90-DB9Z|public
+Lumbosacral radiculopathy|ICD-11: 8B93.Y|public
+Lupus|ICD-11: 4A40|public
+Macular degeneration|ICD-11: 9B78.3|public
+Menorrhagia|ICD-11: GA20.50|public
+Methylmalonic acidemia|ICD-11: 5C50.E0|public
+Myocardial hypertrophy|ICD-11: BC45|public
+Necrotizing enterocolitis of newborn|ICD-11: KB88|public
+Obsessive compulsive disorder|ICD-11: 6B20|public
+Orthostatic hypotension|ICD-11: BA21|public
+Otitis media|ICD-11: AA80-AB0Z|public
+Overactive bladder|ICD-11: GC50.0|public
+Pancreatic malfunction|ICD-11: DC30-DC3Z|public
+Paroxysmal supraventricular tachycardia|ICD-11: BC81.Z|public
+Pediatric attention deficit hyperactivity disorder|ICD-11: 6A05|public
+Peptic ulcer|ICD-11: DA61|public
+Periodontitis|ICD-11: DA0C|public
+Peripheral ischemia|ICD-11: BD30-BD40|public
+Peripheral neuropathy|ICD-11: 8C0Z|public
+Plant grey mould disease|ICD-11: N.A.|public
+Pleural effusion|ICD-11: CB27|public
+Postoperative ileus|ICD-11: DA91-DB30|public
+Postpartum depression|ICD-11: 6E20.0|public
+Psychoactive substances use disorder|ICD-11: 6C4G|public
+Pyloric stenosis|ICD-11: DA40.0|public
+Raynaud disease|ICD-11: BD42.0|public
+Restless legs syndrome|ICD-11: 7A80|public
+Retina disorder|ICD-11: 9B70-9B7Z|public
+River blindness|ICD-11: 1F6A.0|public
+Rotavirus infection (Diarrhoea)|ICD-11: ME05.1|public
+Seborrhoeic dermatitis|ICD-11: EA81|public
+Skin photodamage|ICD-11: EJ40|public
+Snakebite|ICD-11: N.A.|public
+Subarachnoid hemorrhage|ICD-11: 8B01|public
+Unspecific infection|ICD-11: 1H0Z|public
+Unspecific substance harmful effect|ICD-11: NE6Z|public
+Venous thromboembolism|ICD-11: BD72|public
+Visual system disease|ICD-11: 9E1Z|public
+Vulvar intraepithelial neoplasia|ICD-11: 2E67.10|public
+facioscapulohumeral muscular dystrophy|ICD-11: 8C70|public
+kidney/ureter disorder|ICD-11: GB90|public
+Acute and chronic heart failure|ICD-11: BD1Z|public
+Advanced stage follicular lymphoma|ICD-11: 2A80|public
+Alcoholic cirrhosis of liver|ICD-11: DB94|public
+Angina pectoris|ICD-11: BA40|public
+Asbestosis|ICD-11: CA60.2|public
+Athylene glycol or methanol poisoning|ICD-11: NE61|public
+Bradycardia|ICD-11: MC81.1|public
+Breast cancer|ICD-11: 2C60-2C6Y|public
+Calcific uremic arteriolopathy|ICD-11: EB90|public
+Carcinoma|ICD-11: 2A00-2F9Z|public
+Centronuclear myopathy|ICD-11: 8C72.01|public
+Cerebral ischaemia|ICD-11: 8B1Z|public
+Cerebral vasodilator|ICD-11: BA00-BE2Z|public
+Cluster headache|ICD-11: 8A81.0|public
+Corticobasal degeneration|ICD-11: 8A00.1Y|public
+Cystinuria|ICD-11: 5C60.2|public
+Delayed gastric emptying|ICD-11: DA41.00|public
+Diarrhea|ICD-11: ME05.1|public
+Disseminated intravascular coagulation|ICD-11: 3B20|public
+Ectodermal dysplasia|ICD-11: LD27.0|public
+Encephalopathy|ICD-11: 8E47|public
+Eosinophilic asthma|ICD-11: CB02.0|public
+Epstein barr virus infection|ICD-11: 1C80|public
+Fibrolamellar liver cancer|ICD-11: 2C12.02|public
+Focal/segmental autonomic disorder|ICD-11: 8D8A|public
+Gastric secretory disorder|ICD-11: DD90|public
+Glaucoma|ICD-11: 9C61|public
+Graft rejection|ICD-11: NE84|public
+Hereditary tyrosinemia type 1|ICD-11: 5C50.11|public
+Hyperbilirubinemia|ICD-11: 5C58|public
+Idiopathic pulmonary fibrosis|ICD-11: CB03.4|public
+Imaging|ICD-11: QA0B|public
+Inflammatory polyneuropathy|ICD-11: 8C01|public
+Influenza|ICD-11: 1E30-1E32|public
+Innate/adaptive immunodeficiency|ICD-11: 4A00|public
+Invasive prostate cancer|ICD-11: 2C82|public
+Lactose intolerance|ICD-11: 5C61.6|public
+Ligneous conjunctivitis|ICD-11: 9A02.2|public
+Lysosomal disease|ICD-11: 5C56|public
+Metastatic melanoma|ICD-11: 2E2Z|public
+Mineral excesses|ICD-11: 5B91|public
+Organophosphate poisoning|ICD-11: NE6Z|public
+Pediculus capitis infestation|ICD-11: 1G00.0|public
+Pemphigoid|ICD-11: EB41|public
+Periodontal disease|ICD-11: DA0C|public
+Peritoneal cancer|ICD-11: 2C51|public
+Pheochromocytoma|ICD-11: 5A75|public
+Postpartum haemorrhage|ICD-11: JA43|public
+Precursor B-lymphoblastic neoplasm|ICD-11: 2A70|public
+Pulmonary and extrapulmonary tuberculosis|ICD-11: 1B10.Z|public
+Renal failure|ICD-11: GB60-GB6Z|public
+Retinopathy|ICD-11: 9B71|public
+Salmonella infection|ICD-11: 1A09|public
+Sarcoptes scabiei infection|ICD-11: 1G04|public
+Skin pigmentation genetic disorder|ICD-11: EC23|public
+Soft tissue sarcoma|ICD-11: 2B57|public
+Spider veins|ICD-11: EF20|public
+Staining|ICD-11: N.A.|public
+Steatohepatitis|ICD-11: DB92|public
+Stress urinary incontinence|ICD-11: MF50.20|public
+Synthesis disorder|ICD-11: 5C52-5C59|public
+Traveler's diarrhea|ICD-11: ME05.1|public
+Upper respiratory tract disorder|ICD-11: CA0Z|public
+Uremic pruritus|ICD-11: EC90.10|public
+Urogenital cancer|ICD-11: 2C95-2C9Z|public
+Vaccination|ICD-11: N.A.|public
+Viral intestinal infection|ICD-11: 1A2Z|public
+Vitamin deficiency|ICD-11: 5B55-5B71|public
+Wet age-related macular degeneration|ICD-11: 9B78.3Z|public
+X-linked hypophosphataemia|ICD-11: 5C63.22|public
+rubella|ICD-11: 1F02|public
+Abdominal aortic aneurysm|ICD-11: BD50.4|public
+Acid-reflux disorder|ICD-11: DA22|public
+Acromegaly|ICD-11: 5A60.0|public
+Amnesia|ICD-11: MB21.1|public
+Argininosuccinate synthase deficiency|ICD-11: 5C50.A3|public
+Arthritis|ICD-11: FA20|public
+Attention deficit hyperactivity disorder|ICD-11: 6A05.Z|public
+Autosomal recessive congenital ichthyosis|ICD-11: EC20.02|public
+Basal cell carcinoma|ICD-11: 2C32|public
+Behcet disease|ICD-11: 4A62|public
+Bile duct disease|ICD-11: LB20|public
+Bladder cancer|ICD-11: 2C94|public
+Botulism|ICD-11: 1A11|public
+Candidosis|ICD-11: 1F23|public
+Central nervous system disease|ICD-11: 8A04-8D87|public
+Cerebral ischemia|ICD-11: 8B11|public
+Cervical intraepithelial neoplasia|ICD-11: 2E66|public
+Chronic obstructive pulmonary disease|ICD-11: CA22|public
+Clear cell sarcoma|ICD-11: 2A60-2C35|public
+Congenital structural myopathy|ICD-11: 8C72.0|public
+Constipation|ICD-11: DD91.1|public
+Corneal disease|ICD-11: 9A76-9A78|public
+Cystinosis|ICD-11: 5C60.1|public
+Cytomegalovirus retinitis|ICD-11: 9B72.00|public
+Dilated cardiomyopathy|ICD-11: BC43.0|public
+Discoid lupus erythematosus|ICD-11: EB51.0|public
+Drug abuse|ICD-11: 6C4G.1Z|public
+Embolism|ICD-11: JB42|public
+Esophagogastric junction neoplasm|ICD-11: 2B71|public
+Excessive sweating|ICD-11: EE00.Z|public
+HER2-positive metastatic breast cancer|ICD-11: 2C60-2C65|public
+Hepatic fibrosis|ICD-11: DB93.0|public
+Hereditary acantholytic dermatoses|ICD-11: EC20.2|public
+Hereditary angioedema|ICD-11: 4A00.14|public
+Hughes syndrome|ICD-11: 4A45.Z|public
+Hypertension|ICD-11: BA00-BA04|public
+Hypogonadism|ICD-11: 5A61.0|public
+Increase blood pressure|ICD-11: BA04|public
+Inflammatory arthropathy|ICD-11: FA2Z|public
+Insulin-dependent diabetes|ICD-11: 5A10|public
+Interstitial lung disease|ICD-11: CB0Z|public
+Intracranial injury|ICD-11: NA07|public
+Intradialytic hypotension|ICD-11: BA20-BA21|public
+Ischaemic heart disease|ICD-11: BA6Z|public
+Joint pain|ICD-11: ME82|public
+Leber hereditary optic neuropathy|ICD-11: 8C73.Y|public
+Lichen planus|ICD-11: EA91|public
+Malignant glioma|ICD-11: 2A00.0|public
+Malignant haematopoietic neoplasm|ICD-11: 2B33|public
+Malignant intestine neoplasm|ICD-11: 2C0Z|public
+Manic depression disorder|ICD-11: 6A71|public
+Menopause symptom|ICD-11: GA30.0|public
+Metastatic malignant neoplasm|ICD-11: 2D50-2E09|public
+Middle East Respiratory Syndrome|ICD-11: 1D64|public
+Mucopolysaccharidosis II|ICD-11: 5C56.31|public
+Musculoskeletal pain|ICD-11: MG30|public
+Myasthenia gravis|ICD-11: 8C6Y|public
+Myeloid leukaemia|ICD-11: 2B33.1|public
+Nephritis|ICD-11: GB40|public
+Night blindness|ICD-11: 9D45|public
+Obstructive sleep apnea|ICD-11: 7A41|public
+Ocular hypertension|ICD-11: 9C61.01|public
+Oesophageal/gastroduodenal disorder|ICD-11: DD90|public
+Old age|ICD-11: MG2A|public
+Paramyxovirus infection|ICD-11: 1C8E.Y|public
+Parathyroid disease|ICD-11: 5A50-5A5Z|public
+Perennial allergic rhinitis|ICD-11: CA08.03|public
+Peritoneal carcinomatosis|ICD-11: 2D91|public
+Pontocerebellar hypoplasia type 6|ICD-11: LD20.01|public
+Porphyria|ICD-11: 5C58.1|public
+Pulmonary tuberculosis|ICD-11: 1B10.Z|public
+Radionuclide imaging|ICD-11: N.A.|public
+Renal cell carcinoma|ICD-11: 2C90|public
+Respiratory tract infection|ICD-11: CA45|public
+Scar conditions|ICD-11: QB83|public
+Senile dementia|ICD-11: 6D8Z|public
+Skin cancer|ICD-11: 2C30-2C37|public
+Smoking dependence|ICD-11: 6C4A.2|public
+Squamous cell anal carcinoma|ICD-11: 2C00.3|public
+Squamous cell carcinoma|ICD-11: 2B60-2D01|public
+Syndromic genetic deafness|ICD-11: LD2H|public
+Thought content symptom|ICD-11: MB26|public
+Transplanted organ/tissue|ICD-11: QB63|public
+Type 2 diabetes mellitus|ICD-11: 5A11|public
+Urinary retention|ICD-11: MF50.3|public
+Various major chronic disease|ICD-11: N.A.|public
+Verruca vulgaris|ICD-11: 1E80|public
+Von willebrand disease|ICD-11: 3B12|public
+Acute disease anaemia|ICD-11: 3A90|public
+Acute iron or aluminum toxicity|ICD-11: FB83.20|public
+Acute/subacute hepatic failure|ICD-11: DB91|public
+Adenosine deaminase defciency|ICD-11: 4A01.1|public
+Advanced sarcoma|ICD-11: 2A60-2C35|public
+Amoebiasis|ICD-11: 1A36|public
+Atrophic vaginitis|ICD-11: GA30.2|public
+Autonomic nervous system disorder|ICD-11: 8D87|public
+B-cell small lymphocytic lymphoma|ICD-11: 2A82.0|public
+Blood vessel proliferative disorder|ICD-11: BE2Z|public
+Bone paget disease|ICD-11: FB85|public
+Cerebral ischaemic stroke|ICD-11: 8B11|public
+Chronic breathing disorder|ICD-11: 7A4Z|public
+Chronic diarrhoea|ICD-11: 1A36.0Z|public
+Cocaine use disorder|ICD-11: 6C45|public
+Crohn disease|ICD-11: DD70|public
+Dermatitis herpetiformis|ICD-11: EB44|public
+Enterovirus infection|ICD-11: 1D91|public
+Epidermolysis bullosa|ICD-11: EC3Z|public
+Gram-positive bacterial infection|ICD-11: 1B74-1F40|public
+HER2-positive breast cancer|ICD-11: 2C60-2C65|public
+Haemorrhoids|ICD-11: DB60|public
+Headache|ICD-11: 8A80-8A84|public
+Hearing disorder|ICD-11: AB50-AB57|public
+Hepatic failure|ICD-11: DB99.7|public
+Hypercalcaemia|ICD-11: 5B91.0|public
+Hyperprolactinaemia|ICD-11: 5A60.1|public
+Inborn purine/pyrimidine/nucleotide metabolism error|ICD-11: 5C55|public
+Inclusion body myositis|ICD-11: 4A41.2|public
+Inflammatory spondyloarthritis|ICD-11: FA92|public
+Intra ocular pressure reduction|ICD-11: 9C40|public
+Ischemic stroke|ICD-11: 8B11.5Z|public
+Keratosis pilaris|ICD-11: ED56|public
+Malignant lymphatic|ICD-11: 2A82|public
+Measure kidney function|ICD-11: MG02|public
+Menopausal and postmenopausal disorder|ICD-11: GA30|public
+Merkel cell carcinoma|ICD-11: 2C34|public
+Metastatic lung neoplasm|ICD-11: 2D70|public
+Morquio syndrome|ICD-11: 5C56.32|public
+Mucopolysaccharidosis I|ICD-11: 5C56.30|public
+Mycose|ICD-11: 1F2Z|public
+Nasopharyngeal cancer|ICD-11: 2B6B|public
+Neuropathic pain|ICD-11: 8E43.0|public
+Ocular infection|ICD-11: 1F00.1|public
+Ocular inflammation|ICD-11: 9C61.24|public
+Oral cavity/oesophagus/stomach in situ carcinoma|ICD-11: 2E60|public
+Orgasmic dysfunction|ICD-11: HA02|public
+Osteoarthritis pain|ICD-11: MG30.31|public
+Otitis externa|ICD-11: AA00-AA13|public
+Ovarian developmental anomaly|ICD-11: LB45|public
+Painful bladder syndrome|ICD-11: MG30.50|public
+Pancreatitis|ICD-11: DC31-DC34|public
+Paroxysmal atrial fibrillation|ICD-11: BC81.30|public
+Peanut hypersensitivity|ICD-11: 4A83|public
+Pediatric growth disorder|ICD-11: FB86|public
+Penile cancer|ICD-11: 2C81|public
+Peripheral T-cell lymphoma|ICD-11: 2A90.C|public
+Phlebothrombosis|ICD-11: GB90.3|public
+Pituitary adenoma|ICD-11: 2F37.0|public
+Plantar wart|ICD-11: 1E80.1|public
+Procedural sedation|ICD-11: JB0C.3|public
+Pustular palmoplantar psoriasis|ICD-11: EA90|public
+Retinal vascular occlusion|ICD-11: 9B74|public
+Shigella infection|ICD-11: 1A02|public
+Short bowel syndrome|ICD-11: KB89.1|public
+Sjogren syndrome|ICD-11: 4A43.20|public
+Small lymphocytic lymphoma|ICD-11: 2A82.0|public
+Spinal anesthesia|ICD-11: MB40.3|public
+Stomach ulcer|ICD-11: DA60.Z|public
+Subcutaneous fat disorder|ICD-11: EF02|public
+T-cell leukaemia|ICD-11: 2A90|public
+Tachyarrhythmias|ICD-11: BC71|public
+Throat irritation|ICD-11: CA0Y|public
+Thyrotoxicosis|ICD-11: 5A02|public
+Tic disorder|ICD-11: 8A05|public
+Tularemia|ICD-11: 1B94|public
+Uterine fibroids|ICD-11: 2E86.0|public
+Vasomotor/allergic rhinitis|ICD-11: CA08|public
+Vitamin E deficiency|ICD-11: 5B58|public
+Acute supraventricular tachycardia|ICD-11: BC81|public
+Alcoholic liver disease|ICD-11: DB94|public
+Alexander disease|ICD-11: 8A44.2|public
+Anal fissure|ICD-11: DB50.0|public
+Aortic valve stenosis|ICD-11: BB70|public
+Atopic eczema|ICD-11: EA80|public
+BCR-ABL1-negative chronic myeloid leukaemia|ICD-11: 2A41|public
+Benign prostatic hyperplasia|ICD-11: GA90|public
+Bone/articular cartilage neoplasm|ICD-11: 2F7B|public
+Bulimia nervosa|ICD-11: 6B81|public
+Burkitt cell leukaemia|ICD-11: 2A85.6|public
+COVID-19|ICD-11: 1D6Y|public
+Carbohydrate metabolism disorder|ICD-11: 5C51.Z|public
+Cas mediated disorder|ICD-11: N.A.|public
+Cerebral infarction|ICD-11: 8B11.5Z|public
+Chemotherapy-induced nausea|ICD-11: MD90|public
+Chronic liver disease|ICD-11: DB99.0|public
+Cryptosporidium infection|ICD-11: 1A32|public
+Deep venous clot|ICD-11: BD71|public
+Disuse muscle atrophy|ICD-11: 8B61|public
+Episodic vestibular syndrome|ICD-11: AB31|public
+Erythropoietic protoporphyria|ICD-11: 5C58.12|public
+Familial amyloid polyneuropathy|ICD-11: 5D00.20|public
+Female genital tract inflammatory disorder|ICD-11: GA0Z|public
+Female genital tract noninflammatory disorder|ICD-11: GA1Y|public
+Fragile X chromosome|ICD-11: LD55|public
+Gonorrhea|ICD-11: 1A7Z|public
+HIV-associated dementia|ICD-11: 6D85.3|public
+Haemostatic astringent|ICD-11: MG27|public
+Herpes simplex labialis|ICD-11: 1F00.01|public
+Hyperlipidemia|ICD-11: 5C80.Z|public
+Insulin-resistance syndrome|ICD-11: 5A44|public
+Ischemic reperfusion injury|ICD-11: DB98.B|public
+Kidney disease|ICD-11: GC2Z|public
+Lassa fever|ICD-11: 1D61.2|public
+Leiomyosarcoma|ICD-11: 2B58|public
+Malignant primary brain tumour|ICD-11: 2A00.0|public
+Mantle cell lymphoma|ICD-11: 2A85.5|public
+Metabolic bone disease|ICD-11: FB8Y|public
+Metabolic syndrome x|ICD-11: 5C50-5D2Z|public
+Mineral absorption/transport disorder|ICD-11: 5C64|public
+Mitochondrial myopathy|ICD-11: 8C73|public
+Mixed connective tissue disease|ICD-11: 4A43.3|public
+Muscle spasm|ICD-11: MB47.3|public
+Mycosis fungoides|ICD-11: 2B01|public
+Myelodysplastic neoplasm|ICD-11: 2A60|public
+Myeloproliferative neoplasm|ICD-11: 2A20|public
+Neurotoxicity|ICD-11: NE61|public
+Niemann-pick disease|ICD-11: 5C56.0Y|public
+Opioid-induced constipation|ICD-11: DB32.1|public
+Oral candidiasis|ICD-11: 1F23.0|public
+Plaque psoriasis|ICD-11: EA90.0|public
+Pneumococcal infection|ICD-11: CA00-CA40|public
+Polycystic ovarian syndrome|ICD-11: 5A80.1|public
+Primary ciliary dyskinesia|ICD-11: LA75.Y|public
+Primary progressive multiple sclerosis|ICD-11: 8A40.1|public
+Respiratory distress syndrome|ICD-11: CB00|public
+Reversal of the anticoagulant effects of dabigatran|ICD-11: N.A|public
+Salmonella infection|ICD-11: 1A08|public
+Sarcoma|ICD-11: 2A60-2C35|public
+Scar tissue|ICD-11: QB83|public
+Sebaceous gland disease|ICD-11: EM0Z|public
+Sexual dysfunction|ICD-11: HA00-HA01|public
+Sickle-cell anaemia|ICD-11: 3A51|public
+Sjogren-Larsson syndrome|ICD-11: 5C52.03|public
+Skin fibrosis|ICD-11: EM0Z|public
+Skin metastasis|ICD-11: 2D50|public
+Somatotropin deficiency|ICD-11: 5A61.0|public
+Spinal muscular atrophy|ICD-11: 8B61|public
+Sunburn|ICD-11: EJ40|public
+Thalassaemia|ICD-11: 3A50|public
+Tumour|ICD-11: 2A00-2F9Z|public
+Varicella zoster virus infection|ICD-11: 1E91|public
+Visceral leishmaniasis|ICD-11: 1F54.0|public
+Zoonotic viral disease|ICD-11: 1D6Y|public
+chronic rhinosinusitis with nasal polyps|ICD-11: CA0A|public
+Acute pyelonephritis|ICD-11: GB51|public
+Advanced/metastatic breast cancer|ICD-11: 2C60|public
+Aggressive cancer|ICD-11: 2A00-2F9Z|public
+Alopecia|ICD-11: ED70|public
+Anal cancer|ICD-11: 2C00|public
+Atrial fibrillation|ICD-11: BC81.3|public
+Atrophy|ICD-11: 9A2Y-9C40|public
+Beta thalassemia|ICD-11: 3A50.2|public
+Blood forming organ disorder|ICD-11: JB64.1|public
+Bullous pemphigoid|ICD-11: EB41.0|public
+Carcinoid syndrome diarrhea|ICD-11: DA90.0|public
+Cardiac arrhythmias|ICD-11: BC9Z|public
+Central nervous system lymphoma|ICD-11: 2B33.5|public
+Cerebral oedema in diabetic ketoacidosis|ICD-11: 8D60.1|public
+Cerebral vasospasm|ICD-11: BA85.Z|public
+Cholestasis of parenteral nutrition|ICD-11: DB99.60|public
+Cholesterol metabolism disorder|ICD-11: 5C8Z|public
+Chronic bronchitis|ICD-11: CA20.1|public
+Chronic glaucoma|ICD-11: 9C61.0Z|public
+Chronic rhinosinusitis|ICD-11: CA0A|public
+Complete androgen insensitivity syndrome|ICD-11: LD2A.4|public
+Conjunctival fibrosis|ICD-11: 9A61.3|public
+Depressive fatigue|ICD-11: MG22|public
+Dietary shortage|ICD-11: 5B5K|public
+ER-positive breast cancer|ICD-11: 2C60-2C65|public
+Epilepsy/seizure|ICD-11: 8A61-8A6Z|public
+Escherichia coli intestinal infection|ICD-11: 1A03|public
+Fragrance/cosmetics phototoxic reaction|ICD-11: EK20|public
+Gingival/edentulous alveolar ridge disorder|ICD-11: DA0D|public
+Haemophilus influenza|ICD-11: 1G40|public
+Heart disease|ICD-11: BA41-BA42|public
+Helicobacter infection|ICD-11: DA42-DA63|public
+Hepatitis B virus infection|ICD-11: 1E51.0|public
+Hyper-parathyroidism|ICD-11: 5A51|public
+Immune system disease|ICD-11: 4A01-4B41|public
+Inborn homocystinuria|ICD-11: 5C50|public
+Joint derangement|ICD-11: FA34|public
+Keloid/hypertrophic scar|ICD-11: EE60|public
+Kidney injury|ICD-11: NB92.0|public
+Large cell lymphoma|ICD-11: 2A80.Z|public
+Magnetic resonance imaging of liver|ICD-11: ME21|public
+Malnutrition|ICD-11: 5B50-5B71|public
+Maple-syrup-urine disease|ICD-11: 5C50.D0|public
+Mature B-cell leukaemia|ICD-11: 2A82|public
+Mild neurocognitive disorder|ICD-11: 6D71|public
+Motor symptoms|ICD-11: 6A25.4|public
+Muscle wasting disease|ICD-11: 8E4A.3|public
+Optic nerve disorder|ICD-11: 9C40|public
+Paget's disease|ICD-11: FB85|public
+Pancreas disease|ICD-11: DC35-DC3Z|public
+Peripheral arterial occlusive disorder|ICD-11: BD4Z|public
+Peripheral sensory neuropathies|ICD-11: LD27.3|public
+Pleural mesothelioma|ICD-11: 2C26|public
+Pneumonia|ICD-11: CA40|public
+Poliovirus infection|ICD-11: 1C8Y|public
+Polyuria|ICD-11: MF55|public
+Preprocedural examination|ICD-11: QA0B|public
+Primary hypercholesterolemia|ICD-11: 5C80.00|public
+Proliferative lupus nephritis|ICD-11: 4A40|public
+Recurrent herpes labialis|ICD-11: 1F00.01|public
+Respiratory system disease|ICD-11: CB40-CB7Z|public
+Sebaceous gland disorder|ICD-11: ED91|public
+Sezary syndrome|ICD-11: 2B02|public
+Short stature|ICD-11: 5B11|public
+Spinal cerebellar ataxia type 3|ICD-11: 8A03|public
+Spinocerebellar ataxia type 3|ICD-11: 8A03.16|public
+Stomach disease|ICD-11: DA43-DA4Y|public
+Suprapubic pain|ICD-11: MG30-MG3Z|public
+Symptomatic vitreomacular adhesion|ICD-11: 9B8Z|public
+Tetanus|ICD-11: 1C13|public
+Trichuriasis|ICD-11: 1F6G|public
+Type-1 diabetes|ICD-11: 5A10|public
+Urinary tract disease|ICD-11: GC2Z|public
+Vaginal discharge|ICD-11: MF3A|public
+Vitamin deficiency|ICD-11: 5B55-5B5F|public
+Vitamin/non-protein cofactor absorption/transport disorder|ICD-11: 5C63|public
+Xerostomia|ICD-11: DA02.1|public
+Acquired methemoglobinemia|ICD-11: 3A93|public
+Allergic inflammation|ICD-11: 4A80-4A85|public
+Alzheimer disease|ICD-11: 8A20|public
+Arterial calcification|ICD-11: BD52.Y|public
+B-lineage leukaemia|ICD-11: 2A82.1|public
+Bone resorption|ICD-11: FC0Z|public
+Cannabis use disorder|ICD-11: 6C41|public
+Chagas disease|ICD-11: IF53|public
+Childbirth associated breast/lactation disorder|ICD-11: JB46|public
+Choroideremia|ICD-11: 9B61|public
+Coccidioidomycosis|ICD-11: 1F25|public
+Cognition symptoms/signs/clinical sympton|ICD-11: MB21|public
+Cystic fibrosis|ICD-11: CA25|public
+Diabetes mellitus|ICD-11: 5A10|public
+Eating disorder|ICD-11: 6B82|public
+Epilepsy|ICD-11: 8A60-8A68|public
+Fibromyalgia|ICD-11: MG30.01|public
+Gastric cancer|ICD-11: 2B72|public
+Gastrinoma|ICD-11: 2C10.1|public
+Gastroduodenal motor/secretory disorder|ICD-11: DA41|public
+General examination|ICD-11: QA00|public
+Glaucoma/ocular hypertension|ICD-11: 9C61|public
+Gram-negative bacterial infection|ICD-11: 1F41-1G40|public
+Heart transplant rejection|ICD-11: NE84|public
+Hepatitis|ICD-11: DB97.Z|public
+High blood cholesterol level|ICD-11: 5C80.00|public
+Hyperaemia|ICD-11: 9A61-9B7Y|public
+Hypercholesterolaemia|ICD-11: 5C80.0|public
+Hyperglyceridemia|ICD-11: 5C80.1|public
+Hyperlipemia|ICD-11: 5C80|public
+Hyperparathyroidism|ICD-11: 5A51|public
+Hypertensive crisis|ICD-11: BA03|public
+Inborn energy metabolism error|ICD-11: 5C53|public
+Infection of the upper and lower urinary tract|ICD-11: GC08|public
+Influenza A virus H1N1/H5N1 infection|ICD-11: 1E30|public
+Intestinal amebiasis|ICD-11: 1A36|public
+Intestine cancer|ICD-11: 2C0Z|public
+Joint lubricant|ICD-11: FA30-FA38|public
+Large B Cell Lymphoma|ICD-11: 2A81|public
+Large intestine motility disorder|ICD-11: DB32|public
+Left ventricular failure|ICD-11: BD11|public
+Limb girdle muscular dystrophy 2B|ICD-11: 8C70.41|public
+Liver cancer|ICD-11: 2C12|public
+Lower urinary tract symptom|ICD-11: GB71|public
+Lung cancer|ICD-11: 2C25|public
+Lung cancer|ICD-11: 2C25.0|public
+Lymphatic vessel/lymph nodes disorder|ICD-11: BD9Z|public
+Metastatic meninges neoplasm|ICD-11: 2D51|public
+Metastatic pleura neoplasm|ICD-11: 2D72|public
+Molluscum contagiosum|ICD-11: 1E76|public
+Movement disorder|ICD-11: 8A07-8A0Z|public
+Muscle disorder|ICD-11: FB32-FB3Z|public
+Myocardial reperfusion injury|ICD-11: NB31|public
+Neuropathy|ICD-11: 8C0Z|public
+Neutropenia|ICD-11: 4B00.0|public
+Pancreatic cancer|ICD-11: 2C10|public
+Parainfluenza virus infection|ICD-11: 1D9Y|public
+Pemphigus vulgaris|ICD-11: EB40|public
+Peripheral Ischemic Ulcers|ICD-11: BD41|public
+Peritoneal cavity cancer|ICD-11: 2C51.Z|public
+Postmenopausal osteoporosis|ICD-11: FB83.11|public
+Postoperative hemorrhage|ICD-11: NE81.0Z|public
+Postviral fatigue syndrome|ICD-11: 8E49|public
+Respiratory failure|ICD-11: CB41|public
+Schizoaffective disorder|ICD-11: 6A21|public
+Skeletal muscle relaxant|ICD-11: NE60|public
+Skin postprocedural disorder|ICD-11: EL8Y|public
+Tinea pedis|ICD-11: 1F28.2|public
+Vascular restinosis|ICD-11: BE2Z|public
+Vasospasm|ICD-11: 9B74.0|public
+X-linked retinitis pigmentosa|ICD-11: 9B70|public
+Acute adenoviral conjunctivitis|ICD-11: 1D84.0|public
+Acute cardiac ischemic events|ICD-11: BA40.Z|public
+Adverse reactions to acetaminophen or acetaminophen overdose|ICD-11: PB24|public
+Aneurysm/dissection|ICD-11: BD50|public
+Appetite suppressant|ICD-11: MG43|public
+Arrhythmia|ICD-11: BC9Z|public
+Blood/blood-forming organ sympton|ICD-11: MA14|public
+Brain metastases|ICD-11: 2D50|public
+Central nervous system injury|ICD-11: KA40|public
+Cerebrovascular ischaemia|ICD-11: 8B1Z|public
+Chronic renal failure|ICD-11: GB61.Z|public
+Colon cancer|ICD-11: 2B90.Z|public
+Complex epidermal hamartoma|ICD-11: LC02|public
+Cystic/dysplastic kidney disease|ICD-11: GB8Y|public
+Delayed methotrexate clearance|ICD-11: N.A.|public
+Dutch elm disease|ICD-11: 8D64|public
+End-stage renal disease|ICD-11: GB61.5|public
+Epileptic seizures|ICD-11: 8A61-8A6Z|public
+Excessive daytime sleepiness|ICD-11: MG42|public
+Eye disorder|ICD-11: 9A01-9A0Z|public
+Female infertility|ICD-11: GA31|public
+Focal segmental glomerulosclerosis|ICD-11: MF8Y|public
+Genetic disease|ICD-11: 8E02|public
+Genetic prion disease|ICD-11: 8E02|public
+Grade IV astrocytoma|ICD-11: 2A00.0|public
+HIV-associated lipodystrophy|ICD-11: 1C62.1|public
+Hypertonia|ICD-11: KB08.1|public
+Hypertrophic scars|ICD-11: EE60|public
+Hypoxia|ICD-11: MD11.1|public
+Idiopathic parkinson disease|ICD-11: 8A00.0Z|public
+Inflammatory pain|ICD-11: MG30.42|public
+Influenza A virus infection|ICD-11: 1E30|public
+Invasive pulmonary aspergillosis|ICD-11: 1F20.0|public
+Itching|ICD-11: 1F28-1G07|public
+Japanese encephalitis virus infection|ICD-11: 1C85|public
+Keloidal surgical scar|ICD-11: EL50.0|public
+Kidney malfunction|ICD-11: MG02|public
+Large intestine polyp|ICD-11: DB35|public
+Limb girdle muscular dystrophy|ICD-11: 8C70.4|public
+Lipodystrophy|ICD-11: EF01|public
+Lung squamous cell carcinoma|ICD-11: 2C25.2|public
+Malignant essential hypertension|ICD-11: BA00|public
+Meningioma tumour|ICD-11: 2A01|public
+Metal intoxication|ICD-11: NE60|public
+Metastatic lung cancer|ICD-11: 2D70|public
+Musculoskeletal disorder|ICD-11: FA00-FC0Z|public
+Neurodegenerative disorder|ICD-11: 8A20-8A23|public
+Neuroendocrine carcinoma|ICD-11: 2C34|public
+Neurogenic bladder dysfunction|ICD-11: GC01.4|public
+Nosocomial infection|ICD-11: PL10|public
+Nutritional deficiency|ICD-11: 5B50-5B71|public
+Oral herpes|ICD-11: 1F00.02|public
+Oral mucositis|ICD-11: DA01.11|public
+Overgrowth syndrome|ICD-11: LD2C|public
+Pharyngitis|ICD-11: CA02.Z|public
+Photocontact dermatitis|ICD-11: EK20|public
+Pleural disease|ICD-11: CB27|public
+Polycystic kidney disease|ICD-11: GB8Y|public
+Pre-sarcopenia|ICD-11: FB32.Y|public
+Primary hyperoxaluria type 1|ICD-11: 5C51.20|public
+Procedure injury|ICD-11: NE81|public
+Proliferative diabetic retinopathy|ICD-11: 9B71.01|public
+Recurrent glioblastoma|ICD-11: 2A00.00|public
+Refractory multiple myeloma|ICD-11: 2A83|public
+Tenosynovial giant cell tumour|ICD-11: 2F7B|public
+Tuberculosis|ICD-11: 1B10-1B1Z|public
+Typhoid|ICD-11: 1A07|public
+Ulcerative colitis|ICD-11: DD71|public
+Urea cycle disorder|ICD-11: 5C50.A|public
+Varicose veins|ICD-11: BD74-BD75|public
+Ventricular tachycardia|ICD-11: BC71|public
+Yellow fever virus infection|ICD-11: 1D47|public
+Zoster|ICD-11: 1E91|public
+mumps|ICD-11: 1D80|public
+Acute ischemic stroke|ICD-11: 8B11|public
+Acute liver failure|ICD-11: DB91|public
+Adrenoleukodystrophy|ICD-11: 8A44.1|public
+Aicardi-Goutieres syndrome|ICD-11: 5C55.2|public
+Allergic conjunctivitis|ICD-11: 9A60.02|public
+Allergy|ICD-11: 4A80-4A85|public
+Anthrax|ICD-11: 1B97|public
+Autoimmune haemolytic anaemia|ICD-11: 3A20|public
+Bacillus anthracis infection|ICD-11: 1G40|public
+Bone development disorder|ICD-11: FB86|public
+Cerebrovascular disease|ICD-11: 8B22-8B2Z|public
+Chronic HCV-1 infection|ICD-11: 1E51.1|public
+Congenital alopecia|ICD-11: LC30|public
+Corneal ulcer|ICD-11: 9A76|public
+Crigler-Najjar syndrome|ICD-11: 5C58.00|public
+Cryopyrin-associated periodic syndrome|ICD-11: 4A60.1|public
+Diabetic gastroparesis|ICD-11: DA41.00|public
+Diagnostic fluorescein angiography or angioscopy of vasculature|ICD-11: BA00-BE2Z|public
+Diagnostic imaging|ICD-11: N.A.|public
+Diarrhea-predominant irritable bowel syndrome|ICD-11: DD91.01|public
+Dry age-related macular degeneration|ICD-11: 9B75|public
+Dry eye disease|ICD-11: 9E1Z|public
+Eosinophilic granulomatosis with polyangiitis|ICD-11: 4A44.A2|public
+Erythropoietic porphyrias|ICD-11: 5C58.12|public
+Euthyroid goiter|ICD-11: 5A01.1|public
+External genital and perianal wart|ICD-11: 1A95|public
+Extraocular muscle disorder|ICD-11: 9C82|public
+Eye inflammation|ICD-11: 9A02|public
+Frontotemporal dementia|ICD-11: 6D83|public
+Gallstone|ICD-11: DC11.3|public
+Gastro-oesophageal reflux|ICD-11: DA22|public
+HCV 1-6 infection|ICD-11: 1E51|public
+Hemochromatosis|ICD-11: 5C64.1Y|public
+Hepatitis E virus infection|ICD-11: 1E50.4|public
+Idiopathic multicentric Castlemans disease|ICD-11: 2A81|public
+Infancy/childhood primary interstitial lung disease|ICD-11: CB04|public
+Infants/toddlers/children functional digestive disorder|ICD-11: DD93|public
+Irritant contact dermatitis|ICD-11: EK02|public
+Kaposi sarcoma|ICD-11: 2B57|public
+Krabbe disease|ICD-11: 8A44.4|public
+Large B-cell lymphoma|ICD-11: 2A81|public
+Lateral sclerosis|ICD-11: 8B61|public
+Leishmaniasis|ICD-11: 1F54|public
+Limb-girdle muscular dystrophy|ICD-11: 8C70.4|public
+Lower respiratory tract infection|ICD-11: CA45|public
+Malaria|ICD-11: 1F40-1F45|public
+Marburg virus infection|ICD-11: 1D60.1|public
+Medulloblastoma|ICD-11: 2A00.10|public
+Narcolepsy type 1|ICD-11: 7A20.0|public
+Nausea|ICD-11: MD90|public
+Nephropathic cystinosis|ICD-11: 5C60|public
+Nephropathy|ICD-11: GC2Z|public
+Neuroinflammation|ICD-11: 1D0Y|public
+Ophthalmic graves disease|ICD-11: 5A02.0|public
+Ornithine transcarbamylase deficiency|ICD-11: 5C50.AY|public
+Peroxisomal disease|ICD-11: 5C57|public
+Poison intoxication|ICD-11: NE6Z|public
+Primary psychotic disorder manifestation|ICD-11: 6A25|public
+Psychiatric disorder|ICD-11: 6E8Z|public
+Pyruvate kinase deficiency|ICD-11: 5C53.00|public
+Radiation effect|ICD-11: NF00|public
+Radioactive tracer|ICD-11: N.A.|public
+Renal fibrosis|ICD-11: GC01|public
+Respiratory distress syndrome of newborn|ICD-11: KB23.0|public
+Rhinovirus infection|ICD-11: CA07|public
+Rift valley fever|ICD-11: 1D44|public
+Status epilepticus|ICD-11: 8A66|public
+Syphilis infection|ICD-11: 1A6Z|public
+Systemic mastocytosis|ICD-11: 2A21.0|public
+Tay-sachs disease|ICD-11: 5C56.00|public
+Thrombocytopenia|ICD-11: 3B64|public
+Tinea corporis|ICD-11: 1F28.Y|public
+Tobacco dependence|ICD-11: 6C4A.2|public
+Toxic shock syndrome|ICD-11: 1B52|public
+Toxicity|ICD-11: N.A.|public
+Toxoplasmosis|ICD-11: 1F57|public
+Type 1 gaucher disease|ICD-11: 5C56.0Y|public
+Varicose and spider veins of leg|ICD-11: BD74.1|public
+Vomiting|ICD-11: MD90|public
+genital warts|ICD-11: 1A95|public
+lung transplantation|ICD-11: PK80.20|public
