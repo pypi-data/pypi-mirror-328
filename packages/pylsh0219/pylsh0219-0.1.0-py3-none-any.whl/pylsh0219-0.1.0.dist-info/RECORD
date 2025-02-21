@@ -1,0 +1,12 @@
+pylsh0219/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsh0219/compare_excel.py,sha256=muQEw0KLxh2QWMitJpe7dGa9p3iNnQ6VQ_12-w3oC2o,8506
+pylsh0219/config.json,sha256=ggtReLcSRG2wPUsnyArJl8nhMLnzovB9ak7EO-oCLmg,735
+pylsh0219/filter_rules.json,sha256=Dyz6-r9Il_OzXPUkS6BswU9V6ys4UWCp-OMnPUR_I3Q,548
+pylsh0219/get_gift_1.py,sha256=M1gU_K42kRpOuir0fxwUaoGhonlW64wCVUSdl9ab_gc,3732
+pylsh0219/gift_records.py,sha256=tHa4tslGrAWnEWh5pDw1T5_Xb_s1t_RrrobDfcwSo_k,4577
+pylsh0219/main_event_chrome.py,sha256=3hnTl8UOVVn-lyMazYZwa8Jyooq2eP3FMCdJXVWPK4g,5538
+pylsh0219/ocr_gift_content_new.py,sha256=iOoFosLi20m6EBJ1rhnE0gbKXjEwv0Vfq5Hqh273H2Q,3217
+pylsh0219/select_games.py,sha256=D1DIJkQ_RLFFrsWfrerQ2dSU8p2jWzRRf-95ZDj0rX8,6754
+pylsh0219-0.1.0.dist-info/METADATA,sha256=nuBGg9-LYzkywI223wuNdsETY0c9dqgholT-Pj5QyLc,533
+pylsh0219-0.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+pylsh0219-0.1.0.dist-info/RECORD,,

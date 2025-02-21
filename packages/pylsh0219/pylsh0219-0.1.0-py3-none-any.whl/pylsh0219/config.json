@@ -1,0 +1,19 @@
+{
+    "webdriver_path": "C:/chromedriver.exe",
+    "chrome_profile_path": "C:/unique_profile",
+    "event_url": "https://abc.com/123.html",
+    "username": "",
+    "password": "",
+    "record_path": "D:/py-temp/",
+    "records_file_name": "gift_records.txt",
+    "image_save_dir": "D:/py-temp/images/",
+    "excel_dir": "D:/py-temp/excel/",
+    "ocr_results_file": "D:/py-temp/excel/ocr_results.xlsx",
+    "target_excel_file": "D:/py-temp/excel/spring-gift.xlsx",
+    "comparison_results_file": "D:/py-temp/excel/comparison_results.xlsx",
+    "cookie_file_path": "D:/py-temp/cookies/abc_14-02-2025.json",
+    "screenshot_path": "./screenshots",
+    "gift_numbers": [1],
+    "headless_mode": false,
+    "timeout": 15
+}
