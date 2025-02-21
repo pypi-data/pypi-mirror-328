@@ -1,0 +1,10 @@
+jsonllm_client/__init__.py,sha256=VrwYiOmfKPt7Qaz06v5p4L24BoJYXpPdeeNGKV7qBAI,591
+jsonllm_client/client.py,sha256=leRdwSWrrFbNDTBf4K1nvN8l-tRxad36zMFsDcQPQIA,5718
+jsonllm_client/extraction_request.py,sha256=jP7Gh8lkYeyq66nyyyhBRw3AT4wObjYr0cEZML_9lvw,539
+jsonllm_client/request_status.py,sha256=24ftGHYWzk_RRxxNiWCIrSiI23CkVlEL4tLYsyXl57E,1387
+jsonllm_client/submit_request_result.py,sha256=CbuTG8TLUpZD0MeRSTOcqi9eWwNlKPItggq9PEd_uD0,190
+jsonllm_client-0.12.1.dist-info/LICENSE,sha256=hrZitOuHb8OOnTiwCjrJgxeHsUKSuN1gYGAImfAhKRc,1069
+jsonllm_client-0.12.1.dist-info/METADATA,sha256=-vmdAe3PTHngfWls-rUMxjEziwCwix9TMp0EWQLTdCM,4022
+jsonllm_client-0.12.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jsonllm_client-0.12.1.dist-info/top_level.txt,sha256=h3usfQWaaJk_yD6NYplzV6OcvrAUdPc2LD2kZH4p9_M,15
+jsonllm_client-0.12.1.dist-info/RECORD,,
