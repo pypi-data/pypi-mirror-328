@@ -1,0 +1,15 @@
+pdf_craft/__init__.py,sha256=GDQSyN_T_xyTlU4YaWyg7U0GfBYx49HapMa5d2mZiQ0,84
+pdf_craft/markdown.py,sha256=wtToc8eElmC2KcMraMXVI6xb0vPM9g4irn7N1ZMrn14,2501
+pdf_craft/pdf/__init__.py,sha256=r2HBbkhAZiMvp6vBu2xj-YemT_ooSTwS62Rbd6qcz5M,85
+pdf_craft/pdf/document.py,sha256=Eqd2uFnMiLgxPBQnTobLsLVnJd563hz2QhXDScWwk2Q,3047
+pdf_craft/pdf/extractor.py,sha256=fDbIz00KU7tVjSiqOV3-hDMKPDHtnBqn57D3xjcda1o,5057
+pdf_craft/pdf/section.py,sha256=Sf7BY2ULSrquQcSX9DFgsIvZmm7B4SFO-llaogPsBes,6704
+pdf_craft/pdf/text_matcher.py,sha256=5fSKQJ8ysqdyIRXOGYnt_OPLnB_QF1_aGB9lm9MRxj4,2524
+pdf_craft/pdf/utils.py,sha256=O0nBatoC167b5nz6j3Cv-kGCthE21k_va3xoBOO9h0U,755
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_framework.py,sha256=20rL3X3_aCgR3hnMEdRF8kO-UHniUMXtD-S1LrWrUzY,5335
+pdf_craft-0.0.1.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+pdf_craft-0.0.1.dist-info/METADATA,sha256=F1m0LokCPjPP0xrn0ilvPWi0QFdC9sCH-wDTUAVZOwQ,3064
+pdf_craft-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pdf_craft-0.0.1.dist-info/top_level.txt,sha256=igjywMjt5Ddnh1ZDBI7b__FqKctVaRuEKXxWYcNHgeA,16
+pdf_craft-0.0.1.dist-info/RECORD,,
