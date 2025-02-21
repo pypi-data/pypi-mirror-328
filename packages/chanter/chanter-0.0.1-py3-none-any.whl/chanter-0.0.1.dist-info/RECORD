@@ -1,0 +1,16 @@
+chanter/__init__.py,sha256=BDOShvS6R5VpS_iI7FErrUklA9lD34k5ZoEtacycoIg,98
+chanter/galaxy_fitter.py,sha256=JYDRc-iW5ZgDHprw4FCshrsBnG8ENvs3MEDNUtlFYxQ,3683
+chanter/model_galaxy.py,sha256=3dWKJOcg7jbRtgJhxFREjGohZk4iXSDTvf6h0u-r5H8,7760
+chanter/utils/__init__.py,sha256=hn-ho-lJeT0evKXL1tV5jX0cR4meSlJmPcdxC49cLok,34
+chanter/utils/filter_set.py,sha256=EITLa2c3FG3n1-v7KatKRwHCRyfZ4TTjsi_WM7Bz64k,6819
+chanter/utils/make_igm_grid.py,sha256=s9NeRmgOsj_OxvxXixIdPSSQZPlsLcPedIRr4soZUcU,10304
+chanter/utils/make_ssp_grid/csv_to_fits.py,sha256=zPb4yFrpN9_YNuXwSIY7WJoknPpIx0tzhWYfCBtWvCw,1148
+chanter/utils/make_ssp_grid/get_ssp.py,sha256=Rr-TaxYaW9BzuQ8i2X75XPwNKLq97h-kl7p3yXhS1aA,991
+chanter/utils/make_ssp_grid/load_fits_test.py,sha256=rX5IN6hV_yN2dlNEdy5JsMnpxA1Dk-Tk2A8irvxqb2Q,183
+chanter/utils/make_ssp_grid/ascii_files/bintoascii.py,sha256=y-AhZB_hi7K9aXbSMvojLEZDH61cE3itOKAJxl74sQ8,189
+chanter/utils/make_ssp_grid/raw_files/bc03/src/rebuildfitsheader.py,sha256=aIWLJPcZIb0gBMd4vcruEATIc2s4bDojybu_dI2noYg,39734
+chanter/utils/make_ssp_grid/raw_files/bc03/src/rebuildtimeheader.py,sha256=CBJR7Y-yieZUjMM4dXfBweYRGo7jyMZWKRPFJoUWlSs,1732
+chanter-0.0.1.dist-info/METADATA,sha256=1c7_K054mlAGgHCi7xE5TBhfah9QHRQFNbjlOBGe7VI,359
+chanter-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+chanter-0.0.1.dist-info/top_level.txt,sha256=Q23dLK1syz0D-XIZ6zeY6TOZ7BQsC-BLqRiVQE7_udk,8
+chanter-0.0.1.dist-info/RECORD,,

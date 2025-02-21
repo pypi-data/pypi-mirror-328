@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: chanter
+Version: 0.0.1
+Summary: A very simple galaxy spectrum modeller
+Author-email: Struan Stevenson <struan.stevenson@ed.ac.uk>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: nautilus-sampler
+Requires-Dist: spectres
+Requires-Dist: matplotlib
+
+# Chanter
