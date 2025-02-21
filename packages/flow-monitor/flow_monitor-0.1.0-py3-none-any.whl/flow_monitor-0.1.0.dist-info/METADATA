@@ -1,0 +1,39 @@
+Metadata-Version: 2.2
+Name: flow_monitor
+Version: 0.1.0
+Summary: A real-time flow data monitoring tool with a GUI.
+Home-page: https://github.com/KritsnamSoftware/DhaaraLive2.0
+Author: Rishabh
+Author-email: rishabh@kritsnam.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: pyserial>=3.5
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Flow Monitor
+
+A real-time flow data monitoring tool with a GUI.
+
+## Features
+
+- Real-time data visualization.
+- Serial data parsing.
+- Interactive graphs and data tables.
+
+## Installation
+
+```bash
+pip install flow_monitor
