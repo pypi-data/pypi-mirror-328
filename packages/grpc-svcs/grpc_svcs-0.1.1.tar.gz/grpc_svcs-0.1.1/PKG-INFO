@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: grpc-svcs
+Version: 0.1.1
+Summary: A GRPC integration for SVCS
+Project-URL: GitHub, https://github.com/atbigelow/grpc-svcs
+Author-email: August Bigelow <dev@atbigelow.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: grpc-interceptor>=0.15.4
+Requires-Dist: grpcio>=1.70.0
+Requires-Dist: svcs>=25.1.0
+Description-Content-Type: text/markdown
+
+# grpc-svcs: A GRPC integration for SVCS
+
+Very in-development
