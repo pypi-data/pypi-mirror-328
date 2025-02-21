@@ -1,0 +1,15 @@
+cocoindex-0.0.6.dist-info/METADATA,sha256=3EbHi75gg7Zh8HzP7Lrbi3wwhJOQggKekVDs48n9whs,2574
+cocoindex-0.0.6.dist-info/WHEEL,sha256=D7_pNqSjRbyY3kt95Yp891xv96lWCEp21NtKEAemZ_g,92
+cocoindex/cli.py,sha256=3l41Oiuwv7DXHOMIkX0iUqJSyASoOJnFk7ozJ2lEn10,1722
+cocoindex/flow.py,sha256=gc8YWS4BKqsZ6tCgPrjf0jxDkb2Qo93y0nSWKgAt91s,14683
+cocoindex/op.py,sha256=3m_gBSEcrllT3gcamMyi7uiJDmYjb7lFpdSi6MhW_z0,7050
+cocoindex/query.py,sha256=4Qfgsxme6uLBy3vD7NmjjVw4EOVpXd_kJF-Ryq8uRbs,1930
+cocoindex/setup.py,sha256=kuNehchU_Pa-g3sCqLNcOddQKLHBr8Axj_3oHAG2O4o,465
+cocoindex/sources.py,sha256=tEzhl-BCdmUDioOimQIdfEVxtPWlo16oEF6RwSh9--0,193
+cocoindex/storages.py,sha256=ZoMlPBt6e4rK9EH-spZcbnklUFowY-uQUh215I-aC-8,232
+cocoindex/transforms.py,sha256=ZueoXa0qdCrhi-uvWcmPuW16ONHUXnGOQPEQpv46UkU,1294
+cocoindex/typing.py,sha256=g-iDDmyx5HCNY2EmBkdCj3cEatD5Y5gC-BKVisoq1ro,2427
+cocoindex/vector.py,sha256=4Z7kFa7eiPAQL-fKtPP19hXrSNnHN_XRmdL6LMBD5y8,174
+cocoindex/__init__.py,sha256=Y88IBgfKuY7WkZIW5-wIXk9zjW_i9rJ-gKFVVIVtH9M,2792
+cocoindex/_engine.cp313-win32.pyd,sha256=Q9PUENAd8QKWhbc8ttOgXujI5YGakku7JfORaOvua-4,6725120
+cocoindex-0.0.6.dist-info/RECORD,,
