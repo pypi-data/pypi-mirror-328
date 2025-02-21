@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: tinfoil
+Version: 0.0.9
+Summary: Python client for Tinfoil
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.63.0
+Requires-Dist: pybindgen>=0.22.0
+Requires-Dist: httpx>=0.28
+Requires-Dist: build>=1.2.0
+
+# Tinfoil Python Library
+
+```python
+from tinfoil import TinfoilAI
+
+client = TinfoilAI(
+    "inference.delta.tinfoil.sh",
+    "tinfoilsh/provably-private-deepseek-r1",
+)
+
+chat_completion = client.chat.completions.create(
+    messages=[
+        {
+            "role": "user",
+            "content": "Hi",
+        }
+    ],
+    model="deepseek-r1:70b",
+)
+print(chat_completion.choices[0].message.content)
+```
