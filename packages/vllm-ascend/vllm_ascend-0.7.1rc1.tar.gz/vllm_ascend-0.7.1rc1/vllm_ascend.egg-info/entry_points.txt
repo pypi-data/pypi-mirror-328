@@ -1,0 +1,2 @@
+[vllm.platform_plugins]
+ascend = vllm_ascend:register
