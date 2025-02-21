@@ -1,0 +1,14 @@
+requests
+ase>=3.23.0
+tenacity~=9.0
+spglib==2.5.0
+httpx
+click~=8.0
+rich~=13.0
+
+[dev]
+pytest~=8.0
+black
+isort
+mypy
+flake8
