@@ -1,0 +1,133 @@
+{
+  "28113c9e-cf63-4e2d-a2a0-8ffa3771e593": {
+    "id": "28113c9e-cf63-4e2d-a2a0-8ffa3771e593",
+    "name": "test1",
+    "description": "you need review the resume and check if it is fit for security role",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "RAGTool"
+      ],
+      "personality": "Professional and helpful",
+      "rag_documents_dir": "/tmp/tmpy8wcrwyr"
+    },
+    "updated_at": "2025-02-18T07:18:30.537494",
+    "created_at": "2025-02-18T06:51:36.727645"
+  },
+  "e091fe94-926e-46c6-8f58-7df283e203b5": {
+    "id": "e091fe94-926e-46c6-8f58-7df283e203b5",
+    "name": "test1",
+    "description": "you are resume review agent",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "RAGTool"
+      ],
+      "personality": "Professional and helpful",
+      "rag_documents_dir": "/tmp/tmpsv_9j9p1"
+    },
+    "updated_at": "2025-02-18T16:22:55.731221",
+    "created_at": "2025-02-18T16:22:55.731221"
+  },
+  "61363685-c11a-4375-949a-23d5edba04cd": {
+    "id": "61363685-c11a-4375-949a-23d5edba04cd",
+    "name": "HR agent",
+    "description": "you are Cisco's HR agent you need review a resume wthether it is good or not",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "RAGTool"
+      ],
+      "personality": "Professional and helpful",
+      "rag_documents_dir": "/tmp/tmpwt1fp94i"
+    },
+    "updated_at": "2025-02-18T16:29:47.915432",
+    "created_at": "2025-02-18T16:29:47.915432"
+  },
+  "76d2e2f3-14a5-4f90-8fec-2255073f8202": {
+    "id": "76d2e2f3-14a5-4f90-8fec-2255073f8202",
+    "name": "HR@Cisco",
+    "description": "you are HR agent at Cisco recruiting team",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "RAGTool"
+      ],
+      "personality": "Professional and helpful",
+      "rag_documents_dir": "/tmp/tmpiur9wmj9"
+    },
+    "updated_at": "2025-02-19T02:13:12.177140",
+    "created_at": "2025-02-19T02:13:12.177140"
+  },
+  "818a2be6-6e25-4e25-84d6-a86f1069f1cd": {
+    "id": "818a2be6-6e25-4e25-84d6-a86f1069f1cd",
+    "name": "HR#Cisco",
+    "description": "you are HR agent at Cisco and you need to review the resume",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "RAGTool"
+      ],
+      "personality": "Professional and helpful"
+    },
+    "updated_at": "2025-02-19T04:41:49.497976",
+    "created_at": "2025-02-19T02:46:21.074078"
+  },
+  "35d30a42-869e-4e97-b657-0c7d22f2c85f": {
+    "id": "35d30a42-869e-4e97-b657-0c7d22f2c85f",
+    "name": "reverse_agent",
+    "description": "you need to reverse the string",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Short-term",
+        "Semantic"
+      ],
+      "tools": [
+        "reverse_tool"
+      ],
+      "personality": "Professional and helpful"
+    },
+    "updated_at": "2025-02-19T04:37:10.861758",
+    "created_at": "2025-02-19T04:37:10.861758"
+  },
+  "365f8c13-d81d-47a8-8a62-9984cc1172da": {
+    "id": "365f8c13-d81d-47a8-8a62-9984cc1172da",
+    "name": "arxiv_search_agent",
+    "description": "you need to search arxiv",
+    "type": "conversation_agent",
+    "config": {
+      "model": "openai/gpt-4o",
+      "memory_config": [
+        "Semantic"
+      ],
+      "tools": [
+        "arxiv_search"
+      ],
+      "personality": "Professional and helpful"
+    },
+    "updated_at": "2025-02-19T04:40:16.121785",
+    "created_at": "2025-02-19T04:40:16.121785"
+  }
+}
