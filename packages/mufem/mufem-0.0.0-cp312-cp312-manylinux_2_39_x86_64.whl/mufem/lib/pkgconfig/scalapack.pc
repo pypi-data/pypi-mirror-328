@@ -1,0 +1,9 @@
+prefix=/mnt/Data/mufem/mufem-mirror/scripts/../mirror
+libdir=/mnt/Data/mufem/mufem-mirror/scripts/../mirror/lib
+
+Name: scalapack
+Description: SCALAPACK reference implementation
+Version: 2.1.0
+URL: http://www.netlib.org/scalapack/
+Libs: -L/mnt/Data/mufem/mufem-mirror/scripts/../mirror/lib -lscalapack
+Requires: mpi lapack blas

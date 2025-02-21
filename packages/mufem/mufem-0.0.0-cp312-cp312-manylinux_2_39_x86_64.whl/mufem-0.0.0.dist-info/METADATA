@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: mufem
+Version: 0.0.0
+Summary: A short description of your package
+Author: Raiden Numerics LLC
+Author-email: mufem@raiden-numerics.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12,<3.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# mufem
+
+mufem is an application focused finite-element packaged built on top of mfem.
+
+## Installation
+
+```sh
+pip install mufem
+```

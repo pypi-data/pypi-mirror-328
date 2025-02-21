@@ -1,0 +1,94 @@
+        SUMMARY OF THE HDF5 CONFIGURATION
+        =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 2.0.0
+                  Configured on: 2025-02-17
+                  Configured by: Unix Makefiles
+                    Host system: Linux-6.11.0-17-generic
+              Uname information: Linux
+                       Byte sex: little-endian
+             Installation point: /mnt/Data/mufem/mufem-mirror/scripts/../mirror
+
+Compiling Options:
+------------------
+                     Build Mode: Release
+              Debugging Symbols: OFF
+                        Asserts: OFF
+                      Profiling: OFF
+             Optimization Level: OFF
+
+Linking Options:
+----------------
+                      Libraries: 
+  Statically Linked Executables: OFF
+                        LDFLAGS: 
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+                Extra libraries: m;dl;/mnt/Data/mufem/mufem-mirror/mirror/lib/libmpi.so
+                       Archiver: /usr/bin/ar
+                       AR_FLAGS:
+                         Ranlib: /usr/bin/ranlib
+
+Languages:
+----------
+                              C: YES
+                     C Compiler: /usr/bin/clang 18.1.3
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+                         CFLAGS:  -std=c11 -march=x86-64-v3 -mtune=generic -O3 -fomit-frame-pointer -pipe -fno-math-errno -ffinite-math-only -O3 -DNDEBUG
+                      H5_CFLAGS: -Wall;-Warray-bounds;-Wcast-qual;-Wconversion;-Wdouble-promotion;-Wextra;-Wformat=2;-Wframe-larger-than=16384;-Wimplicit-fallthrough;-Wnull-dereference;-Wunused-const-variable;-Wwrite-strings;-Wpedantic;-Wvolatile-register-var;-Wno-c++-compat;-Wbad-function-cast;-Wimplicit-function-declaration;-Wincompatible-pointer-types;-Wmissing-declarations;-Wpacked;-Wshadow;-Wswitch;-Wno-error=incompatible-pointer-types-discards-qualifiers;-Wunused-function;-Wunused-variable;-Wunused-parameter;-Wcast-align;-Wformat;-Wno-missing-noreturn
+                      AM_CFLAGS: 
+               Shared C Library: YES
+               Static C Library: YES
+
+                        Fortran: OFF
+               Fortran Compiler:  
+                  Fortran Flags:  
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: YES
+         Static Fortran Library: YES
+               Module Directory: /mnt/Data/mufem/mufem-mirror/build/hdf5-build/mod
+
+                            C++: OFF
+                   C++ Compiler:  
+                      C++ Flags:  
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: YES
+             Static C++ Library: YES
+
+                           JAVA: OFF
+                  JAVA Compiler:  
+
+Features:
+---------
+                     Parallel HDF5: ON
+  Parallel Filtered Dataset Writes: ON
+                Large Parallel I/O: ON
+                High-level library: ON
+Dimension scales w/ new references: 
+                  Build HDF5 Tests: ON
+                  Build HDF5 Tools: ON
+                           Threads: ON
+                      Threadsafety: OFF
+                       Concurrency: OFF
+               Default API mapping: v200
+    With deprecated public symbols: ON
+            I/O filters (external): 
+                  _Float16 support: ON
+                     Map (H5M) API: OFF
+                        Direct VFD: OFF
+                        Mirror VFD: OFF
+                     Subfiling VFD: OFF
+                (Read-Only) S3 VFD: OFF
+              (Read-Only) HDFS VFD: OFF
+    Packages w/ extra debug output: 
+                       API Tracing: OFF
+              Using memory checker: OFF
+                  Use file locking: best-effort
+         Strict File Format Checks: OFF
+      Optimization Instrumentation: 
