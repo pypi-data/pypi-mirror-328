@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.11.3
+Cflags: -I/var/folders/r4/ph658m2d3vs0vj00g75q0zyr0000gn/T/tmp3p8ws_fi/wheel/platlib/pygenten/include
