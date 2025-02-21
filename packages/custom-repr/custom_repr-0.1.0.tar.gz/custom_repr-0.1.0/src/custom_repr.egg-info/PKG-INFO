@@ -1,0 +1,39 @@
+Metadata-Version: 2.2
+Name: custom-repr
+Version: 0.1.0
+Summary: A simple decorator for customizing Python object representations
+Author-email: Pedro Fernandes da Silva <paca.fs@gmail.com>
+License: MIT
+Keywords: repr,decorator,string representation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Custom Repr
+
+A simple decorator to add pretty representation to Python classes.
+
+## Installation
+
+```sh
+pip install custom-repr
+```
+
+## Usage
+
+```python
+from custom_repr import add_repr
+
+# Apply this decorator to automatically enhance your class with a custom __repr__ method, providing a better representation of object.
+@add_repr  
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person = Person("John", 30)
+
+print(person)  # Person(name: "John", age: 30)
