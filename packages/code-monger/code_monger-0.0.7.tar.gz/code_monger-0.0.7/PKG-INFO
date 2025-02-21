@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: code_monger
+Version: 0.0.7
+Summary: A package for on-the-fly code generation and validation
+Home-page: https://github.com/victhepythonista/code_monger
+Author: Victor Kipkemboi
+Author-email: scriptilapia@gmail.com
+Project-URL: Bug Tracker, https://github.com/victhepythonista/code_monger/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
