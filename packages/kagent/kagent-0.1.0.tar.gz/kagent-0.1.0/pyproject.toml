@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "autogen-core>=0.4.3",
+  "autogen-ext[mcp]>=0.4.3",
+  "autogen-agentchat>=0.4.3",
+  "autogenstudio>=0.4.3",
+  "openai==1.60.0",
+  "tiktoken==0.8.0",
+  "ruff>=0.9.2",
+  "python-dotenv>=1.0.1",
+  "pyyaml>=6.0.2",
+  "mcp>=1.2.0",
+  "sqlite-vec>=0.1.0",
+  "typer"
+]
+
+[project.optional-dependencies]
+jupyter-executor = [
+    "ipykernel>=6.29.5",
+    "nbclient>=0.10.2",
+]
+
+[project.scripts]
+kagent = "kagent.cli:run"
+
+[tool.uv.sources]
+autogenstudio = { git = "https://github.com/microsoft/autogen.git", subdirectory = "python/packages/autogen-studio", rev = "340a8e85872697f1aa524ef900c651eaf427d547" }
+autogen-ext = { git = "https://github.com/microsoft/autogen.git", subdirectory = "python/packages/autogen-ext", rev = "340a8e85872697f1aa524ef900c651eaf427d547" }
+autogen-core = { git = "https://github.com/microsoft/autogen.git", subdirectory = "python/packages/autogen-core", rev = "340a8e85872697f1aa524ef900c651eaf427d547" }
+kagent = { workspace = true }
+
+[tool.ruff]
+line-length = 120
+fix = true
+
+target-version = "py312"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "Q", "I", "ASYNC", "T20"]
+ignore = ["F401", "E501"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kagent"]
