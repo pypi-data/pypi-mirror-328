@@ -1,0 +1,21 @@
+[project]
+name = "laser-image-faulting-package"
+version = "0.0.6"
+dependencies = [
+    "torch",
+    "numpy",
+    "pillow",
+    "pyarmor" 
+]
+
+[tool.setuptools.package-data]
+"laser_image_faulting_package" = ["py.typed"]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.0.0",
+    "pytest>=7.0.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["*", "pyarmor_runtime_000000*"]
