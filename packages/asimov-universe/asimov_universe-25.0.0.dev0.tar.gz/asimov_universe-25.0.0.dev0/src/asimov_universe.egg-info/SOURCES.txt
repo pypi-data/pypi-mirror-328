@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+requirements.txt
+src/asimov_universe/__init__.py
+src/asimov_universe.egg-info/PKG-INFO
+src/asimov_universe.egg-info/SOURCES.txt
+src/asimov_universe.egg-info/dependency_links.txt
+src/asimov_universe.egg-info/requires.txt
+src/asimov_universe.egg-info/top_level.txt
