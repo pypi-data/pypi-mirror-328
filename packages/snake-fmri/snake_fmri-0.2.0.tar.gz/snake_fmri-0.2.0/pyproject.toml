@@ -1,0 +1,145 @@
+[project]
+name = "snake-fmri"  # Required
+# corresponds to the "Summary" metadata field:
+description = "A simulator and validator of fMRI reconstruction methods."
+# This field corresponds to the "Description" metadata field:
+readme = "README.md" # Optional
+
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+license = {file = "LICENSE.txt"}
+
+keywords = ["simulation", "fMRI"]
+
+authors = [
+  {name = "Pierre-Antoine Comby", email = "pierre-antoine.comby@cea.fr" } # Optional
+]
+
+# Classifiers help users find your project by categorizing it.
+#
+# For a list of valid classifiers, see https://pypi.org/classifiers/
+classifiers = [  # Optional
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 3 - Alpha",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here. In particular, ensure
+  # that you indicate you support Python 3. These classifiers are *not*
+  # checked by "pip install". See instead "python_requires" below.
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [ # Optional
+  "numpy",
+  "scipy",
+  "nilearn",
+  "pandas",
+  "scikit-image",
+  "brainweb-dl",
+  "mri-nufft",
+  "ismrmrd",
+  "hydra-core",
+  "hydra-callbacks",
+  "hydra-colorlog",
+]
+
+[project.optional-dependencies] # Optional
+dev = ["black", "ruff", "isort"]
+test = ["pytest", "pytest-cov", "pytest-sugar", "pytest-xdist"]
+doc = ["myst-parser", "sphinx-copybutton","sphinx-gallery", "myst-sphinx-gallery", "sphinx-book-theme","matplotlib", "pysap-fmri", "ipywidgets", "myst-nb", "sphinx-autodoc2", "sphinx-design", "sphinx-tippy", "linkify-it-py"]
+toolkit = [ "matplotlib", "pysap-fmri"]
+# List URLs that are relevant to your project
+# This field corresponds to the "Project-URL" and "Home-Page" metadata fields:
+[project.urls]  # Optional
+"Homepage" = "https://github.com/paquiteau/simfmri"
+"Bug Reports" = "https://github.com/paquiteau/simfmri/issues"
+"Source" = "https://github.com/paquiteau/simfmri"
+
+[project.scripts]
+snake-acq = "snake.toolkit.cli.acquisition:acquisition_cli"
+snake-rec = "snake.toolkit.cli.reconstruction:reconstruction_cli"
+snake-main = "snake.toolkit.cli.main:main_cli"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/snake/_version.py"
+version_scheme = "python-simplified-semver"
+local_scheme="no-local-version"
+fallback_version="v99-dev"
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
+
+# Formatting using black.
+[tool.black]
+
+[tool.isort]
+profile="black"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "--cov=snake",
+    "--cov-report=term-missing",
+    "--cov-report=xml"
+]
+
+
+[tool.ruff]
+include = ["src/**/*.py", "tests/**/*.py", "examples/*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "Q", "D", "UP", "ANN"]
+ignore = [
+    "ANN101", # missing type annotation for self
+    "ANN102", # missing type annotation for cls in classmethod.
+    "ANN204", # missing return type for __init__
+    "ANN401",
+    "D105", # missing docstring in magic method
+    "D404", # Imperative mode is not necessary everywhere, trust me.
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+[tool.ruff.lint.per-file-ignores]
+# relax code quality for tests and examples.
+"examples/conftest.py" = ["ANN"]
+"examples/*.py" = ["D",
+"ANN", # no annotation in examples
+"E402", # import in the middle of the file
+"B018", # allow for useless expression (prints)
+"B905"
+]
+"tests/test_*.py" = ["D", "ANN"]
+
+
+[tool.basedpyright]
+
+typeCheckingMode = "off"
+
+[tool.codespell]
+ignore-words-list = ["TE","fpr"]
+skip = ["docs/generated", "*.ipynb"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
