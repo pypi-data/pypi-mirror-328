@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: hellopyrb
+Version: 1.5.0
+Summary: Junjie's private utils.
+Home-page: https://github.com/Adenialzz/SongUtils
+Author: robin
+Author-email: robin.seu@foxmail.com
+License: MIT Licence
+Keywords: pip,SongUtils
+Platform: any
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: platform
+Dynamic: summary
+
+Junjie's private utils.
