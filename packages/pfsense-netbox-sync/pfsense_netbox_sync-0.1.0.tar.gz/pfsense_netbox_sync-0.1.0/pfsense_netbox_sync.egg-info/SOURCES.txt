@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pfsense_netbox_sync/__init__.py
+pfsense_netbox_sync.egg-info/PKG-INFO
+pfsense_netbox_sync.egg-info/SOURCES.txt
+pfsense_netbox_sync.egg-info/dependency_links.txt
+pfsense_netbox_sync.egg-info/entry_points.txt
+pfsense_netbox_sync.egg-info/requires.txt
+pfsense_netbox_sync.egg-info/top_level.txt
