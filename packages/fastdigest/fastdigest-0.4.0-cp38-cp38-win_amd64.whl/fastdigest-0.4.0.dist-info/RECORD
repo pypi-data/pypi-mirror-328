@@ -1,0 +1,13 @@
+fastdigest-0.4.0.dist-info/METADATA,sha256=xcwup8RsySgtvUM69sLSxree_RQuv9o_szQOyO5iwc0,8657
+fastdigest-0.4.0.dist-info/WHEEL,sha256=4HtObfOomBNL7IBszeftbFfpctPxP7JmvdmCHQVg0Dg,94
+fastdigest-0.4.0.dist-info/licenses/LICENSE,sha256=-pbAxJw9pOEw9B690Qar4sfXwKbvguX8NATiCBhMJL0,1063
+fastdigest.pyi,sha256=xecLekxo1SNiAA_AwKR4Lw8cKhIJ_qDQPmBLPLmRXFc,5615
+benchmark.py,sha256=1pZdd-BaA8NeL5PvYcF46aaasWt_GtrkAL41NMPtHrM,3421
+LICENSE,sha256=-pbAxJw9pOEw9B690Qar4sfXwKbvguX8NATiCBhMJL0,1063
+THIRD-PARTY-NOTICES,sha256=jHKuBzSHAEmCp9Ejcm4-mgBFcldLFdtoV7d-42LTTv4,12769
+README.md,sha256=WGXE-KVm7HuNMHS4o-7JYrx6FHXzP8AO5v0eObjhlO4,7702
+fastdigest/__init__.py,sha256=GY8wbP7C2L3dlmnYD1Vh5Nv4C7kCUqeoZSZU7iBPqqw,123
+fastdigest/__init__.pyi,sha256=xecLekxo1SNiAA_AwKR4Lw8cKhIJ_qDQPmBLPLmRXFc,5615
+fastdigest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastdigest/fastdigest.cp38-win_amd64.pyd,sha256=Z2gjxlgvahf7TScWJkpic3Uu3s6XdM5Gtd9xSeb0s00,353792
+fastdigest-0.4.0.dist-info/RECORD,,
