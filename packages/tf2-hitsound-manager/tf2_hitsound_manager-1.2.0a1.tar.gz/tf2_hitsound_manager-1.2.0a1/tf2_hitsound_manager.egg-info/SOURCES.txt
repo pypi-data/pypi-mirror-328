@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tf2_hitsound_manager/__init__.py
+tf2_hitsound_manager/main.py
+tf2_hitsound_manager.egg-info/PKG-INFO
+tf2_hitsound_manager.egg-info/SOURCES.txt
+tf2_hitsound_manager.egg-info/dependency_links.txt
+tf2_hitsound_manager.egg-info/entry_points.txt
+tf2_hitsound_manager.egg-info/requires.txt
+tf2_hitsound_manager.egg-info/top_level.txt
+tf2_hitsound_manager/assets/fonts/tf2build.ttf
+tf2_hitsound_manager/assets/styles/style.qss
+tf2_hitsound_manager/data/custom_sounds.txt
+tf2_hitsound_manager/data/related_sounds.csv

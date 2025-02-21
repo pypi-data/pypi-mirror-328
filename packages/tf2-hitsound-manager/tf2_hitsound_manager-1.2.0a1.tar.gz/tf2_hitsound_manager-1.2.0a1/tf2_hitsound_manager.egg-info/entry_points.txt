@@ -1,0 +1,2 @@
+[console_scripts]
+tf2-hitsound-manager = tf2_hitsound_manager:main
