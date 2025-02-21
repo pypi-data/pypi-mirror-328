@@ -1,0 +1,86 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": null,
+            "note": {
+                "id": 2,
+                "x": 516,
+                "y": 704,
+                "w": 2294,
+                "h": 687,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": [
+                    {
+                        "type": "ANODIZING",
+                        "description": "ANODIZE PER APPLIED MATERIALS 0250-27028, CLASS I, TYPE A."
+                    },
+                    {
+                        "type": "CHEMICAL_CLEANING",
+                        "description": "CLEAN PER APPLIED MATERIALS 0250-70351, TYPE I."
+                    }
+                ]
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 9,
+                    "x": 2151,
+                    "y": 3739,
+                    "w": 778,
+                    "h": 701,
+                    "nominal_value": "9.52",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 3,
+                    "x": 3484,
+                    "y": 823,
+                    "w": 959,
+                    "h": 1786,
+                    "nominal_value": "109.3",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        },
+        {
+            "page_number": 1,
+            "title_block": {
+                "id": 10,
+                "x": 0,
+                "y": 1,
+                "w": 6621,
+                "h": 4676,
+                "title": "PART QUALIFICATION & QUALITY CONTROLS (PQC) TABLE",
+                "revision": null,
+                "part_number": "0051-98744",
+                "tolerance": null,
+                "material": null,
+                "description": "WELDMENT, SH COOLING",
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        }
+    ]
+}

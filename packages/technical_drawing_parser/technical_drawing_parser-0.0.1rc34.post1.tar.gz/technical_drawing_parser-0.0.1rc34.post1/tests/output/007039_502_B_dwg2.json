@@ -1,0 +1,63 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 10,
+                "x": 901,
+                "y": 1563,
+                "w": 2366,
+                "h": 736,
+                "title": "V3 48V BATTERY ENCLOSURE TOP PLATE, BUS BAR FIX",
+                "revision": null,
+                "part_number": "007039-502",
+                "tolerance": null,
+                "material": null,
+                "description": "SAILDRONE P/N: 007039-502\nPART NAME: V3 BATTERY ENCLOSURE, TOP ASSY, BUS BAR FIX\nCREATION DATE: 08/01/2023\nENGINEER: HDS\nAPPROVED BY: GCN",
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 1,
+                "x": 118,
+                "y": 40,
+                "w": 1349,
+                "h": 422,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": [
+                    {
+                        "type": "MASKING",
+                        "description": "INSTALL PEM SELF CLINCHING NUTS PER MANUFACTURERS RECOMMENDATION"
+                    },
+                    {
+                        "type": "MASKING",
+                        "description": "IDENTIFY SAILDRONE PART NUMBER AND REVISION USING W LABEL IN APPROXIMATE LOCATION"
+                    }
+                ]
+            },
+            "bom_table": [
+                {
+                    "id": 4,
+                    "x": 314,
+                    "y": 605,
+                    "w": 1617,
+                    "h": 1309,
+                    "item_number": 1,
+                    "part_number": null,
+                    "description": "PRESS FIT NUT, ZINC PLATED STEEL, 10-24 THREAD, .04\" MIN PANEL THK",
+                    "revision": null,
+                    "quantity": 18,
+                    "material": "ZINC PLATED STEEL",
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        }
+    ]
+}

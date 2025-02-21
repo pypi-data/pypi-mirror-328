@@ -1,0 +1,167 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 15,
+                "x": 2257,
+                "y": 1729,
+                "w": 1061,
+                "h": 429,
+                "title": "Rev8_Shaft_BottomBearing_Weight",
+                "revision": "A",
+                "part_number": "ENG-0799",
+                "tolerance": {
+                    "decimals": "0.13",
+                    "angles": null,
+                    "surfaces": null,
+                    "description": "DIMENSIONS ARE IN mm"
+                },
+                "material": "SEE NOTES",
+                "description": "PROPRIETARY AND CONFIDENTIAL\nTHE INFORMATION CONTAINED IN THIS\nDRAWING IS THE SOLE PROPERTY OF OUSTER\nINC. ANY REPRODUCTION IN PART OR AS A\nWHOLE WITHOUT THE WRITTEN PERMISSION OF\nOUSTER INC IS PROHIBITED.",
+                "unit": "mm",
+                "requirements": null
+            },
+            "note": {
+                "id": 10,
+                "x": 2271,
+                "y": 1161,
+                "w": 861,
+                "h": 536,
+                "material": "17-4 PH STAINLESS STEEL",
+                "tolerance": {
+                    "upper_deviation": "0.13",
+                    "lower_deviation": "0.13"
+                },
+                "unit": "mm",
+                "requirements": [
+                    {
+                        "type": "SAND_BLASTING",
+                        "description": "DO NOT SAND BLAST THIS PART."
+                    }
+                ]
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": [
+                {
+                    "id": 10,
+                    "x": 2271,
+                    "y": 1161,
+                    "w": 861,
+                    "h": 536,
+                    "type_of_control": "PROFILE_OF_A_SURFACE",
+                    "tolerance": {
+                        "upper_deviation": "0.26",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A B",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 10,
+                    "x": 2271,
+                    "y": 1161,
+                    "w": 861,
+                    "h": 536,
+                    "type_of_control": "POSITION",
+                    "tolerance": {
+                        "upper_deviation": "0.26",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A B",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 11,
+                    "x": 523,
+                    "y": 1315,
+                    "w": 1404,
+                    "h": 731,
+                    "type_of_control": "POSITION",
+                    "tolerance": {
+                        "upper_deviation": "0.002",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                }
+            ],
+            "diameters": [
+                {
+                    "id": 6,
+                    "x": 709,
+                    "y": 133,
+                    "w": 1033,
+                    "h": 945,
+                    "nominal_value": "15",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 9,
+                    "x": 633,
+                    "y": 1060,
+                    "w": 67,
+                    "h": 34,
+                    "nominal_value": "50",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 11,
+                    "x": 523,
+                    "y": 1315,
+                    "w": 1404,
+                    "h": 731,
+                    "nominal_value": "10",
+                    "tolerance": {
+                        "upper_deviation": "0.007",
+                        "lower_deviation": "0.007"
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 12,
+                    "x": 290,
+                    "y": 1360,
+                    "w": 287,
+                    "h": 66,
+                    "nominal_value": "0.02",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 13,
+                    "x": 1936,
+                    "y": 1448,
+                    "w": 59,
+                    "h": 25,
+                    "nominal_value": "1",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}

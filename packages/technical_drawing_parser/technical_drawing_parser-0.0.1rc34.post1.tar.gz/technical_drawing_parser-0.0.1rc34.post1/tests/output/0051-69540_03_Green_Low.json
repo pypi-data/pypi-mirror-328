@@ -1,0 +1,665 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 8,
+                "x": 4285,
+                "y": 4031,
+                "w": 2294,
+                "h": 605,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": {
+                    "decimals": "0.25",
+                    "angles": null,
+                    "surfaces": null,
+                    "description": "UNLESS OTHERWISE SPECIFIED: DIMENSIONS ARE IN MILLIMETERS. TRAILING ZEROS ARE NOT REMOVED. REMOVE BURRS AND SHARP EDGES."
+                },
+                "material": "SEE BOM",
+                "description": "APPLIED MATERIALS CONFIDENTIAL: THIS DOCUMENT AND THE INFORMATION CONTAINED IN IT ARE CONFIDENTIAL, AND CANNOT BE COPIED AND DISCLOSED IN WHOLE OR IN PART WITHOUT THE EXPRESS WRITTEN CONSENT OF APPLIED MATERIALS INC.",
+                "unit": "MILLIMETERS",
+                "requirements": null
+            },
+            "note": {
+                "id": 4,
+                "x": 4288,
+                "y": 1727,
+                "w": 1970,
+                "h": 274,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": null
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 1,
+            "title_block": {
+                "id": 18,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 12,
+                    "x": 652,
+                    "y": 1776,
+                    "w": 385,
+                    "h": 132,
+                    "nominal_value": "84.88",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 15,
+                    "x": 4016,
+                    "y": 3139,
+                    "w": 428,
+                    "h": 186,
+                    "nominal_value": "294.00",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 14,
+                    "x": 1283,
+                    "y": 2858,
+                    "w": 251,
+                    "h": 117,
+                    "nominal_value": "169",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 13,
+                    "x": 1574,
+                    "y": 2786,
+                    "w": 137,
+                    "h": 104,
+                    "nominal_value": "13",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                }
+            ]
+        },
+        {
+            "page_number": 2,
+            "title_block": {
+                "id": 107,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 24,
+                "x": 1358,
+                "y": 303,
+                "w": 3588,
+                "h": 473,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": null
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 3,
+            "title_block": {
+                "id": 122,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 111,
+                    "x": 2892,
+                    "y": 2843,
+                    "w": 38,
+                    "h": 144,
+                    "nominal_value": "1",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 112,
+                    "x": 3002,
+                    "y": 2843,
+                    "w": 119,
+                    "h": 144,
+                    "nominal_value": "8",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 113,
+                    "x": 3305,
+                    "y": 2843,
+                    "w": 351,
+                    "h": 144,
+                    "nominal_value": "0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 114,
+                    "x": 3897,
+                    "y": 2843,
+                    "w": 119,
+                    "h": 144,
+                    "nominal_value": "0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 115,
+                    "x": 4200,
+                    "y": 2843,
+                    "w": 199,
+                    "h": 144,
+                    "nominal_value": "5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                }
+            ],
+            "measures": null
+        },
+        {
+            "page_number": 4,
+            "title_block": {
+                "id": 148,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": [
+                {
+                    "id": 136,
+                    "x": 373,
+                    "y": 1532,
+                    "w": 1666,
+                    "h": 400,
+                    "type_of_control": "POSITION",
+                    "tolerance": {
+                        "upper_deviation": "0.13",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A B C",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 139,
+                    "x": 4024,
+                    "y": 1604,
+                    "w": 1666,
+                    "h": 353,
+                    "type_of_control": "POSITION",
+                    "tolerance": {
+                        "upper_deviation": "0.13",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A B C",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 140,
+                    "x": 4409,
+                    "y": 2268,
+                    "w": 1666,
+                    "h": 401,
+                    "type_of_control": "POSITION",
+                    "tolerance": {
+                        "upper_deviation": "0.13",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A B C",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                }
+            ],
+            "diameters": [
+                {
+                    "id": 132,
+                    "x": 1109,
+                    "y": 910,
+                    "w": 1017,
+                    "h": 204,
+                    "nominal_value": "18.5",
+                    "tolerance": {
+                        "upper_deviation": "0.2",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 136,
+                    "x": 373,
+                    "y": 1532,
+                    "w": 1666,
+                    "h": 400,
+                    "nominal_value": "4.5",
+                    "tolerance": {
+                        "upper_deviation": "0.0",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 140,
+                    "x": 4409,
+                    "y": 2268,
+                    "w": 1666,
+                    "h": 401,
+                    "nominal_value": "7.75",
+                    "tolerance": {
+                        "upper_deviation": "0.0",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 130,
+                    "x": 2119,
+                    "y": 637,
+                    "w": 410,
+                    "h": 104,
+                    "nominal_value": "0.4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 139,
+                    "x": 4024,
+                    "y": 1604,
+                    "w": 1666,
+                    "h": 353,
+                    "nominal_value": "3.65",
+                    "tolerance": {
+                        "upper_deviation": "0.13",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 144,
+                    "x": 1141,
+                    "y": 2694,
+                    "w": 451,
+                    "h": 104,
+                    "nominal_value": "12.0",
+                    "tolerance": {
+                        "upper_deviation": "0.0",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                }
+            ]
+        },
+        {
+            "page_number": 5,
+            "title_block": {
+                "id": 173,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 157,
+                    "x": 1228,
+                    "y": 3009,
+                    "w": 83,
+                    "h": 120,
+                    "nominal_value": "28",
+                    "tolerance": {
+                        "upper_deviation": "0.3",
+                        "lower_deviation": "0.0"
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": []
+        },
+        {
+            "page_number": 6,
+            "title_block": {
+                "id": 195,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 175,
+                    "x": 2972,
+                    "y": 589,
+                    "w": 161,
+                    "h": 239,
+                    "nominal_value": "2",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                }
+            ],
+            "measures": []
+        },
+        {
+            "page_number": 7,
+            "title_block": {
+                "id": 220,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": "3050 BOWERS AVE., SANTA CLARA, CA 95054",
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": [
+                {
+                    "id": 199,
+                    "x": 164,
+                    "y": 279,
+                    "w": 244,
+                    "h": 587,
+                    "item_number": 1,
+                    "part_number": "3300-02530",
+                    "description": "BLOCK, MANIFOLD 316 SST",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "316 SST",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 199,
+                    "x": 164,
+                    "y": 279,
+                    "w": 244,
+                    "h": 587,
+                    "item_number": 2,
+                    "part_number": "3300-10304",
+                    "description": "FTG TBG ELBOW 90DEG UNION",
+                    "revision": null,
+                    "quantity": 4,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 199,
+                    "x": 164,
+                    "y": 279,
+                    "w": 244,
+                    "h": 587,
+                    "item_number": 3,
+                    "part_number": "3560-00008",
+                    "description": "FTG TBG ATW, 3/8\" OD, SST",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": "SST",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 199,
+                    "x": 164,
+                    "y": 279,
+                    "w": 244,
+                    "h": 587,
+                    "item_number": 4,
+                    "part_number": "3460-01064",
+                    "description": "TBG 3/8OD .035WALL 316SST",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "316SST",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 199,
+                    "x": 164,
+                    "y": 279,
+                    "w": 244,
+                    "h": 587,
+                    "item_number": 5,
+                    "part_number": null,
+                    "description": "MKRCBL 1 X 1-7/16 WHT/TRANS",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 8,
+            "title_block": {
+                "id": 230,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 9,
+            "title_block": {
+                "id": 235,
+                "x": 4823,
+                "y": 4031,
+                "w": 1756,
+                "h": 607,
+                "title": "WELDMENT, MANIFOLD COOLING HUB SA LIFT PSM",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 10,
+            "title_block": {
+                "id": 240,
+                "x": 368,
+                "y": 459,
+                "w": 1438,
+                "h": 81,
+                "title": "PART QUALIFICATION & QUALITY CONTROLS (QC)",
+                "revision": "03",
+                "part_number": "0051-69540",
+                "tolerance": null,
+                "material": null,
+                "description": "CLASSIFICATION: NON-CRITICAL",
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 254,
+                "x": 370,
+                "y": 3770,
+                "w": 2775,
+                "h": 270,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": null
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        }
+    ]
+}

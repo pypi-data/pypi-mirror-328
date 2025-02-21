@@ -1,0 +1,268 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 14,
+                "x": 2130,
+                "y": 1807,
+                "w": 1228,
+                "h": 353,
+                "title": "BRACKET, INTEGRATED CONNECTOR, ST MICRO, 8MM ENDOSCOPE, IS5000",
+                "revision": "B",
+                "part_number": "344182-11",
+                "tolerance": {
+                    "decimals": "0.10",
+                    "angles": "0.5",
+                    "surfaces": null,
+                    "description": "LINEAR: X.X = ± 0.2 X.XX = ± 0.10 ANGLES: ± 0.5"
+                },
+                "material": null,
+                "description": null,
+                "unit": "MILLIMETERS",
+                "requirements": null
+            },
+            "note": {
+                "id": 8,
+                "x": 43,
+                "y": 117,
+                "w": 887,
+                "h": 469,
+                "material": "C110 COPPER 1/2 HARD",
+                "tolerance": {
+                    "upper_deviation": "0.05",
+                    "lower_deviation": "0.05"
+                },
+                "unit": "MILLIMETERS",
+                "requirements": [
+                    {
+                        "type": "ELECTROLESS_PLATING",
+                        "description": "PLATING: ELECTROLESS NICKEL PER MIL-C-26074, CLASS 1, GRADE B"
+                    }
+                ]
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": [
+                {
+                    "id": 9,
+                    "x": 2494,
+                    "y": 1470,
+                    "w": 797,
+                    "h": 250,
+                    "type_of_control": "PROFILE_OF_A_LINE",
+                    "tolerance": {
+                        "upper_deviation": "0.3",
+                        "lower_deviation": "0.3"
+                    },
+                    "datum_reference": "A B C",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                }
+            ],
+            "diameters": null,
+            "measures": [
+                {
+                    "id": 0,
+                    "x": 268,
+                    "y": 38,
+                    "w": 13,
+                    "h": 20,
+                    "nominal_value": "8",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1081,
+                    "y": 38,
+                    "w": 12,
+                    "h": 20,
+                    "nominal_value": "6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 2,
+                    "x": 684,
+                    "y": 39,
+                    "w": 12,
+                    "h": 19,
+                    "nominal_value": "7",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1483,
+                    "y": 40,
+                    "w": 12,
+                    "h": 19,
+                    "nominal_value": "5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 1891,
+                    "y": 40,
+                    "w": 13,
+                    "h": 19,
+                    "nominal_value": "4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 2294,
+                    "y": 40,
+                    "w": 13,
+                    "h": 20,
+                    "nominal_value": "3",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 20,
+                    "x": 1095,
+                    "y": 2138,
+                    "w": 12,
+                    "h": 20,
+                    "nominal_value": "6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 21,
+                    "x": 1496,
+                    "y": 2138,
+                    "w": 12,
+                    "h": 19,
+                    "nominal_value": "5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 22,
+                    "x": 1892,
+                    "y": 2138,
+                    "w": 14,
+                    "h": 19,
+                    "nominal_value": "4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        },
+        {
+            "page_number": 1,
+            "title_block": {
+                "id": 40,
+                "x": 2555,
+                "y": 1813,
+                "w": 803,
+                "h": 346,
+                "title": "BRACKET,INTEGRATED CONNECTOR,ST MICRO,8MM ENDOSCOPE,IS5000",
+                "revision": "B",
+                "part_number": "344182-11",
+                "tolerance": null,
+                "material": null,
+                "description": null,
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 36,
+                "x": 236,
+                "y": 1432,
+                "w": 1520,
+                "h": 649,
+                "material": null,
+                "tolerance": {
+                    "upper_deviation": "0.3",
+                    "lower_deviation": "0.3"
+                },
+                "unit": "MM",
+                "requirements": null
+            },
+            "bom_table": [
+                {
+                    "id": 39,
+                    "x": 2292,
+                    "y": 1417,
+                    "w": 1033,
+                    "h": 145,
+                    "item_number": 1,
+                    "part_number": "344182-11",
+                    "description": "BRACKET,INTEGRATED CONNECTOR,ST MICRO,8MM ENDOSCOPE,IS5000",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 39,
+                    "x": 2292,
+                    "y": 1417,
+                    "w": 1033,
+                    "h": 145,
+                    "item_number": 2,
+                    "part_number": "344194-04",
+                    "description": "TAPE,THERMAL,VOLTAGE REGULATORS,PLUG,ST MICRO,IS5000",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 39,
+                    "x": 2292,
+                    "y": 1417,
+                    "w": 1033,
+                    "h": 145,
+                    "item_number": 3,
+                    "part_number": "344255-01",
+                    "description": "TAPE,THERMAL,4X6,ST MICRO,IS5000",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        }
+    ]
+}

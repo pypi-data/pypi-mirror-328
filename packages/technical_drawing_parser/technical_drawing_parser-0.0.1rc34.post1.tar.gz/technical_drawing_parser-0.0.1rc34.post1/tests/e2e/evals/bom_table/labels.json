@@ -1,0 +1,173 @@
+{
+    "000153-REV-A-RETENTATE_TOP": null,
+    "26524": {},
+    "ENG0242048_TubeRack_REV_02": {},
+    "0051-69540_03_Green_Low": [
+        {
+            "item_number": 1,
+            "part_number": "-",
+            "description": "BLOCK, MANIFOLD 316 SST",
+            "revision": null,
+            "quantity": 1,
+            "material": "316 SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 2,
+            "part_number": "3300-02530",
+            "description": "FTG TBG ELBOW 90 DEG UNION 3/8T BUTTWELD SST",
+            "revision": null,
+            "quantity": 4,
+            "material": "SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 3,
+            "part_number": "3300-10304",
+            "description": "FTG, TBG ATW, 3/8'' OD, SST",
+            "revision": null,
+            "quantity": 2,
+            "material": "SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 4,
+            "part_number": "3560-00008",
+            "description": "TBG 3/8OD .035WALL 316SST",
+            "revision": null,
+            "quantity": 1,
+            "material": "SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 5,
+            "part_number": "3300-01064",
+            "description": "MKRCBL 1 X 1 - 7/16 WHT/TRANS VINYL FILM WRAP",
+            "revision": null,
+            "quantity": 2,
+            "material": "VINYL",
+            "tolerance": null,
+            "requirements": null
+        }
+    ],
+    "344182-11-B_11.11.24": {},
+    "ENG-0799-A-Rev8_Shaft_BottomBearing_Weight": {},
+    "0051-98744_03": [
+        {
+            "item_number": 1,
+            "part_number": "0015-10458",
+            "description": "MOD, FTG TBG ADPTER 3/8T X 9/16-18MSAE 1.52''LG HEX SST",
+            "revision": null,
+            "quantity": 1,
+            "material": "SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 2,
+            "part_number": "3860-03139",
+            "description": "TBGSMLS .375''ODX.035''WALL SST316L 10RA 401SPEC",
+            "revision": null,
+            "quantity": null,
+            "material": "SST316",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 3,
+            "part_number": "3830-01022",
+            "description": "LABEL WIRE MARKING VINYL SELF LAMNG CABLE 1''X2.25''-2.5''X3/4''",
+            "revision": null,
+            "quantity": 1,
+            "material": "VINYL",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 4,
+            "part_number": "3560-00008",
+            "description": "TBG 3/8OD .035WALL 316SST",
+            "revision": null,
+            "quantity": 1,
+            "material": "SST",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 5,
+            "part_number": "3300-01064",
+            "description": "MKRCBL 1 X 1 - 7/16 WHT/TRANS VINYL FILM WRAP",
+            "revision": null,
+            "quantity": 2,
+            "material": "VINLY",
+            "tolerance": null,
+            "requirements": null
+        }
+    ],
+    "715-A19398-017_A_HILLIN": [
+        {
+            "item_number": 1,
+            "part_number": null,
+            "description": null,
+            "revision": null,
+            "quantity": null,
+            "material": "SST 304",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 2,
+            "part_number": null,
+            "description": null,
+            "revision": null,
+            "quantity": null,
+            "material": "SST 304",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 3,
+            "part_number": null,
+            "description": null,
+            "revision": null,
+            "quantity": null,
+            "material": "SST 304",
+            "tolerance": null,
+            "requirements": null
+        }
+    ],
+    "Fuselage_Aft_Spar_Ring_Frame_B": {},
+    "007039_502_B_dwg2": {},
+    "839-338994-001_C_halagas": [
+        {
+            "item_number": 1,
+            "part_number": "839-338994-001-01",
+            "description": "BLOCK",
+            "revision": null,
+            "quantity": 1,
+            "material": "AL6061-T6511",
+            "tolerance": null,
+            "requirements": null
+        },
+        {
+            "item_number": 2,
+            "part_number": "715112",
+            "description": "FLG, LONG WELD STUB NW40, 1 - 1/2TUBE OD, AL (MDC)",
+            "revision": null,
+            "quantity": 1,
+            "material": "AL6061-T6",
+            "tolerance": null,
+            "requirements": null
+        }
+    ],
+    "New_parts_10-09-24_20001332-AA-00.000-20001332-11082063.SLDDRW_1": {},
+    "2100319951_A": {},
+    "A00190A": {},
+    "WELD_DAMPER_TUBE__W.000068_00": {},
+    "2127855-00-A_CANTRAIL_DELAMINATION_TOOL": {},
+    "bearingRetainerAssembly": {}
+}

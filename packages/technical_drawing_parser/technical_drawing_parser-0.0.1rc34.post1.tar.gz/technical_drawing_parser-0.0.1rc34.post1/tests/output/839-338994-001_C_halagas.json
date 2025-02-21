@@ -1,0 +1,422 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 12,
+                "x": 1944,
+                "y": 1617,
+                "w": 1357,
+                "h": 484,
+                "title": "WLDT, ADPTR, PM VIEWPORT TO KF40",
+                "revision": "C",
+                "part_number": "839-338994-001",
+                "tolerance": {
+                    "decimals": ".XX ±.01\n.XXX±.005",
+                    "angles": "±1.0°",
+                    "surfaces": "63",
+                    "description": "INCH-\nUNLESS SPECIFIED:\nALL DIMENSIONS ARE INCH\nDECIMALS: .XX ±.01 .XXX±.005\nANGLES: ±1.0°\nSURFACES: 63"
+                },
+                "material": "-----",
+                "description": "INTERPRET DRAWING PER ASME Y14.5-2009",
+                "unit": "INCH",
+                "requirements": null
+            },
+            "note": {
+                "id": 9,
+                "x": 1947,
+                "y": 1326,
+                "w": 1030,
+                "h": 221,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": [
+                    {
+                        "type": "LASER_MARKING_OR_ENGRAVING",
+                        "description": "ENGRAVE PART NUMBER AND REVISION WITH .12 HIGH X .003-.008 DEEP CHARACTERS IN APPROXIMATE LOCATION SHOWN."
+                    }
+                ]
+            },
+            "bom_table": [
+                {
+                    "id": 12,
+                    "x": 1944,
+                    "y": 1617,
+                    "w": 1357,
+                    "h": 484,
+                    "item_number": 2,
+                    "part_number": "715112",
+                    "description": "FLG, LONG WELD STUB, NW40, 1-1/2TUBE OD, AL (MDC)",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "AL6061-T6",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 12,
+                    "x": 1944,
+                    "y": 1617,
+                    "w": 1357,
+                    "h": 484,
+                    "item_number": 1,
+                    "part_number": "839-338994-001-01",
+                    "description": "BLOCK",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "AL6061-T6511",
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": [
+                {
+                    "id": 10,
+                    "x": 415,
+                    "y": 1367,
+                    "w": 1226,
+                    "h": 311,
+                    "nominal_value": "1.93",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 10,
+                    "x": 415,
+                    "y": 1367,
+                    "w": 1226,
+                    "h": 311,
+                    "nominal_value": "2.85",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        },
+        {
+            "page_number": 1,
+            "title_block": null,
+            "note": null,
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "1.51",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "1.334",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "0.221",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "0.359",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": {
+                        "id": 141,
+                        "x": 427,
+                        "y": 684,
+                        "w": 1618,
+                        "h": 782,
+                        "nominal_value": "0.22",
+                        "tolerance": {
+                            "upper_deviation": null,
+                            "lower_deviation": null
+                        },
+                        "tolerance_source": "LOCAL"
+                    }
+                },
+                {
+                    "id": 142,
+                    "x": 2148,
+                    "y": 764,
+                    "w": 398,
+                    "h": 703,
+                    "nominal_value": "0.221",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 142,
+                    "x": 2148,
+                    "y": 764,
+                    "w": 398,
+                    "h": 703,
+                    "nominal_value": "0.359",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 140,
+                    "x": 539,
+                    "y": 328,
+                    "w": 1424,
+                    "h": 200,
+                    "nominal_value": "40",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 140,
+                    "x": 539,
+                    "y": 328,
+                    "w": 1424,
+                    "h": 200,
+                    "nominal_value": "8.19",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "0.6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "3.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "7.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "0.57",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "2.66",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "1.9",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "1.6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "2.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 141,
+                    "x": 427,
+                    "y": 684,
+                    "w": 1618,
+                    "h": 782,
+                    "nominal_value": "5.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 142,
+                    "x": 2148,
+                    "y": 764,
+                    "w": 398,
+                    "h": 703,
+                    "nominal_value": "0.22",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 142,
+                    "x": 2148,
+                    "y": 764,
+                    "w": 398,
+                    "h": 703,
+                    "nominal_value": "3.67",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 142,
+                    "x": 2148,
+                    "y": 764,
+                    "w": 398,
+                    "h": 703,
+                    "nominal_value": "0.4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 143,
+                    "x": 492,
+                    "y": 1659,
+                    "w": 1521,
+                    "h": 228,
+                    "nominal_value": "0.002",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 143,
+                    "x": 492,
+                    "y": 1659,
+                    "w": 1521,
+                    "h": 228,
+                    "nominal_value": "0.05",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 16,
+                "x": 1725,
+                "y": 1876,
+                "w": 1600,
+                "h": 283,
+                "title": "OPI PLATE CARRIER, MFG TEST STAND",
+                "revision": "B",
+                "part_number": "26524",
+                "tolerance": {
+                    "decimals": "0.2",
+                    "angles": null,
+                    "surfaces": null,
+                    "description": "0.2"
+                },
+                "material": "MIC-6",
+                "description": null,
+                "unit": "MILLIMETERS",
+                "requirements": [
+                    {
+                        "type": "ANODIZING",
+                        "description": "CLEAR ANODIZE"
+                    }
+                ]
+            },
+            "note": {
+                "id": 1,
+                "x": 150,
+                "y": 105,
+                "w": 84,
+                "h": 21,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": null
+            },
+            "bom_table": null,
+            "threads": [
+                {
+                    "id": 4,
+                    "x": 2121,
+                    "y": 168,
+                    "w": 219,
+                    "h": 51,
+                    "description": "M2X0.4 - 6H"
+                },
+                {
+                    "id": 5,
+                    "x": 1696,
+                    "y": 193,
+                    "w": 807,
+                    "h": 1610,
+                    "description": "M3X0.5 - 6H"
+                },
+                {
+                    "id": 7,
+                    "x": 180,
+                    "y": 280,
+                    "w": 1064,
+                    "h": 1385,
+                    "description": "M2X0.4 - 6H"
+                },
+                {
+                    "id": 8,
+                    "x": 1128,
+                    "y": 280,
+                    "w": 495,
+                    "h": 1385,
+                    "description": "M3X0.5 - 6H"
+                }
+            ],
+            "feature_control_frames": [
+                {
+                    "id": 6,
+                    "x": 2413,
+                    "y": 253,
+                    "w": 272,
+                    "h": 114,
+                    "type_of_control": "PROFILE_OF_A_SURFACE",
+                    "tolerance": {
+                        "upper_deviation": "0.05",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 5,
+                    "x": 1696,
+                    "y": 193,
+                    "w": 807,
+                    "h": 1610,
+                    "type_of_control": "PROFILE_OF_A_SURFACE",
+                    "tolerance": {
+                        "upper_deviation": "0.05",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "A",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                },
+                {
+                    "id": 7,
+                    "x": 180,
+                    "y": 280,
+                    "w": 1064,
+                    "h": 1385,
+                    "type_of_control": "PROFILE_OF_A_SURFACE",
+                    "tolerance": {
+                        "upper_deviation": "0.05",
+                        "lower_deviation": null
+                    },
+                    "datum_reference": "B",
+                    "modifier": null,
+                    "modifier_symbol_as_unicode_character": null
+                }
+            ],
+            "diameters": [
+                {
+                    "id": 4,
+                    "x": 2121,
+                    "y": 168,
+                    "w": 219,
+                    "h": 51,
+                    "nominal_value": "1.6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": {
+                        "id": 4,
+                        "x": 2121,
+                        "y": 168,
+                        "w": 219,
+                        "h": 51,
+                        "nominal_value": "5.2",
+                        "tolerance": {
+                            "upper_deviation": null,
+                            "lower_deviation": null
+                        },
+                        "tolerance_source": "GENERAL"
+                    }
+                },
+                {
+                    "id": 5,
+                    "x": 1696,
+                    "y": 193,
+                    "w": 807,
+                    "h": 1610,
+                    "nominal_value": "2.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 7,
+                    "x": 180,
+                    "y": 280,
+                    "w": 1064,
+                    "h": 1385,
+                    "nominal_value": "1.6",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": {
+                        "id": 7,
+                        "x": 180,
+                        "y": 280,
+                        "w": 1064,
+                        "h": 1385,
+                        "nominal_value": "6.0",
+                        "tolerance": {
+                            "upper_deviation": null,
+                            "lower_deviation": null
+                        },
+                        "tolerance_source": "GENERAL"
+                    }
+                },
+                {
+                    "id": 8,
+                    "x": 1128,
+                    "y": 280,
+                    "w": 495,
+                    "h": 1385,
+                    "nominal_value": "3.0",
+                    "tolerance": {
+                        "upper_deviation": "0.01",
+                        "lower_deviation": "0.03"
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 10,
+                    "x": 1410,
+                    "y": 1666,
+                    "w": 142,
+                    "h": 137,
+                    "nominal_value": "16.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 8,
+                    "x": 1128,
+                    "y": 280,
+                    "w": 495,
+                    "h": 1385,
+                    "nominal_value": "350.85",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 9,
+                    "x": 2798,
+                    "y": 280,
+                    "w": 215,
+                    "h": 1385,
+                    "nominal_value": "88.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 14,
+                    "x": 2199,
+                    "y": 1774,
+                    "w": 70,
+                    "h": 19,
+                    "nominal_value": "135.4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}

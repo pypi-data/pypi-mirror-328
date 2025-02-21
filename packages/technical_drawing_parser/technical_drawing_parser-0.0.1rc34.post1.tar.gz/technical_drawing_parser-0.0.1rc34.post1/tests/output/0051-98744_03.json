@@ -1,0 +1,174 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 15,
+                "x": 3866,
+                "y": 2929,
+                "w": 2755,
+                "h": 1748,
+                "title": "WELDMENT, SH COOLING",
+                "revision": "03",
+                "part_number": "0051-98744",
+                "tolerance": {
+                    "decimals": "X/X.X ±0.7",
+                    "angles": "±1°",
+                    "surfaces": "-",
+                    "description": "X.XX ‡"
+                },
+                "material": "SEE BOM",
+                "description": "UNLESS OTHERWISE SPECIFIED: DIMENSIONS ARE IN MILLIMETERS. TRAILING ZEROS ARE NOT REMOVED. REMOVE BURRS AND SHARP EDGES.",
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 0,
+                "x": 0,
+                "y": 1,
+                "w": 2764,
+                "h": 641,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": [
+                    {
+                        "type": "WATER_CLEANING",
+                        "description": "CLEAN PER APPLIED MATERIALS 0250-70351, TYPE I."
+                    },
+                    {
+                        "type": "LASER_MARKING_OR_ENGRAVING",
+                        "description": "IDENTIFY PER APPLIED MATERIALS 0250-27028 AND 0250-01033, METHOD 15."
+                    }
+                ]
+            },
+            "bom_table": [
+                {
+                    "id": 15,
+                    "x": 3866,
+                    "y": 2929,
+                    "w": 2755,
+                    "h": 1748,
+                    "item_number": 3,
+                    "part_number": "3830-01022",
+                    "description": "LABEL WIRE MARKING VINYL SELF LAMNG CABLE 1\" X 2.25\"- 2.5\" X 3/4\"",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 15,
+                    "x": 3866,
+                    "y": 2929,
+                    "w": 2755,
+                    "h": 1748,
+                    "item_number": 2,
+                    "part_number": "3860-03139",
+                    "description": "TBGSMLS .375\"ODX.035\"WALL SST316L 10RA 40ISPEC",
+                    "revision": null,
+                    "quantity": null,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 15,
+                    "x": 3866,
+                    "y": 2929,
+                    "w": 2755,
+                    "h": 1748,
+                    "item_number": 1,
+                    "part_number": "0015-10458",
+                    "description": "MOD, FTG TBG ADPTR 3/8T X 9/16-18MSAE 1.52\"LG HEX SST",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 11,
+                    "x": 2151,
+                    "y": 3739,
+                    "w": 778,
+                    "h": 701,
+                    "nominal_value": "9.52",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 4,
+                    "x": 3484,
+                    "y": 823,
+                    "w": 959,
+                    "h": 1786,
+                    "nominal_value": "109.3",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                },
+                {
+                    "id": 10,
+                    "x": 2096,
+                    "y": 3105,
+                    "w": 964,
+                    "h": 545,
+                    "nominal_value": "9.50",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL"
+                }
+            ]
+        },
+        {
+            "page_number": 1,
+            "title_block": {
+                "id": 21,
+                "x": 368,
+                "y": 459,
+                "w": 1439,
+                "h": 81,
+                "title": null,
+                "revision": "03",
+                "part_number": "0051-98744",
+                "tolerance": null,
+                "material": null,
+                "description": "CLASSIFICATION: NON-CRITICAL",
+                "unit": null,
+                "requirements": null
+            },
+            "note": {
+                "id": 35,
+                "x": 370,
+                "y": 3770,
+                "w": 2775,
+                "h": 270,
+                "material": null,
+                "tolerance": null,
+                "unit": null,
+                "requirements": null
+            },
+            "bom_table": null,
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        }
+    ]
+}

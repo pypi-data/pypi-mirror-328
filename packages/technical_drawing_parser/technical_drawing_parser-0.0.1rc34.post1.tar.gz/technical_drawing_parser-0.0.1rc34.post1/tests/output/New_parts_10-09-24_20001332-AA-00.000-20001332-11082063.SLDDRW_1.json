@@ -1,0 +1,156 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 9,
+                "x": 2272,
+                "y": 1833,
+                "w": 1087,
+                "h": 339,
+                "title": null,
+                "revision": "AA",
+                "part_number": "20001332",
+                "tolerance": {
+                    "decimals": "0.1",
+                    "angles": "1",
+                    "surfaces": null,
+                    "description": "UNLESS OTHERWISE SPECIFIED DIMENSIONS ARE IN MILLIMETERS TOLERANCES ARE: .X ± 1 .XX ± .5 .XXX ± .25 ANGLES ± 1.0°"
+                },
+                "material": "SEE BOM",
+                "description": "Wdmnt, Brkt, Mtg, Vertical, Air Blast",
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": [
+                {
+                    "id": 3,
+                    "x": 1678,
+                    "y": 24,
+                    "w": 1664,
+                    "h": 227,
+                    "item_number": 1,
+                    "part_number": "20001333",
+                    "description": "Plt, Mtg, Vertical, Air Blast",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "10ga 304SS",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 3,
+                    "x": 1678,
+                    "y": 24,
+                    "w": 1664,
+                    "h": 227,
+                    "item_number": 2,
+                    "part_number": "20001284",
+                    "description": "Collar, 2Piece, 3/4'Shaft, 303SS",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": null,
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": [
+                {
+                    "id": 5,
+                    "x": 503,
+                    "y": 500,
+                    "w": 1263,
+                    "h": 1138,
+                    "nominal_value": "100.27",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 503,
+                    "y": 500,
+                    "w": 1263,
+                    "h": 1138,
+                    "nominal_value": "5.02",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 503,
+                    "y": 500,
+                    "w": 1263,
+                    "h": 1138,
+                    "nominal_value": "76.20",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 503,
+                    "y": 500,
+                    "w": 1263,
+                    "h": 1138,
+                    "nominal_value": "152.40",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 503,
+                    "y": 500,
+                    "w": 1263,
+                    "h": 1138,
+                    "nominal_value": "200.53",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 236,
+                    "y": 537,
+                    "w": 202,
+                    "h": 808,
+                    "nominal_value": "25.40",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1906,
+                    "y": 655,
+                    "w": 217,
+                    "h": 888,
+                    "nominal_value": "28.83",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}

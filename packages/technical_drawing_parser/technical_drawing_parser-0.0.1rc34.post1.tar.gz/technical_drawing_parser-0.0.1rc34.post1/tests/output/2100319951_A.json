@@ -1,0 +1,674 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 7,
+                "x": 1327,
+                "y": 2091,
+                "w": 2977,
+                "h": 1263,
+                "title": "HEAT SINK COVER, DIE PICK TOOL, Z AXIS, ABL",
+                "revision": "A",
+                "part_number": "2100319951",
+                "tolerance": {
+                    "decimals": "0.1",
+                    "angles": "0.5",
+                    "surfaces": null,
+                    "description": "-TOLERANCES; ANGULAR: MACH. .5 ° BEND .5° XX :1.0 X.X : .2 X.X X : .10 X.X X X : .020"
+                },
+                "material": "SEE NOTE",
+                "description": "THE INFORMATION CONTAINED IN THIS DRAWING IS THE SOLE PROPERTY OF FUJIFILM DIMATIX. ANY REPRODUCTION IN PART OR AS A WHOLE WITHOUT THE WRITTEN PERMISSION OF FUJIFILM DIMATIX IS PROHIBITED.",
+                "unit": "MILLIMETERS",
+                "requirements": null
+            },
+            "note": {
+                "id": 8,
+                "x": 131,
+                "y": 2836,
+                "w": 1375,
+                "h": 430,
+                "material": "ALUMINUM 6061-T6",
+                "tolerance": null,
+                "unit": "MILLIMETERS",
+                "requirements": [
+                    {
+                        "type": "ANODIZING",
+                        "description": "ANODIZE PER MIL-A-8625F TYPE II CLASS 2 BLACK."
+                    },
+                    {
+                        "type": "LASER_MARKING_OR_ENGRAVING",
+                        "description": "MACHINE OR LASER ENGRAVE PART WITH NUMBER IN APPROX AREA SHOWN. USE FONT AND SIZE WITH BEST FIT TO AREA."
+                    }
+                ]
+            },
+            "bom_table": null,
+            "threads": [
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "description": "4X M3X0.5 - 6H"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "description": "8X M3X0.5 - 6H"
+                }
+            ],
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "26.01",
+                    "tolerance": {
+                        "upper_deviation": "0.02",
+                        "lower_deviation": "0.0"
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "36.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "2.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 2,
+                    "x": 308,
+                    "y": 515,
+                    "w": 629,
+                    "h": 511,
+                    "nominal_value": "2.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "2.01",
+                    "tolerance": {
+                        "upper_deviation": "0.02",
+                        "lower_deviation": "0.0"
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "36.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "30.75",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "18.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "5.25",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "38.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "47.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "56.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 1,
+                    "x": 1264,
+                    "y": 190,
+                    "w": 1956,
+                    "h": 988,
+                    "nominal_value": "95.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 2,
+                    "x": 308,
+                    "y": 515,
+                    "w": 629,
+                    "h": 511,
+                    "nominal_value": "5.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 2,
+                    "x": 308,
+                    "y": 515,
+                    "w": 629,
+                    "h": 511,
+                    "nominal_value": "2.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 2,
+                    "x": 308,
+                    "y": 515,
+                    "w": 629,
+                    "h": 511,
+                    "nominal_value": "0.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "33.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "32.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "28.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "25.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "2.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 4,
+                    "x": 1516,
+                    "y": 1269,
+                    "w": 1726,
+                    "h": 713,
+                    "nominal_value": "5.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 275,
+                    "y": 1365,
+                    "w": 678,
+                    "h": 736,
+                    "nominal_value": "1.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 5,
+                    "x": 275,
+                    "y": 1365,
+                    "w": 678,
+                    "h": 736,
+                    "nominal_value": "0.2",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "5.75",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "7.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "10.75",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "13.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "19.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "30.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "23.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "30.75",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "33.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "33.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "34.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "36.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "47.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "58.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "61.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "65.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "82.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "84.25",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "88.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "89.25",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "1.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 1327,
+                    "y": 2091,
+                    "w": 2977,
+                    "h": 1263,
+                    "nominal_value": "3.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}

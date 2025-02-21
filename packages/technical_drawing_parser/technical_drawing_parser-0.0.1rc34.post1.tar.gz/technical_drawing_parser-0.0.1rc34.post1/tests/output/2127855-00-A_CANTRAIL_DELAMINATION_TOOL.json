@@ -1,0 +1,206 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 5,
+                "x": 2488,
+                "y": 1330,
+                "w": 851,
+                "h": 838,
+                "title": null,
+                "revision": "A.1",
+                "part_number": "2127855-00",
+                "tolerance": null,
+                "material": "****",
+                "description": "Cantrail Delamination Tool",
+                "unit": "MILLIMETERS",
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": [
+                {
+                    "id": 1,
+                    "x": 944,
+                    "y": 121,
+                    "w": 1293,
+                    "h": 379,
+                    "item_number": 1,
+                    "part_number": "MCMASTER 1104A88",
+                    "description": "SCREW IN TRIM",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": "ALUMINUM",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 1,
+                    "x": 944,
+                    "y": 121,
+                    "w": 1293,
+                    "h": 379,
+                    "item_number": 2,
+                    "part_number": null,
+                    "description": "BAR STOCK",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "6061 ALUMINUM OR EQUIV",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 1,
+                    "x": 944,
+                    "y": 121,
+                    "w": 1293,
+                    "h": 379,
+                    "item_number": 3,
+                    "part_number": null,
+                    "description": "TORQUE ADAPTER 3\" OR GREATER",
+                    "revision": null,
+                    "quantity": 1,
+                    "material": "TOOL STEEL",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 1,
+                    "x": 944,
+                    "y": 121,
+                    "w": 1293,
+                    "h": 379,
+                    "item_number": 4,
+                    "part_number": "MCMASTER 92148A200",
+                    "description": "SPLIT LOCK WASHER M8",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": "STAINLESS STEEL",
+                    "tolerance": null,
+                    "requirements": null
+                },
+                {
+                    "id": 1,
+                    "x": 944,
+                    "y": 121,
+                    "w": 1293,
+                    "h": 379,
+                    "item_number": 5,
+                    "part_number": "MCMASTER 92595A507",
+                    "description": "THUMB SCREW WING BOLT M8",
+                    "revision": null,
+                    "quantity": 2,
+                    "material": "ZINC PLATED CAST IRON",
+                    "tolerance": null,
+                    "requirements": null
+                }
+            ],
+            "threads": null,
+            "feature_control_frames": null,
+            "diameters": null,
+            "measures": null
+        },
+        {
+            "page_number": 1,
+            "title_block": {
+                "id": 35,
+                "x": 2488,
+                "y": 1794,
+                "w": 833,
+                "h": 374,
+                "title": null,
+                "revision": "A.1",
+                "part_number": "PRD-17958254",
+                "tolerance": null,
+                "material": null,
+                "description": "Cantrail Prototype 3",
+                "unit": null,
+                "requirements": null
+            },
+            "note": null,
+            "bom_table": null,
+            "threads": [
+                {
+                    "id": 33,
+                    "x": 196,
+                    "y": 412,
+                    "w": 877,
+                    "h": 391,
+                    "description": "M8 x 1.25 THRU ALL"
+                }
+            ],
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 30,
+                    "x": 1964,
+                    "y": 262,
+                    "w": 714,
+                    "h": 630,
+                    "nominal_value": "9.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                },
+                {
+                    "id": 33,
+                    "x": 196,
+                    "y": 412,
+                    "w": 877,
+                    "h": 391,
+                    "nominal_value": "19.05",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 30,
+                    "x": 1964,
+                    "y": 262,
+                    "w": 714,
+                    "h": 630,
+                    "nominal_value": "25.4",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 30,
+                    "x": 1964,
+                    "y": 262,
+                    "w": 714,
+                    "h": 630,
+                    "nominal_value": "12.7",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 31,
+                    "x": 867,
+                    "y": 276,
+                    "w": 592,
+                    "h": 321,
+                    "nominal_value": "74.93",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}

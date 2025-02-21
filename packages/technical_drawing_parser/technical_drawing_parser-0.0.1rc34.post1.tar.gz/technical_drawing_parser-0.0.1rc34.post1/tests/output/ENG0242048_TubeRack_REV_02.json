@@ -1,0 +1,494 @@
+{
+    "pages": [
+        {
+            "page_number": 0,
+            "title_block": {
+                "id": 15,
+                "x": 2188,
+                "y": 1798,
+                "w": 1126,
+                "h": 360,
+                "title": "TUBE RACK",
+                "revision": "02",
+                "part_number": "ENG0242048",
+                "tolerance": {
+                    "decimals": "X.X ±.2\nX.XX ±.10",
+                    "angles": "X° ±1°\nX.X° ±.5°",
+                    "surfaces": null,
+                    "description": "UNLESS OTHERWISE SPECIFIED:\nDIMENSIONS ARE IN MILLIMETERS\nTOLERANCES ARE:\nDECIMALS:\nX.X ±.2\nX.XX ±.10\nANGLES:\nX° ±1°\nX.X° ±.5°"
+                },
+                "material": "6061 T6 ALUMINUM",
+                "description": null,
+                "unit": "MILLIMETERS",
+                "requirements": null
+            },
+            "note": {
+                "id": 11,
+                "x": 126,
+                "y": 1681,
+                "w": 1429,
+                "h": 507,
+                "material": null,
+                "tolerance": {
+                    "upper_deviation": "0.1",
+                    "lower_deviation": "0.0"
+                },
+                "unit": null,
+                "requirements": [
+                    {
+                        "type": "ANODIZING",
+                        "description": "FINISH: TYPE II BLUE ANODIZE."
+                    }
+                ]
+            },
+            "bom_table": null,
+            "threads": [
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "description": "M4X0.7 - 6H"
+                }
+            ],
+            "feature_control_frames": null,
+            "diameters": [
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "3.3",
+                    "tolerance": {
+                        "upper_deviation": "4.0",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "10.7",
+                    "tolerance": {
+                        "upper_deviation": "28.5",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "12.7",
+                    "tolerance": {
+                        "upper_deviation": "90.0",
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "LOCAL",
+                    "depth": null
+                }
+            ],
+            "measures": [
+                {
+                    "id": 7,
+                    "x": 2130,
+                    "y": 418,
+                    "w": 308,
+                    "h": 644,
+                    "nominal_value": "28.5",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 7,
+                    "x": 2130,
+                    "y": 418,
+                    "w": 308,
+                    "h": 644,
+                    "nominal_value": "30.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 8,
+                    "x": 225,
+                    "y": 546,
+                    "w": 257,
+                    "h": 756,
+                    "nominal_value": "90.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 8,
+                    "x": 225,
+                    "y": 546,
+                    "w": 257,
+                    "h": 756,
+                    "nominal_value": "40.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "6.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "130.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "121.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "107.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "93.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "79.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "65.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "51.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "37.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "23.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "9.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "24.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "38.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "52.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "66.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "80.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "94.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "108.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "122.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "136.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "150.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "164.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "178.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "192.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "206.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                },
+                {
+                    "id": 6,
+                    "x": 491,
+                    "y": 131,
+                    "w": 1568,
+                    "h": 1440,
+                    "nominal_value": "220.0",
+                    "tolerance": {
+                        "upper_deviation": null,
+                        "lower_deviation": null
+                    },
+                    "tolerance_source": "GENERAL"
+                }
+            ]
+        }
+    ]
+}
