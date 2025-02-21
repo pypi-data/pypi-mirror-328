@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+snakehdl/__init__.py
+snakehdl/bops.py
+snakehdl.egg-info/PKG-INFO
+snakehdl.egg-info/SOURCES.txt
+snakehdl.egg-info/dependency_links.txt
+snakehdl.egg-info/requires.txt
+snakehdl.egg-info/top_level.txt
+snakehdl/compiler/__init__.py
+snakehdl/compiler/compiler.py
+snakehdl/compiler/compiler_logisim.py
+snakehdl/compiler/compiler_python.py
+tests/test_bops.py
+tests/test_compiler.py
