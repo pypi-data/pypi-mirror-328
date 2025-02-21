@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: square-mcp
+Version: 0.1.3
+Summary: Square API Model Context Protocol Server
+Project-URL: Homepage, https://github.com/Kvadratni/square-mcp
+Project-URL: Repository, https://github.com/Kvadratni/square-mcp
+Project-URL: Documentation, https://github.com/Kvadratni/square-mcp#readme
+Project-URL: Bug Tracker, https://github.com/Kvadratni/square-mcp/issues
+Author-email: Mihovil Novich <mihovil@novich.co>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: api,mcp,payments,square
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Requires-Dist: mcp[cli]>=1.2.0
+Requires-Dist: squareup>=33.1.0
+Description-Content-Type: text/markdown
+
+# Square MCP Server
+
+A Model Context Protocol (MCP) server that provides access to Square API functionality.
+
+## Setup
+
+1. Install dependencies:
+```bash
+uv sync
+```
+
+2. Set environment variables:
+```bash
+export SQUARE_ACCESS_TOKEN=your_access_token_here
+```
+
+3. Run the server:
+```bash
+uv pip install .
+square-mcp
+```
+
+Or for development:
+```bash
+source .venv/bin/activate
+mcp dev src/square_mcp/server.py
+```
