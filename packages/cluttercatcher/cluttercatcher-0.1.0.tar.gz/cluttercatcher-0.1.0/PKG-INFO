@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cluttercatcher
+Version: 0.1.0
+Summary: A tool to clean unused files, imports, and dependencies from projects.
+License: MIT
+Author: Asfaq Ahmed
+Author-email: asfaqahmed128@gmail.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# 🚀 ClutterCatcher  
+
+**ClutterCatcher** is a powerful Python tool that helps you clean up unused files, imports, and dependencies from your projects, making them leaner and more efficient.  
+
+## 🎯 Features  
+✅ Detect and remove **unused files** from your project  
+✅ Identify **unused imports** in Python scripts    
+✅ Interactive or automatic cleanup mode  
+✅ Supports multiple file types and project structures  
+
+## 📦 Installation  
+
+Install ClutterCatcher using **pip**:  
+
+```sh
+pip install cluttercatcher
+```
+
+Or if you are using Poetry:  
+
+```sh
+poetry add cluttercatcher
+```
+## 📜 License
+
+ClutterCatcher is licensed under the MIT License.
