@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: pyjiaxun
+Version: 0.1.0
+Summary: 
+License: GPL-3.0-or-later
+Author: Lily White
+Author-email: lilywhite2005@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: browser-cookie3 (>=0.20.1,<0.21.0)
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Requires-Dist: peewee (>=3.17.9,<4.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Description-Content-Type: text/markdown
+
+# PyJiaXun
+
