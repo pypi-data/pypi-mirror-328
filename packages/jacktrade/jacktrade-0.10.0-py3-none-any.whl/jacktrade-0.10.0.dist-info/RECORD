@@ -1,0 +1,13 @@
+jacktrade/__init__.py,sha256=rHW8LZwf4_wlS0yBVzXR8jz4im10E8KyMWX9DQn_Dik,731
+jacktrade/benchmark.py,sha256=lW5aTL62xymDtDQ-wqiJcbJtpmtb7NIUzanpR3VQv7Y,7200
+jacktrade/buffers.py,sha256=5VAWAbzlWsZfm76ApFNPuvXkKi-5OPmIoagPY-N3TJ0,5950
+jacktrade/collections.py,sha256=VldM8ruaeMbafXqe6Onp8NAg3R0NWhAKrbDYJaVz9Gc,9755
+jacktrade/files.py,sha256=Myegj3A6NmcQ7qRMmgwvW7LPYsV_Qcpp-FU6-lUSMyo,1874
+jacktrade/multicore.py,sha256=Ea7es0dY1usySfvclVECakSYLeIv0vZuzIiYiabCWkY,2486
+jacktrade/pickler.py,sha256=nCPjbytkP_sHS__KB1pkaJJlDY_GJ3puetDmZXNjPEI,662
+jacktrade/sysenv.py,sha256=ZPGzAgCbMemTLrKl-PlZdDAkFsp6OikVpWoybZWIjvk,1547
+jacktrade-0.10.0.dist-info/LICENSE.md,sha256=aZ-toprlzE9pHrZpVqzEIbl6Sg1JNktoRunpwRl3lUQ,1077
+jacktrade-0.10.0.dist-info/METADATA,sha256=UyNXYf3gXRFaRPsG5zsDQkei0P6z1us8w8vc8qFoGd4,8272
+jacktrade-0.10.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jacktrade-0.10.0.dist-info/top_level.txt,sha256=LMWIKSmn4EGlqTJLq1cagezxLkc0RawctA3IRvXHk5c,10
+jacktrade-0.10.0.dist-info/RECORD,,
