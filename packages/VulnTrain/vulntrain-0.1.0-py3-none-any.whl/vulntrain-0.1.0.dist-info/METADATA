@@ -1,0 +1,74 @@
+Metadata-Version: 2.3
+Name: VulnTrain
+Version: 0.1.0
+Summary: Generate datasets amd models based on vulnerabilities descriptions from Vulnerability-Lookup.
+License: GPL-3.0-or-later
+Author: Cédric Bonhomme
+Author-email: cedric.bonhomme@circl.lu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Security
+Requires-Dist: datasets (>=3.3.1,<4.0.0)
+Requires-Dist: nltk (>=3.9.1,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: valkey (>=6.1.0,<7.0.0)
+Project-URL: Homepage, https://github.com/vulnerability-lookup/VulnTrain
+Project-URL: Repository, https://github.com/vulnerability-lookup/VulnTrain
+Description-Content-Type: text/markdown
+
+# VulnTrain
+
+Generate datasets amd models based on vulnerabilities descriptions from Vulnerability-Lookup.
+
+Uses data from the ``vulnerability-lookup:meta`` container such as vulnrichment and FKIE.
+
+
+## Usage
+
+### Generate datasets
+
+Authenticate to HuggingFace:
+
+```bash
+huggingface-cli login
+```
+
+Creation of datasets:
+
+```bash
+$ pipx install VulnTrain
+
+$ vulntrain-create-dataset 
+DatasetDict({
+    train: Dataset({
+        features: ['id', 'title', 'description'],
+        num_rows: 4
+    })
+    test: Dataset({
+        features: ['id', 'title', 'description'],
+        num_rows: 1
+    })
+})
+Creating parquet from Arrow format: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 1317.72ba/s]
+Uploading the dataset shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.16it/s]
+Creating parquet from Arrow format: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 2233.39ba/s]
+Uploading the dataset shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.39it/s]
+README.md: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 428/428 [00:00<00:00, 1.70MB/s]
+```
+
+
+Train:
+
+```bash
+$ vulntrain-train-dataset 
+```

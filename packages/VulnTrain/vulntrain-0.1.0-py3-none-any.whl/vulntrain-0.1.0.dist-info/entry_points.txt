@@ -1,0 +1,3 @@
+[console_scripts]
+vulntrain-create-dataset=vulntrain.create_dataset:main
+
