@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: dataclouder-core
+Version: 0.0.5
+Summary: A library Core for dataclouder projects
+Author: adamo figueroa
+Author-email: adamo@dataclouder.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: fastapi (>=0.100.0)
+Requires-Dist: pydantic-ai (>=0.0.19)
+Description-Content-Type: text/markdown
+
+# 🚀 Dataclouder Core 
+
+Some utilities for dataclouder projects.
+
+## 🛠️ Prerequisites
+
+- Python 3.x
+- Poetry >= 2.0.0 (Optinal recommended)
+- Docker (optional)
+- Google Cloud credentials and environment variables
+- Access to Polilan repository
+
+
+
+## 🚀 Local Setup Makefile
+use the make command to build the package. and publish to pypi.
+

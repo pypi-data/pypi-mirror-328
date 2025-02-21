@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dataclouder-core"
+version = "0.0.5"
+description = "A library Core for dataclouder projects"
+authors = [
+    "adamo figueroa <adamo@dataclouder.com>"
+]
+readme = "README.md"
+packages = [{include = "dataclouder_core", from = "src"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pydantic-ai = ">=0.0.19"
+fastapi = ">=0.100.0"
+
+[tool.poetry.group.dev.dependencies]
+build = ">=1.0.0"
+twine = ">=6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
