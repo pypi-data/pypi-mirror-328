@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pybscope/__init__.py
+pybscope/cli.py
+pybscope/example.py
+pybscope.egg-info/PKG-INFO
+pybscope.egg-info/SOURCES.txt
+pybscope.egg-info/dependency_links.txt
+pybscope.egg-info/requires.txt
+pybscope.egg-info/top_level.txt

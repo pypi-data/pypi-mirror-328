@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: pybscope
+Version: 0.1.0
+Summary: A Python module for LEGO BOOST, SPIKE Prime, and RI communication.
+Home-page: https://github.com/leon8326-nogeese/pybscope
+Author: Nogeese
+Author-email: leoszen@aol.com
+License: NPL 1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pylgbst
+Requires-Dist: pybricksdev
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pybscope
+Pybscope is an extension pack for pybricks.
+
+## Installation
+### Linux
+```bash
+curl https://raw.githubusercontent.com/leon8326-nogeese/pybscope/main/installer.sh | bash
+```
+
+### Other platforms
+```sh
+pip install pybscope
+```
+
+## License
+This project is licensed under the Nogeese Public License 1.0 (NPL 1.0).  
+See the [LICENSE](https://github.com/leon8326-nogeese/pybscope/blob/main/LICENSE) file for details.
