@@ -1,0 +1,2 @@
+[console_scripts]
+tyler-db = tyler.database.cli:main
