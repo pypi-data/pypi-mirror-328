@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+multiagentx/__init__.py
+multiagentx/play.py
+multiagentx.egg-info/PKG-INFO
+multiagentx.egg-info/SOURCES.txt
+multiagentx.egg-info/dependency_links.txt
+multiagentx.egg-info/requires.txt
+multiagentx.egg-info/top_level.txt
