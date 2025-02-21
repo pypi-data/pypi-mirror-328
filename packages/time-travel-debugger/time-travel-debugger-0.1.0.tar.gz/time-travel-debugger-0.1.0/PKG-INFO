@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: time-travel-debugger
+Version: 0.1.0
+Summary: A time-travel debugger for Python with step-backward execution.
+Home-page: https://github.com/yourusername/time-travel-debugger
+Author: Siddhant Jaiswal
+Author-email: sddhantjaiii@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.py
+
+# Time-Travel Debugger
+
+A Python library for step-backward debugging, allowing developers to rewind execution.
+
+## Features
+- Step forward and backward in execution history.
+- View variable changes at each step.
+- Visual output with `rich`.
+
+## Installation
