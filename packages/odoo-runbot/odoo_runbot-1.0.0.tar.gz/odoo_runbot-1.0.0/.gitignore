@@ -1,0 +1,16 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+site/
+public/
+wheels/
+*.egg-info
+docker_test/project_code
+
+# venv
+.venv/
+report.xml
+.coverage
+.hatch-venv/
