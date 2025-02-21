@@ -1,0 +1,12 @@
+pmsh/__init__.py,sha256=No-MwALm2SV3ZhA3HH_HV6Ek1VZlEzUt6TAT3aizDPQ,221
+pmsh/detect.py,sha256=LLOKCvbHqQIwqs3QG9msgmB-IoZbKfVnKv3lTSstUUQ,6067
+pmsh/pmsh_ocr.py,sha256=2F5-pB31HoRM4QmHQPV1vrIKaDl2pkk-yAz9c7CcWis,646
+pmsh/recognize.py,sha256=AHZ8iAzmCEurpxQpxw_64kqG_vpoBPloLEV7yCHFGPo,3336
+pmsh/tokenize.py,sha256=8dLRRK6tyY1fEk9b5BUr7JGaqTmiIkMK9SEzXrbq14k,6747
+pmsh/models/decoder_loop.onnx,sha256=HANakm2zUhb9PBWY9p693q2gkdh60WFmG_n6sDTB9Zw,6485313
+pmsh/models/encoder_ctc.onnx,sha256=m6BqD-D7JzGIZIdhQRJNq6C-6N0odhz7ZTeDPcIqGUk,16887210
+pmsh_ocr-0.0.1.dist-info/LICENSE,sha256=WR7Eiqz491y8Q5xWuBp5TzeF6BRWpm6flaZgEc0vLmY,1064
+pmsh_ocr-0.0.1.dist-info/METADATA,sha256=GdhLLdsvcXIuI8-iTTkEQIvq_SkPfZnNCD1lKu3wnXs,1791
+pmsh_ocr-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pmsh_ocr-0.0.1.dist-info/top_level.txt,sha256=g7PUEeSiCmfeLwUizYPejn_NDk2w1y8Fx6rnppnyjsk,5
+pmsh_ocr-0.0.1.dist-info/RECORD,,
