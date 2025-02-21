@@ -1,0 +1,9 @@
+newberryai/__init__.py,sha256=2Ga5vwNk3HnNw7WkhZFj9HlyqRm4TuCoGzTI2y9HvzM,37
+newberryai/aws_auth.py,sha256=k2x84bqTqmcDsbv7Qt2dZbthwS3LQKBQ5TP8snNrOVg,515
+newberryai/cli.py,sha256=_FlQA46W-3m6Udwwu8cGkv4HOK6ewhrEMp8dVu5pFj4,797
+newberryai/transcribe.py,sha256=3uc9WaZhxtw4JpOvFPMbXBRHC5IWjeRs-euE4vwd5yk,5153
+newberryai-0.1.0.dist-info/METADATA,sha256=hPi2YRt1NkhZBpScjfWqNrFGMrvUXLipWjUnqb3sQ4g,1727
+newberryai-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+newberryai-0.1.0.dist-info/entry_points.txt,sha256=eFiIoh7449_GEZyM-eK4cyk9TZ_NfY5NQZwt87-1qcU,57
+newberryai-0.1.0.dist-info/top_level.txt,sha256=zXUmS43GJnUSFHPufkwLuqvw41Ol9rONPDtMlyvkMa8,11
+newberryai-0.1.0.dist-info/RECORD,,
