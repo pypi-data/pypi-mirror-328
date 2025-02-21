@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: pylsf
+Version: 0.1.0
+Summary: collection of CLI tools for LSF monitoring
+Author-email: Ben Hoover <24350185+bhoov@users.noreply.github.com>
+License: MIT
+Keywords: cluster,gpu,utilities
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: tyro>=0.9.14
+Description-Content-Type: text/markdown
+
+# `pylsf`
+
+A Python tool for analyzing LSF (bsub) cluster GPU usage.
+
+```bash
+pylsf_avail  # check GPU and node usage on the cluster
+```
+
+## Installation
+
+```bash
+pip install pylsf
+```
+
+**Development**
+
+```bash
+uv sync --dev 
+uv pip install -e .
+```

@@ -1,0 +1,3 @@
+[console_scripts]
+pylsf_avail = pylsf.cli:check_gpus_cli
+pylsf_hello = pylsf.cli:print_hello_cli
