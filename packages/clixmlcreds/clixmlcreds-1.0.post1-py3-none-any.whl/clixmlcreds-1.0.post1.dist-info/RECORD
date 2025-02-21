@@ -1,0 +1,10 @@
+clixmlcreds/Export-CredentialToClixml.ps1,sha256=ORFlBExEZogYhov3eHihpfiTvxUcloG1VuNNU1kBLbA,1050
+clixmlcreds/__init__.py,sha256=_CgDbuL7l9RWx7OsXV85ggO2C5flBoALpIg5g8E5qe0,103
+clixmlcreds/credentials.py,sha256=EoO367GcAeXTCGjnYRGLkYnnTWA0ZqA5RQKhV2x81Gg,4461
+clixmlcreds/errors.py,sha256=WsOczsiqUTbe5pAHiRFTEG_O-GgPyEivWtE7ThAbe44,97
+clixmlcreds/utils.py,sha256=GKuwhBjB3ghqBwWpRRTQgu2DWJlJmXvciPBLUFggl2I,987
+clixmlcreds-1.0.post1.dist-info/LICENSE,sha256=A9vje8RPlvErW1fy05GHFGe8iubkva87qU197dUBCFA,1076
+clixmlcreds-1.0.post1.dist-info/METADATA,sha256=3tSwD-2cruBijNM3ZA6A1nTYpVk09ee6Ym1N4XtmvhM,3814
+clixmlcreds-1.0.post1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+clixmlcreds-1.0.post1.dist-info/top_level.txt,sha256=duaW3CUvgk-iRTC7l45X7D0npx_gaX_rAKkEOc0Dtwc,12
+clixmlcreds-1.0.post1.dist-info/RECORD,,
