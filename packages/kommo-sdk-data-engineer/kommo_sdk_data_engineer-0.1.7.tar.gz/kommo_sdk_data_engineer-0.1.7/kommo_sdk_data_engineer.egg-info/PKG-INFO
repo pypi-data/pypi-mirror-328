@@ -1,0 +1,54 @@
+Metadata-Version: 2.2
+Name: kommo_sdk_data_engineer
+Version: 0.1.7
+Summary: kommo SDK for Data Enginner is a comprehensive Python SDK designed for data engineers working with the Kommo API.
+Author-email: Mailson Náscin <mailson.nascin@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/nascin/kommo-sdk-data-engineer
+Project-URL: Source Code, https://github.com/nascin/kommo-sdk-data-engineer
+Project-URL: Bug Tracker, https://github.com/nascin/kommo-sdk-data-engineer/issues
+Keywords: kommo,data engineer
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.1.4
+Requires-Dist: requests>=2.32.3
+Requires-Dist: pydantic>=2.10.6
+
+# kommo SDK for Data Enginner
+
+# Overview
+kommo SDK for Data Enginner is a comprehensive Python SDK designed for data engineers working with the Kommo API. It simplifies API integration, data extraction, and transformation processes, making it easier to manage and analyze data efficiently.
+
+# Installation
+```bash
+pip install kommo-sdk-data-engineer
+```
+
+# How to Use
+```python
+from kommo_sdk_data_engineer import KommoConfig, Leads
+
+TOKEN_LONG_DURATION = '[TOKEN]'
+URL_COMPANY = 'https://[YOUR_COMPANY].kommo.com'
+
+
+config_kommo = KommoConfig(url_company=URL_COMPANY, token_long_duration=TOKEN_LONG_DURATION)
+leads = Leads(config=config_kommo, output_verbose=True)
+all_leads = leads.get_all_leads_list(with_params=['contacts', 'loss_reason'])
+
+# To Dataframe
+df_leads = leads.to_dataframe(leads.all_leads())
+df_leads_custom_fields = leads.to_dataframe(leads.all_custom_field_values())
+df_leads_contacts = leads.to_dataframe(leads.all_contacts())
+df_leads_loss_reasons = leads.to_dataframe(leads.all_loss_reasons())
+df_leads_tags = leads.to_dataframe(leads.all_tags())
+```
+
+# Contact
+For any questions or support, please contact: mailson.nascin@gmail.com.
