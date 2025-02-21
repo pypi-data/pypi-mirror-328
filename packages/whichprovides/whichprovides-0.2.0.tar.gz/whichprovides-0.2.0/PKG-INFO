@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: whichprovides
+Version: 0.2.0
+Project-URL: Home Page, https://codeberg.org/sethmlarson/whichprovides
+Project-URL: Documentation, https://codeberg.org/sethmlarson/whichprovides
+Project-URL: Source Code, https://codeberg.org/sethmlarson/whichprovides
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.9
