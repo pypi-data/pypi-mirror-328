@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: mbdyn-lexer
+Version: 0.0.5
+Summary: Pygments lexer plugin for MBDyn input files, see examples in source package
+Project-URL: Documentation, https://mbdyn-lexer.readthedocs.io/en/latest/index.html
+Project-URL: Issues, https://gitlab.com/musipadcom/mbdyn-lexer/issues
+Project-URL: Source, https://gitlab.com/musipadcom/mbdyn-lexer
+Author-email: Andre Zettel <musipadcom@gmail.com>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pygments
+Description-Content-Type: text/markdown
+
+A Pygments lexer for MBDyn inputfiles (examples in source package).
