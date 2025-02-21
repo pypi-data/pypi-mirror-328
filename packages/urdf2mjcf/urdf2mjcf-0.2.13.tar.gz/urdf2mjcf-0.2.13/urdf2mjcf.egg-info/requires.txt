@@ -1,0 +1,12 @@
+colorlogging
+mujoco
+numpy
+pydantic
+trimesh
+
+[dev]
+black
+darglint
+mypy
+pytest
+ruff
