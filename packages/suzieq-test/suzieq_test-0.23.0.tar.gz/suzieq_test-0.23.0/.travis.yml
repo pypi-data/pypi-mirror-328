@@ -1,0 +1,17 @@
+language: python
+python:
+  - "3.9"
+# command to install dependencies
+before_install:
+  - curl -LsSf https://astral.sh/uv/install.sh | sh
+install:
+  - uv sync
+  - cp build/suzieq-cfg-travis.yml suzieq-cfg.yml
+# command to run tests
+script:
+  - uv run pytest
+env:
+  - PYTHONPATH=/home/travis/build/netenglabs/suzieq
+git:
+  depth: false
+dist: bionic

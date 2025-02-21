@@ -1,0 +1,380 @@
+description: 'Testing verbs for path: show summarize'
+tests:
+- command: path show --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "ERROR: Must specify trace source and dest"}]'
+  marks: path show junos
+- command: path show --dest=172.16.2.104 --src=172.16.1.101 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server101",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "172.16.0.0/16",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254", "hopError": "",
+    "timestamp": 1623025795928}, {"pathid": 1, "hopCount": 1, "namespace": "junos",
+    "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/0.0", "vrf": "evpn-vrf",
+    "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514, "outMtu": 9200,
+    "protocol": "evpn", "ipLookup": "172.16.2.0/24", "vtepLookup": "10.0.0.12", "macLookup":
+    "", "nexthopIp": "10.0.0.21", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025801173},
+    {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname": "spine01", "iif":
+    "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "default", "isL2": true, "overlay":
+    true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol": "ospf", "ipLookup":
+    "10.0.0.12", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.12",
+    "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802890}, {"pathid": 1, "hopCount":
+    3, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0",
+    "vrf": "evpn-vrf", "isL2": false, "overlay": true, "mtuMatch": true, "inMtu":
+    9200, "outMtu": 9200, "protocol": "connected", "ipLookup": "172.16.2.0/24", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802263}, {"pathid": 2, "hopCount": 0, "namespace": "junos", "hostname":
+    "server101", "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay":
+    false, "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup":
+    "172.16.0.0/16", "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254",
+    "hopError": "", "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 1, "namespace":
+    "junos", "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/1.0", "vrf":
+    "evpn-vrf", "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514,
+    "outMtu": 9200, "protocol": "evpn", "ipLookup": "172.16.2.0/24", "vtepLookup":
+    "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.22", "hopError": "Hop MTU <
+    Src Mtu", "timestamp": 1623025801173}, {"pathid": 2, "hopCount": 2, "namespace":
+    "junos", "hostname": "spine02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf":
+    "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu":
+    9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802688}, {"pathid": 2, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2":
+    false, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "connected", "ipLookup": "172.16.2.0/24", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802263}]'
+- command: path show --dest=172.16.3.202 --src=172.16.1.104 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "leaf01",
+    "iif": "irb.10", "oif": "xe-0/0/0.0", "vrf": "evpn-vrf", "isL2": false, "overlay":
+    false, "mtuMatch": true, "inMtu": 1500, "outMtu": 9200, "protocol": "evpn", "ipLookup":
+    "172.16.3.202/32", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.21",
+    "hopError": "", "timestamp": 1623025801173}, {"pathid": 1, "hopCount": 1, "namespace":
+    "junos", "hostname": "spine01", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf":
+    "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu":
+    9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "", "timestamp": 1623025802890},
+    {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname": "leaf02", "iif":
+    "xe-0/0/0.0", "oif": "xe-0/0/3", "vrf": "evpn-vrf", "isL2": false, "overlay":
+    true, "mtuMatch": true, "inMtu": 9200, "outMtu": 1514, "protocol": "evpn", "ipLookup":
+    "172.16.3.202/32", "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.3.202",
+    "hopError": "", "timestamp": 1623025797587}, {"pathid": 1, "hopCount": 3, "namespace":
+    "junos", "hostname": "server202", "iif": "eth1", "oif": "eth1", "vrf": "evpn-vrf",
+    "isL2": false, "overlay": false, "mtuMatch": false, "inMtu": 9216, "outMtu": 9216,
+    "protocol": "", "ipLookup": "", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "no reverse path, Dst MTU != Src MTU", "timestamp": 1623025795928},
+    {"pathid": 2, "hopCount": 0, "namespace": "junos", "hostname": "leaf01", "iif":
+    "irb.10", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 1500, "outMtu": 9200, "protocol": "evpn", "ipLookup":
+    "172.16.3.202/32", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.22",
+    "hopError": "", "timestamp": 1623025801173}, {"pathid": 2, "hopCount": 1, "namespace":
+    "junos", "hostname": "spine02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf":
+    "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu":
+    9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "", "timestamp": 1623025802688},
+    {"pathid": 2, "hopCount": 2, "namespace": "junos", "hostname": "leaf02", "iif":
+    "xe-0/0/1.0", "oif": "xe-0/0/3", "vrf": "evpn-vrf", "isL2": false, "overlay":
+    true, "mtuMatch": true, "inMtu": 9200, "outMtu": 1514, "protocol": "evpn", "ipLookup":
+    "172.16.3.202/32", "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.3.202",
+    "hopError": "", "timestamp": 1623025797587}, {"pathid": 2, "hopCount": 3, "namespace":
+    "junos", "hostname": "server202", "iif": "eth1", "oif": "eth1", "vrf": "evpn-vrf",
+    "isL2": false, "overlay": false, "mtuMatch": false, "inMtu": 9216, "outMtu": 9216,
+    "protocol": "", "ipLookup": "", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "no reverse path, Dst MTU != Src MTU", "timestamp": 1623025795928}]'
+- command: path show --dest=172.16.3.202 --src=172.16.1.101 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server101",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "172.16.0.0/16",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254", "hopError": "",
+    "timestamp": 1623025795928}, {"pathid": 1, "hopCount": 1, "namespace": "junos",
+    "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/0.0", "vrf": "evpn-vrf",
+    "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514, "outMtu": 9200,
+    "protocol": "evpn", "ipLookup": "172.16.3.202/32", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.21", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025801173}, {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname":
+    "spine01", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "default", "isL2":
+    true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp":
+    "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802890}, {"pathid":
+    1, "hopCount": 3, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/0.0",
+    "oif": "xe-0/0/3", "vrf": "evpn-vrf", "isL2": false, "overlay": true, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 1514, "protocol": "evpn", "ipLookup": "172.16.3.202/32",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.3.202", "hopError": "Hop
+    MTU < Src Mtu", "timestamp": 1623025797587}, {"pathid": 1, "hopCount": 4, "namespace":
+    "junos", "hostname": "server202", "iif": "eth1", "oif": "eth1", "vrf": "default",
+    "isL2": false, "overlay": false, "mtuMatch": false, "inMtu": 9216, "outMtu": 9216,
+    "protocol": "", "ipLookup": "", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "", "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 0,
+    "namespace": "junos", "hostname": "server101", "iif": "eth1", "oif": "eth1", "vrf":
+    "default", "isL2": false, "overlay": false, "mtuMatch": true, "inMtu": 9216, "outMtu":
+    9216, "protocol": "", "ipLookup": "172.16.0.0/16", "vtepLookup": "", "macLookup":
+    "", "nexthopIp": "172.16.1.254", "hopError": "", "timestamp": 1623025795928},
+    {"pathid": 2, "hopCount": 1, "namespace": "junos", "hostname": "leaf01", "iif":
+    "xe-0/0/2", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2": true, "overlay": false,
+    "mtuMatch": false, "inMtu": 1514, "outMtu": 9200, "protocol": "evpn", "ipLookup":
+    "172.16.3.202/32", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.22",
+    "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025801173}, {"pathid": 2, "hopCount":
+    2, "namespace": "junos", "hostname": "spine02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0",
+    "vrf": "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200,
+    "outMtu": 9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802688}, {"pathid": 2, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/3", "vrf": "evpn-vrf", "isL2": false,
+    "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 1514, "protocol":
+    "evpn", "ipLookup": "172.16.3.202/32", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "172.16.3.202", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025797587},
+    {"pathid": 2, "hopCount": 4, "namespace": "junos", "hostname": "server202", "iif":
+    "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false, "mtuMatch":
+    false, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "", "timestamp": 1623025795928}]'
+- command: path show --dest=172.16.2.201 --src=172.16.1.101 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server101",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "172.16.0.0/16",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254", "hopError": "",
+    "timestamp": 1623025795928}, {"pathid": 1, "hopCount": 1, "namespace": "junos",
+    "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/0.0", "vrf": "evpn-vrf",
+    "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514, "outMtu": 9200,
+    "protocol": "evpn", "ipLookup": "172.16.2.201/32", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.21", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025801173}, {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname":
+    "spine01", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "default", "isL2":
+    true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp":
+    "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802890}, {"pathid":
+    1, "hopCount": 3, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/0.0",
+    "oif": "xe-0/0/2", "vrf": "evpn-vrf", "isL2": false, "overlay": true, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 1514, "protocol": "evpn", "ipLookup": "172.16.2.201/32",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.2.201", "hopError": "Hop
+    MTU < Src Mtu", "timestamp": 1623025797587}, {"pathid": 1, "hopCount": 4, "namespace":
+    "junos", "hostname": "server201", "iif": "eth1", "oif": "eth1", "vrf": "default",
+    "isL2": false, "overlay": false, "mtuMatch": false, "inMtu": 9216, "outMtu": 9216,
+    "protocol": "", "ipLookup": "", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "", "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 0,
+    "namespace": "junos", "hostname": "server101", "iif": "eth1", "oif": "eth1", "vrf":
+    "default", "isL2": false, "overlay": false, "mtuMatch": true, "inMtu": 9216, "outMtu":
+    9216, "protocol": "", "ipLookup": "172.16.0.0/16", "vtepLookup": "", "macLookup":
+    "", "nexthopIp": "172.16.1.254", "hopError": "", "timestamp": 1623025795928},
+    {"pathid": 2, "hopCount": 1, "namespace": "junos", "hostname": "leaf01", "iif":
+    "xe-0/0/2", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2": true, "overlay": false,
+    "mtuMatch": false, "inMtu": 1514, "outMtu": 9200, "protocol": "evpn", "ipLookup":
+    "172.16.2.201/32", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.22",
+    "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025801173}, {"pathid": 2, "hopCount":
+    2, "namespace": "junos", "hostname": "spine02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0",
+    "vrf": "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200,
+    "outMtu": 9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802688}, {"pathid": 2, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/2", "vrf": "evpn-vrf", "isL2": false,
+    "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 1514, "protocol":
+    "evpn", "ipLookup": "172.16.2.201/32", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "172.16.2.201", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025797587},
+    {"pathid": 2, "hopCount": 4, "namespace": "junos", "hostname": "server201", "iif":
+    "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false, "mtuMatch":
+    false, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "", "timestamp": 1623025795928}]'
+- command: path show --src=172.16.3.202 --dest=172.16.3.102 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server202",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": true, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "l2", "ipLookup":
+    "172.16.3.102", "vtepLookup": "", "macLookup": "28:b7:ad:82:67:e5", "nexthopIp":
+    "172.16.3.102", "hopError": "", "timestamp": null}, {"pathid": 1, "hopCount":
+    1, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/3", "oif": "xe-0/0/0.0",
+    "vrf": "default", "isL2": true, "overlay": false, "mtuMatch": false, "inMtu":
+    1514, "outMtu": 9200, "protocol": "ospf", "ipLookup": "", "vtepLookup": "10.0.0.11",
+    "macLookup": "", "nexthopIp": "10.0.0.21", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802263}, {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname":
+    "spine01", "iif": "xe-0/0/1.0", "oif": "xe-0/0/0.0", "vrf": "default", "isL2":
+    true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "ospf", "ipLookup": "10.0.0.11", "vtepLookup": "10.0.0.11", "macLookup": "", "nexthopIp":
+    "10.0.0.11", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802890}, {"pathid":
+    1, "hopCount": 3, "namespace": "junos", "hostname": "leaf01", "iif": "xe-0/0/0.0",
+    "oif": "xe-0/0/3", "vrf": "default", "isL2": true, "overlay": true, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 1514, "protocol": "l2", "ipLookup": "172.16.3.102",
+    "vtepLookup": "", "macLookup": null, "nexthopIp": "", "hopError": "Hop MTU < Src
+    Mtu", "timestamp": 1623025798828}, {"pathid": 1, "hopCount": 4, "namespace": "junos",
+    "hostname": "server102", "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2":
+    false, "overlay": false, "mtuMatch": false, "inMtu": 9216, "outMtu": 9216, "protocol":
+    "", "ipLookup": "", "vtepLookup": "", "macLookup": "", "nexthopIp": "", "hopError":
+    "", "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 0, "namespace": "junos",
+    "hostname": "server202", "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2":
+    true, "overlay": false, "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol":
+    "l2", "ipLookup": "172.16.3.102", "vtepLookup": "", "macLookup": "28:b7:ad:82:67:e5",
+    "nexthopIp": "172.16.3.102", "hopError": "", "timestamp": null}, {"pathid": 2,
+    "hopCount": 1, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/3",
+    "oif": "xe-0/0/1.0", "vrf": "default", "isL2": true, "overlay": false, "mtuMatch":
+    false, "inMtu": 1514, "outMtu": 9200, "protocol": "ospf", "ipLookup": "", "vtepLookup":
+    "10.0.0.11", "macLookup": "", "nexthopIp": "10.0.0.22", "hopError": "Hop MTU <
+    Src Mtu", "timestamp": 1623025802263}, {"pathid": 2, "hopCount": 2, "namespace":
+    "junos", "hostname": "spine02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/0.0", "vrf":
+    "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu":
+    9200, "protocol": "ospf", "ipLookup": "10.0.0.11", "vtepLookup": "10.0.0.11",
+    "macLookup": "", "nexthopIp": "10.0.0.11", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802688}, {"pathid": 2, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf01", "iif": "xe-0/0/1.0", "oif": "xe-0/0/3", "vrf": "default", "isL2": true,
+    "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 1514, "protocol":
+    "l2", "ipLookup": "172.16.3.102", "vtepLookup": "", "macLookup": null, "nexthopIp":
+    "", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025798828}, {"pathid": 2,
+    "hopCount": 4, "namespace": "junos", "hostname": "server102", "iif": "eth1", "oif":
+    "eth1", "vrf": "default", "isL2": false, "overlay": false, "mtuMatch": false,
+    "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "", "vtepLookup": "",
+    "macLookup": "", "nexthopIp": "", "hopError": "", "timestamp": 1623025795928}]'
+- command: path show --dest=10.0.0.11 --src=10.0.0.12 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "leaf02",
+    "iif": "xe-0/0/0.0", "oif": "xe-0/0/0.0", "vrf": "default", "isL2": false, "overlay":
+    false, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol": "ospf", "ipLookup":
+    "10.0.0.11/32", "vtepLookup": "", "macLookup": "", "nexthopIp": "10.0.0.21", "hopError":
+    "", "timestamp": 1623025802263}, {"pathid": 1, "hopCount": 1, "namespace": "junos",
+    "hostname": "spine01", "iif": "xe-0/0/1.0", "oif": "xe-0/0/0.0", "vrf": "default",
+    "isL2": false, "overlay": false, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200,
+    "protocol": "ospf", "ipLookup": "10.0.0.11/32", "vtepLookup": "", "macLookup":
+    "", "nexthopIp": "10.0.0.11", "hopError": "", "timestamp": 1623025802890}, {"pathid":
+    1, "hopCount": 2, "namespace": "junos", "hostname": "leaf01", "iif": "xe-0/0/0.0",
+    "oif": "xe-0/0/0.0", "vrf": "default", "isL2": false, "overlay": false, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 65536, "protocol": "", "ipLookup": "", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "", "timestamp": 1623025803099},
+    {"pathid": 2, "hopCount": 0, "namespace": "junos", "hostname": "leaf02", "iif":
+    "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "default", "isL2": false, "overlay":
+    false, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol": "ospf", "ipLookup":
+    "10.0.0.11/32", "vtepLookup": "", "macLookup": "", "nexthopIp": "10.0.0.22", "hopError":
+    "", "timestamp": 1623025802263}, {"pathid": 2, "hopCount": 1, "namespace": "junos",
+    "hostname": "spine02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/0.0", "vrf": "default",
+    "isL2": false, "overlay": false, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200,
+    "protocol": "ospf", "ipLookup": "10.0.0.11/32", "vtepLookup": "", "macLookup":
+    "", "nexthopIp": "10.0.0.11", "hopError": "", "timestamp": 1623025802688}, {"pathid":
+    2, "hopCount": 2, "namespace": "junos", "hostname": "leaf01", "iif": "xe-0/0/1.0",
+    "oif": "xe-0/0/0.0", "vrf": "default", "isL2": false, "overlay": false, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 65536, "protocol": "", "ipLookup": "", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "", "timestamp": 1623025803099}]'
+- command: path summarize --dest=172.16.3.202 --src=172.16.1.101 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path summarize junos
+  output: '{"junos": {"totalPaths": 2, "perHopEcmp": [1, 2, 1, 1], "maxPathLength":
+    4, "avgPathLength": 4.0, "uniqueDevices": 6, "pathMtu": 1514, "usesOverlay": true,
+    "mtuMismatch": true}}'
+- command: path summarize --dest=10.0.0.11 --src=10.0.0.12 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path summarize junos
+  output: '{"junos": {"totalPaths": 2, "perHopEcmp": [2, 1], "maxPathLength": 2, "avgPathLength":
+    2.0, "uniqueDevices": 4, "pathMtu": 9200, "usesOverlay": false, "mtuMismatch":
+    false}}'
+- command: path unique --dest=172.16.3.202 --src=172.16.1.101 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path unique junos
+  output: '[{"hostname": "leaf01"}, {"hostname": "leaf02"}, {"hostname": "server101"},
+    {"hostname": "server202"}, {"hostname": "spine01"}, {"hostname": "spine02"}]'
+- command: path unique --count=True --dest=172.16.3.202 --src=172.16.1.101 --format=json
+    --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path unique junos
+  output: '[{"hostname": "spine01", "numRows": 1}, {"hostname": "spine02", "numRows":
+    1}, {"hostname": "leaf01", "numRows": 2}, {"hostname": "leaf02", "numRows": 2},
+    {"hostname": "server101", "numRows": 2}, {"hostname": "server202", "numRows":
+    2}]'
+- command: path unique --count=True --dest=172.16.3.202 --src=172.16.1.101 --count=True
+    --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  marks: path unique junos
+  output: '[{"hostname": "spine01", "numRows": 1}, {"hostname": "spine02", "numRows":
+    1}, {"hostname": "leaf01", "numRows": 2}, {"hostname": "leaf02", "numRows": 2},
+    {"hostname": "server101", "numRows": 2}, {"hostname": "server202", "numRows":
+    2}]'
+- command: path show --dest=172.16.2.104 --src=172.16.1.101 --format=json --namespace=junos
+    --columns=*
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server101",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "172.16.0.0/16",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254", "hopError": "",
+    "timestamp": 1623025795928}, {"pathid": 1, "hopCount": 1, "namespace": "junos",
+    "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/0.0", "vrf": "evpn-vrf",
+    "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514, "outMtu": 9200,
+    "protocol": "evpn", "ipLookup": "172.16.2.0/24", "vtepLookup": "10.0.0.12", "macLookup":
+    "", "nexthopIp": "10.0.0.21", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025801173},
+    {"pathid": 1, "hopCount": 2, "namespace": "junos", "hostname": "spine01", "iif":
+    "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "default", "isL2": true, "overlay":
+    true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol": "ospf", "ipLookup":
+    "10.0.0.12", "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.12",
+    "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802890}, {"pathid": 1, "hopCount":
+    3, "namespace": "junos", "hostname": "leaf02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0",
+    "vrf": "evpn-vrf", "isL2": false, "overlay": true, "mtuMatch": true, "inMtu":
+    9200, "outMtu": 9200, "protocol": "connected", "ipLookup": "172.16.2.0/24", "vtepLookup":
+    "", "macLookup": "", "nexthopIp": "", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802263}, {"pathid": 2, "hopCount": 0, "namespace": "junos", "hostname":
+    "server101", "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay":
+    false, "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup":
+    "172.16.0.0/16", "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254",
+    "hopError": "", "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 1, "namespace":
+    "junos", "hostname": "leaf01", "iif": "xe-0/0/2", "oif": "xe-0/0/1.0", "vrf":
+    "evpn-vrf", "isL2": true, "overlay": false, "mtuMatch": false, "inMtu": 1514,
+    "outMtu": 9200, "protocol": "evpn", "ipLookup": "172.16.2.0/24", "vtepLookup":
+    "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.22", "hopError": "Hop MTU <
+    Src Mtu", "timestamp": 1623025801173}, {"pathid": 2, "hopCount": 2, "namespace":
+    "junos", "hostname": "spine02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf":
+    "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu":
+    9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802688}, {"pathid": 2, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf02", "iif": "xe-0/0/1.0", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2":
+    false, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "connected", "ipLookup": "172.16.2.0/24", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802263}]'
+- command: path show --dest=172.16.2.104 --src=172.16.1.101 --format=json --namespace=junos
+    --columns='hostname namespace'
+  data-directory: tests/data/parquet/
+  marks: path show junos
+  output: '[{"hostname": "server101", "namespace": "junos"}, {"hostname": "leaf01",
+    "namespace": "junos"}, {"hostname": "spine01", "namespace": "junos"}, {"hostname":
+    "leaf02", "namespace": "junos"}, {"hostname": "server101", "namespace": "junos"},
+    {"hostname": "leaf01", "namespace": "junos"}, {"hostname": "spine02", "namespace":
+    "junos"}, {"hostname": "leaf02", "namespace": "junos"}]'
+- command: path top --dest=172.16.2.104 --src=172.16.1.101 --format=json --namespace=junos
+    --what=inMtu
+  data-directory: tests/data/parquet/
+  marks: path top junos
+  output: '[{"pathid": 1, "hopCount": 0, "namespace": "junos", "hostname": "server101",
+    "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2": false, "overlay": false,
+    "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol": "", "ipLookup": "172.16.0.0/16",
+    "vtepLookup": "", "macLookup": "", "nexthopIp": "172.16.1.254", "hopError": "",
+    "timestamp": 1623025795928}, {"pathid": 2, "hopCount": 0, "namespace": "junos",
+    "hostname": "server101", "iif": "eth1", "oif": "eth1", "vrf": "default", "isL2":
+    false, "overlay": false, "mtuMatch": true, "inMtu": 9216, "outMtu": 9216, "protocol":
+    "", "ipLookup": "172.16.0.0/16", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "172.16.1.254", "hopError": "", "timestamp": 1623025795928}, {"pathid": 1, "hopCount":
+    2, "namespace": "junos", "hostname": "spine01", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0",
+    "vrf": "default", "isL2": true, "overlay": true, "mtuMatch": true, "inMtu": 9200,
+    "outMtu": 9200, "protocol": "ospf", "ipLookup": "10.0.0.12", "vtepLookup": "10.0.0.12",
+    "macLookup": "", "nexthopIp": "10.0.0.12", "hopError": "Hop MTU < Src Mtu", "timestamp":
+    1623025802890}, {"pathid": 1, "hopCount": 3, "namespace": "junos", "hostname":
+    "leaf02", "iif": "xe-0/0/0.0", "oif": "xe-0/0/1.0", "vrf": "evpn-vrf", "isL2":
+    false, "overlay": true, "mtuMatch": true, "inMtu": 9200, "outMtu": 9200, "protocol":
+    "connected", "ipLookup": "172.16.2.0/24", "vtepLookup": "", "macLookup": "", "nexthopIp":
+    "", "hopError": "Hop MTU < Src Mtu", "timestamp": 1623025802263}, {"pathid": 2,
+    "hopCount": 2, "namespace": "junos", "hostname": "spine02", "iif": "xe-0/0/0.0",
+    "oif": "xe-0/0/1.0", "vrf": "default", "isL2": true, "overlay": true, "mtuMatch":
+    true, "inMtu": 9200, "outMtu": 9200, "protocol": "ospf", "ipLookup": "10.0.0.12",
+    "vtepLookup": "10.0.0.12", "macLookup": "", "nexthopIp": "10.0.0.12", "hopError":
+    "Hop MTU < Src Mtu", "timestamp": 1623025802688}]'
+- command: path top --dest=172.16.2.104 --src=172.16.1.101 --format=json --namespace=junos
+    --what=inMtu --columns='hostname'
+  data-directory: tests/data/parquet/
+  marks: path top junos
+  output: '[{"hostname": "server101"}, {"hostname": "server101"}, {"hostname": "spine01"},
+    {"hostname": "leaf02"}, {"hostname": "spine02"}]'
+- command: path show --dest=172.16.3.202 --src=172.16.21.104 --format=json --namespace=junos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "ERROR: Unable to find starting node for 172.16.21.104"}]'
+  marks: path show junos

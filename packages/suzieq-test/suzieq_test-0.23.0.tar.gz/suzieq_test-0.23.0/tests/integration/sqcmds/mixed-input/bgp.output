@@ -1,0 +1,77 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1627395436362,
+        "cmd": "show ip bgp neighbors vrf all",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf6-eos",
+        "address": "nebula.packetflow.co.uk:9008",
+        "version": 0,
+        "data": "",
+        "cmd_timestamp": 1627395436362
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436757,
+        "cmd": "show ip bgp neighbors vrf all",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf5-eos",
+        "address": "nebula.packetflow.co.uk:9007",
+        "version": 0,
+        "data": "",
+        "cmd_timestamp": 1627395436757
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436867,
+        "cmd": "show bgp summary | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"output\" : [\n    {\n        \"data\" : \"BGP is not running\"\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395436867
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395437717,
+        "cmd": "show bgp neighbor | display json",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"output\" : [\n    {\n        \"data\" : \"BGP is not running\"\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395437717
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395437313,
+        "cmd": "show bgp summary | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"output\" : [\n    {\n        \"data\" : \"BGP is not running\"\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395437313
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395438281,
+        "cmd": "show bgp neighbor | display json",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"output\" : [\n    {\n        \"data\" : \"BGP is not running\"\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395438281
+    }
+]

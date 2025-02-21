@@ -1,0 +1,103 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1627395435399,
+        "cmd": "show mac-address-table unicast| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf5-eos",
+        "address": "nebula.packetflow.co.uk:9007",
+        "version": 0,
+        "data": "{\n    \"multicastTable\": {\n        \"tableEntries\": []\n    },\n    \"unicastTable\": {\n        \"tableEntries\": []\n    },\n    \"disabledMacLearningVlans\": []\n}\n",
+        "cmd_timestamp": 1627395435399
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395435851,
+        "cmd": "show vxlan address-table| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf5-eos",
+        "address": "nebula.packetflow.co.uk:9007",
+        "version": 0,
+        "data": "{\n    \"addresses\": []\n}\n",
+        "cmd_timestamp": 1627395435851
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436140,
+        "cmd": "show ethernet-switching table detail | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"l2ng-l2ald-rtb-macdb\" : [\n    {\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395436140
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436494,
+        "cmd": "show mac address-table | json native",
+        "devtype": "nxos",
+        "namespace": "mixed",
+        "hostname": "spine1-nxos",
+        "address": "nebula.packetflow.co.uk:9001",
+        "version": 0,
+        "data": "{\"TABLE_mac_address\":{\"ROW_mac_address\":[{\"disp_mac_addr\":\"500b.0000.1b08\",\"disp_type\":\"static\",\"disp_vlan\":\"-\",\"disp_age\":\"-\",\"disp_is_secure\":\"F\",\"disp_is_ntfy\":\"F\",\"disp_port\":\"sup-eth1(R)\"}]}}\n",
+        "cmd_timestamp": 1627395436494
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436628,
+        "cmd": "show mac address-table | json native",
+        "devtype": "nxos",
+        "namespace": "mixed",
+        "hostname": "spine2-nxos",
+        "address": "nebula.packetflow.co.uk:9002",
+        "version": 0,
+        "data": "{\"TABLE_mac_address\":{\"ROW_mac_address\":[{\"disp_mac_addr\":\"500c.0000.1b08\",\"disp_type\":\"static\",\"disp_vlan\":\"-\",\"disp_age\":\"-\",\"disp_is_secure\":\"F\",\"disp_is_ntfy\":\"F\",\"disp_port\":\"sup-eth1(R)\"}]}}\n",
+        "cmd_timestamp": 1627395436628
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395435756,
+        "cmd": "show mac-address-table unicast| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf6-eos",
+        "address": "nebula.packetflow.co.uk:9008",
+        "version": 0,
+        "data": "{\n    \"multicastTable\": {\n        \"tableEntries\": []\n    },\n    \"unicastTable\": {\n        \"tableEntries\": []\n    },\n    \"disabledMacLearningVlans\": []\n}\n",
+        "cmd_timestamp": 1627395435756
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395436629,
+        "cmd": "show vxlan address-table| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf6-eos",
+        "address": "nebula.packetflow.co.uk:9008",
+        "version": 0,
+        "data": "{\n    \"addresses\": []\n}\n",
+        "cmd_timestamp": 1627395436629
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395436846,
+        "cmd": "show ethernet-switching table detail | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"l2ng-l2ald-rtb-macdb\" : [\n    {\n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395436846
+    }
+]

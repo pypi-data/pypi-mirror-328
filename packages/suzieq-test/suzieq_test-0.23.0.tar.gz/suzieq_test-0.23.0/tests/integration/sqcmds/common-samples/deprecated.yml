@@ -1,0 +1,81 @@
+description: Testing commands keep only for backward compatibility
+tests:
+- command: network help --command=show
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network help command deprecated
+  output: "network show: \e[36mDeprecated. Use 'namespace show' instead\e[0m\n\e[33m\n\
+    Use quotes when providing more than one value\e[0m\n\e[33m\nArguments:\e[0m\n\
+    \ - columns: \e[36m\e[1mSpace separated list of columns, * for all\e[0m\n - end_time:\
+    \ \e[36m\e[1mEnd of time window, try natural language spec \e[0m\n - format: \e\
+    [36m\e[1mSelect the pformat of the output\e[0m\n - hostname: \e[36m\e[1mHostname(s),\
+    \ space separated\e[0m\n - model: \e[36m\e[1mDevice model(s), space separated\e\
+    [0m\n - namespace: \e[36m\e[1mNamespace(s), space separated\e[0m\n - os: \e[36m\e\
+    [1mDevice NOS(es), space separated\e[0m\n - query_str: \e[36m\e[1mTrailing blank\
+    \ terminated pandas query format to further filter the output\e[0m\n - start_time:\
+    \ \e[36m\e[1mStart of time window, try natural language spec\e[0m\n - vendor:\
+    \ \e[36m\e[1mDevice vendor(s), space separated\e[0m\n - version: \e[36m\e[1mDevice\
+    \ NOS version(s), space separated\e[0m\n - view: \e[36m\e[1mView all records or\
+    \ just the latest\e[0m\n"
+- command: network help --command=summarize
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network help command deprecated
+  output: "network summarize: \e[36mDeprecated. Use 'namespace summarize' instead\e\
+    [0m\n\e[33m\nUse quotes when providing more than one value\e[0m\n\e[33m\nArguments:\e\
+    [0m\n - columns: \e[36m\e[1mSpace separated list of columns, * for all\e[0m\n\
+    \ - end_time: \e[36m\e[1mEnd of time window, try natural language spec \e[0m\n\
+    \ - format: \e[36m\e[1mSelect the pformat of the output\e[0m\n - hostname: \e\
+    [36m\e[1mHostname(s), space separated\e[0m\n - namespace: \e[36m\e[1mNamespace(s),\
+    \ space separated\e[0m\n - query_str: \e[36m\e[1mTrailing blank terminated pandas\
+    \ query format to further filter the output\e[0m\n - start_time: \e[36m\e[1mStart\
+    \ of time window, try natural language spec\e[0m\n - view: \e[36m\e[1mView all\
+    \ records or just the latest\e[0m\n"
+- command: network help --command=unique
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network help command deprecated
+  output: "network unique: \e[36mDeprecated. Use 'namespace unique' instead\e[0m\n\
+    \e[33m\nUse quotes when providing more than one value\e[0m\n\e[33m\nArguments:\e\
+    [0m\n - columns: \e[36m\e[1mSpace separated list of columns, * for all\e[0m\n\
+    \ - count: \e[36m\e[1minclude count of times a value is seen\e[0m\n - end_time:\
+    \ \e[36m\e[1mEnd of time window, try natural language spec \e[0m\n - format: \e\
+    [36m\e[1mSelect the pformat of the output\e[0m\n - hostname: \e[36m\e[1mHostname(s),\
+    \ space separated\e[0m\n - namespace: \e[36m\e[1mNamespace(s), space separated\e\
+    [0m\n - query_str: \e[36m\e[1mTrailing blank terminated pandas query format to\
+    \ further filter the output\e[0m\n - start_time: \e[36m\e[1mStart of time window,\
+    \ try natural language spec\e[0m\n - view: \e[36m\e[1mView all records or just\
+    \ the latest\e[0m\n"
+- command: network help --command=top
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network help command deprecated
+  output: "network top: \e[36mDeprecated. Use 'namespace top' instead\e[0m\n\e[33m\n\
+    Use quotes when providing more than one value\e[0m\n\e[33m\nArguments:\e[0m\n\
+    \ - columns: \e[36m\e[1mSpace separated list of columns, * for all\e[0m\n - count:\
+    \ \e[36m\e[1mnumber of rows to return\e[0m\n - end_time: \e[36m\e[1mEnd of time\
+    \ window, try natural language spec \e[0m\n - format: \e[36m\e[1mSelect the pformat\
+    \ of the output\e[0m\n - hostname: \e[36m\e[1mHostname(s), space separated\e[0m\n\
+    \ - namespace: \e[36m\e[1mNamespace(s), space separated\e[0m\n - query_str: \e\
+    [36m\e[1mTrailing blank terminated pandas query format to further filter the output\e\
+    [0m\n - reverse: \e[36m\e[1mreturn bottom n values\e[0m\n - start_time: \e[36m\e\
+    [1mStart of time window, try natural language spec\e[0m\n - view: \e[36m\e[1mView\
+    \ all records or just the latest\e[0m\n - what: \e[36m\e[1mnumeric field to get\
+    \ top values for\e[0m\n"
+- command: network summarize
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network summarize deprecated
+  output: "WARNING: 'network summarize' is deprecated. Use 'namespace summarize' instead.\n\
+    \                         summary\nnamespacesCnt                 10\nservicePerNsStat\
+    \  [13, 18, 17.0]\nnsWithMlagCnt                  6\nnsWithBgpCnt            \
+    \       8\nnsWithOspfCnt                  7\nnsWithVxlanCnt                 6\n\
+    nsWithErrsvcCnt                0\n"
+- command: network unique
+  data-directory: tests/data/parquet/
+  format: text
+  marks: network unique deprecated
+  output: "WARNING: 'network unique' is deprecated. Use 'namespace unique' instead.\n\
+    \     namespace\n0     dual-bgp\n1    dual-evpn\n2          eos\n3        junos\n\
+    4        mixed\n5         nxos\n6    ospf-ibgp\n7  ospf-single\n8        panos\n\
+    9          vmx\n"

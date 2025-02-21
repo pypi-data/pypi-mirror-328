@@ -1,0 +1,921 @@
+input:
+  cumulus:
+    '{
+  "lldp": [
+    {
+      "interface": [
+        {
+          "name": "swp3",
+          "via": "LLDP",
+          "rid": "2",
+          "age": "0 day, 01:31:34",
+          "chassis": [
+            {
+              "id": [
+                {
+                  "type": "mac",
+                  "value": "44:38:39:3d:d7:91"
+                }
+              ],
+              "name": [
+                {
+                  "value": "leaf03"
+                }
+              ],
+              "descr": [
+                {
+                  "value": "Arista Networks EOS version 4.20.1F running on an Arista Networks vEOS"
+                }
+              ],
+              "mgmt-ip": [
+                {
+                  "value": "192.168.121.236"
+                }
+              ],
+              "capability": [
+                {
+                  "type": "Bridge",
+                  "enabled": true
+                },
+                {
+                  "type": "Router",
+                  "enabled": false
+                }
+              ]
+            }
+          ],
+          "port": [
+            {
+              "id": [
+                {
+                  "type": "ifname",
+                  "value": "Ethernet5"
+                }
+              ],
+              "ttl": [
+                {
+                  "value": "120"
+                }
+              ],
+              "mfs": [
+                {
+                  "value": "9236"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "swp4",
+          "via": "LLDP",
+          "rid": "1",
+          "age": "0 day, 01:31:45",
+          "chassis": [
+            {
+              "id": [
+                {
+                  "type": "mac",
+                  "value": "44:38:39:c7:6b:83"
+                }
+              ],
+              "name": [
+                {
+                  "value": "leaf04"
+                }
+              ],
+              "descr": [
+                {
+                  "value": "Arista Networks EOS version 4.20.1F running on an Arista Networks vEOS"
+                }
+              ],
+              "mgmt-ip": [
+                {
+                  "value": "192.168.121.99"
+                }
+              ],
+              "capability": [
+                {
+                  "type": "Bridge",
+                  "enabled": true
+                },
+                {
+                  "type": "Router",
+                  "enabled": false
+                }
+              ]
+            }
+          ],
+          "port": [
+            {
+              "id": [
+                {
+                  "type": "ifname",
+                  "value": "Ethernet5"
+                }
+              ],
+              "ttl": [
+                {
+                  "value": "120"
+                }
+              ],
+              "mfs": [
+                {
+                  "value": "9236"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  }'
+  eos:
+    '{
+    "lldpNeighbors": {
+        "Management1": {
+            "lldpNeighborInfo": []
+        },
+        "Ethernet2": {
+            "lldpNeighborInfo": [
+                {
+                    "systemCapabilities": {
+                        "bridge": true,
+                        "router": true
+                    },
+                    "lastChangeTime": 1538833242.0472968,
+                    "neighborInterfaceInfo": {
+                        "portAndProtocolVlanEnabled": {},
+                        "linkAggregationStatus": "capableAndDisabled",
+                        "unknownTlvs": [],
+                        "interfaceIdType": "interfaceName",
+                        "interfaceId": "\"swp2\"",
+                        "interfaceDescription": "swp2",
+                        "autoNegCapability": "notCapable",
+                        "autoNegAdvertisedCapabilities": [],
+                        "protocolIdentityInfo": [],
+                        "portAndProtocolVlanSupported": {},
+                        "operMauType": "1000BASE-T (full-duplex)",
+                        "vlanNames": {},
+                        "linkAggregationInterfaceId": 0,
+                        "unknownOrgDefinedTlvs": [
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 1,
+                                "tlvLines": [
+                                    "00 3f 04"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 6,
+                                "tlvLines": [
+                                    "31 2e 31 30 2e 32 2d 31 75 62 75 6e 74 75 31"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 7,
+                                "tlvLines": [
+                                    "33 2e 36 2e 32"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 8,
+                                "tlvLines": [
+                                    "4e 6f 74 20 53 70 65 63 69 66 69 65 64"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 9,
+                                "tlvLines": [
+                                    "51 45 4d 55"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 10,
+                                "tlvLines": [
+                                    "53 74 61 6e 64 61 72 64 20 50 43 20 28 69 34 34",
+                                    "30 46 58 20 2b 20 50 49 49 58 2c 20 31 39 39 36"
+                                ]
+                            }
+                        ]
+                    },
+                    "neighborDiscoveryTime": 1538833062.0571265,
+                    "lastContactTime": 1539728899.920952,
+                    "chassisId": "5254.003b.5f14",
+                    "systemName": "vx",
+                    "systemDescription": "Cumulus Linux version 3.6.2 running on QEMU Standard PC (i440FX + PIIX, 1996)",
+                    "ttl": 120,
+                    "managementAddresses": [
+                        {
+                            "oidString": "",
+                            "interfaceNumType": "ifIndex",
+                            "interfaceNum": 1,
+                            "address": "10.254.0.2",
+                            "addressType": "ipv4"
+                        },
+                        {
+                            "oidString": "",
+                            "interfaceNumType": "ifIndex",
+                            "interfaceNum": 2,
+                            "address": "fe80::5054:ff:fe3b:5f14",
+                            "addressType": "ipv6"
+                        }
+                    ],
+                    "chassisIdType": "macAddress"
+                }
+            ]
+        },
+        "Ethernet3": {
+            "lldpNeighborInfo": []
+        },
+        "Ethernet1": {
+            "lldpNeighborInfo": [
+                {
+                    "systemCapabilities": {
+                        "bridge": true,
+                        "router": true
+                    },
+                    "lastChangeTime": 1538833242.0432498,
+                    "neighborInterfaceInfo": {
+                        "portAndProtocolVlanEnabled": {},
+                        "linkAggregationStatus": "capableAndDisabled",
+                        "unknownTlvs": [],
+                        "interfaceIdType": "interfaceName",
+                        "interfaceId": "\"swp1\"",
+                        "interfaceDescription": "swp1",
+                        "autoNegCapability": "notCapable",
+                        "autoNegAdvertisedCapabilities": [],
+                        "protocolIdentityInfo": [],
+                        "portAndProtocolVlanSupported": {},
+                        "operMauType": "1000BASE-T (full-duplex)",
+                        "vlanNames": {},
+                        "linkAggregationInterfaceId": 0,
+                        "unknownOrgDefinedTlvs": [
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 1,
+                                "tlvLines": [
+                                    "00 3f 04"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 6,
+                                "tlvLines": [
+                                    "31 2e 31 30 2e 32 2d 31 75 62 75 6e 74 75 31"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 7,
+                                "tlvLines": [
+                                    "33 2e 36 2e 32"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 8,
+                                "tlvLines": [
+                                    "4e 6f 74 20 53 70 65 63 69 66 69 65 64"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 9,
+                                "tlvLines": [
+                                    "51 45 4d 55"
+                                ]
+                            },
+                            {
+                                "ouiStr": "00-12-BB",
+                                "subType": 10,
+                                "tlvLines": [
+                                    "53 74 61 6e 64 61 72 64 20 50 43 20 28 69 34 34",
+                                    "30 46 58 20 2b 20 50 49 49 58 2c 20 31 39 39 36"
+                                ]
+                            }
+                        ]
+                    },
+                    "neighborDiscoveryTime": 1538833062.046987,
+                    "lastContactTime": 1539728899.9082654,
+                    "chassisId": "5254.003b.5f14",
+                    "systemName": "vx",
+                    "systemDescription": "Cumulus Linux version 3.6.2 running on QEMU Standard PC (i440FX + PIIX, 1996)",
+                    "ttl": 120,
+                    "managementAddresses": [
+                        {
+                            "oidString": "",
+                            "interfaceNumType": "ifIndex",
+                            "interfaceNum": 1,
+                            "address": "10.254.0.2",
+                            "addressType": "ipv4"
+                        },
+                        {
+                            "oidString": "",
+                            "interfaceNumType": "ifIndex",
+                            "interfaceNum": 2,
+                            "address": "fe80::5054:ff:fe3b:5f14",
+                            "addressType": "ipv6"
+                        }
+                    ],
+                    "chassisIdType": "macAddress"
+                }
+            ]
+        },
+        "Ethernet4": {
+            "lldpNeighborInfo": []
+        }
+    }
+}'
+
+  junos-qfx:
+    '{
+    "lldp-neighbors-information" : [
+    {
+        "attributes" : {"junos:style" : "brief"},
+        "lldp-neighbor-information" : [
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/26"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "84:b5:9c:c4:51:40"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW03.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/27"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "84:b5:9c:c4:51:40"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L3 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW03.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/61"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "c8:e7:f0:03:bb:f6"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "Core: &lt;ar01.jfk00&gt;[100GbpsMPO12}]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "ar02.jfk00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/65"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "c8:e7:f0:03:bb:f6"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "Core: &lt;ar01.jfk00&gt;[100GbpsMPO12}]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "ar02.jfk00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/31"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:1c:ad:00"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "Core: &lt;ar01.jfk00&gt; [Mux-1310nm] (003.02.00.04 Ports 23+24)"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "cr01.jfk05"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/38"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:23:19:00"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW06.JFK00.pilotfiber.com"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/39"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:23:19:00"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L3 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW06.JFK00.pilotfiber.com"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/7"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:23:c3:00"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L3 Core: &lt;csw08.jfk00&gt; [40Gbps] ar01.jfk00"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW08.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/6"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:23:c3:00"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;csw08.jfk00&gt; [40Gbps] ar01.jfk00"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW08.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/58"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:43:a0:c0"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "LAG: &lt;ar01.jfk00&gt; (member of ae0)"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "csw01.jfk03"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/45"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "ae7"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:53:4a:a0"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "LAG: member of ae1 &lt;ar01.jfk00&gt;"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "csw07.jfk00.pilotfiber.net"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/44"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "ae7"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "d0:07:ca:53:4a:a0"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "LAG: member of ae1 &lt;ar01.jfk00&gt;"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "csw07.jfk00.pilotfiber.net"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/20"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "dc:38:e1:5a:58:80"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW04.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/21"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "dc:38:e1:5a:58:80"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L3 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW04.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/14"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "dc:38:e1:5a:68:c0"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW05.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/15"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "dc:38:e1:5a:68:c0"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L3 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW05.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/9"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "-"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "f4:b5:2f:4a:fd:80"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "L2 Core: &lt;ar01.jfk00&gt; [40Gbps]"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW02.JFK00"
+            }
+            ]
+        },
+        {
+            "lldp-local-port-id" : [
+            {
+                "data" : "et-0/0/8"
+            }
+            ],
+            "lldp-local-parent-interface-name" : [
+            {
+                "data" : "ae1"
+            }
+            ],
+            "lldp-remote-chassis-id-subtype" : [
+            {
+                "data" : "Mac address"
+            }
+            ],
+            "lldp-remote-chassis-id" : [
+            {
+                "data" : "f4:b5:2f:4a:fd:80"
+            }
+            ],
+            "lldp-remote-port-description" : [
+            {
+                "data" : "LAG: member of ae1 &lt;AR01.JFK00&gt;"
+            }
+            ],
+            "lldp-remote-system-name" : [
+            {
+                "data" : "CSW02.JFK00"
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}'

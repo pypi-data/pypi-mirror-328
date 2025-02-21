@@ -1,0 +1,45 @@
+description: 'Testing verbs for mlag: show summarize unique'
+tests:
+- command: mlag show --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag show nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf03", "systemId": "00:23:04:ee:be:22",
+    "state": "active", "peerAddress": "10.255.2.191", "role": "primary", "peerLink":
+    "port-channel1", "mlagDualPortsCnt": 2, "mlagSinglePortsCnt": 0, "mlagErrorPortsCnt":
+    0, "timestamp": 1619275264357}, {"namespace": "nxos", "hostname": "leaf01", "systemId":
+    "00:23:04:ee:be:0c", "state": "active", "peerAddress": "10.255.2.188", "role":
+    "primary", "peerLink": "port-channel1", "mlagDualPortsCnt": 2, "mlagSinglePortsCnt":
+    0, "mlagErrorPortsCnt": 0, "timestamp": 1619275265830}, {"namespace": "nxos",
+    "hostname": "leaf02", "systemId": "00:23:04:ee:be:0c", "state": "active", "peerAddress":
+    "10.255.2.189", "role": "secondary", "peerLink": "port-channel1", "mlagDualPortsCnt":
+    2, "mlagSinglePortsCnt": 0, "mlagErrorPortsCnt": 0, "timestamp": 1619275265877},
+    {"namespace": "nxos", "hostname": "leaf04", "systemId": "00:23:04:ee:be:22", "state":
+    "active", "peerAddress": "10.255.2.190", "role": "secondary", "peerLink": "port-channel1",
+    "mlagDualPortsCnt": 2, "mlagSinglePortsCnt": 0, "mlagErrorPortsCnt": 0, "timestamp":
+    1619275266052}]'
+- command: mlag show --columns=hostname --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag show nxos
+  output: '[{"hostname": "leaf03"}, {"hostname": "leaf01"}, {"hostname": "leaf02"},
+    {"hostname": "leaf04"}]'
+- command: mlag summarize --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag summarize nxos
+  output: '{"nxos": {"deviceCnt": 4, "uniqueSystemIdCnt": 2, "devicesWithfailedStateCnt":
+    0, "devicesWithBackupInactiveCnt": 4, "mlagNumDualPortsStat": [2, 2, 2.0], "mlagNumSinglePortStat":
+    [0, 0, 0.0], "mlagNumErrorPortStat": [0, 0, 0.0]}}'
+- command: mlag unique --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag unique nxos
+  output: '[{"hostname": "leaf01"}, {"hostname": "leaf02"}, {"hostname": "leaf03"},
+    {"hostname": "leaf04"}]'
+- command: mlag unique --count=True --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag unique nxos
+  output: '[{"hostname": "leaf01", "numRows": 1}, {"hostname": "leaf02", "numRows":
+    1}, {"hostname": "leaf03", "numRows": 1}, {"hostname": "leaf04", "numRows": 1}]'
+- command: mlag unique --columns=hostname --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: mlag unique nxos
+  output: '[{"hostname": "leaf01"}, {"hostname": "leaf02"}, {"hostname": "leaf03"},
+    {"hostname": "leaf04"}]'

@@ -1,0 +1,129 @@
+description: 'Testing verbs for table: show describe'
+tests:
+- command: table show --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table show nxos
+  output: '[{"table": "arpnd", "firstTime": 1619275256310, "lastTime": 1619275264853,
+    "intervals": 14, "allRows": 74, "namespaceCnt": 1, "deviceCnt": 14}, {"table":
+    "bgp", "firstTime": 1619275256921, "lastTime": 1619275259384, "intervals": 8,
+    "allRows": 64, "namespaceCnt": 1, "deviceCnt": 10}, {"table": "devconfig", "firstTime":
+    1622031362170, "lastTime": 1622031362822, "intervals": 8, "allRows": 9, "namespaceCnt":
+    1, "deviceCnt": 9}, {"table": "device", "firstTime": 1619275256203, "lastTime":
+    1619275265679, "intervals": 14, "allRows": 14, "namespaceCnt": 1, "deviceCnt":
+    14}, {"table": "evpnVni", "firstTime": 1619275259574, "lastTime": 1619275260620,
+    "intervals": 5, "allRows": 14, "namespaceCnt": 1, "deviceCnt": 6}, {"table": "fs",
+    "firstTime": 1619275256497, "lastTime": 1619275257037, "intervals": 4, "allRows":
+    40, "namespaceCnt": 1, "deviceCnt": 5}, {"table": "interfaces", "firstTime": 1619275256203,
+    "lastTime": 1619275260177, "intervals": 12, "allRows": 694, "namespaceCnt": 1,
+    "deviceCnt": 14}, {"table": "lldp", "firstTime": 1619275257130, "lastTime": 1619275257776,
+    "intervals": 9, "allRows": 44, "namespaceCnt": 1, "deviceCnt": 9}, {"table": "macs",
+    "firstTime": 1619275256085, "lastTime": 1619275258116, "intervals": 12, "allRows":
+    214, "namespaceCnt": 1, "deviceCnt": 13}, {"table": "mlag", "firstTime": 1619275264357,
+    "lastTime": 1619275266052, "intervals": 4, "allRows": 4, "namespaceCnt": 1, "deviceCnt":
+    4}, {"table": "ospfIf", "firstTime": 1619275260398, "lastTime": 1619275262652,
+    "intervals": 7, "allRows": 40, "namespaceCnt": 1, "deviceCnt": 8}, {"table": "ospfNbr",
+    "firstTime": 1619275265056, "lastTime": 1619275266142, "intervals": 8, "allRows":
+    24, "namespaceCnt": 1, "deviceCnt": 8}, {"table": "routes", "firstTime": 1619275256085,
+    "lastTime": 1619275257722, "intervals": 12, "allRows": 350, "namespaceCnt": 1,
+    "deviceCnt": 14}, {"table": "sqPoller", "firstTime": 1658656298577, "lastTime":
+    1658656300675, "intervals": 159, "allRows": 159, "namespaceCnt": 1, "deviceCnt":
+    14}, {"table": "time", "firstTime": 1619275256599, "lastTime": 1619275257446,
+    "intervals": 4, "allRows": 5, "namespaceCnt": 1, "deviceCnt": 5}, {"table": "vlan",
+    "firstTime": 1619275257018, "lastTime": 1619275257683, "intervals": 6, "allRows":
+    23, "namespaceCnt": 1, "deviceCnt": 9}, {"table": "TOTAL", "firstTime": 1619275256085,
+    "lastTime": 1658656300675, "intervals": 159, "allRows": 1772, "namespaceCnt":
+    1, "deviceCnt": 14}]'
+- command: table show --columns=hostname --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "ERROR: Invalid columns specified: [''hostname'']"}]'
+  marks: table show nxos
+- command: table show --namespace=dummy --format=json
+  data-directory: tests/data/parquet/
+  marks: table show nxos
+  output: '[]'
+- command: table show --view=changes --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table show nxos
+  output: '[]'
+- command: table show --view=latest --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table show nxos
+  output: '[{"table": "arpnd", "firstTime": 1619275256310, "lastTime": 1619275264853,
+    "intervals": 14, "allRows": 74, "namespaceCnt": 1, "deviceCnt": 14}, {"table":
+    "bgp", "firstTime": 1619275256921, "lastTime": 1619275259384, "intervals": 8,
+    "allRows": 64, "namespaceCnt": 1, "deviceCnt": 10}, {"table": "devconfig", "firstTime":
+    1622031362170, "lastTime": 1622031362822, "intervals": 8, "allRows": 9, "namespaceCnt":
+    1, "deviceCnt": 9}, {"table": "device", "firstTime": 1619275256203, "lastTime":
+    1619275265679, "intervals": 14, "allRows": 14, "namespaceCnt": 1, "deviceCnt":
+    14}, {"table": "evpnVni", "firstTime": 1619275259574, "lastTime": 1619275260620,
+    "intervals": 5, "allRows": 14, "namespaceCnt": 1, "deviceCnt": 6}, {"table": "fs",
+    "firstTime": 1619275256497, "lastTime": 1619275257037, "intervals": 4, "allRows":
+    40, "namespaceCnt": 1, "deviceCnt": 5}, {"table": "interfaces", "firstTime": 1619275256203,
+    "lastTime": 1619275260177, "intervals": 12, "allRows": 694, "namespaceCnt": 1,
+    "deviceCnt": 14}, {"table": "lldp", "firstTime": 1619275257130, "lastTime": 1619275257776,
+    "intervals": 9, "allRows": 44, "namespaceCnt": 1, "deviceCnt": 9}, {"table": "macs",
+    "firstTime": 1619275256085, "lastTime": 1619275258116, "intervals": 12, "allRows":
+    214, "namespaceCnt": 1, "deviceCnt": 13}, {"table": "mlag", "firstTime": 1619275264357,
+    "lastTime": 1619275266052, "intervals": 4, "allRows": 4, "namespaceCnt": 1, "deviceCnt":
+    4}, {"table": "ospfIf", "firstTime": 1619275260398, "lastTime": 1619275262652,
+    "intervals": 7, "allRows": 40, "namespaceCnt": 1, "deviceCnt": 8}, {"table": "ospfNbr",
+    "firstTime": 1619275265056, "lastTime": 1619275266142, "intervals": 8, "allRows":
+    24, "namespaceCnt": 1, "deviceCnt": 8}, {"table": "routes", "firstTime": 1619275256085,
+    "lastTime": 1619275257722, "intervals": 12, "allRows": 350, "namespaceCnt": 1,
+    "deviceCnt": 14}, {"table": "sqPoller", "firstTime": 1658656298577, "lastTime":
+    1658656300675, "intervals": 159, "allRows": 159, "namespaceCnt": 1, "deviceCnt":
+    14}, {"table": "time", "firstTime": 1619275256599, "lastTime": 1619275257446,
+    "intervals": 4, "allRows": 5, "namespaceCnt": 1, "deviceCnt": 5}, {"table": "vlan",
+    "firstTime": 1619275257018, "lastTime": 1619275257683, "intervals": 6, "allRows":
+    23, "namespaceCnt": 1, "deviceCnt": 9}, {"table": "TOTAL", "firstTime": 1619275256085,
+    "lastTime": 1658656300675, "intervals": 159, "allRows": 1772, "namespaceCnt":
+    1, "deviceCnt": 14}]'
+- command: table show --hostname=leaf01 --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table show nxos
+  output: '[{"table": "arpnd", "firstTime": 1619275264429, "lastTime": 1619275264429,
+    "intervals": 1, "allRows": 6, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "bgp",
+    "firstTime": 1619275258542, "lastTime": 1619275258542, "intervals": 1, "allRows":
+    4, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "devconfig", "firstTime": 1622031362773,
+    "lastTime": 1622031362773, "intervals": 1, "allRows": 1, "namespaceCnt": 1, "deviceCnt":
+    1}, {"table": "device", "firstTime": 1619275265510, "lastTime": 1619275265510,
+    "intervals": 1, "allRows": 1, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "evpnVni",
+    "firstTime": 1619275260613, "lastTime": 1619275260613, "intervals": 1, "allRows":
+    3, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "interfaces", "firstTime": 1619275258762,
+    "lastTime": 1619275258762, "intervals": 1, "allRows": 78, "namespaceCnt": 1, "deviceCnt":
+    1}, {"table": "lldp", "firstTime": 1619275257228, "lastTime": 1619275257228, "intervals":
+    1, "allRows": 5, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "macs", "firstTime":
+    1619275257166, "lastTime": 1619275257166, "intervals": 1, "allRows": 15, "namespaceCnt":
+    1, "deviceCnt": 1}, {"table": "mlag", "firstTime": 1619275265830, "lastTime":
+    1619275265830, "intervals": 1, "allRows": 1, "namespaceCnt": 1, "deviceCnt": 1},
+    {"table": "ospfIf", "firstTime": 1619275261428, "lastTime": 1619275261428, "intervals":
+    1, "allRows": 4, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "ospfNbr", "firstTime":
+    1619275266136, "lastTime": 1619275266136, "intervals": 1, "allRows": 2, "namespaceCnt":
+    1, "deviceCnt": 1}, {"table": "routes", "firstTime": 1619275257674, "lastTime":
+    1619275257674, "intervals": 1, "allRows": 35, "namespaceCnt": 1, "deviceCnt":
+    1}, {"table": "sqPoller", "firstTime": 1658656298602, "lastTime": 1658656300612,
+    "intervals": 13, "allRows": 13, "namespaceCnt": 1, "deviceCnt": 1}, {"table":
+    "vlan", "firstTime": 1619275257018, "lastTime": 1619275257018, "intervals": 1,
+    "allRows": 4, "namespaceCnt": 1, "deviceCnt": 1}, {"table": "TOTAL", "firstTime":
+    1619275257018, "lastTime": 1658656300612, "intervals": 13, "allRows": 172, "namespaceCnt":
+    1, "deviceCnt": 1}]'
+- command: table unique --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table unique nxos
+  output: '[{"table": "TOTAL"}, {"table": "arpnd"}, {"table": "bgp"}, {"table": "devconfig"},
+    {"table": "device"}, {"table": "evpnVni"}, {"table": "fs"}, {"table": "interfaces"},
+    {"table": "lldp"}, {"table": "macs"}, {"table": "mlag"}, {"table": "ospfIf"},
+    {"table": "ospfNbr"}, {"table": "routes"}, {"table": "sqPoller"}, {"table": "time"},
+    {"table": "vlan"}]'
+- command: table unique --count=True --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: table unique nxos
+  output: '[{"table": "TOTAL", "numRows": 1}, {"table": "arpnd", "numRows": 1}, {"table":
+    "bgp", "numRows": 1}, {"table": "devconfig", "numRows": 1}, {"table": "device",
+    "numRows": 1}, {"table": "evpnVni", "numRows": 1}, {"table": "fs", "numRows":
+    1}, {"table": "interfaces", "numRows": 1}, {"table": "lldp", "numRows": 1}, {"table":
+    "macs", "numRows": 1}, {"table": "mlag", "numRows": 1}, {"table": "ospfIf", "numRows":
+    1}, {"table": "ospfNbr", "numRows": 1}, {"table": "routes", "numRows": 1}, {"table":
+    "sqPoller", "numRows": 1}, {"table": "time", "numRows": 1}, {"table": "vlan",
+    "numRows": 1}]'

@@ -1,0 +1,82 @@
+name: integration-tests
+on:
+  push:
+    # run on push only in master, develop, version specific and hotfix branches
+    branches:
+      - master
+      - develop
+      - '[0-9].[0-9]+.[0-9]+.?[0-9]?'
+  pull_request:
+    # run on branches having an open PR
+    branches:
+    - '**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      UV_LINK_MODE: copy
+      PYTHONDONTWRITEBYTECODE: 1
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.9]
+        group: [1, 2, 3, 4]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up UV
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+          python-version: ${{ matrix.python-version }}
+
+      - name: Set up suzieq config
+        run: cp build/suzieq-cfg-travis.yml suzieq-cfg.yml
+
+      - name: Prepare dir for caching durations
+        run: mkdir test_durations
+
+      - name: Get durations from cache
+        uses: actions/cache@v4
+        with:
+          path: test_durations
+          # artificial cache miss to always save at the end of the job and avoid out of sync test runs
+          key: test-durations-split-${{ github.run_id }}-${{ github.run_number}}-${{ matrix.group }}-${{ matrix.python-version }}
+          restore-keys: |
+            test-durations
+
+      - name: pytest
+        run: uv run pytest --splits 4 --group ${{ matrix.group }} --store-durations --durations-path test_durations/.test_durations_${{ matrix.python-version }}
+
+      - name: Upload partial durations
+        uses: actions/upload-artifact@v4
+        with:
+          retention-days: 1
+          name: duration-chunk-${{ matrix.group }}-python-${{ matrix.python-version }}
+          path: test_durations
+
+  update_durations:
+    name: Merge and update test durations
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get durations from cache
+        uses: actions/cache@v4
+        with:
+          path: test_durations
+          # artificial cache miss to always save at the end of the job and avoid out of sync test runs
+          key: test-durations-${{ github.sha }}
+          restore-keys: |
+            test-durations
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Merge test durations
+        run: python3 tests/utilities/merge_test_durations_ci.py

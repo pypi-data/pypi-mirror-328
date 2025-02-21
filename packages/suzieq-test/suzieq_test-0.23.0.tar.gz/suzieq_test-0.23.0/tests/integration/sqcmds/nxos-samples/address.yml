@@ -1,0 +1,597 @@
+description: 'Testing verbs for address: show summarize unique'
+tests:
+- command: address show --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos
+  output: '[{"namespace": "nxos", "hostname": "server101", "ifname": "eth0", "ipAddressList":
+    ["10.255.2.204/24"], "macaddr": "52:54:00:72:2c:3b", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256203}, {"namespace": "nxos", "hostname":
+    "server101", "ifname": "bond0", "ipAddressList": ["172.16.1.101/24"], "macaddr":
+    "32:bb:c5:b5:3a:20", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275256203}, {"namespace": "nxos", "hostname": "server102", "ifname": "bond0",
+    "ipAddressList": ["172.16.3.102/24"], "macaddr": "da:bf:63:c6:2f:0a", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275256204}, {"namespace":
+    "nxos", "hostname": "server102", "ifname": "eth0", "ipAddressList": ["10.255.2.39/24"],
+    "macaddr": "52:54:00:6d:18:e7", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275256204}, {"namespace": "nxos", "hostname": "server301", "ifname":
+    "eth0", "ipAddressList": ["10.255.2.140/24"], "macaddr": "52:54:00:6e:32:d5",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275256205},
+    {"namespace": "nxos", "hostname": "server301", "ifname": "bond0", "ipAddressList":
+    ["172.16.2.201/24"], "macaddr": "06:a8:f1:19:b8:b3", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256205}, {"namespace": "nxos", "hostname":
+    "firewall01", "ifname": "lo", "ipAddressList": ["10.0.0.200/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275256290},
+    {"namespace": "nxos", "hostname": "firewall01", "ifname": "eth2.2", "ipAddressList":
+    ["169.254.253.2/30"], "macaddr": "52:54:00:86:df:51", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace": "nxos", "hostname":
+    "firewall01", "ifname": "eth2.3", "ipAddressList": ["169.254.253.6/30"], "macaddr":
+    "52:54:00:86:df:51", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275256290}, {"namespace": "nxos", "hostname": "firewall01", "ifname": "eth1.4",
+    "ipAddressList": ["169.254.254.10/30"], "macaddr": "52:54:00:c9:b8:2d", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace":
+    "nxos", "hostname": "firewall01", "ifname": "eth2.4", "ipAddressList": ["169.254.253.10/30"],
+    "macaddr": "52:54:00:86:df:51", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275256290}, {"namespace": "nxos", "hostname": "firewall01", "ifname":
+    "eth1.2", "ipAddressList": ["169.254.254.2/30"], "macaddr": "52:54:00:c9:b8:2d",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275256290},
+    {"namespace": "nxos", "hostname": "firewall01", "ifname": "eth0", "ipAddressList":
+    ["10.255.2.249/24"], "macaddr": "52:54:00:2b:da:d5", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace": "nxos", "hostname":
+    "firewall01", "ifname": "eth1.3", "ipAddressList": ["169.254.254.6/30"], "macaddr":
+    "52:54:00:c9:b8:2d", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275256290}, {"namespace": "nxos", "hostname": "server302", "ifname": "bond0",
+    "ipAddressList": ["172.16.3.202/24"], "macaddr": "0a:b5:b6:22:53:72", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275256321}, {"namespace":
+    "nxos", "hostname": "server302", "ifname": "eth0", "ipAddressList": ["10.255.2.114/24"],
+    "macaddr": "52:54:00:de:d8:99", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275256321}, {"namespace": "nxos", "hostname": "leaf03", "ifname":
+    "Ethernet1/2", "ipAddressList": ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258539},
+    {"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/1", "ipAddressList":
+    ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace": "nxos", "hostname":
+    "leaf03", "ifname": "mgmt0", "ipAddressList": ["10.255.2.190/24"], "macaddr":
+    "44:38:39:01:02:03", "ip6AddressList": [], "state": "up", "vrf": "management",
+    "timestamp": 1619275258539}, {"namespace": "nxos", "hostname": "leaf03", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.13/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258539},
+    {"namespace": "nxos", "hostname": "leaf03", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.203/32", "10.0.0.134/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace":
+    "nxos", "hostname": "leaf03", "ifname": "Vlan20", "ipAddressList": ["172.16.2.254/24"],
+    "macaddr": "00:00:00:11:12:10", "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf",
+    "timestamp": 1619275258539}, {"namespace": "nxos", "hostname": "leaf03", "ifname":
+    "Vlan30", "ipAddressList": ["172.16.3.254/24"], "macaddr": "00:00:00:11:12:10",
+    "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275258539},
+    {"namespace": "nxos", "hostname": "leaf01", "ifname": "mgmt0", "ipAddressList":
+    ["10.255.2.189/24"], "macaddr": "44:38:39:01:02:01", "ip6AddressList": [], "state":
+    "up", "vrf": "management", "timestamp": 1619275258762}, {"namespace": "nxos",
+    "hostname": "leaf01", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.11/32"],
+    "macaddr": "44:01:02:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258762}, {"namespace": "nxos", "hostname": "leaf01", "ifname":
+    "Ethernet1/1", "ipAddressList": ["10.0.0.11/32"], "macaddr": "44:01:02:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258762},
+    {"namespace": "nxos", "hostname": "leaf01", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.201/32", "10.0.0.112/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258762}, {"namespace":
+    "nxos", "hostname": "leaf01", "ifname": "Vlan10", "ipAddressList": ["172.16.1.254/24"],
+    "macaddr": "00:00:00:11:12:10", "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf",
+    "timestamp": 1619275258762}, {"namespace": "nxos", "hostname": "leaf01", "ifname":
+    "Vlan30", "ipAddressList": ["172.16.3.254/24"], "macaddr": "00:00:00:11:12:10",
+    "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275258762},
+    {"namespace": "nxos", "hostname": "leaf01", "ifname": "loopback0", "ipAddressList":
+    ["10.0.0.11/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258762}, {"namespace": "nxos", "hostname":
+    "dcedge01", "ifname": "xe-0/0/0.0", "ipAddressList": ["169.254.127.0/31"], "macaddr":
+    "02:05:86:71:3c:03", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258985}, {"namespace": "nxos", "hostname": "dcedge01", "ifname": "xe-0/0/1.0",
+    "ipAddressList": ["169.254.127.2/31"], "macaddr": "02:05:86:71:3c:07", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258985}, {"namespace":
+    "nxos", "hostname": "dcedge01", "ifname": "bme0.0", "ipAddressList": ["128.0.0.1/2",
+    "128.0.0.4/2", "128.0.0.16/2", "128.0.0.63/2"], "macaddr": "02:00:00:00:00:0a",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258985},
+    {"namespace": "nxos", "hostname": "dcedge01", "ifname": "em0.0", "ipAddressList":
+    ["10.255.2.250/24"], "macaddr": "44:38:39:01:03:fe", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258985}, {"namespace": "nxos", "hostname":
+    "dcedge01", "ifname": "em1.0", "ipAddressList": ["169.254.0.2/24"], "macaddr":
+    "52:54:00:84:bf:43", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258985}, {"namespace": "nxos", "hostname": "dcedge01", "ifname": "em2.32768",
+    "ipAddressList": ["192.168.1.2/24"], "macaddr": "52:54:00:9a:18:70", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258985}, {"namespace":
+    "nxos", "hostname": "dcedge01", "ifname": "em4.32768", "ipAddressList": ["192.0.2.2/24"],
+    "macaddr": "52:54:00:49:1d:18", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258985}, {"namespace": "nxos", "hostname": "dcedge01", "ifname":
+    "jsrv.1", "ipAddressList": ["128.0.0.127/2"], "macaddr": "02:05:86:71:3c:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258985},
+    {"namespace": "nxos", "hostname": "dcedge01", "ifname": "lo0.0", "ipAddressList":
+    ["10.0.0.41/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList": ["fe80::205:860f:fc71:3c00/128"],
+    "state": "up", "vrf": "default", "timestamp": 1619275258985}, {"namespace": "nxos",
+    "hostname": "spine02", "ifname": "loopback0", "ipAddressList": ["10.0.0.22/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.21/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine01", "ifname": "Ethernet1/6", "ipAddressList":
+    ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "spine01", "ifname": "Ethernet1/5", "ipAddressList": ["10.0.0.21/32"], "macaddr":
+    "44:01:01:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname": "Ethernet1/4",
+    "ipAddressList": ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "spine01", "ifname": "Ethernet1/3", "ipAddressList": ["10.0.0.21/32"],
+    "macaddr": "44:01:01:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname":
+    "Ethernet1/2", "ipAddressList": ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine01", "ifname": "Ethernet1/1", "ipAddressList":
+    ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "spine01", "ifname": "mgmt0", "ipAddressList": ["10.255.2.119/24"], "macaddr":
+    "44:38:39:01:01:01", "ip6AddressList": [], "state": "up", "vrf": "management",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "leaf04", "ifname":
+    "Vlan30", "ipAddressList": ["172.16.3.254/24"], "macaddr": "00:00:00:11:12:10",
+    "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "leaf04", "ifname": "Vlan20", "ipAddressList":
+    ["172.16.2.254/24"], "macaddr": "00:00:00:11:12:10", "ip6AddressList": [], "state":
+    "up", "vrf": "evpn-vrf", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "leaf04", "ifname": "loopback1", "ipAddressList": ["10.0.0.204/32", "10.0.0.134/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "leaf04", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.14/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine02", "ifname": "mgmt0", "ipAddressList":
+    ["10.255.2.120/24"], "macaddr": "44:38:39:01:01:02", "ip6AddressList": [], "state":
+    "up", "vrf": "management", "timestamp": 1619275259180}, {"namespace": "nxos",
+    "hostname": "spine02", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.22/32"],
+    "macaddr": "44:01:01:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine02", "ifname":
+    "Ethernet1/2", "ipAddressList": ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine02", "ifname": "Ethernet1/3", "ipAddressList":
+    ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "spine02", "ifname": "Ethernet1/4", "ipAddressList": ["10.0.0.22/32"], "macaddr":
+    "44:01:01:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259180}, {"namespace": "nxos", "hostname": "spine02", "ifname": "Ethernet1/5",
+    "ipAddressList": ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "spine02", "ifname": "Ethernet1/6", "ipAddressList": ["10.0.0.22/32"],
+    "macaddr": "44:01:01:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "leaf04", "ifname":
+    "Ethernet1/2", "ipAddressList": ["10.0.0.14/32"], "macaddr": "44:01:02:04:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "leaf04", "ifname": "mgmt0", "ipAddressList":
+    ["10.255.2.191/24"], "macaddr": "44:38:39:01:02:04", "ip6AddressList": [], "state":
+    "up", "vrf": "management", "timestamp": 1619275259180}, {"namespace": "nxos",
+    "hostname": "leaf04", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.14/32"],
+    "macaddr": "44:01:02:04:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "leaf02", "ifname":
+    "mgmt0", "ipAddressList": ["10.255.2.188/24"], "macaddr": "44:38:39:01:02:02",
+    "ip6AddressList": [], "state": "up", "vrf": "management", "timestamp": 1619275259186},
+    {"namespace": "nxos", "hostname": "leaf02", "ifname": "Ethernet1/1", "ipAddressList":
+    ["10.0.0.12/32"], "macaddr": "44:01:02:02:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259186}, {"namespace": "nxos", "hostname":
+    "leaf02", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.12/32"], "macaddr":
+    "44:01:02:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259186}, {"namespace": "nxos", "hostname": "leaf02", "ifname": "loopback0",
+    "ipAddressList": ["10.0.0.12/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259186}, {"namespace":
+    "nxos", "hostname": "leaf02", "ifname": "loopback1", "ipAddressList": ["10.0.0.202/32",
+    "10.0.0.112/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259186}, {"namespace": "nxos", "hostname":
+    "leaf02", "ifname": "Vlan10", "ipAddressList": ["172.16.1.254/24"], "macaddr":
+    "00:00:00:11:12:10", "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp":
+    1619275259186}, {"namespace": "nxos", "hostname": "leaf02", "ifname": "Vlan30",
+    "ipAddressList": ["172.16.3.254/24"], "macaddr": "00:00:00:11:12:10", "ip6AddressList":
+    [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275259186}, {"namespace":
+    "nxos", "hostname": "exit01", "ifname": "loopback1", "ipAddressList": ["10.0.0.221/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259574}, {"namespace": "nxos", "hostname": "exit01", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.31/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259574},
+    {"namespace": "nxos", "hostname": "exit01", "ifname": "Ethernet1/3.4", "ipAddressList":
+    ["169.254.254.9/30"], "macaddr": "44:01:03:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "internet-vrf", "timestamp": 1619275259574}, {"namespace": "nxos",
+    "hostname": "exit01", "ifname": "Ethernet1/3.3", "ipAddressList": ["169.254.254.5/30"],
+    "macaddr": "44:01:03:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf",
+    "timestamp": 1619275259574}, {"namespace": "nxos", "hostname": "exit01", "ifname":
+    "Ethernet1/3.2", "ipAddressList": ["169.254.254.1/30"], "macaddr": "44:01:03:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259574},
+    {"namespace": "nxos", "hostname": "exit01", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.31/32"], "macaddr": "44:01:03:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259574}, {"namespace": "nxos", "hostname":
+    "exit01", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.31/32"], "macaddr":
+    "44:01:03:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259574}, {"namespace": "nxos", "hostname": "exit01", "ifname": "mgmt0",
+    "ipAddressList": ["10.255.2.253/24"], "macaddr": "44:38:39:01:03:01", "ip6AddressList":
+    [], "state": "up", "vrf": "management", "timestamp": 1619275259574}, {"namespace":
+    "nxos", "hostname": "exit01", "ifname": "Ethernet1/4", "ipAddressList": ["169.254.127.1/31"],
+    "macaddr": "44:01:03:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "internet-vrf",
+    "timestamp": 1619275259574}, {"namespace": "nxos", "hostname": "exit02", "ifname":
+    "Ethernet1/1", "ipAddressList": ["10.0.0.32/32"], "macaddr": "44:01:03:02:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275260177},
+    {"namespace": "nxos", "hostname": "exit02", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.222/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275260177}, {"namespace": "nxos", "hostname":
+    "exit02", "ifname": "loopback0", "ipAddressList": ["10.0.0.32/32"], "macaddr":
+    "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275260177}, {"namespace": "nxos", "hostname": "exit02", "ifname": "Ethernet1/4",
+    "ipAddressList": ["169.254.127.3/31"], "macaddr": "44:01:03:02:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "internet-vrf", "timestamp": 1619275260177}, {"namespace":
+    "nxos", "hostname": "exit02", "ifname": "Ethernet1/3.4", "ipAddressList": ["169.254.253.9/30"],
+    "macaddr": "44:01:03:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "internet-vrf",
+    "timestamp": 1619275260177}, {"namespace": "nxos", "hostname": "exit02", "ifname":
+    "Ethernet1/3.3", "ipAddressList": ["169.254.253.5/30"], "macaddr": "44:01:03:02:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275260177},
+    {"namespace": "nxos", "hostname": "exit02", "ifname": "Ethernet1/3.2", "ipAddressList":
+    ["169.254.253.1/30"], "macaddr": "44:01:03:02:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275260177}, {"namespace": "nxos", "hostname":
+    "exit02", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.32/32"], "macaddr":
+    "44:01:03:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275260177}, {"namespace": "nxos", "hostname": "exit02", "ifname": "mgmt0",
+    "ipAddressList": ["10.255.2.254/24"], "macaddr": "44:38:39:01:03:02", "ip6AddressList":
+    [], "state": "up", "vrf": "management", "timestamp": 1619275260177}]'
+- command: address show --columns=hostname --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos
+  output: '[{"hostname": "server101"}, {"hostname": "server101"}, {"hostname": "server102"},
+    {"hostname": "server102"}, {"hostname": "server301"}, {"hostname": "server301"},
+    {"hostname": "firewall01"}, {"hostname": "firewall01"}, {"hostname": "firewall01"},
+    {"hostname": "firewall01"}, {"hostname": "firewall01"}, {"hostname": "firewall01"},
+    {"hostname": "firewall01"}, {"hostname": "firewall01"}, {"hostname": "server302"},
+    {"hostname": "server302"}, {"hostname": "leaf03"}, {"hostname": "leaf03"}, {"hostname":
+    "leaf03"}, {"hostname": "leaf03"}, {"hostname": "leaf03"}, {"hostname": "leaf03"},
+    {"hostname": "leaf03"}, {"hostname": "leaf01"}, {"hostname": "leaf01"}, {"hostname":
+    "leaf01"}, {"hostname": "leaf01"}, {"hostname": "leaf01"}, {"hostname": "leaf01"},
+    {"hostname": "leaf01"}, {"hostname": "dcedge01"}, {"hostname": "dcedge01"}, {"hostname":
+    "dcedge01"}, {"hostname": "dcedge01"}, {"hostname": "dcedge01"}, {"hostname":
+    "dcedge01"}, {"hostname": "dcedge01"}, {"hostname": "dcedge01"}, {"hostname":
+    "dcedge01"}, {"hostname": "spine02"}, {"hostname": "spine01"}, {"hostname": "spine01"},
+    {"hostname": "spine01"}, {"hostname": "spine01"}, {"hostname": "spine01"}, {"hostname":
+    "spine01"}, {"hostname": "spine01"}, {"hostname": "spine01"}, {"hostname": "leaf04"},
+    {"hostname": "leaf04"}, {"hostname": "leaf04"}, {"hostname": "leaf04"}, {"hostname":
+    "spine02"}, {"hostname": "spine02"}, {"hostname": "spine02"}, {"hostname": "spine02"},
+    {"hostname": "spine02"}, {"hostname": "spine02"}, {"hostname": "spine02"}, {"hostname":
+    "leaf04"}, {"hostname": "leaf04"}, {"hostname": "leaf04"}, {"hostname": "leaf02"},
+    {"hostname": "leaf02"}, {"hostname": "leaf02"}, {"hostname": "leaf02"}, {"hostname":
+    "leaf02"}, {"hostname": "leaf02"}, {"hostname": "leaf02"}, {"hostname": "exit01"},
+    {"hostname": "exit01"}, {"hostname": "exit01"}, {"hostname": "exit01"}, {"hostname":
+    "exit01"}, {"hostname": "exit01"}, {"hostname": "exit01"}, {"hostname": "exit01"},
+    {"hostname": "exit01"}, {"hostname": "exit02"}, {"hostname": "exit02"}, {"hostname":
+    "exit02"}, {"hostname": "exit02"}, {"hostname": "exit02"}, {"hostname": "exit02"},
+    {"hostname": "exit02"}, {"hostname": "exit02"}, {"hostname": "exit02"}]'
+- command: address summarize --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address summarize nxos
+  output: '{"nxos": {"deviceCnt": 14, "addressCnt": 87, "uniqueV4AddressCnt": 63,
+    "uniqueV6AddressCnt": 0, "uniqueIfMacCnt": 37, "deviceWithv4AddressCnt": 14, "deviceWithv6AddressCnt":
+    0, "subnetsUsed": ["32", "24", "30", "2", "31"], "subnetTopCounts": [{"32": 44},
+    {"24": 29}, {"30": 12}]}}'
+- command: address unique --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address unique nxos
+  output: '[{"ipAddress": "10.0.0.11/32"}, {"ipAddress": "10.0.0.112/32"}, {"ipAddress":
+    "10.0.0.12/32"}, {"ipAddress": "10.0.0.13/32"}, {"ipAddress": "10.0.0.134/32"},
+    {"ipAddress": "10.0.0.14/32"}, {"ipAddress": "10.0.0.200/32"}, {"ipAddress": "10.0.0.201/32"},
+    {"ipAddress": "10.0.0.202/32"}, {"ipAddress": "10.0.0.203/32"}, {"ipAddress":
+    "10.0.0.204/32"}, {"ipAddress": "10.0.0.21/32"}, {"ipAddress": "10.0.0.22/32"},
+    {"ipAddress": "10.0.0.221/32"}, {"ipAddress": "10.0.0.222/32"}, {"ipAddress":
+    "10.0.0.31/32"}, {"ipAddress": "10.0.0.32/32"}, {"ipAddress": "10.0.0.41/32"},
+    {"ipAddress": "10.255.2.114/24"}, {"ipAddress": "10.255.2.119/24"}, {"ipAddress":
+    "10.255.2.120/24"}, {"ipAddress": "10.255.2.140/24"}, {"ipAddress": "10.255.2.188/24"},
+    {"ipAddress": "10.255.2.189/24"}, {"ipAddress": "10.255.2.190/24"}, {"ipAddress":
+    "10.255.2.191/24"}, {"ipAddress": "10.255.2.204/24"}, {"ipAddress": "10.255.2.249/24"},
+    {"ipAddress": "10.255.2.250/24"}, {"ipAddress": "10.255.2.253/24"}, {"ipAddress":
+    "10.255.2.254/24"}, {"ipAddress": "10.255.2.39/24"}, {"ipAddress": "128.0.0.1/2"},
+    {"ipAddress": "128.0.0.127/2"}, {"ipAddress": "128.0.0.16/2"}, {"ipAddress": "128.0.0.4/2"},
+    {"ipAddress": "128.0.0.63/2"}, {"ipAddress": "169.254.0.2/24"}, {"ipAddress":
+    "169.254.127.0/31"}, {"ipAddress": "169.254.127.1/31"}, {"ipAddress": "169.254.127.2/31"},
+    {"ipAddress": "169.254.127.3/31"}, {"ipAddress": "169.254.253.1/30"}, {"ipAddress":
+    "169.254.253.10/30"}, {"ipAddress": "169.254.253.2/30"}, {"ipAddress": "169.254.253.5/30"},
+    {"ipAddress": "169.254.253.6/30"}, {"ipAddress": "169.254.253.9/30"}, {"ipAddress":
+    "169.254.254.1/30"}, {"ipAddress": "169.254.254.10/30"}, {"ipAddress": "169.254.254.2/30"},
+    {"ipAddress": "169.254.254.5/30"}, {"ipAddress": "169.254.254.6/30"}, {"ipAddress":
+    "169.254.254.9/30"}, {"ipAddress": "172.16.1.101/24"}, {"ipAddress": "172.16.1.254/24"},
+    {"ipAddress": "172.16.2.201/24"}, {"ipAddress": "172.16.2.254/24"}, {"ipAddress":
+    "172.16.3.102/24"}, {"ipAddress": "172.16.3.202/24"}, {"ipAddress": "172.16.3.254/24"},
+    {"ipAddress": "192.0.2.2/24"}, {"ipAddress": "192.168.1.2/24"}, {"ipAddress":
+    "fe80::205:860f:fc71:3c00/128"}]'
+- command: address unique --count=True --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address unique nxos
+  output: '[{"ipAddress": "10.0.0.200/32", "numRows": 1}, {"ipAddress": "10.0.0.201/32",
+    "numRows": 1}, {"ipAddress": "10.0.0.202/32", "numRows": 1}, {"ipAddress": "10.0.0.203/32",
+    "numRows": 1}, {"ipAddress": "10.0.0.204/32", "numRows": 1}, {"ipAddress": "10.0.0.221/32",
+    "numRows": 1}, {"ipAddress": "10.0.0.222/32", "numRows": 1}, {"ipAddress": "10.0.0.41/32",
+    "numRows": 1}, {"ipAddress": "10.255.2.114/24", "numRows": 1}, {"ipAddress": "10.255.2.119/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.120/24", "numRows": 1}, {"ipAddress": "10.255.2.140/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.188/24", "numRows": 1}, {"ipAddress": "10.255.2.189/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.190/24", "numRows": 1}, {"ipAddress": "10.255.2.191/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.204/24", "numRows": 1}, {"ipAddress": "10.255.2.249/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.250/24", "numRows": 1}, {"ipAddress": "10.255.2.253/24",
+    "numRows": 1}, {"ipAddress": "10.255.2.254/24", "numRows": 1}, {"ipAddress": "10.255.2.39/24",
+    "numRows": 1}, {"ipAddress": "128.0.0.1/2", "numRows": 1}, {"ipAddress": "128.0.0.127/2",
+    "numRows": 1}, {"ipAddress": "128.0.0.16/2", "numRows": 1}, {"ipAddress": "128.0.0.4/2",
+    "numRows": 1}, {"ipAddress": "128.0.0.63/2", "numRows": 1}, {"ipAddress": "169.254.0.2/24",
+    "numRows": 1}, {"ipAddress": "169.254.127.0/31", "numRows": 1}, {"ipAddress":
+    "169.254.127.1/31", "numRows": 1}, {"ipAddress": "169.254.127.2/31", "numRows":
+    1}, {"ipAddress": "169.254.127.3/31", "numRows": 1}, {"ipAddress": "169.254.253.1/30",
+    "numRows": 1}, {"ipAddress": "169.254.253.10/30", "numRows": 1}, {"ipAddress":
+    "169.254.253.2/30", "numRows": 1}, {"ipAddress": "169.254.253.5/30", "numRows":
+    1}, {"ipAddress": "169.254.253.6/30", "numRows": 1}, {"ipAddress": "169.254.253.9/30",
+    "numRows": 1}, {"ipAddress": "169.254.254.1/30", "numRows": 1}, {"ipAddress":
+    "169.254.254.10/30", "numRows": 1}, {"ipAddress": "169.254.254.2/30", "numRows":
+    1}, {"ipAddress": "169.254.254.5/30", "numRows": 1}, {"ipAddress": "169.254.254.6/30",
+    "numRows": 1}, {"ipAddress": "169.254.254.9/30", "numRows": 1}, {"ipAddress":
+    "172.16.1.101/24", "numRows": 1}, {"ipAddress": "172.16.2.201/24", "numRows":
+    1}, {"ipAddress": "172.16.3.102/24", "numRows": 1}, {"ipAddress": "172.16.3.202/24",
+    "numRows": 1}, {"ipAddress": "192.0.2.2/24", "numRows": 1}, {"ipAddress": "192.168.1.2/24",
+    "numRows": 1}, {"ipAddress": "fe80::205:860f:fc71:3c00/128", "numRows": 1}, {"ipAddress":
+    "10.0.0.112/32", "numRows": 2}, {"ipAddress": "10.0.0.134/32", "numRows": 2},
+    {"ipAddress": "172.16.1.254/24", "numRows": 2}, {"ipAddress": "172.16.2.254/24",
+    "numRows": 2}, {"ipAddress": "10.0.0.11/32", "numRows": 3}, {"ipAddress": "10.0.0.12/32",
+    "numRows": 3}, {"ipAddress": "10.0.0.13/32", "numRows": 3}, {"ipAddress": "10.0.0.14/32",
+    "numRows": 3}, {"ipAddress": "10.0.0.31/32", "numRows": 3}, {"ipAddress": "10.0.0.32/32",
+    "numRows": 3}, {"ipAddress": "172.16.3.254/24", "numRows": 4}, {"ipAddress": "10.0.0.21/32",
+    "numRows": 7}, {"ipAddress": "10.0.0.22/32", "numRows": 7}]'
+- command: address unique --columns=hostname --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address unique nxos
+  output: '[{"hostname": "dcedge01"}, {"hostname": "exit01"}, {"hostname": "exit02"},
+    {"hostname": "firewall01"}, {"hostname": "leaf01"}, {"hostname": "leaf02"}, {"hostname":
+    "leaf03"}, {"hostname": "leaf04"}, {"hostname": "server101"}, {"hostname": "server102"},
+    {"hostname": "server301"}, {"hostname": "server302"}, {"hostname": "spine01"},
+    {"hostname": "spine02"}]'
+- command: address unique --columns=hostname --format=json --namespace=nxos --count=True
+  data-directory: tests/data/parquet/
+  marks: address unique nxos
+  output: '[{"hostname": "server101", "numRows": 2}, {"hostname": "server102", "numRows":
+    2}, {"hostname": "server301", "numRows": 2}, {"hostname": "server302", "numRows":
+    2}, {"hostname": "leaf01", "numRows": 7}, {"hostname": "leaf02", "numRows": 7},
+    {"hostname": "leaf03", "numRows": 7}, {"hostname": "leaf04", "numRows": 7}, {"hostname":
+    "firewall01", "numRows": 8}, {"hostname": "spine01", "numRows": 8}, {"hostname":
+    "spine02", "numRows": 8}, {"hostname": "dcedge01", "numRows": 9}, {"hostname":
+    "exit01", "numRows": 9}, {"hostname": "exit02", "numRows": 9}]'
+- command: address unique --columns=vrf --format=json --namespace=nxos --count=True
+  data-directory: tests/data/parquet/
+  marks: address unique nxos
+  output: '[{"vrf": "internet-vrf", "numRows": 4}, {"vrf": "management", "numRows":
+    8}, {"vrf": "evpn-vrf", "numRows": 10}, {"vrf": "default", "numRows": 65}]'
+- command: address unique --columns="vrf"  --format=json --namespace=nxos
+  data-directory: tests/data/parquet
+  marks: address unique nxos filter
+  output: '[{"vrf": "default"}, {"vrf": "evpn-vrf"}, {"vrf": "internet-vrf"}, {"vrf":
+    "management"}]'
+- command: address unique --columns="vrf" --query-str='hostname.isin(["exit01", "exit02"])
+    ' --format=json --namespace=nxos
+  data-directory: tests/data/parquet
+  error:
+    error: '[{"error": "ERROR: UserQueryError: name ''hostname'' is not defined"}]'
+  marks: address unique nxos filter
+- command: address show --address=10.0.0.11 --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf01", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.11/32"], "macaddr": "44:01:02:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258762}, {"namespace": "nxos", "hostname":
+    "leaf01", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.11/32"], "macaddr":
+    "44:01:02:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258762}, {"namespace": "nxos", "hostname": "leaf01", "ifname": "loopback0",
+    "ipAddressList": ["10.0.0.11/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258762}]'
+- command: address show --address='10.0.0.11 172.16.1.254' --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf01", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.11/32"], "macaddr": "44:01:02:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258762}, {"namespace": "nxos", "hostname":
+    "leaf01", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.11/32"], "macaddr":
+    "44:01:02:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258762}, {"namespace": "nxos", "hostname": "leaf01", "ifname": "Vlan10",
+    "ipAddressList": ["172.16.1.254/24"], "macaddr": "00:00:00:11:12:10", "ip6AddressList":
+    [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275258762}, {"namespace":
+    "nxos", "hostname": "leaf01", "ifname": "loopback0", "ipAddressList": ["10.0.0.11/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258762}, {"namespace": "nxos", "hostname": "leaf02", "ifname":
+    "Vlan10", "ipAddressList": ["172.16.1.254/24"], "macaddr": "00:00:00:11:12:10",
+    "ip6AddressList": [], "state": "up", "vrf": "evpn-vrf", "timestamp": 1619275259186}]'
+- command: address show --address="44:01:02:03:1b:08" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace": "nxos", "hostname":
+    "leaf03", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.13/32"], "macaddr":
+    "44:01:02:03:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258539}]'
+- command: address show --address="44:01:02:03:1B:08" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace": "nxos", "hostname":
+    "leaf03", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.13/32"], "macaddr":
+    "44:01:02:03:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258539}]'
+- command: address show --address="4401.0203.1b08" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace": "nxos", "hostname":
+    "leaf03", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.13/32"], "macaddr":
+    "44:01:02:03:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258539}]'
+- command: address show --address="4401.0203.1B08" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show filter nxos
+  output: '[{"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace": "nxos", "hostname":
+    "leaf03", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.13/32"], "macaddr":
+    "44:01:02:03:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275258539}]'
+- command: address show --address="invalidaddress" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "Invalid address specified"}]'
+  marks: address show nxos filter
+- command: address show --prefix="169.254.253.0/30" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos filter
+  output: '[{"namespace": "nxos", "hostname": "firewall01", "ifname": "eth2.2", "ipAddressList":
+    ["169.254.253.2/30"], "macaddr": "52:54:00:86:df:51", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace": "nxos", "hostname":
+    "exit02", "ifname": "Ethernet1/3.2", "ipAddressList": ["169.254.253.1/30"], "macaddr":
+    "44:01:03:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275260177}]'
+- command: address show --prefix="2001:db8:0:1::/64" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos filter
+  output: '[]'
+- command: address show --prefix="2001:db8:0:1::/64 169.254.253.0/30" --format=json
+    --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos filter
+  output: '[{"namespace": "nxos", "hostname": "firewall01", "ifname": "eth2.2", "ipAddressList":
+    ["169.254.253.2/30"], "macaddr": "52:54:00:86:df:51", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace": "nxos", "hostname":
+    "exit02", "ifname": "Ethernet1/3.2", "ipAddressList": ["169.254.253.1/30"], "macaddr":
+    "44:01:03:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275260177}]'
+- command: address show --prefix="169.254.253.0/30 10.0.0.0/24" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  marks: address show nxos filter
+  output: '[{"namespace": "nxos", "hostname": "firewall01", "ifname": "lo", "ipAddressList":
+    ["10.0.0.200/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275256290}, {"namespace": "nxos", "hostname":
+    "firewall01", "ifname": "eth2.2", "ipAddressList": ["169.254.253.2/30"], "macaddr":
+    "52:54:00:86:df:51", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275256290}, {"namespace": "nxos", "hostname": "leaf03", "ifname": "Ethernet1/2",
+    "ipAddressList": ["10.0.0.13/32"], "macaddr": "44:01:02:03:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace":
+    "nxos", "hostname": "leaf03", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.13/32"],
+    "macaddr": "44:01:02:03:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258539}, {"namespace": "nxos", "hostname": "leaf03", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.13/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258539},
+    {"namespace": "nxos", "hostname": "leaf03", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.203/32", "10.0.0.134/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258539}, {"namespace":
+    "nxos", "hostname": "leaf01", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.11/32"],
+    "macaddr": "44:01:02:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258762}, {"namespace": "nxos", "hostname": "leaf01", "ifname":
+    "Ethernet1/1", "ipAddressList": ["10.0.0.11/32"], "macaddr": "44:01:02:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275258762},
+    {"namespace": "nxos", "hostname": "leaf01", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.201/32", "10.0.0.112/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275258762}, {"namespace":
+    "nxos", "hostname": "leaf01", "ifname": "loopback0", "ipAddressList": ["10.0.0.11/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275258762}, {"namespace": "nxos", "hostname": "dcedge01", "ifname":
+    "lo0.0", "ipAddressList": ["10.0.0.41/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    ["fe80::205:860f:fc71:3c00/128"], "state": "up", "vrf": "default", "timestamp":
+    1619275258985}, {"namespace": "nxos", "hostname": "spine02", "ifname": "loopback0",
+    "ipAddressList": ["10.0.0.22/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "spine01", "ifname": "loopback0", "ipAddressList": ["10.0.0.21/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname":
+    "Ethernet1/6", "ipAddressList": ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine01", "ifname": "Ethernet1/5", "ipAddressList":
+    ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "spine01", "ifname": "Ethernet1/4", "ipAddressList": ["10.0.0.21/32"], "macaddr":
+    "44:01:01:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname": "Ethernet1/3",
+    "ipAddressList": ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "spine01", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.21/32"],
+    "macaddr": "44:01:01:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine01", "ifname":
+    "Ethernet1/1", "ipAddressList": ["10.0.0.21/32"], "macaddr": "44:01:01:01:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "leaf04", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.204/32", "10.0.0.134/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "leaf04", "ifname": "loopback0", "ipAddressList": ["10.0.0.14/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine02", "ifname":
+    "Ethernet1/1", "ipAddressList": ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "spine02", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "spine02", "ifname": "Ethernet1/3", "ipAddressList": ["10.0.0.22/32"], "macaddr":
+    "44:01:01:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259180}, {"namespace": "nxos", "hostname": "spine02", "ifname": "Ethernet1/4",
+    "ipAddressList": ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace":
+    "nxos", "hostname": "spine02", "ifname": "Ethernet1/5", "ipAddressList": ["10.0.0.22/32"],
+    "macaddr": "44:01:01:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259180}, {"namespace": "nxos", "hostname": "spine02", "ifname":
+    "Ethernet1/6", "ipAddressList": ["10.0.0.22/32"], "macaddr": "44:01:01:02:1b:08",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259180},
+    {"namespace": "nxos", "hostname": "leaf04", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.14/32"], "macaddr": "44:01:02:04:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259180}, {"namespace": "nxos", "hostname":
+    "leaf04", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.14/32"], "macaddr":
+    "44:01:02:04:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259180}, {"namespace": "nxos", "hostname": "leaf02", "ifname": "Ethernet1/1",
+    "ipAddressList": ["10.0.0.12/32"], "macaddr": "44:01:02:02:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259186}, {"namespace":
+    "nxos", "hostname": "leaf02", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.12/32"],
+    "macaddr": "44:01:02:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259186}, {"namespace": "nxos", "hostname": "leaf02", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.12/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259186},
+    {"namespace": "nxos", "hostname": "leaf02", "ifname": "loopback1", "ipAddressList":
+    ["10.0.0.202/32", "10.0.0.112/32"], "macaddr": "00:00:00:00:00:00", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275259186}, {"namespace":
+    "nxos", "hostname": "exit01", "ifname": "loopback1", "ipAddressList": ["10.0.0.221/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275259574}, {"namespace": "nxos", "hostname": "exit01", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.31/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275259574},
+    {"namespace": "nxos", "hostname": "exit01", "ifname": "Ethernet1/2", "ipAddressList":
+    ["10.0.0.31/32"], "macaddr": "44:01:03:01:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275259574}, {"namespace": "nxos", "hostname":
+    "exit01", "ifname": "Ethernet1/1", "ipAddressList": ["10.0.0.31/32"], "macaddr":
+    "44:01:03:01:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275259574}, {"namespace": "nxos", "hostname": "exit02", "ifname": "Ethernet1/1",
+    "ipAddressList": ["10.0.0.32/32"], "macaddr": "44:01:03:02:1b:08", "ip6AddressList":
+    [], "state": "up", "vrf": "default", "timestamp": 1619275260177}, {"namespace":
+    "nxos", "hostname": "exit02", "ifname": "loopback1", "ipAddressList": ["10.0.0.222/32"],
+    "macaddr": "00:00:00:00:00:00", "ip6AddressList": [], "state": "up", "vrf": "default",
+    "timestamp": 1619275260177}, {"namespace": "nxos", "hostname": "exit02", "ifname":
+    "loopback0", "ipAddressList": ["10.0.0.32/32"], "macaddr": "00:00:00:00:00:00",
+    "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp": 1619275260177},
+    {"namespace": "nxos", "hostname": "exit02", "ifname": "Ethernet1/3.2", "ipAddressList":
+    ["169.254.253.1/30"], "macaddr": "44:01:03:02:1b:08", "ip6AddressList": [], "state":
+    "up", "vrf": "default", "timestamp": 1619275260177}, {"namespace": "nxos", "hostname":
+    "exit02", "ifname": "Ethernet1/2", "ipAddressList": ["10.0.0.32/32"], "macaddr":
+    "44:01:03:02:1b:08", "ip6AddressList": [], "state": "up", "vrf": "default", "timestamp":
+    1619275260177}]'
+- command: address show --prefix="192.168.1.0" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "Invalid prefix specified"}]'
+  marks: address show nxos filter
+- command: address show --prefix="44:38:39:00:00:23" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "Invalid prefix specified"}]'
+  marks: address show nxos filter
+- command: address show --prefix="10.0.0.0/24" --address="192.168.1.2" --format=json
+    --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "Cannot specify address and prefix together"}]'
+  marks: address show nxos filter
+- command: address show --prefix="10.0.0.1/24" --format=json --namespace=nxos
+  data-directory: tests/data/parquet/
+  error:
+    error: '[{"error": "Invalid prefix specified"}]'
+  marks: address show nxos filter

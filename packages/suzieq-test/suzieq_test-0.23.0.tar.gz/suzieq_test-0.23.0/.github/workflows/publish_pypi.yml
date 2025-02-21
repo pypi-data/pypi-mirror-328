@@ -1,0 +1,41 @@
+---
+name: Build & publish Package to PyPI
+
+on:
+  push:
+    tags:
+      - test-*
+      #- '!test-*'
+
+env:
+  PYTHON_VERSION: 3.9
+
+jobs:
+  pypi:
+    name: Build & publish Package to PyPI
+    runs-on: ubuntu-latest
+    # Environment and permissions trusted publishing.
+    environment:
+      # Create this environment in the GitHub repository under Settings -> Environments
+      name: release
+    permissions:
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up UV
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Build Package
+        run: uv build
+
+      - name: Publish on Pypi
+        run: uv publish
+        env:
+          UV_PUBLISH_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
+          UV_PUBLISH_URL: https://upload.pypi.org/legacy/

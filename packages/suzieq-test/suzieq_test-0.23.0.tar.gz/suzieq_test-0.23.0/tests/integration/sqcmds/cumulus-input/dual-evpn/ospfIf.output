@@ -1,0 +1,131 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1616644822033,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "exit02",
+        "address": "192.168.121.150",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822033
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822099,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "edge01",
+        "address": "192.168.121.154",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616644822099
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822164,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "spine02",
+        "address": "192.168.121.136",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822164
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822167,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "spine01",
+        "address": "192.168.121.42",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822167
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822167,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf04",
+        "address": "192.168.121.38",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822167
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822167,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "internet",
+        "address": "192.168.121.157",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822167
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822167,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf03",
+        "address": "192.168.121.13",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822167
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822168,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "exit01",
+        "address": "192.168.121.126",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822168
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822169,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf01",
+        "address": "192.168.121.88",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822169
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822253,
+        "cmd": "sudo vtysh -c 'show ip ospf vrf all interface'",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf02",
+        "address": "192.168.121.253",
+        "version": "3.7.9",
+        "data": "",
+        "cmd_timestamp": 1616644822253
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1616644821822,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "exit02",
+        "address": "192.168.121.150",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\nvni13\t 13 PVID Egress Untagged\n\nvni24\t 24 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821822
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821822,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "server103",
+        "address": "192.168.121.34",
+        "version": "16.04",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821822
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821822,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "server102",
+        "address": "192.168.121.152",
+        "version": "16.04",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821822
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821822,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "spine01",
+        "address": "192.168.121.42",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821822
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821822,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf01",
+        "address": "192.168.121.88",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\npeerlink\t 1 PVID Egress Untagged\n\t 13\n\t 24\n\nvni24\t 24 PVID Egress Untagged\n\nvni13\t 13 PVID Egress Untagged\n\nbond02\t 24 PVID Egress Untagged\n\nbond01\t 13 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821822
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "spine02",
+        "address": "192.168.121.136",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf03",
+        "address": "192.168.121.13",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\npeerlink\t 1 PVID Egress Untagged\n\t 13\n\t 24\n\nvni24\t 24 PVID Egress Untagged\n\nvni13\t 13 PVID Egress Untagged\n\nbond02\t 24 PVID Egress Untagged\n\nbond01\t 13 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf04",
+        "address": "192.168.121.38",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\npeerlink\t 1 PVID Egress Untagged\n\t 13\n\t 24\n\nvni24\t 24 PVID Egress Untagged\n\nvni13\t 13 PVID Egress Untagged\n\nbond02\t 24 PVID Egress Untagged\n\nbond01\t 13 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "internet",
+        "address": "192.168.121.157",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "leaf02",
+        "address": "192.168.121.253",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\npeerlink\t 1 PVID Egress Untagged\n\t 13\n\t 24\n\nvni24\t 24 PVID Egress Untagged\n\nvni13\t 13 PVID Egress Untagged\n\nbond02\t 24 PVID Egress Untagged\n\nbond01\t 13 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "cumulus",
+        "namespace": "dual-evpn",
+        "hostname": "exit01",
+        "address": "192.168.121.126",
+        "version": "3.7.9",
+        "data": "port\tvlan ids\nvni13\t 13 PVID Egress Untagged\n\nvni24\t 24 PVID Egress Untagged\n\nbridge\t 13\n\t 24\n\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "server101",
+        "address": "192.168.121.110",
+        "version": "16.04",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644821824,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "edge01",
+        "address": "192.168.121.154",
+        "version": "16.04",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644821824
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616644822007,
+        "cmd": "/sbin/bridge -c vlan show",
+        "devtype": "linux",
+        "namespace": "dual-evpn",
+        "hostname": "server104",
+        "address": "192.168.121.114",
+        "version": "16.04",
+        "data": "port\tvlan ids\n",
+        "cmd_timestamp": 1616644822007
+    }
+]

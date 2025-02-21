@@ -1,0 +1,183 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1616352402703,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "server102",
+        "address": "10.255.2.68",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402703
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352402732,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "server104",
+        "address": "10.255.2.219",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402732
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352402732,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "server101",
+        "address": "10.255.2.78",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402732
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352402732,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "server103",
+        "address": "10.255.2.182",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402732
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352402950,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "edge01",
+        "address": "10.255.2.109",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402950
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403885,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "internet",
+        "address": "10.255.2.239",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403885
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403916,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf02",
+        "address": "10.255.2.203",
+        "version": "4.3.0",
+        "data": "00:03:00:22:22:02 dev swp5 vlan 10 master bridge \n44:38:39:00:00:18 dev swp5 master bridge permanent\n44:38:39:00:00:18 dev swp5 self permanent\n44:38:39:00:00:18 dev bridge vlan 10 master bridge permanent\n",
+        "cmd_timestamp": 1616352403916
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403984,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf04",
+        "address": "10.255.2.10",
+        "version": "4.3.0",
+        "data": "00:03:00:44:44:02 dev swp5 vlan 10 master bridge \n44:38:39:00:00:2c dev swp5 master bridge permanent\n44:38:39:00:00:2c dev swp5 self permanent\n44:38:39:00:00:2c dev bridge vlan 10 master bridge permanent\n",
+        "cmd_timestamp": 1616352403984
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404152,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "exit02",
+        "address": "10.255.2.41",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352404152
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404175,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf01",
+        "address": "10.255.2.23",
+        "version": "4.3.0",
+        "data": "00:03:00:11:11:01 dev swp5 vlan 10 master bridge \n44:38:39:00:00:03 dev swp5 master bridge permanent\n44:38:39:00:00:03 dev swp5 self permanent\n44:38:39:00:00:03 dev bridge vlan 10 master bridge permanent\n",
+        "cmd_timestamp": 1616352404175
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404234,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "spine02",
+        "address": "10.255.2.60",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352404234
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404654,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "exit01",
+        "address": "10.255.2.88",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352404654
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404654,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "spine01",
+        "address": "10.255.2.217",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352404654
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352404671,
+        "cmd": "/sbin/bridge fdb show",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf03",
+        "address": "10.255.2.254",
+        "version": "4.3.0",
+        "data": "00:03:00:33:33:01 dev swp5 vlan 10 master bridge \n44:38:39:00:00:1f dev swp5 master bridge permanent\n44:38:39:00:00:1f dev swp5 self permanent\n44:38:39:00:00:1f dev bridge vlan 10 master bridge permanent\n",
+        "cmd_timestamp": 1616352404671
+    }
+]

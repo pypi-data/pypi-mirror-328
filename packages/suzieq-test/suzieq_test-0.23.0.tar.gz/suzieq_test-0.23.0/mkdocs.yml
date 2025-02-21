@@ -1,0 +1,50 @@
+site_name: SuzieQ
+repo_url: https://github.com/netenglabs/suzieq
+python:
+  install:
+    - requirements: docs/requirements.txt
+theme:
+  name: readthedocs
+  navigation_depth: 3
+
+nav:
+  - Overview:
+    - Introduction: index.md
+    - Getting Started: getting_started.md
+    - Release Notes: release-notes.md
+    - Configuration: config_file.md
+  - Gathering Data:
+    - Poller: poller.md
+    - Inventory File: inventory.md
+    - Rate Limiting AAA Server Requests: rate-limiting-AAA.md
+    - Supported Tables and Devices: tables.md
+    - Supported Transports: transports.md
+    - Polling From a Local Folder: simnode.md
+  - Analyzing Data:
+    - Analyzer: analyzer.md
+    - GUI: gui.md
+    - REST Server: rest-server.md
+    - Accessing remote data: remote-cli.md
+    - Time: time.md
+    - Pandas Query Examples: pandas-query-examples.md
+  - CLI:
+    - 'Introducing SuzieQ CLI': commands/introduction.md
+  - Tutorials:
+      - '10 things to do with SuzieQ': tutorials/10things.md
+      - 'How to think about verbs': tutorials/how_to_think_about_verbs.md
+  - External Tutorials:
+      - 'Whoop Dee Doo for my SuzieQ': 'https://gratuitous-arp.net/fabric-like-visibility-to-your-network-with-suzieq/'
+  - Developer Docs:
+       - 'Getting Started': developer/devstart.md
+       - 'Contributing': developer/contribute.md
+       - 'Configuring a service': service/service-format.md
+       - "Adding a New Network OS (NOS)": developer/adding-a-new-nos.md
+       - "Testing Philosphy and Practice": developer/testing.md
+       - "Updating Test Data": developer/updating_test_data.md
+       - "Python API": developer/pythonAPI.md
+       - "Augmented Columns": developer/augmented-columns.md
+
+
+markdown_extensions:
+  - admonition
+#  - mkautodoc # add back when we add the API docs

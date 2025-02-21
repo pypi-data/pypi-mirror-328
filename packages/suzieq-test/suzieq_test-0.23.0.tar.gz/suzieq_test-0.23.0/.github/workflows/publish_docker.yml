@@ -1,0 +1,71 @@
+---
+name: Build & Publish a Docker image
+
+on:
+  push:
+    tags:
+      - test-*
+      #- '!test-*'
+
+env:
+  GHCR_IMAGE: ghcr.io/${{ github.repository }}
+  DOCKER_IMAGE: docker.io/${{ github.repository }}
+
+jobs:
+  build-and-push-image:
+    name: Build & Publish a Docker image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract version from version.py
+        run: |
+          VERSION=$(python -c "exec(open('suzieq/version.py').read())")
+          echo "VERSION=${VERSION}" >> $GITHUB_ENV
+
+      - name: Populate IMAGE_NAMES
+        run: |
+          ${{ env.GHCR_IMAGE }}:${{ env.VERSION }} ${{ env.GHCR_IMAGE }}:latest"
+          echo "GHCR_IMAGE_NAMES=${IMAGE_NAMES}" >> $GITHUB_ENV
+
+      - name: Set up UV
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+          python-version: ${{ matrix.python-version }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+        with:
+          buildkitd-flags: --debug
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Login to docker.io
+        uses: docker/login-action@v3
+        with:
+          registry: docker.io
+          username: ${{ secrets.dockerhub_username }}
+          password: ${{ secrets.dockerhub_password }}
+
+      - name: Add docker.io to IMAGE_NAMES
+        run: |
+          IMAGE_NAMES="${IMAGE_NAMES} ${{ env.DOCKER_IMAGE }}:${{ env.VERSION }} ${{ env.DOCKER_IMAGE }}:latest"
+          echo "DOCKER_IMAGE_NAMES=${IMAGE_NAMES}" >> $GITHUB_ENV
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          build-args: VERSION=${{ env.VERSION }}
+          push: true
+          tags: ${{ env.GHCR_IMAGE_NAMES }} ${{ env.DOCKER_IMAGE_NAMES }}

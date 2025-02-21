@@ -1,0 +1,131 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1616352402799,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "linux",
+        "namespace": "ospf-single",
+        "hostname": "edge01",
+        "address": "10.255.2.109",
+        "version": "16.04",
+        "data": "",
+        "cmd_timestamp": 1616352402799
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403217,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "exit02",
+        "address": "10.255.2.41",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403217
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403217,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf01",
+        "address": "10.255.2.23",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403217
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403217,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "spine02",
+        "address": "10.255.2.60",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403217
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403219,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "internet",
+        "address": "10.255.2.239",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403219
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403231,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "exit01",
+        "address": "10.255.2.88",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403231
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403232,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf03",
+        "address": "10.255.2.254",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403232
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403233,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "spine01",
+        "address": "10.255.2.217",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403233
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403311,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf02",
+        "address": "10.255.2.203",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403311
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1616352403440,
+        "cmd": "sudo vtysh -c \"show evpn vni detail json\"",
+        "devtype": "cumulus",
+        "namespace": "ospf-single",
+        "hostname": "leaf04",
+        "address": "10.255.2.10",
+        "version": "4.3.0",
+        "data": "",
+        "cmd_timestamp": 1616352403440
+    }
+]

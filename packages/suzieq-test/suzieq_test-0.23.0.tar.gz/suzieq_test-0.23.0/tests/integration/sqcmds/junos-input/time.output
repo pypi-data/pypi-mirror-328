@@ -1,0 +1,66 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1623025795511,
+        "cmd": "timedatectl",
+        "devtype": "linux",
+        "namespace": "junos",
+        "hostname": "server101",
+        "address": "10.255.5.72",
+        "version": "18.04",
+        "data": "                      Local time: Mon 2021-06-07 00:29:55 UTC\n                  Universal time: Mon 2021-06-07 00:29:55 UTC\n                        RTC time: Mon 2021-06-07 00:29:56\n                       Time zone: UTC (UTC, +0000)\n       System clock synchronized: yes\nsystemd-timesyncd.service active: yes\n                 RTC in local TZ: no\n",
+        "cmd_timestamp": 1623025795511
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1623025795706,
+        "cmd": "timedatectl",
+        "devtype": "linux",
+        "namespace": "junos",
+        "hostname": "server201",
+        "address": "10.255.5.49",
+        "version": "18.04",
+        "data": "                      Local time: Mon 2021-06-07 00:29:55 UTC\n                  Universal time: Mon 2021-06-07 00:29:55 UTC\n                        RTC time: Mon 2021-06-07 00:29:56\n                       Time zone: UTC (UTC, +0000)\n       System clock synchronized: yes\nsystemd-timesyncd.service active: yes\n                 RTC in local TZ: no\n",
+        "cmd_timestamp": 1623025795706
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1623025795706,
+        "cmd": "timedatectl",
+        "devtype": "linux",
+        "namespace": "junos",
+        "hostname": "server202",
+        "address": "10.255.5.71",
+        "version": "18.04",
+        "data": "                      Local time: Mon 2021-06-07 00:29:55 UTC\n                  Universal time: Mon 2021-06-07 00:29:55 UTC\n                        RTC time: Mon 2021-06-07 00:29:56\n                       Time zone: UTC (UTC, +0000)\n       System clock synchronized: yes\nsystemd-timesyncd.service active: yes\n                 RTC in local TZ: no\n",
+        "cmd_timestamp": 1623025795706
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1623025795706,
+        "cmd": "timedatectl",
+        "devtype": "linux",
+        "namespace": "junos",
+        "hostname": "firewall01",
+        "address": "10.255.5.40",
+        "version": "18.04",
+        "data": "                      Local time: Mon 2021-06-07 00:29:55 UTC\n                  Universal time: Mon 2021-06-07 00:29:55 UTC\n                        RTC time: Mon 2021-06-07 00:29:56\n                       Time zone: UTC (UTC, +0000)\n       System clock synchronized: yes\nsystemd-timesyncd.service active: yes\n                 RTC in local TZ: no\n",
+        "cmd_timestamp": 1623025795706
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1623025795706,
+        "cmd": "timedatectl",
+        "devtype": "linux",
+        "namespace": "junos",
+        "hostname": "server102",
+        "address": "10.255.5.169",
+        "version": "18.04",
+        "data": "                      Local time: Mon 2021-06-07 00:29:55 UTC\n                  Universal time: Mon 2021-06-07 00:29:55 UTC\n                        RTC time: Mon 2021-06-07 00:29:56\n                       Time zone: UTC (UTC, +0000)\n       System clock synchronized: yes\nsystemd-timesyncd.service active: yes\n                 RTC in local TZ: no\n",
+        "cmd_timestamp": 1623025795706
+    }
+]

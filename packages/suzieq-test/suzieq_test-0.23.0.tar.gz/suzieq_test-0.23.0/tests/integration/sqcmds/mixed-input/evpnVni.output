@@ -1,0 +1,101 @@
+[
+    {
+        "status": 0,
+        "timestamp": 1627395434642,
+        "cmd": "show interfaces Vxlan $| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf6-eos",
+        "address": "nebula.packetflow.co.uk:9008",
+        "version": 0,
+        "data": "% Interface does not exist\n",
+        "cmd_timestamp": 1627395434642
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395434753,
+        "cmd": "show interfaces Vxlan $| json",
+        "devtype": "eos",
+        "namespace": "mixed",
+        "hostname": "leaf5-eos",
+        "address": "nebula.packetflow.co.uk:9007",
+        "version": 0,
+        "data": "% Interface does not exist\n",
+        "cmd_timestamp": 1627395434753
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395434831,
+        "cmd": "show evpn instance extensive | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"evpn-instance-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-routing\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395434831
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395435789,
+        "cmd": "show evpn l3-context extensive | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"evpn-l3-context-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-routing\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395435789
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395436603,
+        "cmd": "show ethernet-switching vxlan-tunnel-end-point remote | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf3-qfx",
+        "address": "nebula.packetflow.co.uk:9005",
+        "version": 0,
+        "data": "{\n    \"vxlan-source-vtep-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-l2al\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395436603
+    }
+][
+    {
+        "status": 0,
+        "timestamp": 1627395435153,
+        "cmd": "show evpn instance extensive | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"evpn-instance-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-routing\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395435153
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395436129,
+        "cmd": "show evpn l3-context extensive | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"evpn-l3-context-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-routing\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395436129
+    },
+    {
+        "status": 0,
+        "timestamp": 1627395437299,
+        "cmd": "show ethernet-switching vxlan-tunnel-end-point remote | display json | no-more",
+        "devtype": "junos-qfx",
+        "namespace": "mixed",
+        "hostname": "leaf4-qfx",
+        "address": "nebula.packetflow.co.uk:9006",
+        "version": 0,
+        "data": "{\n    \"vxlan-source-vtep-information\" : [\n    {\n        \"attributes\" : {\"xmlns\" : \"http://xml.juniper.net/junos/18.1R3/junos-l2al\"}, \n    }\n    ]\n}\n",
+        "cmd_timestamp": 1627395437299
+    }
+]
