@@ -1,0 +1,6 @@
+[console_scripts]
+get-case-data=get_case_data.main:main
+
+[poetry.build]
+pyarmor=build:obfuscate
+
