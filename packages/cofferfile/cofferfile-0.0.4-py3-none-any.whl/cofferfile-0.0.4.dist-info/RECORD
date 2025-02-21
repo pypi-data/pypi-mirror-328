@@ -1,0 +1,9 @@
+cofferfile/__init__.py,sha256=kQowR8_WWPGpCWzFnsCbTJvCgN7pFmjvkn7Og4FmAko,27465
+cofferfile/aes.py,sha256=DX0o8y-2pMzXbTDWo5zppLgtiVRj3laRNnM98HwVnfQ,3986
+cofferfile/decorator.py,sha256=dQ6_kE3THEFeD2gN_tZxIMdA0uVXksQeDeA4d4rw4BA,1758
+cofferfile/zstd.py,sha256=QBnyvKzsiRat75u-f4ZlAFodPloNELoHjh4j5XtK3yI,1333
+cofferfile-0.0.4.dist-info/METADATA,sha256=nZXxKH7YRLEfdp9zTyig4iwzs9gYg8Z-kwVqmBOA-dg,3456
+cofferfile-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cofferfile-0.0.4.dist-info/entry_points.txt,sha256=M4araaMRUTASFyfvtEDNJOkSg74AnxBBak2iNPmbNPg,53
+cofferfile-0.0.4.dist-info/licenses/LICENSE,sha256=6_0WB4pAdQuiNhzKWWk7ZAkmhTHRBERgWaNPa-YnnxE,1074
+cofferfile-0.0.4.dist-info/RECORD,,
