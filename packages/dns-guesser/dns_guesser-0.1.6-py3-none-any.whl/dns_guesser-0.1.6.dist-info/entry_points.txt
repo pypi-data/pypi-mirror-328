@@ -1,0 +1,2 @@
+[console_scripts]
+dns-guesser = app.src.main:main
