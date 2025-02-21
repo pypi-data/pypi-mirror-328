@@ -1,0 +1,92 @@
+Metadata-Version: 2.2
+Name: astro-limepy
+Version: 1.2.1
+Summary: Code to solve lowered isothermal model
+Home-page: https://github.com/mgieles/limepy
+Author: Mark Gieles, Alice Zocchi
+Author-email: Mark Gieles <m.gieles@surrey.ac.uk>, Alice Zocchi <a.zocchi@surrey.ac.uk>
+License: MIT License
+        
+        Copyright (c) 2019 Mark Gieles
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: documentation, https://limepy.readthedocs.org
+Project-URL: repository, https://github.com/mgieles/limepy
+Keywords: limepy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: home-page
+
+LIMEPY 
+========
+
+Lowered Isothermal Model Explorer in PYthon
+-------------------------------------------
+
+.. .. image:: https://badge.fury.io/py/limepy.png
+..     :target: http://badge.fury.io/py/limepy
+..
+.. .. image:: https://travis-ci.org/mgieles/limepy.png?branch=master
+..         :target: https://travis-ci.org/mgieles/limepy
+..
+.. .. image:: https://pypip.in/d/limepy/badge.png
+..         :target: https://pypi.python.org/pypi/limepy
+
+
+Python environment for solving distribution function (DF) based
+lowered isothermal models as described in Gieles & Zocchi 2015, MNRAS,
+454, 576 (http://arxiv.org/abs/1508.02120)
+
+
+Notebooks with example can be found in <https://github.com/mgieles/limepy/tree/master/notebooks>
+
+Also check out LIMEPY within the browser with mybinder
+
+   .. image:: http://mybinder.org/badge.svg 
+        :target: http://mybinder.org/repo/mgieles/limepy
+
+
+* Free software: BSD license
+* Documentation: https://limepy.readthedocs.org. 
+
+.. image:: https://readthedocs.org/projects/limepy/badge/?version=latest
+
+:target: https://limepy.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
+
+Features
+--------
+
+* Solves Poisson's equation used on input parameters
+* Fast solutions for isotropic/anisotropic, single/multi-mass models
+* Normalised DF values
+* Density and velocity moments
+* Projected properties 
+* Generate discrete samples
