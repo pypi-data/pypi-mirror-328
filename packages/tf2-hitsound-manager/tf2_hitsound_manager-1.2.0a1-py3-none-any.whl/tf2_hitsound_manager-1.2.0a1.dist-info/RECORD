@@ -1,0 +1,12 @@
+tf2_hitsound_manager/__init__.py,sha256=MigXIT7A1M9YZuH2MyjKReSziFwzbZX2boVYsLosR6s,22
+tf2_hitsound_manager/main.py,sha256=uRKlppk1XJcXTpJsIJzF5Ylf0z26KnDyGO94KTIa84w,29665
+tf2_hitsound_manager/assets/fonts/tf2build.ttf,sha256=bTsko1F6fH_uSxw1c5X9uL_41Xuw5LNA745eb9eL740,57168
+tf2_hitsound_manager/assets/styles/style.qss,sha256=4QRx1lw5NQRMc9_saOQAQMy01woNgjrDi47e5N5MXso,295
+tf2_hitsound_manager/data/custom_sounds.txt,sha256=C64J86DrI8x7ilHP1BQI1i4yq6sT9ezF_4zvE1yWo7I,76972
+tf2_hitsound_manager/data/related_sounds.csv,sha256=puEq_i79w9VFhgMZxQ2tIMRuJ0-60zeVWXrKXbnSeuM,460
+tf2_hitsound_manager-1.2.0a1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+tf2_hitsound_manager-1.2.0a1.dist-info/METADATA,sha256=RZDkWGzosAQuQW6vbpcBQTlzPQkQyDoR6vkE3VjuIU4,43834
+tf2_hitsound_manager-1.2.0a1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tf2_hitsound_manager-1.2.0a1.dist-info/entry_points.txt,sha256=ezl9dXSZwE6G_Tzv2qz0YVDq4zRYO73oCUKWj3Fo_W8,67
+tf2_hitsound_manager-1.2.0a1.dist-info/top_level.txt,sha256=6afOPQspZAK4fYnki9NAB7f_SB_5EneRJY9O3KFa9E0,21
+tf2_hitsound_manager-1.2.0a1.dist-info/RECORD,,

@@ -1,0 +1,32 @@
+QPushButton
+{
+color: white;
+}
+
+QWidget
+{
+background-color: cadetblue;
+}
+
+QLabel
+{
+color: white;
+}
+
+QListWidget
+{
+color: white;
+border: 1px solid darkcyan;
+}
+
+QListWidget::item
+{
+padding: 5px;
+}
+
+QLineEdit
+{
+background-color: darkcyan;
+border: none;
+color: white;
+}
