@@ -1,0 +1,2 @@
+guick
+guick_version
