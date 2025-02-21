@@ -1,0 +1,92 @@
+[project]
+name = "chatushka"
+version = "0.11rc20"
+description = "Bot that can make your chat explode!"
+readme = "README.md"
+authors = [
+    { name = "Aleksandr Shpak", email = "shpaker@gmail.com" },
+]
+requires-python = "<4.0,>=3.9"
+dependencies = [
+    "aiocron<2.0,>=1.8",
+    "httpx",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+all = [
+    "sentry-sdk>=2.0,<3.0",
+]
+
+[project.urls]
+repository = "https://github.com/shpaker/chatushka"
+
+[dependency-groups]
+dev = [
+    "mypy<2.0,>=1.8",
+    "pytest<9.0,>=8.0",
+    "pytest-asyncio<1.0.11rc20,>=0.23.5.post1",
+    "respx<1.0.0,>=0.20.2",
+    "ruff<1.0,>=0.3",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+exclude = [
+    ".venv",
+]
+
+[tool.ruff.lint]
+ignore = [
+    "PLR0913",
+]
+select = [
+    "F",
+    "C90",
+    "I",
+    "UP",
+    "YTT",
+    "B",
+    "C4",
+    "T10",
+    "EXE",
+    "G",
+    "INP",
+    "T20",
+    "RSE",
+    "RET",
+    "SLF",
+    "SIM",
+    "TID",
+    "PTH",
+    "ERA",
+    "PL",
+    "RUF",
+]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 20
+
+[tool.mypy]
+python_version = "3.10"
+plugins = [
+    "pydantic.mypy",
+]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
