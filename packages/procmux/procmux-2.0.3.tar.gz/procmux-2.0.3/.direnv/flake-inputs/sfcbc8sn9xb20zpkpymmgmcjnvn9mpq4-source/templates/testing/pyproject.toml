@@ -1,0 +1,23 @@
+[project]
+name = "testing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.scripts]
+hello = "testing:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+  "ruff>=0.7.2",
+  {include-group = "test"}
+]
+test = [
+  "pytest-cov>=6.0.0",
+  "pytest>=8.3.3",
+]

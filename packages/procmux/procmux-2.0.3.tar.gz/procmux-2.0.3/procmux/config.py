@@ -1,0 +1,214 @@
+import os
+from dataclasses import dataclass, field, fields
+from typing import Any, Dict, List, Literal, Optional, OrderedDict, Union
+
+import yaml
+from prompt_toolkit.layout import D, Dimension
+from prompt_toolkit.output import ColorDepth
+
+from procmux.util.interpolation import Interpolation, parse_interpolations
+
+
+class MisconfigurationError(Exception):
+    pass
+
+
+@dataclass
+class ProcessConfig:
+    """
+    shell:(str) command to run (exactly one of shell or cmd must be provided).
+    cmd: (list) Array of command and args to run (exactly one of shell or cmd must be provided).
+    cwd:(str) Set working directory for the process.
+    env: (Dict[str,str]) - Set env variables. Object keys are variable names.
+    add_path: string|array - Add entries to the PATH environment variable.
+    autostart: bool - Start process when procmux starts.
+    stop: "SIGINT"|"SIGTERM"|"SIGKILL" - default will SIGKILL
+    """
+
+    autostart: bool = False
+    shell: Optional[str] = None
+    cmd: Optional[List[str]] = None
+    cwd: str = field(default_factory=lambda: os.getcwd())
+    stop: str = "SIGKILL"
+    env: Optional[Dict[str, Optional[str]]] = None
+    add_path: Optional[Union[str, List[str]]] = None
+    description: Optional[str] = None
+    docs: Optional[str] = None
+    categories: Optional[List[str]] = None
+    meta_tags: Optional[List[str]] = None
+
+    def __post_init__(self):
+        self.validate()
+
+    def validate(self):
+        if not self.cmd and not self.shell:
+            raise MisconfigurationError(
+                "shell or cmd is required for every proc definition"
+            )
+
+    @property
+    def interpolations(self) -> List[Interpolation]:
+        if self.cmd:
+            return parse_interpolations(*self.cmd)
+        return parse_interpolations(self.shell)
+
+
+@dataclass
+class LayoutConfig:
+    hide_help: bool = False
+    hide_process_description_panel: bool = False
+    hide_sidebar_when_not_focused: bool = False
+    processes_list_width: int = 31
+    sort_process_list_alpha: bool = True
+    category_search_prefix: str = "cat:"
+    field_replacement_prompt: str = "__FIELD_NAME__ ⮕  "
+
+
+@dataclass
+class StyleConfig:
+    selected_process_color: str = "ansiblack"
+    selected_process_bg_color: str = "ansimagenta"
+    unselected_process_color: str = "ansiblue"
+    status_running_color: str = "ansigreen"
+    status_stopped_color: str = "ansired"
+    placeholder_terminal_bg_color: str = "#1a1b26"
+    pointer_char: str = "▶"
+    show_borders: bool = True
+    show_scrollbar: bool = True
+    style_classes: Optional[Dict[str, str]] = None
+    color_level: Optional[
+        Union[
+            Literal["monochrome"],
+            Literal["ansicolors"],
+            Literal["256colors"],
+            Literal["truecolors"],
+        ]
+    ] = None
+
+    @property
+    def color_depth(
+        self,
+    ) -> Union[
+        Literal["DEPTH_1_BIT"],
+        Literal["DEPTH_4_BIT"],
+        Literal["DEPTH_8_BIT"],
+        Literal["DEPTH_24_BIT"],
+    ]:
+        if self.color_level == "monochrome":
+            return ColorDepth.MONOCHROME
+        if self.color_level == "ansicolors":
+            return ColorDepth.ANSI_COLORS_ONLY
+        if self.color_level == "256colors":
+            return ColorDepth.DEFAULT
+        return ColorDepth.TRUE_COLOR
+
+    @property
+    def width_100(self) -> Dimension:
+        return D(preferred=100 * 100)
+
+    @property
+    def height_100(self) -> Dimension:
+        return D(preferred=100 * 100)
+
+
+@dataclass
+class KeybindingConfig:
+    quit: List[str] = field(default_factory=lambda: ["q"])
+    filter: List[str] = field(default_factory=lambda: ["/"])
+    submit_filter: List[str] = field(default_factory=lambda: ["enter"])
+    next_input: List[str] = field(default_factory=lambda: ["tab", "down"])
+    previous_input: List[str] = field(default_factory=lambda: ["s-tab", "up"])
+    submit_dialog: List[str] = field(default_factory=lambda: ["enter"])
+    cancel_dialog: List[str] = field(default_factory=lambda: ["escape"])
+    start: List[str] = field(default_factory=lambda: ["s"])
+    stop: List[str] = field(default_factory=lambda: ["x"])
+    up: List[str] = field(default_factory=lambda: ["up", "k"])
+    down: List[str] = field(default_factory=lambda: ["down", "j"])
+    switch_focus: List[str] = field(default_factory=lambda: ["c-w"])
+    zoom: List[str] = field(default_factory=lambda: ["c-z"])
+    docs: List[str] = field(default_factory=lambda: ["?"])
+    toggle_scroll: List[str] = field(default_factory=lambda: ["c-s"])
+
+    def __post_init__(self):
+        for keybinding_field in fields(KeybindingConfig):
+            keybinding = getattr(self, keybinding_field.name)
+            if isinstance(keybinding, str):
+                keybinding = [keybinding]
+                setattr(self, keybinding_field.name, keybinding)
+
+
+@dataclass
+class SignalServerConfig:
+    port: int = 9792
+    host: str = "localhost"
+    enable: bool = False
+
+
+@dataclass
+class ProcMuxConfig:
+    procs: Dict[str, ProcessConfig] = field(default_factory=dict)
+    signal_server: SignalServerConfig = field(default_factory=SignalServerConfig)
+    style: StyleConfig = field(default_factory=StyleConfig)
+    keybinding: KeybindingConfig = field(default_factory=KeybindingConfig)
+    shell_cmd: List[str] = field(
+        default_factory=lambda: [os.environ.get("SHELL", "/bin/sh"), "-c"]
+    )
+    layout: LayoutConfig = field(default_factory=LayoutConfig)
+    log_file: Optional[str] = None
+    enable_mouse: bool = True
+
+    def __post_init__(self):
+        def is_dict_like(obj):
+            return isinstance(obj, (dict, OrderedDict))
+
+        if is_dict_like(self.procs):
+            process_config_data = {}
+            for proc_key, proc_value in self.procs.items():
+                if isinstance(proc_value, dict):
+                    process_config_data[proc_key] = ProcessConfig(**proc_value)
+                else:
+                    process_config_data[proc_key] = proc_value
+            self.procs = process_config_data
+        if is_dict_like(self.style):
+            self.style = StyleConfig(**self.style)
+        if is_dict_like(self.keybinding):
+            self.keybinding = KeybindingConfig(**self.keybinding)
+        if is_dict_like(self.layout):
+            self.layout = LayoutConfig(**self.layout)
+        if is_dict_like(self.signal_server):
+            self.signal_server = SignalServerConfig(**self.signal_server)
+
+
+def load_yaml_files(*filenames: str) -> Dict[str, Any]:
+    def merge_dicts(dict1: Dict[str, Any], dict2: Dict[str, Any]) -> Dict[str, Any]:
+        """Recursively merge two dictionaries."""
+        for key, value in dict2.items():
+            if isinstance(value, dict):
+                dict1[key] = merge_dicts(dict1.get(key, {}), value)
+            else:
+                dict1[key] = value
+        return dict1
+
+    final_config: Dict[str, Any] = {}
+    for filename in filenames:
+        try:
+            with open(filename, "r") as file:
+                config = yaml.safe_load(file)
+                if config:
+                    final_config = merge_dicts(final_config, config)
+        except FileNotFoundError:
+            print(f"Warning: Config file {filename} not found.")
+
+    return final_config
+
+
+def parse_config(
+    config_file: str, override_config_file: Optional[str] = None
+) -> ProcMuxConfig:
+    config_files = [config_file]
+    if override_config_file:
+        config_files.append(override_config_file)
+
+    config_dict = load_yaml_files(*config_files)
+
+    return ProcMuxConfig(**config_dict)
