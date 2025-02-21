@@ -1,0 +1,6 @@
+include requirements.txt
+include environment.yml
+include README.md
+recursive-include raipred/Data *
+recursive-include raipred/Model *
+recursive-include raipred/motifs *

@@ -1,0 +1,10 @@
+name: raipred
+channels:
+  - defaults
+  - conda-forge
+dependecies:
+  - python>=3.6
+  - pip
+  - pip: 
+      - xgboost == 1.3.3
+      - scikit-learn == 1.0.1
