@@ -1,0 +1,2 @@
+[console_scripts]
+vidore-benchmark = vidore_benchmark.cli.main:app
