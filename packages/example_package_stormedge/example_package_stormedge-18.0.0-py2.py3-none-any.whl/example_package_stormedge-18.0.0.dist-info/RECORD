@@ -1,0 +1,10 @@
+example_package_stormedge/__init__.py,sha256=GWNB-ZcDFpdF1Dq5dhAC6L8GGVgpMJhEQBPxNcu4Ii0,156
+example_package_stormedge/example.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+example_package_stormedge/t1.py,sha256=gazcB8vFYGGyu4NGEM3jFE_ACM3nw5xZ_Hvsxj2Mx2E,32
+example_package_stormedge/t2.py,sha256=gazcB8vFYGGyu4NGEM3jFE_ACM3nw5xZ_Hvsxj2Mx2E,32
+example_package_stormedge/dasdfads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_stormedge/dasdfads/pp.py,sha256=sB--U6nqlJYHbSImoY5nKeKbaJ6T-JtZIkr0AnzOIMk,31
+example_package_stormedge-18.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_stormedge-18.0.0.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+example_package_stormedge-18.0.0.dist-info/METADATA,sha256=ylqjb1EnygY3zZENYr12cWqdKT373uFJaYsQ2K5hoNM,242
+example_package_stormedge-18.0.0.dist-info/RECORD,,
