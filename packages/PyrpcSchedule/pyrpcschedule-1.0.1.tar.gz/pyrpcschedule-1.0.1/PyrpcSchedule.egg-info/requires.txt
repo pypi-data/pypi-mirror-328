@@ -1,0 +1,11 @@
+kombu~=5.2.2
+pytz~=2024.1
+pika~=1.3.2
+psutil~=5.9.0
+eventlet~=0.39.0
+nameko~=2.14.1
+pymongo~=4.8.0
+kombu~=5.2.2
+amqp~=5.0.6
+psutil~=5.9.0
+pycryptodomex~=3.21.0
