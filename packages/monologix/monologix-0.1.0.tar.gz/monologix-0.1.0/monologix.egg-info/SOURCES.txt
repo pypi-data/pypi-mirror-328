@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+monologix.egg-info/PKG-INFO
+monologix.egg-info/SOURCES.txt
+monologix.egg-info/dependency_links.txt
+monologix.egg-info/top_level.txt
+src/monologix/__init__.py
+src/monologix/log.py
+tests/test_log.py
+tests/test_result.py
