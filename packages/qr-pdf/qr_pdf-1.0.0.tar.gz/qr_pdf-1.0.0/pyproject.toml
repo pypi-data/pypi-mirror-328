@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qr-pdf"  
+version = "1.0.0"  # Initial version
+description = "A Python package to generate QR codes and embed them into a PDF."
+readme = "README.md"
+authors = [
+  { name = "Manish Kumar", email = "manishkumarpandit12@gmail.com" }
+]
+keywords = ["qr-code","qr-code-pdf","pdf", "pdf-generator", "qrcode", "reportlab", "python"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+requires-python = ">=3.6"
+# Use an array format for dependencies
+dependencies = [
+  "qrcode>=7.3.1",
+  "reportlab>=3.6.12"
+]
+
+[project.urls]
+Homepage = "https://github.com/manishkumar-hub/qr-pdf"
+Issues = "https://github.com/manishkumar-hub/qr-pdf"
