@@ -1,0 +1,2 @@
+[console_scripts]
+orcidxtract = OrcidXtract.main:main
