@@ -1,0 +1,224 @@
+[build-system]
+requires = ["setuptools >= 66", "setuptools-scm >= 7.1"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "mopidy"
+description = "Mopidy is an extensible music server written in Python"
+readme = "README.rst"
+requires-python = ">= 3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Stein Magnus Jodal", email = "stein.magnus@jodal.no" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: No Input/Output (Daemon)",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Players",
+]
+dynamic = ["version"]
+dependencies = [
+    "pydantic >= 2.9",
+    "pygobject >= 3.42",
+    "pykka >= 4.1",
+    "requests >= 2.28",
+    "setuptools >= 66",
+    "tornado >= 6.2",
+]
+
+[project.optional-dependencies]
+docs = [
+    "pygraphviz >= 0.20",
+    # Remove upper bound on sphinx once
+    # https://github.com/tox-dev/sphinx-autodoc-typehints/issues/523 is fixed.
+    "sphinx >= 5.3, <8.2",
+    "sphinx-autodoc-typehints >= 1.12",
+    "sphinx-rtd-theme >= 1.2",
+]
+lint = ["ruff == 0.8.2"]
+test = [
+    "pytest >= 7.2",
+    "pytest-cov >= 4.0",
+    "pytest-mock >= 3.8",
+    "responses >= 0.18",
+]
+typing = [
+    "pygobject-stubs >= 2.12.0",
+    "pyright == 1.1.380",
+    "types-requests >= 2.28",
+    "types-setuptools >= 66",
+]
+dev = ["mopidy[docs,lint,test,typing]", "tox >= 4.21"]
+
+[project.urls]
+Homepage = "https://mopidy.com/"
+Documentation = "https://docs.mopidy.com/"
+"Discourse forum" = "https://discourse.mopidy.com/"
+"Zulip chat" = "https://mopidy.zulipchat.com/"
+Source = "https://github.com/mopidy/mopidy"
+Issues = "https://github.com/mopidy/mopidy/issues"
+
+[project.scripts]
+mopidy = "mopidy.__main__:main"
+
+[project.entry-points."mopidy.ext"]
+file = "mopidy.file:Extension"
+http = "mopidy.http:Extension"
+m3u = "mopidy.m3u:Extension"
+softwaremixer = "mopidy.softwaremixer:Extension"
+stream = "mopidy.stream:Extension"
+
+
+[tool.pyright]
+pythonVersion = "3.11"
+# Use venv from parent directory, to share it with any extensions:
+venvPath = "../"
+venv = ".venv"
+typeCheckingMode = "standard"
+# Not all dependencies have type hints:
+reportMissingTypeStubs = false
+# Already covered by flake8-self:
+reportPrivateImportUsage = false
+
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "error::DeprecationWarning:mopidy[.*]",
+    "ignore::PendingDeprecationWarning:mopidy[.*]",
+    "ignore::DeprecationWarning:mopidy[.*]",
+]
+
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "A002",    # builtin-argument-shadowing  # TODO
+    "A003",    # builtin-attribute-shadowing
+    "ANN",     # flake8-annotations  # TODO
+    "ANN401",  # any-type
+    "D100",    # undocumented-public-module  # TODO
+    "D101",    # undocumented-public-class  # TODO
+    "D102",    # undocumented-public-method  # TODO
+    "D103",    # undocumented-public-function  # TODO
+    "D104",    # undocumented-public-package  # TODO
+    "D105",    # undocumented-magic-method
+    "D107",    # undocumented-public-init  # TODO
+    "D203",    # one-blank-line-before-class
+    "D205",    # blank-line-after-summary  # TODO
+    "D213",    # multi-line-summary-second-line
+    "D401",    # non-imperative-mood  # TODO
+    "FBT001",  # boolean-positional-arg-in-function-definition  # TODO
+    "FBT002",  # boolean-default-value-in-function-definition  # TODO
+    "FBT003",  # boolean-positional-value-in-function-call  # TODO
+    "FIX002",  # line-contains-todo
+    "FIX003",  # line-contains-fixme
+    "FIX004",  # line-contains-hack
+    "G004",    # logging-f-string
+    "PLR2004", # magic-value-comparison
+    "PLW2901", # redefined-loop-name
+    "RET504",  # unnecessary-assign
+    "S101",    # assert  # TODO
+    "S314",    # suspicious-xml-element-tree-usage -- ElementTree is safe given expat >= 2.6.1
+    "SLF001",  # private-member-access  # TODO
+    "TD002",   # missing-todo-author
+    "TD003",   # missing-todo-link
+    "TC003",   # typing-only-standard-library-import
+    "TRY003",  # raise-vanilla-args
+    "TRY400",  # error-instead-of-exception
+    #
+    # Conflicting with `ruff format`
+    "COM812", # missing-trailing-comma
+    "ISC001", # single-line-implicit-string-concatenation
+]
+
+[tool.ruff.lint.per-file-ignores]
+"docs/*" = [
+    "D",      # pydocstyle
+    "INP001", # flake8-no-pep420
+]
+"src/mopidy/internal/*" = [
+    "D", # pydocstyle
+]
+"tests/*" = [
+    "ANN",     # flake8-annotations
+    "ARG",     # flake8-unused-arguments
+    "D",       # pydocstyle
+    "FBT",     # flake8-boolean-trap
+    "PLR0913", # too-many-arguments
+    "PT007",   # pytest-parametrize-values-wrong-type  # TODO
+    "PT009",   # pytest-unittest-assertion  # TODO
+    "PT011",   # pytest-raises-too-broad  # TODO
+    "S101",    # assert
+    "S108",    # hardcoded-temp-file
+    "SLF001",  # private-member-access
+    "TRY002",  # raise-vanilla-class
+]
+
+
+[tool.setuptools.package-data]
+"*" = ["*.conf"]
+"mopidy.http.data" = ["*"]
+
+
+[tool.setuptools_scm]
+
+
+[tool.tox]
+requires = ["tox >= 4.21"]
+env_list = [
+    "3.11",
+    "3.12",
+    "3.13",
+    "docs",
+    "pyright",
+    "ruff-lint",
+    "ruff-format",
+]
+
+[tool.tox.env_run_base]
+deps = [".[test]"]
+commands = [
+    [
+        "pytest",
+        "--basetemp={envtmpdir}",
+        "--cov=mopidy",
+        "--cov-report=term-missing",
+        "{posargs}",
+    ],
+]
+
+[tool.tox.env.docs]
+deps = [".[docs]"]
+changedir = "docs"
+commands = [
+    [
+        "sphinx-build",
+        "--builder",
+        "html",
+        "--doctree-dir",
+        "{envtmpdir}/doctrees",
+        ".",
+        "{envtmpdir}/html",
+    ],
+]
+
+[tool.tox.env.pyright]
+deps = [".[typing]"]
+commands = [["pyright", "{posargs:src}"]]
+
+[tool.tox.env.ruff-lint]
+deps = [".[lint]"]
+commands = [["ruff", "check", "{posargs:.}"]]
+
+[tool.tox.env.ruff-format]
+deps = [".[lint]"]
+commands = [["ruff", "format", "--check", "{posargs:.}"]]
