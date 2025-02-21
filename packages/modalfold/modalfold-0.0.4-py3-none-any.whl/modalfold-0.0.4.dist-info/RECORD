@@ -1,0 +1,11 @@
+modalfold/__init__.py,sha256=uN4uYUwU7KhHfQOBT_lgQCIQmkAGk8mAJDBPNz0c2Q0,43
+modalfold/base.py,sha256=e9iJ85NVLzi8WeNLAMJdtxz5ecbit7EQeaIocil-Kcg,4049
+modalfold/esmfold.py,sha256=QEv0mZYpQ0ywW9asiTslKk2DSr8Eb1sQeSGaQgJW3Ns,6984
+modalfold/utils.py,sha256=BNt4n2it73tSZeftEYOcfYf4N5WfJAognDvZ-BserIQ,2991
+modalfold/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modalfold/images/esmfold.py,sha256=xYmvJ4G6Lgb7jhKa6gRB3smATd-xxlAjrfR3T8czz8U,567
+modalfold/images/volumes.py,sha256=Fit-zkRfsmbRqxvMbyssH3s0lD6Mddwr4uOdfdOrLdE,100
+modalfold-0.0.4.dist-info/METADATA,sha256=HATu3k8_pFtO9ubDGfEtx-mHE01aLivQTEISU8uC2Jk,3452
+modalfold-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+modalfold-0.0.4.dist-info/licenses/LICENSE,sha256=LvdGvCC0wn8SoRc4svIfjoAeg10JoMCV3A_jnS2XKbY,1068
+modalfold-0.0.4.dist-info/RECORD,,
