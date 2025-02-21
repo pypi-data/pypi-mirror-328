@@ -1,0 +1,20 @@
+{% if monitors_failed %}
+{{ "💀" }} "`{{ data.spider.name }}`" spider finished with errors! _(errors={{ result.monitors_failed_results|length }})_ {{ "\n" }}
+{% else %}
+{{ "🎉"}} "`{{ data.spider.name }}`" spider finished! {{ "\n" }}
+{% endif %}
+{%- if include_ok_messages and monitors_passed -%}
+```
+{% for p_result in result.monitors_passed_results %}
+{{ "✔️" }}  {{ p_result.monitor.name }}
+{% endfor %}
+```
+{% endif %}
+{%- if include_error_messages and monitors_failed -%}
+```
+{% for f_result in result.monitors_failed_results %}
+{{ "❌" }}  {{ f_result.monitor.name }}
+Reason:  {{ f_result.reason }}
+{% endfor %}
+```
+{% endif %}
