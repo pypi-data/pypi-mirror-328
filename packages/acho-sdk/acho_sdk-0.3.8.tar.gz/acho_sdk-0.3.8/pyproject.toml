@@ -1,0 +1,25 @@
+[project]
+name = "acho_sdk"
+version = "0.3.8"  # bump the version since you're making changes
+authors = [
+  { name="Timothy Zhang", email="timothy@acho.io" },
+]
+description = "Acho Python SDK"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "python-socketio==5.9.0",
+  "requests==2.25.1",
+  "setuptools",
+  'subprocess32; python_version < "3.2"',
+  "ipynbname",
+  "python-engineio>=3.11.2",
+  "pandas>=1.0.0",
+  "aiohttp",
+  "aiofiles"
+]
+license = { text = "MIT" }
