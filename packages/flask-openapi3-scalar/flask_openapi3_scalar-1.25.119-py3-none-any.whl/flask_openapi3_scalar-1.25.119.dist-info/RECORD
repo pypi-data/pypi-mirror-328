@@ -1,0 +1,10 @@
+flask_openapi3_scalar/__init__.py,sha256=g8mL4fFJ_WKRbUTvjzBvm1KlVg2nMxdnZpBiODnQnPE,70
+flask_openapi3_scalar/__version__.py,sha256=IXV5GR3UQ4aX4vz9NTHGS2mH_W-fmTeET6ubGf8qoGk,50
+flask_openapi3_scalar/plugins.py,sha256=Dn-ASnCxlDzuS8cfPXUeeVTFb0TNNycxEbWKa6KY3jM,1110
+flask_openapi3_scalar/templates/__init__.py,sha256=J2zG-cURxpLs4C2w_kFcW2KJpRkdF4fFh9JdYQu5wzE,877
+flask_openapi3_scalar/templates/scalar/images/scalar.svg,sha256=VDDTPwzhHFCRbA_UpmlPoXBjECo-Ic5CuL6xHtTAF8s,599
+flask_openapi3_scalar/templates/scalar/js/scalar.standalone.js,sha256=Wj-K05N8lmIFk2sv77Sn6-7KNfVrW9qe5Sbz4ivYdrA,2673580
+flask_openapi3_scalar-1.25.119.dist-info/METADATA,sha256=LW-bxTsvaCn2gcnB2hdEN0sSwzYsdv2VQUUi1Y4TLzs,986
+flask_openapi3_scalar-1.25.119.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+flask_openapi3_scalar-1.25.119.dist-info/entry_points.txt,sha256=pn6dCdyFEwYPtI7hTIVyJrOHCpafA7rniXUasKXVRNQ,81
+flask_openapi3_scalar-1.25.119.dist-info/RECORD,,
