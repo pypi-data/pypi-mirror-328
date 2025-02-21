@@ -1,0 +1,22 @@
+2025-02-12 08:19:47 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:19:47 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:19:58 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:22:22 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:22:22 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:22:23 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:23:00 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:23:00 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:23:01 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:26:48 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:26:48 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Initializing SRSWTI Summarizer on CPU
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Loading model: sshleifer/distilbart-cnn-12-6
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:26:49 [INFO] SRSWTI-Summarizer: Model loaded successfully. Size: 150MB
+2025-02-12 08:26:52 [INFO] SRSWTI-Summarizer: Cleaning up resources...
+2025-02-12 08:26:52 [INFO] SRSWTI-Summarizer: Cleaning up resources...
+2025-02-12 08:26:52 [INFO] SRSWTI-Summarizer: Cleanup completed successfully
+2025-02-12 08:26:52 [INFO] SRSWTI-Summarizer: Cleanup completed successfully
