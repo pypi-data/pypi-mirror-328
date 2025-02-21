@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: intersystems_irispython
+Version: 5.1.0
+Summary: InterSystems IRIS Python SDK Kit
+Author: InterSystems Corporation
+Author-email: support@intersystems.com
+Project-URL: Homepage, https://www.intersystems.com/
+Project-URL: License, https://www.intersystems.com/IERTU/
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
