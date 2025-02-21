@@ -1,0 +1,38 @@
+[project]
+name = "ttk-text"
+version = "0.1.1"
+description = "Themed Tkinter Text widget with modern styling support."
+authors = [
+    { name = "Jesse205", email = "jesse205@qq.com" },
+]
+maintainers = [
+    { name = "Jesse205", email = "jesse205@qq.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README_pypi.md"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Jesse205/TtkText"
+Tracker = "https://github.com/Jesse205/TtkText/issues"
+Changelog = "https://github.com/Jesse205/TtkText/releases"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+test = "pytest tests/ -v"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
