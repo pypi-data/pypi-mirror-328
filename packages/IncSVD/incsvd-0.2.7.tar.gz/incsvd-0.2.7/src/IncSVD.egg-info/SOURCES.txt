@@ -1,0 +1,13 @@
+.DS_Store
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+tutorial.ipynb
+src/IncSVD/EvolvingMatrix.py
+src/IncSVD.egg-info/PKG-INFO
+src/IncSVD.egg-info/SOURCES.txt
+src/IncSVD.egg-info/dependency_links.txt
+src/IncSVD.egg-info/requires.txt
+src/IncSVD.egg-info/top_level.txt
