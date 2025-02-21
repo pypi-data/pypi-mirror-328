@@ -1,0 +1,12 @@
+numpy
+pandas
+panel
+param
+plotly
+pyteomics
+pdfrw
+psutil
+reportlab
+kaleido
+bokeh
+h5py
