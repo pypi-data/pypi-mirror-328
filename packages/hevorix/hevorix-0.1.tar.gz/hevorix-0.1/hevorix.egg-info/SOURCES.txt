@@ -1,0 +1,5 @@
+setup.py
+hevorix.egg-info/PKG-INFO
+hevorix.egg-info/SOURCES.txt
+hevorix.egg-info/dependency_links.txt
+hevorix.egg-info/top_level.txt
