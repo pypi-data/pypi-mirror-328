@@ -1,0 +1,2 @@
+[console_scripts]
+taxadb2 = taxadb2.app:main
