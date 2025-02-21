@@ -1,0 +1,12 @@
+sphinx_rapidoc/__init__.py,sha256=BJq8-H19EOqrLxOVEoRDOjUnuQ0YGH20fixDvGxU7QM,1314
+sphinx_rapidoc/static/rapidoc.min.js,sha256=r_vRc6Zehw4Y85LMqWMRO82vtuUOiM0vaoNKZbItuU0,863099
+sphinx_rapidoc/templates/rapidoc.html,sha256=aR060lcwQbTe_Iyaca5fc_9wM_4urGU-Rplmdxdj7i4,736
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=YI59NzGXcE0PnT9SFfSZyUWUiBb0hVA51KmV-NAyfg0,166
+tests/test_rapidoc.py,sha256=_8NOUBO8kqhj-jBlatK21stAYhYxRIalj--NHoQA_us,1659
+sphinx_rapidoc-0.1.1.dist-info/LICENSE,sha256=_EXtwses1zFJnXOxpRfFdHXr46gYoe3m8GmugNeAzkM,1411
+sphinx_rapidoc-0.1.1.dist-info/METADATA,sha256=AiENVSfcHWhNakvOCs4p_-LwSnlWcrRW6jWzoe1P60s,4961
+sphinx_rapidoc-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sphinx_rapidoc-0.1.1.dist-info/entry_points.txt,sha256=izlgmUHwlXNMt0Ct17DdbmYRZh16o0ODrTHYxfwfLSQ,52
+sphinx_rapidoc-0.1.1.dist-info/top_level.txt,sha256=DJlYnWqZjtroW1S3eAL50h9uc5bgG8K7U5wojev12PA,21
+sphinx_rapidoc-0.1.1.dist-info/RECORD,,
