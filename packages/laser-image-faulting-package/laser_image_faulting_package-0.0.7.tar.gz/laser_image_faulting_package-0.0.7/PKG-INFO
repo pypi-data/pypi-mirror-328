@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: laser-image-faulting-package
+Version: 0.0.7
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pyarmor
+Provides-Extra: dev
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: pytest>=7.0.0; extra == "dev"
