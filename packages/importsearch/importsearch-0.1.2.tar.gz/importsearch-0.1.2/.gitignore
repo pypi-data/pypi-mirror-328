@@ -1,0 +1,7 @@
+/build/*
+/moduletracker.egg-info/*
+
+
+requirements.txt
+memo.txt
+/src/importsearch/test.py
