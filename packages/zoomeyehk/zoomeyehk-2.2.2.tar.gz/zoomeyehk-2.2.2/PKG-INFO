@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: zoomeyehk
+Version: 2.2.2
+Summary: Python library and command-line tool for ZoomEye.HK (https://www.zoomeye.hk/doc)
+Home-page: https://github.com/zoomeye-hk/zoomeye-python
+Author: ZoomEye.HK
+Keywords: security tool,zoomeye,zoomeyehk,command tool
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: summary
+
+ZoomEye-python-hk
+--------------
+
+This project has been deprecated. Please use the new project at: 
+[https://github.com/zoomeye-ai/ZoomEye-python](https://github.com/zoomeye-ai/ZoomEye-python)
+
