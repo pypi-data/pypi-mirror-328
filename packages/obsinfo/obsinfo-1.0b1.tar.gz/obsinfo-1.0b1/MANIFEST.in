@@ -1,0 +1,3 @@
+graft src/obsinfo/_examples
+graft src/obsinfo/_templates
+include src/obsinfo/data/schemas/*.json
