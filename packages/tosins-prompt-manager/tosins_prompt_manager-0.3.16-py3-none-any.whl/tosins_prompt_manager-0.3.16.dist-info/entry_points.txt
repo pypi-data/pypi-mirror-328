@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-manager = prompt_manager.cli:cli
