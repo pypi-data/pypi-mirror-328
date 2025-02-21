@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+lionplot/__init__.py
+lionplot/plot.py
+lionplot.egg-info/PKG-INFO
+lionplot.egg-info/SOURCES.txt
+lionplot.egg-info/dependency_links.txt
+lionplot.egg-info/requires.txt
+lionplot.egg-info/top_level.txt

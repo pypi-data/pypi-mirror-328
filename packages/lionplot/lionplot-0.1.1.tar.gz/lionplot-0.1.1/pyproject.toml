@@ -1,0 +1,33 @@
+[project]
+name = "lionplot"
+version = "0.1.1"
+authors = [
+  { name="Leonardo Alchieri", email="leonard@alchieri.eu" },
+]
+description = "Package to create categorical scatterplots with error bars"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+     "Development Status :: 2 - Pre-Alpha",
+     "License :: OSI Approved :: MIT License",
+]
+license = { text = "MIT" }
+dependencies = [
+  "numpy",
+  "matplotlib",
+]
+
+[tool.setuptools]
+packages = ["lionplot"]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+Homepage = "https://github.com/LeonardoAlchieri/Lionplot"
+Issues = "https://github.com/LeonardoAlchieri/Lionplot/issues"
