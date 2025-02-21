@@ -1,0 +1,9 @@
+crewai_arcade/__init__.py,sha256=nYAKEQBNNacNjGU6r_UY3lpkNzurGdujh2AsmdOky78,72
+crewai_arcade/_utilities.py,sha256=UNeCibAKudblf0J_JGEb8YW85hQT1UuylUFlRBkbsUo,1855
+crewai_arcade/manager.py,sha256=ZSbgK45Ln393dqZcJEac06hXa56JRQ3cuutuo_cnqYw,13806
+crewai_arcade/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crewai_arcade/structured.py,sha256=IM-S9tAIR26hzo0IzbBrq9BDvY76Opy1fHPdeZ6qYFk,1864
+crewai_arcade-0.1.1.dist-info/LICENSE,sha256=f4Q0XUZJ2MqZBO1XsqqHhuZfSs2ar1cZEJ45150zERo,1067
+crewai_arcade-0.1.1.dist-info/METADATA,sha256=MY39S7texx3xFOGfSR1YryFpF1J2EXHqsAVGSxteLN0,1955
+crewai_arcade-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+crewai_arcade-0.1.1.dist-info/RECORD,,
