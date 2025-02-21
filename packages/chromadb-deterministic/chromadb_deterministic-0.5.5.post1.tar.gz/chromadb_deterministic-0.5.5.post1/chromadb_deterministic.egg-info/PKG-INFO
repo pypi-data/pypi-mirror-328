@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: chromadb-deterministic
+Version: 0.5.5.post1
+Summary: Chroma.
+Author-email: Jeff Huber <jeff@trychroma.com>, Anton Troynikov <anton@trychroma.com>
+Project-URL: Homepage, https://github.com/chroma-core/chroma
+Project-URL: Bug Tracker, https://github.com/chroma-core/chroma/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build>=1.0.3
+Requires-Dist: pydantic>=1.9
+Requires-Dist: chroma-hnswlib==0.7.6
+Requires-Dist: fastapi>=0.95.2
+Requires-Dist: uvicorn[standard]>=0.18.3
+Requires-Dist: numpy<2.0.0,>=1.22.5
+Requires-Dist: posthog>=2.4.0
+Requires-Dist: typing_extensions>=4.5.0
+Requires-Dist: onnxruntime>=1.14.1
+Requires-Dist: opentelemetry-api>=1.2.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc>=1.2.0
+Requires-Dist: opentelemetry-instrumentation-fastapi>=0.41b0
+Requires-Dist: opentelemetry-sdk>=1.2.0
+Requires-Dist: tokenizers>=0.13.2
+Requires-Dist: pypika>=0.48.9
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: overrides>=7.3.1
+Requires-Dist: importlib-resources
+Requires-Dist: graphlib_backport>=1.0.3; python_version < "3.9"
+Requires-Dist: grpcio>=1.58.0
+Requires-Dist: bcrypt>=4.0.1
+Requires-Dist: typer>=0.9.0
+Requires-Dist: kubernetes>=28.1.0
+Requires-Dist: tenacity>=8.2.3
+Requires-Dist: PyYAML>=6.0.0
+Requires-Dist: mmh3>=4.0.1
+Requires-Dist: orjson>=3.9.12
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: rich>=10.11.0
+
+# Deterministic Variant of ChromaDB
+
+This is based on ChromaDB 0.5.5, which allows building deterministic index.
