@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: example_package_stormedge
+Version: 18.0.1
+Summary: This is the example_package_stormedge module.
+Author-email: liudi <test@qq.com>
+Description-Content-Type: text/markdown
+Project-URL: Home, https://www.baidu.com
+
+
