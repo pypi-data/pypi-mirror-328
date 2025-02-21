@@ -1,0 +1,13 @@
+jupyterlite_embedded_kernel/__init__.py,sha256=dpR1ggEEDWoYKIT_Hc6lzIAoQ1M1VeGNVWQfh3y1lBM,312
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/build_log.json,sha256=JOyTdlowGRxMZZTi8b_gaxdSvm4fiibbVTNAz7TT3fk,23380
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/package.json,sha256=RSlOoOE0NX6xSy2Dit8Xr2BKBU9XIYVMYNMpbBtE5oo,2735
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/static/lib_index_js.72bafd963b4a476871f2.js,sha256=0edvYYKZVkWFXvV7KR-DTcq6rvW9YJNpFaHkuCgkcPE,10245
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/static/lib_index_js.72bafd963b4a476871f2.js.map,sha256=_qH9LO74KgxtX4mrg4dHWolYlWPvLeX67A2rq6qY028,10413
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/static/remoteEntry.510eecbc2743e00f4fd4.js,sha256=5LCCwSZ12rB6PxHnkTqDMuAyotFn3hzj4UBXYbuLecQ,26346
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/static/remoteEntry.510eecbc2743e00f4fd4.js.map,sha256=3zP2XU4m5NIHP4km9Sw-C1gcPV9C-8zNyVTehrWRijk,25281
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlite_embedded_kernel-0.1.0.data/data/share/jupyter/labextensions/@jupyterlite/jupyterlite-embedded-kernel/install.json,sha256=uucMOOilqvXULmv_-dzMTm2jug-bCRhNWCoPncze94k,214
+jupyterlite_embedded_kernel-0.1.0.dist-info/METADATA,sha256=bCDoB6FxT85NF2vgxVwUp24ZaAIM2wI7gqJiafWy-LQ,9084
+jupyterlite_embedded_kernel-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jupyterlite_embedded_kernel-0.1.0.dist-info/licenses/LICENSE,sha256=KLVL_XiVjOurpdQBtPLWZfOuFb4m9SuhmW1YH8r3pKs,1527
+jupyterlite_embedded_kernel-0.1.0.dist-info/RECORD,,
