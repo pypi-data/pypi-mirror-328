@@ -1,0 +1,14 @@
+nmgr/actions.py,sha256=uSoJTUerp-xDuZkLkwfbunL0sfK783oJzPcdRQ0aZFU,4563
+nmgr/cli.py,sha256=i7ooP9L7mrTB92zufIOqykLs0j7oiq5JmXFH8yVgH20,5155
+nmgr/config.py,sha256=YHxkoLAcFsLpsDQiEt33uGHN2Kc_RU5ELH4K0k9igHQ,1404
+nmgr/data/completion.bash,sha256=I7-_xN8kfVUgyif9IFLVQppUKq1adM28suXtzIoQMtA,708
+nmgr/data/config.toml,sha256=e-YKC1zc9FqAU6YSMPYKV5WmnlbNjuPdoJF9DvtjBH0,849
+nmgr/jobs.py,sha256=9_WNuBJqP8KHAiqXad5M5UZzWBjBRzL2Gi0LPjIT2vM,2484
+nmgr/log.py,sha256=JZjWyavkXaXH1--rNq50KXJSN0U-oo2rUQPS3N8r7X4,164
+nmgr/nomad.py,sha256=wb90An4u5Ium-YI41n7FnpMwtTSiJwz-0DJctwFeO0A,4650
+nmgr/targets.py,sha256=7t3MwnAvh9ugJU8itp0v5bng6_Ckd4i2RPfPBZS9Uzk,3772
+nmgr-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nmgr-0.2.0.dist-info/METADATA,sha256=R6meanjwEeC3zkofIHD9VIZkZsHu-hBX8NcHnpjBCKs,6013
+nmgr-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+nmgr-0.2.0.dist-info/entry_points.txt,sha256=mnBD_Nebkc1R2OuM1nvvbhT-bqYAcn4WhkxgNqVjPbY,37
+nmgr-0.2.0.dist-info/RECORD,,
