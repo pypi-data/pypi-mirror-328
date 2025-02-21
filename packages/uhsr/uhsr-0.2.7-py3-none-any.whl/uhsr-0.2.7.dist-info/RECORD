@@ -1,0 +1,13 @@
+uhsr/__init__.py,sha256=e2Re5F2okVgbZWtqqhSkQMbvc2ZfNWMIVfOSjDE1V8U,180
+uhsr/bm25.py,sha256=Ch7nE5rJdoGb1UK1HFRkKPqm7D7EaqgGunH2IUMDt-Q,3806
+uhsr/core.py,sha256=6fpjXo2Z1yoi6ev_NEPJa806kWgU2EFLlDFPJAYQ-r4,8733
+uhsr/faiss_retrieval.py,sha256=Gm7uboTH1_XPn-beHRSk4MnK1clrK7G-qgJCDxPvgLk,1401
+uhsr/reranker.py,sha256=NXoW5XIMUWV4VzjXfL_yqdUK5r89OG-uKigr4IdMgC8,3677
+uhsr/similarity.py,sha256=_ew34W-4shyVKI3Ny_22vFknlE23TFZRotw8_E73l3o,4309
+uhsr/utils.py,sha256=m8v-c3xK9zFqGtwiY0QlNheASd48fbAlebVmA99H0CM,427
+uhsr/vector_db.py,sha256=Alm-NbK-Z74UqPahQEAp_3iH-06tQXjL5dGKhDUCzkg,1868
+uhsr-0.2.7.dist-info/LICENSE,sha256=Q8j_qXjSgaIxa_yyI29MxRvmtgGP4yaVDqpWZ3OnLqQ,1089
+uhsr-0.2.7.dist-info/METADATA,sha256=ib6d7xka2x2QB3jwWNbvL7qQppKRIUiXnh-3V-eFMnk,4458
+uhsr-0.2.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+uhsr-0.2.7.dist-info/top_level.txt,sha256=xc_5aIPPTyrdgWGjMk2WEVtDjb0G7qxmduzHCsHLxLg,5
+uhsr-0.2.7.dist-info/RECORD,,
