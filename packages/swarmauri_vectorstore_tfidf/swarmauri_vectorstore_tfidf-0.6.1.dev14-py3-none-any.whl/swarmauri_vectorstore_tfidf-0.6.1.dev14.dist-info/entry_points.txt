@@ -1,0 +1,3 @@
+[swarmauri.vector_stores]
+TfidfVectorStore=swarmauri_vectorstore_tfidf:TfidfVectorStore
+
