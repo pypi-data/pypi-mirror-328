@@ -1,0 +1,2 @@
+[console_scripts]
+pdfimageextractor = pdfimageextractor.extractpdfimages:main
