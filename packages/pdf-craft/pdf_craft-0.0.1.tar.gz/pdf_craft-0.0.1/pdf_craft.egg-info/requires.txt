@@ -1,0 +1,4 @@
+pyMuPDF<2.0.0,>=1.25.3
+alphabet-detector<1.0.0,>=0.0.7
+shapely<3.0.0,>=2.0.6
+doc-page-extractor==0.0.1
