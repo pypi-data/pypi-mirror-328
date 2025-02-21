@@ -1,0 +1,11 @@
+bsdiff4/__init__.py,sha256=5TjhHIweBya_LyHrHuMjmRQ8_uP3fmi8ou-EkFZ6FM8,277
+bsdiff4/cli.py,sha256=TYDrcsIHtKAnL6nIqpoJJ9iRq40lKs0EnzEBMYaZZWA,2603
+bsdiff4/core.pypy39-pp73-win_amd64.pyd,sha256=2fRM4dwK1wgw-oBcuMNf0-AzLFYSDs4LHcRK2mSpTWc,18432
+bsdiff4/format.py,sha256=TSDHVVEcUusk2DyLinONgpocURkU9GW_-JL23r_Fnvk,3736
+bsdiff4/test_all.py,sha256=rClODbNA0YpBZIb94Twgf5VtmruGVCZQtYfHxzgTTpQ,5394
+bsdiff4-1.2.6.dist-info/LICENSE,sha256=FuNPTpHAVJMAMJvZiD52afLpYqgpNQyqDUxRR2P4PgQ,8486
+bsdiff4-1.2.6.dist-info/METADATA,sha256=XVV2KEVsJxVBkbvDDeSCka3SWz8nzNTo0uXHcJWSBN8,2913
+bsdiff4-1.2.6.dist-info/WHEEL,sha256=0zgPSb_Uz0q0D5jS9FxPnb0ShhRdHXGSgZNaM5TSymY,106
+bsdiff4-1.2.6.dist-info/entry_points.txt,sha256=9-ctLCIhmwihoYlF4S15zv5gksMRd9UqhUqmWmLRaXs,90
+bsdiff4-1.2.6.dist-info/top_level.txt,sha256=1upCuxINieZyLC4s1zsrmG3UqQfCi0vKqeRDmpjCk3E,8
+bsdiff4-1.2.6.dist-info/RECORD,,
