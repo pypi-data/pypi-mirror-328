@@ -1,0 +1,19 @@
+[project]
+name = "deep-research-lite"
+version = "0.0.0"
+description = "Coming soon!"
+authors = [
+    {name = "AbdulSaleh"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "deep_research_lite", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
