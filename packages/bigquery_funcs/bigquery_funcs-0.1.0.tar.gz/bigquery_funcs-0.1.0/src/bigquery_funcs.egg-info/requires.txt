@@ -1,0 +1,4 @@
+functag>=1.2.7
+google-cloud-bigquery>=3.29.0
+google-cloud-secret-manager>=2.23.0
+python-dotenv>=1.0.1
