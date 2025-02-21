@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: principle-alignment
+Version: 0.1.0
+Summary: principle alignment package
+Home-page: https://github.com/yourusername/mypackage
+Author: ZJun
+Author-email: zhangjun310@live.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README.md
+
+# Python Package
+
+## Overview
+
+This is a Python package designed to provide [brief description of the package functionality]. It serves as a template for creating Python projects with a structured layout.
+
+## Installation
+
+To install the package, clone the repository and install the required dependencies:
+
+```bash
+git clone [repository-url]
+cd python-package
+pip install -r requirements.txt
+```
+
+## Usage
+
+To use the package, you can import it in your Python scripts:
+
+```python
+from my_package import [module_name]
+```
+
+Replace `[module_name]` with the specific module you want to use.
+
+## Running Tests
+
+To run the tests for this package, use the following command:
+
+```bash
+pytest tests/
+```
+
+## License
+
+This project is licensed under the [License Name]. See the LICENSE file for more details.
