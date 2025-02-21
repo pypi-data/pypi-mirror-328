@@ -1,0 +1,12 @@
+staticcodecov_languages.cpython-312-aarch64-linux-gnu.so,sha256=vToXmn7uU7XdcX5tOLJWtb86XmKgu-1UKMOHahEI9Fk,1068528
+codecov_cli-10.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+codecov_cli-10.1.0.dist-info/WHEEL,sha256=nTE35AxMsGRWEKtq6OoAX8r6A4PvpXKeKnLmxVhO6NA,153
+codecov_cli-10.1.0.dist-info/top_level.txt,sha256=ZKJTOeMHeTqvl-t_8GcnbgwPloQxqgTxyqsOfC9aOvU,36
+codecov_cli-10.1.0.dist-info/METADATA,sha256=xd2Ip9Ykq6VOrMEl8V9bRszm6tofJA2Qex8iz-DkZC0,33020
+codecov_cli-10.1.0.dist-info/RECORD,,
+codecov_cli-10.1.0.dist-info/entry_points.txt,sha256=u2LV1TxZeZWZLVaKWqhZiWOJD-YTTZbpjDe_Wdh978Q,83
+codecov_cli/__init__.py,sha256=hWfN84Z7wNwv8TjbBU_3n6U-OZALZP3SAvdA5bCbaJA,83
+codecov_cli/fallbacks.py,sha256=gNN40jmBY8bBdjU6il1w2pJfzNGczI6Exg9JXVJxCbg,1278
+codecov_cli/main.py,sha256=HT28SVu6jPLGAg8a9n48AU7a2MrswJ59FUVP4jGCa_w,3448
+codecov_cli/opentelemetry.py,sha256=lf71n88W0GNRW8of0SERiWcpjAoap5zIqY0DVk2PyV0,592
+codecov_cli/types.py,sha256=op8oIkyLhh874tztrt0sDBkzOpb3tUFaSExGae314TM,2159
