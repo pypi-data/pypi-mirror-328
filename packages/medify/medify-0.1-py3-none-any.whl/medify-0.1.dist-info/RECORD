@@ -1,0 +1,9 @@
+medify/__init__.py,sha256=2Ga5vwNk3HnNw7WkhZFj9HlyqRm4TuCoGzTI2y9HvzM,37
+medify/aws_auth.py,sha256=k2x84bqTqmcDsbv7Qt2dZbthwS3LQKBQ5TP8snNrOVg,515
+medify/cli.py,sha256=RFMJSRUVz-IOhZZY4GlapgnW3wftQDHDN_jk92m7l-4,793
+medify/transcribe.py,sha256=cI3lRsvEmM40IIiFbr7QHSc_rI7NA2E8mp6LoXHP3ZU,5149
+medify-0.1.dist-info/METADATA,sha256=Z2ZxtmtrSxzqPV8hrC5zP56zNKOWvLpDmDCijjmcecA,1754
+medify-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+medify-0.1.dist-info/entry_points.txt,sha256=VY9veNemrte3K893sIZ6EO_j_Q6MqefgRfgyYuc4JXY,53
+medify-0.1.dist-info/top_level.txt,sha256=F-6JDMi9rNIwUmbnSDITFPIeu-yD05MH2YAZPC8igEQ,7
+medify-0.1.dist-info/RECORD,,
