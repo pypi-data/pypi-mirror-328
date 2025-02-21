@@ -1,0 +1,13 @@
+instagram_client/__init__.py,sha256=sfOElaTpRUY1FipHMMCv29q3eLWbbbVUxe7SU8cc4Lo,24
+instagram_client/instagram.py,sha256=sdHnuJpdu_ouI75KSpDsd7MRLJR2n1Rki2OhPgmTtXI,11986
+instagram_client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instagram_client/api/base_api.py,sha256=cOh7J5w5jdWbxLwV2A8v5lhwdIGs1cMPX0mDVi5-s94,4877
+instagram_client/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instagram_client/exceptions/http_exceptions.py,sha256=4yFBFJ_xXTdkIomwifv5P3ldV8WUHzqiaNWz0R_U9rA,984
+instagram_client/schemes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instagram_client/schemes/conversation_schemes.py,sha256=jnHT5EQiquWLrZ7tKDY7P177ciL2joCmEvkWXPcewhI,1636
+instagram_client/schemes/user_schemes.py,sha256=l_j5yMIK-vHSu5bW_fyJjoohExmU2QPThPAmZF82QzA,1134
+instagram_client-0.1.5.dist-info/METADATA,sha256=U1i-WUFVKu1EB8Fn1CyXmn7k3RfBvmQ_ECxGgtHxxn8,6157
+instagram_client-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+instagram_client-0.1.5.dist-info/top_level.txt,sha256=0vLvnDIolUPTRUbz6_QAJyu5VxrnTBgk9Vb47Sb0m_4,17
+instagram_client-0.1.5.dist-info/RECORD,,
