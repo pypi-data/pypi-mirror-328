@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: diffusionx
+Version: 0.1.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.1.0
+Summary: Add your description here
+Author: xiangong tang <tangxiangong@gmail.com>
+Author-email: tangxiangong <tangxiangong@gmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+

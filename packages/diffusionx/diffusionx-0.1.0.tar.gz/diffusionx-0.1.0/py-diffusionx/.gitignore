@@ -1,0 +1,9 @@
+.venv
+uv.lock
+.python-version
+**/*.so
+**/*.py[cod]
+
+**/__pycache__
+
+.ipynb*
