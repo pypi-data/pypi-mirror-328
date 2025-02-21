@@ -1,0 +1,6 @@
+userlens/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userlens/event_tracker.py,sha256=4FTxRF_dcY7OroCgEsvjkQYx2z5f4O9cN7bKXCZLH18,6391
+userlens/utils.py,sha256=oYAMZtZhmtAMcWIrVWvNAPooMyPRh_H0zKiJRI7mmDo,91
+userlens_analytics_sdk-1.0.0.dist-info/METADATA,sha256=aUEq83Kc0B3QwszQEAGplmr7GG0YlPpT9zTAnRLOO74,600
+userlens_analytics_sdk-1.0.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+userlens_analytics_sdk-1.0.0.dist-info/RECORD,,
