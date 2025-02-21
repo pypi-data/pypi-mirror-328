@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+missionpanel/__init__.py
+missionpanel.egg-info/PKG-INFO
+missionpanel.egg-info/SOURCES.txt
+missionpanel.egg-info/dependency_links.txt
+missionpanel.egg-info/requires.txt
+missionpanel.egg-info/top_level.txt
