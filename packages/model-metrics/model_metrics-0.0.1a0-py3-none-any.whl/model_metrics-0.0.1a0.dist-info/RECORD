@@ -1,0 +1,9 @@
+model_metrics/__init__.py,sha256=s7QWqRE3IIkVtNobc8qKpqzw1F-1wc5FvRiapijpo6w,1527
+model_metrics/logo.py,sha256=oLzhnUKc-yMKTRdaKilT5r0kcsa6nnJQBXhDr6A6I74,2509
+model_metrics/model_calculator.py,sha256=NshZeEwmRYvGOhArzU46jCMFCkrYTiKXTn4l3bhOz50,20212
+model_metrics/model_evaluator.py,sha256=3NFz4bpSSbfZmf9oCOLEx9qqBTfKaE_31-s-Icvpk2s,66752
+model_metrics-0.0.1a0.dist-info/LICENSE.md,sha256=ToB6iafrlyr4KcpKbO8HbcA-QOyiyzAk1TNsqJ497pg,1072
+model_metrics-0.0.1a0.dist-info/METADATA,sha256=Mbvxjg5X8fFoMLHGnXZEgjOxaW0I4arMPqiv3z8oXCU,4654
+model_metrics-0.0.1a0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+model_metrics-0.0.1a0.dist-info/top_level.txt,sha256=fXYEdlzQoFX_J_3AQaJfxlBicsa8G8u4HpOkwQEL8Fc,14
+model_metrics-0.0.1a0.dist-info/RECORD,,
