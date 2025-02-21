@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OpenHEMS</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="{{request.static_url('openhems.modules.web:../../../../img/openhems.css')}}">
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+	<script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+	<script src="{{request.static_url('openhems.modules.web:../../../../img/params.js')}}"></script>
+</head>
+<body>
+<nav class="menu">
+  <ul>
+    <li><a href="/">Devices program</a></li>
+    <li><a href="https://github.com/abriotde/openhems-sample/tree/main">More</a></li>
+  </ul>
+</nav>
+<div class="page">
+	<h1>Parameters</h1>
+	<div id="warningBox" class="alert"></div>
+	<div><img id="waitImg" src="{{request.static_url('openhems.modules.web:../../../../img/wait.gif')}}" style="display:none" alt="Wait"></img><div>
+	<div>VPN is <b id="vpnStatus">{{ vpn }}</b>.<button id="vpnButton"></button></div>
+
+	<form name="yamlParamsForm" action="/params" method="POST" onsubmit="return setNetwork()">
+	<div id="yamlParams">
+		<ul><li><a href="#tabs-api">Api</a></li>
+<li><a href="#tabs-localization">Localization</a></li>
+<li><a href="#tabs-server">Server</a></li>
+<li><a href="#tabs-network">Network</a></li>
+<li><a href="#tabs-emhass">Emhass</a></li>
+<li><a href="#tabs-default">Default</a></li>
+</ul><div id="tabs-api">
+<p>Cette section est utilisé pour configurer l'access à l'API Home-Assistant. C'est très important de les remplir correctement.</p>
+<div class="row"><div class="col-25"><label for="api.url">Url:</label></div><div class="col-75"><input type="text" id="api.url" name="api.url" title="URL d'acces Home-Assistant" value="{{ api_url }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="api.long_lived_token">Long_lived_token:</label></div><div class="col-75"><input type="text" id="api.long_lived_token" name="api.long_lived_token" title="Token d'access Home-Assistant. A générer sur l'interface d'Home-Assistant." value="{{ api_long_lived_token }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="api.ssl_certificate">Ssl_certificate:</label></div><div class="col-75"><input type="text" id="api.ssl_certificate" name="api.ssl_certificate" title="Path " value="{{ api_ssl_certificate }}" /></div></div><br>
+</div>
+<div id="tabs-localization">
+<p>Cette section contiens des informations sensibles. Nous vous suggérons d'y remplir des informations approximatives (Une précision de quelques kilomètres devraient sufire).</p>
+<div class="row"><div class="col-25"><label for="localization.latitude">Latitude:</label></div><div class="col-75"><input type="text" id="localization.latitude" name="localization.latitude" title="The home lattitude (usefull for solar-panel and wether predictions)" value="{{ localization_latitude }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="localization.longitude">Longitude:</label></div><div class="col-75"><input type="text" id="localization.longitude" name="localization.longitude" title="The home longitude (usefull for solar-panel and wether predictions)" value="{{ localization_longitude }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="localization.altitude">Altitude:</label></div><div class="col-75"><input type="text" id="localization.altitude" name="localization.altitude" title="The home altitude (usefull for solar-panel)" value="{{ localization_altitude }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="localization.timeZone">Time zone:</label></div><div class="col-75"><input type="text" id="localization.timeZone" name="localization.timeZone" title="Il s'agit du fuseau horaire que vous pouvez trouver sous le nom 'TZ identifier' sur https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List" value="{{ localization_timeZone }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="localization.language">Language:</label></div><div class="col-75"><input type="text" id="localization.language" name="localization.language" title="Langue" value="{{ localization_language }}" /></div></div><br>
+</div>
+<div id="tabs-server">
+<p>Ces informations concerne  la configuration du comportement du server OpenHEMS. Elles sont vraiment très techniques. Laissez les vides ou n'y touchez pas si vous ne savez pas quoi y mettre.</p>
+<div class="row"><div class="col-25"><label for="server.htmlRoot">Html root:</label></div><div class="col-75"><input type="text" id="server.htmlRoot" name="server.htmlRoot" title="Root location of web server." value="{{ server_htmlRoot }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.inDocker">In docker:</label></div><div class="col-75"><input type="text" id="server.inDocker" name="server.inDocker" title="True if OpenHEMS run in docker." value="{{ server_inDocker }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.port">Port:</label></div><div class="col-75"><input type="text" id="server.port" name="server.port" title="Web server port for listening." value="{{ server_port }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.logformat">Logformat:</label></div><div class="col-75"><input type="text" id="server.logformat" name="server.logformat" title="Format for log on OpenHEMS # for custom configuration see https://docs.python.org/3/library/logging.html#logrecord-attributes" value="{{ server_logformat }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.logfile">Logfile:</label></div><div class="col-75"><input type="text" id="server.logfile" name="server.logfile" title="Log file path" value="{{ server_logfile }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.loglevel">Loglevel:</label></div><div class="col-75"><input type="text" id="server.loglevel" name="server.loglevel" title="Log level, (critical, error, warning, info, debug)" value="{{ server_loglevel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.loopDelay">Loop delay:</label></div><div class="col-75"><input type="text" id="server.loopDelay" name="server.loopDelay" title="Interval beetween 2 OpenHEMS loop. Less is better for reaction, but use more power." value="{{ server_loopDelay }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.network">Network:</label></div><div class="col-75"><input type="text" id="server.network" name="server.network" title="Way to access your home network. (homeassistant, fake)" value="{{ server_network }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="server.strategy">Strategy:</label></div><div class="col-75"><input type="text" id="server.strategy" name="server.strategy" title="Define the algorithm used to control the  home energy." value="{{ server_strategy }}" /></div></div><br>
+</div>
+<div id="tabs-network">
+<p>Ici, vous configurez votre réseau. C'est très important que vous le mettiez a jour dès qu'il y a des modifications chez vous.</p>
+<div class="row"><div class="col-25"><label for="network.nodes">Nodes:</label></div><div class="col-75"><button type="button"  onclick="displayAddNodePopup()">+</button><input type="hidden" id="network.nodes" name="network.nodes" title="Configure your home nodes" value="{{ network_nodes }}" /></div></div><br>
+<div id="nodes"></div>
+</div>
+<div id="tabs-emhass">
+<p>Ces informations sont assez techniques. Vous devriez pouvoir les laisser auxvaleurs par défaut.</p>
+<div class="row"><div class="col-25"><label for="emhass.freq">Freq:</label></div><div class="col-75"><input type="text" id="emhass.freq" name="emhass.freq" title="Frequency when emhass analyzis is done. Must be greater than 'loopDelay' parameter" value="{{ emhass_freq }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.days_to_retrieve">Days_to_retrieve:</label></div><div class="col-75"><input type="text" id="emhass.days_to_retrieve" name="emhass.days_to_retrieve" title="How many days in history, emhass analyze to guess furur roduction/consumption." value="{{ emhass_days_to_retrieve }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.method_ts_round">Method_ts_round:</label></div><div class="col-75"><input type="text" id="emhass.method_ts_round" name="emhass.method_ts_round" title="Method to arroud values" value="{{ emhass_method_ts_round }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.delta_forecast">Delta_forecast:</label></div><div class="col-75"><input type="text" id="emhass.delta_forecast" name="emhass.delta_forecast" title="Delta forecast" value="{{ emhass_delta_forecast }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.weather_forecast_method">Weather_forecast_method:</label></div><div class="col-75"><input type="text" id="emhass.weather_forecast_method" name="emhass.weather_forecast_method" title="Wether forecast method" value="{{ emhass_weather_forecast_method }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.prod_sell_price">Prod_sell_price:</label></div><div class="col-75"><input type="text" id="emhass.prod_sell_price" name="emhass.prod_sell_price" title="Price yousell your electricity to public power grid" value="{{ emhass_prod_sell_price }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.set_total_pv_sell">Set_total_pv_sell:</label></div><div class="col-75"><input type="text" id="emhass.set_total_pv_sell" name="emhass.set_total_pv_sell" title="" value="{{ emhass_set_total_pv_sell }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.lp_solver">Lp_solver:</label></div><div class="col-75"><input type="text" id="emhass.lp_solver" name="emhass.lp_solver" title="Algorythm used to solve" value="{{ emhass_lp_solver }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.lp_solver_path">Lp_solver_path:</label></div><div class="col-75"><input type="text" id="emhass.lp_solver_path" name="emhass.lp_solver_path" title="path for the algorythm witch is used to solve" value="{{ emhass_lp_solver_path }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.set_nocharge_from_grid">Set_nocharge_from_grid:</label></div><div class="col-75"><input type="text" id="emhass.set_nocharge_from_grid" name="emhass.set_nocharge_from_grid" title="" value="{{ emhass_set_nocharge_from_grid }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.set_nodischarge_to_grid">Set_nodischarge_to_grid:</label></div><div class="col-75"><input type="text" id="emhass.set_nodischarge_to_grid" name="emhass.set_nodischarge_to_grid" title="" value="{{ emhass_set_nodischarge_to_grid }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.set_battery_dynamic">Set_battery_dynamic:</label></div><div class="col-75"><input type="text" id="emhass.set_battery_dynamic" name="emhass.set_battery_dynamic" title="" value="{{ emhass_set_battery_dynamic }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.battery_dynamic_max">Battery_dynamic_max:</label></div><div class="col-75"><input type="text" id="emhass.battery_dynamic_max" name="emhass.battery_dynamic_max" title="" value="{{ emhass_battery_dynamic_max }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="emhass.battery_dynamic_min">Battery_dynamic_min:</label></div><div class="col-75"><input type="text" id="emhass.battery_dynamic_min" name="emhass.battery_dynamic_min" title="" value="{{ emhass_battery_dynamic_min }}" /></div></div><br>
+</div>
+<div id="tabs-default">
+<p>Ces informations sont les configurations par defaut des appareils du réseau. Il n'y a pas vraiment de nécéssité a les remplir mais cela peut vous éviter de les mettre pour tous.</p>
+<div class='config_0'>
+<h2>Node</h2>
+<div class='config_1'>
+<h3>Publicpowergrid</h3>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.currentPower">Current power:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.currentPower" name="default.node.publicpowergrid.currentPower" title="" value="{{ default_node_publicpowergrid_currentPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.maxPower">Max power:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.maxPower" name="default.node.publicpowergrid.maxPower" title="" value="{{ default_node_publicpowergrid_maxPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.minPower">Min power:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.minPower" name="default.node.publicpowergrid.minPower" title="" value="{{ default_node_publicpowergrid_minPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.marginPower">Margin power:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.marginPower" name="default.node.publicpowergrid.marginPower" title="" value="{{ default_node_publicpowergrid_marginPower }}" /></div></div><br>
+<div class='config_2'>
+<h4>Contract</h4>
+<div class='config_3'>
+<h5>Rtetempo</h5>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.color">Color:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.color" name="default.node.publicpowergrid.contract.rtetempo.color" title="" value="{{ default_node_publicpowergrid_contract_rtetempo_color }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.offpeakhoursranges">Offpeakhoursranges:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.offpeakhoursranges" name="default.node.publicpowergrid.contract.rtetempo.offpeakhoursranges" title="['22h - 6h']" value="{{ default_node_publicpowergrid_contract_rtetempo_offpeakhoursranges }}" /></div></div><br>
+<div class='config_4'>
+<h6>Peakprice</h6>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.peakprice.bleu">Bleu:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.peakprice.bleu" name="default.node.publicpowergrid.contract.rtetempo.peakprice.bleu" title="xxx" value="{{ default_node_publicpowergrid_contract_rtetempo_peakprice_bleu }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.peakprice.blanc">Blanc:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.peakprice.blanc" name="default.node.publicpowergrid.contract.rtetempo.peakprice.blanc" title="xxx" value="{{ default_node_publicpowergrid_contract_rtetempo_peakprice_blanc }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.peakprice.rouge">Rouge:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.peakprice.rouge" name="default.node.publicpowergrid.contract.rtetempo.peakprice.rouge" title="xxx" value="{{ default_node_publicpowergrid_contract_rtetempo_peakprice_rouge }}" /></div></div><br>
+</div>
+<div class='config_4'>
+<h6>Offpeakprice</h6>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.offpeakprice.bleu">Bleu:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.offpeakprice.bleu" name="default.node.publicpowergrid.contract.rtetempo.offpeakprice.bleu" title="" value="{{ default_node_publicpowergrid_contract_rtetempo_offpeakprice_bleu }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.offpeakprice.blanc">Blanc:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.offpeakprice.blanc" name="default.node.publicpowergrid.contract.rtetempo.offpeakprice.blanc" title="" value="{{ default_node_publicpowergrid_contract_rtetempo_offpeakprice_blanc }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetempo.offpeakprice.rouge">Rouge:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetempo.offpeakprice.rouge" name="default.node.publicpowergrid.contract.rtetempo.offpeakprice.rouge" title="" value="{{ default_node_publicpowergrid_contract_rtetempo_offpeakprice_rouge }}" /></div></div><br>
+</div>
+</div>
+<div class='config_3'>
+<h5>Rteheurescreuses</h5>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rteheurescreuses.offpeakhoursranges">Offpeakhoursranges:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rteheurescreuses.offpeakhoursranges" name="default.node.publicpowergrid.contract.rteheurescreuses.offpeakhoursranges" title="['22h - 6h']" value="{{ default_node_publicpowergrid_contract_rteheurescreuses_offpeakhoursranges }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rteheurescreuses.peakprice">Peakprice:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rteheurescreuses.peakprice" name="default.node.publicpowergrid.contract.rteheurescreuses.peakprice" title="" value="{{ default_node_publicpowergrid_contract_rteheurescreuses_peakprice }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rteheurescreuses.offpeakprice">Offpeakprice:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rteheurescreuses.offpeakprice" name="default.node.publicpowergrid.contract.rteheurescreuses.offpeakprice" title="" value="{{ default_node_publicpowergrid_contract_rteheurescreuses_offpeakprice }}" /></div></div><br>
+</div>
+<div class='config_3'>
+<h5>Rtetarifbleu</h5>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.rtetarifbleu.price">Price:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.rtetarifbleu.price" name="default.node.publicpowergrid.contract.rtetarifbleu.price" title="" value="{{ default_node_publicpowergrid_contract_rtetarifbleu_price }}" /></div></div><br>
+</div>
+<div class='config_3'>
+<h5>Generic</h5>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.generic.offpeakhoursranges">Offpeakhoursranges:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.generic.offpeakhoursranges" name="default.node.publicpowergrid.contract.generic.offpeakhoursranges" title="['22h - 6h']" value="{{ default_node_publicpowergrid_contract_generic_offpeakhoursranges }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.generic.peakprice">Peakprice:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.generic.peakprice" name="default.node.publicpowergrid.contract.generic.peakprice" title="" value="{{ default_node_publicpowergrid_contract_generic_peakprice }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.publicpowergrid.contract.generic.offpeakprice">Offpeakprice:</label></div><div class="col-75"><input type="text" id="default.node.publicpowergrid.contract.generic.offpeakprice" name="default.node.publicpowergrid.contract.generic.offpeakprice" title="" value="{{ default_node_publicpowergrid_contract_generic_offpeakprice }}" /></div></div><br>
+</div>
+</div>
+</div>
+<div class='config_1'>
+<h3>Solarpanel</h3>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.currentPower">Current power:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.currentPower" name="default.node.solarpanel.currentPower" title="" value="{{ default_node_solarpanel_currentPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.maxPower">Max power:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.maxPower" name="default.node.solarpanel.maxPower" title="" value="{{ default_node_solarpanel_maxPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.moduleModel">Module model:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.moduleModel" name="default.node.solarpanel.moduleModel" title="" value="{{ default_node_solarpanel_moduleModel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.inverterModel">Inverter model:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.inverterModel" name="default.node.solarpanel.inverterModel" title="" value="{{ default_node_solarpanel_inverterModel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.tilt">Tilt:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.tilt" name="default.node.solarpanel.tilt" title="Angle between solar panel and horizontal" value="{{ default_node_solarpanel_tilt }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.azimuth">Azimuth:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.azimuth" name="default.node.solarpanel.azimuth" title="Angle betwwen solar panel orientation and north (Best is 180 in north.)" value="{{ default_node_solarpanel_azimuth }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.modulesPerString">Modules per string:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.modulesPerString" name="default.node.solarpanel.modulesPerString" title="" value="{{ default_node_solarpanel_modulesPerString }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.solarpanel.stringsPerInverter">Strings per inverter:</label></div><div class="col-75"><input type="text" id="default.node.solarpanel.stringsPerInverter" name="default.node.solarpanel.stringsPerInverter" title="" value="{{ default_node_solarpanel_stringsPerInverter }}" /></div></div><br>
+</div>
+<div class='config_1'>
+<h3>Battery</h3>
+<div class="row"><div class="col-25"><label for="default.node.battery.currentPower">Current power:</label></div><div class="col-75"><input type="text" id="default.node.battery.currentPower" name="default.node.battery.currentPower" title="Home-Assistant id to get the switch." value="{{ default_node_battery_currentPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.maxPowerIn">Max power in:</label></div><div class="col-75"><input type="text" id="default.node.battery.maxPowerIn" name="default.node.battery.maxPowerIn" title="Maximum power can deliver the battery (to the home)" value="{{ default_node_battery_maxPowerIn }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.maxPowerOut">Max power out:</label></div><div class="col-75"><input type="text" id="default.node.battery.maxPowerOut" name="default.node.battery.maxPowerOut" title="Maximum power to charge the battery" value="{{ default_node_battery_maxPowerOut }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.efficiencyIn">Efficiency in:</label></div><div class="col-75"><input type="text" id="default.node.battery.efficiencyIn" name="default.node.battery.efficiencyIn" title="Rate of efficiency when " value="{{ default_node_battery_efficiencyIn }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.efficiencyOut">Efficiency out:</label></div><div class="col-75"><input type="text" id="default.node.battery.efficiencyOut" name="default.node.battery.efficiencyOut" title="Rate of efficiency when " value="{{ default_node_battery_efficiencyOut }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.capacity">Capacity:</label></div><div class="col-75"><input type="text" id="default.node.battery.capacity" name="default.node.battery.capacity" title="Battery capacity in Wh" value="{{ default_node_battery_capacity }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.currentLevel">Current level:</label></div><div class="col-75"><input type="text" id="default.node.battery.currentLevel" name="default.node.battery.currentLevel" title="Home-Assistant id to get the charging level" value="{{ default_node_battery_currentLevel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.lowLevel">Low level:</label></div><div class="col-75"><input type="text" id="default.node.battery.lowLevel" name="default.node.battery.lowLevel" title="Level under witch we should go" value="{{ default_node_battery_lowLevel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.highLevel">High level:</label></div><div class="col-75"><input type="text" id="default.node.battery.highLevel" name="default.node.battery.highLevel" title="Level above witch we should go" value="{{ default_node_battery_highLevel }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.battery.targetLevel">Target level:</label></div><div class="col-75"><input type="text" id="default.node.battery.targetLevel" name="default.node.battery.targetLevel" title="The battery level witch should be good at end of charge." value="{{ default_node_battery_targetLevel }}" /></div></div><br>
+</div>
+<div class='config_1'>
+<h3>Switch</h3>
+<div class="row"><div class="col-25"><label for="default.node.switch.currentPower">Current power:</label></div><div class="col-75"><input type="text" id="default.node.switch.currentPower" name="default.node.switch.currentPower" title="Home-Assistant id to get the switch." value="{{ default_node_switch_currentPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.switch.maxPower">Max power:</label></div><div class="col-75"><input type="text" id="default.node.switch.maxPower" name="default.node.switch.maxPower" title="Maximum power can deliver the switch." value="{{ default_node_switch_maxPower }}" /></div></div><br>
+<div class="row"><div class="col-25"><label for="default.node.switch.isOn">Is on:</label></div><div class="col-75"><input type="text" id="default.node.switch.isOn" name="default.node.switch.isOn" title="Home-Assistant id to command the switch" value="{{ default_node_switch_isOn }}" /></div></div><br>
+</div>
+</div>
+</div>
+
+	</div>
+	<input id="submitYamlParams" type="submit" value="Submit" src="{{request.static_url('openhems.modules.web:../../../../img/correct_32.ico')}}">
+	</form>
+</div>
+<div id="addNodePopup" style="visibility: hidden;" class="">
+	<div id="newnode-class">
+	</div>
+	<div id="newnode-class-form">
+	</div>
+
+	<button type="button" data-theme="b" onclick="hideAddNodePopup()">Cancel</button>
+	<button type="button" data-theme="b" onclick="addNode()">Add</button>
+</div>
+<script>
+vpn = {{ vpn|tojson }};
+availableNodes = {{ availableNodes|tojson }};
+URL_IMG_DELETE = "{{request.static_url('openhems.modules.web:../../../../img/delete-20px.png')}}";
+$( function() {
+	$( "#yamlParams" ).tabs();
+	// $("#addNodePopup").popup();
+	warningMessages = {{ warningMessages|tojson }};
+	displayWarningMessages(warningMessages);
+	getNetwork();
+	displayNetwork();
+	connectedVPN(vpn=="up");
+} );
+</script>
+</body>
+</html>
