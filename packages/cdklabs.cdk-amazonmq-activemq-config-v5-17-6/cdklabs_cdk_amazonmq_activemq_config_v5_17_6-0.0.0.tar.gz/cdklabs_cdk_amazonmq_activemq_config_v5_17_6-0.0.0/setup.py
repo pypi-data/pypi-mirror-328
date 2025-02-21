@@ -1,0 +1,63 @@
+import json
+import setuptools
+
+kwargs = json.loads(
+    """
+{
+    "name": "cdklabs.cdk-amazonmq-activemq-config-v5-17-6",
+    "version": "0.0.0",
+    "description": "@cdklabs/cdk-amazonmq-activemq-config-v5-17-6",
+    "license": "Apache-2.0",
+    "url": "https://github.com/cdklabs/cdk-amazonmq-activemq-configs",
+    "long_description_content_type": "text/markdown",
+    "author": "AWS<cdk-amazonmq-maintainers@amazon.com>",
+    "bdist_wheel": {
+        "universal": true
+    },
+    "project_urls": {
+        "Source": "https://github.com/cdklabs/cdk-amazonmq-activemq-configs"
+    },
+    "package_dir": {
+        "": "src"
+    },
+    "packages": [
+        "cdklabs.cdk-amazonmq-activemq-config-v5-17-6",
+        "cdklabs.cdk-amazonmq-activemq-config-v5-17-6._jsii"
+    ],
+    "package_data": {
+        "cdklabs.cdk-amazonmq-activemq-config-v5-17-6._jsii": [
+            "cdk-amazonmq-activemq-config-v5-17-6@0.0.0.jsii.tgz"
+        ],
+        "cdklabs.cdk-amazonmq-activemq-config-v5-17-6": [
+            "py.typed"
+        ]
+    },
+    "python_requires": "~=3.8",
+    "install_requires": [
+        "jsii>=1.106.0, <2.0.0",
+        "publication>=0.0.3",
+        "typeguard>=2.13.3,<4.3.0"
+    ],
+    "classifiers": [
+        "Intended Audience :: Developers",
+        "Operating System :: OS Independent",
+        "Programming Language :: JavaScript",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Typing :: Typed",
+        "Development Status :: 4 - Beta",
+        "License :: OSI Approved"
+    ],
+    "scripts": []
+}
+"""
+)
+
+with open("README.md", encoding="utf8") as fp:
+    kwargs["long_description"] = fp.read()
+
+
+setuptools.setup(**kwargs)
