@@ -1,0 +1,13 @@
+pytest_report_extras/__init__.py,sha256=Ngf1sfQxuqlv6mSp469ab4YwzmewMLP7hR5ceFyw4ws,55
+pytest_report_extras/attachment.py,sha256=g6eEL0G3RKheaGN8myB975FaiVVLAI1mN14SviwQvGE,12479
+pytest_report_extras/decorators.py,sha256=h6pVDspXo9C44RjfzwPLMly55mClGUDaLru85TaSoEA,9887
+pytest_report_extras/extras.py,sha256=vnTGDUb94Ej-VirVBxYgcqKdwp-LFEqbBe0NJ6EvWTs,17188
+pytest_report_extras/plugin.py,sha256=3GwWC75ka-pGIfDoaa2adR4479VTKeUHoSQPbRx_GD4,11166
+pytest_report_extras/utils.py,sha256=DHqQ31hbSdj83J8XRw49NFklAubDaX07VEjHOIRskwI,14921
+pytest_report_extras/resources/error.png,sha256=Ttdm4ND-UU-B5lahTCYmX-3jnCjOgoxoAc57Z7EcR9o,12536
+pytest_report_extras/resources/style.css,sha256=PYonzTZmnembtPWjvT8eaikg_tYkJvr_xhFr9-EIAls,1456
+pytest_report_extras-1.3.1.dist-info/entry_points.txt,sha256=FeoWl5TSxNCOVeGZFcMhAAuH_F2UL4IAH_bQN__2JdY,61
+pytest_report_extras-1.3.1.dist-info/licenses/LICENSE,sha256=-o0JbDVYDA95dyPeP6rvKfgU5jly257zLvXKGVMvUXc,1074
+pytest_report_extras-1.3.1.dist-info/WHEEL,sha256=_2ozNFCLWc93bK4WKHCO-eDUENDlo-dgc9cU3qokYO4,82
+pytest_report_extras-1.3.1.dist-info/METADATA,sha256=D-6fAL9WEyyuThXWewBUTDXD2n6oX5Q_DZ9L8WedB-A,1311
+pytest_report_extras-1.3.1.dist-info/RECORD,,
