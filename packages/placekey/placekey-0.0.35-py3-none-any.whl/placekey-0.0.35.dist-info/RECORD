@@ -1,0 +1,10 @@
+placekey/__init__.py,sha256=8WZyesj8WEcvbIZ12J90GuuZJlTUYYuTPOQyA7kvXp4,106
+placekey/__version__.py,sha256=LyKdUfoA_zpdqRG2xGng1Mw6IkiFFsz8ngAAbqyGn-c,22
+placekey/api.py,sha256=chleo_76ROf0kf3cdkHfVyh5uPZVVo9R4zaR_muimSg,14989
+placekey/general.py,sha256=Swu04L6YTo16XDZADglGYD_W4K-zXnAGT6hArGFyjcE,3081
+placekey/placekey.py,sha256=R7_g1rmcK9eKxN8ZHXQyIbzphO1EIBH81mlokSzQnr0,18163
+placekey-0.0.35.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+placekey-0.0.35.dist-info/METADATA,sha256=UNkpo4TsjBPAzFKgDZ0OQ3gCVGO8dmcLMraYJVd6mNo,6442
+placekey-0.0.35.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+placekey-0.0.35.dist-info/top_level.txt,sha256=QQNvLGVd2b4p5lm4MlxNn1gJ-Z6ssw2jhIuFjfwHH-w,9
+placekey-0.0.35.dist-info/RECORD,,
