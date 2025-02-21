@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "db_hooks_manager24"
+version = "0.1.0"
+description = "Database manager with optional MongoDB support"
+authors = ["Tu Nombre <tu@email.com>"]
+packages = [{ include = "db_hooks_manager24" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymongo = { version = "^4.0", optional = true }
+
+[tool.poetry.extras]
+mongodb = ["pymongo"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
