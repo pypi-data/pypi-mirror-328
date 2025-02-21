@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: shared_authentication
+Version: 0.1.1
+Requires-Dist: Django>=3.0
+Requires-Dist: djangorestframework>=3.11
+Dynamic: requires-dist
