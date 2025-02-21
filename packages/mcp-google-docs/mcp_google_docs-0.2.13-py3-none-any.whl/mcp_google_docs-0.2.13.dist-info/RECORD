@@ -1,0 +1,8 @@
+mcp_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcp_server/google_docs_service.py,sha256=D8rUj81bk_S8LEI35NS9NgGVpHiONpX0fDgnF9k6IGk,9062
+mcp_server/mcp_server.py,sha256=X0VWhDxQ5rYLGVoGsXx5gRlz3QD7c1mGIcYQ0CoZcVw,11466
+mcp_google_docs-0.2.13.dist-info/METADATA,sha256=5SA-90jPEWYk_EebiWsSEuAo70J3lx4Bv_7Afdh0MDE,429
+mcp_google_docs-0.2.13.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mcp_google_docs-0.2.13.dist-info/entry_points.txt,sha256=fMiWLJzODmtwFUTVSJDJgWyK4oZL3p7AOk63Xm1vypg,54
+mcp_google_docs-0.2.13.dist-info/top_level.txt,sha256=R49ZBwHkJvJ-AJ8o9wy6MuCs0rvZpyCEuvdwhI4PpHs,11
+mcp_google_docs-0.2.13.dist-info/RECORD,,
