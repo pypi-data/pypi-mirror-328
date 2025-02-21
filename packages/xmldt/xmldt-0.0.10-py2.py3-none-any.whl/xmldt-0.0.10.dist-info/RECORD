@@ -1,0 +1,10 @@
+xmldt/__init__.py,sha256=Bj7qOTGqg2CylhSrY8GuMkuwVvnzF82IVdh5nHKImGs,7763
+xmldt/element.py,sha256=Apgf_WyvDcnAHYxmaQTfeDucmV_ldW6KwfD9nER-n7s,3082
+xmldt/htmldt.py,sha256=GlhXUYUJHc_sY25mYBVEokcgEs5G2Dc3vVVZ0DQ9NMc,1402
+xmldt/reindent.py,sha256=h-t1F2-Yds0ef66o_N7Wby4oubK1wX31rMUBgJPclP0,1688
+xmldt/skel.py,sha256=wi2-9gMKz_c6odoCJvRX6ySkGdlAf-FsHWYV4LX1x4w,8655
+xmldt-0.0.10.dist-info/entry_points.txt,sha256=CCSQJjEeb_YkbjIouEjvfy__h2lkA7nIypYFfKfDxxg,76
+xmldt-0.0.10.dist-info/licenses/LICENSE,sha256=IrkbJtKtR9psfRZk6xWboBUtxteTWp_wSEX-yxA19jk,1081
+xmldt-0.0.10.dist-info/WHEEL,sha256=BXjIu84EnBiZ4HkNUBN93Hamt5EPQMQ6VkF7-VZ_Pu0,100
+xmldt-0.0.10.dist-info/METADATA,sha256=DHoaI4GtAEUHkCl3GDMg-RTMQLVEr5MPdIROKtbMQjQ,2697
+xmldt-0.0.10.dist-info/RECORD,,
