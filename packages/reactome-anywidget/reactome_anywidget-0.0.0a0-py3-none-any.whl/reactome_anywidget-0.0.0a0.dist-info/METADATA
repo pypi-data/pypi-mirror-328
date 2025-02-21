@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: reactome-anywidget
+Version: 0.0.0a0
+Summary: Add your description here
+Requires-Python: >=3.11
+Requires-Dist: anywidget>=0.9.13
+Requires-Dist: ipywidgets>=8.1.5
