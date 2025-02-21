@@ -1,0 +1,12 @@
+ensaio/__init__.py,sha256=ePkh6Hg8l3Alr1OFb6TdV18GoqHaC0IoXus2sCyYqmw,773
+ensaio/_fetchers.py,sha256=2lmo9oZAT1L1j7IVT7lnoyW0SO4j-_FhSei2g56OlCA,32607
+ensaio/_version.py,sha256=hcrSZpm32-S6qUPArfumwytdGcUZS6H47iETmJLTQGc,524
+ensaio/_version_generated.py,sha256=akvr8ObxvMF-aaLBzW41juT4_KL3BjQUrjbwkIuQXMk,411
+ensaio/tests/__init__.py,sha256=b1PmpQSYo_kL6Oqmvq6Ekgb781n-neMYDy7wjMpLDb8,226
+ensaio/tests/test_fetchers.py,sha256=smvZBvURBmeLpZcOOdtQM_99W3SVA-kMck5byKl-9G8,3393
+ensaio-0.7.0.dist-info/AUTHORS.md,sha256=RITChSxEVfb2yc_GK_JavBlfdUMmuU6UFnLKC34cE5o,772
+ensaio-0.7.0.dist-info/LICENSE.txt,sha256=y5oBOhE0BJHhwR4Xa0eDBBsajAKvNpvALqcMITCPfYY,1496
+ensaio-0.7.0.dist-info/METADATA,sha256=zp_NBvycm1v48vOiLC80rxFfFrPZxYgkfbIFQZlkCTM,5916
+ensaio-0.7.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ensaio-0.7.0.dist-info/top_level.txt,sha256=rsIGB5Zf8EEB1LmMUCJceJMNIN8spmsVoi79zgtN0BM,7
+ensaio-0.7.0.dist-info/RECORD,,
