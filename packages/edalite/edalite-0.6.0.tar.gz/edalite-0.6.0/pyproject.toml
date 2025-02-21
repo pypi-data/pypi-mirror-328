@@ -1,0 +1,19 @@
+[project]
+name = "edalite"
+version = "0.6.0"
+description = "for event driven architecture"
+authors = [
+    {name = "hyeonho cho",email = "111675679+aesthetics-of-record@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "redis[hiredis] (>=5.2.1,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "edalite"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
