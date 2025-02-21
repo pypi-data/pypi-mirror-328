@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+acs_sdk/__init__.py
+acs_sdk.egg-info/PKG-INFO
+acs_sdk.egg-info/SOURCES.txt
+acs_sdk.egg-info/dependency_links.txt
+acs_sdk.egg-info/requires.txt
+acs_sdk.egg-info/top_level.txt
+acs_sdk/client/__init__.py
+acs_sdk/client/client.py
+acs_sdk/client/exceptions.py
+acs_sdk/client/retry.py
+acs_sdk/client/types.py
