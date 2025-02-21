@@ -1,0 +1,16 @@
+urdf2mjcf/__init__.py,sha256=JtQHxrURheEwpYER6qlTjSrfSA8CArVUDNdRxNZ93x0,73
+urdf2mjcf/convert.py,sha256=UqAnhUlF0AhX89DBmAn5p5FtAClv5Sn7A-mC9G-d3FU,31858
+urdf2mjcf/model.py,sha256=hva0egVOjG4MSSzeFbgwd2R5rkP4l8mEFr-aWULupnY,1488
+urdf2mjcf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2mjcf/utils.py,sha256=sZv0quOsof5tFCwjF2x6Ovb_cUuiEiBDyu1C0ugkejQ,2362
+urdf2mjcf/postprocess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2mjcf/postprocess/add_sensors.py,sha256=oedJbMvaF_OKIBY4uV9WHrncHmX9POv31-08e2IVbUM,5108
+urdf2mjcf/postprocess/base_joint.py,sha256=Z-OPOh6y33LXJ9g-f5i502FLz302MVy6ts-_CTTEaaU,2201
+urdf2mjcf/postprocess/make_feet_spheres.py,sha256=JpwGWKww_ikrROkqmf7i5ym7y8t7czPBV6XdW8pMtb4,9238
+urdf2mjcf/postprocess/remove_redundancies.py,sha256=RubhGuhIlj22E0du-qO5oP8ihgO0DONFhwxFvIDufHw,4056
+urdf2mjcf-0.2.13.dist-info/LICENSE,sha256=HCN2bImAzUOXldAZZI7JZ9PYq6OwMlDAP_PpX1HnuN0,1071
+urdf2mjcf-0.2.13.dist-info/METADATA,sha256=yRNiVXzhryW-S3kNevRKOar5xfCGIbQOJ4mIlqeTDQI,2027
+urdf2mjcf-0.2.13.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+urdf2mjcf-0.2.13.dist-info/entry_points.txt,sha256=JRhYH1BW3HEFcH8uGsBghQJnyWJZTmoKKSuLB30Xems,53
+urdf2mjcf-0.2.13.dist-info/top_level.txt,sha256=f8OZ0LCcyziJuWTvznb7kn6wtMS3gxKLE6vjrAcup4A,10
+urdf2mjcf-0.2.13.dist-info/RECORD,,
