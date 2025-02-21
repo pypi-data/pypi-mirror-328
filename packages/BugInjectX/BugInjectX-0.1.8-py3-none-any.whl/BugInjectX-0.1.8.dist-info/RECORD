@@ -1,0 +1,11 @@
+buginjectx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buginjectx/comparer.py,sha256=nt_bP0bDRdgXj1ONNL_Hkr9zpnLFrmdAey5d4Z-UhcU,4279
+buginjectx/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buginjectx/injector.py,sha256=S3iZkBCT4ZnLvcYhwabK_5cY-_aShsLNWbPYw9vRoEY,4368
+buginjectx/main.py,sha256=dnjz94ztygVeOi3ymdEEDrOOZHFOmPz_zUfzUoWAL9k,4430
+BugInjectX-0.1.8.dist-info/LICENSE.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BugInjectX-0.1.8.dist-info/METADATA,sha256=SIivWiTiCk34xTCox5_U9wFUnlDow6f1kiZgmWtb9Sg,6457
+BugInjectX-0.1.8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+BugInjectX-0.1.8.dist-info/entry_points.txt,sha256=7qO-wS1X109jQLdxyEvY9NsvlKEDJB3w62Er9CzN16E,51
+BugInjectX-0.1.8.dist-info/top_level.txt,sha256=66snhIcTs2yFJwz8PRGZ56Ikv5tKOXdPBWe79Di0QPE,11
+BugInjectX-0.1.8.dist-info/RECORD,,
