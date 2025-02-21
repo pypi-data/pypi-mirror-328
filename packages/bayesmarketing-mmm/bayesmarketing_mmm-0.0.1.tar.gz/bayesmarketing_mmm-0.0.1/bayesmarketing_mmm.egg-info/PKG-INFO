@@ -1,0 +1,56 @@
+Metadata-Version: 2.2
+Name: bayesmarketing_mmm
+Version: 0.0.1
+Summary: Bayesian Marketing Mix Modeling Library using NumPyro
+Author: Veeramuthu Balakrishnan
+Author-email: v.balak@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+License-File: LICENCE.txt
+Requires-Dist: numpyro
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: arviz
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+BayesMarketing - Bayesian Marketing Mix Modeling Library
+========================================================
+
+BayesMarketing is an advanced probabilistic Python library for marketing analytics, 
+leveraging Bayesian inference with NumPyro.
+
+Features:
+- Marketing Mix Modeling (MMM) with Carryover & Saturation Effects
+- Bayesian Multi-Armed Bandit for Ad Spend Optimization
+- Customer Lifetime Value (CLV) Estimation
+- Bayesian Ad Conversion Rate Optimization
+- Bayesian Demand Forecasting with Hierarchical & Non-Stationary Models
+- Model Validation, Posterior Predictive Checks, and Pareto k Diagnostics
+
+Installation:
+```
+pip install bayesmarketing
+```
+
+Usage Example:
+```python
+from bayesmarketing.models import advanced_mmm
+advanced_mmm.run_advanced_mmm()
+```
