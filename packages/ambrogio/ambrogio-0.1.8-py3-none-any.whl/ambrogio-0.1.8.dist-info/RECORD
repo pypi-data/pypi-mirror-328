@@ -1,0 +1,13 @@
+ambrogio/__init__.py,sha256=UawTFvLZfa4Gs8tl-_fXoBg575sVCwLHviiDhGZzq-k,132
+ambrogio/__main__.py,sha256=wF7yEix9oTECowRW0kJurdXDMMJ6xn9-dUhnK2T3fqQ,4810
+ambrogio/ambr_docstring/__init__.py,sha256=rtnha4UYXUFGWSwle68mynfpXd_i4MmUisn_eyFZpyY,200
+ambrogio/ambr_docstring/ambr_docstring.py,sha256=TrAkEmu_Boyc8SlhXNWwnrfNNALnSOXLK0djVhkqKUA,9360
+ambrogio/ambr_docstring/node_collector.py,sha256=Ad_OsUONjuU24CXchOwVp-Nl6CVrWIoJ4Mkm-XEXEV0,1758
+ambrogio/repo_manager/__init__.py,sha256=3jPFvGW0d8PWSVkidICVwKc6Iw8_sWVoVQXyTH-En5o,134
+ambrogio/repo_manager/file_getter.py,sha256=DUr2vRB4qDgkec1HwpLi27VQVCD9tHoG5sg4P-SkH14,3489
+ambrogio/repo_manager/repo_manager.py,sha256=6RN71sLh-li-GgK1Xw8GOGbETR4UFu3RmHKgP3OaVZU,5072
+ambrogio-0.1.8.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ambrogio-0.1.8.dist-info/METADATA,sha256=obyksprWvf6W8Pb0NCDrw8ncGbaiKlGAkJa0Gkv3jQ8,3770
+ambrogio-0.1.8.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+ambrogio-0.1.8.dist-info/entry_points.txt,sha256=JMLuGIalujKWiW0S1djA0YVxTg5Ya16Flmzgq-xyY-o,51
+ambrogio-0.1.8.dist-info/RECORD,,
