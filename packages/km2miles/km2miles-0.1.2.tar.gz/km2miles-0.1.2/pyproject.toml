@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+keywords = ["kilometers", "miles", "converter", "distance", "unit conversion"]
+name = "km2miles"
+version = "0.1.2"
+description = "A simple package to convert kilometers to miles"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ali Beg", email = "mbeg937@gmail.com"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Ali-Beg/km2miles"
+Repository = "https://github.com/Ali-Beg/km2miles"
