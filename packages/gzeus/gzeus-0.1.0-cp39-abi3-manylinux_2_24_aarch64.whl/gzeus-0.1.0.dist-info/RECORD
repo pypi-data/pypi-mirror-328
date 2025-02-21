@@ -1,0 +1,8 @@
+gzeus-0.1.0.dist-info/METADATA,sha256=ZQpQUO-3eLSex8jAjexH2RHh_MjS4SzeI8YPcGVexN8,5086
+gzeus-0.1.0.dist-info/WHEEL,sha256=HrSEtqaDV_D3g4aiWD8GGsZm3m92BknrqjOnxibQHdQ,107
+gzeus-0.1.0.dist-info/licenses/LICENSE.txt,sha256=V6Bzi0Mwpg-EUCQDh5kgcUPJMfnUR4jfH6FZyNrU2-Y,1062
+gzeus/chunker.py,sha256=54lcGEx6rdX9apZUron1JU1YOJQ839-1STxCtSDcx8U,6227
+gzeus/__init__.py,sha256=zyAHWHkpzPjeMoDBqzBfaamHhc0BVqK2VpSRa-Tz2_I,2285
+gzeus/utils.py,sha256=49GnawqWAURNWFDcevO5umhS0kVlCWsBwOq9-LAvl0I,717
+gzeus/_gzeus.abi3.so,sha256=JKjZwcIiGX0ve3Zwhc8yhwGKh-CgdMvjbJfv5YkIOSU,496616
+gzeus-0.1.0.dist-info/RECORD,,
