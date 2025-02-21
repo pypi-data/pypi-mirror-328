@@ -1,0 +1,143 @@
+# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+from typing import Union, Optional
+from typing_extensions import Literal, TypeAlias
+
+from ..._models import BaseModel
+from .base_strategy import BaseStrategy
+
+__all__ = ["Strategy", "VwapStrategy", "TwapStrategy", "ApStrategy", "PovStrategy", "DarkStrategy", "DmaStrategy"]
+
+
+class VwapStrategy(BaseStrategy):
+    max_percent: Optional[int] = None
+    """The maximum percentage of market volume.
+
+    Must be an integer between 0 and 50 (inclusive).
+    """
+
+    min_percent: Optional[int] = None
+    """The minimum percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+
+class TwapStrategy(BaseStrategy):
+    max_percent: Optional[int] = None
+    """The maximum percentage of market volume.
+
+    Must be an integer between 0 and 50 (inclusive).
+    """
+
+    min_percent: Optional[int] = None
+    """The minimum percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+
+class ApStrategy(BaseStrategy):
+    max_percent: Optional[int] = None
+    """The maximum percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+    min_percent: Optional[int] = None
+    """The minimum percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+
+class PovStrategy(BaseStrategy):
+    target_percent: int
+    """The target percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+
+class DarkStrategy(BaseStrategy):
+    max_percent: Optional[int] = None
+    """The maximum percentage of market volume.
+
+    Must be an integer between 0 and 100 (inclusive).
+    """
+
+
+class DmaStrategy(BaseModel):
+    destination: Literal[
+        "arcx", "bats", "baty", "edga", "edgx", "eprl", "iexg", "memx", "xase", "xbos", "xcis", "xnms", "xnys"
+    ]
+    """Order Destination.
+
+    <table><thead>
+    <tr>
+    <th>MIC</th>
+    <th>Exchange</th>
+    </tr></thead>
+    <tbody>
+    <tr>
+    <td>ARCX</td>
+    <td>NYSE ARCA</td>
+    </tr>
+    <tr>
+    <td>BATS</td>
+    <td>BATS Exchange</td>
+    </tr>
+    <tr>
+    <td>BATY</td>
+    <td>BATS Y Exchange</td>
+    </tr>
+    <tr>
+    <td>EDGA</td>
+    <td>EDGA Exchange</td>
+    </tr>
+    <tr>
+    <td>EDGX</td>
+    <td>EDGX Exchange</td>
+    </tr>
+    <tr>
+    <td>EPRL</td>
+    <td>MIAX Pearl Equities</td>
+    </tr>
+    <tr>
+    <td>IEXG</td>
+    <td>Investors' Exchange</td>
+    </tr>
+    <tr>
+    <td>MEMX</td>
+    <td>Members' Exchange</td>
+    </tr>
+    <tr>
+    <td>XASE</td>
+    <td>NYSE American</td>
+    </tr>
+    <tr>
+    <td>XBOS</td>
+    <td>NASDAQ BX Exchange</td>
+    </tr>
+    <tr>
+    <td>XCIS</td>
+    <td>NYSE National</td>
+    </tr>
+    <tr>
+    <td>XNMS</td>
+    <td>NASDAQ/NMS (Global Market)</td>
+    </tr>
+    <tr>
+    <td>XNYS</td>
+    <td>New York Stock Exchange</td>
+    </tr>
+    </tbody></table>
+    """
+
+    type: Literal["sor", "dark", "ap", "pov", "twap", "vwap", "dma"]
+    """The type of strategy. This must be set to the respective strategy type."""
+
+
+Strategy: TypeAlias = Union[
+    BaseStrategy, VwapStrategy, TwapStrategy, ApStrategy, PovStrategy, DarkStrategy, DmaStrategy
+]
