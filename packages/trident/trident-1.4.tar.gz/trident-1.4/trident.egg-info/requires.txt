@@ -1,0 +1,9 @@
+numpy
+astropy
+matplotlib
+h5py
+scipy
+tqdm
+requests
+yt>=4.4
+yt_astro_analysis>=1.1.0
