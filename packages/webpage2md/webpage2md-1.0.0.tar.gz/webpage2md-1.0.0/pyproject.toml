@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "webpage2md"
+version = "1.0.0"
+description = "Convert HTML files and web pages to Markdown format"
+readme = "README.md"
+authors = [{ name = "Neal Caren", email = "neal.caren@unc.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["html", "markdown", "converter", "web", "scraping", "html-to-markdown"]
+dependencies = [
+    "pypandoc",
+    "pytest-playwright",
+    "beautifulsoup4",
+    "httpx",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/nealcaren/webpage2md"
+
+[project.scripts]
+webpage2md = "webpage2md:main"
