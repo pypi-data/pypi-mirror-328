@@ -1,0 +1,2 @@
+[console_scripts]
+facetrackr = facetrackr.main:main

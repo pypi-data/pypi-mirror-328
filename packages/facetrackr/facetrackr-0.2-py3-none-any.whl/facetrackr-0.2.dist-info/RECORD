@@ -1,0 +1,9 @@
+facetrackr/__init__.py,sha256=nnp1Qv8-HSXZQvQ87RPXsslLEeTO2AEdVzZauBLwCmE,191
+facetrackr/config.py,sha256=dX9PlGGFTqoPoeUc6b2JxQjvu6RdJSXPdQwMa85bJYY,586
+facetrackr/face_collection.py,sha256=TtoJJhgP5jEtvcljTYxEso1KeKitJo2eX9LrOhfTzpg,1365
+facetrackr/video_processing.py,sha256=xSl5AxspUZjrbecGKLTIGFh43YEUdbM_n1oDEBdQY9Q,2873
+facetrackr-0.2.dist-info/METADATA,sha256=xEjcwrZGCPfODkvLG0rJtpdqCqze8zBp7d1B0RkRtHU,3265
+facetrackr-0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+facetrackr-0.2.dist-info/entry_points.txt,sha256=jy-FFaYL18Dm6wcC-bSVAnlSZlgPkpX1itaMEA-xKhE,52
+facetrackr-0.2.dist-info/top_level.txt,sha256=5KK8GiZrF0S-TJ1Ks-_1blnqfa6zl1jdijgIY_8ECa4,11
+facetrackr-0.2.dist-info/RECORD,,
