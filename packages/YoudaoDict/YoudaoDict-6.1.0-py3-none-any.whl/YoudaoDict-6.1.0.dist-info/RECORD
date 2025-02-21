@@ -1,0 +1,15 @@
+youdao/__init__.py,sha256=szTkXoVbLtrlRBnD1wysvbMDWdrLbSihMgkEfXztgf4,47
+youdao/cmd.py,sha256=emBFsQabTknWZIlh_AHFqE4oUkPkp_KoBgdDNL5ugJI,2954
+youdao/config.py,sha256=wkzxCaV6LfVkmB6kegypiPxITwFB6S2yuHCaPgDZpoY,23
+youdao/customizer.py,sha256=pKiTJq3RJieculelCPVsbNlV7kV-18xJHmUY1bXeSzs,688
+youdao/query.py,sha256=TGUdJ5f41LbQUujtp4wUOfx4C6CF_E-Q6gmcxVyZFWo,4520
+youdao/racer.py,sha256=y-kWWbSu2nYpj3f1M0sL2vUtq2urT_ujK_H6OUm9gLc,1416
+youdao/serve.py,sha256=WMMAsa_7PWCLLkK4qq9eoxdCblsaKzisNFC03MhPi4o,703
+youdao/spider.py,sha256=jmkOLCUiY4GefxxmHwQih4QxtFHX_yMd3WE8sVNa0wQ,4648
+youdao/storage.py,sha256=U0aPWINgzcVSJN4jV4wsWKot_i-RAMU4mWykCAUkf6Y,2873
+YoudaoDict-6.1.0.dist-info/LICENSE,sha256=8D0f1YD4bjA5qNWbt1529dsyBn-ec43J8xmKMUk6DTY,1082
+YoudaoDict-6.1.0.dist-info/METADATA,sha256=UCeCrg1YE3MvN06MtuqCWlBSRtcIdRbzOclZ2Q6-vMA,11917
+YoudaoDict-6.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+YoudaoDict-6.1.0.dist-info/entry_points.txt,sha256=NgmeZiQxLLJzB4zH52juDR0k68f2Np1k30lyMRoDcTw,72
+YoudaoDict-6.1.0.dist-info/top_level.txt,sha256=tbrK95YETh4WRFXV9u5auHspR4hjp0ZlqQNUrfJ_aUc,7
+YoudaoDict-6.1.0.dist-info/RECORD,,
