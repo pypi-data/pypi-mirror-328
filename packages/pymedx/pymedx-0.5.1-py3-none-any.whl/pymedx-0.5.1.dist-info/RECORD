@@ -1,0 +1,9 @@
+pymedx/__init__.py,sha256=5oeksGXHGjvwv_ZFkTObpmb8sWSUIzwz-_hyClBvzrQ,504
+pymedx/api.py,sha256=Vd3GIo3iyVo0WUazYQuaLOaV1MXP8a8ITeKnjqDF3Es,20343
+pymedx/article.py,sha256=1auHpggJYawMPIrEaDGmqy5iLdM2UrcHJP14mJsMq58,13157
+pymedx/book.py,sha256=rri9KRSoeIRUPkbIXK2nscu8xLAC6-ZyCdL8z0ldqko,5868
+pymedx/helpers.py,sha256=IUzhwePNBSI4jR3aJq7MNj-nuF22ntMuVUitd16gors,11671
+pymedx-0.5.1.dist-info/LICENCE,sha256=oCe3uY7-SNl7r_bjkGj0dBixGHH2Dn0zcJ_Nw7iwcnU,1068
+pymedx-0.5.1.dist-info/METADATA,sha256=TGIfs4FyR9_FvAHILXR41u5qMNXdBXNbkHnNk2Aqvkk,2760
+pymedx-0.5.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+pymedx-0.5.1.dist-info/RECORD,,
