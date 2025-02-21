@@ -1,0 +1,9 @@
+mimedetector/__init__.py,sha256=l4PXsLVaHgNB08Km-TtMRDWNrO4jZoKuiv0_Qf90I0Q,112
+mimedetector/core.py,sha256=lX5qzvRLnV06XmgqHPIYdBvNE_OYJmyko-rO_FwAFxc,4239
+mimedetector/i18n/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mimedetector/i18n/en.py,sha256=c9KAYiITjeNHvoMPSBU40InWcsMgr0w3dcdfMzxWaHM,152
+mimedetector/i18n/it.py,sha256=jGED89aU9ilMnFwGgAJqRJdj4k2QVybQpSzqB9y5aLE,172
+mimedetector-0.1.0.dist-info/METADATA,sha256=Upp6lypHkx1SnvRO6h7GPd7u4PM4eVWhUUg6F2b1080,1585
+mimedetector-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mimedetector-0.1.0.dist-info/licenses/LICENSE,sha256=rq0ric2R7qYMkxExrCj6sXBI2xoSvY1ajW3L-0BKQrE,1073
+mimedetector-0.1.0.dist-info/RECORD,,
