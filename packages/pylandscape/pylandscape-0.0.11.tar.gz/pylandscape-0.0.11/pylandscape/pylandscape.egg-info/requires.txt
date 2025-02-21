@@ -1,0 +1,9 @@
+torch
+numpy
+pandas
+scipy
+tqdm
+PyHessian
+
+[dev]
+twine>=4.0.2

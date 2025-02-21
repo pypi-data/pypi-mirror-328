@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pylandscape/pylandscape.egg-info/PKG-INFO
+pylandscape/pylandscape.egg-info/SOURCES.txt
+pylandscape/pylandscape.egg-info/dependency_links.txt
+pylandscape/pylandscape.egg-info/requires.txt
+pylandscape/pylandscape.egg-info/top_level.txt
