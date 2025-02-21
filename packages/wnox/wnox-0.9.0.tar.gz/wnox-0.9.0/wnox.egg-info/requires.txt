@@ -1,0 +1,4 @@
+slixmpp
+bson
+python-dotenv
+pymongo
