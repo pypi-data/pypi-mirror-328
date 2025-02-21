@@ -1,0 +1,9 @@
+numpy
+sentence-transformers
+pinecone-client
+
+[cpu]
+faiss-cpu
+
+[gpu]
+faiss-gpu
