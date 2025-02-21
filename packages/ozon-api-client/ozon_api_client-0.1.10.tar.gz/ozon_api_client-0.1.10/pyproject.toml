@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ozon-api-client"
+version = "0.1.10"
+description = ""
+authors = ["letby <fvahit@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "ozon_api_client"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+certifi = "14.05.14"
+six = "1.10"
+python-dateutil = "2.5.3"
+setuptools = "21.0.0"
+urllib3 = "1.15.1"
+ruamel-yaml = "^0.18.10"
+transliterate = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
