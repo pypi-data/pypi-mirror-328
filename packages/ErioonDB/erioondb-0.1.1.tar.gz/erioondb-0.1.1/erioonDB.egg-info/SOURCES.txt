@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+erioonDB.egg-info/PKG-INFO
+erioonDB.egg-info/SOURCES.txt
+erioonDB.egg-info/dependency_links.txt
+erioonDB.egg-info/top_level.txt
