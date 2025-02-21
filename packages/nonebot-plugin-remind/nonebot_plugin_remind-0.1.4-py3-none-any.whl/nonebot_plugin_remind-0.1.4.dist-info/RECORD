@@ -1,0 +1,11 @@
+nonebot_plugin_remind/__init__.py,sha256=nfWM27du_4wiKRMujnZ7JKm5-YDmWCq-HGdbMmo81B4,22978
+nonebot_plugin_remind/common.py,sha256=7QM21ln9_mqqbU_aOlag8Bb82-oc-SHpgWIrEQ4bZHo,330
+nonebot_plugin_remind/config.py,sha256=7m0n-IxE-HauzV_PVSeoMVP61tNawWwUmCk-KlIgzlQ,295
+nonebot_plugin_remind/data_sourse.py,sha256=exfjr1EWD8IKKNTYj8wNKHZGu5gu7FfEmzTd0C_200Y,6105
+nonebot_plugin_remind/glm4.py,sha256=jLyeaNy_0-JqLjXTr6MqVpjPQD_VEYqQdEt1RUZmguI,2688
+nonebot_plugin_remind/parse.py,sha256=02_09sLYC-G7lDMCiNJxn0-VliLyGaOZ2hgAPRooX_w,5384
+nonebot_plugin_remind/utils.py,sha256=L8H8sJmLa3ornS1IfgpmQ3RXsWWVfIwZWMSfHBez8g0,6778
+nonebot_plugin_remind-0.1.4.dist-info/LICENSE,sha256=iWpGU03fRGfEdTCSlOKaBO3WZbDO2H982kDd8lC3ja4,1063
+nonebot_plugin_remind-0.1.4.dist-info/METADATA,sha256=Q_iwMmqpyu29UDlxqTlbiNLEv_0j-COUgelZIjMn3Tg,8484
+nonebot_plugin_remind-0.1.4.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+nonebot_plugin_remind-0.1.4.dist-info/RECORD,,
