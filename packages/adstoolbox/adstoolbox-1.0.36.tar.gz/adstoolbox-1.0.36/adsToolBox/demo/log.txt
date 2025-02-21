@@ -1,0 +1,793 @@
+2025-02-19 09:35:17,907 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:35:18,124 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:35:18,124 - AdsLogger - INFO - Temps d'exécution de connect: 0.2176 secondes.
+2025-02-19 09:35:18,172 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:35:18,173 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:35:18,174 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0487 secondes
+2025-02-19 09:35:18,174 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:35:18,388 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:35:18,390 - AdsLogger - INFO - Temps d'exécution de connect: 0.2165 secondes.
+2025-02-19 09:35:18,391 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:35:18,435 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:35:18,435 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0442 secondes.
+2025-02-19 09:35:18,435 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:35:18,435 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2617 secondes.
+2025-02-19 09:35:18,678 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:35:18,678 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:35:18,921 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:35:23,024 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 10000/10000 ligne(s).
+2025-02-19 09:35:23,024 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-02-19 09:35:26,767 - AdsLogger - INFO - Batch 2: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 20000/20000 ligne(s).
+2025-02-19 09:35:26,767 - AdsLogger - INFO - 20000 ligne(s) lue(s).
+2025-02-19 09:35:30,466 - AdsLogger - INFO - Batch 3: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 30000/30000 ligne(s).
+2025-02-19 09:35:30,466 - AdsLogger - INFO - 30000 ligne(s) lue(s).
+2025-02-19 09:35:34,505 - AdsLogger - INFO - Batch 4: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 40000/40000 ligne(s).
+2025-02-19 09:35:34,505 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-19 09:35:38,605 - AdsLogger - INFO - Batch 5: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 50000/50000 ligne(s).
+2025-02-19 09:35:38,605 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:35:42,266 - AdsLogger - INFO - Batch 6: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 60000/60000 ligne(s).
+2025-02-19 09:35:42,266 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-19 09:35:45,906 - AdsLogger - INFO - Batch 7: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 70000/70000 ligne(s).
+2025-02-19 09:35:45,906 - AdsLogger - INFO - 70000 ligne(s) lue(s).
+2025-02-19 09:35:49,466 - AdsLogger - INFO - Batch 8: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 80000/80000 ligne(s).
+2025-02-19 09:35:49,467 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-19 09:35:53,125 - AdsLogger - INFO - Batch 9: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 90000/90000 ligne(s).
+2025-02-19 09:35:53,125 - AdsLogger - INFO - 90000 ligne(s) lue(s).
+2025-02-19 09:35:56,749 - AdsLogger - INFO - Batch 10: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 100000/100000 ligne(s).
+2025-02-19 09:35:56,749 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:36:00,297 - AdsLogger - INFO - Batch 11: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 110000/110000 ligne(s).
+2025-02-19 09:36:00,297 - AdsLogger - INFO - 110000 ligne(s) lue(s).
+2025-02-19 09:36:04,055 - AdsLogger - INFO - Batch 12: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 120000/120000 ligne(s).
+2025-02-19 09:36:04,055 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-19 09:36:07,875 - AdsLogger - INFO - Batch 13: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 130000/130000 ligne(s).
+2025-02-19 09:36:07,875 - AdsLogger - INFO - 130000 ligne(s) lue(s).
+2025-02-19 09:36:11,459 - AdsLogger - INFO - Batch 14: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 140000/140000 ligne(s).
+2025-02-19 09:36:11,459 - AdsLogger - INFO - 140000 ligne(s) lue(s).
+2025-02-19 09:36:15,013 - AdsLogger - INFO - Batch 15: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 150000/150000 ligne(s).
+2025-02-19 09:36:15,013 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:36:18,699 - AdsLogger - INFO - Batch 16: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 160000/160000 ligne(s).
+2025-02-19 09:36:18,699 - AdsLogger - INFO - 160000 ligne(s) lue(s).
+2025-02-19 09:36:22,487 - AdsLogger - INFO - Batch 17: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 170000/170000 ligne(s).
+2025-02-19 09:36:22,487 - AdsLogger - INFO - 170000 ligne(s) lue(s).
+2025-02-19 09:36:26,150 - AdsLogger - INFO - Batch 18: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 180000/180000 ligne(s).
+2025-02-19 09:36:26,150 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-19 09:36:29,793 - AdsLogger - INFO - Batch 19: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 190000/190000 ligne(s).
+2025-02-19 09:36:29,793 - AdsLogger - INFO - 190000 ligne(s) lue(s).
+2025-02-19 09:36:33,371 - AdsLogger - INFO - Batch 20: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 200000/200000 ligne(s).
+2025-02-19 09:36:33,371 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:36:37,018 - AdsLogger - INFO - Batch 21: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 210000/210000 ligne(s).
+2025-02-19 09:36:37,018 - AdsLogger - INFO - 210000 ligne(s) lue(s).
+2025-02-19 09:36:41,726 - AdsLogger - INFO - Batch 22: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 220000/220000 ligne(s).
+2025-02-19 09:36:41,726 - AdsLogger - INFO - 220000 ligne(s) lue(s).
+2025-02-19 09:36:45,489 - AdsLogger - INFO - Batch 23: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 230000/230000 ligne(s).
+2025-02-19 09:36:45,489 - AdsLogger - INFO - 230000 ligne(s) lue(s).
+2025-02-19 09:36:49,017 - AdsLogger - INFO - Batch 24: 10000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 240000/240000 ligne(s).
+2025-02-19 09:36:49,018 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-19 09:36:51,804 - AdsLogger - INFO - Batch 25: 7950 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 247950/247950 ligne(s).
+2025-02-19 09:36:51,804 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:36:51,804 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 92.9226 secondes
+2025-02-19 09:36:51,866 - AdsLogger - INFO - Temps d'exécution de run: 93.4312 secondes.
+2025-02-19 09:37:19,524 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:37:19,789 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:37:19,789 - AdsLogger - INFO - Temps d'exécution de connect: 0.2654 secondes.
+2025-02-19 09:37:19,806 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:37:19,807 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:37:19,807 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0176 secondes
+2025-02-19 09:37:19,807 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:37:20,033 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:37:20,033 - AdsLogger - INFO - Temps d'exécution de connect: 0.2263 secondes.
+2025-02-19 09:37:20,034 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:37:20,087 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:37:20,087 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0530 secondes.
+2025-02-19 09:37:20,087 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:37:20,087 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2797 secondes.
+2025-02-19 09:37:20,295 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:37:20,295 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:37:20,485 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:37:21,199 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:21,199 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:37:21,199 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:21,598 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:37:22,235 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:22,235 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:37:22,235 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:22,235 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:37:22,891 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:22,892 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:37:22,892 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:22,892 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:37:23,535 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:23,535 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:37:23,535 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:23,535 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:37:24,181 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:24,181 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:37:24,181 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:37:24,181 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:37:24,181 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.7109 secondes
+2025-02-19 09:37:24,181 - AdsLogger - INFO - Temps d'exécution de run: 4.0945 secondes.
+2025-02-19 09:51:31,204 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:51:31,510 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:51:31,510 - AdsLogger - INFO - Temps d'exécution de connect: 0.3062 secondes.
+2025-02-19 09:51:31,525 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:51:31,526 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:51:31,526 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0157 secondes
+2025-02-19 09:51:31,526 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:51:31,738 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:51:31,738 - AdsLogger - INFO - Temps d'exécution de connect: 0.2120 secondes.
+2025-02-19 09:51:31,739 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:51:31,781 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:51:31,782 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0427 secondes.
+2025-02-19 09:51:31,782 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:51:31,782 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2554 secondes.
+2025-02-19 09:51:31,972 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:51:31,972 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:51:32,142 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:51:32,846 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:32,846 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:51:32,846 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:33,258 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:51:33,913 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:33,913 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:51:33,913 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:33,913 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:51:34,576 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:34,576 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:51:34,576 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:34,576 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:51:35,237 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:35,237 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:51:35,237 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:35,237 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:51:35,985 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:35,985 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:51:35,985 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:51:35,985 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:51:35,985 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.8615 secondes
+2025-02-19 09:51:35,985 - AdsLogger - INFO - Temps d'exécution de run: 4.2036 secondes.
+2025-02-19 09:52:00,816 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:52:01,149 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:52:01,149 - AdsLogger - INFO - Temps d'exécution de connect: 0.3331 secondes.
+2025-02-19 09:52:01,162 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:52:01,163 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:52:01,165 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0148 secondes
+2025-02-19 09:52:01,165 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:52:01,361 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:52:01,361 - AdsLogger - INFO - Temps d'exécution de connect: 0.1963 secondes.
+2025-02-19 09:52:01,361 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:52:01,397 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:52:01,397 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0366 secondes.
+2025-02-19 09:52:01,397 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:52:01,397 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2333 secondes.
+2025-02-19 09:52:01,566 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:52:01,566 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:52:01,724 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:52:02,447 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:02,447 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:02,447 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:02,450 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:52:03,141 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:03,141 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:03,141 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:03,141 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:52:03,824 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:03,824 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:03,824 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:03,824 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:52:04,514 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:04,515 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:04,515 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:04,515 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:52:05,195 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:05,195 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:05,195 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:05,195 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:52:05,195 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4820 secondes
+2025-02-19 09:52:05,195 - AdsLogger - INFO - Temps d'exécution de run: 3.7976 secondes.
+2025-02-19 09:52:47,015 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:52:47,192 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:52:47,192 - AdsLogger - INFO - Temps d'exécution de connect: 0.1774 secondes.
+2025-02-19 09:52:47,206 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:52:47,206 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:52:47,206 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0137 secondes
+2025-02-19 09:52:47,206 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:52:47,381 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:52:47,381 - AdsLogger - INFO - Temps d'exécution de connect: 0.1751 secondes.
+2025-02-19 09:52:47,381 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:52:47,420 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:52:47,420 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0386 secondes.
+2025-02-19 09:52:47,420 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:52:47,420 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2140 secondes.
+2025-02-19 09:52:47,600 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:52:47,600 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:52:47,750 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:52:48,493 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:48,493 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:48,493 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:48,497 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:52:49,184 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:49,184 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:49,184 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:49,185 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:52:49,870 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:49,871 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:49,871 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:49,871 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:52:50,561 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:50,562 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:50,562 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:50,562 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:52:51,191 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:51,191 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:52:51,191 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:52:51,191 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:52:51,191 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4511 secondes
+2025-02-19 09:52:51,191 - AdsLogger - INFO - Temps d'exécution de run: 3.7712 secondes.
+2025-02-19 09:53:14,173 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:53:14,415 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:53:14,415 - AdsLogger - INFO - Temps d'exécution de connect: 0.2427 secondes.
+2025-02-19 09:53:14,431 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:53:14,432 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:53:14,432 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0162 secondes
+2025-02-19 09:53:14,432 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:53:14,778 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:53:14,778 - AdsLogger - INFO - Temps d'exécution de connect: 0.3460 secondes.
+2025-02-19 09:53:14,778 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:53:14,819 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:53:14,819 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0413 secondes.
+2025-02-19 09:53:14,819 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:53:14,819 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3875 secondes.
+2025-02-19 09:53:14,971 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:53:14,971 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:53:15,201 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:53:15,904 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:15,904 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:53:15,904 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:15,908 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:53:16,562 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:16,563 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:53:16,563 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:16,563 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:53:17,237 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:17,238 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:53:17,238 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:17,238 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:53:17,894 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:17,894 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:53:17,894 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:17,894 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:53:18,509 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:18,509 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:53:18,509 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:53:18,509 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:53:18,510 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.3212 secondes
+2025-02-19 09:53:18,510 - AdsLogger - INFO - Temps d'exécution de run: 3.6896 secondes.
+2025-02-19 09:55:05,387 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:55:05,615 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:55:05,615 - AdsLogger - INFO - Temps d'exécution de connect: 0.2277 secondes.
+2025-02-19 09:55:05,626 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:55:05,627 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:55:05,627 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0113 secondes
+2025-02-19 09:55:05,627 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:55:05,935 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:55:05,935 - AdsLogger - INFO - Temps d'exécution de connect: 0.3077 secondes.
+2025-02-19 09:55:05,935 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:55:05,981 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:55:05,981 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0464 secondes.
+2025-02-19 09:55:05,981 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:55:05,981 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3545 secondes.
+2025-02-19 09:55:06,158 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:55:06,158 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:55:06,335 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:55:07,075 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:07,075 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:07,075 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:07,078 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:55:07,722 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:07,722 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:07,722 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:07,722 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:55:08,430 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:08,430 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:08,430 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:08,430 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:55:09,111 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:09,112 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:09,112 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:09,112 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:55:09,785 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:09,786 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:09,786 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:09,786 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:55:09,786 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4685 secondes
+2025-02-19 09:55:09,786 - AdsLogger - INFO - Temps d'exécution de run: 3.8043 secondes.
+2025-02-19 09:55:28,866 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:55:29,051 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:55:29,051 - AdsLogger - INFO - Temps d'exécution de connect: 0.1846 secondes.
+2025-02-19 09:55:29,065 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:55:29,065 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:55:29,065 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0140 secondes
+2025-02-19 09:55:29,065 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:55:29,370 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:55:29,370 - AdsLogger - INFO - Temps d'exécution de connect: 0.3052 secondes.
+2025-02-19 09:55:29,370 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:55:29,436 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:55:29,436 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0652 secondes.
+2025-02-19 09:55:29,437 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:55:29,437 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3708 secondes.
+2025-02-19 09:55:29,634 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:55:29,634 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:55:29,816 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:55:30,595 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:30,595 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:30,595 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:30,598 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:55:31,283 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:31,283 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:31,283 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:31,283 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:55:32,102 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:32,102 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:32,102 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:32,102 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:55:32,794 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:32,794 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:32,794 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:32,794 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:55:33,526 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:33,526 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:55:33,526 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:55:33,526 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:55:33,526 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.7214 secondes
+2025-02-19 09:55:33,526 - AdsLogger - INFO - Temps d'exécution de run: 4.0906 secondes.
+2025-02-19 09:56:23,997 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:56:24,250 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:56:24,250 - AdsLogger - INFO - Temps d'exécution de connect: 0.2535 secondes.
+2025-02-19 09:56:24,286 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:56:24,287 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:56:24,287 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0368 secondes
+2025-02-19 09:56:24,288 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:56:24,511 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:56:24,512 - AdsLogger - INFO - Temps d'exécution de connect: 0.2237 secondes.
+2025-02-19 09:56:24,512 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:56:24,556 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:56:24,557 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0440 secondes.
+2025-02-19 09:56:24,557 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:56:24,557 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2681 secondes.
+2025-02-19 09:56:24,701 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:56:24,701 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:56:24,864 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:56:25,646 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:25,646 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:56:25,646 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:25,649 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:56:26,295 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:26,295 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:56:26,295 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:26,295 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:56:26,955 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:26,955 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:56:26,955 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:26,955 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:56:27,697 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:27,697 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:56:27,697 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:27,697 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:56:28,347 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:28,347 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:56:28,347 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:56:28,347 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:56:28,348 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4963 secondes
+2025-02-19 09:56:28,348 - AdsLogger - INFO - Temps d'exécution de run: 3.7913 secondes.
+2025-02-19 09:57:09,511 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:09,733 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:09,733 - AdsLogger - INFO - Temps d'exécution de connect: 0.2220 secondes.
+2025-02-19 09:57:09,746 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:57:09,746 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:57:09,746 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0131 secondes
+2025-02-19 09:57:09,747 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:09,896 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:09,896 - AdsLogger - INFO - Temps d'exécution de connect: 0.1502 secondes.
+2025-02-19 09:57:09,897 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:57:09,934 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:57:09,936 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0383 secondes.
+2025-02-19 09:57:09,936 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:57:09,936 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.1891 secondes.
+2025-02-19 09:57:10,167 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:57:10,167 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:57:10,360 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:57:11,146 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:11,146 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:11,146 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:11,150 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:57:11,813 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:11,813 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:11,813 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:11,815 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:57:12,661 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:12,661 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:12,661 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:12,661 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:57:13,388 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:13,388 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:13,388 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:13,389 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:57:14,055 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:14,056 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:14,056 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:14,056 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:57:14,056 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.7222 secondes
+2025-02-19 09:57:14,056 - AdsLogger - INFO - Temps d'exécution de run: 4.1206 secondes.
+2025-02-19 09:57:28,962 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:29,218 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:29,218 - AdsLogger - INFO - Temps d'exécution de connect: 0.2562 secondes.
+2025-02-19 09:57:29,230 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:57:29,231 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:57:29,231 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0129 secondes
+2025-02-19 09:57:29,231 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:29,450 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:29,451 - AdsLogger - INFO - Temps d'exécution de connect: 0.2185 secondes.
+2025-02-19 09:57:29,451 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:57:29,487 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:57:29,487 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0374 secondes.
+2025-02-19 09:57:29,488 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:57:29,488 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2561 secondes.
+2025-02-19 09:57:29,658 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:57:29,658 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:57:29,821 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:57:30,554 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:30,554 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:30,554 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:30,557 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:57:31,206 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:31,207 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:31,207 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:31,207 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:57:32,028 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:32,028 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:32,028 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:32,029 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:57:32,738 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:32,738 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:32,738 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:32,738 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:57:33,401 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:33,401 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:57:33,402 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:57:33,402 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:57:33,402 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.5957 secondes
+2025-02-19 09:57:33,402 - AdsLogger - INFO - Temps d'exécution de run: 3.9138 secondes.
+2025-02-19 09:57:58,510 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:58,899 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:58,899 - AdsLogger - INFO - Temps d'exécution de connect: 0.3887 secondes.
+2025-02-19 09:57:58,911 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:57:58,911 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:57:58,912 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0128 secondes
+2025-02-19 09:57:58,912 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:57:59,149 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:57:59,149 - AdsLogger - INFO - Temps d'exécution de connect: 0.2375 secondes.
+2025-02-19 09:57:59,149 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:57:59,197 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:57:59,197 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0483 secondes.
+2025-02-19 09:57:59,198 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:57:59,198 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2862 secondes.
+2025-02-19 09:57:59,376 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:57:59,377 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:57:59,598 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:58:00,388 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:00,388 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:58:00,388 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:00,391 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:58:01,182 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:01,182 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:58:01,182 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:01,182 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:58:01,904 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:01,904 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:58:01,904 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:01,905 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:58:02,652 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:02,652 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:58:02,652 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:02,653 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:58:03,312 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:03,312 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:58:03,312 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:58:03,313 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:58:03,313 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.7328 secondes
+2025-02-19 09:58:03,313 - AdsLogger - INFO - Temps d'exécution de run: 4.1144 secondes.
+2025-02-19 09:59:22,067 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:59:22,303 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:59:22,303 - AdsLogger - INFO - Temps d'exécution de connect: 0.2368 secondes.
+2025-02-19 09:59:22,323 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:59:22,323 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 09:59:22,323 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0197 secondes
+2025-02-19 09:59:22,324 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 09:59:22,492 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 09:59:22,492 - AdsLogger - INFO - Temps d'exécution de connect: 0.1687 secondes.
+2025-02-19 09:59:22,492 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 09:59:22,557 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 09:59:22,558 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0654 secondes.
+2025-02-19 09:59:22,558 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 09:59:22,558 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2346 secondes.
+2025-02-19 09:59:22,794 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 09:59:22,794 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 09:59:22,975 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 09:59:23,693 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:23,693 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:59:23,693 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:23,696 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 09:59:24,431 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:24,431 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:59:24,431 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:24,431 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 09:59:25,111 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:25,112 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:59:25,112 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:25,112 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 09:59:25,787 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:25,787 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:59:25,787 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:25,789 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 09:59:26,418 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:26,418 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 09:59:26,419 - AdsLogger - ERROR - **************************************************
+2025-02-19 09:59:26,419 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 09:59:26,419 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4623 secondes
+2025-02-19 09:59:26,419 - AdsLogger - INFO - Temps d'exécution de run: 3.8603 secondes.
+2025-02-19 10:06:47,372 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:06:47,583 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:06:47,583 - AdsLogger - INFO - Temps d'exécution de connect: 0.2110 secondes.
+2025-02-19 10:06:47,596 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:06:47,597 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:06:47,597 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0137 secondes
+2025-02-19 10:06:47,597 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:06:47,805 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:06:47,805 - AdsLogger - INFO - Temps d'exécution de connect: 0.2076 secondes.
+2025-02-19 10:06:47,805 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:06:47,856 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:06:47,856 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0506 secondes.
+2025-02-19 10:06:47,856 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:06:47,856 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2586 secondes.
+2025-02-19 10:06:48,026 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:06:48,026 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:06:48,186 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:06:48,999 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:48,999 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:06:49,000 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:49,003 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 10:06:49,670 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:49,670 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:06:49,670 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:49,670 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:06:50,368 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:50,368 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:06:50,368 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:50,368 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 10:06:52,365 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:52,365 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:06:52,365 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:52,366 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 10:06:54,469 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:54,469 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:06:54,469 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:06:54,470 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 10:06:54,470 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 6.2974 secondes
+2025-02-19 10:06:54,470 - AdsLogger - INFO - Temps d'exécution de run: 6.6134 secondes.
+2025-02-19 10:07:17,720 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:07:17,928 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:07:17,929 - AdsLogger - INFO - Temps d'exécution de connect: 0.2077 secondes.
+2025-02-19 10:07:17,940 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:07:17,940 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:07:17,941 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0120 secondes
+2025-02-19 10:07:17,941 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:07:18,100 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:07:18,100 - AdsLogger - INFO - Temps d'exécution de connect: 0.1594 secondes.
+2025-02-19 10:07:18,100 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:07:18,142 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:07:18,142 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0420 secondes.
+2025-02-19 10:07:18,142 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:07:18,142 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2019 secondes.
+2025-02-19 10:07:18,410 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:07:18,410 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:07:18,556 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:07:19,272 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:19,272 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:07:19,272 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:19,275 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 10:07:19,925 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:19,925 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "54" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:07:19,926 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:19,926 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:07:20,628 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:20,628 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:07:20,628 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:20,628 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 10:07:21,325 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:21,325 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:07:21,325 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:21,326 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 10:07:21,987 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:21,988 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:07:21,988 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:07:21,988 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 10:07:21,988 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 3.4423 secondes
+2025-02-19 10:07:21,988 - AdsLogger - INFO - Temps d'exécution de run: 3.8450 secondes.
+2025-02-19 10:08:27,289 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:08:27,497 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:08:27,497 - AdsLogger - INFO - Temps d'exécution de connect: 0.2084 secondes.
+2025-02-19 10:08:27,508 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:08:27,509 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:08:27,509 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0124 secondes
+2025-02-19 10:08:27,510 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:08:27,749 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:08:27,750 - AdsLogger - INFO - Temps d'exécution de connect: 0.2396 secondes.
+2025-02-19 10:08:27,750 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:08:27,799 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:08:27,799 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0494 secondes.
+2025-02-19 10:08:27,799 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:08:27,799 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2895 secondes.
+2025-02-19 10:08:27,981 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:08:27,981 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:08:28,210 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:08:29,221 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:08:29,221 - AdsLogger - ERROR - Échec de l'exécution du pipeline: dbMssql.insertBulk() got an unexpected keyword argument 'cols_def'
+2025-02-19 10:08:29,221 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:09:00,958 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:09:01,353 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:09:01,353 - AdsLogger - INFO - Temps d'exécution de connect: 0.3958 secondes.
+2025-02-19 10:09:01,365 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:09:01,365 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:09:01,365 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0112 secondes
+2025-02-19 10:09:01,365 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:09:01,541 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:09:01,541 - AdsLogger - INFO - Temps d'exécution de connect: 0.1766 secondes.
+2025-02-19 10:09:01,541 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:09:01,583 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:09:01,583 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0418 secondes.
+2025-02-19 10:09:01,583 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:09:01,583 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2186 secondes.
+2025-02-19 10:09:01,791 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:09:01,791 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:09:02,083 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:09:30,517 - AdsLogger - INFO - Batch 1: 50000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 50000/50000 ligne(s).
+2025-02-19 10:09:30,517 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 10:09:51,089 - AdsLogger - INFO - Batch 2: 50000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 100000/100000 ligne(s).
+2025-02-19 10:09:51,090 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:10:10,728 - AdsLogger - INFO - Batch 3: 50000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 150000/150000 ligne(s).
+2025-02-19 10:10:10,728 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-19 10:10:29,557 - AdsLogger - INFO - Batch 4: 50000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 200000/200000 ligne(s).
+2025-02-19 10:10:29,557 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 10:10:47,741 - AdsLogger - INFO - Batch 5: 47950 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 247950/247950 ligne(s).
+2025-02-19 10:10:47,741 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 10:10:47,741 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 105.7002 secondes
+2025-02-19 10:10:47,827 - AdsLogger - INFO - Temps d'exécution de run: 106.2434 secondes.
+2025-02-19 10:10:55,311 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:10:55,478 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:10:55,479 - AdsLogger - INFO - Temps d'exécution de connect: 0.1672 secondes.
+2025-02-19 10:10:55,492 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:10:55,492 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:10:55,493 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0136 secondes
+2025-02-19 10:10:55,493 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:10:55,682 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:10:55,682 - AdsLogger - INFO - Temps d'exécution de connect: 0.1889 secondes.
+2025-02-19 10:10:55,682 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:10:55,721 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:10:55,722 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0396 secondes.
+2025-02-19 10:10:55,722 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:10:55,722 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2293 secondes.
+2025-02-19 10:10:55,872 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:10:55,872 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:10:56,054 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:10:56,817 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:10:56,817 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "445" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:10:56,817 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:10:56,820 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-19 10:10:57,477 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:10:57,478 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:10:57,478 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:10:57,478 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:11:24,707 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:11:24,886 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:11:24,886 - AdsLogger - INFO - Temps d'exécution de connect: 0.1790 secondes.
+2025-02-19 10:11:24,944 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:11:24,945 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:11:24,945 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0593 secondes
+2025-02-19 10:11:24,945 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:11:25,121 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:11:25,121 - AdsLogger - INFO - Temps d'exécution de connect: 0.1764 secondes.
+2025-02-19 10:11:25,122 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:11:25,157 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:11:25,157 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0347 secondes.
+2025-02-19 10:11:25,157 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:11:25,157 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2118 secondes.
+2025-02-19 10:11:25,319 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:11:25,319 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:11:25,485 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:11:32,718 - AdsLogger - INFO - Batch 1: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 20000/20000 ligne(s).
+2025-02-19 10:11:32,718 - AdsLogger - INFO - 20000 ligne(s) lue(s).
+2025-02-19 10:11:32,981 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:32,982 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: 1 of type: i64 to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:11:32,982 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:32,984 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-19 10:11:33,241 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:33,241 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "3666643" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:11:33,242 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:33,242 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-19 10:11:33,506 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:33,506 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:11:33,506 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:33,506 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-19 10:11:40,602 - AdsLogger - INFO - Batch 2: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 40000/40006 ligne(s).
+2025-02-19 10:11:40,602 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:11:40,891 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:40,891 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Multicolore" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:11:40,891 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:40,891 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-19 10:11:48,142 - AdsLogger - INFO - Batch 3: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 60000/60008 ligne(s).
+2025-02-19 10:11:48,142 - AdsLogger - INFO - 140000 ligne(s) lue(s).
+2025-02-19 10:11:48,439 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:48,440 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "U90" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:11:48,440 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:11:48,440 - AdsLogger - INFO - 160000 ligne(s) lue(s).
+2025-02-19 10:11:55,579 - AdsLogger - INFO - Batch 4: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 80000/80010 ligne(s).
+2025-02-19 10:11:55,579 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-19 10:12:03,019 - AdsLogger - INFO - Batch 5: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 100000/100010 ligne(s).
+2025-02-19 10:12:03,019 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 10:12:03,289 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:12:03,289 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:12:03,289 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:12:03,289 - AdsLogger - INFO - 220000 ligne(s) lue(s).
+2025-02-19 10:12:10,754 - AdsLogger - INFO - Batch 6: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 120000/120012 ligne(s).
+2025-02-19 10:12:10,754 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-19 10:12:10,867 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:12:10,867 - AdsLogger - ERROR - Échec de la création du dataframe: could not append value: "Bleu delave" of type: str to the builder; make sure that all rows have the same schema or consider increasing `infer_schema_length`  it might also be that a value overflows the data-type's capacity
+2025-02-19 10:12:10,867 - AdsLogger - ERROR - **************************************************
+2025-02-19 10:12:10,867 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 10:12:10,867 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 45.3973 secondes
+2025-02-19 10:12:10,898 - AdsLogger - INFO - Temps d'exécution de run: 45.7409 secondes.
+2025-02-19 10:12:16,035 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:12:16,340 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:12:16,340 - AdsLogger - INFO - Temps d'exécution de connect: 0.3057 secondes.
+2025-02-19 10:12:16,353 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:12:16,353 - AdsLogger - INFO - 28 ligne(s) lue(s).
+2025-02-19 10:12:16,354 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0134 secondes
+2025-02-19 10:12:16,354 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-19 10:12:16,516 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-19 10:12:16,517 - AdsLogger - INFO - Temps d'exécution de connect: 0.1622 secondes.
+2025-02-19 10:12:16,517 - AdsLogger - INFO - Création de la table de destination...
+2025-02-19 10:12:16,558 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-19 10:12:16,558 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0412 secondes.
+2025-02-19 10:12:16,558 - AdsLogger - INFO - Table de destination créée.
+2025-02-19 10:12:16,559 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2040 secondes.
+2025-02-19 10:12:16,772 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-19 10:12:16,772 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-19 10:12:16,948 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-19 10:12:24,378 - AdsLogger - INFO - Batch 1: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 20000/20000 ligne(s).
+2025-02-19 10:12:24,378 - AdsLogger - INFO - 20000 ligne(s) lue(s).
+2025-02-19 10:12:31,600 - AdsLogger - INFO - Batch 2: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 40000/40000 ligne(s).
+2025-02-19 10:12:31,600 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-19 10:12:38,838 - AdsLogger - INFO - Batch 3: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 60000/60000 ligne(s).
+2025-02-19 10:12:38,838 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-19 10:12:46,318 - AdsLogger - INFO - Batch 4: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 80000/80000 ligne(s).
+2025-02-19 10:12:46,318 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-19 10:12:53,970 - AdsLogger - INFO - Batch 5: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 100000/100000 ligne(s).
+2025-02-19 10:12:53,970 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-19 10:13:01,412 - AdsLogger - INFO - Batch 6: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 120000/120000 ligne(s).
+2025-02-19 10:13:01,413 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-19 10:13:09,257 - AdsLogger - INFO - Batch 7: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 140000/140000 ligne(s).
+2025-02-19 10:13:09,257 - AdsLogger - INFO - 140000 ligne(s) lue(s).
+2025-02-19 10:13:16,795 - AdsLogger - INFO - Batch 8: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 160000/160000 ligne(s).
+2025-02-19 10:13:16,795 - AdsLogger - INFO - 160000 ligne(s) lue(s).
+2025-02-19 10:13:24,299 - AdsLogger - INFO - Batch 9: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 180000/180000 ligne(s).
+2025-02-19 10:13:24,299 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-19 10:13:31,616 - AdsLogger - INFO - Batch 10: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 200000/200000 ligne(s).
+2025-02-19 10:13:31,616 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-19 10:13:38,748 - AdsLogger - INFO - Batch 11: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 220000/220000 ligne(s).
+2025-02-19 10:13:38,748 - AdsLogger - INFO - 220000 ligne(s) lue(s).
+2025-02-19 10:13:46,222 - AdsLogger - INFO - Batch 12: 20000 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 240000/240000 ligne(s).
+2025-02-19 10:13:46,222 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-19 10:13:49,134 - AdsLogger - INFO - Batch 13: 7950 ligne(s) insérée(s) avec succès dans la table data.D365_SPLCustExternalItemData. Total inséré: 247950/247950 ligne(s).
+2025-02-19 10:13:49,134 - AdsLogger - INFO - 247950 ligne(s) lue(s).
+2025-02-19 10:13:49,134 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 92.2035 secondes
+2025-02-19 10:13:49,195 - AdsLogger - INFO - Temps d'exécution de run: 92.6367 secondes.

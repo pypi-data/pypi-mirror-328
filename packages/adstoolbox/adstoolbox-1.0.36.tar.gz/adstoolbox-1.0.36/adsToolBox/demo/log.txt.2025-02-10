@@ -1,0 +1,1122 @@
+2025-02-10 10:32:42,833 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:32:43,097 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:32:43,097 - AdsLogger - INFO - Temps d'exécution de connect: 0.2643 secondes.
+2025-02-10 10:32:43,193 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:32:43,193 - AdsLogger - INFO - 21 ligne(s) lue(s).
+2025-02-10 10:32:43,193 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0959 secondes
+2025-02-10 10:32:43,193 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:32:43,346 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:32:43,347 - AdsLogger - INFO - Temps d'exécution de connect: 0.1544 secondes.
+2025-02-10 10:32:43,347 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:32:43,403 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:32:43,403 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0565 secondes.
+2025-02-10 10:32:43,403 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:32:43,404 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2113 secondes.
+2025-02-10 10:32:43,604 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:32:43,605 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:32:43,769 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:32:43,865 - AdsLogger - INFO - Batch 1: 16 ligne(s) insérée(s) avec succès dans la table data.SFO_Brand_Haddad__c. Total inséré: 16/16 ligne(s).
+2025-02-10 10:32:43,866 - AdsLogger - INFO - 16 ligne(s) lue(s).
+2025-02-10 10:32:43,866 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1108 secondes
+2025-02-10 10:32:43,866 - AdsLogger - INFO - Temps d'exécution de run: 0.4616 secondes.
+2025-02-10 10:32:58,965 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:32:59,199 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:32:59,199 - AdsLogger - INFO - Temps d'exécution de connect: 0.2346 secondes.
+2025-02-10 10:32:59,243 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:32:59,243 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:32:59,243 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0439 secondes
+2025-02-10 10:32:59,243 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:32:59,450 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:32:59,450 - AdsLogger - INFO - Temps d'exécution de connect: 0.2061 secondes.
+2025-02-10 10:32:59,450 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:32:59,504 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:32:59,504 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0542 secondes.
+2025-02-10 10:32:59,504 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:32:59,504 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2607 secondes.
+2025-02-10 10:32:59,714 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:32:59,714 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:32:59,905 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:33:11,567 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 10000/10000 ligne(s).
+2025-02-10 10:33:11,568 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-02-10 10:33:22,703 - AdsLogger - INFO - Batch 2: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 20000/20000 ligne(s).
+2025-02-10 10:33:22,703 - AdsLogger - INFO - 20000 ligne(s) lue(s).
+2025-02-10 10:33:35,035 - AdsLogger - INFO - Batch 3: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 30000/30000 ligne(s).
+2025-02-10 10:33:35,035 - AdsLogger - INFO - 30000 ligne(s) lue(s).
+2025-02-10 10:33:46,521 - AdsLogger - INFO - Batch 4: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 40000/40000 ligne(s).
+2025-02-10 10:33:46,521 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-10 10:33:57,559 - AdsLogger - INFO - Batch 5: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 50000/50000 ligne(s).
+2025-02-10 10:33:57,559 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-10 10:34:10,396 - AdsLogger - INFO - Batch 6: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 60000/60000 ligne(s).
+2025-02-10 10:34:10,396 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-10 10:34:21,337 - AdsLogger - INFO - Batch 7: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 70000/70000 ligne(s).
+2025-02-10 10:34:21,337 - AdsLogger - INFO - 70000 ligne(s) lue(s).
+2025-02-10 10:34:32,449 - AdsLogger - INFO - Batch 8: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 80000/80000 ligne(s).
+2025-02-10 10:34:32,449 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-10 10:34:43,353 - AdsLogger - INFO - Batch 9: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 90000/90000 ligne(s).
+2025-02-10 10:34:43,353 - AdsLogger - INFO - 90000 ligne(s) lue(s).
+2025-02-10 10:34:54,372 - AdsLogger - INFO - Batch 10: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 10:34:54,372 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 10:35:05,262 - AdsLogger - INFO - Batch 11: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 110000/110000 ligne(s).
+2025-02-10 10:35:05,262 - AdsLogger - INFO - 110000 ligne(s) lue(s).
+2025-02-10 10:35:16,252 - AdsLogger - INFO - Batch 12: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 120000/120000 ligne(s).
+2025-02-10 10:35:16,252 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-10 10:35:27,381 - AdsLogger - INFO - Batch 13: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 130000/130000 ligne(s).
+2025-02-10 10:35:27,381 - AdsLogger - INFO - 130000 ligne(s) lue(s).
+2025-02-10 10:35:39,908 - AdsLogger - INFO - Batch 14: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 140000/140000 ligne(s).
+2025-02-10 10:35:39,908 - AdsLogger - INFO - 140000 ligne(s) lue(s).
+2025-02-10 10:35:52,291 - AdsLogger - INFO - Batch 15: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 150000/150000 ligne(s).
+2025-02-10 10:35:52,291 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 10:36:04,603 - AdsLogger - INFO - Batch 16: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 160000/160000 ligne(s).
+2025-02-10 10:36:04,603 - AdsLogger - INFO - 160000 ligne(s) lue(s).
+2025-02-10 10:36:16,893 - AdsLogger - INFO - Batch 17: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 170000/170000 ligne(s).
+2025-02-10 10:36:16,893 - AdsLogger - INFO - 170000 ligne(s) lue(s).
+2025-02-10 10:36:29,252 - AdsLogger - INFO - Batch 18: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 180000/180000 ligne(s).
+2025-02-10 10:36:29,252 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-10 10:36:41,836 - AdsLogger - INFO - Batch 19: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 190000/190000 ligne(s).
+2025-02-10 10:36:41,836 - AdsLogger - INFO - 190000 ligne(s) lue(s).
+2025-02-10 10:36:54,250 - AdsLogger - INFO - Batch 20: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 200000/200000 ligne(s).
+2025-02-10 10:36:54,250 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-10 10:37:06,790 - AdsLogger - INFO - Batch 21: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 210000/210000 ligne(s).
+2025-02-10 10:37:06,790 - AdsLogger - INFO - 210000 ligne(s) lue(s).
+2025-02-10 10:37:19,105 - AdsLogger - INFO - Batch 22: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 220000/220000 ligne(s).
+2025-02-10 10:37:19,105 - AdsLogger - INFO - 220000 ligne(s) lue(s).
+2025-02-10 10:37:31,718 - AdsLogger - INFO - Batch 23: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 230000/230000 ligne(s).
+2025-02-10 10:37:31,718 - AdsLogger - INFO - 230000 ligne(s) lue(s).
+2025-02-10 10:37:43,215 - AdsLogger - INFO - Batch 24: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 240000/240000 ligne(s).
+2025-02-10 10:37:43,215 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-10 10:37:56,023 - AdsLogger - INFO - Batch 25: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 250000/250000 ligne(s).
+2025-02-10 10:37:56,023 - AdsLogger - INFO - 250000 ligne(s) lue(s).
+2025-02-10 10:38:08,466 - AdsLogger - INFO - Batch 26: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 260000/260000 ligne(s).
+2025-02-10 10:38:08,466 - AdsLogger - INFO - 260000 ligne(s) lue(s).
+2025-02-10 10:38:21,072 - AdsLogger - INFO - Batch 27: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 270000/270000 ligne(s).
+2025-02-10 10:38:21,072 - AdsLogger - INFO - 270000 ligne(s) lue(s).
+2025-02-10 10:38:34,163 - AdsLogger - INFO - Batch 28: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 280000/280000 ligne(s).
+2025-02-10 10:38:34,163 - AdsLogger - INFO - 280000 ligne(s) lue(s).
+2025-02-10 10:38:46,918 - AdsLogger - INFO - Batch 29: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 290000/290000 ligne(s).
+2025-02-10 10:38:46,918 - AdsLogger - INFO - 290000 ligne(s) lue(s).
+2025-02-10 10:38:59,595 - AdsLogger - INFO - Batch 30: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 300000/300000 ligne(s).
+2025-02-10 10:38:59,595 - AdsLogger - INFO - 300000 ligne(s) lue(s).
+2025-02-10 10:39:12,732 - AdsLogger - INFO - Batch 31: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 310000/310000 ligne(s).
+2025-02-10 10:39:12,732 - AdsLogger - INFO - 310000 ligne(s) lue(s).
+2025-02-10 10:39:25,824 - AdsLogger - INFO - Batch 32: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 320000/320000 ligne(s).
+2025-02-10 10:39:25,824 - AdsLogger - INFO - 320000 ligne(s) lue(s).
+2025-02-10 10:39:38,733 - AdsLogger - INFO - Batch 33: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 330000/330000 ligne(s).
+2025-02-10 10:39:38,733 - AdsLogger - INFO - 330000 ligne(s) lue(s).
+2025-02-10 10:39:51,605 - AdsLogger - INFO - Batch 34: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 340000/340000 ligne(s).
+2025-02-10 10:39:51,605 - AdsLogger - INFO - 340000 ligne(s) lue(s).
+2025-02-10 10:40:05,228 - AdsLogger - INFO - Batch 35: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 350000/350000 ligne(s).
+2025-02-10 10:40:05,228 - AdsLogger - INFO - 350000 ligne(s) lue(s).
+2025-02-10 10:40:17,958 - AdsLogger - INFO - Batch 36: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 360000/360000 ligne(s).
+2025-02-10 10:40:17,958 - AdsLogger - INFO - 360000 ligne(s) lue(s).
+2025-02-10 10:40:30,077 - AdsLogger - INFO - Batch 37: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 370000/370000 ligne(s).
+2025-02-10 10:40:30,077 - AdsLogger - INFO - 370000 ligne(s) lue(s).
+2025-02-10 10:40:41,489 - AdsLogger - INFO - Batch 38: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 380000/380000 ligne(s).
+2025-02-10 10:40:41,489 - AdsLogger - INFO - 380000 ligne(s) lue(s).
+2025-02-10 10:40:52,892 - AdsLogger - INFO - Batch 39: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 390000/390000 ligne(s).
+2025-02-10 10:40:52,892 - AdsLogger - INFO - 390000 ligne(s) lue(s).
+2025-02-10 10:41:06,438 - AdsLogger - INFO - Batch 40: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 400000/400000 ligne(s).
+2025-02-10 10:41:06,438 - AdsLogger - INFO - 400000 ligne(s) lue(s).
+2025-02-10 10:41:19,566 - AdsLogger - INFO - Batch 41: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 410000/410000 ligne(s).
+2025-02-10 10:41:19,566 - AdsLogger - INFO - 410000 ligne(s) lue(s).
+2025-02-10 10:41:33,041 - AdsLogger - INFO - Batch 42: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 420000/420000 ligne(s).
+2025-02-10 10:41:33,041 - AdsLogger - INFO - 420000 ligne(s) lue(s).
+2025-02-10 10:41:46,497 - AdsLogger - INFO - Batch 43: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 430000/430000 ligne(s).
+2025-02-10 10:41:46,497 - AdsLogger - INFO - 430000 ligne(s) lue(s).
+2025-02-10 10:41:59,929 - AdsLogger - INFO - Batch 44: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 440000/440000 ligne(s).
+2025-02-10 10:41:59,929 - AdsLogger - INFO - 440000 ligne(s) lue(s).
+2025-02-10 10:42:13,497 - AdsLogger - INFO - Batch 45: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 450000/450000 ligne(s).
+2025-02-10 10:42:13,497 - AdsLogger - INFO - 450000 ligne(s) lue(s).
+2025-02-10 10:42:27,248 - AdsLogger - INFO - Batch 46: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 460000/460000 ligne(s).
+2025-02-10 10:42:27,248 - AdsLogger - INFO - 460000 ligne(s) lue(s).
+2025-02-10 10:42:40,655 - AdsLogger - INFO - Batch 47: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 470000/470000 ligne(s).
+2025-02-10 10:42:40,655 - AdsLogger - INFO - 470000 ligne(s) lue(s).
+2025-02-10 10:42:56,368 - AdsLogger - INFO - Batch 48: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 480000/480000 ligne(s).
+2025-02-10 10:42:56,368 - AdsLogger - INFO - 480000 ligne(s) lue(s).
+2025-02-10 10:43:10,250 - AdsLogger - INFO - Batch 49: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 490000/490000 ligne(s).
+2025-02-10 10:43:10,250 - AdsLogger - INFO - 490000 ligne(s) lue(s).
+2025-02-10 10:43:23,765 - AdsLogger - INFO - Batch 50: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 500000/500000 ligne(s).
+2025-02-10 10:43:23,765 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 10:43:37,131 - AdsLogger - INFO - Batch 51: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 510000/510000 ligne(s).
+2025-02-10 10:43:37,147 - AdsLogger - INFO - 510000 ligne(s) lue(s).
+2025-02-10 10:43:51,543 - AdsLogger - INFO - Batch 52: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 520000/520000 ligne(s).
+2025-02-10 10:43:51,543 - AdsLogger - INFO - 520000 ligne(s) lue(s).
+2025-02-10 10:44:05,171 - AdsLogger - INFO - Batch 53: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 530000/530000 ligne(s).
+2025-02-10 10:44:05,171 - AdsLogger - INFO - 530000 ligne(s) lue(s).
+2025-02-10 10:44:18,271 - AdsLogger - INFO - Batch 54: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 540000/540000 ligne(s).
+2025-02-10 10:44:18,271 - AdsLogger - INFO - 540000 ligne(s) lue(s).
+2025-02-10 10:44:30,843 - AdsLogger - INFO - Batch 55: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 550000/550000 ligne(s).
+2025-02-10 10:44:30,843 - AdsLogger - INFO - 550000 ligne(s) lue(s).
+2025-02-10 10:44:43,248 - AdsLogger - INFO - Batch 56: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 560000/560000 ligne(s).
+2025-02-10 10:44:43,248 - AdsLogger - INFO - 560000 ligne(s) lue(s).
+2025-02-10 10:44:56,670 - AdsLogger - INFO - Batch 57: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 570000/570000 ligne(s).
+2025-02-10 10:44:56,670 - AdsLogger - INFO - 570000 ligne(s) lue(s).
+2025-02-10 10:45:08,921 - AdsLogger - INFO - Batch 58: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 580000/580000 ligne(s).
+2025-02-10 10:45:08,921 - AdsLogger - INFO - 580000 ligne(s) lue(s).
+2025-02-10 10:45:22,124 - AdsLogger - INFO - Batch 59: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 590000/590000 ligne(s).
+2025-02-10 10:45:22,124 - AdsLogger - INFO - 590000 ligne(s) lue(s).
+2025-02-10 10:45:36,177 - AdsLogger - INFO - Batch 60: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 600000/600000 ligne(s).
+2025-02-10 10:45:36,177 - AdsLogger - INFO - 600000 ligne(s) lue(s).
+2025-02-10 10:45:48,985 - AdsLogger - INFO - Batch 61: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 610000/610000 ligne(s).
+2025-02-10 10:45:48,985 - AdsLogger - INFO - 610000 ligne(s) lue(s).
+2025-02-10 10:46:01,648 - AdsLogger - INFO - Batch 62: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 620000/620000 ligne(s).
+2025-02-10 10:46:01,648 - AdsLogger - INFO - 620000 ligne(s) lue(s).
+2025-02-10 10:46:14,609 - AdsLogger - INFO - Batch 63: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 630000/630000 ligne(s).
+2025-02-10 10:46:14,609 - AdsLogger - INFO - 630000 ligne(s) lue(s).
+2025-02-10 10:46:26,575 - AdsLogger - INFO - Batch 64: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 640000/640000 ligne(s).
+2025-02-10 10:46:26,575 - AdsLogger - INFO - 640000 ligne(s) lue(s).
+2025-02-10 10:46:38,623 - AdsLogger - INFO - Batch 65: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 650000/650000 ligne(s).
+2025-02-10 10:46:38,628 - AdsLogger - INFO - 650000 ligne(s) lue(s).
+2025-02-10 10:46:50,721 - AdsLogger - INFO - Batch 66: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 660000/660000 ligne(s).
+2025-02-10 10:46:50,721 - AdsLogger - INFO - 660000 ligne(s) lue(s).
+2025-02-10 10:47:02,463 - AdsLogger - INFO - Batch 67: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 670000/670000 ligne(s).
+2025-02-10 10:47:02,464 - AdsLogger - INFO - 670000 ligne(s) lue(s).
+2025-02-10 10:47:14,874 - AdsLogger - INFO - Batch 68: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 680000/680000 ligne(s).
+2025-02-10 10:47:14,874 - AdsLogger - INFO - 680000 ligne(s) lue(s).
+2025-02-10 10:47:26,715 - AdsLogger - INFO - Batch 69: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 690000/690000 ligne(s).
+2025-02-10 10:47:26,716 - AdsLogger - INFO - 690000 ligne(s) lue(s).
+2025-02-10 10:47:38,654 - AdsLogger - INFO - Batch 70: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 700000/700000 ligne(s).
+2025-02-10 10:47:38,654 - AdsLogger - INFO - 700000 ligne(s) lue(s).
+2025-02-10 10:47:50,691 - AdsLogger - INFO - Batch 71: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 710000/710000 ligne(s).
+2025-02-10 10:47:50,692 - AdsLogger - INFO - 710000 ligne(s) lue(s).
+2025-02-10 10:48:03,833 - AdsLogger - INFO - Batch 72: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 720000/720000 ligne(s).
+2025-02-10 10:48:03,833 - AdsLogger - INFO - 720000 ligne(s) lue(s).
+2025-02-10 10:48:15,572 - AdsLogger - INFO - Batch 73: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 730000/730000 ligne(s).
+2025-02-10 10:48:15,572 - AdsLogger - INFO - 730000 ligne(s) lue(s).
+2025-02-10 10:48:27,520 - AdsLogger - INFO - Batch 74: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 740000/740000 ligne(s).
+2025-02-10 10:48:27,520 - AdsLogger - INFO - 740000 ligne(s) lue(s).
+2025-02-10 10:48:39,365 - AdsLogger - INFO - Batch 75: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 750000/750000 ligne(s).
+2025-02-10 10:48:39,365 - AdsLogger - INFO - 750000 ligne(s) lue(s).
+2025-02-10 10:48:51,182 - AdsLogger - INFO - Batch 76: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 760000/760000 ligne(s).
+2025-02-10 10:48:51,182 - AdsLogger - INFO - 760000 ligne(s) lue(s).
+2025-02-10 10:49:03,133 - AdsLogger - INFO - Batch 77: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 770000/770000 ligne(s).
+2025-02-10 10:49:03,133 - AdsLogger - INFO - 770000 ligne(s) lue(s).
+2025-02-10 10:49:19,643 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:49:19,888 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:49:19,889 - AdsLogger - INFO - Temps d'exécution de connect: 0.2453 secondes.
+2025-02-10 10:49:19,903 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:49:19,904 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:49:19,904 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0155 secondes
+2025-02-10 10:49:19,905 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:49:20,099 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:49:20,099 - AdsLogger - INFO - Temps d'exécution de connect: 0.1946 secondes.
+2025-02-10 10:49:20,099 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:49:20,149 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:49:20,149 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0502 secondes.
+2025-02-10 10:49:20,149 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:49:20,149 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2454 secondes.
+2025-02-10 10:49:20,327 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:49:20,327 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:49:20,528 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:49:30,577 - AdsLogger - ERROR - **************************************************
+2025-02-10 10:49:30,577 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: (241, b'Conversion failed when converting date and/or time from character string.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2025-02-10 10:49:30,577 - AdsLogger - ERROR - **************************************************
+2025-02-10 10:49:30,631 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-02-10 10:50:07,883 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:50:08,151 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:50:08,151 - AdsLogger - INFO - Temps d'exécution de connect: 0.2684 secondes.
+2025-02-10 10:50:08,169 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:50:08,171 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:50:08,171 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0193 secondes
+2025-02-10 10:50:08,171 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:50:08,355 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:50:08,356 - AdsLogger - INFO - Temps d'exécution de connect: 0.1842 secondes.
+2025-02-10 10:50:08,356 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:50:08,407 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:50:08,407 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0518 secondes.
+2025-02-10 10:50:08,408 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:50:08,408 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2366 secondes.
+2025-02-10 10:50:08,560 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:50:08,560 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:50:08,739 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:51:37,346 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:51:37,609 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:51:37,609 - AdsLogger - INFO - Temps d'exécution de connect: 0.2637 secondes.
+2025-02-10 10:51:37,625 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:51:37,626 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:51:37,626 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0162 secondes
+2025-02-10 10:51:37,627 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:51:37,809 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:51:37,809 - AdsLogger - INFO - Temps d'exécution de connect: 0.1830 secondes.
+2025-02-10 10:51:37,809 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:51:37,852 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:51:37,852 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0429 secondes.
+2025-02-10 10:51:37,852 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:51:37,852 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2263 secondes.
+2025-02-10 10:51:38,048 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:51:38,048 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:51:38,255 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:56:58,578 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:56:58,778 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:56:58,778 - AdsLogger - INFO - Temps d'exécution de connect: 0.1999 secondes.
+2025-02-10 10:56:58,793 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:56:58,794 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:56:58,794 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0158 secondes
+2025-02-10 10:56:58,794 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:56:59,001 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:56:59,002 - AdsLogger - INFO - Temps d'exécution de connect: 0.2075 secondes.
+2025-02-10 10:56:59,002 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:56:59,054 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:56:59,055 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0527 secondes.
+2025-02-10 10:56:59,055 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:56:59,055 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2608 secondes.
+2025-02-10 10:56:59,238 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:56:59,239 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:56:59,407 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:58:00,006 - AdsLogger - ERROR - **************************************************
+2025-02-10 10:58:00,006 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 10:58:00,006 - AdsLogger - ERROR - **************************************************
+2025-02-10 10:59:34,816 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:59:35,039 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:59:35,039 - AdsLogger - INFO - Temps d'exécution de connect: 0.2228 secondes.
+2025-02-10 10:59:35,057 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 10:59:35,059 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 10:59:35,059 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0194 secondes
+2025-02-10 10:59:35,059 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 10:59:35,228 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 10:59:35,228 - AdsLogger - INFO - Temps d'exécution de connect: 0.1690 secondes.
+2025-02-10 10:59:35,228 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 10:59:35,288 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 10:59:35,289 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0601 secondes.
+2025-02-10 10:59:35,289 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 10:59:35,289 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2299 secondes.
+2025-02-10 10:59:35,481 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 10:59:35,482 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 10:59:35,658 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:00:37,057 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:00:37,058 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:00:37,058 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:02:02,139 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:02:02,403 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:02:02,403 - AdsLogger - INFO - Temps d'exécution de connect: 0.2650 secondes.
+2025-02-10 11:02:02,419 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:02:02,420 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:02:02,420 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0165 secondes
+2025-02-10 11:02:02,421 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:02:02,588 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:02:02,589 - AdsLogger - INFO - Temps d'exécution de connect: 0.1683 secondes.
+2025-02-10 11:02:02,589 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:02:02,638 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:02:02,638 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0491 secondes.
+2025-02-10 11:02:02,638 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:02:02,638 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2180 secondes.
+2025-02-10 11:02:02,832 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:02:02,833 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:02:03,021 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:03:05,744 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:03:05,744 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:03:05,744 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:04:22,083 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:04:22,364 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:04:22,364 - AdsLogger - INFO - Temps d'exécution de connect: 0.2817 secondes.
+2025-02-10 11:04:22,378 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:04:22,379 - AdsLogger - INFO - 21 ligne(s) lue(s).
+2025-02-10 11:04:22,379 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0140 secondes
+2025-02-10 11:04:22,379 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:04:22,564 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:04:22,564 - AdsLogger - INFO - Temps d'exécution de connect: 0.1855 secondes.
+2025-02-10 11:04:22,564 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:04:22,608 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:04:22,608 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0440 secondes.
+2025-02-10 11:04:22,608 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:04:22,610 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2301 secondes.
+2025-02-10 11:04:22,791 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:04:22,791 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:04:23,003 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:04:23,075 - AdsLogger - INFO - Batch 1: 16 ligne(s) insérée(s) avec succès dans la table data.SFO_Brand_Haddad__c. Total inséré: 16/16 ligne(s).
+2025-02-10 11:04:23,075 - AdsLogger - INFO - 16 ligne(s) lue(s).
+2025-02-10 11:04:23,075 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0854 secondes
+2025-02-10 11:04:23,075 - AdsLogger - INFO - Temps d'exécution de run: 0.4659 secondes.
+2025-02-10 11:04:31,510 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:04:31,685 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:04:31,686 - AdsLogger - INFO - Temps d'exécution de connect: 0.1766 secondes.
+2025-02-10 11:04:31,704 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:04:31,708 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:04:31,708 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0217 secondes
+2025-02-10 11:04:31,708 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:04:31,867 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:04:31,867 - AdsLogger - INFO - Temps d'exécution de connect: 0.1590 secondes.
+2025-02-10 11:04:31,867 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:04:31,912 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:04:31,912 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0441 secondes.
+2025-02-10 11:04:31,912 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:04:31,912 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2038 secondes.
+2025-02-10 11:04:32,098 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:04:32,098 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:04:32,303 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:05:31,087 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:05:31,088 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:05:31,088 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:05:50,888 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:05:51,124 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:05:51,124 - AdsLogger - INFO - Temps d'exécution de connect: 0.2357 secondes.
+2025-02-10 11:05:51,136 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:05:51,137 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:05:51,137 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0128 secondes
+2025-02-10 11:05:51,137 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:05:51,336 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:05:51,336 - AdsLogger - INFO - Temps d'exécution de connect: 0.1989 secondes.
+2025-02-10 11:05:51,336 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:05:51,398 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:05:51,398 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0623 secondes.
+2025-02-10 11:05:51,399 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:05:51,399 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2617 secondes.
+2025-02-10 11:05:51,584 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:05:51,584 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:05:51,771 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:06:48,976 - AdsLogger - INFO - Batch 1: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 50000/50000 ligne(s).
+2025-02-10 11:06:48,976 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-10 11:07:47,124 - AdsLogger - INFO - Batch 2: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 11:07:47,125 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 11:07:49,121 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:07:49,511 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:07:49,512 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 11:08:47,857 - AdsLogger - INFO - Batch 3: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 150000/150002 ligne(s).
+2025-02-10 11:08:47,857 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-10 11:08:49,834 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:08:49,835 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:08:49,835 - AdsLogger - INFO - 250000 ligne(s) lue(s).
+2025-02-10 11:09:46,628 - AdsLogger - INFO - Batch 4: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 200000/200004 ligne(s).
+2025-02-10 11:09:46,628 - AdsLogger - INFO - 300000 ligne(s) lue(s).
+2025-02-10 11:10:46,640 - AdsLogger - INFO - Batch 5: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 250000/250004 ligne(s).
+2025-02-10 11:10:46,640 - AdsLogger - INFO - 350000 ligne(s) lue(s).
+2025-02-10 11:11:45,886 - AdsLogger - INFO - Batch 6: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 300000/300004 ligne(s).
+2025-02-10 11:11:45,886 - AdsLogger - INFO - 400000 ligne(s) lue(s).
+2025-02-10 11:12:00,438 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:12:00,468 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:12:00,960 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:12:00,960 - AdsLogger - INFO - Temps d'exécution de connect: 0.4919 secondes.
+2025-02-10 11:12:00,973 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:12:00,973 - AdsLogger - INFO - Temps d'exécution de connect: 0.5351 secondes.
+2025-02-10 11:12:00,975 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:12:00,975 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:12:00,975 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0145 secondes
+2025-02-10 11:12:00,976 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:12:00,990 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:12:00,990 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:12:00,990 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0166 secondes
+2025-02-10 11:12:00,990 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:12:01,283 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:12:01,283 - AdsLogger - INFO - Temps d'exécution de connect: 0.3080 secondes.
+2025-02-10 11:12:01,284 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:12:01,380 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:12:01,380 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:12:01,380 - AdsLogger - INFO - Temps d'exécution de connect: 0.3900 secondes.
+2025-02-10 11:12:01,380 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0969 secondes.
+2025-02-10 11:12:01,380 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:12:01,381 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:12:01,381 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.4055 secondes.
+2025-02-10 11:12:01,434 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:12:01,435 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0542 secondes.
+2025-02-10 11:12:01,435 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:12:01,435 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.4448 secondes.
+2025-02-10 11:12:01,631 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:12:01,631 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:12:01,666 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:12:01,666 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:12:01,839 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:12:01,851 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:13:03,848 - AdsLogger - INFO - Batch 1: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 50000/50000 ligne(s).
+2025-02-10 11:13:03,849 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-10 11:13:07,277 - AdsLogger - INFO - Batch 1: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 50000/50000 ligne(s).
+2025-02-10 11:13:07,277 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-10 11:14:07,997 - AdsLogger - INFO - Batch 2: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 11:14:07,998 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 11:14:09,941 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:14:09,945 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:14:09,945 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 11:14:14,737 - AdsLogger - INFO - Batch 2: 50000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 11:14:14,738 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 11:14:16,681 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:14:16,685 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:14:16,685 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 11:16:24,959 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:16:25,253 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:16:25,254 - AdsLogger - INFO - Temps d'exécution de connect: 0.2947 secondes.
+2025-02-10 11:16:25,272 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:16:25,273 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:16:25,273 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0188 secondes
+2025-02-10 11:16:25,273 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:16:25,475 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:16:25,475 - AdsLogger - INFO - Temps d'exécution de connect: 0.2017 secondes.
+2025-02-10 11:16:25,475 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:16:25,535 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:16:25,535 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0602 secondes.
+2025-02-10 11:16:25,535 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:16:25,535 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2625 secondes.
+2025-02-10 11:16:25,701 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:16:25,701 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:16:25,862 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:17:29,708 - AdsLogger - INFO - Batch 1: 40000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 40000/40000 ligne(s).
+2025-02-10 11:17:29,708 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-10 11:18:14,446 - AdsLogger - INFO - Batch 2: 40000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 80000/80000 ligne(s).
+2025-02-10 11:18:14,446 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-10 11:18:16,018 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:18:16,022 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:18:16,022 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-10 11:18:37,224 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:18:37,464 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:18:37,465 - AdsLogger - INFO - Temps d'exécution de connect: 0.2414 secondes.
+2025-02-10 11:18:37,480 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:18:37,481 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:18:37,481 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0158 secondes
+2025-02-10 11:18:37,481 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:18:37,655 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:18:37,656 - AdsLogger - INFO - Temps d'exécution de connect: 0.1749 secondes.
+2025-02-10 11:18:37,656 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:18:37,697 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:18:37,697 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0414 secondes.
+2025-02-10 11:18:37,698 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:18:37,698 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2168 secondes.
+2025-02-10 11:18:37,860 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:18:37,860 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:18:38,073 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:19:09,809 - AdsLogger - INFO - Batch 1: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 30000/30000 ligne(s).
+2025-02-10 11:19:09,810 - AdsLogger - INFO - 30000 ligne(s) lue(s).
+2025-02-10 11:19:41,392 - AdsLogger - INFO - Batch 2: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 60000/60000 ligne(s).
+2025-02-10 11:19:41,393 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-10 11:20:13,465 - AdsLogger - INFO - Batch 3: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 90000/90000 ligne(s).
+2025-02-10 11:20:13,465 - AdsLogger - INFO - 90000 ligne(s) lue(s).
+2025-02-10 11:20:14,609 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:20:14,612 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:20:14,613 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-10 11:20:46,086 - AdsLogger - INFO - Batch 4: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 120000/120002 ligne(s).
+2025-02-10 11:20:46,086 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 11:21:18,455 - AdsLogger - INFO - Batch 5: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 150000/150002 ligne(s).
+2025-02-10 11:21:18,455 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-10 11:21:50,990 - AdsLogger - INFO - Batch 6: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 180000/180002 ligne(s).
+2025-02-10 11:21:50,990 - AdsLogger - INFO - 210000 ligne(s) lue(s).
+2025-02-10 11:22:23,283 - AdsLogger - INFO - Batch 7: 30000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 210000/210002 ligne(s).
+2025-02-10 11:22:23,283 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-10 11:22:47,863 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:22:48,109 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:22:48,109 - AdsLogger - INFO - Temps d'exécution de connect: 0.2462 secondes.
+2025-02-10 11:22:48,131 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:22:48,131 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:22:48,131 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0225 secondes
+2025-02-10 11:22:48,132 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:22:48,311 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:22:48,312 - AdsLogger - INFO - Temps d'exécution de connect: 0.1800 secondes.
+2025-02-10 11:22:48,312 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:22:48,373 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:22:48,374 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0615 secondes.
+2025-02-10 11:22:48,374 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:22:48,374 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2421 secondes.
+2025-02-10 11:22:48,554 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:22:48,555 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:22:48,719 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:23:07,198 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:23:07,202 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:23:07,202 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 11:24:45,183 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:24:45,185 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:24:45,185 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:26:17,239 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:26:17,516 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:26:17,516 - AdsLogger - INFO - Temps d'exécution de connect: 0.2778 secondes.
+2025-02-10 11:26:17,535 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:26:17,535 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:26:17,535 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0191 secondes
+2025-02-10 11:26:17,535 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:26:17,741 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:26:17,741 - AdsLogger - INFO - Temps d'exécution de connect: 0.2049 secondes.
+2025-02-10 11:26:17,741 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:26:17,784 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:26:17,785 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0436 secondes.
+2025-02-10 11:26:17,785 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:26:17,785 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2490 secondes.
+2025-02-10 11:26:17,959 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:26:17,959 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:26:18,144 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:26:55,523 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:26:55,538 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:26:55,538 - AdsLogger - INFO - 1000000 ligne(s) lue(s).
+2025-02-10 11:35:31,052 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:35:31,268 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:35:31,269 - AdsLogger - INFO - Temps d'exécution de connect: 0.2169 secondes.
+2025-02-10 11:35:31,375 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:35:31,376 - AdsLogger - INFO - 21 ligne(s) lue(s).
+2025-02-10 11:35:31,376 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1064 secondes
+2025-02-10 11:35:31,376 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:35:31,551 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:35:31,552 - AdsLogger - INFO - Temps d'exécution de connect: 0.1761 secondes.
+2025-02-10 11:35:31,552 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:35:31,616 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:35:31,616 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0646 secondes.
+2025-02-10 11:35:31,616 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:35:31,617 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2412 secondes.
+2025-02-10 11:35:31,808 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:35:31,809 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:35:31,997 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:35:32,080 - AdsLogger - INFO - Batch 1: 16 ligne(s) insérée(s) avec succès dans la table data.SFO_Brand_Haddad__c. Total inséré: 16/16 ligne(s).
+2025-02-10 11:35:32,080 - AdsLogger - INFO - 16 ligne(s) lue(s).
+2025-02-10 11:35:32,080 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0949 secondes
+2025-02-10 11:35:32,080 - AdsLogger - INFO - Temps d'exécution de run: 0.4634 secondes.
+2025-02-10 11:35:39,918 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:35:40,106 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:35:40,106 - AdsLogger - INFO - Temps d'exécution de connect: 0.1877 secondes.
+2025-02-10 11:35:40,148 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:35:40,149 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:35:40,149 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0429 secondes
+2025-02-10 11:35:40,149 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:35:40,315 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:35:40,316 - AdsLogger - INFO - Temps d'exécution de connect: 0.1667 secondes.
+2025-02-10 11:35:40,316 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:35:40,368 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:35:40,369 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0523 secondes.
+2025-02-10 11:35:40,369 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:35:40,369 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2200 secondes.
+2025-02-10 11:35:40,528 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:35:40,528 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:35:40,678 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:35:52,041 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 10000/10000 ligne(s).
+2025-02-10 11:35:52,041 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-02-10 11:36:03,360 - AdsLogger - INFO - Batch 2: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 20000/20000 ligne(s).
+2025-02-10 11:36:03,360 - AdsLogger - INFO - 20000 ligne(s) lue(s).
+2025-02-10 11:36:14,421 - AdsLogger - INFO - Batch 3: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 30000/30000 ligne(s).
+2025-02-10 11:36:14,421 - AdsLogger - INFO - 30000 ligne(s) lue(s).
+2025-02-10 11:36:25,716 - AdsLogger - INFO - Batch 4: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 40000/40000 ligne(s).
+2025-02-10 11:36:25,716 - AdsLogger - INFO - 40000 ligne(s) lue(s).
+2025-02-10 11:36:37,307 - AdsLogger - INFO - Batch 5: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 50000/50000 ligne(s).
+2025-02-10 11:36:37,307 - AdsLogger - INFO - 50000 ligne(s) lue(s).
+2025-02-10 11:36:48,670 - AdsLogger - INFO - Batch 6: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 60000/60000 ligne(s).
+2025-02-10 11:36:48,670 - AdsLogger - INFO - 60000 ligne(s) lue(s).
+2025-02-10 11:37:00,413 - AdsLogger - INFO - Batch 7: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 70000/70000 ligne(s).
+2025-02-10 11:37:00,413 - AdsLogger - INFO - 70000 ligne(s) lue(s).
+2025-02-10 11:37:11,988 - AdsLogger - INFO - Batch 8: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 80000/80000 ligne(s).
+2025-02-10 11:37:11,988 - AdsLogger - INFO - 80000 ligne(s) lue(s).
+2025-02-10 11:37:23,162 - AdsLogger - INFO - Batch 9: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 90000/90000 ligne(s).
+2025-02-10 11:37:23,162 - AdsLogger - INFO - 90000 ligne(s) lue(s).
+2025-02-10 11:37:34,360 - AdsLogger - INFO - Batch 10: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 11:37:34,360 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 11:37:45,597 - AdsLogger - INFO - Batch 11: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 110000/110000 ligne(s).
+2025-02-10 11:37:45,598 - AdsLogger - INFO - 110000 ligne(s) lue(s).
+2025-02-10 11:37:56,807 - AdsLogger - INFO - Batch 12: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 120000/120000 ligne(s).
+2025-02-10 11:37:56,807 - AdsLogger - INFO - 120000 ligne(s) lue(s).
+2025-02-10 11:38:07,914 - AdsLogger - INFO - Batch 13: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 130000/130000 ligne(s).
+2025-02-10 11:38:07,914 - AdsLogger - INFO - 130000 ligne(s) lue(s).
+2025-02-10 11:38:18,785 - AdsLogger - INFO - Batch 14: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 140000/140000 ligne(s).
+2025-02-10 11:38:18,785 - AdsLogger - INFO - 140000 ligne(s) lue(s).
+2025-02-10 11:38:30,644 - AdsLogger - INFO - Batch 15: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 150000/150000 ligne(s).
+2025-02-10 11:38:30,644 - AdsLogger - INFO - 150000 ligne(s) lue(s).
+2025-02-10 11:38:41,589 - AdsLogger - INFO - Batch 16: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 160000/160000 ligne(s).
+2025-02-10 11:38:41,589 - AdsLogger - INFO - 160000 ligne(s) lue(s).
+2025-02-10 11:38:52,618 - AdsLogger - INFO - Batch 17: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 170000/170000 ligne(s).
+2025-02-10 11:38:52,618 - AdsLogger - INFO - 170000 ligne(s) lue(s).
+2025-02-10 11:39:03,497 - AdsLogger - INFO - Batch 18: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 180000/180000 ligne(s).
+2025-02-10 11:39:03,497 - AdsLogger - INFO - 180000 ligne(s) lue(s).
+2025-02-10 11:39:14,408 - AdsLogger - INFO - Batch 19: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 190000/190000 ligne(s).
+2025-02-10 11:39:14,408 - AdsLogger - INFO - 190000 ligne(s) lue(s).
+2025-02-10 11:39:25,441 - AdsLogger - INFO - Batch 20: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 200000/200000 ligne(s).
+2025-02-10 11:39:25,441 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-10 11:39:36,733 - AdsLogger - INFO - Batch 21: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 210000/210000 ligne(s).
+2025-02-10 11:39:36,733 - AdsLogger - INFO - 210000 ligne(s) lue(s).
+2025-02-10 11:39:48,016 - AdsLogger - INFO - Batch 22: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 220000/220000 ligne(s).
+2025-02-10 11:39:48,016 - AdsLogger - INFO - 220000 ligne(s) lue(s).
+2025-02-10 11:39:59,259 - AdsLogger - INFO - Batch 23: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 230000/230000 ligne(s).
+2025-02-10 11:39:59,259 - AdsLogger - INFO - 230000 ligne(s) lue(s).
+2025-02-10 11:40:10,741 - AdsLogger - INFO - Batch 24: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 240000/240000 ligne(s).
+2025-02-10 11:40:10,741 - AdsLogger - INFO - 240000 ligne(s) lue(s).
+2025-02-10 11:40:22,015 - AdsLogger - INFO - Batch 25: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 250000/250000 ligne(s).
+2025-02-10 11:40:22,016 - AdsLogger - INFO - 250000 ligne(s) lue(s).
+2025-02-10 11:40:33,566 - AdsLogger - INFO - Batch 26: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 260000/260000 ligne(s).
+2025-02-10 11:40:33,566 - AdsLogger - INFO - 260000 ligne(s) lue(s).
+2025-02-10 11:40:44,981 - AdsLogger - INFO - Batch 27: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 270000/270000 ligne(s).
+2025-02-10 11:40:44,981 - AdsLogger - INFO - 270000 ligne(s) lue(s).
+2025-02-10 11:40:56,293 - AdsLogger - INFO - Batch 28: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 280000/280000 ligne(s).
+2025-02-10 11:40:56,294 - AdsLogger - INFO - 280000 ligne(s) lue(s).
+2025-02-10 11:41:07,666 - AdsLogger - INFO - Batch 29: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 290000/290000 ligne(s).
+2025-02-10 11:41:07,667 - AdsLogger - INFO - 290000 ligne(s) lue(s).
+2025-02-10 11:41:18,786 - AdsLogger - INFO - Batch 30: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 300000/300000 ligne(s).
+2025-02-10 11:41:18,786 - AdsLogger - INFO - 300000 ligne(s) lue(s).
+2025-02-10 11:41:30,124 - AdsLogger - INFO - Batch 31: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 310000/310000 ligne(s).
+2025-02-10 11:41:30,125 - AdsLogger - INFO - 310000 ligne(s) lue(s).
+2025-02-10 11:41:41,665 - AdsLogger - INFO - Batch 32: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 320000/320000 ligne(s).
+2025-02-10 11:41:41,665 - AdsLogger - INFO - 320000 ligne(s) lue(s).
+2025-02-10 11:41:53,207 - AdsLogger - INFO - Batch 33: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 330000/330000 ligne(s).
+2025-02-10 11:41:53,208 - AdsLogger - INFO - 330000 ligne(s) lue(s).
+2025-02-10 11:42:04,761 - AdsLogger - INFO - Batch 34: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 340000/340000 ligne(s).
+2025-02-10 11:42:04,761 - AdsLogger - INFO - 340000 ligne(s) lue(s).
+2025-02-10 11:42:16,791 - AdsLogger - INFO - Batch 35: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 350000/350000 ligne(s).
+2025-02-10 11:42:16,791 - AdsLogger - INFO - 350000 ligne(s) lue(s).
+2025-02-10 11:42:28,137 - AdsLogger - INFO - Batch 36: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 360000/360000 ligne(s).
+2025-02-10 11:42:28,137 - AdsLogger - INFO - 360000 ligne(s) lue(s).
+2025-02-10 11:42:39,471 - AdsLogger - INFO - Batch 37: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 370000/370000 ligne(s).
+2025-02-10 11:42:39,471 - AdsLogger - INFO - 370000 ligne(s) lue(s).
+2025-02-10 11:42:51,048 - AdsLogger - INFO - Batch 38: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 380000/380000 ligne(s).
+2025-02-10 11:42:51,048 - AdsLogger - INFO - 380000 ligne(s) lue(s).
+2025-02-10 11:43:02,232 - AdsLogger - INFO - Batch 39: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 390000/390000 ligne(s).
+2025-02-10 11:43:02,232 - AdsLogger - INFO - 390000 ligne(s) lue(s).
+2025-02-10 11:43:13,487 - AdsLogger - INFO - Batch 40: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 400000/400000 ligne(s).
+2025-02-10 11:43:13,487 - AdsLogger - INFO - 400000 ligne(s) lue(s).
+2025-02-10 11:43:24,714 - AdsLogger - INFO - Batch 41: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 410000/410000 ligne(s).
+2025-02-10 11:43:24,714 - AdsLogger - INFO - 410000 ligne(s) lue(s).
+2025-02-10 11:43:37,671 - AdsLogger - INFO - Batch 42: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 420000/420000 ligne(s).
+2025-02-10 11:43:37,671 - AdsLogger - INFO - 420000 ligne(s) lue(s).
+2025-02-10 11:43:48,833 - AdsLogger - INFO - Batch 43: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 430000/430000 ligne(s).
+2025-02-10 11:43:48,833 - AdsLogger - INFO - 430000 ligne(s) lue(s).
+2025-02-10 11:44:00,286 - AdsLogger - INFO - Batch 44: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 440000/440000 ligne(s).
+2025-02-10 11:44:00,286 - AdsLogger - INFO - 440000 ligne(s) lue(s).
+2025-02-10 11:44:11,693 - AdsLogger - INFO - Batch 45: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 450000/450000 ligne(s).
+2025-02-10 11:44:11,693 - AdsLogger - INFO - 450000 ligne(s) lue(s).
+2025-02-10 11:44:23,332 - AdsLogger - INFO - Batch 46: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 460000/460000 ligne(s).
+2025-02-10 11:44:23,332 - AdsLogger - INFO - 460000 ligne(s) lue(s).
+2025-02-10 11:44:36,836 - AdsLogger - INFO - Batch 47: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 470000/470000 ligne(s).
+2025-02-10 11:44:36,836 - AdsLogger - INFO - 470000 ligne(s) lue(s).
+2025-02-10 11:44:48,025 - AdsLogger - INFO - Batch 48: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 480000/480000 ligne(s).
+2025-02-10 11:44:48,025 - AdsLogger - INFO - 480000 ligne(s) lue(s).
+2025-02-10 11:44:59,314 - AdsLogger - INFO - Batch 49: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 490000/490000 ligne(s).
+2025-02-10 11:44:59,315 - AdsLogger - INFO - 490000 ligne(s) lue(s).
+2025-02-10 11:45:10,498 - AdsLogger - INFO - Batch 50: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 500000/500000 ligne(s).
+2025-02-10 11:45:10,498 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 11:45:21,545 - AdsLogger - INFO - Batch 51: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 510000/510000 ligne(s).
+2025-02-10 11:45:21,545 - AdsLogger - INFO - 510000 ligne(s) lue(s).
+2025-02-10 11:45:32,964 - AdsLogger - INFO - Batch 52: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 520000/520000 ligne(s).
+2025-02-10 11:45:32,964 - AdsLogger - INFO - 520000 ligne(s) lue(s).
+2025-02-10 11:45:44,157 - AdsLogger - INFO - Batch 53: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 530000/530000 ligne(s).
+2025-02-10 11:45:44,157 - AdsLogger - INFO - 530000 ligne(s) lue(s).
+2025-02-10 11:45:55,266 - AdsLogger - INFO - Batch 54: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 540000/540000 ligne(s).
+2025-02-10 11:45:55,266 - AdsLogger - INFO - 540000 ligne(s) lue(s).
+2025-02-10 11:46:06,393 - AdsLogger - INFO - Batch 55: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 550000/550000 ligne(s).
+2025-02-10 11:46:06,393 - AdsLogger - INFO - 550000 ligne(s) lue(s).
+2025-02-10 11:46:17,522 - AdsLogger - INFO - Batch 56: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 560000/560000 ligne(s).
+2025-02-10 11:46:17,523 - AdsLogger - INFO - 560000 ligne(s) lue(s).
+2025-02-10 11:46:28,527 - AdsLogger - INFO - Batch 57: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 570000/570000 ligne(s).
+2025-02-10 11:46:28,527 - AdsLogger - INFO - 570000 ligne(s) lue(s).
+2025-02-10 11:46:39,636 - AdsLogger - INFO - Batch 58: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 580000/580000 ligne(s).
+2025-02-10 11:46:39,636 - AdsLogger - INFO - 580000 ligne(s) lue(s).
+2025-02-10 11:46:50,810 - AdsLogger - INFO - Batch 59: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 590000/590000 ligne(s).
+2025-02-10 11:46:50,810 - AdsLogger - INFO - 590000 ligne(s) lue(s).
+2025-02-10 11:47:02,232 - AdsLogger - INFO - Batch 60: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 600000/600000 ligne(s).
+2025-02-10 11:47:02,233 - AdsLogger - INFO - 600000 ligne(s) lue(s).
+2025-02-10 11:47:13,264 - AdsLogger - INFO - Batch 61: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 610000/610000 ligne(s).
+2025-02-10 11:47:13,264 - AdsLogger - INFO - 610000 ligne(s) lue(s).
+2025-02-10 11:47:24,355 - AdsLogger - INFO - Batch 62: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 620000/620000 ligne(s).
+2025-02-10 11:47:24,355 - AdsLogger - INFO - 620000 ligne(s) lue(s).
+2025-02-10 11:47:35,433 - AdsLogger - INFO - Batch 63: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 630000/630000 ligne(s).
+2025-02-10 11:47:35,433 - AdsLogger - INFO - 630000 ligne(s) lue(s).
+2025-02-10 11:47:46,574 - AdsLogger - INFO - Batch 64: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 640000/640000 ligne(s).
+2025-02-10 11:47:46,574 - AdsLogger - INFO - 640000 ligne(s) lue(s).
+2025-02-10 11:47:57,863 - AdsLogger - INFO - Batch 65: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 650000/650000 ligne(s).
+2025-02-10 11:47:57,863 - AdsLogger - INFO - 650000 ligne(s) lue(s).
+2025-02-10 11:48:08,857 - AdsLogger - INFO - Batch 66: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 660000/660000 ligne(s).
+2025-02-10 11:48:08,857 - AdsLogger - INFO - 660000 ligne(s) lue(s).
+2025-02-10 11:48:19,860 - AdsLogger - INFO - Batch 67: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 670000/670000 ligne(s).
+2025-02-10 11:48:19,860 - AdsLogger - INFO - 670000 ligne(s) lue(s).
+2025-02-10 11:48:31,011 - AdsLogger - INFO - Batch 68: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 680000/680000 ligne(s).
+2025-02-10 11:48:31,011 - AdsLogger - INFO - 680000 ligne(s) lue(s).
+2025-02-10 11:48:42,535 - AdsLogger - INFO - Batch 69: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 690000/690000 ligne(s).
+2025-02-10 11:48:42,535 - AdsLogger - INFO - 690000 ligne(s) lue(s).
+2025-02-10 11:48:53,711 - AdsLogger - INFO - Batch 70: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 700000/700000 ligne(s).
+2025-02-10 11:48:53,712 - AdsLogger - INFO - 700000 ligne(s) lue(s).
+2025-02-10 11:49:04,866 - AdsLogger - INFO - Batch 71: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 710000/710000 ligne(s).
+2025-02-10 11:49:04,866 - AdsLogger - INFO - 710000 ligne(s) lue(s).
+2025-02-10 11:49:16,225 - AdsLogger - INFO - Batch 72: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 720000/720000 ligne(s).
+2025-02-10 11:49:16,225 - AdsLogger - INFO - 720000 ligne(s) lue(s).
+2025-02-10 11:49:27,792 - AdsLogger - INFO - Batch 73: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 730000/730000 ligne(s).
+2025-02-10 11:49:27,792 - AdsLogger - INFO - 730000 ligne(s) lue(s).
+2025-02-10 11:49:39,184 - AdsLogger - INFO - Batch 74: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 740000/740000 ligne(s).
+2025-02-10 11:49:39,184 - AdsLogger - INFO - 740000 ligne(s) lue(s).
+2025-02-10 11:49:50,271 - AdsLogger - INFO - Batch 75: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 750000/750000 ligne(s).
+2025-02-10 11:49:50,272 - AdsLogger - INFO - 750000 ligne(s) lue(s).
+2025-02-10 11:50:01,464 - AdsLogger - INFO - Batch 76: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 760000/760000 ligne(s).
+2025-02-10 11:50:01,464 - AdsLogger - INFO - 760000 ligne(s) lue(s).
+2025-02-10 11:50:12,686 - AdsLogger - INFO - Batch 77: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 770000/770000 ligne(s).
+2025-02-10 11:50:12,686 - AdsLogger - INFO - 770000 ligne(s) lue(s).
+2025-02-10 11:50:23,747 - AdsLogger - INFO - Batch 78: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 780000/780000 ligne(s).
+2025-02-10 11:50:23,747 - AdsLogger - INFO - 780000 ligne(s) lue(s).
+2025-02-10 11:50:34,716 - AdsLogger - INFO - Batch 79: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 790000/790000 ligne(s).
+2025-02-10 11:50:34,716 - AdsLogger - INFO - 790000 ligne(s) lue(s).
+2025-02-10 11:50:45,930 - AdsLogger - INFO - Batch 80: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 800000/800000 ligne(s).
+2025-02-10 11:50:45,930 - AdsLogger - INFO - 800000 ligne(s) lue(s).
+2025-02-10 11:50:57,677 - AdsLogger - INFO - Batch 81: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 810000/810000 ligne(s).
+2025-02-10 11:50:57,677 - AdsLogger - INFO - 810000 ligne(s) lue(s).
+2025-02-10 11:51:09,412 - AdsLogger - INFO - Batch 82: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 820000/820000 ligne(s).
+2025-02-10 11:51:09,412 - AdsLogger - INFO - 820000 ligne(s) lue(s).
+2025-02-10 11:51:21,202 - AdsLogger - INFO - Batch 83: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 830000/830000 ligne(s).
+2025-02-10 11:51:21,202 - AdsLogger - INFO - 830000 ligne(s) lue(s).
+2025-02-10 11:51:32,827 - AdsLogger - INFO - Batch 84: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 840000/840000 ligne(s).
+2025-02-10 11:51:32,827 - AdsLogger - INFO - 840000 ligne(s) lue(s).
+2025-02-10 11:51:44,668 - AdsLogger - INFO - Batch 85: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 850000/850000 ligne(s).
+2025-02-10 11:51:44,668 - AdsLogger - INFO - 850000 ligne(s) lue(s).
+2025-02-10 11:51:56,368 - AdsLogger - INFO - Batch 86: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 860000/860000 ligne(s).
+2025-02-10 11:51:56,368 - AdsLogger - INFO - 860000 ligne(s) lue(s).
+2025-02-10 11:52:08,229 - AdsLogger - INFO - Batch 87: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 870000/870000 ligne(s).
+2025-02-10 11:52:08,229 - AdsLogger - INFO - 870000 ligne(s) lue(s).
+2025-02-10 11:52:20,235 - AdsLogger - INFO - Batch 88: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 880000/880000 ligne(s).
+2025-02-10 11:52:20,235 - AdsLogger - INFO - 880000 ligne(s) lue(s).
+2025-02-10 11:52:32,143 - AdsLogger - INFO - Batch 89: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 890000/890000 ligne(s).
+2025-02-10 11:52:32,143 - AdsLogger - INFO - 890000 ligne(s) lue(s).
+2025-02-10 11:52:44,293 - AdsLogger - INFO - Batch 90: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 900000/900000 ligne(s).
+2025-02-10 11:52:44,293 - AdsLogger - INFO - 900000 ligne(s) lue(s).
+2025-02-10 11:52:56,167 - AdsLogger - INFO - Batch 91: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 910000/910000 ligne(s).
+2025-02-10 11:52:56,167 - AdsLogger - INFO - 910000 ligne(s) lue(s).
+2025-02-10 11:53:08,481 - AdsLogger - INFO - Batch 92: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 920000/920000 ligne(s).
+2025-02-10 11:53:08,482 - AdsLogger - INFO - 920000 ligne(s) lue(s).
+2025-02-10 11:53:20,404 - AdsLogger - INFO - Batch 93: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 930000/930000 ligne(s).
+2025-02-10 11:53:20,404 - AdsLogger - INFO - 930000 ligne(s) lue(s).
+2025-02-10 11:53:32,380 - AdsLogger - INFO - Batch 94: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 940000/940000 ligne(s).
+2025-02-10 11:53:32,381 - AdsLogger - INFO - 940000 ligne(s) lue(s).
+2025-02-10 11:53:45,111 - AdsLogger - INFO - Batch 95: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 950000/950000 ligne(s).
+2025-02-10 11:53:45,111 - AdsLogger - INFO - 950000 ligne(s) lue(s).
+2025-02-10 11:53:56,631 - AdsLogger - INFO - Batch 96: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 960000/960000 ligne(s).
+2025-02-10 11:53:56,631 - AdsLogger - INFO - 960000 ligne(s) lue(s).
+2025-02-10 11:54:08,422 - AdsLogger - INFO - Batch 97: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 970000/970000 ligne(s).
+2025-02-10 11:54:08,422 - AdsLogger - INFO - 970000 ligne(s) lue(s).
+2025-02-10 11:54:19,690 - AdsLogger - INFO - Batch 98: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 980000/980000 ligne(s).
+2025-02-10 11:54:19,690 - AdsLogger - INFO - 980000 ligne(s) lue(s).
+2025-02-10 11:54:31,388 - AdsLogger - INFO - Batch 99: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 990000/990000 ligne(s).
+2025-02-10 11:54:31,388 - AdsLogger - INFO - 990000 ligne(s) lue(s).
+2025-02-10 11:54:43,176 - AdsLogger - INFO - Batch 100: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1000000/1000000 ligne(s).
+2025-02-10 11:54:43,176 - AdsLogger - INFO - 1000000 ligne(s) lue(s).
+2025-02-10 11:54:54,905 - AdsLogger - INFO - Batch 101: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1010000/1010000 ligne(s).
+2025-02-10 11:54:54,905 - AdsLogger - INFO - 1010000 ligne(s) lue(s).
+2025-02-10 11:55:06,760 - AdsLogger - INFO - Batch 102: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1020000/1020000 ligne(s).
+2025-02-10 11:55:06,760 - AdsLogger - INFO - 1020000 ligne(s) lue(s).
+2025-02-10 11:55:18,566 - AdsLogger - INFO - Batch 103: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1030000/1030000 ligne(s).
+2025-02-10 11:55:18,567 - AdsLogger - INFO - 1030000 ligne(s) lue(s).
+2025-02-10 11:55:30,130 - AdsLogger - INFO - Batch 104: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1040000/1040000 ligne(s).
+2025-02-10 11:55:30,130 - AdsLogger - INFO - 1040000 ligne(s) lue(s).
+2025-02-10 11:55:43,391 - AdsLogger - INFO - Batch 105: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1050000/1050000 ligne(s).
+2025-02-10 11:55:43,391 - AdsLogger - INFO - 1050000 ligne(s) lue(s).
+2025-02-10 11:55:54,646 - AdsLogger - INFO - Batch 106: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1060000/1060000 ligne(s).
+2025-02-10 11:55:54,646 - AdsLogger - INFO - 1060000 ligne(s) lue(s).
+2025-02-10 11:56:06,185 - AdsLogger - INFO - Batch 107: 10000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1070000/1070000 ligne(s).
+2025-02-10 11:56:06,187 - AdsLogger - INFO - 1070000 ligne(s) lue(s).
+2025-02-10 11:56:23,064 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:56:23,285 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:56:23,286 - AdsLogger - INFO - Temps d'exécution de connect: 0.2213 secondes.
+2025-02-10 11:56:23,329 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:56:23,329 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:56:23,330 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0439 secondes
+2025-02-10 11:56:23,330 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:56:23,523 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:56:23,524 - AdsLogger - INFO - Temps d'exécution de connect: 0.1937 secondes.
+2025-02-10 11:56:23,524 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:56:23,581 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:56:23,582 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0575 secondes.
+2025-02-10 11:56:23,582 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:56:23,582 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2519 secondes.
+2025-02-10 11:56:23,811 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:56:23,811 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:56:24,024 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:57:25,160 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:57:25,160 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:57:25,160 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:57:44,802 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:57:45,024 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:57:45,025 - AdsLogger - INFO - Temps d'exécution de connect: 0.2228 secondes.
+2025-02-10 11:57:45,038 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:57:45,039 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 11:57:45,039 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0145 secondes
+2025-02-10 11:57:45,039 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 11:57:45,253 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 11:57:45,254 - AdsLogger - INFO - Temps d'exécution de connect: 0.2141 secondes.
+2025-02-10 11:57:45,254 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 11:57:45,316 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 11:57:45,317 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0624 secondes.
+2025-02-10 11:57:45,317 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 11:57:45,317 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2772 secondes.
+2025-02-10 11:57:45,504 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 11:57:45,504 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 11:57:45,685 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 11:58:04,282 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:58:04,287 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:58:04,287 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 11:59:46,997 - AdsLogger - ERROR - **************************************************
+2025-02-10 11:59:46,999 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 11:59:47,000 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:51:25,532 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:51:25,813 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:51:25,813 - AdsLogger - INFO - Temps d'exécution de connect: 0.2808 secondes.
+2025-02-10 12:51:25,845 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:51:25,846 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 12:51:25,846 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0326 secondes
+2025-02-10 12:51:25,847 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:51:26,022 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:51:26,022 - AdsLogger - INFO - Temps d'exécution de connect: 0.1756 secondes.
+2025-02-10 12:51:26,022 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 12:51:26,067 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 12:51:26,067 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0443 secondes.
+2025-02-10 12:51:26,067 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 12:51:26,067 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2205 secondes.
+2025-02-10 12:51:26,237 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 12:51:26,237 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 12:51:26,397 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:51:45,158 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:51:45,168 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:51:45,168 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 12:53:49,616 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:53:49,620 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 12:53:49,620 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:53:57,681 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:53:57,950 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:53:57,950 - AdsLogger - INFO - Temps d'exécution de connect: 0.2692 secondes.
+2025-02-10 12:53:57,966 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:53:57,967 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 12:53:57,968 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0171 secondes
+2025-02-10 12:54:17,686 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:54:18,030 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:54:18,030 - AdsLogger - INFO - Temps d'exécution de connect: 0.3448 secondes.
+2025-02-10 12:54:18,043 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:54:18,043 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 12:54:18,044 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0137 secondes
+2025-02-10 12:55:09,437 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:55:09,707 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:55:09,707 - AdsLogger - INFO - Temps d'exécution de connect: 0.2693 secondes.
+2025-02-10 12:55:09,722 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:55:09,723 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 12:55:09,723 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0154 secondes
+2025-02-10 12:55:09,723 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:55:09,910 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:55:09,910 - AdsLogger - INFO - Temps d'exécution de connect: 0.1869 secondes.
+2025-02-10 12:55:09,910 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 12:55:09,984 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 12:55:09,985 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0742 secondes.
+2025-02-10 12:55:09,985 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 12:55:09,985 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2615 secondes.
+2025-02-10 12:55:10,142 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 12:55:10,142 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 12:55:10,304 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:56:15,746 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:56:15,746 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 12:56:15,746 - AdsLogger - ERROR - **************************************************
+2025-02-10 12:59:14,996 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:59:15,280 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:59:15,281 - AdsLogger - INFO - Temps d'exécution de connect: 0.2842 secondes.
+2025-02-10 12:59:15,297 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 12:59:15,298 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 12:59:15,298 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0179 secondes
+2025-02-10 12:59:15,298 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 12:59:15,462 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 12:59:15,462 - AdsLogger - INFO - Temps d'exécution de connect: 0.1636 secondes.
+2025-02-10 12:59:15,465 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 12:59:15,522 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 12:59:15,522 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0574 secondes.
+2025-02-10 12:59:15,522 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 12:59:15,522 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2239 secondes.
+2025-02-10 12:59:15,709 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 12:59:15,710 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 12:59:15,887 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:00:22,756 - AdsLogger - INFO - Batch 1: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 100000/100000 ligne(s).
+2025-02-10 13:00:22,756 - AdsLogger - INFO - 100000 ligne(s) lue(s).
+2025-02-10 13:01:10,061 - AdsLogger - INFO - Batch 2: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 200000/200000 ligne(s).
+2025-02-10 13:01:10,061 - AdsLogger - INFO - 200000 ligne(s) lue(s).
+2025-02-10 13:02:06,202 - AdsLogger - INFO - Batch 3: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 300000/300000 ligne(s).
+2025-02-10 13:02:06,203 - AdsLogger - INFO - 300000 ligne(s) lue(s).
+2025-02-10 13:02:52,967 - AdsLogger - INFO - Batch 4: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 400000/400000 ligne(s).
+2025-02-10 13:02:52,967 - AdsLogger - INFO - 400000 ligne(s) lue(s).
+2025-02-10 13:03:40,266 - AdsLogger - INFO - Batch 5: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 500000/500000 ligne(s).
+2025-02-10 13:03:40,266 - AdsLogger - INFO - 500000 ligne(s) lue(s).
+2025-02-10 13:04:28,077 - AdsLogger - INFO - Batch 6: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 600000/600000 ligne(s).
+2025-02-10 13:04:28,077 - AdsLogger - INFO - 600000 ligne(s) lue(s).
+2025-02-10 13:05:17,000 - AdsLogger - INFO - Batch 7: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 700000/700000 ligne(s).
+2025-02-10 13:05:17,000 - AdsLogger - INFO - 700000 ligne(s) lue(s).
+2025-02-10 13:06:04,350 - AdsLogger - INFO - Batch 8: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 800000/800000 ligne(s).
+2025-02-10 13:06:04,350 - AdsLogger - INFO - 800000 ligne(s) lue(s).
+2025-02-10 13:06:51,547 - AdsLogger - INFO - Batch 9: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 900000/900000 ligne(s).
+2025-02-10 13:06:51,547 - AdsLogger - INFO - 900000 ligne(s) lue(s).
+2025-02-10 13:07:38,622 - AdsLogger - INFO - Batch 10: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1000000/1000000 ligne(s).
+2025-02-10 13:07:38,622 - AdsLogger - INFO - 1000000 ligne(s) lue(s).
+2025-02-10 13:08:26,300 - AdsLogger - INFO - Batch 11: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1100000/1100000 ligne(s).
+2025-02-10 13:08:26,300 - AdsLogger - INFO - 1100000 ligne(s) lue(s).
+2025-02-10 13:09:13,694 - AdsLogger - INFO - Batch 12: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1200000/1200000 ligne(s).
+2025-02-10 13:09:13,694 - AdsLogger - INFO - 1200000 ligne(s) lue(s).
+2025-02-10 13:10:02,343 - AdsLogger - INFO - Batch 13: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1300000/1300000 ligne(s).
+2025-02-10 13:10:02,343 - AdsLogger - INFO - 1300000 ligne(s) lue(s).
+2025-02-10 13:10:48,898 - AdsLogger - INFO - Batch 14: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1400000/1400000 ligne(s).
+2025-02-10 13:10:48,898 - AdsLogger - INFO - 1400000 ligne(s) lue(s).
+2025-02-10 13:11:36,164 - AdsLogger - INFO - Batch 15: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1500000/1500000 ligne(s).
+2025-02-10 13:11:36,164 - AdsLogger - INFO - 1500000 ligne(s) lue(s).
+2025-02-10 13:12:22,864 - AdsLogger - INFO - Batch 16: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1600000/1600000 ligne(s).
+2025-02-10 13:12:22,865 - AdsLogger - INFO - 1600000 ligne(s) lue(s).
+2025-02-10 13:13:10,286 - AdsLogger - INFO - Batch 17: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1700000/1700000 ligne(s).
+2025-02-10 13:13:10,286 - AdsLogger - INFO - 1700000 ligne(s) lue(s).
+2025-02-10 13:13:58,131 - AdsLogger - INFO - Batch 18: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1800000/1800000 ligne(s).
+2025-02-10 13:13:58,131 - AdsLogger - INFO - 1800000 ligne(s) lue(s).
+2025-02-10 13:14:45,909 - AdsLogger - INFO - Batch 19: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 1900000/1900000 ligne(s).
+2025-02-10 13:14:45,909 - AdsLogger - INFO - 1900000 ligne(s) lue(s).
+2025-02-10 13:15:33,511 - AdsLogger - INFO - Batch 20: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2000000/2000000 ligne(s).
+2025-02-10 13:15:33,511 - AdsLogger - INFO - 2000000 ligne(s) lue(s).
+2025-02-10 13:16:26,332 - AdsLogger - INFO - Batch 21: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2100000/2100000 ligne(s).
+2025-02-10 13:16:26,332 - AdsLogger - INFO - 2100000 ligne(s) lue(s).
+2025-02-10 13:17:12,911 - AdsLogger - INFO - Batch 22: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2200000/2200000 ligne(s).
+2025-02-10 13:17:12,911 - AdsLogger - INFO - 2200000 ligne(s) lue(s).
+2025-02-10 13:17:59,453 - AdsLogger - INFO - Batch 23: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2300000/2300000 ligne(s).
+2025-02-10 13:17:59,453 - AdsLogger - INFO - 2300000 ligne(s) lue(s).
+2025-02-10 13:18:45,864 - AdsLogger - INFO - Batch 24: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2400000/2400000 ligne(s).
+2025-02-10 13:18:45,864 - AdsLogger - INFO - 2400000 ligne(s) lue(s).
+2025-02-10 13:19:39,725 - AdsLogger - INFO - Batch 25: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2500000/2500000 ligne(s).
+2025-02-10 13:19:39,725 - AdsLogger - INFO - 2500000 ligne(s) lue(s).
+2025-02-10 13:20:36,716 - AdsLogger - INFO - Batch 26: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2600000/2600000 ligne(s).
+2025-02-10 13:20:36,717 - AdsLogger - INFO - 2600000 ligne(s) lue(s).
+2025-02-10 13:21:34,254 - AdsLogger - INFO - Batch 27: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2700000/2700000 ligne(s).
+2025-02-10 13:21:34,254 - AdsLogger - INFO - 2700000 ligne(s) lue(s).
+2025-02-10 13:22:20,661 - AdsLogger - INFO - Batch 28: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2800000/2800000 ligne(s).
+2025-02-10 13:22:20,661 - AdsLogger - INFO - 2800000 ligne(s) lue(s).
+2025-02-10 13:23:08,687 - AdsLogger - INFO - Batch 29: 100000 ligne(s) insérée(s) avec succès dans la table data.SFO_OrderItem. Total inséré: 2900000/2900000 ligne(s).
+2025-02-10 13:23:08,687 - AdsLogger - INFO - 2900000 ligne(s) lue(s).
+2025-02-10 13:24:59,686 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:24:59,872 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:24:59,872 - AdsLogger - INFO - Temps d'exécution de connect: 0.1867 secondes.
+2025-02-10 13:24:59,888 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:24:59,889 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 13:24:59,889 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0165 secondes
+2025-02-10 13:26:21,200 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:26:21,374 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:26:21,375 - AdsLogger - INFO - Temps d'exécution de connect: 0.1750 secondes.
+2025-02-10 13:26:21,402 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:26:21,403 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 13:26:21,404 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0283 secondes
+2025-02-10 13:29:54,518 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:29:54,747 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:29:54,747 - AdsLogger - INFO - Temps d'exécution de connect: 0.2285 secondes.
+2025-02-10 13:29:54,763 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:29:54,764 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 13:29:54,764 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0164 secondes
+2025-02-10 13:29:54,765 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:29:54,959 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:29:54,960 - AdsLogger - INFO - Temps d'exécution de connect: 0.1951 secondes.
+2025-02-10 13:29:54,960 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 13:29:55,022 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 13:29:55,022 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0623 secondes.
+2025-02-10 13:29:55,022 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 13:29:55,022 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2581 secondes.
+2025-02-10 13:29:55,212 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 13:29:55,212 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 13:29:55,393 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:30:46,652 - AdsLogger - ERROR - **************************************************
+2025-02-10 13:30:46,652 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Not connected to any MS SQL server
+2025-02-10 13:30:46,652 - AdsLogger - ERROR - **************************************************
+2025-02-10 13:51:32,811 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:51:33,051 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:51:33,051 - AdsLogger - INFO - Temps d'exécution de connect: 0.2405 secondes.
+2025-02-10 13:51:33,065 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:51:33,067 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 13:51:33,067 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0152 secondes
+2025-02-10 13:52:57,543 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 13:52:57,845 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 13:52:57,845 - AdsLogger - INFO - Temps d'exécution de connect: 0.3023 secondes.
+2025-02-10 13:52:57,864 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 13:52:57,864 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 13:52:57,864 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0186 secondes
+2025-02-10 14:19:01,949 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:19:02,205 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:19:02,205 - AdsLogger - INFO - Temps d'exécution de connect: 0.2563 secondes.
+2025-02-10 14:19:02,319 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:19:02,320 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:19:02,320 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1145 secondes
+2025-02-10 14:19:02,334 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:19:57,522 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:19:57,749 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:19:57,749 - AdsLogger - INFO - Temps d'exécution de connect: 0.2269 secondes.
+2025-02-10 14:19:57,761 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:19:57,762 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:19:57,762 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0130 secondes
+2025-02-10 14:19:57,762 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:19:57,937 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:19:57,938 - AdsLogger - INFO - Temps d'exécution de connect: 0.1760 secondes.
+2025-02-10 14:22:46,783 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:22:47,030 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:22:47,031 - AdsLogger - INFO - Temps d'exécution de connect: 0.2471 secondes.
+2025-02-10 14:22:47,047 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:22:47,048 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:22:47,048 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0177 secondes
+2025-02-10 14:22:47,049 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:22:47,270 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:22:47,270 - AdsLogger - INFO - Temps d'exécution de connect: 0.2214 secondes.
+2025-02-10 14:22:47,288 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:30:09,563 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:30:09,795 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:30:09,796 - AdsLogger - INFO - Temps d'exécution de connect: 0.2328 secondes.
+2025-02-10 14:30:09,811 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:30:09,812 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:30:09,812 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0158 secondes
+2025-02-10 14:35:27,526 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:35:27,750 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:35:27,750 - AdsLogger - INFO - Temps d'exécution de connect: 0.2241 secondes.
+2025-02-10 14:35:27,792 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:35:27,793 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:35:27,793 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0434 secondes
+2025-02-10 14:35:50,966 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:35:51,191 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:35:51,192 - AdsLogger - INFO - Temps d'exécution de connect: 0.2260 secondes.
+2025-02-10 14:35:51,217 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:35:51,218 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:35:51,218 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0263 secondes
+2025-02-10 14:35:51,219 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:35:51,402 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:35:51,402 - AdsLogger - INFO - Temps d'exécution de connect: 0.1837 secondes.
+2025-02-10 14:35:51,414 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:36:57,088 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:36:57,308 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:36:57,308 - AdsLogger - INFO - Temps d'exécution de connect: 0.2208 secondes.
+2025-02-10 14:36:57,325 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:36:57,326 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:36:57,326 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0178 secondes
+2025-02-10 14:36:57,327 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:36:57,491 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:36:57,491 - AdsLogger - INFO - Temps d'exécution de connect: 0.1645 secondes.
+2025-02-10 14:36:57,519 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:37:04,671 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:37:04,876 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:37:04,877 - AdsLogger - INFO - Temps d'exécution de connect: 0.2055 secondes.
+2025-02-10 14:37:04,891 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:37:04,892 - AdsLogger - INFO - 67 ligne(s) lue(s).
+2025-02-10 14:37:04,892 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0148 secondes
+2025-02-10 14:37:04,892 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:37:05,073 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:37:05,073 - AdsLogger - INFO - Temps d'exécution de connect: 0.1809 secondes.
+2025-02-10 14:37:05,088 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:40:27,126 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:40:27,357 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:40:27,357 - AdsLogger - INFO - Temps d'exécution de connect: 0.2312 secondes.
+2025-02-10 14:40:27,402 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:40:27,403 - AdsLogger - INFO - 200 ligne(s) lue(s).
+2025-02-10 14:40:27,404 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0461 secondes
+2025-02-10 14:40:27,404 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:40:27,601 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:40:27,602 - AdsLogger - INFO - Temps d'exécution de connect: 0.1976 secondes.
+2025-02-10 14:40:27,602 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 14:40:27,615 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:40:27,616 - AdsLogger - ERROR - Échec de l'exécution de la requête: (102, b"Incorrect syntax near ')'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-02-10 14:40:27,616 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:40:27,617 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:40:27,617 - AdsLogger - ERROR - Erreur lors de la création de la table de destination: (102, b"Incorrect syntax near ')'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-02-10 14:40:27,617 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:46:49,762 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:46:50,002 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:46:50,002 - AdsLogger - INFO - Temps d'exécution de connect: 0.2405 secondes.
+2025-02-10 14:46:50,021 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:46:50,024 - AdsLogger - INFO - 200 ligne(s) lue(s).
+2025-02-10 14:46:50,024 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0216 secondes
+2025-02-10 14:46:50,024 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:46:50,246 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:46:50,247 - AdsLogger - INFO - Temps d'exécution de connect: 0.2226 secondes.
+2025-02-10 14:46:50,247 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 14:46:50,266 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:46:50,266 - AdsLogger - ERROR - Échec de l'exécution de la requête: (102, b"Incorrect syntax near ')'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-02-10 14:46:50,267 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:46:50,268 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:46:50,268 - AdsLogger - ERROR - Erreur lors de la création de la table de destination: (102, b"Incorrect syntax near ')'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-02-10 14:46:50,268 - AdsLogger - ERROR - **************************************************
+2025-02-10 14:50:48,887 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:50:49,112 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:50:49,112 - AdsLogger - INFO - Temps d'exécution de connect: 0.2140 secondes.
+2025-02-10 14:50:49,132 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:50:49,132 - AdsLogger - INFO - 200 ligne(s) lue(s).
+2025-02-10 14:50:49,133 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0202 secondes
+2025-02-10 14:50:49,133 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-02-10 14:50:49,325 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-02-10 14:50:49,326 - AdsLogger - INFO - Temps d'exécution de connect: 0.1933 secondes.
+2025-02-10 14:50:49,327 - AdsLogger - INFO - Création de la table de destination...
+2025-02-10 14:50:49,392 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-02-10 14:50:49,392 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0501 secondes.
+2025-02-10 14:50:49,392 - AdsLogger - INFO - Table de destination créée.
+2025-02-10 14:50:49,392 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.2595 secondes.
+2025-02-10 14:50:49,577 - AdsLogger - INFO - Connexion à Copie table réussie.
+2025-02-10 14:50:49,577 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-02-10 14:50:49,786 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-02-10 14:51:07,177 - AdsLogger - INFO - Batch 1: 4345 ligne(s) insérée(s) avec succès dans la table data.SFO_Account. Total inséré: 4345/4345 ligne(s).
+2025-02-10 14:51:07,177 - AdsLogger - INFO - 4345 ligne(s) lue(s).
+2025-02-10 14:51:07,177 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 17.4376 secondes
+2025-02-10 14:51:07,196 - AdsLogger - INFO - Temps d'exécution de run: 17.8033 secondes.
