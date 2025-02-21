@@ -1,0 +1,71 @@
+Metadata-Version: 2.2
+Name: cleanflo
+Version: 0.1.0
+Summary: A beginner-friendly Python package for easy data cleaning and preprocessing.
+Home-page: https://github.com/yourusername/cleanflo
+Author: MYNAMPATI SRI RANGANADHA AVIANSH
+Author-email: aviinashhreddyy77@gmail.com
+Keywords: data cleaning,preprocessing,data science,machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: nltk
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 🚀 cleanflo: A Lightweight Data Cleaning Library
+
+*cleanflo* is a Python package designed to *automate data cleaning* tasks such as:
+- Handling missing values ✅
+- Detecting and treating outliers ✅
+- Feature scaling (Standardization, Min-Max, Log Scaling) ✅
+- Encoding categorical features (One-Hot, Label Encoding) ✅
+- Text cleaning (lowercasing, removing special characters, stopwords) ✅
+
+## 📌 1. Installation
+To install cleanflo, use:
+```sh
+pip install cleanflo
+
+## 📌 2. Quick Start
+import pandas as pd
+from cleanflo import cleanflo_pipeline
+
+# Sample DataFrame
+df = pd.DataFrame({
+    "Age": [25, 30, None, 40, 50],
+    "Salary": [50000, 60000, 70000, None, 90000],
+    "Department": ["HR", "Finance", "IT", "IT", "Sales"],
+    "Review": ["Great product!", "Worst experience!!!", "Just okay.", "Loved it!", "Nice deal."]
+})
+
+# Apply the full cleaning pipeline
+df_cleaned = cleanflo_pipeline(
+    df,
+    handle_missing=True,
+    outlier_columns=["Age", "Salary"],
+    scale_columns=["Salary"],
+    encode_columns=["Department"],
+    text_clean_columns=["Review"]
+)
+
+print(df_cleaned)
