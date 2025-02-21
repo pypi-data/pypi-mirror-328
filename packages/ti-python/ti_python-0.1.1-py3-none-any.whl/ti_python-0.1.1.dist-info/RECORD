@@ -1,0 +1,12 @@
+ti_python/__init__.py,sha256=3rW2ATt7ZiRbTfv1P-o4upnvfcIMcdaHODGzwPJ0DLo,127
+ti_python/__main__.py,sha256=i0VI4ZBg_YH4G2e1rcLFEWF3Ymv7WXFaiGMoxRuOsH0,961
+ti_python/compiler.py,sha256=0ZxULzClFBIfZl1PAPV0Tt0ihz-3T59RUIVZ1iIQ6Og,4315
+ti_python/generate.py,sha256=vrZ3qM7exQxXm4iYbmd4LveSGvKsfrUh8Wu53W7QflE,2336
+ti_python/tokenizer.py,sha256=oE4KcM7JY0tWyBpsTneLlnsbnGE-pqcZlfnvNwn5-D0,145
+ti_python/types.py,sha256=OLcCVksP3OMUe5qGTmX4ovPmdv4QxTNipI1zHz_MqMM,978
+ti_python-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ti_python-0.1.1.dist-info/METADATA,sha256=Q2uOB8HgN-DeicgiLlI2TG9ALZi_TbON1FHUm-g6zTM,1646
+ti_python-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ti_python-0.1.1.dist-info/entry_points.txt,sha256=MVQaUH3A_Vd2Yr9Tc0skfbTl2-OA5rEPd38vfuIdlbk,49
+ti_python-0.1.1.dist-info/top_level.txt,sha256=Ru79Bb1xhzbpfXeNv6RHJc0yqvBxHBijbxvzlu_dmPs,10
+ti_python-0.1.1.dist-info/RECORD,,
