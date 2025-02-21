@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pysupawindow/__init__.py
+pysupawindow/pysupawindow.py
+pysupawindow.egg-info/PKG-INFO
+pysupawindow.egg-info/SOURCES.txt
+pysupawindow.egg-info/dependency_links.txt
+pysupawindow.egg-info/top_level.txt

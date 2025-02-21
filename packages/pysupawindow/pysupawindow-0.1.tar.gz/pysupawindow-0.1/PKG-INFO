@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: pysupawindow
+Version: 0.1
+Summary: A simple Python module that provides a hello_world() function for testing
+Home-page: https://github.com/otoole-tyler/pysupawindow
+Author: Otoole Tyler
+Author-email: otooletyler20@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: summary
