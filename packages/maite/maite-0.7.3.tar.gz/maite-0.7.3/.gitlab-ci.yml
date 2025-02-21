@@ -1,0 +1,127 @@
+# include:
+#   - project: 'jatic/cdao/cicd'
+#     file: '.gitlab-ci.yml'
+#     ref: 'fix-python-version'
+
+stages:
+  - test
+  - docs
+  - deploy
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  GITLAB_REPO_URL: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
+
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/topics/caching/
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - python --version  # For debugging
+  - pip install virtualenv
+  - TMP_DIR=$(mktemp -d)
+  - virtualenv $TMP_DIR/venv
+  - source $TMP_DIR/venv/bin/activate
+  - python -m pip install --upgrade pip
+  - pip install tox
+
+
+default:
+  tags:
+    - CDAO
+
+tests:
+  stage: test
+  image: python:$PYTHON_VERSIONS
+  parallel:
+    matrix:
+      - PYTHON_VERSIONS: ["3.9", "3.10", "3.11"]
+  script:
+    - echo "Testing against minimum dependencies."
+    - tox -e py
+
+coverage:
+  stage: test
+  image: python:3.9
+  script:
+  - echo "Coverage Testing"
+  - tox -e coverage
+
+min-deps:
+  stage: test
+  image: python:3.9
+  script:
+    - echo "Testing against minimum dependencies."
+    - tox -e min-deps
+
+enforce-format:
+  stage: test
+  image: python:3.9
+  script:
+    - echo "Test code formatting issues."
+    - tox -e enforce-format
+
+typecheck:
+  stage: test
+  image: python:3.9
+  script:
+    - echo "Test typechecking."
+    - tox -e typecheck -vv
+
+pages:
+  stage: docs
+  environment: docs_env
+  image: python:3.9
+  variables:
+    TQDM_DISABLE: true
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y pandoc
+    - apt-get install -y fonts-dejavu
+    - apt-get install -y libgl1
+    - python --version  # For debugging
+    - pip install virtualenv
+    - TMP_DIR=$(mktemp -d)
+    - virtualenv $TMP_DIR/venv
+    - source $TMP_DIR/venv/bin/activate
+    - python -m pip install --upgrade pip
+    - pip install tox requests
+    - git config --global user.email "doc@maite"
+    - git config --global user.name "Doc"
+  script:
+    - tox -e docs
+    # Upload built docs to package registry if commit is tagged in format "^v\d+.\d+.\d+$"
+    - python docs/upload_docs_to_pkg_registry.py upload --skip-nonrelease --docdir .tox/docs/build/html --token "$CI_DOC_TOKEN"
+    # Populate `docs` directory with (a) built docs from last release, (b) previous doc builds in `docs/<version>` dirs, and (c) last doc build in 'latest' dir
+    - python docs/assemble_docs_for_publish.py --token "$CI_DOC_TOKEN" --outdir ./public
+    - git clone --branch=gh-pages "https://oath2:$CI_DOC_TOKEN@gitlab.jatic.net/jatic/cdao/maite.git" gh-pages-branch
+    - cd gh-pages-branch
+    - git reset --hard empty-doc
+    - cp -r ../public docs
+    - git add .
+    - git commit -m "Update docs"
+    - git push -f origin gh-pages
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+deploy:
+  stage: deploy
+  image: python:3.9
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - pip install build twine --upgrade
+    - twine --version
+    - python -m build
+    - twine upload --repository-url $GITLAB_REPO_URL -u gitlab-ci-token -p $CI_JOB_TOKEN dist/*
