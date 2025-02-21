@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: stac-japan-geo
+Version: 0.0.2
+Summary: Python package to search a STAC earth observation imagery catalog and find images in the Japanese archipelago.
+Author-email: Robert Cheetham <robert.m.cheetham@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/rcheetham/stac-japan-geo
+Keywords: stac-japan-geo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: stac-japan-geo[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# stac-japan-geo
+
+
+[![image](https://img.shields.io/pypi/v/stac-japan-geo.svg)](https://pypi.python.org/pypi/stac-japan-geo)
+[![image](https://img.shields.io/conda/vn/conda-forge/stac-japan-geo.svg)](https://anaconda.org/conda-forge/stac-japan-geo)
+
+
+**Python package to search a STAC earth observation imagery catalog and find images in the Japanese archipelago.**
+
+
+-   Free software: MIT License
+-   Documentation: https://rcheetham.github.io/stac-japan-geo
+
+
+## Features
+
+-   TODO
