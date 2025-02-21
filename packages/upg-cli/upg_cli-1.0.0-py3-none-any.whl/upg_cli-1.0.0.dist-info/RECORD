@@ -1,0 +1,16 @@
+upg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upg/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upg/cli/commands.py,sha256=r5bCoVLvHVkE_b41GwNDH8ggLYUXoamoUhcy72K-gt8,15095
+upg/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upg/config/manager.py,sha256=w9vGJ10WHRFP-ubmOFwb5HOp99Ae8sJzR42w4fKRqMs,5640
+upg/config/types.py,sha256=YDWbUfOo11H7kX_IJW43qG0OCEg-5-bG1IttXhQ_J3Q,2597
+upg/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upg/core/generator.py,sha256=q9lsOAERBWwHhTvSR6hyFSBqj6k_3GZZsLAy7LbzZ6g,8572
+upg/core/llm.py,sha256=FobPeeecspFgJFzWnw96QeQbB_QzhS9Hi1IAMcQa4TE,1979
+upg/core/prompts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upg/core/prompts/floatingprompt.py,sha256=snK_APk-HBHH-oXE2UA1qBGnGHLBR36wvmdBHX3OT7o,6968
+upg/core/prompts/metaprompt.py,sha256=BnSw-_eruESuNdIGVwBtkJWwVKYeEWK90OU37kLaka0,25432
+upg_cli-1.0.0.dist-info/METADATA,sha256=eIKV8nZ5QN7nmURJbMUxc2e8y7wd9L6haU24vLgJAHc,6029
+upg_cli-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+upg_cli-1.0.0.dist-info/entry_points.txt,sha256=teT2nRve9GDKABH2hnl29TE_7UjYszd9dbfcZYMHWCs,44
+upg_cli-1.0.0.dist-info/RECORD,,
