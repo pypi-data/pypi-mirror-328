@@ -1,0 +1,16 @@
+technical_drawing_parser/__init__.py,sha256=03zkP3vFF_B5pllonQInnqqKrpMQjUYtASRY-Qt4eUw,485
+technical_drawing_parser/datamodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technical_drawing_parser/datamodel/base_model.py,sha256=04oKx0PbnQ8xhjKtevPPfaspfNoBSvZa11Xfz1AmZFc,9846
+technical_drawing_parser/datamodel/image_block.py,sha256=5JayT-g8IabdguNjG-NjegL2eG3wjx7nAs2LNFVlLE8,230
+technical_drawing_parser/datamodel/uptool_image.py,sha256=ze_7c9xMuZOsI6IEms_ZOjBqUTR0vAZBx45mShAMTYc,14196
+technical_drawing_parser/llm_backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technical_drawing_parser/llm_backends/llm_backend.py,sha256=M4u-8guhMg414tuSR0CBnhAdbxP51pr_3i6qxJMYcLk,1460
+technical_drawing_parser/llm_backends/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technical_drawing_parser/llm_backends/backends/openai_backend.py,sha256=o0yRLp5il_4hRFm5PerfF2MmxrDZfwlYuszpdG2Phvk,1142
+technical_drawing_parser/pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technical_drawing_parser/pipeline/image_pipeline.py,sha256=vI8X-tY9IHpM6uQkq4Z55GB_5glEObtV0lFkKksEHp0,1797
+technical_drawing_parser/pipeline/llm_pipeline.py,sha256=XaytYRRxcd_tK3nNQxzbER1sLzvGkhiRxjkMPyetFcw,5676
+technical_drawing_parser-0.0.1rc34.post1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+technical_drawing_parser-0.0.1rc34.post1.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+technical_drawing_parser-0.0.1rc34.post1.dist-info/METADATA,sha256=qKqSBaYxbJLolYGwDCHxLsXoe_LijUDelmOwdhl67_8,17784
+technical_drawing_parser-0.0.1rc34.post1.dist-info/RECORD,,
