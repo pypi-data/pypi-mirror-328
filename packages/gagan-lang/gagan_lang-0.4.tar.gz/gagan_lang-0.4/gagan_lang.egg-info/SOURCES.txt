@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gagan/__init__.py
+gagan/errors.py
+gagan/interpreter.py
+gagan/lexer.py
+gagan/parser.py
+gagan_lang.egg-info/PKG-INFO
+gagan_lang.egg-info/SOURCES.txt
+gagan_lang.egg-info/dependency_links.txt
+gagan_lang.egg-info/entry_points.txt
+gagan_lang.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+ggn = gagan.interpreter:main
