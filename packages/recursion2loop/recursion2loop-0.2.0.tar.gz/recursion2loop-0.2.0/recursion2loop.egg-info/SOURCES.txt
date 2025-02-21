@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+recursion2loop/__init__.py
+recursion2loop.egg-info/PKG-INFO
+recursion2loop.egg-info/SOURCES.txt
+recursion2loop.egg-info/dependency_links.txt
+recursion2loop.egg-info/top_level.txt
+recursion2loop/tree/__init__.py
+recursion2loop/tree/tree_node.py
+recursion2loop/tree/tree_operations.py
+recursion2loop/tree/tree_traversal.py
