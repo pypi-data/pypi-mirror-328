@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: bfftree
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fs>=2.4.16
+Requires-Dist: protobuf>=5.29.3
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: remotezip>=0.12.3
+Requires-Dist: rich>=13.9.4
+Requires-Dist: typer>=0.15.1
+
+bfftree
+=======
+
+A prototype fast file tree representation, using protobuf serialised radix trees.

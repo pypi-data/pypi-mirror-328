@@ -1,0 +1,6 @@
+fs>=2.4.16
+protobuf>=5.29.3
+pydantic>=2.10.6
+remotezip>=0.12.3
+rich>=13.9.4
+typer>=0.15.1
