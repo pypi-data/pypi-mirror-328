@@ -1,0 +1,9 @@
+mikan_rs-0.1.2.dist-info/METADATA,sha256=GnW-2PEmSv2ZSHyowqW1Q7HlNd9vMlM2jekHW_dqhZ8,2771
+mikan_rs-0.1.2.dist-info/WHEEL,sha256=zb9Npq91i83lDRd1DoGjiBKiSPb3Lsjw8gnk4IazyhY,123
+mikan_rs-0.1.2.dist-info/licenses/LICENSE-APACHE,sha256=Yseh419WQGiW16p8pS0MwNJyrAIrXSeW59aQXbijY2o,9723
+mikan_rs-0.1.2.dist-info/licenses/LICENSE-MIT,sha256=JTzQTGcUiJ3y0y8_ZNZpF5oclcdqxDxAiCxS6wa8NVI,1070
+mikan/__init__.py,sha256=NGKRmpVcgfQw5CigVbR2fIig1K4Mz5PcyM9-QFjMA6s,27
+mikan/alias.py,sha256=iJCWAWGsqnJEdLB6XOW3019rnIAZICOH3scqxNvmIaI,2559
+mikan/metrics.py,sha256=QB53_hGmbiAwjE7C5pTkAS61_s76b8nxEzXAwxumos4,9006
+mikan/_mikan.cpython-38-i386-linux-gnu.so,sha256=q_2mJ1XcQM1l2sYguEIhgE5l1kH8d0oSm-hOKFBh9F4,2947288
+mikan_rs-0.1.2.dist-info/RECORD,,
