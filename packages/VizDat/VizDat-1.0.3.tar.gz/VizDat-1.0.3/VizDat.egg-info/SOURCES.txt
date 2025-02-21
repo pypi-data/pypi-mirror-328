@@ -1,0 +1,9 @@
+README.md
+setup.py
+VizDat/__init__.py
+VizDat/main.py
+VizDat.egg-info/PKG-INFO
+VizDat.egg-info/SOURCES.txt
+VizDat.egg-info/dependency_links.txt
+VizDat.egg-info/requires.txt
+VizDat.egg-info/top_level.txt
