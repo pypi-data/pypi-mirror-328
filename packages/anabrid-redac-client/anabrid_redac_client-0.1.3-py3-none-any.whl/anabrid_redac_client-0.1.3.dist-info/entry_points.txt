@@ -1,0 +1,3 @@
+[console_scripts]
+redacli=anabrid.redaccess.api.client.redacli:app
+
