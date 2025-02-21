@@ -1,0 +1,16 @@
+jupyterlab_notify/__init__.py,sha256=Wk5dAM9Fd7OqIKEH8LzwOR4Lnh8DoHI8YGCJgsgNzuU,461
+jupyterlab_notify/_version.py,sha256=v8GuGWppHGl0xlpDsMe5dCBFGuhWOAxBNrzq3BSvvDA,171
+jupyterlab_notify/magics.py,sha256=pitkAd1gKsX4m3xkBtrHNAeRxqTQfH_OTkFuYe54I4c,11120
+jupyterlab_notify-2.0.2.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_notify.json,sha256=LXtJ8srzP44mWjK1c8gsd3QXos1bcvNvkD34e5iLvNw,94
+jupyterlab_notify-2.0.2.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_notify.json,sha256=4BAjBspuDxPjxXrx69wHi-BMLefojN97xLXrZiqZtvM,92
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/package.json,sha256=p7vygRho623mNNNRo_oEfrqQani4fArnzn5Wmdt2rL8,5186
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/static/568.57c7601c094627c928c3.js,sha256=V8dgHAlGJ8kow2ewRNY6SHV3vNutb4oNTLr_QnLBMHA,1219
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/static/747.a8203475eacf622d6015.js,sha256=qCA0derPYi1gFSNMJgNPkDzBWrrpEYf_5_HYFoMC53s,4014
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/static/remoteEntry.2991307e8c084a1fcd65.js,sha256=KZEwfowISh_NZWx_x9WkxPkhPUSqlBEF3K53KH-BCl4,6401
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/static/style.js,sha256=YDoEZ5nT_jZel_6r0T7LtC-c7LPaqhUy6n8erQ-LNWU,160
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/static/third-party-licenses.json,sha256=_QzrEtsp358pZDPD5bPmSZd0Ttwit1UfT0aDw4o6leo,2452
+jupyterlab_notify-2.0.2.data/data/share/jupyter/labextensions/jupyterlab-notify/install.json,sha256=pUcz6JzZQtP4e747wtUSCjSzJ3HDhp1AjjACgIsOMqY,195
+jupyterlab_notify-2.0.2.dist-info/METADATA,sha256=DIXYu3IpsvBkJ-dqmtKoeayLrqhyUHfet3yoLLBq-fo,9094
+jupyterlab_notify-2.0.2.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+jupyterlab_notify-2.0.2.dist-info/licenses/LICENSE.txt,sha256=iwleuiUVI63Zq_1FZ0TSFeyy0yzMtzbBW2Gj7POhy2U,1503
+jupyterlab_notify-2.0.2.dist-info/RECORD,,
