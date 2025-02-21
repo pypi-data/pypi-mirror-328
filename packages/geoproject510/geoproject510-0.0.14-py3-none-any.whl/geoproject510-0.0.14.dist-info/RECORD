@@ -1,0 +1,10 @@
+geoproject510/__init__.py,sha256=J59rYWYwxgAF3A9mqh1KCqfendGIrxSiR-JrJgGEbZ8,127
+geoproject510/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+geoproject510/geoproject510.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tests/__init__.py,sha256=FMANVi6S2LHSKh8L3_oVsHkHxZEL22O0z7IaH2-9Ogo,43
+tests/test_geoproject510.py,sha256=fJBdRA_i0oR9HVHJ-LOIgx6Lli4gspTFC8-QZBHMz3c,417
+geoproject510-0.0.14.dist-info/LICENSE,sha256=-amjT_r7Hb-ntz4xVqeIlhlBR7FlsLkXALRbmHPHPe0,1069
+geoproject510-0.0.14.dist-info/METADATA,sha256=HoGNTdsIR_sTdFit1eBI6Z3HFUokVLagKp3dund5_-4,383
+geoproject510-0.0.14.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+geoproject510-0.0.14.dist-info/top_level.txt,sha256=iAfIqsoM3tZEsKBaPylodruS33jJOggBGMU5ficSTgM,20
+geoproject510-0.0.14.dist-info/RECORD,,
