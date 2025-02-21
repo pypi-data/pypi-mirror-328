@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: bharatpe
+Version: 0.0.3
+Summary: Hmm, Payments API.
+Home-page: https://t.me/North_Yankton
+Author: Alpha
+Author-email: imr@outlook.in
+License: MIT
+Project-URL: Tracker, https://github.com/Alpha-Like/bharatpe/issues
+Project-URL: Community, https://t.me/SpLBots
+Project-URL: Source, https://github.com/Alpha-Like/bharatpe
+Project-URL: Documentation, https://t.me/SpLBots
+Keywords: payments api bharatpe
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pymongo
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# bharatpe-api
