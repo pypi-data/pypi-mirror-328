@@ -1,0 +1,5 @@
+ai-models-gfs
+microsoft-aurora>=1.1.0
+
+[dev]
+pre-commit
