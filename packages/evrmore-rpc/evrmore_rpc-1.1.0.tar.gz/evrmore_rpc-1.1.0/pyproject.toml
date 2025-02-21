@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "evrmore-rpc"
+version = "1.1.0"
+description = "A typed Python wrapper for evrmore-cli commands with ZMQ support"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = [
+    "evrmore",
+    "rpc",
+    "blockchain",
+    "cryptocurrency",
+    "zmq",
+    "assets",
+    "wallet"
+]
+authors = [
+    { name = "Manticore Technologies", email = "info@manticore.tech" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "rich>=10.0.0",
+    "pyzmq>=25.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "isort>=5.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ManticoreTechnology/evrmore-rpc"
+Documentation = "https://github.com/ManticoreTechnology/evrmore-rpc#readme"
+Repository = "https://github.com/ManticoreTechnology/evrmore-rpc.git"
+Issues = "https://github.com/ManticoreTechnology/evrmore-rpc/issues"
+
+[project.scripts]
+evrmore-rpc = "evrmore_rpc.cli:main"
+evrmore-interactive = "evrmore_rpc.interactive:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["evrmore_rpc"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/evrmore_rpc",
+    "/tests",
+    "CHANGELOG.md",
+    "LICENSE",
+    "MANIFEST.in",
+    "README.md",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 100
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
