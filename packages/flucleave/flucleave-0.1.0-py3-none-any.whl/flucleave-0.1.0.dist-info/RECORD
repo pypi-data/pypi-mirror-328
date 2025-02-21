@@ -1,0 +1,15 @@
+__init__.py,sha256=0JAgDN3r-BJ-Xg-J5Ws_XHqTHdkVZN--FxS6xn6ZOiY,1698
+cleavage_json_to_csv.py,sha256=h8qWaa0kw01Sg2PqzyIubFU5CTXeOZ-aDGJCoa5a4Fk,3028
+cli.py,sha256=hP8jAbr4YyKSvxPjLWOtbRXRqZbVjXlzr4dwnlTmvJQ,2726
+config.py,sha256=AQ0DHaz-TfYuGAeIh6AwKRXlKjMjjsLZJgLzFKO3-xg,1519
+model.py,sha256=bHT6WBX28aXzVmeHWYFj1tsbCEULS8qeQ98TGetmimM,3308
+predict.py,sha256=xJ6FBN-LsrcmwKuY_H3sXr9k6hky6BYN2jP08_v3mP0,4186
+test_predict.py,sha256=wJ_bRAQZtxZCjU0OJNbAempob8LOlGAYsPJoo5P3gBk,3146
+train.py,sha256=EKW2rAoxvgOPATRjSnLHJE2xtri9ovw5BMrvI2dL7jE,6980
+utils.py,sha256=4HnR0P8MMmsJUkbzQdC1S0Tpvs3xcVwDJo3Hs34Xe5k,3956
+flucleave-0.1.0.dist-info/LICENSE,sha256=PqAFQIfAgMC3c1Ik9Vh8H5V6dYsQdymhjKB83yDUeRg,1071
+flucleave-0.1.0.dist-info/METADATA,sha256=jTFCRWSCzIzmR41qE0S0Bwx5CWteZnkCrrC4r4TZ_0s,1919
+flucleave-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+flucleave-0.1.0.dist-info/entry_points.txt,sha256=rmNbbdYR0qSnartef9CypsNsFhN4gCRt07WJV2kLgIY,49
+flucleave-0.1.0.dist-info/top_level.txt,sha256=RQFs1n_-kePCxbx27iHAUkLcAMgBDzcO0eO6fr_SMK4,80
+flucleave-0.1.0.dist-info/RECORD,,
