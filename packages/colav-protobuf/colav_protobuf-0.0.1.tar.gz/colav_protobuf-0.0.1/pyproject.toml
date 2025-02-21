@@ -1,0 +1,24 @@
+[project]
+name = "colav_protobuf"
+version = "0.0.1"
+description = "A package for working with the COLAV protobuf format"
+authors = [
+    {name = "Ryan",email = "r.mckee@qub.ac.uk"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "protobuf (==3.20.1)"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["colav_protobuf"]
