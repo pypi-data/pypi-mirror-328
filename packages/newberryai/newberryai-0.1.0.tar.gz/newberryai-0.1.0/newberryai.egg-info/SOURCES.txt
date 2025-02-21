@@ -1,0 +1,13 @@
+README.md
+setup.py
+newberryai/__init__.py
+newberryai/aws_auth.py
+newberryai/cli.py
+newberryai/transcribe.py
+newberryai.egg-info/PKG-INFO
+newberryai.egg-info/SOURCES.txt
+newberryai.egg-info/dependency_links.txt
+newberryai.egg-info/entry_points.txt
+newberryai.egg-info/requires.txt
+newberryai.egg-info/top_level.txt
+tests/test_transcribe.py
