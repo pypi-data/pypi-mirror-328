@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: SpatialDIVA
+Version: 0.1b1
+Summary: Multi-modal Disentanglement of Spatial Transcriptomics and Histopathology Imaging
+Author: hsmaan
+Author-email: hassaan.maan@mail.utoronto.ca
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: faiss-cpu (==1.9.0)
+Requires-Dist: ipykernel (>=6.29.2,<7.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pytorch-lightning (>=2.0.0,<3.0.0)
+Requires-Dist: scanpy (>=1.9.8,<2.0.0)
+Requires-Dist: scib-metrics (>=0.5.1,<0.6.0)
+Requires-Dist: scikit-learn (>=1.2.0,<2.0.0)
+Requires-Dist: scikit-misc (>=0.3.1,<0.4.0)
+Requires-Dist: scvi-tools (>=1.1.0.post2,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: setuptools (>=58.0.4,<59.0.0)
+Requires-Dist: torch (>=2.0.0,<3.0.0)
+Requires-Dist: wandb (>=0.16.3,<0.17.0)
+Requires-Dist: wheel (>=0.37.0,<0.38.0)
