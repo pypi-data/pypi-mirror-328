@@ -1,0 +1,10 @@
+modelopt_core/__init__.py,sha256=xppTVSh_22yvy9-jntZ3ueHpkn0gnDFGcblDN0RJ6Vo,860
+modelopt_core/torch/nas/plugins/megatron.cpython-39-x86_64-linux-gnu.so,sha256=IfgdZr-u2PP1ZlC8zAWgnJ8aTaWoAnZb4dWrNMsVbL8,4236512
+modelopt_core/torch/quantization/algorithms.cpython-39-x86_64-linux-gnu.so,sha256=IX8wg5tltyo6dLQUVZ_4N7NkcWb_Ia4nAT8UELoPg78,2860376
+modelopt_core/torch/quantization/config.cpython-39-x86_64-linux-gnu.so,sha256=dGXyMjmXELUBtPwfx943eQMwePMu-tANBbbc4CbS27A,154248
+modelopt_core/torch/quantization/qtensor/nvfp4_tensor.cpython-39-x86_64-linux-gnu.so,sha256=8-goy0ckrzAbYh7YCN4cHr5wnqdNNrD243uV8usTLkA,958888
+nvidia_modelopt_core-0.23.2.dist-info/LICENSE,sha256=ABRP1oyVxjEsl5A_dXiedJ31EiKWLLAwkxSK7bAmUi0,654
+nvidia_modelopt_core-0.23.2.dist-info/METADATA,sha256=zyGObAaVZdNmeJapqx4gsLXyx9PRuzT2IF3jKIXG2us,825
+nvidia_modelopt_core-0.23.2.dist-info/WHEEL,sha256=hP2N_hS4PKw-M4krXQgMGtCEsQMkokQDIc5uU4EZO1Y,147
+nvidia_modelopt_core-0.23.2.dist-info/top_level.txt,sha256=ZfNmAEKPejz14Ded4nlbUoZ7dWU8aerBNi8dfb-zP3I,14
+nvidia_modelopt_core-0.23.2.dist-info/RECORD,,
