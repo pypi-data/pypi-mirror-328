@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: wavclassify
+Version: 0.4.2
+Summary: Classifying WAV files
+Author-email: Oliver Lindemann <lindemann@essb.eur.nl>
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: wheel>=0.45
+Requires-Dist: setuptools>=75.0
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: sounddevice>=0.5
+Requires-Dist: soundfile>=0.13
+Requires-Dist: readkeys>=1.0.2
+Requires-Dist: FreeSimpleGUI>5.0

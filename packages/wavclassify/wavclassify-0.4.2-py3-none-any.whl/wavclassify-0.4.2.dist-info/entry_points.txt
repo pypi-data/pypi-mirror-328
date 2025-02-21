@@ -1,0 +1,3 @@
+[console_scripts]
+wavclassify=wavclassify.__main__:run
+
