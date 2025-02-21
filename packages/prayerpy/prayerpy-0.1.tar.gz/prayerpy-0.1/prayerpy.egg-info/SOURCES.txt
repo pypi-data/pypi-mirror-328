@@ -1,0 +1,13 @@
+README.md
+setup.py
+prayerpy/__init__.py
+prayerpy/config.py
+prayerpy/degree_geometry.py
+prayerpy/equation_of_time.py
+prayerpy/main.py
+prayerpy/prayer_time.py
+prayerpy/sun_declination.py
+prayerpy.egg-info/PKG-INFO
+prayerpy.egg-info/SOURCES.txt
+prayerpy.egg-info/dependency_links.txt
+prayerpy.egg-info/top_level.txt
