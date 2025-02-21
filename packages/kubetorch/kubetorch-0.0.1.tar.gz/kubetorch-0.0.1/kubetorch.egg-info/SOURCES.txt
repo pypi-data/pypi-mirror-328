@@ -1,0 +1,5 @@
+setup.py
+kubetorch.egg-info/PKG-INFO
+kubetorch.egg-info/SOURCES.txt
+kubetorch.egg-info/dependency_links.txt
+kubetorch.egg-info/top_level.txt
