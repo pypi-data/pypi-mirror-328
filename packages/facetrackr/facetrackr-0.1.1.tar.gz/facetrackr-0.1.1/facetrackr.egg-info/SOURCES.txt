@@ -1,0 +1,14 @@
+README.md
+setup.py
+facetrackr/__init__.py
+facetrackr/config.py
+facetrackr/face_collection.py
+facetrackr/video_processing.py
+facetrackr.egg-info/PKG-INFO
+facetrackr.egg-info/SOURCES.txt
+facetrackr.egg-info/dependency_links.txt
+facetrackr.egg-info/entry_points.txt
+facetrackr.egg-info/requires.txt
+facetrackr.egg-info/top_level.txt
+tests/test_face_collection.py
+tests/test_video_processing.py

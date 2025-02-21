@@ -1,0 +1,87 @@
+Metadata-Version: 2.2
+Name: facetrackr
+Version: 0.1.1
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+
+# **facetrackr** 🕵️‍♂️🎥  
+_A Face Recognition and Timestamp Extraction Tool for Videos_
+
+## **Overview**  
+**facetrackr** is a Python package that allows users to detect and recognize faces in videos using AWS Rekognition. It provides a seamless way to upload face images to a collection, process videos, and retrieve timestamps where the face is detected.
+
+## **Features**
+✅ Add a face image to an AWS Rekognition collection  
+✅ Process a video to detect the given face  
+✅ Retrieve timestamps of face appearances  
+✅ Easy-to-use command-line interface  
+
+---
+
+## **Installation**  
+
+Ensure you have Python **3.7+** installed. Then install `facetrackr` using:
+
+```sh
+pip install facetrackr
+```
+
+---
+
+## **Usage**
+After installing, run the following command in your terminal:
+
+```sh
+python -m facetrackr
+```
+
+You will be prompted to enter:
+1. The **path of the face image** you want to recognize.
+2. The **path of the video** in which you want to detect the face.
+
+### **Example**
+```
+Enter the path of the face image: ./images/person.jpg
+Enter the path of the video: ./videos/sample.mp4
+```
+If the face is found in the video, the output will be:
+
+```
+Starting face detection in video...
+
+Final Detection Report:
+Face detected at 12.5 seconds with ID: person_123
+Face detected at 28.7 seconds with ID: person_123
+```
+
+---
+
+
+## **Requirements**
+Before running the package, install dependencies:
+```sh
+pip install -r requirements.txt
+```
+
+---
+
+## **AWS Configuration**
+Since this package relies on AWS Rekognition, ensure you have:
+1. An **AWS account** with Rekognition enabled.
+2. **AWS credentials** configured using:
+   ```sh
+   aws configure
+   ```
+3. The necessary permissions in IAM for Rekognition.
+
+---
+## **License**
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+
+---
