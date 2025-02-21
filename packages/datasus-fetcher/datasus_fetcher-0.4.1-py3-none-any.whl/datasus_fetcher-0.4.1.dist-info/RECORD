@@ -1,0 +1,14 @@
+datasus_fetcher/__init__.py,sha256=lOtEdAOdjp-yUIrE6TBiIRu09POf4Uc0p85m1ktw184,123
+datasus_fetcher/cli.py,sha256=eLc4ytlXq9mp3X-RoN04KNxf0HnbsC7_MoqwEhTr85Y,9125
+datasus_fetcher/constants.py,sha256=jK3LpQMhEg3EL6g-LmCa8c3cpHi3CQIjdTU19hGjZmU,583
+datasus_fetcher/fetcher.py,sha256=g3gCPu43dxKBd18t9wbV-C_uh3YrnzaHp6oCHCQXAJ4,10832
+datasus_fetcher/meta.py,sha256=lSfyC7GmMfZEq7sw134V2OC9B-S-Fl9bekm7ypvWyOY,57363
+datasus_fetcher/remote_names.py,sha256=NYVkd09qasRKf-xWAeki79uw0Hp-PNY7pJAN02yMf7c,2780
+datasus_fetcher/slicer.py,sha256=PDmBsQuMt1TX7spt2xBopVb1HW51T4JIV3KL8XBbRxA,1631
+datasus_fetcher/storage.py,sha256=bFxaczxBjqbvuzIFIKnq5XB1Y9Vb5f149OkUwa-07fU,3723
+datasus_fetcher-0.4.1.dist-info/LICENSE,sha256=iTY5z5JKCOXVKYqpYWar2tDRxYdPYbLb8rTheEddcnA,1069
+datasus_fetcher-0.4.1.dist-info/METADATA,sha256=pSFF2BvXKt_EeEfiIfbiEMhgp-IgZw4EO0Ue2nU49Fs,17382
+datasus_fetcher-0.4.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+datasus_fetcher-0.4.1.dist-info/entry_points.txt,sha256=vpnxzaoWZqh8dCaFPqmD6z1Z46GY7nwKlPP-Q35UNYA,61
+datasus_fetcher-0.4.1.dist-info/top_level.txt,sha256=U2a8tqB8CdM30fOTokInlQlvqofoyWmGbj-8GYbyEQc,16
+datasus_fetcher-0.4.1.dist-info/RECORD,,
