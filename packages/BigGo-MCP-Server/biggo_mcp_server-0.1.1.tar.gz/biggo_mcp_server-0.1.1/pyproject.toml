@@ -1,0 +1,36 @@
+[project]
+name = "BigGo-MCP-Server"
+version = "0.1.1"
+description = "A Model Context Protocol (MCP) server that provides product search, price history tracking, and specification search capabilities."
+readme = "README.md"
+authors = [
+    { name = "alex", email = "alex@funmula.com" }
+]
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.11.11",
+    "async-lru>=2.0.4",
+    "elasticsearch8[async]>=8.17.1",
+    "mcp[cli]>=1.2.1",
+]
+
+[project.urls]
+Source = "https://github.com/Funmula-Corp/BigGo-MCP-Server"
+Homepage = "https://github.com/Funmula-Corp/BigGo-MCP-Server"
+
+[project.scripts]
+biggo-mcp-server = "biggo_mcp_server:main"
+
+[project.gui-scripts]
+biggo-mcp-server = "biggo_mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.3",
+]
