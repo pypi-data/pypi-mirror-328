@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+octodns_sakuracloud/__init__.py
+octodns_sakuracloud.egg-info/PKG-INFO
+octodns_sakuracloud.egg-info/SOURCES.txt
+octodns_sakuracloud.egg-info/dependency_links.txt
+octodns_sakuracloud.egg-info/requires.txt
+octodns_sakuracloud.egg-info/top_level.txt
+tests/test_provider_octodns_sakuracloud.py
