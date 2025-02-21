@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: manylocales
+Version: 0.1.0
+Summary: AI translations in your CI/CD pipeline
+Project-URL: Documentation, https://github.com/manylocales/manylocales#readme
+Project-URL: Issues, https://github.com/manylocales/manylocales/issues
+Project-URL: Source, https://github.com/manylocales/manylocales
+Project-URL: Homepage, https://manylocales.com
+Author-email: ManyLocales <hello@manylocales.com>
+License-File: LICENSE.md
+Keywords: gettext,i18n,internationalization,l10n,localization,translation
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: openai>=1.0.0
+Requires-Dist: polib>=1.2.0
+Requires-Dist: pyyaml>=6.0.2
+Description-Content-Type: text/markdown
+
+# ManyLocales
+
+Collect and translate texts with AI using a single command.
+
+ManyLocales is an AI-powered tool designed to automate translations in source code. It uses translation providers like ChatGPT to translate `.po` files right after extracting them from your source code.
+
+## Features
+
+- **Collect Strings**: Uses the `gettext` toolset and `polib` Python package to efficiently collect strings from your source files.
+- **Automatic Translation**: Translates `.po` files using AI.
+- **Locale Management**: Supports multiple locales and handles merging with existing translations.
+
+## Installation
+
+TBD
+
+## Usage
+
+Run ManyLocales with the following command:
+
+```bash
+manylocales
+```
+
+### Command-line Options
+
+- `-w`, `--workdir`: Change to this directory before executing the command.
+TBD
+
+## Configuration
+
+TBD
