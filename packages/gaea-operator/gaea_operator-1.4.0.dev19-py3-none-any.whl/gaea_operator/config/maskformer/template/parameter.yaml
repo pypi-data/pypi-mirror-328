@@ -1,0 +1,82 @@
+batch_size: 2
+iters: 20000
+epoch: 10
+
+
+train_dataset:
+  type: Dataset
+  dataset_root: /root/paddlejob/workspace/jinxiang/
+  train_path: /root/paddlejob/workspace/jinxiang/train.txt
+  num_classes: 2
+  transforms:
+    - type: ResizeByShort
+      short_size: [1024, 1120, 1216, 1312, 1408, 1504, 1600, 1696, 1792, 1888, 1984, 2080]
+    - type: RandomPaddingCrop
+      crop_size: [640, 640]
+      im_padding_value: 127.5
+      label_padding_value: 0
+    - type: RandomRotation
+      max_rotation: 15
+      im_padding_value: 127.5
+      label_padding_value: 0
+    - type: Resize
+      target_size: [640, 640]
+    - type: GenerateInstanceTargets
+      num_classes: 2
+    - type: RandomHorizontalFlip
+      prob: 0.5
+    - type: RandomVerticalFlip
+      prob: 0.5
+    - type: RandomDistort
+      brightness_range: 0.1
+      contrast_range: 0.1
+      saturation_range: 0.1
+    - type: Normalize
+  mode: train
+
+val_dataset:
+  type: Dataset
+  dataset_root: /root/paddlejob/workspace/jinxiang/
+  val_path: /root/paddlejob/workspace/jinxiang/val.txt
+  num_classes: 2
+  transforms:
+    - type: Resize
+      target_size: [640, 640]
+    - type: Normalize
+  mode: val
+
+model:
+  type: MaskFormer
+  num_classes: 2
+  backbone:
+    type: SwinTransformer_small_patch4_window7_224_maskformer
+  pretrained: /root/maskformer/pretrain_model/maskformer_ade20k_swin_small/model.pdparams
+
+optimizer:
+  type: AdamW
+  weight_decay: 0.01
+  custom_cfg:
+  - name: backbone
+    lr_mult: 1.0
+  - name: norm
+    weight_decay_mult: 0.0
+  - name: relative_position_bias_table
+    weight_decay_mult: 0.0
+  grad_clip_cfg:
+    name: ClipGradByNorm
+    clip_norm: 0.01
+
+lr_scheduler:
+  type: PolynomialDecay
+  warmup_iters: 1500
+  warmup_start_lr: 6.0e-05
+  learning_rate: 1.0e-04
+  end_lr: 0
+  power: 0.9
+
+loss:
+  types:
+    - type: MaskFormerLoss
+      num_classes: 2
+      eos_coef: 0.1
+  coef: [1]
