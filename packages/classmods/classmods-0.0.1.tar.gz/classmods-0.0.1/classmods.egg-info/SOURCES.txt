@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+classmods/__init__.py
+classmods/method_spy.py
+classmods/orm_class.py
+classmods.egg-info/PKG-INFO
+classmods.egg-info/SOURCES.txt
+classmods.egg-info/dependency_links.txt
+classmods.egg-info/not-zip-safe
+classmods.egg-info/top_level.txt
