@@ -1,0 +1,13 @@
+black
+build
+coverage
+flake8
+importlib_metadata
+pre-commit
+pylint
+pytest
+ruff
+tox
+twine
+watchdog
+yapf
