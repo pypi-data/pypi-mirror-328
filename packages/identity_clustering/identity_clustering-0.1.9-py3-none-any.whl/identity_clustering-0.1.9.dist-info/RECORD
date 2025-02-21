@@ -1,0 +1,11 @@
+identity_clustering/__init__.py,sha256=LTPtsNH_8GG1QsRaOZwDVN1t2UzUqMvEeH1BzI41Ccc,77
+identity_clustering/_version.py,sha256=5FjZpMG06y7mt5yTy5kd4jLG7VadDZlhVqsJN5irAUM,356
+identity_clustering/cluster.py,sha256=yxAOnBk65_H50GwD71k9JMBqC_QHsSpz3zTfwDRTYUQ,6310
+identity_clustering/dataset.py,sha256=n5Zo4JZUWS0EfGfXKnaNwnJDsEO67Bl48ftkhvZqpPA,1446
+identity_clustering/facedetector.py,sha256=GhN3_SGVnTs-eVqIChTfkMt7fWD7-xNVtOOQTkF7ay0,1067
+identity_clustering/imports.py,sha256=xTMrUWRLA6AXG9-9bGcnfk7zueaxdpb953gQcP0tJmo,414
+identity_clustering/utils.py,sha256=2IEXlyvjF9G5Z9jE3mIaOJD3TYvnEMgMocT7WLgvpSQ,3703
+identity_clustering/version.py,sha256=HgbYOJOutKj3uvUikpLLsnq6MgH8CNXWUngmMXd-KGI,150
+identity_clustering-0.1.9.dist-info/METADATA,sha256=L3wjon6JZR0yF2Xg9krLCsHSjkQm0ELZsYn8Bz9-dhw,623
+identity_clustering-0.1.9.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+identity_clustering-0.1.9.dist-info/RECORD,,
