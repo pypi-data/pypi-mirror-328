@@ -1,0 +1,4 @@
+nemony
+streq
+tqdm
+pytest
