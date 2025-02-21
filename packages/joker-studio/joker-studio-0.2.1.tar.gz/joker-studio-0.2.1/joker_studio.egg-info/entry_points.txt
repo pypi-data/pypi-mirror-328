@@ -1,0 +1,3 @@
+[console_scripts]
+dio = joker.studio.__main__:registry
+joker-studio = joker.studio.__main__:registry
