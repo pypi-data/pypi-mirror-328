@@ -1,0 +1,14 @@
+pytest
+pymarc
+requests
+jellyfish
+jsonlines
+regex
+FlagEmbedding
+estnltk==1.7.3
+nltk
+huggingface-hub
+rara-tools
+
+[testing]
+pytest>=8.0
