@@ -1,0 +1,9 @@
+code_monger/__init__.py,sha256=r60PrcTat-8t0V5YvTLoau3HLG2HClu4goSMIaSh7CI,310
+code_monger/code_generator.py,sha256=YG-VKTF_0su7DMkhpxrKkXF306-o5UWJ08xOvKWDS7A,3309
+code_monger/intro.py,sha256=QAcsSnO8UudVTalFk8auW-auzYqhmU9i3wkq7A4JRT4,78
+code_monger/test_code_generation.py,sha256=EYBaWUX6J7gbIUuEn1P1t9HPp7xepGWYciyy9R3saK0,1000
+code_monger-0.1.dist-info/LICENSE.txt,sha256=H_D8HdRKz1vrXtgAsKMfquv8SUENSkj6NcZHfBONlBg,1101
+code_monger-0.1.dist-info/METADATA,sha256=KDwcB67kimk-WXNEv_lswd2Q8wEecGqHye7QIIA-4n0,83
+code_monger-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+code_monger-0.1.dist-info/top_level.txt,sha256=VbG818gegAhsNPducberIrF2lQNQoXQSL8ttILivaBs,12
+code_monger-0.1.dist-info/RECORD,,
