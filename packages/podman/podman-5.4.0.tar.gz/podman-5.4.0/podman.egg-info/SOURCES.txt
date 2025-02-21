@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+podman/__init__.py
+podman/client.py
+podman/py.typed
+podman/tlsconfig.py
+podman/version.py
+podman.egg-info/PKG-INFO
+podman.egg-info/SOURCES.txt
+podman.egg-info/dependency_links.txt
+podman.egg-info/requires.txt
+podman.egg-info/top_level.txt
