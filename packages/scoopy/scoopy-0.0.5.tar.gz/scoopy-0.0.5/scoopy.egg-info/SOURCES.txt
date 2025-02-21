@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scoopy/__init__.py
+scoopy/base.py
+scoopy/data_sources.py
+scoopy/util.py
+scoopy.egg-info/PKG-INFO
+scoopy.egg-info/SOURCES.txt
+scoopy.egg-info/dependency_links.txt
+scoopy.egg-info/not-zip-safe
+scoopy.egg-info/requires.txt
+scoopy.egg-info/top_level.txt
+scoopy/examples/__init__.py
+scoopy/examples/search_and_save_news.py
