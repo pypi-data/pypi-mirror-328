@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/shinyapp/wrc_rallydj/__init__.py
+src/shinyapp/wrc_rallydj/livetiming_api.py
+src/shinyapp/wrc_rallydj.egg-info/PKG-INFO
+src/shinyapp/wrc_rallydj.egg-info/SOURCES.txt
+src/shinyapp/wrc_rallydj.egg-info/dependency_links.txt
+src/shinyapp/wrc_rallydj.egg-info/requires.txt
+src/shinyapp/wrc_rallydj.egg-info/top_level.txt
