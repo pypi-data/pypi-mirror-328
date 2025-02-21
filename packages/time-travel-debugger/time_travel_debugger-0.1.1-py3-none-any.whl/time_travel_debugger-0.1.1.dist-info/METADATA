@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: time-travel-debugger
+Version: 0.1.1
+Summary: A time-travel debugger for Python with step-backward execution.
+Home-page: https://github.com/sddhantjaiii/Time-Travel-debugger
+Author: Siddhant Jaiswal
+Author-email: sddhantjaiii@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: rich
+
+# Time-Travel Debugger 🚀
+
+A Python library that allows step-backward debugging, making debugging more visual and interactive. This tool helps developers inspect past states of their program without restarting execution, enabling efficient debugging.
+
+## 📌 How This Idea Came to Mind
+
+While solving problems on **LeetCode**, I often performed **dry runs** to manually track variable changes. I realized that a tool that could **rewind execution steps** and visually display variable changes would make debugging much easier. This led me to create **Time-Travel Debugger**—a library that allows developers to **step backward and forward** in execution history seamlessly.
+
+## ✨ Features
+- Step **forward** and **backward** through execution history.
+- View **variable changes** at each step.
+- Set **breakpoints** for controlled debugging.
+- Interactive **CLI mode** with visual debugging powered by `rich`.
+
+## 🔧 Installation
+```
+pip install time-travel-debugger
+```
+
+## 🚀 Usage
+```python
+from time_travel_debugger import TimeTravelDebugger
+
+def sample_function():
+    a = 10
+    b = a + 5
+    c = b * 2
+    d = c - 3
+    print("Final result:", d)
+
+# Initialize debugger
+debugger = TimeTravelDebugger()
+
+debugger.start_debugging(sample_function)
+
+debugger.debugger_cli()
+```
+
+## 🛠️ Debugging Commands
+| Command | Description |
+|---------|------------|
+| `f`     | Step **forward** to the next execution state |
+| `b`     | Step **backward** to the previous state |
+| `q`     | **Quit** the debugger |
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
