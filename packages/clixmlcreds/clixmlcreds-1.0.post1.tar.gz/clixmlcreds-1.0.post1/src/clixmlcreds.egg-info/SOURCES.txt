@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/clixmlcreds/Export-CredentialToClixml.ps1
+src/clixmlcreds/__init__.py
+src/clixmlcreds/credentials.py
+src/clixmlcreds/errors.py
+src/clixmlcreds/utils.py
+src/clixmlcreds.egg-info/PKG-INFO
+src/clixmlcreds.egg-info/SOURCES.txt
+src/clixmlcreds.egg-info/dependency_links.txt
+src/clixmlcreds.egg-info/requires.txt
+src/clixmlcreds.egg-info/top_level.txt
+tests/test_credentials.py
