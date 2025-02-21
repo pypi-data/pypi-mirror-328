@@ -1,0 +1,3 @@
+[console_scripts]
+GCfitter = gcfit.scripts:GCfitter.main
+generate_model_CI = gcfit.scripts:generate_model_CI.main
