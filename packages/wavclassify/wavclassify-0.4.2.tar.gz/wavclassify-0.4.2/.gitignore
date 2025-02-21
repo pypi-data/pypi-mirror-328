@@ -1,0 +1,14 @@
+*.py[cod]
+.idea/
+.vscode/
+dist/
+
+__pycache__
+
+venv/
+
+# vim files
+.bak
+
+classification.csv
+ttest*
