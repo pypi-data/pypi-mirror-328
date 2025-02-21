@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+BugInjectX.egg-info/PKG-INFO
+BugInjectX.egg-info/SOURCES.txt
+BugInjectX.egg-info/dependency_links.txt
+BugInjectX.egg-info/entry_points.txt
+BugInjectX.egg-info/requires.txt
+BugInjectX.egg-info/top_level.txt
+buginjectx/__init__.py
+buginjectx/comparer.py
+buginjectx/config.py
+buginjectx/injector.py
+buginjectx/main.py

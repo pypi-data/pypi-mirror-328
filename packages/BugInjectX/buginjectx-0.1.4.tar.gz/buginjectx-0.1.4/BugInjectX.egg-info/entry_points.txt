@@ -1,0 +1,2 @@
+[console_scripts]
+buginjectx = buginjectx.main:run
