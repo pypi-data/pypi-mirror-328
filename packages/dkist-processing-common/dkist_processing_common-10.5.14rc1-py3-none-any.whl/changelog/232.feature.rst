@@ -1,0 +1,1 @@
+Compute PRODUCT L1 header key from IDSOBSID and PROCTYPE.  The minimum productId length is 8 characters.
