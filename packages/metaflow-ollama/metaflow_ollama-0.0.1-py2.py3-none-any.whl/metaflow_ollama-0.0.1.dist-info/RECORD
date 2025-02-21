@@ -1,0 +1,8 @@
+metaflow_extensions/ollama/plugins/mfextinit_ollama.py,sha256=FwT6EpTWPpsL-tYjaemiI5SlLHbfia3h_farhbP44Ew,117
+metaflow_extensions/ollama/plugins/ollama.py,sha256=jN7xfOz5Isw3E6fzqJrAmJbM4NMD9bFbsHYXiH75-eE,13319
+metaflow_extensions/ollama/plugins/ollama_decorator.py,sha256=_A7HB7zkh-okAlQDGpE2sEprGCqWrYE-w_RB_xHf6A8,2125
+metaflow_ollama-0.0.1.dist-info/LICENSE,sha256=0cwFeJiqqJM1hz4Fl8575qK8C2bHbeiTFge1dND2ZUM,11348
+metaflow_ollama-0.0.1.dist-info/METADATA,sha256=0xfNQLu-VLfaWHXWm6pR08kvTxRn9KHFndrCbW6wS58,320
+metaflow_ollama-0.0.1.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+metaflow_ollama-0.0.1.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+metaflow_ollama-0.0.1.dist-info/RECORD,,
