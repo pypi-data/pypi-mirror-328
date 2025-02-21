@@ -1,0 +1,15 @@
+casify/__init__.py,sha256=YqDhbGxgtHl7cN7CCpHOJuijkzmxfrLJEVXn9HuFBDI,863
+casify/algebra.py,sha256=65Us64hdcQ72Ap_rc2fya7SAGjGHPo0Rz6T0m4TU2PY,1619
+casify/equation.py,sha256=OMCqE-42pa6kav7wL5OXZtCsqaj7apsJ2xZnYmSXs5o,5857
+casify/function.py,sha256=Ck-ZmmltWv9uO2ryS2dRaKCNLpf_cYngnlHuj-SIVdY,4745
+casify/funksjon.py,sha256=H6w8sLodGgBu8l96cbxzG2KDeE426pOQpGj_pu4MhBU,2024
+casify/likning.py,sha256=MkNaFYt32zBLj05bWNHBPCm6ziLD86AylOQ-jYeCBp0,1626
+casify/regresjon.py,sha256=fQs_vXsRJ4GJCdC15eZ5y4PribC3ya7XyuTJyarMrGU,921
+casify/regression.py,sha256=2HBrmq74F7yQeAHnujFnGHaD8lv8f9adh5dPV89s3cM,917
+casify/vector.py,sha256=iv876r0A94O9ZA9WWP5HXVjfx3ZBSoPRST2CLLk9x6c,2063
+casify/vektor.py,sha256=sHgnD93ogjwJXwkp0YbV_GXqSs524JjdRmhThBRZ2lQ,1426
+casify-0.2.44.dist-info/LICENSE,sha256=7nP4mEfu9fXD-OFxavvJyiudI9LGiEvLk9a0ucEZ6NE,1079
+casify-0.2.44.dist-info/METADATA,sha256=Y_oRjjiQ51eYGFojLuEET3AfZosjab-37vbxhF-7kJ0,2737
+casify-0.2.44.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+casify-0.2.44.dist-info/top_level.txt,sha256=l08yl022VUnp_pSq8_iYqvc2x3Q8aBw29wVYZFaLvSw,7
+casify-0.2.44.dist-info/RECORD,,
