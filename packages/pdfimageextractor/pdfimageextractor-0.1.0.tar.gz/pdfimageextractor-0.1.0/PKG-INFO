@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: pdfimageextractor
+Version: 0.1.0
+Summary: Extract high-quality images from PDF files while preserving metadata
+Project-URL: Homepage, https://github.com/nealcaren/pdfimageextractor
+Project-URL: Repository, https://github.com/nealcaren/pdfimageextractor.git
+Author-email: Neal Caren <neal.caren@unc.edu>
+License: MIT
+Keywords: extraction,images,pdf
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3.8
+Requires-Dist: pillow
+Requires-Dist: pymupdf
+Provides-Extra: dev
+Requires-Dist: black>=23.0; extra == 'dev'
+Requires-Dist: flake8>=6.0; extra == 'dev'
+Requires-Dist: isort>=5.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# PDF Image Extractor
+
+A tool to extract high-quality images from PDF files while preserving metadata and positioning information.
+
+## Features
+
+- Extracts images in their original quality without recompression
+- Preserves image metadata including DPI and positioning
+- Detects and skips duplicate images
+- Generates detailed JSON metadata file
+- Sorts images by their position on the page
+
+## Installation
+
+```bash
+pip install pdfimageextractor
+```
+
+## Usage
+
+```bash
+pdfextractimages <PDF_FILE> [OUTPUT_FOLDER]
+```
+
+Arguments:
+- `PDF_FILE`: Path to the PDF file to process
+- `OUTPUT_FOLDER`: Optional directory to save extracted images (defaults to PDF_FILE_images)
+
+## Output
+
+The tool creates:
+- Original quality images extracted from the PDF
+- A `image_metadata.json` file containing detailed information about each image
