@@ -1,0 +1,15 @@
+jupyter_nbmodel_client/__init__.py,sha256=p59_1RwudkXT0MMRDm0pZLlQMNT7DXWLIox4FpouOG4,523
+jupyter_nbmodel_client/agent.py,sha256=KkhvqqJ42LDwj4PybdKD43hZZrjCdSAEQxI5rzn9GIA,21890
+jupyter_nbmodel_client/client.py,sha256=-zuk-MGhK_SI5Zo64XlbnciwC-6hMf1jfEnJ9cGX0Jw,9647
+jupyter_nbmodel_client/constants.py,sha256=-67WiNpttR2youc6ihTrRBEFJ1wND0B4R1sFndi1HXk,272
+jupyter_nbmodel_client/model.py,sha256=8OWOk0s-fRSdODXUnnj1yEVXWJ0SwVpJNY1zYdu28zk,15557
+jupyter_nbmodel_client/utils.py,sha256=Ahfgep1z8-AjoSAxIhM89FahLJaNad6OkfRK60rlHjw,1440
+jupyter_nbmodel_client/tests/__init__.py,sha256=-WfGxOjS3GmOZhqF9K5pUs4CpFxqhcwTUZ8vMULVqXE,120
+jupyter_nbmodel_client/tests/_asgi.py,sha256=vsCQk3UJcvK2hjsUpw-AheYc_yq7UI9kahFYjsHdXzo,560
+jupyter_nbmodel_client/tests/conftest.py,sha256=IleiP3QGR3x-4XCn6n7moBQwbNu9YmiqBnbvvxvs6ao,4019
+jupyter_nbmodel_client/tests/test_agent.py,sha256=geZuyZGhe-ZeF5i6jV7rXnDV39-Aka-gZqQVbcCWYh0,5009
+jupyter_nbmodel_client/tests/test_client.py,sha256=oL8cmj04mhCrdOUfwknJfBf7UogTAwLBGTuOV3r1Ams,2256
+jupyter_nbmodel_client-0.8.0.dist-info/METADATA,sha256=zBPeg9lP4Q47FzdgjUqUOmjc7p0smVHcnNvYv23NrZc,10069
+jupyter_nbmodel_client-0.8.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jupyter_nbmodel_client-0.8.0.dist-info/licenses/LICENSE,sha256=Xnaj9NAdKYyAPD7NTlF5aXCAuLGMiCXcGpICyiaLCSo,1517
+jupyter_nbmodel_client-0.8.0.dist-info/RECORD,,
