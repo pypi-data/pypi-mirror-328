@@ -1,0 +1,7 @@
+native_sparse_attention_pytorch/__init__.py,sha256=18htl-1phCm93EcIF6bJMoorw-Tq_AhLCIXa4th9OKI,92
+native_sparse_attention_pytorch/native_sparse_attention.py,sha256=a5auGEBBTEh_eXP1pFgqDRt3MDYxxKZVMQJHqBVOaFU,10945
+native_sparse_attention_pytorch/transformer.py,sha256=CVE86gWljYTG5gTaI826ZZrAbJ3zfAuFOt8u4KIJiu4,3584
+native_sparse_attention_pytorch-0.0.12.dist-info/METADATA,sha256=Kki2otN8XSYMv28-EEyRd2lJLsNy-4JifEW_AMCABP8,3710
+native_sparse_attention_pytorch-0.0.12.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+native_sparse_attention_pytorch-0.0.12.dist-info/licenses/LICENSE,sha256=1yCiA9b5nhslTavxPjsQAO-wpOnwJR9-l8LTVi7GJuk,1066
+native_sparse_attention_pytorch-0.0.12.dist-info/RECORD,,
