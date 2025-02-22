@@ -1,0 +1,10 @@
+datalinks/__init__.py,sha256=umNxwQUko9N2MZImuRLoWTaG_gQCIxs4LlteRg4sDfI,168
+datalinks/api.py,sha256=B3J-HBeRFZi4eFesM5ogCmVyTzpWFHZgwSCum41Zhz4,12059
+datalinks/chain.py,sha256=wt66Q6Esj14v5W6egyelUkuqmDo7avEvdTOazLZ8cJo,5987
+datalinks/cli.py,sha256=Px7-g6gKOm6ktOXWObBWQD44e0mlS-JSBPgckWNUwAY,2973
+datalinks/links.py,sha256=2MH9RF-g3mihX3kyd2PEBWaPiwZYF5M-_JGUx6_Iu-I,3947
+datalinks/loaders.py,sha256=OB-iol_FTZOZK3J6dKfivEFXgoz-8dC9l6yaP-fIkZ8,1895
+datalinks-0.0.12.dist-info/METADATA,sha256=5TX0_B4GqEE4MCr3Nv5eZOrsOsEE4b8Y-6EfNXGavnI,4831
+datalinks-0.0.12.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+datalinks-0.0.12.dist-info/licenses/LICENSE,sha256=4Ho1DeyDEt2RXlBsIowh-m8PDTlEGs1VMRtvJkiBuEQ,1069
+datalinks-0.0.12.dist-info/RECORD,,
