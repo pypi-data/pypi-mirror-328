@@ -1,0 +1,16 @@
+[Version 1.6.4] - 2025-02-20
+============================
+
+Added
+-----
+
+- Added a docstring for the `MysqlApplication` class to improve code documentation and clarity.
+
+- Introduced an "About" section in `home.html` to provide users with brief information about the developer and the application.
+
+Changed
+-------
+
+- Enhanced the documentation for better readability and maintainability.
+
+- Improved the UI by adding the "About" section for a better user experience.
