@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: django-yleisavain
+Version: 0.2
+Summary: Työkaluja yleisiin vierasavaimiin liittyvien kyselyjen optimointiin
+Author-email: Antti Hautaniemi <antti.hautaniemi@pispalanit.fi>
+Project-URL: Repository, https://github.com/an7oine/django-yleisavain.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=4.2
+
+django-yleisavain
+=================
+
+Työkaluja yleisiin vierasavaimiin liittyvien kyselyjen optimointiin
