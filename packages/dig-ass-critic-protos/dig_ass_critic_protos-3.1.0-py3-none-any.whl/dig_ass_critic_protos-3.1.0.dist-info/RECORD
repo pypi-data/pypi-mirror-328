@@ -1,0 +1,9 @@
+dig_ass_critic_protos/DigitalAssistantCritic_pb2.py,sha256=BpLQqvjrtQdg6RSIoLnC0Owo1cUISQDwfWDVxUOHkMA,3177
+dig_ass_critic_protos/DigitalAssistantCritic_pb2.pyi,sha256=x2hj_UdMp7677T1zjzMVraaTBfCt9U0IDGMlubn3vxE,2690
+dig_ass_critic_protos/DigitalAssistantCritic_pb2_grpc.py,sha256=GYLj1vuMvhZgPgIFYE54p3nVR5caDUFeMayfl8bJa90,4066
+dig_ass_critic_protos/__init__.py,sha256=eEKPUs-3hh9l54itnHIQy4PlOiB9KqsUYDw5pYcEkDA,286
+dig_ass_critic_protos/client.py,sha256=wzmKxMAne0a84wYeJP_sxpDuBDXPQyAHVjCxNf36xM0,1555
+dig_ass_critic_protos-3.1.0.dist-info/METADATA,sha256=JLjHCVye2mZ3qKtCNQG19dDE2L5G-KlbpseFRmP6hXg,742
+dig_ass_critic_protos-3.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dig_ass_critic_protos-3.1.0.dist-info/top_level.txt,sha256=06_zZWz8yBJNgCuBqJuD-gAE9v9bB37MDVWnn-I8q08,22
+dig_ass_critic_protos-3.1.0.dist-info/RECORD,,
