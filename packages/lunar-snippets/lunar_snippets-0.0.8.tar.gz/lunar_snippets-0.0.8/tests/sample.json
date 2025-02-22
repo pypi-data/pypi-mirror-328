@@ -1,0 +1,96 @@
+{
+  "metadata_instances": [
+    {
+      "payload": {
+        "const_array": [
+          "hello",
+          "world"
+        ],
+        "const_false": false,
+        "const_float": 123.456,
+        "const_int": 123,
+        "const_null": null,
+        "const_object": {
+          "hello": "world"
+        },
+        "const_string": "hello world",
+        "const_timestamp": "2025-02-06T21:41:49Z",
+        "const_true": true,
+        "const_uuid": "00000000-0000-0000-0000-000000000001"
+      }
+    },
+    {
+      "payload": {
+        "rand_array": [
+          "n2TiaDXNcv",
+          "gjGThGr9eR",
+          "ZKDfumNhaj"
+        ],
+        "rand_bool": false,
+        "rand_float": 0.9579729881677105,
+        "rand_int": 310,
+        "rand_object": {
+          "bd9pYxQuNn": "7PmIWHmZOe"
+        },
+        "rand_string": "NpfO66GBas",
+        "rand_timestamp": "2025-02-06T21:41:49Z",
+        "rand_uuid": "2ba3128b-a2d7-45e2-91a6-6bc60e522b7e"
+      }
+    },
+    {
+      "payload": {
+        "73zsBDxzOe": "u9DHzZvk1b",
+        "ETAqe8Dwya": "sBEwX0fjCJ",
+        "WNn8XgCjVI": "JvZlUqhw9Y",
+        "Y0RoQBQrUx": "OWE5iOVjPl",
+        "btV6KBYYt2": "d7OgY0GFnW",
+        "d4Isrpq77R": "wU7o09L0Rr",
+        "o65ZcuhseW": "WIzTPq5k5o",
+        "uqpKXX5j5Z": "ZxAboNG2mZ",
+        "wQYrGH0Qub": "f83iEqjl8a"
+      }
+    },
+    {
+      "payload": {}
+    },
+    {
+      "payload": {
+        "PIsUcseUnt": "cFPejePBY7",
+        "TMAiWYoioD": "BDBfMqsimb",
+        "hqHzLJW2XG": "agRiE4GjVc",
+        "tF1XJ84cIS": "d5RXSbEvHc"
+      }
+    },
+    {
+      "payload": {
+        "NL7lCczJdr": "wTfCK5ZzoK",
+        "TMXbcsdUO6": "6XUkeH3NX6",
+        "Xn96w9gsoI": "YP7oqiTbcc",
+        "Yf85dkFg6e": "YHMLXupexd",
+        "e4YEljHVBB": "1mqEvlwrYb",
+        "gBmvo8ywCj": "N5Efvd8aUG",
+        "rQo8vRaJ1p": "wQKJVq7nsg",
+        "wgTj9Wmhvi": "7jxZMxL2k3"
+      }
+    },
+    {
+      "payload": {
+        "x3Vk0w7xIz": "ZseecrJtaH"
+      }
+    },
+    {
+      "payload": {
+        "XYgv9O0hrd": "ayEZJF5wx9",
+        "wZGb4j8CEH": "wscdaJaPaj"
+      }
+    },
+    {
+      "payload": {
+        "2DTqM6cRjg": "Yi978ra9sD",
+        "UzcJ4YrMjv": "I8S5Kvo1Ok",
+        "fdxvevrL3c": "t7ojfC4Ffc"
+      }
+    }
+  ],
+  "collected_at": "2025-02-06T21:41:49.498977277Z"
+}
