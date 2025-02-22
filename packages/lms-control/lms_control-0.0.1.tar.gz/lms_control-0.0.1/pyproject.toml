@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lms-control"
+dynamic = ["version"]
+description = 'Command Line Toolkit to Control LMS Player'
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Patrick Schleiter", email = "git.pschleiter@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "click",
+  "httpx",
+]
+
+[project.urls]
+Documentation = "https://github.com/pschleiter/lms-control#readme"
+Issues = "https://github.com/pschleiter/lms-control/issues"
+Source = "https://github.com/pschleiter/lms-control"
+
+[project.scripts]
+lms = "lms_control.cli:cli"
+
+[tool.hatch.version]
+path = "src/lms_control/__about__.py"
+
+[tool.hatch.envs.hatch-static-analysis]
+dependencies = ["ruff==0.9.1"]
+config-path = "none"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/lms_control tests}"
+
+[tool.coverage.run]
+source_pkgs = ["lms_control", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/lms_control/__about__.py",
+]
+
+[tool.coverage.paths]
+lms_control = ["src/lms_control", "*/lms-control/src/lms_control"]
+tests = ["tests", "*/lms-control/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.ruff.format]
+quote-style = "single"
