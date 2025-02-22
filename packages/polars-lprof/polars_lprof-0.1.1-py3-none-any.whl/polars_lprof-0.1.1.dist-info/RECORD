@@ -1,0 +1,7 @@
+plprof/__init__.py,sha256=_Vi7fwb556FpQfu-m64S9eTHTZEgdgP3jLEOcZOIq0s,58
+plprof/cli.py,sha256=TL5qTd-61ivKi_6O4ilAMXtWgP4ev-nvtgaOy1RWhbk,96
+plprof/parse.py,sha256=jEoaKoAX132Z17H1ebrz3eQ3A_kpV0kTka2Qam8rCnc,7141
+polars_lprof-0.1.1.dist-info/METADATA,sha256=0HDbYuAgdo26Aqng8WpFTisBuGMCsxdQVBvPIHnEPlk,1571
+polars_lprof-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+polars_lprof-0.1.1.dist-info/entry_points.txt,sha256=iFJDbMgUrwWClUdhiMwCkRs_BonKzOgWlxGbKXS5GhM,58
+polars_lprof-0.1.1.dist-info/RECORD,,
