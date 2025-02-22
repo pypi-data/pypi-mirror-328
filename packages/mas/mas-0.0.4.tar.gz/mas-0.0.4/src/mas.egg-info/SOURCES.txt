@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/mas.py
+src/mas.egg-info/PKG-INFO
+src/mas.egg-info/SOURCES.txt
+src/mas.egg-info/dependency_links.txt
+src/mas.egg-info/requires.txt
+src/mas.egg-info/top_level.txt
