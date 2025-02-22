@@ -1,0 +1,6 @@
+requests
+uuid
+nanoid
+psutil
+pretty-errors
+selenium
