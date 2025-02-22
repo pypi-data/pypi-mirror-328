@@ -1,0 +1,1347 @@
+QueryKline:
+  open_: 
+    colname: open_price
+  high:
+    colname: high_price
+  close:
+    colname: close_price
+  low:
+    colname: low_price
+  volume:
+  amount:
+    colname: value
+
+yield_factor:
+  alpha_100w:
+    desp: 周ALPHA(100周);以个股和标的指数最近100周的周涨跌幅划线计算出的截距；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  alpha_24m:
+    desp: 月ALPHA(24月);以个股和标的指数最近24月的月涨跌幅划线计算出的截距；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  alpha_60m:
+    desp: 月ALPHA(60月);以个股和标的指数最近60月的月涨跌幅划线计算出的截距；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  alpha_day_1y:
+    desp: 日ALPHA(1年);以个股和标的指数最近1年日涨跌幅划线计算出的截距；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  alpha_day_2y:
+    desp: 日ALPHA(2年);以个股和标的指数最近2年日涨跌幅划线计算出的截距；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  amount_m:
+    desp: 月成交额;本月以来的成交额合计：千元
+  amount_w:
+    desp: 周成交额;本周以来的成交额合计：千元
+  beta_100w:
+    desp: 周BETA(100周);以个股和标的指数最近100周的周涨跌幅划线计算出的斜率；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  beta_24m:
+    desp: 月BETA(24月);以个股和标的指数最近24月的月涨跌幅划线计算出的斜率；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  beta_60m:
+    desp: 月BETA(60月);以个股和标的指数最近60月的月涨跌幅划线计算出的斜率；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  beta_day_1y:
+    desp: 日BETA(1年);以个股和标的指数最近1年日涨跌幅划线计算出的斜率；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  beta_day_2y:
+    desp: 日BETA(2年);以个股和标的指数最近2年日涨跌幅划线计算出的斜率；AB股的标的指数是沪深300，港股的标的指数是恒生指数，美股的标的指数是标普500。
+  change_pct_ave_100w:
+    desp: 周平均涨跌幅(100周);最近100周的周收益率算术平均值
+  change_pct_ave_24m:
+    desp: 月平均涨跌幅(24月);最近24月的月收益率算术平均值
+  change_pct_ave_60m:
+    desp: 月平均涨跌幅(60月);最近60月的月收益率算术平均值
+  change_pct_d:
+    desp: 日涨跌幅(%);当日收盘价的涨跌幅
+  change_pct_m:
+    desp: 月涨跌幅(%);本月以来的涨跌幅
+  change_pct_w:
+    desp: 周涨跌幅(%);本周以来的涨跌幅
+  std_deviation_100w:
+    desp: 周标准差(100周);最近100周的周收益率标准差
+  std_deviation_24m:
+    desp: 月标准差(24月);最近24月的月收益率标准差
+  std_deviation_60m:
+    desp: 月标准差(60月);最近60月的月收益率标准差
+  turnover_ave_free_m:
+    desp: 月平均换手率(自由流通股本);本月所有交易日日换手率(自由流通股本)算术平均值
+  turnover_ave_free_w:
+    desp: 周平均换手率(自由流通股本);本周所有交易日日换手率(自由流通股本)算术平均值
+  turnover_ave_m:
+    desp: 月平均换手率;本月所有交易日日换手率算术平均值
+  turnover_ave_w:
+    desp: 周平均换手率;本周所有交易日日换手率算术平均值
+  turnover:
+    colname: turnover_d
+    desp: 日换手率;当日成交量/当日流通股股数*100%
+  turnover_free:
+    colname: turnover_free_d
+    desp: 日换手率(自由流通股本);当日成交量/当日自由流通股股数*100%
+  turnover_free_m:
+    desp: 月换手率(自由流通股本);本月所有交易日日换手率(自由流通股本)之和
+  turnover_free_w:
+    desp: 周换手率(自由流通股本);本周所有交易日日换手率(自由流通股本)之和
+  turnover_m:
+    desp: 月换手率;本月所有交易日日换手率之和
+  turnover_w:
+    desp: 周换手率;本周所有交易日日换手率之和
+  variance_100w:
+    desp: 周方差(100周);最近100周的周收益率方差
+  variance_24m:
+    desp: 月方差(24月);最近24月的月收益率方差
+  variance_60m:
+    desp: 月方差(60月);最近60月的月收益率方差
+  volume_m:
+    desp: 月成交量;本月以来成交量的合计
+  volume_w:
+    desp: 周成交量;本周以来成交量的合计
+
+derivind_factor:
+  adj_high_52w:
+    desp: 52周最高价(复权);元
+  adj_low_52w:
+    desp: 52周最低价(复权);元
+  close_today:
+    desp: 当日收盘价;元
+  float_a_shr_today:
+    desp: 当日流通股本;万股；当日流通A股股本
+  flow_val_today:
+    desp: 当日流通市值;万元
+  free_shares_today:
+    desp: 当日自由流通股本;万股
+  free_turn_over:
+    desp: 换手率(基准.自由流通股本);%
+  high_52week:
+    desp: 52周最高价;元
+  low_52week:
+    desp: 52周最低价;元
+  lowest_highest_status:
+    desp: 最高最低价状态;1表示是历史最高收盘价；0表示非历史最高价或最低价；-1表示是历史最低收盘价。
+  net_assets_today:
+    desp: 当日净资产;元
+  net_cash_flows_oper_act_lyr:
+    desp: 经营活动产生的现金流量净额(LYR);元
+  net_cash_flows_oper_act_ttm:
+    desp: 经营活动产生的现金流量净额(TTM);元
+  net_incr_cash_cash_equ_lyr:
+    desp: 现金及现金等价物净增加额 (LYR);元
+  net_incr_cash_cash_equ_ttm:
+    desp: 现金及现金等价物净增加额 (TTM);元
+  net_profit_parent_comp_lyr:
+    desp: 归属母公司净利润(LYR);元
+  net_profit_parent_comp_ttm:
+    desp: 归属母公司净利润(TTM);元
+  oper_rev_lyr:
+    desp: 营业收入(LYR);元
+  oper_rev_ttm:
+    desp: 营业收入(TTM);元
+  pb:
+    colname: val_pb_new
+    desp: 市净率(PB);倍；总市值/净资产(LF)
+  pcf_ncf:
+    colname: val_pcf_ncf
+    desp: 市现率(PCF,现金净流量);倍
+  pcf_ncf_ttm:
+    colname: val_pcf_ncf_ttm
+    desp: 市现率(PCF,现金净流量TTM);倍
+  pcf_ocf:
+    colname: val_pcf_ocf
+    desp: 市现率(PCF,经营现金流);倍
+  pcf_ocf_ttm:
+    colname: val_pcf_ocf_ttm
+    desp: 市现率(PCF,经营现金流TTM);倍
+  pe:
+    colname: val_pe
+    desp: 市盈率(PE);倍；总市值/净利润（若净利润<=0，则返回空）当值为负时，做置空处理。
+  pe_ttm:
+    colname: val_pe_ttm
+    desp: 市盈率 (PE,TTM);倍；总市值/净利润（TTM)
+  price_div_dps:
+    desp: 股价/每股派息;倍
+  ps:
+    colname: val_ps
+    desp: 市销率(PS);倍
+  ps_ttm:
+    colname: val_ps_ttm
+    desp: 市销率 (PS,TTM);倍
+  tot_shr_today:
+    desp: 当日总股本;万股
+  total_val_today:
+    desp: 当日总市值;万元；计算公式：A股股价*总股本（包含B股，H股等，除优先股）
+  turn_over:
+    desp: 换手率;%
+  up_down_limit_status:
+    desp: 涨跌停状态;1表示涨停；0表示非涨停或跌停；-1表示跌停。
+
+fina_indicator:
+  admin_expense_to_gr:
+    desp: 管理费用/营业总收入
+  ann_date:
+    desp: 公告日期
+  ar_turn:
+    desp: 应收账款周转率
+  ar_turndays:
+    desp: 应收账款周转天数
+  assets_to_equity:
+    desp: 权益乘数
+  assets_turn:
+    desp: 总资产周转率
+  bps:
+    desp: 每股净资产
+  ca_to_assets:
+    desp: 流动资产/总资产
+  ca_turn:
+    desp: 流动资产周转率
+  capitalized_to_da:
+    desp: 资本支出/折旧和摊销
+  cash_ratio:
+    desp: 保守速动比率
+  cash_to_liqdebt:
+    desp: 货币资金／流动负债
+  cash_to_liqdebt_with_interest:
+    desp: 货币资金／带息流动负债
+  cfps:
+    desp: 每股现金流量净额
+  cogs_to_sales:
+    desp: 销售成本率
+  comp_code:
+    desp: 公司ID
+  currency_code:
+    desp: 货币代码
+  current_debt_to_debt:
+    desp: 流动负债/负债合计
+  current_ratio:
+    desp: 流动比率
+  debt_to_assets:
+    desp: 资产负债率
+  debt_to_equity:
+    desp: 产权比率
+  deducted_profit:
+    desp: 扣除非经常性损益后的净利润(扣除少数股东损益)
+  deducted_profit_to_profit:
+    desp: 扣除非经常损益后的净利润/净利润
+  dupont_assets_to_equity:
+    desp: 权益乘数(用于杜邦分析)
+  dupont_roa:
+    desp: 总资产净利率(杜邦分析)
+  ebit:
+    desp: 息税前利润
+  ebit_to_gr:
+    desp: 息税前利润/营业总收入
+  ebit_to_interest:
+    desp: 已获利息倍数(EBIT/利息费用)
+  ebitda:
+    desp: 息税折旧摊销前利润
+  ebitda_to_debt:
+    desp: 息税折旧摊销前利润/负债合计
+  ebitps:
+    desp: 每股息税前利润
+  eps_basic:
+    desp: 基本每股收益
+  eps_diluted:
+    desp: 稀释每股收益
+  eps_diluted2:
+    desp: 期末摊薄每股收益
+  equity_to_interest_debt:
+    desp: 归属于母公司的股东权益/带息债务
+  equity_to_totalcap:
+    desp: 归属于母公司的股东权益/全部投入资本
+  equity_tod_ebt:
+    desp: 归属于母公司的股东权益/负债合计
+  exchange_int:
+    desp: 交易市场代码
+  exchange_str:
+    desp: 交易市场
+  exinterest_debt_current:
+    desp: 无息流动负债
+  exinterest_debt_noncurrent:
+    desp: 无息非流动负债
+  expense_to_sales:
+    desp: 销售期间费用率
+  extra_ordinary:
+    desp: 非经常性损益
+  fa_turn:
+    desp: 固定资产周转率
+  fcfe:
+    desp: 股权自由现金流量(FCFE)
+  fcfeps:
+    desp: 每股股东自由现金流量
+  fcff:
+    desp: 企业自由现金流量(FCFF)
+  fcffps:
+    desp: 每股企业自由现金流量
+  fina_expense_to_gr:
+    desp: 财务费用/营业总收入
+  gc_to_gr:
+    desp: 营业总成本/营业总收入
+  gross_margin:
+    desp: 毛利
+  gross_profit_margin:
+    desp: 销售毛利率
+  grps:
+    desp: 每股营业总收入
+  impair_to_gr_ttm:
+    desp: 资产减值损失/营业总收入
+  intdebt_to_totalcap:
+    desp: 带息债务/全部投入资本
+  interest_debt:
+    desp: 带息债务
+  inv_turn:
+    desp: 存货周转率
+  inv_turndays:
+    desp: 存货周转天数
+  invest_capital:
+    desp: 全部投入资本
+  invest_income:
+    desp: 价值变动净收益
+  invest_income_to_ebt:
+    desp: 价值变动净收益/利润总额
+  long_debt_to_debt:
+    desp: 非流动负债/负债合计
+  longdebt_to_working_capital:
+    desp: 长期债务与营运资金比率
+  market_code:
+    desp: 代码
+  nca_to_assets:
+    desp: 非流动资产/总资产
+  net_debt:
+    desp: 净债务
+  net_profit_margin:
+    desp: 销售净利率
+  networking_capital:
+    desp: 营运流动资本
+  nonop_profit:
+    desp: 非营业利润
+  nonoperate_profit_to_ebt:
+    desp: 营业外收支净额/利润总额
+  nop_to_ebt:
+    desp: 非营业利润／利润总额
+  ocf_to_debt:
+    desp: 经营活动产生的现金流量净额/负债合计
+  ocf_to_interest_debt:
+    desp: 经营活动产生的现金流量净额/带息债务
+  ocf_to_netdebt:
+    desp: 经营活动产生的现金流量净额/净债务
+  ocf_to_operate_income:
+    desp: 经营活动产生的现金流量净额/经营活动净收益
+  ocf_to_or:
+    desp: 经营活动产生的现金流量净额/营业收入
+  ocf_to_profit:
+    desp: 经营活动产生的现金流量净额／营业利润
+  ocf_to_short_debt:
+    desp: 经营活动产生的现金流量净额/流动负债
+  ocfps:
+    desp: 每股经营活动产生的现金流量净额
+  op_to_debt:
+    desp: 营业利润／负债合计
+  op_to_ebt:
+    desp: 营业利润／利润总额
+  op_to_gr:
+    desp: 营业利润/营业总收入
+  op_to_liqdebt:
+    desp: 营业利润／流动负债
+  operate_income:
+    desp: 经营活动净收益
+  operate_income_to_ebt:
+    desp: 经营活动净收益/利润总额
+  orps:
+    desp: 每股营业收入
+  prefin_expense_opprofit:
+    desp: 扣除财务费用前营业利润
+  profit_to_gr:
+    desp: 净利润/营业总收入
+  profit_toop:
+    desp: 利润总额／营业收入
+  q_admin_expense_to_gr:
+    desp: 单季度.管理费用／营业总收入
+  q_cgr_gr:
+    desp: 单季度.营业总收入环比增长率(%)
+  q_cgr_netprofit:
+    desp: 单季度.归属母公司股东的净利润环比增长率(%)
+  q_cgr_op:
+    desp: 单季度.营业利润环比增长率(%)
+  q_cgr_profit:
+    desp: 单季度.净利润环比增长率(%)
+  q_cgr_sales:
+    desp: 单季度.营业收入环比增长率(%)
+  q_deducted_profit:
+    desp: 单季度.扣除非经常损益后的净利润
+  q_deducted_profit_to_profit:
+    desp: 单季度.扣除非经常损益后的净利润／净利润
+  q_eps:
+    desp: 单季度.每股收益
+  q_expense_to_sales:
+    desp: 单季度.销售期间费用率
+  q_fina_expense_to_gr:
+    desp: 单季度.财务费用／营业总收入
+  q_gc_to_gr:
+    desp: 单季度.营业总成本／营业总收入
+  q_gross_profit_margin:
+    desp: 单季度.销售毛利率
+  q_impair_to_gr_ttm:
+    desp: 单季度.资产减值损失／营业总收入
+  q_invest_income:
+    desp: 单季度.价值变动净收益
+  q_invest_income_to_ebt:
+    desp: 单季度.价值变动净收益／利润总额
+  q_net_profit_margin:
+    desp: 单季度.销售净利率
+  q_ocf_to_or:
+    desp: 单季度.经营活动产生的现金流量净额／经营活动净收益
+  q_ocf_to_sales:
+    desp: 单季度.经营活动产生的现金流量净额／营业收入
+  q_op_to_gr:
+    desp: 单季度.营业利润／营业总收入
+  q_operate_income:
+    desp: 单季度.经营活动净收益
+  q_operate_income_to_ebt:
+    desp: 单季度.经营活动净收益／利润总额
+  q_profit_to_gr:
+    desp: 单季度.净利润／营业总收入
+  q_roa:
+    desp: 单季度.总资产净利润
+  q_roe:
+    desp: 单季度.净资产收益率
+  q_roe_deducted:
+    desp: 单季度.净资产收益率(扣除非经常损益)
+  q_sale_expense_to_gr:
+    desp: 单季度.销售费用／营业总收入
+  q_sales_cash_in_to_or:
+    desp: 单季度.销售商品提供劳务收到的现金／营业收入
+  q_yoy_equity:
+    desp: 净资产(同比增长率)
+  q_yoy_gr:
+    desp: 单季度.营业总收入同比增长率(%)
+  q_yoy_netprofit:
+    desp: 单季度.归属母公司股东的净利润同比增长率(%)
+  q_yoy_op:
+    desp: 单季度.营业利润同比增长率(%)
+  q_yoy_profit:
+    desp: 单季度.净利润同比增长率(%)
+  q_yoy_sales:
+    desp: 单季度.营业收入同比增长率(%)
+  quick_ratio:
+    desp: 速动比率
+  rd_expense:
+    desp: 研发费用
+  report_period:
+    desp: 报告期
+  report_type:
+    desp: 报告期名称
+  retained_earnings:
+    desp: 留存收益
+  retained_ps:
+    desp: 每股留存收益
+  roa:
+    desp: 总资产净利率
+  roa2:
+    desp: 总资产报酬率
+  roa2_yearly:
+    desp: 年化总资产报酬率
+  roa_yearly:
+    desp: 年化总资产净利率
+  roe:
+    desp: 净资产收益率
+  roe_avg:
+    desp: 平均净资产收益率(增发条件)
+  roe_deducted:
+    desp: 净资产收益率(扣除非经常损益)
+  roe_yearly:
+    desp: 年化净资产收益率
+  roic:
+    desp: 投入资本回报率
+  roic_yearly:
+    desp: 年化投入资本回报率
+  sale_expense_to_gr:
+    desp: 销售费用/营业总收入
+  sales_cash_in_to_or:
+    desp: 销售商品提供劳务收到的现金/营业收入
+  security_name:
+    desp: 证券简称
+  stm_bs:
+    desp: 固定资产合计
+  stm_is:
+    desp: 折旧与摊销
+  stmnote_finexp:
+    desp: 利息费用
+  surplus_capital_ps:
+    desp: 每股资本公积
+  surplus_reserve_ps:
+    desp: 每股盈余公积
+  tang_asset_to_int_debt:
+    desp: 有形资产/带息债务
+  tangible_asset:
+    desp: 有形资产
+  tangible_asset_to_debt:
+    desp: 有形资产/负债合计
+  tangible_asset_to_netdebt:
+    desp: 有形资产/净债务
+  tangible_assets_to_assets:
+    desp: 有形资产/总资产
+  tax_to_ebt:
+    desp: 所得税/利润总额
+  tot_faturn:
+    desp: 固定资产合计周转率
+  turndays:
+    desp: 营业周期
+  type_code:
+    desp: 证券类别
+  type_code_int:
+    desp: 证券类别代码
+  undistributed_ps:
+    desp: 每股未分配利润
+  waa_roe:
+    desp: 加权平均净资产收益率
+  working_capital:
+    desp: 营运资金
+  yoy_assets:
+    desp: 相对年初增长率-资产总计(%)
+  yoy_bps:
+    desp: 相对年初增长率-每股净资产(%)
+  yoy_ebt:
+    desp: 同比增长率-利润总额(%)
+  yoy_eps_basic:
+    desp: 同比增长率-基本每股收益(%)
+  yoy_eps_diluted:
+    desp: 同比增长率-稀释每股收益(%)
+  yoy_equity:
+    desp: 相对年初增长率-归属母公司的股东权益(%)
+  yoy_netprofit:
+    desp: 同比增长率-归属母公司股东的净利润(%)
+  yoy_netprofit_deducted:
+    desp: 同比增长率-归属母公司股东的净利润-扣除非经常损益(%)
+  yoy_ocf:
+    desp: 同比增长率-经营活动产生的现金流量净额(%)
+  yoy_ocfps:
+    desp: 同比增长率-每股经营活动产生的现金流量净额(%)
+  yoy_op:
+    desp: 同比增长率-营业利润(%)
+  yoy_or:
+    desp: 营业收入同比增长率(%)
+  yoy_roe:
+    desp: 同比增长率-净资产收益率(摊薄)(%)
+  yoy_tr:
+    desp: 营业总收入同比增长率(%)
+
+balancesheet:
+  acc_payable:
+    desp: 应付票据及应付账款
+  acc_receivable:
+    desp: 应收票据及应收账款
+  acc_receivables:
+    desp: 应收款项
+  accrued_exp:
+    desp: 预提费用
+  acct_payable:
+    desp: 应付账款
+  acct_receivable:
+    desp: 应收账款
+  act_trading_sec:
+    desp: 代理买卖证券款
+  act_uw_sec:
+    desp: 代理承销证券款
+  actual_ann_date:
+    desp: 实际公告日期
+  adv_prem:
+    desp: 预收保费
+  adv_receipt:
+    desp: 预收款项
+  agency_assets:
+    desp: 代理业务资产
+  agency_business_liab:
+    desp: 代理业务负债
+  ann_date:
+    desp: 公告日期
+  anticipation_liab:
+    desp: 预计负债
+  asset_dep_funds_oth_fin_inst:
+    desp: 存放同业和其它金融机构款项
+  bonds_payable:
+    desp: 应付债券
+  cap_resv:
+    desp: 资本公积金
+  cap_stock:
+    desp: 股本
+  cash_central_bank_deposits:
+    desp: 现金及存放中央银行款项
+  ced_insur_cont_reserves_rcv:
+    desp: 应收分保合同准备金
+  claims_payable:
+    desp: 应付赔付款
+  clients_fund_deposit:
+    desp: 客户资金存款
+  clients_reserves:
+    desp: 客户备付金
+  cnvd_diff_foreign_curr_stat:
+    desp: 外币报表折算差额
+  comp_id:
+    desp: 公司ID
+  comp_type_code:
+    desp: 公司类型代码
+  const_in_proc:
+    desp: 在建工程
+  const_in_proc_total:
+    desp: 在建工程(合计)(元)
+  consump_bio_assets:
+    desp: 消耗性生物资产
+  cont_assets:
+    desp: 合同资产
+  cont_liabilities:
+    desp: 合同负债
+  currency_cap:
+    desp: 货币资金
+  currency_code:
+    desp: 货币代码
+  debt_inv:
+    desp: 债权投资(元)
+  deferred_inc_noncur_liab:
+    desp: 递延收益-非流动负债
+  deferred_income:
+    desp: 递延收益
+  deferred_tax_assets:
+    desp: 递延所得税资产
+  deferred_tax_liab:
+    desp: 递延所得税负债
+  dep_received_ib_dep:
+    desp: 吸收存款及同业存放
+  deposit_cap_recog:
+    desp: 存出资本保证金
+  deposit_taking:
+    desp: 吸收存款
+  deposits_received:
+    desp: 存入保证金
+  der_fin_assets:
+    desp: 衍生金融资产
+  deri_fin_liab:
+    desp: 衍生金融负债
+  develop_exp:
+    desp: 开发支出
+  disposal_fix_assets:
+    desp: 固定资产清理
+  div_payable:
+    desp: 应付股利
+  div_receivable:
+    desp: 应收股利
+  empl_pay_payable:
+    desp: 应付职工薪酬
+  engin_mat:
+    desp: 工程物资
+  fin_assets_ava_for_sale:
+    desp: 可供出售金融资产
+  fin_assets_cost_sharing:
+    desp: 以摊余成本计量的金融资产
+  fin_assets_fair_value:
+    desp: 以公允价值计量且其变动计入其他综合收益的金融资产
+  fixed_assets:
+    desp: 固定资产
+  fixed_assets_total:
+    desp: 固定资产(合计)(元)
+  fixed_term_deposits:
+    desp: 定期存款
+  goodwill:
+    desp: 商誉
+  gua_deposits_paid:
+    desp: 存出保证金
+  gua_pledge_loans:
+    desp: 保户质押贷款
+  hold_assets_for_sale:
+    desp: 持有待售的资产
+  hold_to_mty_inv:
+    desp: 持有至到期投资
+  inc_pledge_loan:
+    desp: 其中:质押借款
+  incl_trading_seat_fees:
+    desp: 其中:交易席位费
+  ind_acct_assets:
+    desp: 独立账户资产
+  ind_acct_liab:
+    desp: 独立账户负债
+  insured_deposit_inv:
+    desp: 保户储金及投资款
+  insured_div_payable:
+    desp: 应付保单红利
+  int_receivable:
+    desp: 应收利息
+  intangible_assets:
+    desp: 无形资产
+  interest_payable:
+    desp: 应付利息
+  inv:
+    desp: 存货
+  inv_realestate:
+    desp: 投资性房地产
+  lease_liability:
+    desp: 租赁负债
+  lend_funds:
+    desp: 融出资金
+  lending_funds:
+    desp: 拆出资金
+  less_treasury_stk:
+    desp: 减:库存股
+  lia_hfs:
+    desp: 持有待售的负债
+  liab_dep_funds_oth_fin_inst:
+    desp: 同业和其它金融机构存放款项
+  life_insur_resv:
+    desp: 寿险责任准备金
+  loan_central_bank:
+    desp: 向中央银行借款
+  loans_and_advances:
+    desp: 发放贷款及垫款
+  loans_from_oth_banks:
+    desp: 拆入资金
+  lt_deferred_exp:
+    desp: 长期待摊费用
+  lt_emp_comp_pay:
+    desp: 长期应付职工薪酬
+  lt_equity_inv:
+    desp: 长期股权投资
+  lt_health_insur_resv:
+    desp: 长期健康险责任准备金
+  lt_loan:
+    desp: 长期借款
+  lt_payable:
+    desp: 长期应付款
+  lt_payable_total:
+    desp: 长期应付款(合计)(元)
+  lt_receivables:
+    desp: 长期应收款
+  market_code:
+    desp: 市场代码
+  minority_equity:
+    desp: 少数股东权益
+  nom_risks_prep:
+    desp: 一般风险准备
+  noncur_assets_due_within_1y:
+    desp: 一年内到期的非流动资产
+  noncur_liab_due_within_1y:
+    desp: 一年内到期的非流动负债
+  notes_payable:
+    desp: 应付票据
+  notes_receivable:
+    desp: 应收票据
+  oil_and_gas_assets:
+    desp: 油气资产
+  oth_comp_income:
+    desp: 其他综合收益
+  oth_equity_tools:
+    desp: 其他权益工具
+  oth_equity_tools_pre_shr:
+    desp: 其他权益工具:优先股
+  oth_noncur_assets:
+    desp: 其他非流动资产
+  other_assets:
+    desp: 其他资产
+  other_cur_assets:
+    desp: 其他流动资产
+  other_cur_liab:
+    desp: 其他流动负债
+  other_debt_inv:
+    desp: 其他债权投资(元)
+  other_equity_inv:
+    desp: 其他权益工具投资(元)
+  other_liab:
+    desp: 其他负债
+  other_noncur_fin_assets:
+    desp: 其他非流动金融资产(元)
+  other_noncur_liab:
+    desp: 其他非流动负债
+  other_payable:
+    desp: 其他应付款
+  other_payable_total:
+    desp: 其他应付款(合计)(元)
+  other_rcv_total:
+    desp: 其他应收款(合计)（元）
+  other_receivable:
+    desp: 其他应收款
+  other_sustain_bond:
+    desp: 其他权益工具:永续债(元)
+  out_loss_resv:
+    desp: 未决赔款准备金
+  payable:
+    desp: 应付款项
+  payable_for_reinsurer:
+    desp: 应付分保账款
+  precious_metal:
+    desp: 贵金属
+  prepayment:
+    desp: 预付款项
+  prod_bio_assets:
+    desp: 生产性生物资产
+  rcv_ced_claim_resv:
+    desp: 应收分保未决赔款准备金
+  rcv_ced_life_insur_resv:
+    desp: 应收分保寿险责任准备金
+  rcv_ced_lt_health_insur_resv:
+    desp: 应收分保长期健康险责任准备金
+  rcv_ced_unearned_prem_resv:
+    desp: 应收分保未到期责任准备金
+  rcv_financing:
+    desp: 应收款项融资
+  rcv_inv:
+    desp: 应收款项类投资
+  receivable_prem:
+    desp: 应收保费
+  red_mon_cap_for_sale:
+    desp: 买入返售金融资产
+  reinsurance_acc_rcv:
+    desp: 应收分保账款
+  report_type:
+    desp: 报告期名称
+  reporting_period:
+    desp: 报告期
+  rsrv_fund_insur_cont:
+    desp: 保险合同准备金
+  security_name:
+    desp: 证券简称
+  sell_repo_fin_assets:
+    desp: 卖出回购金融资产款
+  service_charge_comm_payable:
+    desp: 应付手续费及佣金
+  settle_funds:
+    desp: 结算备付金
+  spe_assets_bal_diff:
+    desp: 资产差额(特殊报表科目)
+  spe_cur_assets_diff:
+    desp: 流动资产差额(特殊报表科目)
+  spe_cur_liab_diff:
+    desp: 流动负债差额(特殊报表科目)
+  spe_liab_bal_diff:
+    desp: 负债差额(特殊报表科目)
+  spe_liab_equity_bal_diff:
+    desp: 负债及股东权益差额(特殊报表项目)
+  spe_noncur_assets_diff:
+    desp: 非流动资产差额(特殊报表科目)
+  spe_noncur_liab_diff:
+    desp: 非流动负债差额(特殊报表科目)
+  spe_share_equity_bal_diff:
+    desp: 股东权益差额(特殊报表科目)
+  special_payable:
+    desp: 专项应付款
+  special_resv:
+    desp: 专项储备
+  st_bonds_payable:
+    desp: 应付短期债券
+  st_borrowing:
+    desp: 短期借款
+  st_fin_payable:
+    desp: 应付短期融资款
+  statement_type:
+    desp: 报表类型
+  subr_rcv:
+    desp: 应收代位追偿款
+  surplus_resv:
+    desp: 盈余公积金
+  tax_payable:
+    desp: 应交税费
+  tot_assets_bal_diff:
+    desp: 资产差额(合计平衡项目)
+  tot_cur_assets_diff:
+    desp: 流动资产差额(合计平衡项目)
+  tot_cur_liab_diff:
+    desp: 流动负债差额(合计平衡项目)
+  tot_liab_bal_diff:
+    desp: 负债差额(合计平衡项目)
+  tot_liab_equity_bal_diff:
+    desp: 负债及股东权益差额(合计平衡项目)
+  tot_noncur_assets:
+    desp: 非流动资产合计
+  tot_noncur_assets_diff:
+    desp: 非流动资产差额(合计平衡项目)
+  tot_noncur_liab_diff:
+    desp: 非流动负债差额(合计平衡项目)
+  tot_share:
+    desp: 期末总股本
+  tot_share_equity_bal_diff:
+    desp: 股东权益差额(合计平衡项目)
+  tot_share_equity_excl_min_int:
+    desp: 股东权益合计(不含少数股东权益)
+  tot_share_equity_incl_min_int:
+    desp: 股东权益合计(含少数股东权益)
+  total_assets:
+    desp: 资产总计
+  total_cur_assets:
+    desp: 流动资产合计
+  total_cur_liab:
+    desp: 流动负债合计
+  total_liab:
+    desp: 负债合计
+  total_liab_share_equity:
+    desp: 负债及股东权益总计
+  total_noncur_liab:
+    desp: 非流动负债合计
+  trading_fin_liab:
+    desp: 交易性金融负债
+  trading_finassets:
+    desp: 交易性金融资产
+  unamortized_exp:
+    desp: 待摊费用
+  unconfirmed_inv_loss:
+    desp: 未确认的投资损失
+  undistributed_pro:
+    desp: 未分配利润
+  unearned_prem_resv:
+    desp: 未到期责任准备金
+  use_right_assets:
+    desp: 使用权资产
+
+cashflow:
+  absorb_cash_recp_inv:
+    desp: 吸收投资收到的现金
+  actual_ann_date:
+    desp: 实际公告日期
+  amort_intan_assets:
+    desp: 无形资产摊销
+  amort_lt_deferred_exp:
+    desp: 长期待摊费用摊销
+  ann_date:
+    desp: 公告日期
+  beg_bal_cash_cash_equ:
+    desp: 期初现金及现金等价物余额
+  cash_end_bal:
+    desp: 现金的期末余额
+  cash_for_charge:
+    desp: 支付手续费的现金
+  cash_paid_insur_policy:
+    desp: 支付保单红利的现金
+  cash_paid_inv:
+    desp: 投资支付的现金
+  cash_paid_pur_const_fiolta:
+    desp: 购建固定资产、无形资产和其他长期资产支付的现金
+  cash_pay_claims_oic:
+    desp: 支付原保险合同赔付款项的现金
+  cash_pay_dist_div_pro_int:
+    desp: 分配股利、利润或偿付利息支付的现金
+  cash_pay_employee:
+    desp: 支付给职工以及为职工支付的现金
+  cash_pay_for_debt:
+    desp: 偿还债务支付的现金
+  cash_pay_goods_services:
+    desp: 购买商品、接受劳务支付的现金
+  cash_rece_borrow:
+    desp: 取得借款收到的现金
+  cash_rece_issue_bonds:
+    desp: 发行债券收到的现金
+  cash_recp_inv_income:
+    desp: 取得投资收益收到的现金
+  cash_recp_prem_oic:
+    desp: 收到原保险合同保费取得的现金
+  cash_recp_recov_inv:
+    desp: 收回投资收到的现金
+  cash_recp_sg_and_rs:
+    desp: 销售商品、提供劳务收到的现金
+  comp_id:
+    desp: 公司ID
+  comp_type_code:
+    desp: 公司类型代码
+  conv_corp_bonds_due_within_1y:
+    desp: 一年内到期的可转换公司债券
+  conv_debt_into_cap:
+    desp: 债务转为资本
+  credit_impair_loss:
+    desp: 信用减值损失
+  currency_code:
+    desp: 货币代码
+  decr_defe_inc_tax_assets:
+    desp: 递延所得税资产减少
+  decr_deferred_expense:
+    desp: 待摊费用减少
+  decr_inventory:
+    desp: 存货的减少
+  decr_opera_receivable:
+    desp: 经营性应收项目的减少
+  depre_fa_oga_pba:
+    desp: 固定资产折旧、油气资产折耗、生产性生物资产折旧
+  eff_fx_fluc_cash:
+    desp: 汇率变动对现金的影响
+  end_bal_cash_cash_equ:
+    desp: 期末现金及现金等价物余额
+  financial_exp:
+    desp: 财务费用
+  fixed_assets_fin_lease:
+    desp: 融资租入固定资产
+  free_cash_flow:
+    desp: 企业自由现金流量
+  incl_cash_recp_saims:
+    desp: 其中:子公司吸收少数股东投资收到的现金
+  incl_div_pro_paid_sms:
+    desp: 其中:子公司支付给少数股东的股利、利润
+  incr_accrued_exp:
+    desp: 预提费用增加
+  incr_defe_inc_tax_liab:
+    desp: 递延所得税负债增加
+  incr_opera_payable:
+    desp: 经营性应付项目的增加
+  ind_net_cash_flows_opera_act:
+    desp: 间接法-经营活动产生的现金流量净额
+  ind_net_incr_cash_and_equ:
+    desp: 间接法-现金及现金等价物净增加额
+  inv_loss:
+    desp: 投资损失
+  is_calculation:
+    desp: 是否计算报表
+  less_open_bal_cash:
+    desp: 减:现金的期初余额
+  less_open_bal_cash_equ:
+    desp: 减:现金等价物的期初余额
+  loss_disp_fiolta:
+    desp: 处置固定、无形资产和其他长期资产的损失
+  loss_fairvalue_chg:
+    desp: 公允价值变动损失
+  loss_fixed_assets:
+    desp: 固定资产报废损失
+  market_code:
+    desp: 市场代码
+  net_cash_flows_fin_act:
+    desp: 筹资活动产生的现金流量净额
+  net_cash_flows_inv_act:
+    desp: 投资活动产生的现金流量净额
+  net_cash_flows_opera_act:
+    desp: 经营活动产生的现金流量净额
+  net_cash_paid_sobu:
+    desp: 取得子公司及其他营业单位支付的现金净额
+  net_cash_rec_sec:
+    desp: 代理买卖证券收到的现金净额
+  net_cash_recp_disp_fiolta:
+    desp: 处置固定资产、无形资产和其他长期资产收回的现金净额
+  net_cash_recp_disp_sobu:
+    desp: 处置子公司及其他营业单位收到的现金净额
+  net_cash_recp_reinsu_bus:
+    desp: 收到再保业务现金净额
+  net_incr_borr_fund:
+    desp: 拆入资金净增加额
+  net_incr_borr_ofi:
+    desp: 向其他金融机构拆入资金净增加额
+  net_incr_cash_and_cash_equ:
+    desp: 现金及现金等价物净增加额
+  net_incr_cus_loan_adv:
+    desp: 客户贷款及垫款净增加额
+  net_incr_dep_cb_ib:
+    desp: 存放央行和同业款项净增加额
+  net_incr_dep_cus_and_ib:
+    desp: 客户存款和同业存放款项净增加额
+  net_incr_dismantle_cap:
+    desp: 拆出资金净增加额
+  net_incr_disp_faas:
+    desp: 处置可供出售金融资产净增加额
+  net_incr_disp_tfa:
+    desp: 处置交易性金融资产净增加额
+  net_incr_insured_save:
+    desp: 保户储金净增加额
+  net_incr_int_and_charge:
+    desp: 收取利息和手续费净增加额
+  net_incr_loans_central_bank:
+    desp: 向中央银行借款净增加额
+  net_incr_pledge_loan:
+    desp: 质押贷款净增加额
+  net_incr_repu_bus_fund:
+    desp: 回购业务资金净增加额
+  net_profit:
+    desp: 净利润
+  oth_cash_pay_inv_act:
+    desp: 支付其他与投资活动有关的现金
+  oth_cash_pay_opera_act:
+    desp: 支付其他与经营活动有关的现金
+  oth_cash_recp_inv_act:
+    desp: 收到其他与投资活动有关的现金
+  other_assets_impair_loss:
+    desp: 其他资产减值损失
+  other_cash_pay_fin_act:
+    desp: 支付其他与筹资活动有关的现金
+  other_cash_recp_fin_act:
+    desp: 收到其他与筹资活动有关的现金
+  other_cash_recp_oper_act:
+    desp: 收到其他与经营活动有关的现金
+  others:
+    desp: 其他（废弃）
+  pay_all_tax:
+    desp: 支付的各项税费
+  plus_assets_depre_prep:
+    desp: 加:资产减值准备
+  plus_end_bal_cash_equ:
+    desp: 加:现金等价物的期末余额
+  recp_tax_refund:
+    desp: 收到的税费返还
+  report_type:
+    desp: 报告期名称
+  reporting_period:
+    desp: 报告期
+  security_name:
+    desp: 证券简称
+  spe_bal_cash_inflow_fin_act:
+    desp: 筹资活动现金流入差额
+  spe_bal_cash_inflow_inv_act:
+    desp: 投资活动现金流入差额
+  spe_bal_cash_inflow_opera_act:
+    desp: 经营活动现金流入差额
+  spe_bal_cash_outflow_fin:
+    desp: 筹资活动现金流出差额
+  spe_bal_cash_outflow_inv:
+    desp: 投资活动现金流出差额
+  spe_bal_cash_outflow_opera:
+    desp: 经营活动现金流出差额
+  spe_bal_netcash_inc_diff_ind:
+    desp: 间接法-现金净增加额差额
+  spe_bal_netcash_incr_diff:
+    desp: 现金净增加额差额
+  spe_bal_netcash_opera_ind:
+    desp: 间接法-经营活动现金流量净额差额
+  statement_type:
+    desp: 报表类型
+  tot_bal_cash_inflow_fin_act:
+    desp: 筹资活动现金流入差额
+  tot_bal_cash_inflow_inv_act:
+    desp: 投资活动现金流入差额
+  tot_bal_cash_inflow_opera_act:
+    desp: 经营活动现金流入差额
+  tot_bal_cash_outflow_fin:
+    desp: 筹资活动现金流出差额
+  tot_bal_cash_outflow_inv:
+    desp: 投资活动现金流出差额
+  tot_bal_cash_outflow_opera:
+    desp: 经营活动现金流出差额
+  tot_bal_netcash_flow_fin:
+    desp: 筹资活动产生的现金流量净额差额
+  tot_bal_netcash_flow_inv:
+    desp: 投资活动产生的现金流量净额差额
+  tot_bal_netcash_flow_opera:
+    desp: 经营活动产生的现金流量净额差额
+  tot_bal_netcash_inc_diff_ind:
+    desp: 间接法-现金净增加额差额
+  tot_bal_netcash_incr_diff:
+    desp: 现金净增加额差额
+  tot_bal_netcash_opera_ind:
+    desp: 间接法-经营活动现金流量净额差额
+  tot_cash_inflow_fin_act:
+    desp: 筹资活动现金流入小计
+  tot_cash_inflow_inv_act:
+    desp: 投资活动现金流入小计
+  tot_cash_inflow_oper_act:
+    desp: 经营活动现金流入小计
+  tot_cash_outflow_fin_act:
+    desp: 筹资活动现金流出小计
+  tot_cash_outflow_inv_act:
+    desp: 投资活动现金流出小计
+  tot_cash_outflow_opera_act:
+    desp: 经营活动现金流出小计
+  unconfirmed_inv_loss:
+    desp: 未确认投资损失
+  use_right_asset_dep:
+    desp: 使用权资产折旧
+
+income:
+  actual_ann_date:
+    desp: 实际公告日期
+  adj_prev_year_loss_gain:
+    desp: 调整以前年度损益
+  amort_cost_fin_assets_ear:
+    desp: 以摊余成本计量的金融资产终止确认收益
+  ann_date:
+    desp: 公告日期
+  basic_eps:
+    desp: 基本每股收益
+  beg_undistributed_pro:
+    desp: 年初未分配利润
+  capitalized_com_stock_div:
+    desp: 转作股本的普通股股利
+  comments:
+    desp: 备注
+  common_stock_div_payable:
+    desp: 应付普通股股利
+  comp_id:
+    desp: 公司ID
+  comp_type_code:
+    desp: 公司类型代码
+  continued_net_opera_pro:
+    desp: 持续经营净利润
+  credit_impair_loss:
+    desp: 信用减值损失
+  currency_code:
+    desp: 货币代码
+  diluted_eps:
+    desp: 稀释每股收益
+  distributive_pro:
+    desp: 可分配利润
+  distributive_pro_shareholder:
+    desp: 可供股东分配的利润
+  div_exp_insur:
+    desp: 保户红利支出
+  ebit:
+    desp: 息税前利润
+  ebitda:
+    desp: 息税折旧摊销前利润
+  employee_welfare:
+    desp: 职工奖金福利
+  end_net_opera_pro:
+    desp: 终止经营净利润
+  ext_insur_cont_rsrv:
+    desp: 提取保险责任准备金
+  ext_unearned_prem_res:
+    desp: 提取未到期责任准备金
+  fin_exp_int_exp:
+    desp: 财务费用:利息费用
+  fin_exp_int_inc:
+    desp: 财务费用:利息收入
+  gain_disposal_assets:
+    desp: 资产处置收益
+  handling_chrg_comm_fee:
+    desp: 手续费及佣金收入
+  incl_inc_inv_jv_entp:
+    desp: 其中:对联营企业和合营企业的投资收益
+  incl_less_loss_disp_ncur_asset:
+    desp: 其中:减:非流动资产处置净损失
+  incl_reinsur_prem_inc:
+    desp: 其中:分保费收入
+  income_tax:
+    desp: 所得税
+  insur_exp:
+    desp: 保险业务支出
+  insur_prem:
+    desp: 已赚保费
+  interest_inc:
+    desp: 利息收入
+  is_calculation:
+    desp: 是否计算报表
+  less_admin_exp:
+    desp: 减:管理费用
+  less_amort_compen_exp:
+    desp: 减:摊回赔付支出
+  less_amort_insur_cont_rsrv:
+    desp: 减:摊回保险责任准备金
+  less_amort_reinsur_exp:
+    desp: 减:摊回分保费用
+  less_assets_impair_loss:
+    desp: 减:资产减值损失
+  less_bus_tax_surcharge:
+    desp: 减:营业税金及附加
+  less_fin_exp:
+    desp: 减:财务费用
+  less_handling_chrg_comm_fee:
+    desp: 减:手续费及佣金支出
+  less_interest_exp:
+    desp: 减:利息支出
+  less_non_opera_exp:
+    desp: 减:营业外支出
+  less_opera_cost:
+    desp: 减:营业成本
+  less_reinsur_prem:
+    desp: 减:分出保费
+  less_selling_exp:
+    desp: 减:销售费用
+  market_code:
+    desp: 市场代码
+  min_int_inc:
+    desp: 少数股东损益
+  net_exposure_hedging_gain:
+    desp: 净敞口套期收益
+  net_handling_chrg_comm_fee:
+    desp: 手续费及佣金净收入
+  net_inc_ec_asset_mgmt_bus:
+    desp: 受托客户资产管理业务净收入
+  net_inc_sec_brok_bus:
+    desp: 代理买卖证券业务净收入
+  net_inc_sec_uw_bus:
+    desp: 证券承销业务净收入
+  net_interest_inc:
+    desp: 利息净收入
+  net_pro_after_ded_nr_gl:
+    desp: 扣除非经常性损益后净利润（扣除少数股东损益）
+  net_pro_after_ded_nr_gl_cor:
+    desp: 扣除非经常性损益后的净利润(财务重要指标(更正前))
+  net_pro_excl_min_int_inc:
+    desp: 净利润(不含少数股东损益)
+  net_pro_incl_min_int_inc:
+    desp: 净利润(含少数股东损益)
+  net_pro_under_int_acc_sta:
+    desp: 国际会计准则净利润
+  opera_exp:
+    desp: 营业支出
+  opera_profit:
+    desp: 营业利润
+  opera_rev:
+    desp: 营业收入
+  oth_assets_impair_loss:
+    desp: 其他资产减值损失
+  oth_bus_cost:
+    desp: 其他业务成本
+  oth_bus_inc:
+    desp: 其他业务收入
+  oth_compre_inc:
+    desp: 其他综合收益
+  oth_income:
+    desp: 其他收益
+  oth_net_opera_inc:
+    desp: 其他经营净收益
+  plus_net_fx_inc:
+    desp: 加:汇兑净收益
+  plus_net_gain_chg_fv:
+    desp: 加:公允价值变动净收益
+  plus_net_inv_inc:
+    desp: 加:投资净收益
+  plus_non_opera_rev:
+    desp: 加:营业外收入
+  plus_oth_net_bus_inc:
+    desp: 加:其他业务净收益
+  preferred_share_div_payable:
+    desp: 应付优先股股利
+  prem_bus_inc:
+    desp: 保费业务收入
+  rd_exp:
+    desp: 研发费用
+  reinsurance_exp:
+    desp: 分保费用
+  report_type:
+    desp: 报告期名称
+  reporting_period:
+    desp: 报告期
+  security_name:
+    desp: 证券简称
+  spe_bal_net_pro_marg:
+    desp: 净利润差额(特殊报表科目)
+  spe_bal_opera_pro_marg:
+    desp: 营业利润差额(特殊报表科目)
+  spe_bal_tot_opera_cost_dif:
+    desp: 营业总成本差额(特殊报表科目)
+  spe_bal_tot_opera_inc_dif:
+    desp: 营业总收入差额(特殊报表科目)
+  spe_bal_tot_pro_marg:
+    desp: 利润总额差额(特殊报表科目)
+  spe_tot_opera_cost_dif_state:
+    desp: 营业总成本差额说明(特殊报表科目)
+  spe_tot_opera_inc_dif_state:
+    desp: 营业总收入差额说明(特殊报表科目)
+  statement_type:
+    desp: 报表类型
+  surr_value:
+    desp: 退保金
+  tot_bal_net_pro_marg:
+    desp: 净利润差额(合计平衡项目)
+  tot_bal_opera_pro_marg:
+    desp: 营业利润差额(合计平衡项目)
+  tot_bal_tot_pro_marg:
+    desp: 利润总额差额(合计平衡项目)
+  tot_compen_exp:
+    desp: 赔付总支出
+  tot_compre_inc:
+    desp: 综合收益总额
+  tot_compre_inc_min_share:
+    desp: 综合收益总额(少数股东)
+  tot_compre_inc_parent_comp:
+    desp: 综合收益总额(母公司)
+  tot_opera_cost:
+    desp: 营业总成本
+  tot_opera_cost2:
+    desp: 营业总成本2
+  tot_opera_rev:
+    desp: 营业总收入
+  total_profit:
+    desp: 利润总额
+  transfer_housing_revo_funds:
+    desp: 住房周转金转入
+  transfer_others:
+    desp: 其他转入
+  transfer_surplus_reserve:
+    desp: 盈余公积转入
+  unconfirmed_inv_loss:
+    desp: 未确认投资损失
+  withdraw_any_surplus_resv:
+    desp: 提取任意盈余公积金
+  withdraw_ent_develop_fund:
+    desp: 提取企业发展基金
+  withdraw_leg_pub_wel_fund:
+    desp: 提取法定公益金
+  withdraw_leg_surplus:
+    desp: 提取法定盈余公积
+  withdraw_resv_fund:
+    desp: 提取储备基金
