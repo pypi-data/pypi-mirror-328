@@ -1,0 +1,9 @@
+README.md
+setup.py
+pardhu_simple_package.egg-info/PKG-INFO
+pardhu_simple_package.egg-info/SOURCES.txt
+pardhu_simple_package.egg-info/dependency_links.txt
+pardhu_simple_package.egg-info/requires.txt
+pardhu_simple_package.egg-info/top_level.txt
+simple_package/__init__.py
+simple_package/main.py
