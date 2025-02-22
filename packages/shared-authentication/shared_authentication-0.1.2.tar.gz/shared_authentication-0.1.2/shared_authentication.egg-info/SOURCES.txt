@@ -1,0 +1,10 @@
+README.md
+setup.py
+shared_authentication/__init__.py
+shared_authentication/authentication.py
+shared_authentication/middleware.py
+shared_authentication.egg-info/PKG-INFO
+shared_authentication.egg-info/SOURCES.txt
+shared_authentication.egg-info/dependency_links.txt
+shared_authentication.egg-info/requires.txt
+shared_authentication.egg-info/top_level.txt
