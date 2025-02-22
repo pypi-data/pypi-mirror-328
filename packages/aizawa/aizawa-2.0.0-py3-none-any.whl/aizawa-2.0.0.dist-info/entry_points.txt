@@ -1,0 +1,3 @@
+[console_scripts]
+aizawa=aizawa.__main__:main
+
