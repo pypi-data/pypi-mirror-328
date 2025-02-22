@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hello_package/__init__.py
+hello_package/hello.py
+hello_py_1802.egg-info/PKG-INFO
+hello_py_1802.egg-info/SOURCES.txt
+hello_py_1802.egg-info/dependency_links.txt
+hello_py_1802.egg-info/top_level.txt
