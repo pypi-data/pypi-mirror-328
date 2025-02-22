@@ -1,0 +1,6 @@
+algos
+enviromnet
+genome
+log
+pipeline
+segment
