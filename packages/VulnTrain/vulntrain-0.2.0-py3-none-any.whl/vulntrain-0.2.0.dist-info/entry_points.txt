@@ -1,0 +1,4 @@
+[console_scripts]
+vulntrain-create-dataset=vulntrain.create_dataset:main
+vulntrain-train-dataset=vulntrain.summarize:main
+
