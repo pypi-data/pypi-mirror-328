@@ -1,0 +1,42 @@
+[project]
+name = "wechat-copilot"
+version = "0.0.1"
+description = "自动解析微信窗口的聊天内容,结合AI大模型，生成回复建议。"
+authors = [
+    {name = "lisaifei", email = "waltermitty121906@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "pyobjc>=11.0.0",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.10.4",
+    "rumps>=0.4.0",
+    "openai>=1.63.2",
+    "pynput>=1.7.7",
+    "pyperclip>=1.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/saifeiLee/wechat-copilot"
+Repository = "https://github.com/saifeiLee/wechat-copilot.git"
+
+[build-system]
+requires = ["hatchling>=1.0.0"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+wechat-copilot = "wechat_copilot.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["wechat_copilot"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
