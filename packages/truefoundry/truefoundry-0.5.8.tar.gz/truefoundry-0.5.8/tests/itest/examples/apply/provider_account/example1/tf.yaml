@@ -1,0 +1,14 @@
+type: provider-account/aws
+name: itest-pa-example1
+aws_account_id: '526077812922'
+integrations:
+  - type: integration/blob-storage/aws/s3
+    authorized_subjects:
+      - team:everyone
+    name: blob3
+    storage_root: s3://tfy-dev-model-server-research-2022-10-16/cli-integration-tests
+    region: eu-west-1
+    auth_data:
+      type: access-key-based
+      access_key_id: AKIAXU7FOMC5OSAS6L5M
+      secret_access_key: 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

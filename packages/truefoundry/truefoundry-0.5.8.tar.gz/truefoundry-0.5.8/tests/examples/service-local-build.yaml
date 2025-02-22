@@ -1,0 +1,44 @@
+name: cli-test-service-lb
+type: service
+image:
+  type: build
+  build_source:
+    type: local
+    local_build: true
+  build_spec:
+    type: tfy-python-buildpack
+    build_context_path: ./
+    python_version: '3.11'
+    pip_packages:
+      - numpy
+    command: python -m http.server 8080
+ports:
+  - host: cli-test-service-lb-test-ws-8080.tfy-usea1-ctl.devtest.truefoundry.tech
+    port: 8080
+    expose: true
+    protocol: TCP
+    app_protocol: http
+mounts: []
+replicas: 1
+resources:
+  node:
+    type: node_selector
+    capacity_type: spot_fallback_on_demand
+  cpu_limit: 0.2
+  cpu_request: 0.2
+  memory_limit: 500
+  memory_request: 500
+  ephemeral_storage_limit: 500
+  ephemeral_storage_request: 500
+readiness_probe:
+  config:
+    path: /ping
+    port: 8080
+    type: http
+    scheme: HTTP
+  period_seconds: 5
+  timeout_seconds: 1
+  failure_threshold: 3
+  success_threshold: 1
+  initial_delay_seconds: 0
+workspace_fqn: tfy-usea1-devtest:test-ws

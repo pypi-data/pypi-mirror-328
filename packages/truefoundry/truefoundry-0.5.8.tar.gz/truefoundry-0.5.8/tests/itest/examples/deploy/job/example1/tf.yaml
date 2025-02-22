@@ -1,0 +1,28 @@
+image:
+  build_source:
+    branch_name: main
+    ref: 71b5433ad0672f500f6c8fbbc2cc5c409ee7f3b3
+    repo_url: https://github.com/truefoundry/getting-started-examples
+    type: git
+  build_spec:
+    build_context_path: ./train-model/
+    command: python train.py
+    python_version: '3.11'
+    type: tfy-python-buildpack
+  type: build
+name: itest-job-example1
+resources:
+  cpu_limit: 0.5
+  cpu_request: 0.2
+  ephemeral_storage_limit: 2000
+  ephemeral_storage_request: 1000
+  memory_limit: 500
+  memory_request: 200
+  node:
+    capacity_type: spot_fallback_on_demand
+    type: node_selector
+retries: 0
+trigger:
+  type: manual
+trigger_on_deploy: false
+type: job

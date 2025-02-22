@@ -1,0 +1,35 @@
+allow_interception: false
+image:
+  image_uri: testcontainers/helloworld
+  type: image
+labels:
+  tfy_openapi_path: openapi.json
+name: itest-service-example2
+ports:
+- app_protocol: http
+  expose: true
+  host: itest-service-example2-8080.tfy-usea1-ctl.devtest.truefoundry.tech
+  port: 8080
+  protocol: TCP
+readiness_probe:
+  config:
+    path: /ping
+    port: 8080
+    type: http
+  failure_threshold: 3
+  initial_delay_seconds: 30
+  period_seconds: 10
+  success_threshold: 1
+  timeout_seconds: 1
+replicas: 1
+resources:
+  cpu_limit: 0.2
+  cpu_request: 0.2
+  ephemeral_storage_limit: 500
+  ephemeral_storage_request: 500
+  memory_limit: 200
+  memory_request: 200
+  node:
+    capacity_type: spot_fallback_on_demand
+    type: node_selector
+type: service

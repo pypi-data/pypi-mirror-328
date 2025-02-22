@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "isActive": true,
+    "roles": ["admin", "user"],
+    "profile": {
+        "age": 30,
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "Anystate",
+            "zipCode": "12345"
+        }
+    }
+}

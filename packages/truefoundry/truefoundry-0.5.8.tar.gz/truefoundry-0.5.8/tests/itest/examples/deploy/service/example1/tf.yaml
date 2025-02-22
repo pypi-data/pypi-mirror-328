@@ -1,0 +1,31 @@
+allow_interception: false
+image:
+  build_source:
+    branch_name: main
+    ref: 3df2537bded2b6761997ef0a4347951a687a2cb3
+    repo_url: https://github.com/truefoundry/emotion-classification-fastapi
+    type: git
+  build_spec:
+    build_context_path: ./
+    dockerfile_path: ./Dockerfile
+    type: dockerfile
+  type: build
+name: itest-service-example1
+ports:
+- app_protocol: http
+  expose: true
+  host: itest-service-example1-8000.tfy-usea1-ctl.devtest.truefoundry.tech
+  port: 8000
+  protocol: TCP
+replicas: 1
+resources:
+  cpu_limit: 0.5
+  cpu_request: 0.2
+  ephemeral_storage_limit: 2000
+  ephemeral_storage_request: 1000
+  memory_limit: 500
+  memory_request: 200
+  node:
+    capacity_type: spot_fallback_on_demand
+    type: node_selector
+type: service

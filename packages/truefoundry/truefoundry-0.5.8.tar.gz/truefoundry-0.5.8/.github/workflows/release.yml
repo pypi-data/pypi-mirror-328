@@ -1,0 +1,32 @@
+name: Publish pip package to PyPI
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set the version
+        run: |
+          VERSION=$(uv run --python 3.10 --with "dunamai>=1.23,<2.0" dunamai from git --no-metadata --style pep440)
+          echo "Setting version to $VERSION"
+          uv run --python 3.10 --with "toml-cli>=0.7.0,<1.0.0" toml set --toml-path=pyproject.toml project.version $VERSION
+
+      - name: Build project
+        run: uv build --python 3.10
+
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          verbose: true
+          user: __token__

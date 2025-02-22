@@ -1,0 +1,7 @@
+collaborators:
+- role_id: mlf-project-admin
+  subject: team:everyone
+description: Hello World
+name: itest-mlrepo-example1
+storage_integration_fqn: truefoundry:aws:tfy-usea1-ctl-devtest-internal:blob-storage:blob
+type: ml-repo

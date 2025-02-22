@@ -1,0 +1,45 @@
+name: sample-appset
+type: application-set
+components:
+  - name: service
+    type: service
+    image:
+      type: build
+      build_source:
+        type: local
+        local_build: false
+      build_spec:
+        type: tfy-python-buildpack
+        command: uvicorn app:app --host 0.0.0.0 --port 8000
+        requirements_path: requirements.txt
+    ports:
+      - port: 8000
+        expose: false
+        protocol: TCP
+        app_protocol: http
+    replicas: 1
+    resources:
+      cpu_limit: 0.5
+      cpu_request: 0.2
+      memory_limit: 500
+      memory_request: 200
+      ephemeral_storage_limit: 2000
+      ephemeral_storage_request: 1000
+  - name: job
+    type: job
+    image:
+      type: build
+      build_source:
+        type: local
+        local_build: false
+      build_spec:
+        type: tfy-python-buildpack
+        command: python work.py
+    resources:
+      cpu_limit: 0.5
+      cpu_request: 0.2
+      memory_limit: 500
+      memory_request: 200
+      ephemeral_storage_limit: 2000
+      ephemeral_storage_request: 1000
+workspace_fqn: tfy-usea1-devtest:test-ws

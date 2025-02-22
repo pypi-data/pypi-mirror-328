@@ -1,0 +1,7 @@
+cluster_fqn: tfy-usea1-devtest
+collaborators:
+- role_id: workspace-admin
+  subject: team:everyone
+environment_name: devtest
+name: itest-ws-example1
+type: workspace

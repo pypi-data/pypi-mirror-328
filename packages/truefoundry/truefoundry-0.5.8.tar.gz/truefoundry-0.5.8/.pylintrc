@@ -1,0 +1,6 @@
+[MASTER]
+ignore-paths=^truefoundry/ml/autogen/.*$,
+             ^truefoundry/pydantic_v1.py$
+
+[MESSAGES CONTROL]
+  disable=C0114,C0115,C0116,C0301,W0511,W1203,C0415,C0302,W1514,R0913,R0914,R0912,R0904

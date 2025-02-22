@@ -1,0 +1,87 @@
+name: Integration Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request_review:
+    branches:
+      - main
+    types:
+      - submitted
+  workflow_dispatch:
+
+jobs:
+  integration-test-dev:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request_review' && github.event.review.state == 'approved')
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.12"]
+
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv venv --python ${{ matrix.python-version }} --seed
+
+      - name: Install the project
+        run: uv sync --locked  --all-extras
+
+      - name: Run Integration Tests
+        env:
+          # Environment variables needed for tests
+          ITEST_TFY_HOST: ${{ secrets.ITEST_DEV_TFY_HOST }}
+          ITEST_TFY_API_KEY: ${{ secrets.ITEST_DEV_TFY_API_KEY }}
+          ITEST_CLUSTER_FQN: 'tfy-usea1-devtest'
+          ITEST_STORAGE_INTEGRATION_FQN: 'truefoundry:aws:tfy-usea1-ctl-devtest-internal:blob-storage:blob'
+          ITEST_TENANT_NAME: 'truefoundry'
+        run: |
+          uv run pytest -s -vv -m "integration" --durations=0 tests/itest/
+
+  integration-test-prod:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request_review' && github.event.review.state == 'approved')
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.12"]
+
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv venv --python ${{ matrix.python-version }} --seed
+
+      - name: Install the project
+        run: uv sync --locked  --all-extras
+
+      - name: Run Integration Tests
+        env:
+          # Environment variables needed for tests
+          ITEST_TFY_HOST: ${{ secrets.ITEST_PROD_TFY_HOST }}
+          ITEST_TFY_API_KEY: ${{ secrets.ITEST_PROD_TFY_API_KEY }}
+          ITEST_CLUSTER_FQN: 'tfy-usea1-ctl-devtest'
+          ITEST_STORAGE_INTEGRATION_FQN: 'internal:aws:aws-2:blob-storage:truefoundry-default'
+          ITEST_TENANT_NAME: 'internal'
+        run: |
+          uv run pytest -s -vv -m "integration" --durations=0 tests/itest/
