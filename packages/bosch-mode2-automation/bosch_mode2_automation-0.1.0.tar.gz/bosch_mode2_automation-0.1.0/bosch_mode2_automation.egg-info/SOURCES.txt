@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bosch_mode2_automation/__init__.py
+bosch_mode2_automation/bosch_mode2_automation.py
+bosch_mode2_automation.egg-info/PKG-INFO
+bosch_mode2_automation.egg-info/SOURCES.txt
+bosch_mode2_automation.egg-info/dependency_links.txt
+bosch_mode2_automation.egg-info/top_level.txt
