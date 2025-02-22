@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: test-publish-my-package
+Version: 0.0.5
+Summary: Add your description here
+Author-email: smitk85143 <smitk85143@gmail.com>
+Requires-Python: >=3.7
