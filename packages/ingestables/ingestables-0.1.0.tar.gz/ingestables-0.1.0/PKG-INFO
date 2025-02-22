@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: ingestables
+Version: 0.1.0
+Summary: IngesTables: A Recipe for Tabular Foundation Models
+Keywords: 
+Author-email: IngesTables team <ingestables-team@google.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+License-File: LICENSE
+Requires-Dist: arff>=0.9
+Requires-Dist: absl-py>=2.1
+Requires-Dist: etils[epath]>=1.12
+Requires-Dist: fiddle>=0.3
+Requires-Dist: pandas>=2.1
+Requires-Dist: scikit-learn>=1.6
+Requires-Dist: tensorboard>=2.18
+Requires-Dist: tensorflow-cpu>=2.18
+Requires-Dist: torch>=2.4
+Requires-Dist: transformers>=4.44
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Requires-Dist: pylint>=2.6.0 ; extra == "dev"
+Requires-Dist: pyink ; extra == "dev"
+Project-URL: changelog, https://github.com/google-research/ingestables/blob/main/CHANGELOG.md
+Project-URL: homepage, https://github.com/google-research/ingestables
+Project-URL: repository, https://github.com/google-research/ingestables
+Provides-Extra: dev
+
+# ingestables
+
+[![Unittests](https://github.com/google-research/ingestables/actions/workflows/pytest_and_autopublish.yml/badge.svg)](https://github.com/google-research/ingestables/actions/workflows/pytest_and_autopublish.yml)
+[![PyPI version](https://badge.fury.io/py/ingestables.svg)](https://badge.fury.io/py/ingestables)
+
+This repository contains the implementation of the IngesTables paper (TBD).
+
+It contains library code that defines the data preprocessing, training, and
+evaluation. It also contains scripts for running it locally or on Google Cloud
+Platform (GCP). Do note that using the GCP scripts may incur costs and would
+transmit data to GCP and be accessible to those who can access your GCP project.
+
+*This is not an officially supported Google product.*
+
