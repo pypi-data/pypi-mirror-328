@@ -1,0 +1,2 @@
+[console_scripts]
+talPYot = talPYot.main:main
