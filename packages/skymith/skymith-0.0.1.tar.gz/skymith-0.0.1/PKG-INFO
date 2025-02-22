@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: skymith
+Version: 0.0.1
+Summary: Flexible AI-driven services, everywhere, and for everyone.
+Author-Email: Mitheithel Team <hello@mitheithel.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://skymith.com
+Project-URL: GitHub, https://github.com/Mitheithel/skymith
+Project-URL: Documentation, https://docs.skymith.com/skymith
+Project-URL: Bug Tracker, https://github.com/Mitheithel/skymith/issues
+Requires-Python: <3.12,>=3.10
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: websockets>=15.0
+Requires-Dist: langchain>=0.3.18
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: pytest-asyncio>=0.25.3; extra == "testing"
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <!-- Login Badge -->
+  <a href="https://skymith.com/login"><img src="../../docs/assets/favicon.png" alt="Login Badge"></a>
+  <!-- Docker Badge -->
+  <a href="https://hub.docker.com/u/skymith">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge">
+  </a>
+  <!-- LangChain Badge -->
+  <a href="https://langchain.com/">
+    <img src="https://img.shields.io/badge/LangChain-005A9C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain Badge">
+  </a>
+</p>
+
+# Skymith
+
+## Description
+
+Skymith provides advanced AI capabilities to developers and companies alike. Learn more at https://skymith.com.
+
+## Development
+
+  1. Install [PDM](https://pdm.fming.dev/latest/#installation).
+
+  2. Clone the project and install necessary packages:
+```bash
+# clone project
+git clone https://github.com/Mitheithel/skymith.git
+cd skymith
+
+# install pdm
+pip install pdm
+
+# install package
+pdm install -dG :all
+```
