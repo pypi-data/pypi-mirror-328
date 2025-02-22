@@ -1,0 +1,11 @@
+external_resources_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_resources_io/cli.py,sha256=1ydzVzVLGOPPcSU5lbVNgIuEILaZdgUOY36sPD939Lg,4605
+external_resources_io/input.py,sha256=TaO92RIiNLROdAgmee_MFlNmWaflnQXU2r02i3kcv0Q,1449
+external_resources_io/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_resources_io/terraform/__init__.py,sha256=SpTdI3c0OpTmWaoYf2GBOPQwf9ZqOZSIaqeG9wggjoM,519
+external_resources_io/terraform/generators.py,sha256=mLKAl2TSV1DEIGjMNr_Cc1P0RVi648tL0mtlfNWHm0o,7506
+external_resources_io/terraform/plan.py,sha256=yT4y6IyLAT1Ztbq2FDLisCPd7nkwzALy2mxMOJy_tec,6351
+external_resources_io-0.5.1.dist-info/METADATA,sha256=X0h6frIDN6oOIFwv4-BW9SA0ebrtr3CUsfRpkzUwPfY,2571
+external_resources_io-0.5.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+external_resources_io-0.5.1.dist-info/entry_points.txt,sha256=LCHdy-RyBZt2esHFOCGhTzB3RFgv4na4pqsVra3-Zqo,72
+external_resources_io-0.5.1.dist-info/RECORD,,
