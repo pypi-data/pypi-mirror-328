@@ -1,0 +1,13 @@
+atlas_schema/__init__.py,sha256=ebY-rTiwSGnfvt1yWATze2GE7K3fVgJj6fT64Sl4sH8,469
+atlas_schema/_version.py,sha256=4gL0W4-u58XR5lRLpeoIPrGhcewTk0-527de6uTNmkg,411
+atlas_schema/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+atlas_schema/enums.py,sha256=hwgOvFBmITNxL0MQkrNpbiPv9VMezFoE-eyGgjzem8E,3688
+atlas_schema/methods.py,sha256=hFdtKXnyCcx4M05WhAM24fKwzEhh_ubA7jNa6_xv67k,7238
+atlas_schema/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_schema/schema.py,sha256=4OAvuPrOds-taVES32y4K8dvNDf8PKdu83DZqAlTdp8,20621
+atlas_schema/typing_compat.py,sha256=3G8h4WfLoDmrtWZvtYKLCwEpCQ_O4Fwygb2WlDRSE4E,488
+atlas_schema/utils.py,sha256=IqMbWqq0ib_kZdJCaM5ghURZatmb8pKidlewx3dpy0A,2164
+atlas_schema-0.2.4.dist-info/METADATA,sha256=KZDH5fsZon5wFXuU-iSUeqgjoplOwAoqTM1I9LgaTiM,20107
+atlas_schema-0.2.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+atlas_schema-0.2.4.dist-info/licenses/LICENSE,sha256=snem82NV8fgAi4DKaaUIfReaM5RqIWbH5OOXOvy40_w,11344
+atlas_schema-0.2.4.dist-info/RECORD,,
