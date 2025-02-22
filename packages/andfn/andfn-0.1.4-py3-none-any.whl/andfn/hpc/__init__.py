@@ -1,0 +1,3 @@
+
+NO_PYTHON = False
+PARALLEL = False
