@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "scraper_hj3415"
+version = "4.8.3"
+authors = [{name = "Hyungjin Kim", email = "hj3415@gmail.com"}]
+description = "Gathering the stock data"
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "scrapy>=2.12.0",
+    "db-hj3415>=4.6.2",
+    "pandas>=2.2.2",
+    "webdriver-hj3415>=2.0.0",
+    "utils_hj3415>=3.2.0",
+    "xlrd==2.0.1",
+]
+
+[project.scripts]
+nfs = "scraper_hj3415.cli:nfs_manager"
+mis = "scraper_hj3415.cli:mis_manager"
+krx = "scraper_hj3415.cli:krx_manager"
+
+[project.urls]
+Home = "https://www.hyungjin.kr"
+
+[tool.flit.sdist]
+exclude = ["tests/", ".gitignore", 'scraper_hj3415/krx/_down_krx/']
