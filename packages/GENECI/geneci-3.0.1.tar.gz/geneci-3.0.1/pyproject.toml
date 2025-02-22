@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "GENECI"
+version = "3.0.1"
+description = "BIO-INSIGHT is a software package designed for intelligent consensus of multiple techniques for inferring gene regulation networks. To this end, a **parallel asynchronous many-objective evolutionary algorithm** is applied to optimize the weights assigned to the different techniques based on 6 biological objectives"
+authors = ["adrian_segura <adrianseor.99@uma.es>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+geneci = "geneci.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.10.7,<3.11"
+typer = {extras = ["all"], version = "^0.6"}
+docker = "^7.1.0"
+pandas = "^2.2.3"
+plotly = "^6.0.0"
+iteround = "^1.0.4"
+scipy = "^1.15.2"
+matplotlib = "^3.10.0"
+tqdm = "^4.67.1"
+tornado = "^6.4.2"
+scikit-learn = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
