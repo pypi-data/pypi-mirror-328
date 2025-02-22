@@ -1,0 +1,5 @@
+[console_scripts]
+bili-cli=bili_cli.command:main
+bili-sche=bili_cli.sche:main
+bili-server=bili_cli.server:main
+
