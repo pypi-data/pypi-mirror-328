@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jira-utils"
+version = "0.0.1"
+description = "Data Processor"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    {name = "Ramin-RX7", email = "rawmin.rx@gmail.com"},
+]
+keywords = ["jira", "utils", "utility"]
+
+[tool.setuptools]
+packages = ["jira_utils"]
