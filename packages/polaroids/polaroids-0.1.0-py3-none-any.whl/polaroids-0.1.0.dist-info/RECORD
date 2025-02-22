@@ -1,0 +1,9 @@
+polaroids/__init__.py,sha256=QF1YM8PUpzLERLQHjJHN8GyNs21cOf1PJ62wePDjvXg,92
+polaroids/_utils.py,sha256=aNC63sPSL7J05i13fF3J8KevD86MgO5lWSbb90cg_bA,2171
+polaroids/dataframe.py,sha256=JPIAb95BSd3aMWunKdJGUHyf6Dsxgq3TsHNgavhbGJk,4080
+polaroids/dataframe.pyi,sha256=5yd9eFUHxGF5JoGYL7ObwydXY2hxQO9RsFAaap7J75w,410
+polaroids/exceptions.py,sha256=eVFDFamlgMAn-TJDk9RQcePdwL4gcRYBEUov6xjGYOc,124
+polaroids/field.py,sha256=sPPK0NylA4k0iV4P6B-wynRp3Uw8hGKMYQWTuNeccsM,863
+polaroids-0.1.0.dist-info/METADATA,sha256=GJ_7qzx3_fAGM9Y5snwWnSbpEgSEEPqh19q7F1PJUiE,2081
+polaroids-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+polaroids-0.1.0.dist-info/RECORD,,
