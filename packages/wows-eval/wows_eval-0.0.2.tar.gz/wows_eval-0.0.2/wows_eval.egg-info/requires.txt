@@ -1,0 +1,10 @@
+tira>=0.0.144
+auto-ir-metadata==0.0.0
+pandas
+packaging
+trectools
+click
+tqdm
+
+[test]
+pytest==8.*,>=8.0
