@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: mechinterp
+Version: 0.0.7
+Summary: Library for easily using interpretability techniques in transformer models
+Author-email: Yoav Gur-Arieh <yoavgurarieh@gmail.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformer_lens
+Requires-Dist: jaxtyping
+Requires-Dist: torch
+
+# mechinterp
+Library for easily using interpretability techniques in transformer models
