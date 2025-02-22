@@ -1,0 +1,1586 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-15 14:39+0800\n"
+"PO-Revision-Date: 2016-10-24 21:20+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: yhalpha/environment.py:74
+msgid ""
+"Environment has not been created. Please Use `Environment.get_instance()`"
+" after yhalpha init"
+msgstr "Environment 并没有被创建，请再 yhalpha 初始化之后使用 `Environment.get_instance() 函数`"
+
+#: yhalpha/environment.py:180
+msgid "No such transaction cost decider, market_code = {}"
+msgstr ""
+
+#: yhalpha/main.py:60
+msgid ""
+"There is no data between {start_date} and {end_date}. Please check your "
+"data bundle or select other backtest period."
+msgstr "未在 {start_date} 和 {end_date} 区间内查询到数据，请检查并升级您的 data bundle 或者选择其他回测区间。"
+
+#: yhalpha/main.py:79
+msgid ""
+"Missing persist provider. You need to set persist_provider before use "
+"persist"
+msgstr "Persist provider 未加载，加载 Persist provider 方可使用 persist 功能。"
+
+#: yhalpha/main.py:127
+msgid "deepquant.quest.datac init failed, some apis will not function properly: {}"
+msgstr ""
+"deepquant.quest.datac 初始化失败，部分扩展 API 可能无法使用，错误信息：{}。您可以访问 "
+"https://www.ricequant.com/welcome/rqdata 获取 deepquant.quest.datac"
+
+#: yhalpha/main.py:220
+msgid "system restored"
+msgstr ""
+
+#: yhalpha/main.py:250
+msgid "strategy run successfully, normal exit"
+msgstr "策略运行成功，正常退出"
+
+#: yhalpha/main.py:255
+msgid "strategy execute exception"
+msgstr "策略运行产生异常"
+
+#: yhalpha/apis/api_base.py:69 yhalpha/apis/api_base.py:283
+#: yhalpha/apis/api_base.py:319
+msgid "unsupported market_code type"
+msgstr "不支持该 market_code 类型"
+
+#: yhalpha/apis/api_base.py:164
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:60
+msgid "Main Future contracts[88] are not supported in paper trading."
+msgstr "期货主力连续合约[88] 在实盘模拟中暂不支持。"
+
+#: yhalpha/apis/api_base.py:168
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:62
+msgid "Index Future contracts[99] are not supported in paper trading."
+msgstr "期货指数连续合约[99] 在实盘模拟中暂不支持。"
+
+#: yhalpha/apis/api_base.py:173
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:66
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:103
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:141
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:344
+msgid "Order Creation Failed: [{market_code}] No market data"
+msgstr "订单创建失败: 当前合约[{market_code}]没有市场数据。"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:50
+msgid "deepquant.quest.datac is not available, extension apis will not function properly"
+msgstr ""
+"deepquant.quest.datac 不存在，扩展 API 无法使用，您可以访问 https://www.ricequant.com/welcome/rqdata 获取"
+" deepquant.quest.datac"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:106
+msgid "in get_split, start_date {} is no earlier than the previous test day {}"
+msgstr "get_spit 中 start_date {} 晚于策略运行前一日 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:144
+msgid "in index_components, date {} is no earlier than test date {}"
+msgstr "index_compoments 中，date {} 晚于策略当前运行日期 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:191
+msgid "in index_weights, date {} is no earlier than previous test date {}"
+msgstr "在API index_weights 中, 参数date={} 不应晚于上一交易日 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:398
+msgid "in get_price, end_date {} is no earlier than the previous test day {}"
+msgstr "在API get_price 中, 当前参数end_date={} 不应晚于上一交易日 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:406
+msgid "in get_price, start_date {} is no earlier than the previous test day {}"
+msgstr "在API get_price中, 参数start_date={} 不应晚于上一交易日 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:411
+msgid "in get_price, start_date {} > end_date {}"
+msgstr "在API get_price 中,当前参数 start_date={} 大于 end_date={}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:873
+msgid "'{0}' future does not exist"
+msgstr "期货品种 '{0}' 不存在"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:1159
+msgid "in get_fundamentals entry_date {} is no earlier than test date {}"
+msgstr "在API get_fundamentals 中,财务数据开始日期 {} 不应晚于上一交易日 {}"
+
+#: yhalpha/apis/api_deepquant.quest.datac.py:1193 yhalpha/apis/api_deepquant.quest.datac.py:1258
+#: yhalpha/utils/arg_checker.py:320
+msgid ""
+"function {}: invalid {} argument, quarter should be in form of '2012q3', "
+"got {} (type: {})"
+msgstr "函数 {}：参数 {} 不合法，季度应为形如 '2012q3' 的字符串，传入的是 {}（类型：{}）"
+
+#: yhalpha/cmds/bundle.py:34
+msgid "create bundle using deepquant.quest.datac"
+msgstr "使用 deepquant.quest.datac 创建 Bundle"
+
+#: yhalpha/cmds/bundle.py:44
+msgid ""
+"deepquant.quest.datac is required to create bundle. you can visit "
+"https://www.ricequant.com/welcome/rqdata to get deepquant.quest.datac, or use \"yhalpha"
+" download-bundle\" to download monthly updated bundle."
+msgstr ""
+"创建 bundle 依赖 deepquant.quest.datac。您可以访问 https://www.ricequant.com/welcome/rqdata 以获取 "
+"deepquant.quest.datac，或执行 \"yhalpha download-bundle\" 以下载月度更新的 bundle。"
+
+#: yhalpha/cmds/bundle.py:55 yhalpha/cmds/bundle.py:84
+msgid "deepquant.quest.datac init failed with error: {}"
+msgstr "deepquant.quest.datac 初始化失败：{}"
+
+#: yhalpha/cmds/bundle.py:63
+msgid "Update bundle using deepquant.quest.datac"
+msgstr "使用 deepquant.quest.datac 更新 Bundle"
+
+#: yhalpha/cmds/bundle.py:73
+msgid ""
+"deepquant.quest.datac is required to update bundle. you can visit "
+"https://www.ricequant.com/welcome/rqdata to get deepquant.quest.datac, or use \"yhalpha"
+" download-bundle\" to download monthly updated bundle."
+msgstr ""
+"更新 bundle 依赖 deepquant.quest.datac。您可以访问 https://www.ricequant.com/welcome/rqdata 以获取 "
+"deepquant.quest.datac，或执行 \"yhalpha download-bundle\" 以下载月度更新的 bundle。"
+
+#: yhalpha/cmds/bundle.py:88
+msgid "bundle not exist, use \"yhalpha create-bundle\" command instead"
+msgstr "bundle 不存在，执行 \"yhalpha create-bundle\" 以创建 bundle"
+
+#: yhalpha/cmds/bundle.py:95
+msgid "Download bundle (monthly updated)"
+msgstr "下载（月度更新的）Bundle"
+
+#: yhalpha/cmds/bundle.py:106
+msgid ""
+"\n"
+"    [WARNING]\n"
+"    Target bundle path {data_bundle_path} is not empty.\n"
+"    The content of this folder will be REMOVED before updating.\n"
+"    Are you sure to continue?"
+msgstr ""
+"\n"
+"    [WARNING]\n"
+"    目标 bundle 路径 {data_bundle_path} 不为空.\n"
+"    该路径下的内容将会被移除.\n"
+"    确定继续吗?"
+
+#: yhalpha/cmds/bundle.py:124
+msgid "Data bundle download successfully in {bundle_path}"
+msgstr "数据下载成功: {bundle_path}"
+
+#: yhalpha/cmds/bundle.py:127
+msgid "Check bundle"
+msgstr "检测 Bundle 数据"
+
+#: yhalpha/cmds/bundle.py:141
+msgid "try {} ..."
+msgstr "尝试 {} ..."
+
+#: yhalpha/cmds/bundle.py:153
+msgid "downloading ..."
+msgstr "下载中 ..."
+
+#: yhalpha/cmds/bundle.py:167
+msgid ""
+"\n"
+"Download failed, retry in {} seconds."
+msgstr ""
+"\n"
+"下载失败，{} 秒后重试。"
+
+#: yhalpha/cmds/bundle.py:188
+msgid "corrupted files"
+msgstr "已损坏的文件"
+
+#: yhalpha/cmds/bundle.py:189
+msgid "remove files"
+msgstr "是否删除文件"
+
+#: yhalpha/cmds/bundle.py:192
+msgid "remove success"
+msgstr "文件删除完毕"
+
+#: yhalpha/cmds/bundle.py:194
+msgid "corrupted files not remove"
+msgstr "已损坏的文件尚未删除"
+
+#: yhalpha/cmds/bundle.py:196
+msgid "input error"
+msgstr "输入异常"
+
+#: yhalpha/cmds/bundle.py:198
+msgid "bundle's day bar is incomplete, please update bundle"
+msgstr "Bundle日线数据不完整，请及时更新bundle"
+
+#: yhalpha/cmds/bundle.py:200
+msgid "good bundle's day bar"
+msgstr "Bundle日线数据良好"
+
+#: yhalpha/cmds/misc.py:26
+msgid "Generate example strategies to target folder"
+msgstr "在目标文件夹生成样例策略"
+
+#: yhalpha/cmds/misc.py:41
+msgid "Output Version Info"
+msgstr "输出版本号信息"
+
+#: yhalpha/cmds/misc.py:48
+msgid "Generate default config file"
+msgstr "生成默认的配置文件"
+
+#: yhalpha/cmds/mod.py:29
+msgid "Mod management command"
+msgstr "Mod 管理命令"
+
+#: yhalpha/cmds/run.py:27
+msgid "Run a strategy"
+msgstr "运行策略"
+
+#: yhalpha/core/execution_context.py:111
+#, python-format
+msgid "You cannot call %s when executing %s"
+msgstr "%s 不能在 %s 中调用。"
+
+#: yhalpha/core/strategy.py:36
+msgid "not run {}({}, {}) because strategy is hold"
+msgstr "策略暂停中，取消执行 {}({}, {})"
+
+#: yhalpha/core/strategy.py:53
+msgid "deprecated parameter[bar_dict] in before_trading function."
+msgstr "[Deprecated]在before_trading函数中，第二个参数bar_dict已经不再使用了。"
+
+#: yhalpha/data/bundle.py:522
+msgid ""
+"File {} update failed, if it is using, please update later, or you can "
+"delete then update again"
+msgstr "{} 文件更新失败，如果其正在使用中，请稍后再进行更新，或者您可以将其删除后再重新更新"
+
+#: yhalpha/data/base_data_source/storages.py:81
+msgid ""
+"The bundle data you are using is too old, please update it to lastest "
+"before using"
+msgstr ""
+"您所使用的 Bundle 数据过旧，请将其更新至最新后再进行使用"
+
+#: yhalpha/data/base_data_source/storages.py:97
+#: yhalpha/data/base_data_source/storages.py:124
+msgid "unsupported future instrument {}"
+msgstr "不支持的期货标的{}"
+
+#: yhalpha/data/base_data_source/storages.py:195
+#: yhalpha/data/base_data_source/storages.py:205
+msgid ""
+"open data bundle failed, you can remove {} and try to regenerate bundle: "
+"{}"
+msgstr "读取 bundle 文件失败，请删除 {} 后尝试重新生成 bundle：{}"
+
+#: yhalpha/mod/__init__.py:53
+msgid "loading mod {}"
+msgstr "载入 Mod {}"
+
+#: yhalpha/mod/__init__.py:71
+msgid ""
+"mod start_up [START] {}\n"
+"{}"
+msgstr ""
+
+#: yhalpha/mod/__init__.py:73
+msgid "mod start_up [END]   {}"
+msgstr ""
+
+#: yhalpha/mod/__init__.py:79
+msgid "mod tear_down [START] {}"
+msgstr ""
+
+#: yhalpha/mod/__init__.py:81
+msgid "mod tear_down [END]   {}"
+msgstr ""
+
+#: yhalpha/mod/mod_sys_accounts/position_model.py:318
+msgid "{market_code} is expired, close all positions by system"
+msgstr "{market_code} 已退市/交割，系统自动平仓"
+
+#: yhalpha/mod/mod_sys_accounts/position_validator.py:40
+msgid ""
+"Order Creation Failed: not enough today position {market_code} to "
+"close, target quantity is {quantity}, closable today quantity is "
+"{closable}"
+msgstr "订单创建失败：{market_code} 的今仓不足，目标平今仓量为 {quantity}，可平今仓量为 {closable}"
+
+#: yhalpha/mod/mod_sys_accounts/position_validator.py:49
+msgid ""
+"Order Creation Failed: not enough position {market_code} to close or "
+"exercise, target sell quantity is {quantity}, closable quantity is "
+"{closable}"
+msgstr "订单创建失败：{market_code} 的仓位不足，目标平仓/行权量为 {quantity}，可平仓/行权量为 {closable}"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:50
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:113
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:158
+msgid "Order Creation Failed: 0 order quantity, market_code={market_code}"
+msgstr "{market_code} 的订单创建失败：下单数量为 0"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:56
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:100
+msgid "Limit order price should not be nan."
+msgstr "限价单价格不能为 nan。"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:76
+msgid ""
+"Order Creation Failed: close today amount {amount} is larger than today "
+"closable quantity {quantity}"
+msgstr "订单创建失败: 平今仓量 {amount} 大于当前可平今仓位 {quantity} "
+
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:88
+msgid ""
+"Order Creation Failed: close amount {amount} is larger than position "
+"quantity {quantity}"
+msgstr "订单创建失败: 平仓量 {amount} 大于当前持仓量 {quantity}"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_future.py:111
+msgid ""
+"Order was separated, original order: {original_order_repr}, new orders: "
+"[{new_orders_repr}]"
+msgstr "订单被拆分，原订单：{original_order_repr}，新订单：[{new_orders_repr}]"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:66
+msgid ""
+"market_code: {market_code} needs stock account, please set and try "
+"again!"
+msgstr ""
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:120
+msgid "insufficient cash, use all remaining cash({}) to create order"
+msgstr "现金不足，使用当前剩余资金({})创建订单"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:333
+#, fuzzy
+msgid ""
+"function order_target_portfolio: invalid keys of target_portfolio, "
+"expected market_code or Instrument objects, got {} (type: {})"
+msgstr ""
+"函数 order_target_portfolio：不合法的参数。target_portfolio 的键应为合约代码或 Instrument "
+"对象，实际传入了 {}（类型：{}）。"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:338
+msgid ""
+"function order_target_portfolio: invalid instrument type, excepted "
+"CS/ETF/LOF/INDX, got {}"
+msgstr "函数 order_target_portfolio：不合法的资产类型。应传入股票、ETF、LOF 或指数，实际传入了 {}。"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:352
+msgid ""
+"function order_target_portfolio: invalid values of target_portfolio, "
+"excepted float between 0 and 1, got {} (key: {})"
+msgstr "函数 order_target_portfolio：不合法的目标权重，应传入 0 和 1 之间的浮点数，实际传入了 {}（类型：{}）。"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:361
+msgid "total percent should be lower than 1, current: {}"
+msgstr "目标持仓占比总和应小于 1，当前值：{}。"
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:381
+msgid ""
+"Adjust position of {id_or_ins} Failed: Invalid close/open price "
+"{close_price}/{open_price}"
+msgstr ""
+
+#: yhalpha/mod/mod_sys_accounts/api/api_stock.py:694
+msgid "in get_dividend, start_date {} is later than the previous test day {}"
+msgstr "在 get_dividend 函数中，start_date {} 晚于当前回测时间的上一个交易日 {}。"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:66
+msgid "[sys_analyser] save report"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:71
+msgid "[sys_analyser] output result pickle file"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:76
+msgid "[sys_analyser] plot result"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:81
+msgid "[sys_analyser] save plot to file"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:86
+msgid "[sys_analyser] market_code of benchmark"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:91
+msgid "[sys_analyser] show open close points on plot"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:96
+msgid "[sys_analyser] show weekly indicators and return curve on plot"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:100
+msgid "[sys_analyser] Plot from strategy output file"
+msgstr "【sys_analyser】使用策略输出的文件绘制收益图"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:103
+msgid "save plot result to file"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:104
+msgid "show open close points on plot"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:105
+msgid "show weekly indicators and return curve on plot"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/__init__.py:115
+msgid "[sys_analyser] Generate report from strategy output file"
+msgstr "【sys_analyser】使用策略输出的文件生成报告"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:111
+msgid ""
+"config 'base.benchmark' is deprecated, use 'mod.sys_analyser.benchmark' "
+"instead"
+msgstr "配置'base.benchmark'已被弃用，使用'mod.sys_analyser.benchmark'代替"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:149
+msgid "benchmark {} not exists, please entry correct market_code"
+msgstr "基准标的 {} 信息不存在，请输入正确的标的代码"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:161
+msgid "benchmark {} missing data between backtest start date {} and end date {}"
+msgstr "基准标的 {} 在回测起始日期 {} 结束日期 {} 间缺失数据"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:173
+msgid ""
+"benchmark {} available data start date {} >= backtest start date {} or "
+"end date {} <= backtest end date {}"
+msgstr "基准标的 {} 的可用行情数据开始日期 {} >= 回测起始日期 {} 或结束日期 {} <= 回测结束日期 {}"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:241
+msgid "invalid init benchmark {}, should be in format 'market_code:weight'"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/mod.py:246
+msgid "invalid weight for instrument {market_code}: {weight}"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:60
+msgid "Strategy"
+msgstr "策略收益"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:61
+msgid "Benchmark"
+msgstr "基准收益"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:62
+msgid "Excess"
+msgstr "超额收益"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:63
+msgid "Weekly"
+msgstr "策略周度收益"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:64
+msgid "BenchmarkWeekly"
+msgstr "基准周度收益"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:66
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:123
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:170
+msgid "MaxDrawDown"
+msgstr "最大回撤"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:67
+msgid "MaxDDD"
+msgstr "最长回撤持续期"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:68
+msgid "Open"
+msgstr "开仓"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:69
+msgid "Close"
+msgstr "平仓"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:103
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:155
+msgid "TotalReturns"
+msgstr "策略收益率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:104
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:156
+msgid "AnnualReturns"
+msgstr "策略年化收益率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:105
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:157
+msgid "Alpha"
+msgstr "阿尔法"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:106
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:158
+msgid "Beta"
+msgstr "贝塔"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:107
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:161
+msgid "Sharpe"
+msgstr "夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:108
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:165
+msgid "Sortino"
+msgstr "索提诺比率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:109
+msgid "WeeklyUlcerIndex"
+msgstr "周度累计回撤深度"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:111
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:175
+msgid "BenchmarkReturns"
+msgstr "基准收益率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:112
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:176
+msgid "BenchmarkAnnual"
+msgstr "基准年化收益率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:113
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:167
+msgid "Volatility"
+msgstr "波动率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:114
+msgid "TrackingError"
+msgstr "跟踪误差"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:115
+msgid "DownsideRisk"
+msgstr "下行风险"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:116
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:164
+msgid "InformationRatio"
+msgstr "信息比率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:117
+msgid "WeeklyUlcerPerformanceIndex"
+msgstr "周度累计回撤夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:119
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:179
+msgid "ExcessCumReturns"
+msgstr "超额收益率（算术）"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:120
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:159
+msgid "WinRate"
+msgstr "胜率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:121
+msgid "WeeklyWinRate"
+msgstr "周度胜率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:122
+msgid "ProfitLossRate"
+msgstr "盈亏比"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:124
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:171
+msgid "MaxDD/MaxDDD"
+msgstr "最大回撤/最长回撤持续期"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:125
+msgid "WeeklyExcessUlcerIndex"
+msgstr "周度超额累计回撤深度"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:129
+msgid "WeeklyAlpha"
+msgstr "周度阿尔法"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:130
+msgid "WeeklyBeta"
+msgstr "周度贝塔"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:131
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:162
+msgid "WeeklySharpe"
+msgstr "周度夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:132
+msgid "WeeklyInfoRatio"
+msgstr "周度信息比率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:133
+msgid "WeeklyTrackingError"
+msgstr "周度跟踪误差"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:134
+msgid "WeeklyMaxDrawdown"
+msgstr "周度最大回撤"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:138
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:177
+msgid "ExcessReturns"
+msgstr "超额收益率（几何）"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:139
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:178
+msgid "ExcessAnnual"
+msgstr "年化超额收益率（几何）"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:140
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:181
+msgid "ExcessSharpe"
+msgstr "超额夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:141
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:182
+msgid "ExcessVolatility"
+msgstr "超额收益波动率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:142
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:184
+msgid "ExcessMaxDD"
+msgstr "超额收益最大回撤（几何）"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:143
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:185
+msgid "ExcessMaxDD/ExcessMaxDDD"
+msgstr "超额收益最大回撤/最长回撤持续期"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:144
+msgid "WeeklyExcessUlcerPerformanceIndex"
+msgstr "周度超额累计回撤夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:163
+msgid "MonthlySharpe"
+msgstr "月度夏普率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:168
+msgid "WeeklyVolatility"
+msgstr "周度波动率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:169
+msgid "MonthlyVolatility"
+msgstr "月度波动率"
+
+#: yhalpha/mod/yhalpha_mod_sys_analyser/plot/consts.py:183
+msgid "ExcessWinRate"
+msgstr "超额胜率"
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/cash_validator.py:34
+msgid ""
+"Order Creation Failed: not enough money to buy {market_code}, needs "
+"{cost_money:.2f}, cash {cash:.2f}"
+msgstr "订单创建失败: 可用资金不足。当前资金: {cash:.2f}，{market_code} 下单所需资金: {cost_money:.2f}"
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/is_trading_validator.py:35
+msgid "Order Creation Failed: {market_code} is not listing!"
+msgstr "订单创建失败: {market_code} 未上市或已退市"
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/is_trading_validator.py:40
+msgid "Order Creation Failed: security {market_code} is suspended on {date}"
+msgstr "订单创建失败: {market_code} 在 {date} 时停牌"
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/price_validator.py:36
+msgid ""
+"Order Creation Failed: limit order price {limit_price} is higher than "
+"limit up {limit_up}, market_code={market_code}"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/price_validator.py:48
+msgid ""
+"Order Creation Failed: limit order price {limit_price} is lower than "
+"limit down {limit_down}, market_code={market_code}"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_risk/validators/self_trade_validator.py:34
+msgid ""
+"Create order failed, there are active orders leading to the risk of self-"
+"trade: [{}...]"
+msgstr "订单创建失败，当前存在可能导致自成交的挂单：[{}...]"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:119
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:348
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:69
+msgid ""
+"Order Cancelled: current security [{market_code}] can not be traded in "
+"listed date [{listed_date}]"
+msgstr "订单被撤销: [{market_code}] 上市首日无法交易"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:126
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:166
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:86
+msgid "Order Cancelled: {market_code} bar no volume"
+msgstr "订单被撤销：{market_code} 当前无成交量"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:151
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:95
+msgid "Order Cancelled: current bar [{market_code}] reach the limit_up price."
+msgstr "订单被拒单: [{market_code}] 已涨停。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:157
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:104
+msgid "Order Cancelled: current bar [{market_code}] reach the limit_down price."
+msgstr "订单被拒单: [{market_code}] 已跌停。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:179
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:436
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:591
+msgid ""
+"Order Cancelled: market order {market_code} volume {order_volume} due "
+"to volume limit"
+msgstr "订单被撤销: 订单 [{market_code}] 的下单量 {order_volume} 超过了成交量限制。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:218
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:474
+msgid ""
+"Order Cancelled: not enough money to buy {market_code}, needs "
+"{cost_money:.2f}, cash {cash:.2f}"
+msgstr "订单创建失败: 可用资金不足。当前资金: {cash:.2f}，{market_code} 下单所需资金: {cost_money:.2f}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:230
+msgid ""
+"Order Cancelled: market order {market_code} volume {order_volume} is "
+"larger than {volume_percent_limit} percent of current bar volume, fill "
+"{filled_volume} actually"
+msgstr ""
+"{market_code} 下单量 {order_volume} 超过当前 Bar 成交量的 "
+"{volume_percent_limit}%，实际成交 {filled_volume}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:356
+msgid "Order Cancelled: current tick [{market_code}] miss market data."
+msgstr "订单被拒单: [{market_code}] 当前缺失市场数据。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:387
+msgid "Order Cancelled: current tick [{market_code}] reach the limit_up price."
+msgstr "订单被拒单: [{market_code}] 已涨停。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:393
+msgid ""
+"Order Cancelled: current tick [{market_code}] reach the limit_down "
+"price."
+msgstr "订单被拒单: [{market_code}] 已跌停。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:400
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:406
+msgid "Order Cancelled: [{market_code}] has no liquidity."
+msgstr "合约 [{market_code}] 流动性不足，拒单。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:486
+#, fuzzy
+msgid ""
+"Order Cancelled: market order {market_code} volume {order_volume} is "
+"larger than {volume_percent_limit} percent of current tick volume, fill "
+"{filled_volume} actually"
+msgstr ""
+"{market_code} 下单量 {order_volume} 超过当前 Tick 成交量的 "
+"{volume_percent_limit}%，实际成交 {filled_volume}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/matcher.py:635
+msgid ""
+"Order Cancelled: market order {market_code} fill {filled_volume} "
+"actually"
+msgstr "订单取消：标的 {market_code} 实际成交 {filled_volume}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/mod.py:42
+msgid "invalid margin multiplier value: value range is (0, +∞]"
+msgstr "无效的 保证金乘数 设置: 其值范围为 (0, +∞]"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/mod.py:51
+#: yhalpha/mod/yhalpha_mod_sys_simulation/mod.py:58
+msgid "Not supported matching type {}"
+msgstr "不支持撮合类型: {}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/mod.py:62
+msgid ""
+"matching_type = 'next_bar' is abandoned when frequency == '1d',Current "
+"matching_type is 'current_bar'."
+msgstr "日回测 'next_bar' 撮合方式已废弃，当前按 'current_bar' 撮合方式成交"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/mod.py:119
+msgid "NO account_type = ({}) in {}"
+msgstr ""
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:56
+msgid "cancel_order function is not supported in signal mode"
+msgstr "在 Signal 模式下，不支持 cancel_order 函数"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/signal_broker.py:75
+msgid "Order Cancelled: current bar [{market_code}] miss market data."
+msgstr "订单被拒单: [{market_code}] 当前缺失市场数据。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_broker.py:108
+msgid "unsupported position_effect {}"
+msgstr "不支持的 position_effect {}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_broker.py:129
+msgid "{order_id} order has been cancelled by user."
+msgstr "订单 {order_id} 被手动取消。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_broker.py:145
+msgid "Order Rejected: {market_code} can not match. Market close."
+msgstr "订单被拒单: {market_code} 当天交易结束，订单无法成交。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_broker.py:185
+msgid "{market_code} should be subscribed when frequency is tick."
+msgstr "tick回测下单失败，请使用 subscribe 订阅合约 {market_code}。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_event_source.py:46
+msgid "Current universe is empty. Please use subscribe function before trade"
+msgstr "当前合约池为空。请使用 subscribe 订阅合约。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/simulation_event_source.py:202
+msgid "Frequency {} is not support."
+msgstr "不支持回测频率: {}"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/slippage.py:46
+msgid "Missing SlippageModel {}"
+msgstr "无法加载滑点模型 {}。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/slippage.py:67
+msgid "invalid slippage rate value: value range is [0, 1)"
+msgstr "无效的 滑点 设置: 其值范围为 [0, 1)"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/slippage.py:90
+msgid "invalid slippage rate value: value range is greater than 0"
+msgstr "无效的 滑点 设置: 其值需为正数。"
+
+#: yhalpha/mod/yhalpha_mod_sys_simulation/slippage.py:101
+msgid "invalid slippage rate value {} which cause price <= 0"
+msgstr "无效的 滑点 设置: 该值导致了调整后的价格为负。"
+
+#: yhalpha/mod/yhalpha_mod_sys_transaction_cost/mod.py:42
+msgid ""
+"invalid commission multiplier or tax multiplier value: value range is [0,"
+" +∞)"
+msgstr ""
+
+#: yhalpha/model/bar.py:372
+msgid "id_or_symbols {} does not exist"
+msgstr "您选择的证券[{}]不存在。"
+
+#: yhalpha/model/trade.py:60
+msgid ""
+"price, amount, commission, tax and frozen_price of trade {trade_id} is "
+"not supposed to be nan, current_value is {price}, {amount}, {commission},"
+" {tax}, {frozen_price}"
+msgstr ""
+
+#: yhalpha/portfolio/__init__.py:71
+msgid "invalid init position {market_code}: no valid price at {date}"
+msgstr "初始持仓 {market_code} 不合法：无法获取到该标 {date} 的价格"
+
+#: yhalpha/portfolio/__init__.py:278 yhalpha/portfolio/__init__.py:291
+msgid "invalid account type {}, choose in {}"
+msgstr "不合法的账户类型 {}， 请在以下账户类型中选择 {}"
+
+#: yhalpha/portfolio/__init__.py:282
+msgid "Cash add {}. units {} become to {}"
+msgstr "入金{}元，份额由{}变动为{}"
+
+#: yhalpha/portfolio/account.py:350
+msgid "Futures account's cash turns negative after settlement"
+msgstr "期货账户的现金在结算后变为负数"
+
+#: yhalpha/portfolio/account.py:356
+msgid "Trigger Forced Liquidation, current total_value is 0"
+msgstr "触发强制清算，当前总权益为 0"
+
+#: yhalpha/portfolio/account.py:506 yhalpha/portfolio/account.py:525
+msgid "insufficient cash, current {}, target withdrawal {}"
+msgstr "现金不足，当前现金 {}，目标出金 {}"
+
+#: yhalpha/utils/arg_checker.py:51
+msgid ""
+"function {}: invalid {} argument, expect a value of type {}, got {} "
+"(type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:59
+msgid "valid market_code/instrument"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:62
+msgid "valid stock market_code/instrument"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:65
+msgid "valid future market_code/instrument"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:68
+msgid "listed market_code/instrument"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:71
+msgid "function {}: invalid {} argument, expected a {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:97
+msgid ""
+"function {}: invalid {} argument, expected instrument with types {}, got "
+"instrument with type {}"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:137
+msgid "function {}: invalid {} argument, expect a number, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:160
+msgid "function {}: invalid {} argument, valid: {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:174
+msgid "function {}: invalid {} argument, valid fields are {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:186
+msgid "function {}: invalid field {}, valid fields are {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:192 yhalpha/utils/arg_checker.py:207
+msgid ""
+"function {}: invalid {} argument, expect a string or a list of string, "
+"got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:234 yhalpha/utils/arg_checker.py:239
+msgid "function {}: invalid {} argument, expect a valid date, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:250
+msgid "function {}: invalid {} argument, expect a value >= {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:260
+msgid "function {}: invalid {} argument, expect a value > {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:270
+msgid "function {}: invalid {} argument, expect a value <= {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:281
+msgid "function {}: invalid {} argument, expect a value < {}, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:298
+msgid ""
+"function {}: invalid {} argument, interval should be in form of '1d', "
+"'3m', '4q', '2y', got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:334
+msgid ""
+"function {}: invalid {} argument, should be entity like "
+"Fundamentals.balance_sheet.total_equity, got {} (type: {})"
+msgstr ""
+
+#: yhalpha/utils/arg_checker.py:353
+#, fuzzy
+msgid ""
+"function {}: invalid {} argument, frequency should be in form of '1m', "
+"'5m', '1d', '1w' got {} (type: {})"
+msgstr "函数 {}：不合法的参数 {}，应传入具有 {} 类型的合约代码或 Instrument 对象，实际传入了 {}（类型：{}）"
+
+#: yhalpha/utils/class_helper.py:23
+msgid ""
+"\"{}\" is deprecated, please use \"{}\" instead, check the document for "
+"more information"
+msgstr "\"{}\" 已被弃用，请使用 \"{}\"，查询文档以获取更多信息"
+
+#: yhalpha/utils/config.py:106
+msgid "in parse_user_config, exception: {e}"
+msgstr "在执行 parse_user_config 时，产生异常: {e}"
+
+#: yhalpha/utils/config.py:196
+msgid "Invalid future info: underlying_symbol {} is illegal."
+msgstr "无效的 future info: 合约品种 {} 不合法"
+
+#: yhalpha/utils/config.py:211
+msgid ""
+"Invalid future info: commission_type is suppose to be BY_MONEY or "
+"BY_VOLUME"
+msgstr "无效的 future info: commission_type 字段应为 BY_MONEY 或 BY_VOLUME"
+
+#: yhalpha/utils/config.py:215
+msgid "Invalid future info: field {} is not valid"
+msgstr "无效的 future info: 字段 {} 不合法"
+
+#: yhalpha/utils/config.py:245
+msgid "invalid init position {}, should be in format 'market_code:quantity'"
+msgstr "无效的初始仓位：{}，格式应该为 'market_code:quantity'"
+
+#: yhalpha/utils/config.py:250
+msgid "invalid quantity for instrument {market_code}: {quantity}"
+msgstr "初始仓位中合约 {market_code} 的数量 {quantity} 不是有效的数字"
+
+#: yhalpha/utils/config.py:265
+msgid "unknown run type: {}"
+msgstr "未知的策略类型：{}"
+
+#: yhalpha/utils/config.py:278
+msgid "unknown persist mode: {}"
+msgstr "未知的持久化模式：{}"
+
+#: yhalpha/utils/functools.py:50
+msgid ""
+"function {}: invalid {} argument, expected an market_code or instrument"
+" with types {}, got {} (type: {})"
+msgstr "函数 {}：不合法的参数 {}，应传入具有 {} 类型的合约代码或 Instrument 对象，实际传入了 {}（类型：{}）"
+
+#: yhalpha/utils/functools.py:55
+msgid "function {} is not supported, please check your account or mod config"
+msgstr "不支持 API {}。请确保您设置了该 API 所需的账户并开启了包含该 API 实现的 Mod"
+
+#~ msgid "style should be OrderStyle"
+#~ msgstr "style 应该为 OrderStyle 类型，比如MarketOrder()"
+
+#~ msgid "strategy file not found in {strategy_file}"
+#~ msgstr "没有在 {strategy_file} 找到 策略文件。"
+
+#~ msgid "config.yml not found in {config_path}"
+#~ msgstr "没有在 {config_path} 找到 config.yml 文件"
+
+#~ msgid "config path: {config_path} does not exist."
+#~ msgstr "配置文件路径: {config_path} 不存在"
+
+#~ msgid "unknown persist mode: {persist_mode}"
+#~ msgstr "无效的 persist mode: {persist_mode}"
+
+#~ msgid "Cancel order fail: invalid order id"
+#~ msgstr "撤单失败: 无效的order id"
+
+#~ msgid "None account type has been selected."
+#~ msgstr "请设置账户及初始资金"
+
+#~ msgid ""
+#~ "Order Rejected: not enough money to "
+#~ "buy {market_code}, needs {cost_money:.2f}, "
+#~ "cash {cash:.2f}"
+#~ msgstr ""
+#~ "订单被拒单: 可用资金不足。当前资金: {cash:.2f}，{market_code} "
+#~ "下单所需资金: {cost_money:.2f}。"
+
+#~ msgid ""
+#~ "Order Rejected: not enough today "
+#~ "position {market_code} to buy close, "
+#~ "target quantity is {quantity}, closable "
+#~ "today quantity {closable}"
+#~ msgstr "订单被拒单: 卖方向可平今仓不足。平仓手数: {quantity}，可平手数: {closable}。"
+
+#~ msgid ""
+#~ "Order Rejected: not enough today "
+#~ "position {market_code} to sell close, "
+#~ "target quantity is {quantity}, closable "
+#~ "today quantity {closable}"
+#~ msgstr "订单被拒单: 买方向可平今仓不足。平仓手数: {quantity}，可平手数: {closable}。"
+
+#~ msgid ""
+#~ "Order Rejected: not enough securities "
+#~ "{market_code} to buy close, target "
+#~ "sell quantity is {quantity}, "
+#~ "sell_closable_quantity {closable}"
+#~ msgstr "订单被拒单: 卖方向可平仓位不足。平仓手数: {quantity}，可平手数: {closable}。"
+
+#~ msgid ""
+#~ "Order Rejected: not enough securities "
+#~ "{market_code} to sell close, target "
+#~ "sell quantity is {quantity}, "
+#~ "buy_closable_quantity {closable}"
+#~ msgstr "订单被拒单: 买方向可平仓位不足。平仓手数: {quantity}，可平手数: {closable}。"
+
+#~ msgid "Order Rejected: {market_code} is not listed!"
+#~ msgstr "订单被拒单: {market_code} 未上市。"
+
+#~ msgid "Order Rejected: {market_code} has been delisted!"
+#~ msgstr "订单被拒单: {market_code} 已退市。"
+
+#~ msgid "security {market_code} is suspended on {date}"
+#~ msgstr "{market_code} 在 {date} 时停牌。"
+
+#~ msgid "security {market_code} cannot be subscribed on {date}"
+#~ msgstr "基金{market_code}在{date}不能申购。"
+
+#~ msgid "security {market_code} cannot be redeemed on {date}"
+#~ msgstr "基金{market_code}在{date}不能赎回。"
+
+#~ msgid ""
+#~ "Order Rejected: limit order price "
+#~ "{limit_price} is higher than limit up"
+#~ " {limit_up}."
+#~ msgstr "订单被拒单: 订单价格 {limit_price} 超过当天涨停板价格 {limit_up}。"
+
+#~ msgid ""
+#~ "Order Rejected: limit order price "
+#~ "{limit_price} is lower than limit down"
+#~ " {limit_down}."
+#~ msgstr "订单被拒单: 订单价格 {limit_price} 低于当天跌停板价格 {limit_down}。"
+
+#~ msgid ""
+#~ "Order Rejected: not enough stock "
+#~ "{market_code} to sell, you want to "
+#~ "sell {quantity}, sellable {sellable}"
+#~ msgstr "订单被拒单: 仓位不足。平仓量: {quantity}，可平数量: {sellable}。"
+
+#~ msgid "value {value} has been used for {original_key}"
+#~ msgstr "{value} 已经被用于 {original_key}"
+
+#~ msgid "You need to set persist_folder to use CsvRecorder"
+#~ msgstr ""
+
+#~ msgid "You need to set strategy_id"
+#~ msgstr ""
+
+#~ msgid "unknown recorder {}"
+#~ msgstr ""
+
+#~ msgid "current start_date {} is before last end_date {}"
+#~ msgstr ""
+
+#~ msgid "get_realtime_quotes fail"
+#~ msgstr ""
+
+#~ msgid "Market data is ready, start to work now!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Warning] When you use this version "
+#~ "of RealtimeTradeMod, history_bars can only "
+#~ "get data from yesterday."
+#~ msgstr ""
+
+#~ msgid "RealtimeTradeMod using market from redis"
+#~ msgstr ""
+
+#~ msgid "RealtimeTradeMod using market from network"
+#~ msgstr ""
+
+#~ msgid "Valid benchmark: unable to load enough close price."
+#~ msgstr ""
+
+#~ msgid "Download failed, retry in 10 seconds."
+#~ msgstr "下载失败，"
+
+#~ msgid "Invalid future info: underlying_symbol {] is illegal."
+#~ msgstr ""
+
+#~ msgid "Download failed, retry in {} seconds."
+#~ msgstr "下载失败，{}秒后重试。"
+
+#~ msgid "Cannot get portfolio instance."
+#~ msgstr "无法加载 portfolio 对象"
+
+#~ msgid "Insufficient cash, use all remaining cash({}) to create order."
+#~ msgstr "资金不足，使用所有的剩余现金（{}）下单。"
+
+#~ msgid "Booking has not been set, please check your broker configuration."
+#~ msgstr ""
+
+#~ msgid "Trigger Forced Liquidation, current total_value is {}"
+#~ msgstr "触发强制平仓，当前总权益为 {}。"
+
+#~ msgid "Settlement price {settle_price} of {market_code} is invalid"
+#~ msgstr "{market_code} 的结算价 {settle_price} 不合法"
+
+#~ msgid "[abandon] {} is no longer valid."
+#~ msgstr "[abandon] {} 已经不再有效"
+
+#~ msgid ""
+#~ "Api {} cannot be called in current"
+#~ " strategy, because portfolio instance dose"
+#~ " not exist"
+#~ msgstr ""
+
+#~ msgid "Unknown Account Type {}"
+#~ msgstr "未知账户类型 {}"
+
+#~ msgid "No such transaction cost decider for such account_type {}."
+#~ msgstr "不存在账户类型 {} 的费率算法"
+
+#~ msgid "[abandon] {} is no longer used."
+#~ msgstr "[abandon] {} 已经不再使用"
+
+#~ msgid "No data for {}"
+#~ msgstr "没有 {} 相关数据"
+
+#~ msgid ""
+#~ "{predecessor} code has changed to "
+#~ "{successor}, change position by system"
+#~ msgstr "{predecessor} 代码已更换为 {successor}，系统自动调整仓位"
+
+#~ msgid "{market_code} is not supported in current strategy type"
+#~ msgstr "当前策略类型不支持 {market_code} 合约"
+
+#~ msgid "Invalid benchmark: unable to load enough close price."
+#~ msgstr "当前选择的基准没有足够的收盘，请选择其他的标的或调整回测时间"
+
+#~ msgid "invalid benchmark {}"
+#~ msgstr ""
+#~ "无效的 Benchmark {}, 请检查您context.benchmark = "
+#~ "target_benchmark 中的target_benchmark是否输入正确"
+
+#~ msgid "benchmark {benchmark} has not been listed on {start_date}"
+#~ msgstr "benchmark {benchmark} 在 {start_date} 还未上市。请重新选择起始日期或benchmark"
+
+#~ msgid "benchmark {benchmark} has been de_listed on {end_date}"
+#~ msgstr "benchmark {benchmark} 在 {end_date} 已退市。请重新选择结束日期或benchmark"
+
+#~ msgid ""
+#~ "the target {benchmark} will be delisted"
+#~ " in the short term. please choose "
+#~ "a sustainable target."
+#~ msgstr "该标的({benchmark})将在短期内退市，请选用永续标的。"
+
+#~ msgid ""
+#~ "Order Creation Failed: not enough today"
+#~ " position {market_code} to buy close, "
+#~ "target quantity is {quantity}, closable "
+#~ "today quantity {closable}"
+#~ msgstr "订单创建失败: 卖方向可平今仓不足。平仓手数: {quantity}，可平手数: {closable}"
+
+#~ msgid ""
+#~ "Order Creation Failed: not enough today"
+#~ " position {market_code} to sell close,"
+#~ " target quantity is {quantity}, closable"
+#~ " today quantity {closable}"
+#~ msgstr "订单创建失败: 买方向可平今仓不足。平仓手数: {quantity}，可平手数: {closable}"
+
+#~ msgid ""
+#~ "Order Creation Failed: not enough "
+#~ "securities {market_code} to buy close, "
+#~ "target sell quantity is {quantity}, "
+#~ "sell_closable_quantity {closable}"
+#~ msgstr "订单创建失败: 卖方向可平仓位不足。平仓手数: {quantity}，可平手数: {closable}。"
+
+#~ msgid ""
+#~ "Order Creation Failed: not enough "
+#~ "securities {market_code} to sell close, "
+#~ "target sell quantity is {quantity}, "
+#~ "buy_closable_quantity {closable}"
+#~ msgstr "订单创建失败: 买方向可平仓位不足。平仓手数: {quantity}，可平手数: {closable}"
+
+#~ msgid ""
+#~ "Order Creation Failed: security "
+#~ "{market_code} cannot be subscribed on "
+#~ "{date}"
+#~ msgstr "订单创建失败: 基金{market_code}在{date}不能申购"
+
+#~ msgid ""
+#~ "Order Creation Failed: security "
+#~ "{market_code} cannot be redeemed on "
+#~ "{date}"
+#~ msgstr "订单创建失败: 基金{market_code}在{date}不能赎回"
+
+#~ msgid ""
+#~ "Order Creation Failed: not enough stock"
+#~ " {market_code} to sell, you want to"
+#~ " sell {quantity}, sellable {sellable}"
+#~ msgstr "订单创建失败: 仓位不足。平仓量: {quantity}，可平数量: {sellable}"
+
+#~ msgid "You have traded {market_code} with {quantity} lots in {bar_status}"
+#~ msgstr "您在 {bar_status} 下成交 {quantity} 手 {market_code} (请尽量避免涨跌停时下单)"
+
+#~ msgid "{} starting cash can not be 0, using `--account {} 100000`"
+#~ msgstr "账户 {} 的初始资金不能为0，请使用 `--account {} 100000` 来设置"
+
+#~ msgid "invalid order book id {} in initial positions"
+#~ msgstr "初始仓位中包含无效的合约：{}"
+
+#~ msgid "instrument {} in initial positions is not listing"
+#~ msgstr "初始仓位中合约 {} 在测试开始日期未上市或者已交割/退市"
+
+#~ msgid "the close price of {} in initial positions is not available"
+#~ msgstr "无法获取初始仓位中合约 {} 的收盘价。"
+
+#~ msgid ""
+#~ "function {}: invalid {} argument, expect"
+#~ " a valid instrument/market_code/symbol, got "
+#~ "{} (type: {})"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "function {}: invalid {} argument, expect"
+#~ " a valid stock instrument/market_code/symbol,"
+#~ " got {} (type: {})"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "function {}: invalid {} argument, expect"
+#~ " a valid future instrument/market_code/symbol,"
+#~ " got {} (type: {})"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "[WARNING]\n"
+#~ "Target bundle path {data_bundle_path} is not empty.\n"
+#~ "The content of this folder will be REMOVED before updating.\n"
+#~ "Are you sure to continue?"
+#~ msgstr ""
+#~ "\n"
+#~ "[WARNING]\n"
+#~ "目标数据源路径 {data_bundle_path} 不为空\n"
+#~ "更新操作首先会清空该文件件下所有内容\n"
+#~ "您确定要继续吗？\n"
+
+#~ msgid "in index_components, date {} is no earlier than previous test date {}"
+#~ msgstr ""
+
+#~ msgid "target percent of should {} between 0 and 1, current: {}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "deepquant.quest.datac is required to create bundle,"
+#~ " you also can use \"yhalpha "
+#~ "download-bundle\" to download to download"
+#~ " monthly updated bundle"
+#~ msgstr ""
+#~ "创建 bundle 依赖 deepquant.quest.datac。您可以访问 "
+#~ "https://www.ricequant.com/welcome/rqdata 获取 deepquant.quest.datac，或执行"
+#~ " \"yhalpha download-bundle\" 下载月度更新的 bundle"
+#~ " 数据。"
+
+#~ msgid ""
+#~ "deepquant.quest.datac is required to update bundle,"
+#~ " you also can use \"yhalpha "
+#~ "download-bundle\" to download to download"
+#~ " monthly updated bundle"
+#~ msgstr ""
+#~ "更新 bundle 依赖 deepquant.quest.datac。您可以访问 "
+#~ "https://www.ricequant.com/welcome/rqdata 获取 deepquant.quest.datac，或执行"
+#~ " \"yhalpha download-bundle\" 下载月度更新的 bundle"
+#~ " 数据。"
+
+#~ msgid "bundle not exist, use create-bundle command instead"
+#~ msgstr "bundle 不存在，您需要先执行 \"yhalpha create-bundle\" 以创建 bundle"
+
+#~ msgid "No such transaction cost decider, market_code = {}."
+#~ msgstr ""
+
+#~ msgid "Order Creation Failed: Order amount should be positive."
+#~ msgstr "订单创建失败，订单数量需要为正"
+
+#~ msgid "exercise only supports sell back now"
+#~ msgstr "exercise 暂时不支持转股"
+
+#~ msgid "mod start_up [START] {}"
+#~ msgstr ""
+
+#~ msgid "Insufficient cash, use all remaining cash({}) to create order"
+#~ msgstr "资金不足，使用全部的剩余现金（{}）下单"
+
+#~ msgid "percent should between -1 and 1"
+#~ msgstr "percent 取值应该在 -1 和 1 之间"
+
+#~ msgid "percent should between 0 and 1"
+#~ msgstr "percent 取值应该在 0 和 1 之间"
+
+#~ msgid "Order Cancelled: {} has not no exercisable quantity"
+#~ msgstr "订单已取消：{} 没有可行权的仓位"
+
+#~ msgid ""
+#~ "exercisable quantity {exercisable_quantity} of "
+#~ "{market_code} is less than order "
+#~ "quantity {order_quantity}"
+#~ msgstr "{market_code} 的可行权量 {exercisable_quantity} 低于目标行权量 {order_quantity}"
+
+#~ msgid ""
+#~ "Failed to open {}，please use 'bundle "
+#~ "commands' remake it , or contact "
+#~ "us"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "config 'base.benchmark' is deprecated, use "
+#~ "'mod.sys_analyser.benchmark instead'"
+#~ msgstr "配置 'base.benchmark' 已被弃用, 使用 'mod.sys_analyser.benchmark' 代替"
+
+#~ msgid ""
+#~ "Failed to open {}，please delete and "
+#~ "use 'bundle commands' remake it , "
+#~ "or contact us"
+#~ msgstr "读取文件{}失败，请删除该文件后使用bundle相关命令重新生成文件，或者联系我们。"
+
+#~ msgid "deepquant.quest.datac is not available, some apis will not function properly"
+#~ msgstr ""
+#~ "deepquant.quest.datac 不存在，部分扩展 API 可能无法使用，您可以访问 "
+#~ "https://www.ricequant.com/welcome/rqdata 获取 deepquant.quest.datac"
+
+#~ msgid "Unsupported instrument type for tick size"
+#~ msgstr "无法获取该类型标的的最小价格变动单位。"
+
+#~ msgid ""
+#~ "[deprecated] before_day_trading is no longer"
+#~ " used. use before_trading instead."
+#~ msgstr "[deprecated] before_day_trading 已经不再使用，请使用 before_trading 代替。"
+
+#~ msgid ""
+#~ "[deprecated] before_night_trading is no longer"
+#~ " used. use before_trading instead."
+#~ msgstr "[deprecated] before_night_trading 已经不再使用，请使用 before_trading 代替。"
+
+#~ msgid "The balance({balance}) is less than the withdrawal amount={amount}"
+#~ msgstr "出金数额 {amount} 不小于账户余额 {balance}"
+
+#~ msgid "Order Creation Failed: Order amount is 0."
+#~ msgstr ""
+
+#~ msgid "Order Creation Failed: 0 order quantity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Order Creation Failed: limit order price"
+#~ " {limit_price} is higher than limit "
+#~ "up {limit_up}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Order Creation Failed: limit order price"
+#~ " {limit_price} is lower than limit "
+#~ "down {limit_down}."
+#~ msgstr ""
+
+#~ msgid "invalid commission multiplier value: value range is [0, +∞)"
+#~ msgstr "无效的 手续费乘数 设置: 其值范围为 [0, +∞)"
+
+#~ msgid ""
+#~ "market_code: {market_code} need stock "
+#~ "account, please set and try again!"
+#~ msgstr "标的 {market_code} 下单需要股票账户，请设置后重试！"
+
+#~ msgid "Total Returns"
+#~ msgstr "回测收益"
+
+#~ msgid "Annual Returns"
+#~ msgstr "回测年化收益"
+
+#~ msgid "Benchmark Returns"
+#~ msgstr "基准收益"
+
+#~ msgid "Benchmark Annual"
+#~ msgstr "基准年化收益"
+
+#~ msgid "Information Ratio"
+#~ msgstr "信息比率"
+
+#~ msgid "Tracking Error"
+#~ msgstr "跟踪误差"
+
+#~ msgid "Downside Risk"
+#~ msgstr "下行风险"
+
+#~ msgid "strategy"
+#~ msgstr "策略"
+
+#~ msgid "benchmark"
+#~ msgstr "基准"
+
+#~ msgid "Unsupported market {}"
+#~ msgstr "不支持的市场类型 {}"
+
+#~ msgid "unknown market type: {}"
+#~ msgstr "未知的市场类型：{}"
+
+#~ msgid "You have traded {market_code} with {quantity} lots in limit up status"
+#~ msgstr "您在涨停状态下交易了 {quantity} 单位的 {market_code}"
+
+#~ msgid ""
+#~ "You have traded {market_code} with "
+#~ "{quantity} lots in limit down status"
+#~ msgstr "您在跌停状态下交易了 {quantity} 单位的 {market_code}"
+
+#~ msgid ""
+#~ "function {}: invalid {} argument, "
+#~ "frequency should be in form of "
+#~ "'1m', '5m', '1d', got {} (type: "
+#~ "{})"
+#~ msgstr ""
+
+#~ msgid "MaxDrawdown"
+#~ msgstr "最大回撤"
+
+#~ msgid "function {} are not supported, please check your account or mod config"
+#~ msgstr "不支持调用函数 {}，请检查 Account 设置或 mod 配置"
+
+#~ msgid "last price of position {} is not supposed to be nan"
+#~ msgstr "仓位 {} 最新价不应该为 nan"
+
+#~ msgid "target percent of {} should between 0 and 1, current: {}"
+#~ msgstr "{} 的目标持仓需要在 0 到 1 之间，当前值：{}"
+
+#~ msgid "ExcessAnnualVolatility"
+#~ msgstr "超额收益年化波动率"
+
+#~ msgid "Order Creation Failed: {market_code} has been delisted!"
+#~ msgstr "订单创建失败: {market_code} 已退市"
+
+# msgid "Order Creation Failed: Order amount is 0."
+# msgstr "订单创建失败: 下单量为 0"
+#~ msgid "Limit order price should be positive"
+#~ msgstr "Limit order 价格应该为正，请检查您的下单价格"
+
+#~ msgid ""
+#~ "function order_target_portfolio: invalid order "
+#~ "price {target_price} of {id_or_ins}"
+#~ msgstr "函数 order_target_portfolio：{id_or_ins} 的下单价格 {target_price} 不合法。"
+
+#~ msgid "invalid price of {market_code}: {price}"
+#~ msgstr "{market_code} 的价格不合法：{price}"
+
+#~ msgid ""
+#~ "Your RQData account does not have "
+#~ "permission to use futures historical "
+#~ "margin and rates, and fixed data "
+#~ "will be used for calculations\n"
+#~ "You can contact RiceQuant to activate permission: 0755-26569969"
+#~ msgstr ""
+#~ "您的 RQData 账号没有权限使用期货历史保证金和费率，将使用固定的数据进行回测和计算\n"
+#~ "您可联系米筐科技开通相关权限：0755-26569969"
+
+#~ msgid ""
+#~ "yhalpha already supports backtesting using "
+#~ "futures historical margins and rates, "
+#~ "please upgrade deepquant.quest.datac to version "
+#~ "2.11.12 and above to use it"
+#~ msgstr "yhalpha 已支持使用期货历史保证金和费率进行回测，请将 deepquant.quest.datac 升级至 2.11.12 及以上版本进行使用"
+
+#~ msgid ""
+#~ "Futures historical trading parameters data "
+#~ "is being updated, please wait......"
+#~ msgstr "正在更新期货历史交易参数，请稍后......"
+
+#~ msgid ""
+#~ "deepquant.quest.datac is not installed, "
+#~ "\"config.base.futures_time_series_trading_parameters\" will "
+#~ "be disabled."
+#~ msgstr ""
+#~ "未安装 deepquant.quest.datac，将关闭配置 "
+#~ "\"config.base.futures_time_series_trading_parameters\""
+
+#~ msgid ""
+#~ "deepquant.quest.datac does not have permission to "
+#~ "obtain futures histrical trading parameters,"
+#~ " \"config.base.futures_time_series_trading_parameters\" will"
+#~ " be disabled."
+#~ msgstr ""
+#~ "deepquant.quest.datac 缺少获取期货历史交易参数的权限，将关闭配置 "
+#~ "\"config.base.futures_time_series_trading_parameters\""
+
