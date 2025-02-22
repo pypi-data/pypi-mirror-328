@@ -1,0 +1,7 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/filter_pre_commit_hooks.py,sha256=MAuzqA1JTyIlZhCEEtwN3hxTTs9rvsLeYWfSAY-kVLI,7709
+filter_pre_commit_hooks-2.0.3.dist-info/METADATA,sha256=4XGyYob7pq84SWnZLbA5SiYlM7DWnBl6prMcWStSEJQ,4331
+filter_pre_commit_hooks-2.0.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+filter_pre_commit_hooks-2.0.3.dist-info/entry_points.txt,sha256=w3trcXB7ykK48dEhTwNJ8eaurbPJMzUgyvS12pva6W8,96
+filter_pre_commit_hooks-2.0.3.dist-info/licenses/LICENSE,sha256=TYM83eAFgZMHaGQg3BB7G-1Q_GIm1JR4DB-csSybPmM,749
+filter_pre_commit_hooks-2.0.3.dist-info/RECORD,,
