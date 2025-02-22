@@ -1,0 +1,13 @@
+bgphoria/__init__.py,sha256=wFYJNJyh8SoPOzdaJ763SlXSsouexWtnLfMH2yRWB1c,842
+bgphoria/bgpclient.py,sha256=UskKEfpYf78rzVhUgUQqnJHvYylUJQF21xiZf2Q6R9k,13674
+bgphoria/connection.py,sha256=e_t6lmAkETOBOX3CvRbuCtqAQyldnPJdLiXl-nn0X1E,3032
+bgphoria/constants.py,sha256=3HaADQsgB9QIe86BAC5WShWW-TCREkMWf7rTXYc6Lmo,2774
+bgphoria/exceptions.py,sha256=kE7UI8vfqNHtKHEk7zaqemutP1N7dF7MX_thPxQ8FY4,1122
+bgphoria/main.py,sha256=JeKz46w0HMyy8xl8QVnxP_YX71Odlfr9g_l3kCLAEv8,1155
+bgphoria/messages.py,sha256=G8SOAWzEF6w5y1ejwYRZ7CS0FIBr8iWQ-PwtoJ5Nvks,27315
+bgphoria/metadata.py,sha256=Mpub2s5HFB5tW3coXSMvGLwrVd1hDTy919XDhvLK9ak,1861
+bgphoria-0.0.0.dist-info/LICENSE,sha256=qrkLZ-aQB8B_1bCckeq61IjZQAqrp1mu3lYCdyjdkNA,43455
+bgphoria-0.0.0.dist-info/METADATA,sha256=t3aLd60W8ZkgBM8PBwmaAk60R8gA9smb85VMWwt1rXQ,6944
+bgphoria-0.0.0.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+bgphoria-0.0.0.dist-info/top_level.txt,sha256=F6lK8sIra1WecNfutYbnw9gWErvdSsxIa7HENSCb1ek,9
+bgphoria-0.0.0.dist-info/RECORD,,
