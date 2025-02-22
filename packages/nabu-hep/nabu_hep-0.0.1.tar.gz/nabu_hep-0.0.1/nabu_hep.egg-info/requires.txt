@@ -1,0 +1,16 @@
+numpy<2.0.0,>=1.24.4
+jax==0.4.30
+equinox==0.11.7
+flowjax==15.1.0
+scipy>=1.10.0
+pyyaml
+setuptools
+tqdm>=4.64.0
+matplotlib
+tensorboardx>=2.6
+
+[dev]
+pytest>=7.1.2
+pytest-cov>=3.0.0
+twine>=3.7.1
+wheel>=0.37.1

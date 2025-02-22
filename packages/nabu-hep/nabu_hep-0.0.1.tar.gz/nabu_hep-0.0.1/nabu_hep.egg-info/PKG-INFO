@@ -1,0 +1,74 @@
+Metadata-Version: 2.2
+Name: nabu-hep
+Version: 0.0.1
+Summary: Smooth inference for reinterpretation studies
+Home-page: https://github.com/nabu-hep/nabu
+Download-URL: https://github.com/nabu-hep/nabu/archive/refs/tags/v0.0.1.tar.gz
+Author: Jack Y. Araz
+Author-email: jack.araz@stonybrook.edu
+License: MIT
+Project-URL: Bug Tracker, https://github.com/nabu-hep/nabu/issues
+Project-URL: Documentation, https://nabu-hep.readthedocs.io
+Project-URL: Repository, https://github.com/nabu-hep/nabu
+Project-URL: Homepage, https://github.com/nabu-hep/nabu
+Project-URL: Download, https://github.com/nabu-hep/nabu/archive/refs/tags/v0.0.1.tar.gz
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<2.0.0,>=1.24.4
+Requires-Dist: jax==0.4.30
+Requires-Dist: equinox==0.11.7
+Requires-Dist: flowjax==15.1.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: pyyaml
+Requires-Dist: setuptools
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: matplotlib
+Requires-Dist: tensorboardx>=2.6
+Provides-Extra: dev
+Requires-Dist: pytest>=7.1.2; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: twine>=3.7.1; extra == "dev"
+Requires-Dist: wheel>=0.37.1; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: license
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Nabu: Communicating Likelihoods with Normalising Flows
+
+[![arxiv](https://img.shields.io/static/v1?style=plastic&label=arXiv&message=2502.09494&color=brightgreen)](https://arxiv.org/abs/2502.09494)
+
+Documentation of the package will be release later. Once the package is installed please use ``nabu-fit-to-data`` script to construct likelihoods for a given dataset. Details on arguments can be accessed via ``nabu-fit-to-data -h``.
+
+## Installation
+
+Nabu can be installed through PyPi
+
+```bash
+pip install nabu-hep
+```
+
+Or current repository can be used via
+
+```bash
+python -m pip install --upgrade "git+https://github.com/nabu-hep/nabu-hep"
+```
