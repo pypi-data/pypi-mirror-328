@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "photocard"
+version = "0.1.2"
+description = "A Pythonic interface for TfL's Photocard service"
+authors = ["Oskar <56176746+OskarZyg@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+
+homepage = "https://pypi.org/project/photocard/"
+repository = "https://github.com/oskarzyg/photocard/"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+urllib3 = "^1.26.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
