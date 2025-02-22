@@ -1,0 +1,10 @@
+rby1_sdk/__init__.py,sha256=4DhXKcExtChGoaFJXVN52Gg82REXx-uaMa8VzGCObZM,92
+rby1_sdk/_bindings/__init__.pyi,sha256=oomgZ_crv39OtyZIcK03yrJ9Ly_ebsPYLL9OIVbMxGc,74298
+rby1_sdk/_bindings/dynamics.pyi,sha256=HRQVIZEDyqDIpuLMidlMg3mh3xEipiUMyBudVkwZQvM,36816
+rby1_sdk/_bindings.cpython-312-x86_64-linux-gnu.so,sha256=X2vSZew6QAw1kRcBtEVhfk_HDdYUn-KmeaPccnIqyug,23617224
+rby1_sdk/_robot_command.py,sha256=9yKY_VXrkm7DDagUdm2N3cJbFXWncrHk92Pw0rMqKVM,3804
+rby1_sdk-0.4.0.dist-info/LICENSE,sha256=uIBpVXgPJu6A27VmL79jeoYNJr_9aCmPDC0iLji6tB8,11486
+rby1_sdk-0.4.0.dist-info/METADATA,sha256=l6wL278XGAZEdz2TYPQ4OMwNdAXtCw-LsUcPsbRiLis,2710
+rby1_sdk-0.4.0.dist-info/NOTICE,sha256=RJJ5_ijnZKubYvG03naue26NEfiVMTifSkBkjZnv4Zw,161
+rby1_sdk-0.4.0.dist-info/WHEEL,sha256=R9LHvzJo43x2j619JsfA787kYIG4kTLS6N8IjpdQZso,110
+rby1_sdk-0.4.0.dist-info/RECORD,,
