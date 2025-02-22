@@ -1,0 +1,17 @@
+ontoweaver/__init__.py,sha256=SpcAQaEIQ-5GLZfA5ajS-BGsuJbIxi_MeCVgzToGacg,11993
+ontoweaver/base.py,sha256=88AmfkEwGXr0FbmXiSj0EbdOjhRJ4-MInUINkq0KOWI,19800
+ontoweaver/congregate.py,sha256=Tb_HwVU-U_QWgSh1HCfEfzyjxbnGPVjv9msehpVzKDI,3381
+ontoweaver/errormanager.py,sha256=u7aNowwhXABghE3Ds3lcBAStNhpcAQmvbNqcoByj_YE,657
+ontoweaver/exceptions.py,sha256=dpVuHjR_Qcp8tqfZUMD-mNy_94fLngAEL_gB09Armws,954
+ontoweaver/fuse.py,sha256=se71ihUXysFgm5LsfnZwyVBI5UC2AfmEDG4WatDQMJ0,5870
+ontoweaver/fusion.py,sha256=qd_ueidjqA51k41dB8AEU305VpuSnqheypfYIaGlWiI,8004
+ontoweaver/merge.py,sha256=MU7bzAGp-4CbThJYaqywcu4zg623SKO1N2FH1l9Ei08,9176
+ontoweaver/serialize.py,sha256=Of0VNWegDBRbU63tRT3RCMTiHmTWzH-KMoxicCBWwk0,4290
+ontoweaver/tabular.py,sha256=86wcHp2UU7fgSauSRo4zCO6VbZmwR4Aen1OywsL3vXM,44200
+ontoweaver/transformer.py,sha256=oACbTm4a-a6szV8IpjQucGdWcEA9xsKo22L5y8PcwFQ,20712
+ontoweaver/types.py,sha256=wdvwL18YOWNBoEmQiBjSS3Udb0Iy_Myaw-KmP0DkLN4,140
+ontoweaver/validate.py,sha256=HakmffGCWTr0gIXWtKAipDyWcvMLxVotOmbvsZDoSg8,5569
+ontoweaver-0.1.2.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+ontoweaver-0.1.2.dist-info/METADATA,sha256=wAEBvzDVbLL-f7EPxu4ddDIbeZUvUsiSj0lf7kGitZA,42877
+ontoweaver-0.1.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ontoweaver-0.1.2.dist-info/RECORD,,
