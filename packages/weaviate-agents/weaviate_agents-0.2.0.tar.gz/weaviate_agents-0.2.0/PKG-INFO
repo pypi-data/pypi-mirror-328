@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: weaviate-agents
+Version: 0.2.0
+Summary: Add your description here
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: weaviate-client>=4.11.0
+
+# Weaviate Agents Python Client
+
+Official Python client for Weaviate Agents.
