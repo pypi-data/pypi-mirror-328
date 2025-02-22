@@ -1,0 +1,11 @@
+fig2q/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fig2q/cli.py,sha256=two0iOoDmpC_F90QT7hsNvpDv5JojNTEzihNAzrLnpc,2022
+fig2q/downloadImage.py,sha256=9na0opvkNWdnVo-L1Q6ldQuw99fcRaUwG1mqmhuI_ss,1735
+fig2q/helpers.py,sha256=xjhI3BPsq2Q73Q5EF2y2gF-8wOHABsti1M4Yf9Iz2uQ,538
+fig2q/infographic_config.py,sha256=3kl-Zcf8e6BBqTs4-_9DBb0ExE4-ckGstHERgWyhuTY,1339
+fig2q/scroll_graphic_config.py,sha256=pP36QKkEYxH_WzIB_Ti5SUVOpeB0AfM6Rb_-duQlJ9U,1588
+Figma_to_Q-0.1.0.dist-info/METADATA,sha256=aI9MtGVDBDS8rqye0H5roNK9K1Wip2P9y8X-n4DgKkc,2904
+Figma_to_Q-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+Figma_to_Q-0.1.0.dist-info/entry_points.txt,sha256=QUncJp6Ysd0jNx2kd6THjQbsIfMmbk0YOYQxCJSKV-Q,41
+Figma_to_Q-0.1.0.dist-info/top_level.txt,sha256=HB9Gyb0e38XrZxh3yt-uvaSqUzTL7r9dhx5sDrqW3YQ,6
+Figma_to_Q-0.1.0.dist-info/RECORD,,
