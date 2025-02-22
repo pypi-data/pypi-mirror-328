@@ -1,0 +1,17 @@
+boto3
+colorlog
+confuse
+GitPython
+jsonpickle
+py_console
+PyYAML
+pyhcl
+requests
+
+[dev]
+pytest-mock
+codecov
+pytest-cov
+
+[dev:python_version > "3"]
+pytest<6,>=5.0
