@@ -1,0 +1,13 @@
+selenium_axe_python/__init__.py,sha256=Ey6-GLw3EIMbWi6IlQ9dIxmTk1RxVLkUYiHfw4vUpZI,248
+selenium_axe_python/axe-core/axe.min.js,sha256=GCpA3F2CB-YmwJhhrWUCfUXoXjpW0BBF0Gji6I7kMuo,555038
+selenium_axe_python/axe.py,sha256=FIrs6ptG-DAeyZZSOk_2I9Acc9g-aKftnfsk789ifM8,3871
+selenium_axe_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selenium_axe_python/tests/__init__.py,sha256=R2GxiX4GPcWrum-c-WlQjnJ6y2cUFsGSu_B5cmU_Ix4,199
+selenium_axe_python/tests/conftest.py,sha256=xnhSOrOpGuMn2_ScoCxRatVagg4zEyjSXH2ReGLvQ4Y,1124
+selenium_axe_python/tests/pytest.ini,sha256=xFolpikCPjmAR4g3rN8RBcD-JD810uCJp3bFOiSBzko,2318
+selenium_axe_python/tests/test_axe.py,sha256=xvWsKtGkGzMdtIv608p5IKH7s8Tk6unaUSaCGQQzILY,11695
+selenium_axe_python/tests/test_page.html,sha256=GrqpPk2AzcIiH46G1xmluEcmHq7Oda7qcShlVVfqYwo,379
+selenium_axe_python-2.2.0.dist-info/LICENSE.txt,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+selenium_axe_python-2.2.0.dist-info/METADATA,sha256=TkqcT9AF8d5gMMotPltlEP5vqWUd1wJeTMr9Iel9t2I,8770
+selenium_axe_python-2.2.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+selenium_axe_python-2.2.0.dist-info/RECORD,,
