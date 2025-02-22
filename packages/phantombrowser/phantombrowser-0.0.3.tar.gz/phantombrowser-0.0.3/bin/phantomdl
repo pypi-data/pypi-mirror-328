@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+#-*-coding:utf8;-*-
+from PhantomBrowser import Browser
+import sys
+
+if __name__ == "__main__":
+    browser = Browser()
+    args = sys.argv
+    if len(args) > 1:
+        del args[0]
+        try:
+            browser.downloader(urls=args)
+        except BaseException as e:
+            print(f"ERROR: {e}")
+            exit(1)
+    else:
+        print(f"USAGE: {args[0]} <URLS>")
