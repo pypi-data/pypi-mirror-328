@@ -1,0 +1,52 @@
+Metadata-Version: 2.2
+Name: simple_system_ot_bank
+Version: 0.0.1
+Summary: Simple Banking System
+Home-page: https://github.com/kurokagami/python-optimize-fundamentals
+Author: KuroKagami
+Author-email: jeangabriel0990@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: tzlocal
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Simple System - Fundamentals Package Python
+
+Description.<br>
+Este projeto foi desenvolvido como parte do curso de Python da Suzano DIO. O objetivo Ã© aprender a criar pacotes e disponibilizÃ¡-los no repositÃ³rio Pypi. Para esta tarefa foi utilizado o sistema de banco jÃ¡ criado anteriormente (<a href="https://github.com/kurokagami/python-fundamentals">Acessar</a>).
+
+
+## Installation
+
+Use the package manager [Pip](https://pip.pypa.io/en/stable/) to install simple_system
+
+```bash
+pip install simple_system
+```
+
+## Author
+Kuro Kagami
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+<details align="left">
+  <summary></summary> 
+ 
+  - Time Is <a href="https://time.is/">time.is</a>
+  - Package Manager <a href="https://pip.pypa.io/en/stable/">Pip Package Manager</a>
+  - Time Zone Lib <a href="https://docs.python.org/3/library/datetime.html">Time Zone Lib</a>
+  - Tzlocal <a href="https://pypi.org/project/tzlocal/">Tzlocal Lib</a>
+ 
+  <div align="right">Made by <a href="https://github.com/kurokagami/">Kuro Kagami</a>.</div>
+
+</details>
