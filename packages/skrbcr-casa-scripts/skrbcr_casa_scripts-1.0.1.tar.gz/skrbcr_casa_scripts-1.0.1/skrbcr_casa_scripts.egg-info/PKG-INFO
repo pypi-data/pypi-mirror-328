@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: skrbcr_casa_scripts
+Version: 1.0.1
+Summary: A collection of scripts for use with the NRAO CASA
+Author: Akimasa NISHIDA
+License: MIT
+Requires-Python: ~=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: casatasks>=6.6.5.31
+Requires-Dist: casatools>=6.6.5.31
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.2.3
+Requires-Dist: scipy>=1.15.1
+
+# My CASA Tools
+
+Additional scripts for NRAO CASA.
+
+Documetation is available [here](https://skrbcr.github.io/my_casa_tools/).
