@@ -1,0 +1,98 @@
+Metadata-Version: 2.2
+Name: kvell-extraction
+Version: 0.0.6
+Summary: A comprehensive text extraction tool supporting multiple file formats
+Author: KvelKrishna
+Project-URL: Homepage, https://github.com/yourusername/kvell-extraction
+Platform: Any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: PyMuPDF
+Requires-Dist: filetype
+Requires-Dist: rapidocr_onnxruntime
+Requires-Dist: spire.doc
+Requires-Dist: polars
+Requires-Dist: fastexcel
+Requires-Dist: python-pptx
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Provides-Extra: onnxruntime
+Requires-Dist: rapidocr_onnxruntime; extra == "onnxruntime"
+Dynamic: platform
+
+# Kvell Extraction
+
+A comprehensive text extraction tool that supports multiple file formats:
+- PDF files
+- Images (jpg, jpeg, png, bmp)
+- Word documents (doc, docx, docm, dot, dotx, dotm)
+- Excel files (xlsx, xls)
+- PowerPoint presentations (pptx, potx)
+
+## Installation
+
+```bash
+pip install kvell-extraction
+```
+
+## Usage
+
+### PDF Extraction
+
+```python
+from kvell_extraction import PDFExtracter
+pdf_extracter = PDFExtracter()
+pdf_path = 'document.pdf'
+texts = pdf_extracter(pdf_path)
+print(texts)
+```
+
+### Image Extraction
+
+```python
+from kvell_extraction import ImageExtracter
+img_extracter = ImageExtracter()
+img_path = 'image.png'
+texts = img_extracter(img_path)
+print(texts)
+```
+
+### Word Document Extraction
+
+```python
+from kvell_extraction import DocExtracter
+doc_extracter = DocExtracter()
+doc_path = 'document.docx'
+texts = doc_extracter(doc_path)
+print(texts)
+```
+
+### Excel Extraction
+
+```python
+from kvell_extraction import ExcelExtracter
+excel_extracter = ExcelExtracter()
+excel_path = 'spreadsheet.xlsx'
+texts = excel_extracter(excel_path)
+print(texts)
+```
+
+### PowerPoint Extraction
+
+```python
+from kvell_extraction import PresentationExtracter
+ppt_extracter = PresentationExtracter()
+ppt_path = 'presentation.pptx'
+texts = ppt_extracter(ppt_path)
+print(texts)
+```
+
+## Return Format
+
+All extracters return a list of lists, where each inner list contains:
+- Page/slide number (string)
+- Extracted text (string)
+- Confidence score (string, usually "1.0")

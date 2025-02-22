@@ -1,0 +1,9 @@
+opencv-python
+numpy
+PyMuPDF
+filetype
+rapidocr_onnxruntime
+spire.doc
+polars
+fastexcel
+python-pptx
