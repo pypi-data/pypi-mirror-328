@@ -1,0 +1,86 @@
+---
+title: "Get started"
+jupyter: python3
+---
+
+The `google_ngram` function supports different varieties of English (e.g., British, American) and allows aggregation by year or decade. The package also supports the analysis of time series data using `TimeSeries`.
+
+## Fetching data
+
+First we will import the functions:
+
+```{python}
+from google_ngrams import google_ngram
+```
+
+Then, we can fetch, for example, *x-ray* by year in American English:
+
+```{python}
+xray_year = google_ngram(word_forms = ["x-ray"], variety = "us", by = "year")
+```
+
+
+```{python}
+xray_year.head()
+```
+
+
+Alternatively, the following would return counts of the combined forms *x-ray* and *x-rays* in British English by decade:
+
+```{python}
+xray_decade = google_ngram(word_forms = ["x-ray", "x-rays"], variety = "gb", by = "decade")
+```
+
+
+```{python}
+xray_decade.head()
+```
+
+
+## Analyzing data
+
+To analyze data, import `TimeSeries`:
+
+```{python}
+from google_ngrams import TimeSeries
+```
+
+To use `TimeSeries`, provide a polars DataFrame, a column that identifies the time sequence and a values column that identifies the frequency varieble:
+
+```{python}
+xray_ts = TimeSeries(time_series=xray_decade, time_col='Decade', values_col='RF')
+```
+
+We can now generate visualizations like a barplot of frequencies by decade:
+
+```{python}
+xray_ts.timeviz_barplot();
+```
+
+::: {.callout-tip}
+## Filter data before VNC clustering
+
+Note that the frequencies in this example are 0 or near 0 until the turn of the twentieth century.
+
+Vizualizing VNC clustering can be made clearer by filtering out extended periods with no data. Thus, plots like this bar plot (or a similar scatterplot for by-year data) can be combined to effectively describe trajectories of change and periodization.
+:::
+
+## Filter the data
+
+```{python}
+import polars as pl
+
+xray_filtered = xray_decade.filter(pl.col("Decade") >= 1900)
+```
+
+
+```{python}
+xray_filtered_ts = TimeSeries(time_series=xray_filtered, time_col='Decade', values_col='RF')
+```
+
+
+```{python}
+xray_filtered_ts.timeviz_vnc();
+```
+
+

@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "google_ngrams"
+  description: "Fetch and analyze Google Ngram data for specified word forms."
+  page-navigation: true
+  favicon: "favicon.ico"
+  navbar:
+    background: light
+    pinned: true
+    logo: logo.png
+    left:
+      - text: "Get started"
+        file: get-started.qmd
+      - text: "TimeSeries"
+        file: time-series.qmd
+      - text: "Reference"
+        file: reference/index.qmd
+      - text: Learn more
+        menu:
+          - text: "VNC Clustering for R"
+            href: https://cran.r-project.org/web/packages/pseudobibeR/index.html
+            target: _blank
+    right:
+      - icon: github
+        href: https://github.com/browndw/google_ngrams
+        aria-label: google_ngrams on GitHub
+  sidebar:
+    style: "floating"
+    collapse-level: 1
+    contents:
+      - section: Fetching Data
+        contents:
+          - text: "`google_ngram`"
+            href: reference/google_ngram.qmd
+      - section: Time Series
+        contents:
+          - text: "`timeviz_barplot`"
+            href: reference/timeviz_barplot.qmd
+          - text: "`timeviz_scatterplot`"
+            href: reference/timeviz_scatterplot.qmd
+          - text: "`timeviz_screeplot`"
+            href: reference/timeviz_screeplot.qmd
+          - text: "`timeviz_screeplot`"
+            href: reference/timeviz_screeplot.qmd
+          - text: "`timeviz_vnc`"
+            href: reference/timeviz_vnc.qmd
+          - text: "`cluster_summary`"
+            href: reference/cluster_summary.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    sidebar: false
+
+quartodoc:
+  title: Reference
+  package: google_ngrams
+  sections:
+    - title: google_ngrams fetch function
+      desc: "Read in Google n-gram data"
+      package: google_ngrams.ngrams
+      contents:
+        - google_ngram
+    - title: google_ngrams TimeSeries
+      desc: "Analyze time series data"
+      package: google_ngrams.TimeSeries
+      contents:
+        - timeviz_barplot
+        - timeviz_scatterplot
+        - timeviz_screeplot
+        - timeviz_screeplot
+        - timeviz_vnc
+        - cluster_summary
+
+filters:
+  - interlinks
+
+interlinks:
+  sources: {}
