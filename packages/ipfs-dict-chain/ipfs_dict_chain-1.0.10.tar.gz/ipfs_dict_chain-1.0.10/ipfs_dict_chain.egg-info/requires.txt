@@ -1,0 +1,6 @@
+aioipfs>=0.7.1
+multiaddr>=0.0.9
+
+[dev]
+pytest>=7.4.0
+pytest-cov>=4.1.0
