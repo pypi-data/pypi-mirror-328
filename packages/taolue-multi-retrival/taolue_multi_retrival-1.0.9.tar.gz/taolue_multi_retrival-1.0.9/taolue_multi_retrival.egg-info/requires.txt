@@ -1,0 +1,6 @@
+jieba
+loguru
+Requests
+retrying
+setuptools
+transformers
