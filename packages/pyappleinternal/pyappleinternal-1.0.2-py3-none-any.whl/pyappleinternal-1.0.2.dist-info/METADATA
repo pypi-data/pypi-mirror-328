@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyappleinternal
+Version: 1.0.2
+Summary: Apple internal iOS devices built for NPI
+Home-page: UNKNOWN
+Author: liuyonghong
+Author-email: 59225176@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: paramiko
+Requires-Dist: scp
+Requires-Dist: construct>=2.9.29
+Requires-Dist: IPython
+Requires-Dist: pygments
+Requires-Dist: hexdump
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: parameter-decorators
+Requires-Dist: cryptography>=41.0.1
+Requires-Dist: nest-asyncio>=1.5.5
+Requires-Dist: zeroconf>=0.132.2
+Requires-Dist: ifaddr
+
+UNKNOWN
+
