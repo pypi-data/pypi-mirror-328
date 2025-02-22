@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fallout"
+version = "0.0.1"
+description = "The Fallout library provides simple methods for calculating decay times, remaining mass, and radiation dose (siverts) for a set of predefined radioactive chemicals."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Alexander Slatina", email = "a.slatina@aol.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = []
