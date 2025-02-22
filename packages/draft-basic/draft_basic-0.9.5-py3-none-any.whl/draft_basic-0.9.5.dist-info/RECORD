@@ -1,0 +1,13 @@
+draft_basic/__init__.py,sha256=hyGmpZTf7-UJOuG5rtmfXlySjjKPQ9waZ_y9TKAjc40,586
+draft_basic/activation_function.py,sha256=jMAbdVEzVOfWGSxulsHZOxqiLIydNBAt_Y0zOhCxY5c,1644
+draft_basic/basic_function.py,sha256=VBkc4uJSAK-0BY2f2yAjCiT5DKR6gDwPkGE2f-0kfQE,339
+draft_basic/example_dataset.py,sha256=4V-w2MIWdrRsG4yjWVDghKW1WcktD0ZK7Y2sUOgG2_w,37933
+draft_basic/metrics.py,sha256=oPDruD4g74b8bPuhVQz_goSNd2aDUQQb4A89UR2XjRk,286
+draft_basic/ml_basic.py,sha256=W-kVEwID-JyAlYy1hm3Pi2hpzpUIxSI-zwizgwdtnMc,6388
+draft_basic/neuralnetwork.py,sha256=MuIkmBYm3C341fkEIl2vDQTJcC1Vh5ejtvratPO4HYs,36150
+draft_basic/pretreat.py,sha256=ST5-anwSfZ08u3lvGmWBJYyKFC4R7IJo5RNUbZh6OMc,2728
+draft_basic-0.9.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+draft_basic-0.9.5.dist-info/METADATA,sha256=VTKhDKASCSUMPA0EXckJcCKrW3P-oYEc7EbcHtI2fdU,672
+draft_basic-0.9.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+draft_basic-0.9.5.dist-info/top_level.txt,sha256=9-OPCh5iVr75VOS0PtRLOMJvIlxm0IJT_nuPQmzRiDQ,12
+draft_basic-0.9.5.dist-info/RECORD,,
