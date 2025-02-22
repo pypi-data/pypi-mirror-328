@@ -1,0 +1,39 @@
+Metadata-Version: 2.2
+Name: hifilter
+Version: 0.2.6
+Summary: image filter lib
+Home-page: https://github.com/kbrownehs18/hifilter
+Author: last911
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Requires-Dist: tensorflow
+Requires-Dist: easydict
+Requires-Dist: modelscope
+Requires-Dist: addict
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# hifilter
+simple image filter
+
+### DCT-NET
+* cd hifilter/thirdparty/
+* pip install opencv-python tensorflow easydict modelscope addict
+* git clone https://github.com/menyifang/DCT-Net ( git clone https://gitee.com/last911/DCT-Net.git )
+* cd ../../
+* modelscope download iic/cv_unet_person-image-cartoon_compound-models --local_dir ./models/cv_unet_person-image-cartoon_compound-models
