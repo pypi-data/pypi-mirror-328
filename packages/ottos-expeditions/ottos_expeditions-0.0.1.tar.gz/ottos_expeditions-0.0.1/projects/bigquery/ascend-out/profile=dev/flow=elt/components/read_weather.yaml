@@ -1,0 +1,12 @@
+component:
+  flow_name: elt
+  metadata:
+    source:
+      path: flows/elt/components/read_weather.yaml
+  name: read_weather
+  read:
+    connection: gs_lake
+    gcs:
+      include:
+      - glob: '*/month=*/day=*/*.parquet'
+      path: ottos-expeditions/lakev0/generated/events/weather.parquet/year=

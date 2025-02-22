@@ -1,0 +1,8 @@
+connection:
+  gcs:
+    project: ascend-io-cody
+    root: gs://ascend-io-gcs-public
+  metadata:
+    source:
+      path: connections/gs_lake.yaml
+  name: gs_lake

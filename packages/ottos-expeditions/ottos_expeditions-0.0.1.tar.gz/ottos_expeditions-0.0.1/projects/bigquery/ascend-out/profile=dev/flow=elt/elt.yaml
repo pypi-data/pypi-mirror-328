@@ -1,0 +1,20 @@
+flow:
+  data_plane:
+    connection_name: bigquery_data_plane
+  defaults:
+  - kind: Flow
+    name:
+      regex: .*
+    spec:
+      data_plane:
+        connection_name: bigquery_data_plane
+  metadata:
+    source:
+      path: flows/elt/elt.yaml
+  name: elt
+  parameters:
+    bigquery_dataset: OTTOS_EXPEDITIONS
+    bigquery_location: US
+    gcp_project_id: ascend-io-cody
+  runner: ascend
+  version: 0.1.0

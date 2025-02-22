@@ -1,0 +1,10 @@
+connection:
+  bigquery:
+    create_dataset_if_not_exists: true
+    dataset: ${parameters.bigquery_dataset}
+    location: ${parameters.bigquery_location}
+    project: ${parameters.gcp_project_id}
+  metadata:
+    source:
+      path: connections/bigquery_data_plane.yaml
+  name: bigquery_data_plane
