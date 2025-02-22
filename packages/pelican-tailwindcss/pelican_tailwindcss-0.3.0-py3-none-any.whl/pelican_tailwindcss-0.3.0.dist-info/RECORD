@@ -1,0 +1,12 @@
+pelican/plugins/tailwindcss/__init__.py,sha256=4FiPIlzcVe71tu97rEvpvppVmU4bCAhdG73lrBxDF6w,55
+pelican/plugins/tailwindcss/package.json,sha256=oO9nGOeJ5lhr1ZIBEa6WkZnzd3gqrVnbaGuF_mmY_08,268
+pelican/plugins/tailwindcss/tailwindcss.py,sha256=pl_viNFj2acXzlTB2LPVLgWORDW8XMriodpC5tO6ZUM,2403
+pelican/plugins/tailwindcss/test_tailwindcss.py,sha256=TbT0o4iM7rYdYS0ugEAS88lkkB21BFIpAAiGyf5g7wI,409
+pelican/plugins/tailwindcss/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pelican/plugins/tailwindcss/utils/commands.py,sha256=p6YVssXe8Qe6zzCweAPI8D80O_HL2nqWPYlxvcGEzsI,254
+pelican/plugins/tailwindcss/utils/installs.py,sha256=d-x0W1RazC6DXAiZ4lUu8TDs_ul2VZizH5tWTqP1Fz0,1185
+pelican/plugins/tailwindcss/utils/utils.py,sha256=vSbgwl0e9N5MILv1_wb7Jq5OG5hpyxE5saOnGe1YYy4,341
+pelican_tailwindcss-0.3.0.dist-info/METADATA,sha256=RYv1ZXtbZcJ53y1CEEjR8AvSlE8HGDrbpK4nY6NHi4A,5175
+pelican_tailwindcss-0.3.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+pelican_tailwindcss-0.3.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+pelican_tailwindcss-0.3.0.dist-info/RECORD,,
