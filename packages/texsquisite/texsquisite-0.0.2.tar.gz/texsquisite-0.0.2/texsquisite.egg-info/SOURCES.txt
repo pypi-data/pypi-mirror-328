@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+tests/test_texsquisite.py
+texsquisite/__init__.py
+texsquisite/rules.py
+texsquisite/run.py
+texsquisite/utils.py
+texsquisite.egg-info/PKG-INFO
+texsquisite.egg-info/SOURCES.txt
+texsquisite.egg-info/dependency_links.txt
+texsquisite.egg-info/entry_points.txt
+texsquisite.egg-info/requires.txt
+texsquisite.egg-info/top_level.txt
