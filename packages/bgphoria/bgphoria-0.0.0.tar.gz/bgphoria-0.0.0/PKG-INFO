@@ -1,0 +1,191 @@
+Metadata-Version: 2.2
+Name: bgphoria
+Version: 0.0.0
+Summary: Simple Python BGP implementation
+Home-page: https://github.com/interstellio/bgphoria
+Author: Interstellio IO (PTY) LTD
+Author-email: "Interstellio IO (PTY) LTD" <opensource@interstellio.io>
+Maintainer: Interstellio IO (PTY) LTD
+Maintainer-email: opensource@interstellio.io
+Project-URL: Homepage, https://github.com/interstellio/bgphoria
+Project-URL: Documentation, https://bgphoria.readthedocs.io
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-python
+
+BGPhoria
+========
+
+**BGPhoria** is an BGP tool developed and sponsored by **Interstellio IO (PTY) LTD**.
+
+**Planning Phase:** Under-Construction first initial code / commit.
+
+This project is not ready to be used by any external projects.
+
+TODO:
+-----
+
+* Complete all docstrings / code documentation.
+* Support is needed to advertise IPv4 and IPv6 unicast prefixes for testing and the anycast server use case.
+* Complete the design and implementation of BGPhoria's core functionality to allow external code to receive updates
+  via callbacks and advertise prefixes via a callback trigger. This will ensure that users can effectively interact with
+  a BGP server using their code.
+* We should also listen for BGP peer connections.
+* Built-in ready-to-use server for advertising anycast ipv4 and ipv6 prefixes. Use cases such as a DNS, WEB or SMTP server
+  running on Linux that need minimalistic tools for anycast session. Will use the YAML configuration file.
+* Complete this README.rst and reference API documentation.
+* Send notification and drop session if it does not match NLRI configuration with Open Message from Peer.
+* Ensure completing unit testing.
+
+Currently testing design against JUNOS/Juniper Router:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Example script using bgphoria:**
+
+.. code:: python
+
+    import asyncio
+    import sys
+    import json
+    import logging
+
+    from bgphoria import BGPClient
+    from bgphoria.constants import ADD_PATH
+
+
+    def configure_default_logger():
+        if not logging.getLogger().hasHandlers():
+            logging.basicConfig(
+                level=logging.INFO,  # Set default logging level
+                format="%(asctime)s - %(levelname)s - %(message)s",
+                stream=sys.stdout  # Log to stdout
+            )
+
+
+    def update_test_cb(update):
+        print(json.dumps(update, indent=4))
+
+
+    if __name__ == "__main__":
+        PEER_IP = "192.168.1.2"        # Replace with your BGP peer's IP
+        LOCAL_AS = 123456                 # Replace with your AS number
+        LOCAL_BGP_ID = "192.168.1.1"  # Replace with your BGP identifier
+
+        # Configure module-level logger
+        configure_default_logger()
+        log = logging.getLogger(__name__)
+
+        try:
+            print('starting')
+            client = BGPClient("PEER_ID",
+                               PEER_IP,
+                               LOCAL_AS,
+                               LOCAL_AS,
+                               LOCAL_BGP_ID,
+                               update_callback=update_test_cb,
+                               ipv4_unicast=True,
+                               ipv4_unicast_add_path=ADD_PATH.RECEIVE_ONLY)
+            loop = asyncio.get_event_loop()
+            loop.create_task(client.connect())  # Connect Event
+            loop.run_forever()  # Keeps the loop running indefinitely
+        except KeyboardInterrupt:
+            print('stopping')
+
+Overview
+--------
+
+BGPhoria is not a full BGP implementation and was never intended to be one. It was created for multiple reasons, primarily to:
+
+- Test and enhance our internal team's understanding of the BGP protocol.
+- Experiment with new ideas in a simpler environment, free from the complexities of other implementations.
+- Announce Unicast Route for Anycast from Linux server for redundancy purposes. Applications are DNS, HTTP etc.
+
+This project is a lightweight and simplified BGP implementation that supports:
+
+- 4 Byte AS Numbers.
+- Unicast prefixes for IPv4 and IPv6.
+- Add-Path capability for these prefixes.
+
+**Documentation:** https://bgphoria.readthedocs.io
+
+Why BGPhoria?
+-------------
+
+We understand that there are many more complete BGP projects available. However, their inherent complexity often makes them harder to grasp for beginners or for experimenting with new concepts. BGPhoria was designed to be **simple and approachable**.
+
+This project was shared with the community because it does not form part of our core projects. Our internal BGP implementations developed for customers are written in **C++**, and this Python-based project was a standalone experiment.
+
+If BGPhoria aligns with your needs, feel free to use it in your own projects as per the LICENSE.
+
+Contact Interstellio at info@interstellio.io or visit https://www.interstellio.io (we offer professional services that include development of advanced automation, orchestration, monitoring systems and more)
+
+Install
+-------
+
+To install BGPhoria via pypi package:
+
+.. code-block:: bash
+
+    $ pip install bgphoria
+
+To install BGPhoria from source:
+
+.. code-block:: bash
+
+    $ git clone https://github.com/interstellio/bgphoria.git
+    $ pip install --editable bgphoria
+
+The **--editable** flag for pip ensures you can modify the code if neccessary
+and test it without needing to reinstall again.
+
+We using **pytest** for unit tests and you can simply run pytest within
+the root of the cloned repository.
+
+License
+-------
+
+This project is licensed under the terms of the **GNU General Public License v3 (GPLv3)**. See the `LICENSE` file for details.
+
+Development Getting Started
+---------------------------
+
+.. code::
+
+    # TODO - EXAMPLE CODE
+
+Anycast Service Example
+-----------------------
+
+TODO
+
+Other use cases?
+----------------
+
+Develop your own python scripts to:
+
+* Monitor your BGP Prefixes and Alert you.
+* Monitor BGP Updates and understand your upstream connectivity better.
+* Use it in conjunction with netflow data to enhance your view of network traffic beyond just 1 AS number.
+
+Documention
+-----------
+
+**TODO**
+
+Contributing
+------------
+
+The project goal is to follow minimalist approach with focus on reliability and correctness. Anyone should be able to use this project with ease.
+
+We welcome pull requests from developers of all skill levels. To get started, simply fork the master branch on GitHub to your personal account and then clone the fork into your development environment.
+
+**All code should follow the PEP-8 standard as outlined here: https://peps.python.org/pep-0008/ and never break APIs.**
+
+This project is still in its infancy, and we prefer to keep it as simple as possible as it grows and expands.
+
+*Please don't hesitate to reach out if you have any questions, or just need a little help getting started. email: opensource@interstellio.io*
