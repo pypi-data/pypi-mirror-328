@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+tcommenter/sql/__init__.py
+tcommenter/sql/postgre_sql.py
+tcommenter/t_commenter.egg-info/PKG-INFO
+tcommenter/t_commenter.egg-info/SOURCES.txt
+tcommenter/t_commenter.egg-info/dependency_links.txt
+tcommenter/t_commenter.egg-info/requires.txt
+tcommenter/t_commenter.egg-info/top_level.txt

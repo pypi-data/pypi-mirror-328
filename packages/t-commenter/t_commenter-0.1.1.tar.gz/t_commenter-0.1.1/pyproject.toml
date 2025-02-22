@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+#-----------------------------------------------------------------------------------------------------------------------
+[project]
+name = "t-commenter"
+version = "0.1.1"
+authors = [{ name = "ArtemXYZ", email = "poznyshev.a.a@yandex.ru" }]
+description = "A module for working with table metadata (comments on tables, views, materialized views, and columns) in PostgreSQL."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8, <4.0"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Database",
+    "Topic :: Database :: Database Engines/Servers",
+    "Topic :: Software Development",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    'License :: OSI Approved :: MIT License' # !
+]
+#license = "MIT"
+#license-files = ["LICEN[CS]E*"]
+license = { file = "LICENSE" }
+#-----------------------------------------------------------------------------------------------------------------------
+keywords = [
+    'comments on tables', 'tables', 'views', 'materialized views', 'columns', 'PostgreSQL', 't-commenter',
+    'SQLAlchemy', 'create comments on tables', 'objects in a database', 'T-COMMENTER', 'DAGs',
+    'airflow', 'Airflow', 'Table Commentator', 'set table comment', 'get table comments', 'set column comment'
+]
+#-----------------------------------------------------------------------------------------------------------------------
+dependencies = [
+    "SQLAlchemy>=2.0.37, <3.0.0",
+    "psycopg2-binary>=2.9.0, <3.0.0"
+]
+
+# Опциональные зависимости (аналог extras_require в setup.cfg).
+[project.optional-dependencies]
+dev = ["pytest>=8.3.4, <9.0.0"]
+
+#-----------------------------------------------------------------------------------------------------------------------
+[project.urls]
+Repository = "https://github.com/ArtemXYZ/t-commenter.git"
+Issues = "https://github.com/ArtemXYZ/t-commenter/issues"
+Changelog = "https://github.com/ArtemXYZ/t-commenter/blob/main/CHANGELOG.md"
+
+#-----------------------------------------------------------------------------------------------------------------------
+[tool.setuptools]
+include-package-data = true
+[tool.setuptools.packages.find]
+where = ["tcommenter"]
+
+#-----------------------------------------------------------------------------------------------------------------------
+[tool.setuptools.package-data]
+tcommenter = [
+    "docs/images/t-commenter.png",
+]
