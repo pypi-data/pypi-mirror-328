@@ -1,0 +1,12 @@
+genin2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genin2/cli.py,sha256=293yaK7ZcHXnsZlpFYUgf3IygclRo66VfBCa0I-2drU,874
+genin2/compositions.tsv,sha256=iJqWcdgRoVE-FoLXmkFxo2rRlMW8x6gQwH1MWPS7Kno,1131
+genin2/genin2_core.py,sha256=860a2c6xLM2Y4oyPvUTm5WfF_zd16Hr20_all_Xk5pw,22350
+genin2/models.xz,sha256=PfNPZI6HvfSZJLY6mdSg6FtGx5-Vamdp48LBjU-6sx0,849440
+genin2/update_checker.py,sha256=TcPfr9MR6sYLFW9S2AE9hSOtjQLdjtta_FAhyN9Berk,1461
+genin2-2.0.3.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+genin2-2.0.3.dist-info/METADATA,sha256=uKXPPKu6oeFW59gGl3EhaIPBZFDVhG_bMAqvtxfOm-k,9822
+genin2-2.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+genin2-2.0.3.dist-info/entry_points.txt,sha256=GnqaqmNsYLb8HMsr6rZtOrK8O6a-wXy7M3v2Z1vlUtQ,48
+genin2-2.0.3.dist-info/top_level.txt,sha256=_UGiVWgnE1z4G8gcQxqSMhWXb_JGlmE2Jv7PaaF85sg,7
+genin2-2.0.3.dist-info/RECORD,,
