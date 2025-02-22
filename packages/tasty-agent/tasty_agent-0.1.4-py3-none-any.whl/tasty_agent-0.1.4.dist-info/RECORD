@@ -1,0 +1,16 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tests.py,sha256=R3alXPYg8nbSg_5e3sEMjm9pHQBfNfu1YxLULuArlu8,7734
+src/utils.py,sha256=EU4aJFw-CcdrJ7TtMFpfEP4EKEeDEo_2FQNVqhD4p84,1267
+src/tasty_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tasty_agent/auth_cli.py,sha256=IsSsHHI6vLt0kFICU4bvtyJy_mvpBxIHYYwjB0CWZrg,2603
+src/tasty_agent/instrument.py,sha256=i0V0-jysp-CLFRu1E4kRO24LVSLsF5nouGUuTzdeCEE,2760
+src/tasty_agent/prices.py,sha256=y4TjZlgUjjT60TUrHy71DLkMYhPl3UhKLgOi2aZeMVM,2349
+src/tasty_agent/server.py,sha256=i-QtZdW1rNX5FgKAcIil_yz0tCrXXrIjv5JeVU_MAJQ,12034
+src/tasty_agent/state.py,sha256=_5gJobx836Px70E8k4vgV5TDQA4KMh7y_U10Urf-aRg,4303
+src/tasty_agent/task.py,sha256=S2mcO8JVorqg6w5q5VSpaEWm5wXHRtCptXyCBos4cTY,1781
+src/tasty_agent/trading.py,sha256=290Lc4zPOpu6lSk_Lius3Ic6f-FgF8X55HyQWiQtXUI,7055
+tasty_agent-0.1.4.dist-info/METADATA,sha256=mtVL1iMPFis75axRpDv9-OZlMP2Hrxt7J4VajTqDhaw,5359
+tasty_agent-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+tasty_agent-0.1.4.dist-info/entry_points.txt,sha256=PF6cCMYlYKtPX8RN_KxHg3fwPRSFO5-ELGkRs1aY304,60
+tasty_agent-0.1.4.dist-info/licenses/LICENSE,sha256=dZzGxqfiFjPKkNQbHmlhtI3tYjeleOngWB_HUfnzMps,1066
+tasty_agent-0.1.4.dist-info/RECORD,,
