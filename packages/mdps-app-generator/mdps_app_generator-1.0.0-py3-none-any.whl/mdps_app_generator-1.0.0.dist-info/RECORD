@@ -1,0 +1,11 @@
+unity_app_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unity_app_generator/__main__.py,sha256=7oCmm72xVWtL5WfgLUd8AQDgFQLLlRaNUSjflgQaZ0M,6931
+unity_app_generator/generator.py,sha256=qPwcKoMmhk2OO02i402xAyLgxcZFQcYxK--DHglMyNM,6579
+unity_app_generator/state.py,sha256=JKSFxaJR9SiyNIfJOWwGAU2dtj7g4eGt-SYHH15zUaY,3260
+unity_app_generator/version.py,sha256=xZawFFh80uj7MHMJJXWFcuzkX29fVkHuS5NT5dJMCf8,20
+mdps_app_generator-1.0.0.dist-info/LICENSE.txt,sha256=q6sFV90T5XFobC8MJvdfV7NwFdsH4hZScRRk3zqEO0M,12469
+mdps_app_generator-1.0.0.dist-info/METADATA,sha256=yKfyjO3_vVphWOt6o_1c2-5piHWahAXep6dERPP4BU4,8331
+mdps_app_generator-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mdps_app_generator-1.0.0.dist-info/entry_points.txt,sha256=7TZzWuYoWhRrXQiHDu2_g_ZWvjFZ7wVwbGPDZTkA88w,68
+mdps_app_generator-1.0.0.dist-info/top_level.txt,sha256=96J_ePtGFLWv4sPG3YDXPx0oHP6s4RS4SZB0hBaD1ZE,20
+mdps_app_generator-1.0.0.dist-info/RECORD,,
