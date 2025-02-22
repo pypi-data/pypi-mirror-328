@@ -1,0 +1,9 @@
+README.md
+setup.py
+sourse code/__init__.py
+sourse code/translator.py
+translib.egg-info/PKG-INFO
+translib.egg-info/SOURCES.txt
+translib.egg-info/dependency_links.txt
+translib.egg-info/requires.txt
+translib.egg-info/top_level.txt
