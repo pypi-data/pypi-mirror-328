@@ -1,0 +1,66 @@
+Metadata-Version: 2.2
+Name: jaxley-mech
+Version: 0.3.0
+Summary: A Jaxley-based library of ion channels and syanpses for biophysical neuron models.
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax[cpu]
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: jaxley>=0.2.0
+Requires-Dist: diffrax>=0.6
+Requires-Dist: equinox>=0.11.8
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: markdown-include; extra == "dev"
+Requires-Dist: mkdocs-redirects; extra == "dev"
+Requires-Dist: mkdocstrings[python]>=0.18; extra == "dev"
+Requires-Dist: neuron; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: watermark; extra == "dev"
+Requires-Dist: tqdm; extra == "dev"
+
+# jaxley-mech
+
+A [Jaxley](https://github.com/mackelab/jaxley)-based library of ion channels and synapses for biophysical neuron models.
+
+## Installation
+
+`jaxley-mech` is available on [PyPI](https://pypi.org/project/jaxley-mech/):
+
+```bash
+pip install jaxley-mech
+```
+
+or you can clone the repository and install it via `pip`'s "editable" mode:
+
+```bash
+git clone git@github.com:jaxleyverse/jaxley-mech.git
+pip install -e jaxley-mech
+```
+
+## Usage
+
+See the [notebooks](notebooks) folder for usage examples.
+
+First author last names and year abbreviations for the papers in which mechanism models 
+are first described are used as the file names in cases where more than one mechanism is
+included or multiple implementations exist. For single mechanisms, e.g. the ribbon synapse model, the file is simply 
+named ribbon.py.
+
+To view available mechanisms and filter them by species, cell type, reference, etc., it is possible to run the following code:
+```python
+import jaxley_mech as jm
+print(jm.find_channel()) # shows metadata of the available channels
+print(jm.find_channel(ion="K", species="rat")) # shows metadata of channels with these properties
+
+all_synapses = jm.find_synapse()
+print(all_synapses.reference) # shows the references of all synapses
+```
