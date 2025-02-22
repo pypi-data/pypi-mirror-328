@@ -1,0 +1,81 @@
+Metadata-Version: 2.4
+Name: qore-client
+Version: 0.0.3
+Summary: Qore Client
+Author-email: dhlee <dhlee@quantit.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.28.0
+Provides-Extra: dev
+Requires-Dist: mypy>=1.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Requires-Dist: ruff>=0.1.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Qore Client
+
+Qore Client is a Python client library for the Qore API.
+
+## Installation
+
+```bash
+pip install qore-client
+```
+
+## Development Environment Setup
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Create a virtual environment and install dependencies
+
+```bash
+uv venv
+
+source .venv/bin/activate  # Linux/Mac
+# or
+.\.venv\Scripts\activate  # Windows
+```
+
+3. Install the base package
+
+```bash
+uv pip install -e .
+```
+
+4. Install the development dependencies
+
+```bash
+uv pip install -e ".[dev]"
+```
+
+## Deployment
+
+The project can be deployed to TestPyPI and PyPI:
+
+```bash
+# Deploy to TestPyPI
+./deploy.sh test
+
+# Deploy to PyPI
+./deploy.sh prod
+```
+
+## CI/CD
+
+This project supports automated testing and deployment through GitLab CI/CD.
+
+## Test
+
+```bash
+# Install the package from TestPyPI
+uv pip install -i https://test.pypi.org/simple/ qore-client=={version}
+
+# Install the package from PyPI
+uv pip install qore-client=={version}
+```
