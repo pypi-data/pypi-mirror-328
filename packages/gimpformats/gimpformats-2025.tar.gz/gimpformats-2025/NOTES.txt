@@ -1,0 +1,2 @@
+https://gitlab.gnome.org/GNOME/gimp/tree/master/app/xcf
+https://gitlab.gnome.org/GNOME/gimp/blob/master/devel-docs/xcf.txt
