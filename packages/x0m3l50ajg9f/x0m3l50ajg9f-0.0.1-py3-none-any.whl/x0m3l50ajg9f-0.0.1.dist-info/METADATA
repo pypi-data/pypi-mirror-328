@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: x0m3l50ajg9f
+Version: 0.0.1
+Summary: A template for projects that will be distributed on PyPI.
+Project-URL: Homepage, https://github.com/kaycebasques/pypitemplate
+Project-URL: Issues, https://github.com/kaycebasques/pypitemplate/issues
+Author-email: Kayce Basques <kaycebasques@gmail.com>
+License-Expression: Apache-2.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pypitemplate
+
+## Setup
+
+```
+python3 -m venv venv
+. venv/bin/activate.fish
+python3 -m pip install -r requirements.txt
+```
+
+## Build
+
+```
+python3 -m build
+```
+
+## Distribute
+
+### TestPyPI
+
+```
+python3 -m twine upload --repository testpypi dist/*
+```
+
+### Production
+
+```
+python3 -m twine upload dist/*
+```
