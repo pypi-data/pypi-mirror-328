@@ -1,0 +1,88 @@
+Metadata-Version: 2.4
+Name: japanize-matlibplot-modern
+Version: 0.1.4
+Summary: matplotlib を日本語表示に対応させます
+License-File: LICENSE
+Requires-Python: >=3.5
+Requires-Dist: matplotlib>=3.0.0
+Description-Content-Type: text/markdown
+
+# japanize-matplotlib-modern
+
+2025年最新版matplotlib を日本語表示に対応させます
+
+## 利用方法
+
+networkXで利用したいときに font_family="IPAexGothic" を指定します。
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+import japanize_matplotlib_modern
+G = nx.Graph()
+
+G.add_node("あ")
+
+G.add_node("い")
+
+G.add_node("う")
+
+G.add_node("え")
+
+G.add_node("お")
+
+G.add_edges_from([("あ", "お"), ("あ", "い"),  ("え", "い"),  ("え", "う"),  ("あ", "う")])
+
+ 
+
+#ここで描画時にフォントを指定します
+
+nx.draw_networkx(G, font_family="IPAexGothic")
+
+plt.show()
+```
+matplotlibをimportした後、japanize_matplotlib_modernをimportします。
+
+```python
+import matplotlib.pyplot as plt
+import japanize_matplotlib_modern
+
+plt.plot([1, 2, 3, 4])
+plt.xlabel('簡単なグラフ')
+plt.show()
+```
+
+## インストール
+
+```sh
+uv add japanize-matplotlib-modern
+```
+
+## 利用フォント
+
+IPAフォントのIPAexゴシック(Ver.003.01)を利用しています。
+利用にあたっては[IPAフォントライセンスv1.0](https://github.com/uehara1414/japanize-matplotlib/blob/master/japanize_matplotlib_modern/fonts/IPA_Font_License_Agreement_v1.0.txt)
+に同意してください。
+
+## FAQ
+
+### import japanize_matplotlib_modern したのに日本語表示になりません [#1](https://github.com/uehara1414/japanize-matplotlib/issues/1)
+
+import japanize_matplotlib_modern してから matplotlib でグラフを描画するまでにフォントの設定が変わる処理が入っていると、日本語表示がなされない可能性があります。
+
+例えば、seaborn を利用している場合であれば sns.set() などで描画フォントが seaborn のデフォルトに上書きされ、日本語表示がされなくなります。
+
+sns.set(font="IPAexGothic") のように利用フォントに IPAexGothic を設定するか、フォント上書き後に
+japanize_matplotlib_modern.japanize() を利用するなどで日本語表示できるはずです。
+
+### import のみして利用されないコードなのでフォーマッターに消されてしまいます
+
+リンターなどの警告が気になる・コードを消される方向けに japanize_matplotlib_modern.japanize() メソッドの実行でも import
+時と同じくフォントを設定できるようになっています。
+無意味な実行になりますが、時と場合に応じて実行してください。
+
+もしくはリンターごとに無視させる設定をすることで対応できるはずです。# noqa などで設定してください。
+
+### なぜインストール時は japanize-matplotlib で import 時は japanize_matplotlib_modern なのですか？
+
+チェインケースが読みやすく好きだからです。import時にはチェインケースは利用できないのでスネークケースになっています。
