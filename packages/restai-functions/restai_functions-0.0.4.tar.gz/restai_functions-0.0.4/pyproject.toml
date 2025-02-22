@@ -1,0 +1,21 @@
+[project]
+name = "restai-functions"
+version = "0.0.4"
+authors = [{ name = "Pedro Dias", email = "petermdias@gmail.com" }]
+description = "Call RESTai projects using direct functions in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+dependencies = ["requests"]
+[project.urls]
+Homepage = "https://github.com/apocas/restai-functions"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
