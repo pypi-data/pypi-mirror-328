@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/optim_management/__init__.py
+src/optim_management/analysis.py
+src/optim_management/cmd.py
+src/optim_management/optimizer.py
+src/optim_management.egg-info/PKG-INFO
+src/optim_management.egg-info/SOURCES.txt
+src/optim_management.egg-info/dependency_links.txt
+src/optim_management.egg-info/entry_points.txt
+src/optim_management.egg-info/requires.txt
+src/optim_management.egg-info/top_level.txt
+tests/test_optimze.py
