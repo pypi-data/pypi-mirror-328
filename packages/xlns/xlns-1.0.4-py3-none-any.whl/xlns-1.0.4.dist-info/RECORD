@@ -1,0 +1,11 @@
+xlns.py,sha256=bxNd4RY3O9duQHuMqCCyhk4GVEn_WWuIwY_2NOygK1U,96481
+xlnsconf/dally.py,sha256=r7AaRUrUTUfA55psdyf7lb8HHCr0uMV3otEMfZ-cxcA,2439
+xlnsconf/interp_cotran_ufunc.py,sha256=CgW_xT-iGAs1j0YlhcaCiKKmbi0kz11SPPQlMqVTo2c,20706
+xlnsconf/lpvip_ufunc.py,sha256=_Rj11QI7wS5Nbc-lrTrBwbBE5S2rY6EOh8Qk3PJqkRs,2184
+xlnsconf/utah_tayco_ufunc.py,sha256=vU6gxyx2WzG-0hKt-H1OUXmkVEDChsH0bVDlRlaHJHA,7116
+xlnsconf/xlnsudFracnorm.py,sha256=bPbVLNjUMfQJP6VcXM54dRCn9SClIaIf18Pzf3Fyi8c,3107
+xlns-1.0.4.dist-info/LICENSE,sha256=ySbqhnb6q_cx0baa0cOPdI1spkaC8ZNFYs81z04ggf8,1061
+xlns-1.0.4.dist-info/METADATA,sha256=EjTeUheI_zy_wqprGMkbSNiOUpM8w_N3aSoyi98M174,1812
+xlns-1.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+xlns-1.0.4.dist-info/top_level.txt,sha256=QT6w8eSP1wOaBZ-DoXGPzXlFXfEkgpc5eQfiVIDbYBs,14
+xlns-1.0.4.dist-info/RECORD,,
