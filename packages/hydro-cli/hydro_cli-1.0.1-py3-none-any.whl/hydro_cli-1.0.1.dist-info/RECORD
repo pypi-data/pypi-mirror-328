@@ -1,0 +1,11 @@
+hydro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hydro/cli.py,sha256=_F3pnrm2tecp_vXmjsY-gS58b3dPM4Wg6LH1S_eRbMY,665
+hydro/files.py,sha256=zxwOajAMR1o_Bg5ZsriCqo9mclVen7KLZRTV0y-8zn0,400
+hydro/logging.py,sha256=WcfZuCs_29tTPGxgzAJ-0FT85jJzLQsc-pWJOY17A_w,208
+hydro/md5.py,sha256=4epqGrCPHXof8P6S9uDu2miT5393ZpXURLRx02oPORI,798
+hydro_cli-1.0.1.dist-info/LICENSE,sha256=adVhZd_oK2_TjlJMONTPyKWERrNclpTXzWLKvEyz0bY,1070
+hydro_cli-1.0.1.dist-info/METADATA,sha256=I63hRSmPmhJbJov5mB0zFO43A2OjoeCR33CLJljDIxU,1392
+hydro_cli-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+hydro_cli-1.0.1.dist-info/entry_points.txt,sha256=Y6OC40F6cpDJHK1TW689GyUgx4xfYn8wtfjuKckHua4,40
+hydro_cli-1.0.1.dist-info/top_level.txt,sha256=rZAQBejJyjk1SoOFzIOb3G8fNfsZIpcHry5I5XegDbI,6
+hydro_cli-1.0.1.dist-info/RECORD,,
