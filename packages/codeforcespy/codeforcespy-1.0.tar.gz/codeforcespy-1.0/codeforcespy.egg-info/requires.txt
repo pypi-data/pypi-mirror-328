@@ -1,0 +1,7 @@
+httpx
+msgspec
+
+[dev]
+ruff
+pytest
+mypy

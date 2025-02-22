@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+codeforcespy.egg-info/PKG-INFO
+codeforcespy.egg-info/SOURCES.txt
+codeforcespy.egg-info/dependency_links.txt
+codeforcespy.egg-info/requires.txt
+codeforcespy.egg-info/top_level.txt
