@@ -1,0 +1,8 @@
+mv_platform_observability/__init__.py,sha256=K-QyCbwy45_A4j577CDxfnY67mp33FcZ5uNGA4HhIsc,71
+mv_platform_observability/decorator.py,sha256=gpYLAf-AiSUAHnOEg04TO3JSsiObY31fV6YS0wXHHdI,1585
+mv_platform_observability/collectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mv_platform_observability/collectors/metrics.py,sha256=sV_pwGwN-okwGOj52rdLx7hjlSqfmpNrxyAbt7Plocg,9587
+mv_platform_observability-0.1.0.dist-info/METADATA,sha256=9BE_np56IlA-EjU_7Ub7ZcruRTZAjRHwhHfgFUow4Ac,329
+mv_platform_observability-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mv_platform_observability-0.1.0.dist-info/entry_points.txt,sha256=xWotRzGSOmNz6HEXI9mxrOr5jHr5F9jYo16zF2o0Vgg,53
+mv_platform_observability-0.1.0.dist-info/RECORD,,
