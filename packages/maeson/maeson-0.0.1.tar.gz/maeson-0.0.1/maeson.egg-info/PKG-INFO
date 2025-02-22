@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: maeson
+Version: 0.0.1
+Summary: Geospatial software for raster and point cloud processing.
+Author-email: Dryver Finch <dryver2206@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/dzfinch/maeson
+Keywords: maeson
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: maeson[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# maeson
+
+
+[![image](https://img.shields.io/pypi/v/maeson.svg)](https://pypi.python.org/pypi/maeson)
+[![image](https://img.shields.io/conda/vn/conda-forge/maeson.svg)](https://anaconda.org/conda-forge/maeson)
+
+
+**Geospatial software for raster and point cloud processing.**
+
+
+-   Free software: MIT License
+-   Documentation: https://dzfinch.github.io/maeson
+    
+
+## Features
+
+-   TODO
