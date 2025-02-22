@@ -1,0 +1,14 @@
+pandas
+numpy
+netCDF4
+matplotlib
+pyyaml
+scipy
+scikit-learn
+lxml
+xmltodict
+xarray
+matplotlib
+siphon
+noaa-coops
+utide

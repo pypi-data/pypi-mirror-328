@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: adda_for_floodwater
+Version: 0.5.0
+Summary: ADCIRC Data Assimilator for Floodwater
+Home-page: https://github.com/RENCI/adda_for_floodwater
+Author: Brian Blanton
+Author-email: bblanton@renci.org
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: netCDF4
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: lxml
+Requires-Dist: xmltodict
+Requires-Dist: xarray
+Requires-Dist: matplotlib
+Requires-Dist: siphon
+Requires-Dist: noaa-coops
+Requires-Dist: utide
