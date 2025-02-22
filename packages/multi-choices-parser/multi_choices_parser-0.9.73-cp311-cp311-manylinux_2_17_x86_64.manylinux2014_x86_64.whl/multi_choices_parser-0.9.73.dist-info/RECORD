@@ -1,0 +1,8 @@
+multi_choices_parser-0.9.73.dist-info/WHEEL,sha256=VOupRnfug01GtQYX1iAM3IeNFJwbRXAxOEBUtSnOhO4,156
+multi_choices_parser-0.9.73.dist-info/METADATA,sha256=fsa1KAAaWpXlG9dm1aFF5Z9NktSdC47CI_8kIEF26co,3689
+multi_choices_parser-0.9.73.dist-info/RECORD,,
+multi_choices_parser-0.9.73.dist-info/licenses/LICENSE,sha256=ywodCpVBcT4OF4QMgkmgvSaQAhTlMCDRRNd1Yg1Xa4c,1076
+multi_choices_parser/_core.cpython-311-x86_64-linux-gnu.so,sha256=BqIji7LIYe1Fm_khEmgBHedyK7scDSGte-gCaQCUyYE,327752
+multi_choices_parser/__init__.py,sha256=rPH74rCH5QHO3oAB-8ckyhWH9JjQUZYairX5wBC3wjc,56
+multi_choices_parser/_core.pyi,sha256=kwD-8ahvwbDqoUpsFWQWFSqQ55dyDaZaanVuFo0QPIE,108
+multi_choices_parser/parser.py,sha256=jSt45jCjvOpfciXjrb10M21mWU57y3xlkjm1g-lNuEA,6998
