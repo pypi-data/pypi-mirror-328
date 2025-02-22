@@ -1,0 +1,66 @@
+Metadata-Version: 2.2
+Name: perchance-dsl
+Version: 0.1.1
+Summary: A DSL for replacing if-else statements with a more readable syntax
+Home-page: https://github.com/ehrev/perchance-dsl
+Author: Ehre
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# perchance-dsl
+
+Ever read Python if-elif-else blocks and thought, hmm too simple? perchance-dsl is a Python-based domain-specific language (DSL) that provides a more readable syntax for conditional statements, replacing traditional `if-elif-else` blocks.
+
+## Features
+- Replace `if` statements with `perchance`
+- Replace `elif` statements with `or perchance`
+- Replace `else` statements with `certainly`
+- Execute `.pyp` scripts directly using the `perchance` command
+
+## Installation
+
+Install Perchance DSL via pip:
+
+```bash
+pip install perchance-dsl
+```
+
+## Usage
+
+### **Writing a `.pyp` Script**
+Create a file, e.g., `example.pyp`, and write:
+
+```python
+x = 5
+
+perchance x > 0:
+    print("x is positive")
+or perchance x == 0:
+    print("x is zero")
+certainly:
+    print("x is negative")
+```
+
+### **Running a `.pyp` Script**
+Run the script using:
+
+```bash
+perchance example.pyp
+```
+
+## Contributing
+Feel free to open issues or contribute via pull requests on [GitHub](https://github.com/ehrev/perchance-dsl).
+
+## License
+This project is licensed under the MIT License.
