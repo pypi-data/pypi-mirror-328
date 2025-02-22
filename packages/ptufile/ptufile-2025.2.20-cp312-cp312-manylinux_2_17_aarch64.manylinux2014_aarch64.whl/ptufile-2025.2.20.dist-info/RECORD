@@ -1,0 +1,12 @@
+ptufile/__main__.py,sha256=6qltFCqSoVKJbwmgh0oaud4Jo5OXAR40e7vQ8pSnc4w,132
+ptufile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptufile/ptufile.py,sha256=Y8qbdNMRFwoH_xrF1on9kCsMwIMI0fu1HYSAMcFNdLU,110567
+ptufile/numcodecs.py,sha256=wDE7WlIrkDi5iKaQMt6ylPGSIwTd7O3zkhfUCu8oz0A,3759
+ptufile/_ptufile.cpython-312-aarch64-linux-gnu.so,sha256=T7vSAxSrOTQMNuX8hIx8wisqikLLJ6u11Sn3YJRXFPA,5691608
+ptufile/__init__.py,sha256=gvkQDu0RYBxq1qexAtjIvMjCp8XMdWtHLmsu8yYhUUI,386
+ptufile-2025.2.20.dist-info/LICENSE,sha256=4rUC7Uv1w9LpoWiJHyFH08isHzO1fh0xUOIqaEKTJng,1559
+ptufile-2025.2.20.dist-info/RECORD,,
+ptufile-2025.2.20.dist-info/entry_points.txt,sha256=4wS6wopOiQgiUCV04LzBA8Q0mQcqD3hQWtUyj0IqQIU,50
+ptufile-2025.2.20.dist-info/METADATA,sha256=xIlHHJtNODrpRRGhLsHQmcv8Dn9T9v3pm8G3k1aURs8,9042
+ptufile-2025.2.20.dist-info/top_level.txt,sha256=ZdLRc_-lNRPZNv0TCQbCOCaX1UWnsSyLOdj8IISpc-c,8
+ptufile-2025.2.20.dist-info/WHEEL,sha256=nTE35AxMsGRWEKtq6OoAX8r6A4PvpXKeKnLmxVhO6NA,153
