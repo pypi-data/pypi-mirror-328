@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysuma"
+version = "0.1.0"
+description = "A flexible text summarization library supporting extractive and abstractive methods."
+authors = [{ name = "FARDEEN KHADRI", email = "fardeeinshakhadrii@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.6"
+
+dependencies = [
+    "nltk",
+    "sumy",
+    "transformers",
+]
+
+[tool.setuptools]
+packages = ["pysuma"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/pysuma"
+Repository = "https://github.com/yourusername/pysuma"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",  # For testing
+    "black",   # Code formatter
+    "mypy",    # Static type checking
+    "isort"    # Import sorting
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

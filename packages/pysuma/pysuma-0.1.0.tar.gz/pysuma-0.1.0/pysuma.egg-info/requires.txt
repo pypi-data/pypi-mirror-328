@@ -1,0 +1,9 @@
+nltk
+sumy
+transformers
+
+[dev]
+pytest
+black
+mypy
+isort
