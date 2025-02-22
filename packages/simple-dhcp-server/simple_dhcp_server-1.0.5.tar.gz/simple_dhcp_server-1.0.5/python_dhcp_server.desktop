@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Python DHCP Server
+Exec=sudo sh -c "`dirname %k`/server/linux-start-gui.sh"
+Icon=python3
+Terminal=true
