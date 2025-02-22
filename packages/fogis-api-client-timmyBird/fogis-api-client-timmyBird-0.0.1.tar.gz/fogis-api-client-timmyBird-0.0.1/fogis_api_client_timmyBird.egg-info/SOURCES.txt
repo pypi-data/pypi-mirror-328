@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.py
+fogis_api_client_timmyBird.egg-info/PKG-INFO
+fogis_api_client_timmyBird.egg-info/SOURCES.txt
+fogis_api_client_timmyBird.egg-info/dependency_links.txt
+fogis_api_client_timmyBird.egg-info/requires.txt
+fogis_api_client_timmyBird.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fogis_api_client.py
+tests/test_fogis_api_client_ai_generated.py
