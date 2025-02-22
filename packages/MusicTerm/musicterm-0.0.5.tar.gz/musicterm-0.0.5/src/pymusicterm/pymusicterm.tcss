@@ -1,0 +1,29 @@
+.search_tabs {
+    height: 60%;
+}
+
+.status_controls {
+    align: center middle;
+    padding: 0;
+    margin: 0;
+}
+
+.player_controls {
+    padding: 0;
+    align: center middle;
+}
+
+Rule {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.control_label {
+    padding: 1;
+    align: center middle;
+}
+
+.player_status {
+    align: center bottom;
+}
