@@ -1,0 +1,16 @@
+epitopegen/__init__.py,sha256=qKpuRb5BiZwuWqqKzINabBPhWcPp9PHKZdqrtiRzqp0,894
+epitopegen/analyze_antigen.py,sha256=Y2ygHaD5F-S3L2AMTDYJhSvJxQ1iRwHWHjLwlz9Yg9g,13185
+epitopegen/analyze_ce.py,sha256=hXA-mFrYI5yKjJQLmLz9fwdFjHuZZIQnIskBwd5NV-w,15924
+epitopegen/analyze_deg.py,sha256=7Xk-fBbON09JOcJOJam41jALGpsjAeLjRgsXY9AzwfA,30440
+epitopegen/analyze_pa.py,sha256=5RiPcazR4FDP_KJHe6niyO-WGalhZtTFYkAUvpZ5qUU,22234
+epitopegen/analyze_pre.py,sha256=UkTbYsKwNApSA6Qv0fA85Ukfs453xiuarkAbgSilVp4,16374
+epitopegen/annotate.py,sha256=d2OyN5M5G1S9KIP9HzAZKZVvHLufxh0PsloHlbabe_g,32555
+epitopegen/config.py,sha256=Sf6QM_hqEh7UavsbJ6ncUTLTWYk_hjMfhtDqQAq5Mq0,2413
+epitopegen/inference.py,sha256=YatlvCfMJs1ZgH0SiK5HOBsWrdh0TU-kKDGUjbATVgE,20013
+epitopegen/resources/tokenizer/GPT2Config_small.pkl,sha256=E4iuQ2pFWxi_UurcHEluQc5pM_UikE2AWEtp3NJhVUU,1941
+epitopegen/resources/tokenizer/config.json,sha256=bXzri6LZn9XwGTZRf50DgnwyPydCb7mM3wi5HsYWJ2M,689
+epitopegen/resources/tokenizer/tokenizer.json,sha256=MrAk7YjdATRi3Dz1p2FuLfcGqS_0fI0fm5Mpl_KN-24,14469
+epitopegen-0.1.0.dist-info/METADATA,sha256=pApXbWDgN78zFdmR7XIL_SyqIjlWkvDZwFUPWM98nXQ,3090
+epitopegen-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+epitopegen-0.1.0.dist-info/top_level.txt,sha256=5jgfsAypqcgjfXqSIyrkmnUr5-yllV12Q1xrYKmh4gg,11
+epitopegen-0.1.0.dist-info/RECORD,,
