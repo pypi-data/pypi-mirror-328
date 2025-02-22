@@ -1,0 +1,12 @@
+sversion/CHANGELOG.md,sha256=MuZNZSmvvKY6kr0QaKnAQ_xbU_Bh3zqtks5RReghByM,335
+sversion/LICENSE,sha256=JIANvUp-NSsBDSTIDCVKDUzwfFO9Jrviv3FuG4quXz8,1097
+sversion/VERSION.txt,sha256=8iq9Z3OrIyhpMhrUseR6wMkI_r9POivRDIBmFA90EmE,5
+sversion/__init__.py,sha256=kOwdTiyUMcYT9ThNn0cL4h-QFy_Wclqv5UDU80phiOo,228
+sversion/contracts.py,sha256=PIc0Ok5qGd1J7imeLNKj5DysGqChc-wikBzKb_OOHSk,99
+sversion/error_handling.py,sha256=_tAMCnMnvQYk2NpJMLbK7qoV2Hp_Upc7PSIrfqVQgwI,169
+sversion/file_based.py,sha256=A0uGusyoRusViQk-pdOvn3-wjWhL5UAzsPaPUYFbR_Q,1031
+sversion-2.0.0.dist-info/LICENSE,sha256=JIANvUp-NSsBDSTIDCVKDUzwfFO9Jrviv3FuG4quXz8,1097
+sversion-2.0.0.dist-info/METADATA,sha256=jGLiWG_zyKznCLcqFp-LdmXdvc40RI3ITFWEbtumgWM,526
+sversion-2.0.0.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+sversion-2.0.0.dist-info/top_level.txt,sha256=rWpnOZp9bWgRZlH6w0vH5ycnkfMADofBXBwODh7ydzE,9
+sversion-2.0.0.dist-info/RECORD,,
