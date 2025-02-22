@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: atp_tennis_scraper
+Version: 0.1.1
+Summary: A Python package for scraping ATP tennis rankings.
+Home-page: https://github.com/Semne77/atp_tennis_scraper
+Author: Semyon Tsyrenov
+Author-email: tsyrenovsemyon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 🎾 ATP Tennis Scraper
+
+![license](https://img.shields.io/badge/license-MIT-green) ![pypi](https://img.shields.io/pypi/v/atp-tennis-scraper)
+
+ATP Tennis Scraper is a Python package that fetches and displays the top ATP-ranked players from the official [ATP Tour website](https://www.atptour.com/en/rankings/singles). The scraper extracts player rankings, names, points, age, and nationality.
+
+---
+
+## 📦 Installation
+
+To install the package, simply run:
+
+```bash
+pip install atp-tennis-scraper
+```
+
+### Usage
+
+To get all urls use:
+
+```python
+from atp_tennis_scraper import display_top_10
+
+display_top_10()
+```

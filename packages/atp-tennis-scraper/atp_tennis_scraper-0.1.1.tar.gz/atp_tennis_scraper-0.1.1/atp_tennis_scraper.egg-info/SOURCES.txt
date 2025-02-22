@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+atp_tennis_scraper/__init__.py
+atp_tennis_scraper/main.py
+atp_tennis_scraper.egg-info/PKG-INFO
+atp_tennis_scraper.egg-info/SOURCES.txt
+atp_tennis_scraper.egg-info/dependency_links.txt
+atp_tennis_scraper.egg-info/requires.txt
+atp_tennis_scraper.egg-info/top_level.txt
