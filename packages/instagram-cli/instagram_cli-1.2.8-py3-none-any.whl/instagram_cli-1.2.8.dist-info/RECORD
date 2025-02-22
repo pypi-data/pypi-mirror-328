@@ -1,0 +1,13 @@
+instagram/__init__.py,sha256=3EWBOvnd-yir25TOkssUWjU8yT82EOWKwURP7yoh5uw,206
+instagram/auth.py,sha256=rZRWZSWDgwRmlCUlVq99i1tUUVKUc9LpeJ4_cNLqjiU,2102
+instagram/cache.py,sha256=DILZgxCDWZjTh0MpVzVfCvSDbdL6GqakxKsXO4h4UlI,5722
+instagram/chat.py,sha256=Ck5eL6YI9ip3ODecLpVDl_XzRS9gJhtsPZZ4jIUKJ6U,5004
+instagram/cli.py,sha256=RE3DbDCdCgqc0AKC37LchXBhQM0_wOxbJGm_ybHSTSw,5028
+instagram/client.py,sha256=2wD4G-SW-5wm4gZchUCnxqAmMi5oxbbp2Uhj82WVjN4,6465
+instagram/configs.py,sha256=17kjVS0yVQWEuatP1pEW4ssiVj6rd_NWhh5oFJNnOXk,5366
+instagram_cli-1.2.8.dist-info/LICENSE,sha256=myLTcgVqUsjNmqj-yjVSCsebrls7jH-E9zE6aYMHV_s,1084
+instagram_cli-1.2.8.dist-info/METADATA,sha256=3gsSyRxl7aAVPu2orDhiYTf0rfXZmy5PG5Z5k4H5qxw,8228
+instagram_cli-1.2.8.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+instagram_cli-1.2.8.dist-info/entry_points.txt,sha256=hMrHX9cs_DhrEYWGmzumiZMLdQ5Ce6GgXqjLSNWnYPs,48
+instagram_cli-1.2.8.dist-info/top_level.txt,sha256=BMCvEl1tQ_hqYawWyQhcfxAOrEDA-u_NQW5ZmerlWRY,10
+instagram_cli-1.2.8.dist-info/RECORD,,
