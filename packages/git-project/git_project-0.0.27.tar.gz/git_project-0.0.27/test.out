@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.2, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/dag/projects/git-project/master
+configfile: pyproject.toml
+plugins: console-scripts-1.4.1
+collected 111 items
+
+tests/test_confobj.py ............                                       [ 10%]
+tests/test_git.py ...................................................... [ 59%]
+..                                                                       [ 61%]
+tests/test_gitproject.py ..                                              [ 63%]
+tests/test_main.py .                                                     [ 63%]
+tests/test_project.py ...........                                        [ 73%]
+tests/test_runnable.py ........                                          [ 81%]
+tests/test_scopedobj.py .....                                            [ 85%]
+tests/test_substitutable.py ................                             [100%]
+
+============================= 111 passed in 32.41s =============================
