@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+pytest
+matplotlib
+independent_vector_analysis
+Jinja2

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+multiset_canonical_correlation_analysis/__init__.py
+multiset_canonical_correlation_analysis/helpers.py
+multiset_canonical_correlation_analysis/mcca.py
+multiset_canonical_correlation_analysis/plots_for_paper.py
+multiset_canonical_correlation_analysis/simulations.py
+multiset_canonical_correlation_analysis/visualization.py
+multiset_canonical_correlation_analysis.egg-info/PKG-INFO
+multiset_canonical_correlation_analysis.egg-info/SOURCES.txt
+multiset_canonical_correlation_analysis.egg-info/dependency_links.txt
+multiset_canonical_correlation_analysis.egg-info/not-zip-safe
+multiset_canonical_correlation_analysis.egg-info/requires.txt
+multiset_canonical_correlation_analysis.egg-info/top_level.txt
