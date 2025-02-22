@@ -1,0 +1,4 @@
+[console_scripts]
+do_site = prisma_config.do:go
+pull_site = prisma_config.pull:go
+
