@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opendatalabs-query-sdk"
+version = "0.1.0"
+description = "A Python SDK for interacting with the Query API service"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = ["api", "sdk", "query"]
+authors = [
+    { name = "OpenDataLabs", email = "alex@opendatalabs.xyz" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "typing-extensions>=4.0.0; python_version < '3.8'",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "isort>=5.0.0",
+    "mypy>=0.990",
+    "ruff>=0.0.290",
+    "build>=0.10.0",
+    "twine>=4.0.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/vana-com/query-sdk-python"
+Documentation = "https://github.com/vana-com/query-sdk-python#readme"
+Issues = "https://github.com/vana-com/query-sdk-python/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
