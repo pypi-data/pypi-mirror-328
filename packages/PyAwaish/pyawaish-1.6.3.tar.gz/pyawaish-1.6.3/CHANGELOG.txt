@@ -1,0 +1,20 @@
+[Version 1.6.3] - 2025-02-20
+
+Added:
+------
+
+- Introduced a new `static/` folder inside `PyAwaish/` to store static assets.
+
+- Added two PNG images: `mysql.png` and `config.png` inside `static/` for better UI branding.
+
+Changed:
+--------
+
+- Updated `setup.py` to include `static/` and its files under `package_data`.
+
+- Updated `MANIFEST.in` to ensure all static assets (images, CSS, JS) are included in the package.
+
+Improved:
+---------
+
+- Enhanced the project structure by separating static assets from templates for better maintainability.
