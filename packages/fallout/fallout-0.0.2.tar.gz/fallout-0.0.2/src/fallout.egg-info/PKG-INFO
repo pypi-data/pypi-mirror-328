@@ -1,0 +1,66 @@
+Metadata-Version: 2.2
+Name: fallout
+Version: 0.0.1
+Summary: The Fallout library provides simple methods for calculating decay times, remaining mass, and radiation dose (siverts) for a set of predefined radioactive chemicals.
+Author-email: Alexander Slatina <a.slatina@aol.com>
+License: Copyright 2025 Alexander Slatina
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fallout Library
+
+The Fallout library provides simple methods for calculating decay times, remaining mass, and radiation dose (siverts) for a set of predefined radioactive chemicals.
+
+## Installation
+
+Install via pip:
+
+```bash
+pip install fallout
+```
+
+## Usage
+
+```python
+from fallout import Fallout
+
+# Create an instance
+fallout = Fallout()
+
+# List available chemicals
+chemicals = fallout.get_radioactive_chemicals()
+print(chemicals)
+
+# Calculate remaining grams after a number of half-lives
+remaining = fallout.calculate_remaining_gram(gram=10, number_of_halflifes=2)
+print(remaining)
+
+# Determine risk based on amount of radioactive material
+risk, siverts = fallout.calculate_risk("Uranium-235", 5)
+print(risk, siverts)
+```
+
+## Methods Overview
+
+- `get_radioactive_chemicals()`: Returns the dictionary of radioisotopes and their properties.
+- `calculate_decay_time(type, number_of_halflifes)`: Returns the realistic decay time based on half-lives and isotope data.
+- `calculate_remaining_gram(gram, number_of_halflifes)`: Computes how much mass remains after a certain number of half-lives.
+- `calculate_siverts(type, gram)`: Calculates the radiation dose in siverts based on mass.
+- `calculate_risk(type, gram)`: Gives a risk assessment and dose in siverts.
+
+## Example CLI Usage
+
+If you run the `fallout.py` file directly:
+```bash
+python fallout.py
+```
+It will prompt for chemical type, amount in grams, and number of half-lives to compute safety and decay information.
