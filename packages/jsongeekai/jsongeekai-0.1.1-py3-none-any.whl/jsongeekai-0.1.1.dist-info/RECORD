@@ -1,0 +1,15 @@
+jsongeek/__init__.py,sha256=7_KjkHvealSw5IJRdaEnY9BCTFjn7c3LaKWfNkJI3wM,251
+jsongeek/core/__init__.py,sha256=_Wtqk3gsfpDxRVDosifdnW5_P9akuInxwY9LoQy2AQ4,187
+jsongeek/core/exceptions.py,sha256=ZKhOafkLE_hKRuep8xtaoW22xt_CQQSLIfRicLnL4ew,299
+jsongeek/core/parser.py,sha256=ZeUfx7MBm0pP7Ul2cP_hppMQ7xMkHhf33TDaW8xuXy4,2382
+jsongeek/core/wasm/build/fallback.wasm,sha256=eg2LZHkmtOj7rJqg5-EWUEx-1UEL2m5_NTaU9n4zQE8,2495
+jsongeek/core/wasm/build/simd.wasm,sha256=BGEFtiahRWI_27Gl24DbyWkAjA9yM1eDUgNRlONOJYg,10061
+jsongeek/utils/__init__.py,sha256=a-EqVw9-SExqGOQI7fC6FsyaIqUL2BWRdxo3ZsYIDZ4,117
+jsongeek/utils/simd_detection.py,sha256=jzs9T2xwx0szLhfzyiuEPcY-HryuV5lJ1g1NBbV7Z4w,876
+tests/__init__.py,sha256=6bhIzmMDxivpnnym7D22ek8_JaNEq3Q_NirZ5_f5SgE,32
+tests/test_parser.py,sha256=fAuE_Px4gNbqzORc34hs2pWsJVS8TgzYFtzIaPj2aKo,1133
+tests/benchmarks/test_performance.py,sha256=2Szw-lap65ONvl5XSYBq7oSWk9zzgR_nvixuIZ2YPew,1510
+jsongeekai-0.1.1.dist-info/METADATA,sha256=V_xms2Dg701mjPe2ZkwXT7XLCahuTYM-_Mn2GVp5_qw,4251
+jsongeekai-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+jsongeekai-0.1.1.dist-info/top_level.txt,sha256=X6KYQFuJeyTLSxiQQ4pQ8-b3yUl18QxpjSFyiJkk0Wg,15
+jsongeekai-0.1.1.dist-info/RECORD,,
