@@ -1,0 +1,2 @@
+[distutils.commands]
+create_readme_rst = djxml.build:create_readme_rst
