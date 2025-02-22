@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+filterbib/__init__.py
+filterbib/filter_bib
+filterbib/read_bib
+filterbib.egg-info/PKG-INFO
+filterbib.egg-info/SOURCES.txt
+filterbib.egg-info/dependency_links.txt
+filterbib.egg-info/requires.txt
+filterbib.egg-info/top_level.txt
+tests/test_example.py

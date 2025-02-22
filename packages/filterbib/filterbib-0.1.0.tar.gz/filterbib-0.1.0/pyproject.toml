@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filterbib"
+version = "0.1.0"
+description = "A Python package that includes a Python and Bash script to filter particular fields from a bib-file"
+authors = [{ name = "Jurjen Heij", email = "jurjenheij@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pybtex"]
+
+[tool.setuptools]
+packages = ["filterbib"]
