@@ -1,0 +1,9 @@
+text_classifier_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_classifier_sdk/classifier.py,sha256=KM1qPC_14oFFxkZPNOgCfrIb8n6gv5LlAjA_fFpnZUs,2272
+text_classifier_sdk/model_utils.py,sha256=Z7c1MX_-1u3lMoygCcb4wloQuQA0ri2FySQsbr9YSSo,944
+text_classifier_sdk/train.py,sha256=Ri8G6cg3BNKX0ctel30B1iuicKeeaUT3x8ZofDlzhO8,2390
+text_classifier_sdk-0.1.1.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+text_classifier_sdk-0.1.1.dist-info/METADATA,sha256=Fe7nEcDELgdij5pNMNz8LnLXJUU9SA2RqyvbTDhyQXg,725
+text_classifier_sdk-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+text_classifier_sdk-0.1.1.dist-info/top_level.txt,sha256=0RR7Tvxb7uOodYjeR8wAv-N-tuxVvRNwMDo6RUOs83A,20
+text_classifier_sdk-0.1.1.dist-info/RECORD,,
