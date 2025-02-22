@@ -1,0 +1,6 @@
+dm-control>=1.0.27
+gymnasium>=1.0.0
+imageio[ffmpeg]>=2.37.0
+ipython>=8.32.0
+torch>=2.6.0
+torchvision>=0.21.0
