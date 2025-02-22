@@ -1,0 +1,11 @@
+amdsmi/__init__.py,sha256=1z6kyi_Hic3KuDhb7XgUQEYFxnaFYSxoGLTuVX36LPM,12783
+amdsmi/_version.py,sha256=rl2t2nYZxaCK9y94FouQl9YhN9Z3eXVH12-FqfhLg00,21
+amdsmi/amdsmi_exception.py,sha256=HzdMCLXiQo8FgfoIPLTcnOHo8xVpSvvfQWO8ceGGX4U,8424
+amdsmi/amdsmi_interface.py,sha256=QxBSOXM3omYuewCnQk6wAfhbqiMVM2ea5VaAr9xBhYI,158243
+amdsmi/amdsmi_wrapper.py,sha256=rh7DxZShfRaMOyvWDnyxEK6HMnlh7PpkHAFZwY602tU,131825
+amdsmi/setup.py,sha256=pwmobYbHm-lNDSpUkIGuYhRkDmnVg-nkoRd5Mwz0CBo,587
+amdsmi-6.3.3.dist-info/LICENSE,sha256=ERSEiCwLej34PhssJiRTRyGdaEox4HA_BXDSUcOFZJ4,1077
+amdsmi-6.3.3.dist-info/METADATA,sha256=oVElX7rCCO0ils8msKKvUfxdj3zd-bvhzr6kM-W0BuM,2802
+amdsmi-6.3.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+amdsmi-6.3.3.dist-info/top_level.txt,sha256=BtUbTlwE9EWJ5d6qD92R0FSs2OzQ0WmXovKk7k0mQzU,7
+amdsmi-6.3.3.dist-info/RECORD,,
