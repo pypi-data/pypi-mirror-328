@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: trossen_slate
+Version: 0.0.3
+Summary: A Python wrapper for the trossen_slate C++ library
+Author-Email: Grayson Arendt <trsupport@trossenrobotics.com>
+License: BSD 3-Clause
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Trossen SLATE
