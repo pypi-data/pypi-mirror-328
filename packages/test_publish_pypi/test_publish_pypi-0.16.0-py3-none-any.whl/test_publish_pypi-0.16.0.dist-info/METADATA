@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: test_publish_pypi
+Version: 0.16.0
+Summary: Testing package for publishing to PyPI
+License: MIT
+Author: Benjamin Partridge
+Author-email: bp1183@my.bristol.ac.uk
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
