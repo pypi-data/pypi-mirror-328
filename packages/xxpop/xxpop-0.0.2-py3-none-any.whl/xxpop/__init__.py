@@ -1,0 +1,1 @@
+__all__,__version__,__import__('builtins').xxp=[],'0.0.2',lambda x : (x,x.pop())
