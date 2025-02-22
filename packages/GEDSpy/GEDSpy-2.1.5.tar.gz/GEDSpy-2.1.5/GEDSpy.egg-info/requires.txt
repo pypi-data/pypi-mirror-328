@@ -1,0 +1,17 @@
+requests
+pandas
+tqdm
+seaborn
+matplotlib
+scipy
+networkx
+pyvis
+beautifulsoup4
+numpy
+adjustText
+gdown
+pkg_resources
+fisher-exact
+binom-test
+urllib3
+bs4
