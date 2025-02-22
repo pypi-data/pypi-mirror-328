@@ -1,0 +1,2 @@
+[console_scripts]
+asimov-nearai-prompter = asimov_nearai_prompter.__main__:main
