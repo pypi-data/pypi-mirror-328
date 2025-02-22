@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devopsAI"
+version = "0.1.5" 
+description = "A utility for executing system commands via AI Agent"
+readme = "README.md"
+authors = [
+    {name = "Dineshkanna", email = "kannadinesh.m@gmail.com"}
+]
+license = {text = "SQUAPL"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License", 
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[tool.setuptools_scm]
+write_to = "src/devopsai/_version.py"
+local_scheme = "no-local-version"
+
+[project.urls]
+"Homepage" = "https://github.com/Dineshkanna654/devops"
+"Bug Tracker" = "https://github.com/Dineshkanna654/devops/issues"
+
+[project.scripts]
+ai = "devopsai.cli:main"
+devopsAI = "devopsai.version:main"  # Keeping lowercase for CLI consistency

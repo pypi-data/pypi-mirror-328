@@ -1,0 +1,6 @@
+venv
+dist
+**/__pycache__/
+**/__pycache__/*
+src/devopsai/_version.py
+src/devopsai/__pycache__
