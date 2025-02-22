@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: x402
+Version: 0.1.0
+Summary: x402 - an payments protocol for the web
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
