@@ -1,0 +1,10 @@
+scrapy_zen/__init__.py,sha256=go20U3RCVaJ2N55RnX4tO5rinfUCRV0puFyrHCto8yw,23
+scrapy_zen/addons.py,sha256=6ZAuWl9vlT5rtpdW0ZdaI36wgG1O_BRdGiLf_XVmvIA,3706
+scrapy_zen/handler.py,sha256=8ErRYUIvqULeUEBpetXYJB5d0cZNU5bJOTlGppgx7Q4,1894
+scrapy_zen/middlewares.py,sha256=D9dLTxJqyvhD1JZTlDe5j-Dflrvp2rrR1iLT48-IlY4,2707
+scrapy_zen/monitors.py,sha256=uhxwwG0V6ES7JJkWNcM1MPZ3o_cAXsLhJQ0oBEy9w5M,3502
+scrapy_zen/pipelines.py,sha256=VWEDLGVwvdczuq05eJby2LvAHaIap6t-8mC4ZvkGsrM,14380
+scrapy_zen/templates/message.jinja,sha256=4oBlvZ99sNEN4s9Fw2frbNzC0E0yzD9WQXcJdwRjXbs,548
+scrapy_zen-0.0.15.dist-info/METADATA,sha256=-dK99cXzumDCN9FpzffDPx8UspLNGLJ6KAb74VXyhjs,5138
+scrapy_zen-0.0.15.dist-info/WHEEL,sha256=7dDg4QLnNKTvwIDR9Ac8jJaAmBC_owJrckbC0jjThyA,88
+scrapy_zen-0.0.15.dist-info/RECORD,,
