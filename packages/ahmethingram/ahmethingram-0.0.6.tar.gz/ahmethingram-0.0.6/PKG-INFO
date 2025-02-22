@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ahmethingram
+Version: 0.0.6
+Summary: 😁🤩🤗🤗🤗🙂😚😁
+Home-page: https://github.com/aamya2003/ahmethingram
+Author: Ahmed Asaad
+Author-email: ahmadasaadmajed1@gmail.com
+License: UNKNOWN
+Description: # My Simple Library
+        
+        مكتبة بايثون بسيطة للقيام بعمليات جمع الأرقام.
+        
+        ## التثبيت
+        يمكنك تثبيت المكتبة باستخدام:
+        
+        
+        
+        
+        ## الاستخدام:
+        ```python
+        from my_simple_library import add
+        print(add(3, 4))  # 7
+        
+        
+        
+        ### **1.5. ملف `LICENSE`** (اختياري):
+        ```text
+        MIT License
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
