@@ -1,0 +1,7 @@
+numpy
+
+[all]
+skiba[extra]
+
+[extra]
+pandas
