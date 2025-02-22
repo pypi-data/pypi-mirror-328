@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: k3ng-rotator-python
+Version: 2.0.0
+Summary: Control a K3NG rotator over serial
+Author: Reid Sox-Harris
+Author-email: reid@soxharris.com>
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pyserial (>=3.5,<4.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rpyc (>=6.0.0,<7.0)
+Project-URL: Repository, https://github.com/eosti/k3ng-rotator-python
