@@ -1,0 +1,8 @@
+funcnodes_pyodide/__init__.py,sha256=RrEgbwTYH6roEWzAQ2SkG2uZ3E7AJc2_NEkbnb7m0NU,317
+funcnodes_pyodide/__main__.py,sha256=XA7mGDLa-tlNTwnZ4IdGV6NrmHE9P5vtXLgsFYL5ciA,896
+funcnodes_pyodide/patch.py,sha256=6-cikhco83deXyqGoyJQCCGf8dZf86bP84WuoSD_gqc,402
+funcnodes_pyodide/worker.py,sha256=76kiOIFeEnUT_dfFXZ4aHTsY2CwbfrA-Sd8F1jRtHjE,491
+funcnodes_pyodide-0.1.2.dist-info/METADATA,sha256=96nPYO5U_VpGcGUdpB6y-t3YEW1G4l3WiEJO05zMdkM,378
+funcnodes_pyodide-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+funcnodes_pyodide-0.1.2.dist-info/top_level.txt,sha256=fdDoy2aNlAO64GhHjv0FhO0FfxlB9g__fepxXpmChEM,18
+funcnodes_pyodide-0.1.2.dist-info/RECORD,,
