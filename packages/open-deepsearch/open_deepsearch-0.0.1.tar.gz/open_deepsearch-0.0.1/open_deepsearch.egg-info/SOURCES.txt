@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+open_deepresearch/__init__.py
+open_deepresearch/main.py
+open_deepsearch.egg-info/PKG-INFO
+open_deepsearch.egg-info/SOURCES.txt
+open_deepsearch.egg-info/dependency_links.txt
+open_deepsearch.egg-info/top_level.txt
