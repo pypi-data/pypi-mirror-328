@@ -1,0 +1,8 @@
+pyfglt-0.3.0.dist-info/METADATA,sha256=AYlqNaZIiEU6iRpepqLnLAsriYntjTaSHVVTWmsVT_k,4782
+pyfglt-0.3.0.dist-info/WHEEL,sha256=8AdrFzOtKQ6LLJ-VyqCU3y1iN8N--fMXYqrdkeTKDn0,83
+pyfglt/_fglt_c.cp39-win_amd64.pyd,sha256=4DRZAAnnK5PGtQ3uLiUxb9E40yDG37hJ8L1ZPmT5CoM,252083
+pyfglt/_fglt_c.cp39-win_amd64.dll.a,sha256=uTVkOciL9PGQZTHhucrU_n12ErSbz_ERNJIrzUNwUUg,1714
+pyfglt/fglt.py,sha256=HpfrvKVVNiNuyDCRBAN0L0DLuGSIGJZqmwEsdpaYGC0,6857
+pyfglt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfglt-0.3.0.data/headers/fglt.hpp,sha256=y-7XcVVNLwVXY-nNQfwGGiw8QkMWQ_stgaLeDzlWzv0,1648
+pyfglt-0.3.0.dist-info/RECORD,,
