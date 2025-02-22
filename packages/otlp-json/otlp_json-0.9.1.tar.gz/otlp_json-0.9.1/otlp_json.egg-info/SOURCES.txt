@@ -1,0 +1,8 @@
+otlp_json.py
+pyproject.toml
+readme.md
+otlp_json.egg-info/PKG-INFO
+otlp_json.egg-info/SOURCES.txt
+otlp_json.egg-info/dependency_links.txt
+otlp_json.egg-info/top_level.txt
+test/test_pure_python.py
