@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-users-auth
+Version: 2.3.3
+Summary: Django authentication app with custom user model
+Home-page: https://github.com/Vazquez1240/authentication-django
+Author: Martin
+Author-email: vazquezmartin1240@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=4.2
+
+# Django Users Authentication
