@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: autocorrect_kh
+Version: 0.1.5
+Summary: An autocorrect library for Khmer text
+Home-page: https://github.com/monykappa/autocorrect-kh-address.git
+Author: Kim Ouddommony
+Author-email: kimmony039@gmail.com
+Requires-Dist: jellyfish
+Requires-Dist: regex
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
