@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: princeffinfo
+Version: 0.1.2
+Summary: A package to fetch Free Fire account info.
+Author: PRINCE-LK
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: summary
