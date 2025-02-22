@@ -1,0 +1,9 @@
+deluge_announce/__init__.py,sha256=fxGHNR3q8mvabU0ic7cx6HtbKucgXkr-e0M-c4oqhwI,101
+deluge_announce/announcer.py,sha256=xUhftA1Y_kHah3GvEf-mwEktPNrm6PbvHMYBec1TzvE,16402
+deluge_announce/config.py,sha256=zUsCXV_e9XbF5JYT7UN3VNaSYcxc34F1Ms446oIsgVU,1292
+deluge_announce/enums.py,sha256=kD7JcnRxBvp1oVDWCiabJL4bjpsQpikeJDSITuczA50,1007
+deluge_announce/logger.py,sha256=BJUhkwY2EXAciXtY3iMoPWYEB7c5bzkvuvNiXGQPuXo,815
+deluge_announce-0.1.4.dist-info/LICENSE,sha256=Ey3M-8bq0bCvxBdWjB9mNGg83xtzVSPfRAuvs2FklTk,1091
+deluge_announce-0.1.4.dist-info/METADATA,sha256=NijZchQwIOu3_d8znM5nhs1SyLew04KlSHUJ-YM2Jnc,4246
+deluge_announce-0.1.4.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+deluge_announce-0.1.4.dist-info/RECORD,,
