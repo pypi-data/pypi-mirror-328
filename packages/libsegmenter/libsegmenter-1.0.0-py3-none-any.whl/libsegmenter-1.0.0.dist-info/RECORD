@@ -1,0 +1,9 @@
+libsegmenter/Segmenter.py,sha256=FB2v9Ag5dHQlqSoMaS6tgAO2CYJvsvLvci3MGYUMvx0,2734
+libsegmenter/TransformSelector.py,sha256=MpXzTfWHVVo8Bnys2QBd8EYK31IyDML4EN6DhCDIMZA,2130
+libsegmenter/Window.py,sha256=M3shbXV0O4DCCSzqk5sS_mEkemZ2REbAj_4hXF4gMqc,2371
+libsegmenter/WindowSelector.py,sha256=IK6YiUtMHl1pwRUkFbvtMGVgDyeaTRh9w8nRHB7DDvw,4685
+libsegmenter/__init__.py,sha256=ORpXoYtss8s5h7MuRfS0_7ppJWzTErXiJ7vD0DX6BKw,1256
+libsegmenter-1.0.0.dist-info/METADATA,sha256=aKeF_wzbHYOmNwcXMi7uauFAXYX5H8YJewveXGxOOXY,3619
+libsegmenter-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+libsegmenter-1.0.0.dist-info/top_level.txt,sha256=cq8E-zGLGE-TwEO5X_5aPUBvuVuZrzeLl4rjOaniv-M,13
+libsegmenter-1.0.0.dist-info/RECORD,,
