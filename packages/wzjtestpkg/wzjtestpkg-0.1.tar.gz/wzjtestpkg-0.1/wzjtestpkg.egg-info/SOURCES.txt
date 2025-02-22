@@ -1,0 +1,9 @@
+README.md
+setup.py
+wzjpkg/__init__.py
+wzjpkg/m1.py
+wzjpkg/m2.py
+wzjtestpkg.egg-info/PKG-INFO
+wzjtestpkg.egg-info/SOURCES.txt
+wzjtestpkg.egg-info/dependency_links.txt
+wzjtestpkg.egg-info/top_level.txt
