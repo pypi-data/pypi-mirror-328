@@ -1,0 +1,8 @@
+pyglet
+
+[docs]
+sphinx==8.0.2
+pydata-sphinx-theme==0.16
+
+[test]
+pytest
