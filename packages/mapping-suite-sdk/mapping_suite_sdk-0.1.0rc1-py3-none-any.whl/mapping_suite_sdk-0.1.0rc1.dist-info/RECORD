@@ -1,0 +1,16 @@
+mapping_suite_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapping_suite_sdk/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapping_suite_sdk/adapters/extractor.py,sha256=KStEXYnSwScd1q9g_sUEMmOZ3vRVRrTg9gC1ykJSmNo,5606
+mapping_suite_sdk/adapters/loader.py,sha256=CvtwvGk0iA25TH6P77LhB3sfm0weefX53UarWLzoSBU,11775
+mapping_suite_sdk/adapters/serialiser.py,sha256=A8khfNBBMtM4FgMAHvvgjY_6LKrop0goymRzlq0yai8,6371
+mapping_suite_sdk/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapping_suite_sdk/models/asset.py,sha256=P3ixyIGLoTrW8wOPErdLbCeX8-8Elb803_96ArGkT4A,8557
+mapping_suite_sdk/models/core.py,sha256=HXKAoDYXW30LAl0CLJ7l0vrrOHBz1jM9vhxVjItW0A0,1470
+mapping_suite_sdk/models/mapping_package.py,sha256=sWs2sNtQIASN6LnQipA3jhRgdOMrMUPDcELH_XYoOlc,5186
+mapping_suite_sdk/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapping_suite_sdk/services/load_mapping_package.py,sha256=kuPx0dagXz8b4BT10Jx4Ks6nJ-qUKAkRvizDsMmmH3k,4067
+mapping_suite_sdk/services/serialise_mapping_package.py,sha256=EcyWNDlmzXcu48OBPgpl52aFELfBGujPFj08QlCgilo,2440
+mapping_suite_sdk-0.1.0rc1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mapping_suite_sdk-0.1.0rc1.dist-info/METADATA,sha256=B8IvK5sT0Ut6rnPR_JJOz5QqfUc6BnL57nhLbAmKcFE,3991
+mapping_suite_sdk-0.1.0rc1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+mapping_suite_sdk-0.1.0rc1.dist-info/RECORD,,
