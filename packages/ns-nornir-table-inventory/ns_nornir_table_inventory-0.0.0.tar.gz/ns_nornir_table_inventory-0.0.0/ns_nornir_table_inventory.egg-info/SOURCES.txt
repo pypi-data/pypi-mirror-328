@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+ns_nornir_table_inventory/__init__.py
+ns_nornir_table_inventory.egg-info/PKG-INFO
+ns_nornir_table_inventory.egg-info/SOURCES.txt
+ns_nornir_table_inventory.egg-info/dependency_links.txt
+ns_nornir_table_inventory.egg-info/top_level.txt
+ns_nornir_table_inventory/plugins/inventory/__init__.py
+ns_nornir_table_inventory/plugins/inventory/table.py
