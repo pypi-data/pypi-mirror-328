@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatbotai-gui"
+version = "1.0.1b1"
+description = "A chatbot GUI that uses OpenAI, MetaAI, and Google Generative AI."
+license = { text = "AGPL-3.0-or-later" }  # ⬅️ Set the license **statically**
+authors = [
+    { name = "ProgMEM-CC" }
+]
+
+[tool.setuptools.packages]
+find = {}  # ⬅️ Automatically find packages
