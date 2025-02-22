@@ -1,0 +1,2 @@
+[console_scripts]
+perchance = perchance.runner:run_perchance_script
