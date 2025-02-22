@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: django-typed-perms
+Version: 0.1.3
+Summary: Typed Django permission checking
+Project-URL: Homepage, https://github.com/leandrodesouzadev/django-typed-perms
+Project-URL: Issues, https://github.com/leandrodesouzadev/django-typed-perms/issues
+Author-email: Leandro de Souza <85115541+leandrodesouzadev@users.noreply.github.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# django-typed-perms
+
+A package to enhance your DX on Django's permission system.
+
+You can read the full documentation of this project at:
+
+[django-typed-perms docs](https://leandrodesouzadev.github.io/django-typed-perms/)
