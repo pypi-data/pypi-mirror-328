@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: universalinit
+Version: 0.1.6
+Summary: 
+Author: Zoltan Kuscsik
+Author-email: zoltan@s57.io
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: PyYAML
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Description-Content-Type: text/markdown
+
+Universal software project template for React Python, C++, and more.
+
+
+
