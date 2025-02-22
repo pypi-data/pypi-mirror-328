@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: deepquant
+Version: 0.4.3
+Summary: quant data and factor tools by cgs
+Author: cgs
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy<=1.26.4,>=1.19.5
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: websocket-client
+Requires-Dist: protobuf<=3.20.3
+Requires-Dist: PyJWT
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: pyecharts
+Requires-Dist: empyrical-reloaded
+Requires-Dist: astor
+Requires-Dist: RestrictedPython
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.2; extra == "dev"
+Requires-Dist: sphinx>=3.4.3; extra == "dev"
+
+# deepquantSDK
+
+投资决策平台因子数据SDK
+
+## Getting started
+
+
+
+## 文档说明
+
+## deepquant包结构
+
+```
+deepquant
+├── data  # 数据接口
+│   ├── gqclient   # 基础框架
+│   ├── __init__.py
+│   ├── interface  # 数据接口
+│   ├── proto      # pb协议
+│   └── utils
+├── factor # 因子分析
+├── oplib  # 金融函数库
+├── swordfish.libs # 金融函数库相关so
+├── __init__.py
+├── samples # 示例代码
+└── setup.py
+```
