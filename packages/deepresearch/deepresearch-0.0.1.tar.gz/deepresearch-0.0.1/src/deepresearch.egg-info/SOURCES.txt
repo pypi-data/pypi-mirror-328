@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/deepresearch/__init__.py
+src/deepresearch.egg-info/PKG-INFO
+src/deepresearch.egg-info/SOURCES.txt
+src/deepresearch.egg-info/dependency_links.txt
+src/deepresearch.egg-info/top_level.txt
