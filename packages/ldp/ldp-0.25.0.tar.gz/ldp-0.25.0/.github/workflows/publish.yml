@@ -1,0 +1,33 @@
+name: Publish
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: build-ldp
+        uses: hynek/build-and-inspect-python-package@v2
+        with:
+          upload-name-suffix: -ldp
+      - name: Download built artifact to dist/
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.build-ldp.outputs.artifact-name }}
+          path: dist
+      - id: build-lmi
+        uses: hynek/build-and-inspect-python-package@v2
+        with:
+          upload-name-suffix: -lmi
+      - name: Download built artifact to dist/
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.build-lmi.outputs.artifact-name }}
+          path: dist
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
