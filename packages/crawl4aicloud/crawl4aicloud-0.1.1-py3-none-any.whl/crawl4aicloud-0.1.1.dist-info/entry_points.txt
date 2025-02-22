@@ -1,0 +1,2 @@
+[console_scripts]
+crawl4aicloud = crawl4aicloud:main
