@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: hola_mundo_edison
+Version: 0.1.1
+Summary: Una librería simple que dice ¡Hola, mundo!
+Author-email: Edison <ERAMREG@proteccion.com.co>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
