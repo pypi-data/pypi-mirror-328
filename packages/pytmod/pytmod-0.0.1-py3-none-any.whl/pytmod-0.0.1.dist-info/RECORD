@@ -1,0 +1,10 @@
+pytmod/__init__.py,sha256=LZ7odhkZCZoE3r56nU6PRTqJvtqabcKdY6MA_rK0_A4,510
+pytmod/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+pytmod/eig.py,sha256=RN-Z2Q7FncJ32OXOSOHzXyCJU3dTITZA2H3jI8LzmlE,31913
+pytmod/helpers.py,sha256=OSyT_8eKGTkiecY5EfBGgSZRys3nNqDCXFNIu6B-VsI,9435
+pytmod/material.py,sha256=jSf-937Dd8vcCluu2adINJCo40V3cLWN-h2pAiJ7fyc,15401
+pytmod/slab.py,sha256=zVlhu8lIl_aasFNYMnSKudVeNzgrGVLjo9UwKXv-J9k,22732
+pytmod-0.0.1.dist-info/METADATA,sha256=WlOJ3hGjPtqD0M1KeZOgjJQGb0m82fkhV2tYLB4wiis,44225
+pytmod-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pytmod-0.0.1.dist-info/licenses/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pytmod-0.0.1.dist-info/RECORD,,
