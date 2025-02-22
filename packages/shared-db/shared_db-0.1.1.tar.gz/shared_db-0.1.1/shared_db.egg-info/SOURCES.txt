@@ -1,0 +1,6 @@
+setup.py
+shared_db.egg-info/PKG-INFO
+shared_db.egg-info/SOURCES.txt
+shared_db.egg-info/dependency_links.txt
+shared_db.egg-info/requires.txt
+shared_db.egg-info/top_level.txt
