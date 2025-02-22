@@ -1,0 +1,58 @@
+[project]
+name = 'coloform'
+readme = 'README.md'
+requires-python = '>=3.8'
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Operating System :: POSIX :: Linux',
+    'Development Status :: 1 - Planning',
+]
+dependencies = [
+    'colorama',
+]
+dynamic = ['description', 'version', 'authors', 'maintainers']
+
+[project.optional-dependencies]
+dev = [
+    'autopep8',
+    'isort',
+    'mypy',
+    'ruff',
+    'types-colorama',
+    'uv',
+]
+
+[project.urls]
+Repository = "https://github.com/FynnFreyer/coloform"
+Issues = "https://github.com/FynnFreyer/coloform/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+description = { path = "coloform/__about__.py" }
+version = { path = "coloform/__about__.py" }
+authors = { path = "coloform/__about__.py" }
+maintainers = { path = "coloform/__about__.py" }
+
+# Formatting options
+[tool.autopep8]
+max_line_length = 120
+in-place = true
+recursive = true
+
+[tool.isort]
+src_paths = ['coloform']
+line_length = 120
+
+# Linting options
+[tool.ruff]
+line-length = 120
+src = ['coloform']
+
+show-fixes = true
+
+[tool.ruff.lint]
+select = ['E', 'F', 'B', 'Q']
+mccabe = { max-complexity = 10 }
