@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+quickscript.py
+quickscript.egg-info/PKG-INFO
+quickscript.egg-info/SOURCES.txt
+quickscript.egg-info/dependency_links.txt
+quickscript.egg-info/requires.txt
+quickscript.egg-info/top_level.txt
+tests/test_arrow_integration.py
+tests/test_basic.py
+tests/test_pandas_integration.py
+tests/test_polars_integration.py
+tests/test_sample_usage.py
