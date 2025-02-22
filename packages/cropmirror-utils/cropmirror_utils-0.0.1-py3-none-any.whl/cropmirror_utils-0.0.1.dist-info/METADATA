@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: cropmirror_utils
+Version: 0.0.1
+Summary: 云稷基础算法库
+Author: Long.liu, Wenchang
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CropMirrorUtils
+云稷基础算法库
