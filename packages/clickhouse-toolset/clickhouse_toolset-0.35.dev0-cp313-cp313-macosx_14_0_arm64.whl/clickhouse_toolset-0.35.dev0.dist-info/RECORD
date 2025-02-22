@@ -1,0 +1,9 @@
+clickhouse_toolset-0.35.dev0.dist-info/RECORD,,
+clickhouse_toolset-0.35.dev0.dist-info/LICENSE,sha256=ErVqngkpgE88AZI3kII2t1KImK5_B4OZwuSB2VBme14,1518
+clickhouse_toolset-0.35.dev0.dist-info/WHEEL,sha256=wajf2RmtLcyDhlr_PKgNyLmxD2pJHORwHzFCayrprrU,109
+clickhouse_toolset-0.35.dev0.dist-info/top_level.txt,sha256=wk9pWxqAkPFAf8tJy86marVPKIcd_zuADCyt9pMFqjQ,10
+clickhouse_toolset-0.35.dev0.dist-info/METADATA,sha256=zsYUhAeeuLoPEBAcfO-T0V2FODWP-xAhM4cs78-w9r4,396
+chtoolset/query.py,sha256=_-ijEQTep5Wpe7RKwJSg1qavLhUYVe9rmS2GwY0NajY,312
+chtoolset/__init__.py,sha256=v5PevgvE2s54rod6TZnXN7XPp0ZiwxjxE9cScAMVHFo,20
+chtoolset/_query.cpython-313-darwin.so,sha256=882oeZiJMSFTJnGouiVcUkUovxREd68WMZ-xk5A_7Vo,115586560
+chtoolset/.dylibs/libunwind.1.0.dylib,sha256=HyCMBcm2Tqg04I5VqyBV0GvdYDSy_kL8wjB8fFGWVGI,110528
