@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: picoboot3
+Version: 1.1.0
+Summary: Programmer for Picoboot3, allowing firmware updates to Raspberry Pi Pico via UART/I2C.
+Home-page: https://github.com/IndoorCorgi/picoboot3py
+Author: Indoor Corgi
+Author-email: indoorcorgi@gmail.com
+License: MIT License
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pyserial
+Requires-Dist: smbus2
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
