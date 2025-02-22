@@ -1,0 +1,14 @@
+trame_client>=3.5
+trame_server>=3.3
+
+[dev]
+pre-commit
+ruff
+pytest
+codespell
+
+[quasar]
+trame_quasar
+
+[vuetify]
+trame_vuetify
