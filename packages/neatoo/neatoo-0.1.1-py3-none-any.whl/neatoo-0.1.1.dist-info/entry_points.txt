@@ -1,0 +1,2 @@
+[console_scripts]
+neatoo = neatoo:cli

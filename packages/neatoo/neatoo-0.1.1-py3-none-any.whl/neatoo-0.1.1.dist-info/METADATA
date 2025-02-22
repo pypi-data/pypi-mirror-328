@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: neatoo
+Version: 0.1.1
+Summary: A simple yet powerful tool for Python code formatting, checking, and testing.
+Project-URL: Homepage, https://github.com/linkedlist771/neatoo
+Project-URL: Repository, https://github.com/linkedlist771/neatoo.git
+Author-email: linkedlist771 <213193509seu@gmail.com>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: black==23.9.1
+Requires-Dist: flake8>=7.1.2
+Requires-Dist: isort>=6.0.0
+Requires-Dist: pytest>=8.3.4
+Description-Content-Type: text/markdown
+
+# neatoo
+A simple yet powerful tool for Python code formatting, checking, and testing.
+
+neatoo is built on top of [black](https://github.com/psf/black), [isort](https://github.com/PyCQA/isort), and [flake8](https://github.com/PyCQA/flake8), thanks to those great tools.
+
+## Installation
+
+1. Install from pip:
+```bash
+pip install neatoo
+```
+
+2. Install from source:
+```bash
+pip install -e .
+```
+
+## Usage:
+
+1. format your code:
+```bash
+neatoo format {paths}
+```
+
+2. check your code:
+```bash
+neatoo check {paths}
+```
+
+3. test your code:
+This is equivalent to running `pytest` on the `tests/` directory.
+
+```bash
+neatoo test {paths}
+```
+
+
