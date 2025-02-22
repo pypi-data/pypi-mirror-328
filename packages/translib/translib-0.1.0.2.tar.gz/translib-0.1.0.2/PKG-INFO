@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: translib
+Version: 0.1.0.2
+Summary: A simple translation library
+Home-page:  
+Author: Phillip
+Author-email: tranquanganhminh25313@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TransLib
+
+A lightweight translation library
+Download it and use it
+
+## Code
+```python
+translated_text = tr.translate()
