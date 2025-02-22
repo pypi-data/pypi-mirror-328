@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: microsoft-store-scraper
+Version: 0.0.2
+Summary: Microsoft-Store-Scraper provides APIs to easily crawl the Microsoft Store for Python without any external dependencies!
+Project-URL: Homepage, https://github.com/smitk85143/microsoft-store-scraper
+Author-email: smitk85143 <smitk85143@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Microsoft-Store-Scraper
+Microsoft-Store-Scraper provides APIs to easily crawl the Microsoft Store for Python without any external dependencies!
+
+
+## Getting started
+
+```
+from microsoft_store_scraper import app
+
+results = app(app_id="9nht9rb2f4hd")
+print(results)
+```
+
+
+## Thanks to our Resources
+[google-play-scracper](https://github.com/JoMingyu/google-play-scraper)
