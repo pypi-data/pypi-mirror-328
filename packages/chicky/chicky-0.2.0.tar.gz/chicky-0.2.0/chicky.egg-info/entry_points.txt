@@ -1,0 +1,2 @@
+[console_scripts]
+chicky = chicky.cli.entrypoint:main

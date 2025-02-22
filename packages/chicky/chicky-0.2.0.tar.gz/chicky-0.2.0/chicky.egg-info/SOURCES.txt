@@ -1,0 +1,16 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+chicky/__init__.py
+chicky/core.py
+chicky.egg-info/PKG-INFO
+chicky.egg-info/SOURCES.txt
+chicky.egg-info/dependency_links.txt
+chicky.egg-info/entry_points.txt
+chicky.egg-info/requires.txt
+chicky.egg-info/top_level.txt
+chicky.egg-info/zip-safe
+chicky/cli/__init__.py
+chicky/cli/entrypoint.py
