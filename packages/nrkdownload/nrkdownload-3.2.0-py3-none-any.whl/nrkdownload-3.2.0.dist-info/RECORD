@@ -1,0 +1,11 @@
+nrkdownload/__init__.py,sha256=tqdxayQ4nGlVYJLRKxzRzOIOpFlMf0Lm37UmJie1iWM,481
+nrkdownload/__main__.py,sha256=7bJHLIMLTYIxh9Ahtmhcm1yZav7SPEy4JE_Axk0WoJg,112
+nrkdownload/cli.py,sha256=h2M7UbzxbXU8nMlOhOeRcA8Fd3VSf3CE41DbNZgraf0,3266
+nrkdownload/download.py,sha256=F1JF1WLEwBgNQlx-bWWCuTpH8EJSNsVmJj3dE-d-O-4,2711
+nrkdownload/nrk_tv.py,sha256=4Y12ErOHg3lBmlN4JdzBvxSk1EU0uGNHnf3qacci0RA,8809
+nrkdownload/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nrkdownload-3.2.0.dist-info/METADATA,sha256=NRwc-tXPkjRJRn20G6ZhElnKc0OsziSr-4wery83cow,1415
+nrkdownload-3.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+nrkdownload-3.2.0.dist-info/entry_points.txt,sha256=cjaP2MegNUhW77ua156VApEezVM7SLneciYb7fkdGLc,52
+nrkdownload-3.2.0.dist-info/top_level.txt,sha256=UoF9LKTmXwpuA1fGiDetq6SwdMaUda_gmuaMnehc4zs,12
+nrkdownload-3.2.0.dist-info/RECORD,,
