@@ -1,0 +1,8 @@
+my_lib_api/__init__.py,sha256=DFRGjXPiMjZXslzV9Nynt1n3XTFwlFbOnYHeNibSZjc,28
+my_lib_api/main.py,sha256=L9lVZtlkBC20voy9cTHaVfWrnMx3iseMXnFJnQmppuA,3528
+my_lib_api/run_app.py,sha256=Hilkkba-60RT7Fuom16I6cBHB6ej9G3SKDQpbRdNRjo,43
+my_lib_api/templates/import_file.html,sha256=xvMpDQOmnDFiltfAQB_UaGl7FfRKHu9RQBrBHcFTEk8,489
+my_lib_api-0.1.dist-info/METADATA,sha256=xKAC6cfDhHqf3v9HVn76vHu9RyhzpAbZ-g3cT-7rzj8,148
+my_lib_api-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+my_lib_api-0.1.dist-info/top_level.txt,sha256=g1pQfod0-orbEYhFKHpydSfNSORdLuIri_iX2mgvMaI,11
+my_lib_api-0.1.dist-info/RECORD,,
