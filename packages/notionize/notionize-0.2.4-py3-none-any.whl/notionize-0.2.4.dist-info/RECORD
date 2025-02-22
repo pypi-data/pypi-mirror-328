@@ -1,0 +1,11 @@
+notionize/__init__.py,sha256=ZR4BnsL-q32OKu89o9fNxDlKnQiR8izfguqZQGwskOY,89
+notionize/converters.py,sha256=h4ZbkztiKYqyPjyNSbMVicbumUf5gLsv1AQ3SKJM-AA,10708
+notionize/enums.py,sha256=sK83u86R8UAOC8mx028k6HEKMfVuZn2BgIZcR4bh0Jg,1765
+notionize/errors.py,sha256=s5v4ij1mDhXt2qszwqpzesj12BqD99MeW8CwrljAD4s,203
+notionize/main.py,sha256=O4fFHXrWXxZQWLNC0jaTv_D6xhlZhciUss38MChvKeo,5050
+notionize/models.py,sha256=tp7Fa3CRONK4TrqMvauEbjq0tm9BKouaaNIFyVJHhkY,1971
+notionize/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notionize-0.2.4.dist-info/METADATA,sha256=1wvg5icE2eYmuaQgDqHp5sqXeyfsBDv7Uur2EJCcyfE,1152
+notionize-0.2.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+notionize-0.2.4.dist-info/licenses/LICENSE,sha256=AafHFE6oKXZ6ylyl9KNxhIXF_f95wywTTg4QNxdHuKc,1067
+notionize-0.2.4.dist-info/RECORD,,
