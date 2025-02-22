@@ -1,0 +1,13 @@
+tree_sitter_nix/__init__.py,sha256=TqkcO8245nxwZG543yNaUfJJrBZONUWPG3RbRfMd8EE,1152
+tree_sitter_nix/binding.c,sha256=2X9pU_rxHqQ1LYY8w_YDEkDW68vxD8LRVYJ9ogQreNU,830
+tree_sitter_nix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_nix/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_nix/_binding.abi3.so,sha256=KpnbnsVSM9mMRphwRuQlOPHqZ7PLFzlJuWw4wj_mA6E,137312
+tree_sitter_nix/queries/injections.scm,sha256=c4E5o_wgAulMl4xnI1Cm2txe82Ff_M-1Zf9l8N_a-lo,1422
+tree_sitter_nix/queries/highlights.scm,sha256=Iw1w1JIejrkBmOp3C_wP9rrf91ps6lTxhP6WnDm3v2c,2654
+tree_sitter_nix/queries/locals.scm,sha256=MyIoVSzBXwH2JCpFGJQxxSgr7zXAdmErAaFPTyqHOHo,1220
+tree_sitter_nix-0.1.0.dist-info/LICENSE,sha256=wbcuUCZkZOxRGNJiAOF78fRy0ULmKrY34f_COYZleng,1072
+tree_sitter_nix-0.1.0.dist-info/WHEEL,sha256=mhIPK0OPCY_ClP5mi8m_2578YAhTonvPnSVcZrtYVOE,111
+tree_sitter_nix-0.1.0.dist-info/METADATA,sha256=L6E-UD5XYKw1Qamlg_8eQlWJYCxxuVIp9JVUmiZShYY,866
+tree_sitter_nix-0.1.0.dist-info/top_level.txt,sha256=nO3T87J9E3kHbyzxECC_uQOIm4cympoJ3buVk55dvRo,25
+tree_sitter_nix-0.1.0.dist-info/RECORD,,
