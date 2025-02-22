@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# inputs
+input_file="`readlink -f $1`"
+output_file="`readlink -f $2`"
+fields_to_remove="$3"
+
+#---------------------------------------------------------------------------------------------------------
+# Create help text
+function Usage {
+    cat <<EOF
+
+---------------------------------------------------------------------------------------------------
+filter_bib
+
+Filter a bib-file representing a bibliography for particular fields to clean up the file. By default,
+it filters out the following fields:
+
+["abstract","note","file","extra","keywords","copyright","url","doi","urldate","issn","shorttitle",
+"language","pmid"]
+
+This part of the script is shell to deal with the ampersand's in the file ('\\&' is not processed well in LaTex, so this should be changed to '\&'). It is very hard to do this
+with expressions used in python. This is mainly important if you're using full journal names, rather than the abbreviations.
+
+Arguments:
+  <input bib>           file to be filtered
+  <clean bib>           cleaned file
+  <fields to remove>    comma-separated list of fields to remove
+
+Example:
+  filter_bib exported_items.bib exported_items_clean.bib
+  filter_bib exported_items.bib exported_items_clean.bib abstract,note,extra
+
+---------------------------------------------------------------------------------------------------------
+
+EOF
+    exit 1
+}
+
+if [[ $# -lt 2 ]] ; then
+  Usage >&2
+  exit 1
+fi
+
+# cmd
+FILTER_CMD="read_bib ${input_file} ${output_file} ${fields_to_remove}"
+$FILTER_CMD
+
+if [ $? -ne 0 ]; then
+    echo "ERROR: read_bib exited with non-zero message"
+    exit 1
+fi
+
+# Detect OS for correct sed syntax
+OS="$(uname)"
+if [[ "$OS" == "Darwin" ]]; then  # macOS
+    SED_CMD="sed -i ''"
+else  # Linux or Windows with Git Bash
+    SED_CMD="sed -i"
+fi
+
+# Replace escaped ampersand (\&) with plain &
+$SED_CMD 's|\\\\|\\|g' "$output_file"
+
+echo "Done"

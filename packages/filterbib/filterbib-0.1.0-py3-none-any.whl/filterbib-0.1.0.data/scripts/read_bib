@@ -1,0 +1,83 @@
+#!python
+import sys
+from pybtex.database.input import bibtex
+from pybtex.database.output import bibtex as biboutput
+
+def clean_bibtex(input_file, output_file, fields_to_remove):
+    """Reads a .bib file, removes specified fields, adds journal abbreviations, and writes to a new .bib file."""
+    # Load the .bib file
+    parser = bibtex.Parser()
+    bib_data = parser.parse_file(input_file)
+
+    # Process each entry
+    for key, entry in bib_data.entries.items():
+        
+        # Remove unwanted fields
+        for field in list(entry.fields.keys()):  # List prevents runtime modification issues
+            if field in fields_to_remove:
+                del entry.fields[field]
+
+    # Write to output .bib file
+    output = biboutput.Writer()
+    output.write_file(bib_data, output_file)
+
+    print(f"Processed {len(bib_data.entries)} entries. Saved cleaned file to {output_file}.")
+
+def string2list(string_array):
+    """Ensure input is properly converted into a list of strings."""
+    if isinstance(string_array, list) and len(string_array) == 1:
+        string_array = string_array[0]  # Extract single element if it's a list
+
+    if isinstance(string_array, str):  
+        return [field.strip() for field in string_array.split(",") if field.strip()]
+
+    return string_array  # Already a proper list
+
+def main():
+
+    """read_bib
+
+    Filter a bib-file representing a bibliography for particular fields to clean up the file. By default,
+    it filters out the following fields:
+
+    ["abstract","note","file","extra","keywords","copyright","url","doi","urldate","issn","shorttitle",
+    "language","pmid"]
+
+    This script does most of the actual filtering, and is used in combination with 'filter_bib', which does the final filtering of ampersands.
+
+    Parameters
+    ----------
+    <inpupt bib>: str
+        path representing the bibliography to be filtered
+
+    <output bib>: str
+        path representing the filtered bibliography
+
+    <fields to remove>: list
+        comma-separated list of fields to remove (e.g., abstract,note,file)
+
+    Example
+    ----------
+    >>> read_bib exported_items.bib exported_items_clean.bib abstract,note,extra
+    """
+
+    if len(sys.argv) < 3:
+        print(main.__doc__)
+        sys.exit(1)
+
+    input_bib = sys.argv[1]
+    output_bib = sys.argv[2]
+    fields_to_remove = sys.argv[3:] if len(sys.argv) > 3 else [
+        "abstract", "note", "file", "extra", "keywords",
+        "copyright", "url", "doi", "urldate", "issn",
+        "shorttitle", "language", "pmid"
+    ]
+
+    # Convert the string argument into a proper list
+    fields_to_remove = string2list(fields_to_remove)
+    print(f"Input file = {input_bib}")
+    print(f"filtering fields: {fields_to_remove}")
+    clean_bibtex(input_bib, output_bib, fields_to_remove)
+
+if __name__ == "__main__":
+    main()
