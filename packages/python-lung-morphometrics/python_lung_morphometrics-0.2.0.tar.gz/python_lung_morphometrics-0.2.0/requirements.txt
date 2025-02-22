@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-image
+scikit-learn
+matplotlib
+imageio
+tifffile
+imagecodecs
+tqdm
+
+typer
+
+pytest
+tox
+build
+twine
