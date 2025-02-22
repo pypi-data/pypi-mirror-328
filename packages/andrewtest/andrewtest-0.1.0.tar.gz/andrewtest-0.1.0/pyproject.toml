@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andrewtest"
+version = "0.1.0"
+description = "A simple greeting package"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "yourname@example.com"}]
+keywords = ["greeting", "example"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/my_package"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+andrewtest/__init__.py
+andrewtest/example.py
+andrewtest.egg-info/PKG-INFO
+andrewtest.egg-info/SOURCES.txt
+andrewtest.egg-info/dependency_links.txt
+andrewtest.egg-info/top_level.txt
+tests/test_example.py
