@@ -1,0 +1,11 @@
+static_compress/__init__.py,sha256=wEd8xCQawe0GTQnBIEvuvq87wCbH9uU4Pc7qpYXH9gY,78
+static_compress/compressors.py,sha256=oZizlFo3K0FNyDU56eufjm2PwlnM7-bJtasRKEiSs8c,597
+static_compress/mixin.py,sha256=SBnoMMwtiKPpSdr2MUV36BYUzbzHhCCT5LqAV-9ecDk,5617
+static_compress/storage.py,sha256=WQvqjY4dwD2nDTRiDMzeI-ebsxQdUuy7qnftcKy5mns,391
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_compressors.py,sha256=8_gcYWU2_xGkRtiKUkipZz7E5HYFKR1XcCgiEeLu0UA,1317
+django_static_compress-2.1.0.dist-info/LICENSE,sha256=MN5yh-Lmr6ZrSS3vx0BWHZHmjo9-OOKRc1pxkbB1Zfg,1082
+django_static_compress-2.1.0.dist-info/METADATA,sha256=duZHIioItbrmZwR11aiWC2ZjHak1EkKI9HkFK4rWSW8,1007
+django_static_compress-2.1.0.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+django_static_compress-2.1.0.dist-info/top_level.txt,sha256=iDdumwvt8anU3vxbzPsFG6YH5z-VXbvkzvcIOZdP5EM,21
+django_static_compress-2.1.0.dist-info/RECORD,,
