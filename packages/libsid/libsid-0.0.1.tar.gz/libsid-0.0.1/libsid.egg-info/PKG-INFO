@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: libsid
+Version: 0.0.1
+Summary: Tools for making life easy in 3D
+Author-email: Siddhant Bansal <siddhant2697@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: matplotlib>=3.8.4
+Requires-Dist: open3d>=0.18.0
+Requires-Dist: pytorch3d>=0.7.8
+Requires-Dist: torch>=2.6.0
+Provides-Extra: dev
+
+# libsid: Making 3D accessible
+
+This library makes it easy to interface with various 3D libraries. Goal is to make visualising 3D data and working with it easy across libraries.
