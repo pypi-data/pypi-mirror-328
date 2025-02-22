@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "talPYot"
+version = "0.1.0"  
+description = "Provides davening direction to the Kosel"
+authors = [{name = "Dror Maor", email = "dror.m.maor@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["davening", "Kosel", "Kotel", "Yerushalayim", "Jerusalem"]
+dependencies = [  # Use 'dependencies' instead of 'install_requires'
+    "geopy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DrorMaor/talPYot"  # Link to your project's page (e.g., GitHub)
+"Bug Tracker" = "https://github.com/DrorMaor/talPYot/issues"
+
+[tool.setuptools]
+#packages = ["talPYot"]  # Package declaration goes here!
