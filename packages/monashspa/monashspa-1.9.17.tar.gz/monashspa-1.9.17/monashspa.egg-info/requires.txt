@@ -1,0 +1,12 @@
+numpy
+lmfit
+requests
+colorama
+pandas
+scipy
+piradon
+matplotlib
+h5py
+importlib-metadata
+sympy
+uproot4
