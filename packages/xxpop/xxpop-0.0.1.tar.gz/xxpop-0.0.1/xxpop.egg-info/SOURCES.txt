@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xxpop/__init__.py
+xxpop.egg-info/PKG-INFO
+xxpop.egg-info/SOURCES.txt
+xxpop.egg-info/dependency_links.txt
+xxpop.egg-info/top_level.txt
