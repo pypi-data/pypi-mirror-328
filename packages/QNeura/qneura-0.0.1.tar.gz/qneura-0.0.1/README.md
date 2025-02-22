@@ -1,0 +1,26 @@
+# QNeura
+
+![qneura logo](https://github.com/ares201005/qneura/blob/HEAD/docs/static/logo_tbd.png?raw=true)
+
+[![Documentation Status](https://readthedocs.org/projects/qneura-lmi/badge/?version=develop)](https://qneura-lmi.readthedocs.io/en/develop/?badge=develop)
+[![GitHub release](https://img.shields.io/github/release/ares201005/qneura/all.svg)](https://github.com/ares201005/qneura/releases)
+[![Build Status](https://github.com/ares201005/qneura/actions/workflows/ci.yml/badge.svg)](https://github.com/ares201005/QNeura/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/ares201005/QNeura/graph/badge.svg?token=2CBUTFR93Y)](https://codecov.io/gh/ares201005/QNeura)
+
+
+[`qneura`](https://github.com/ares201005/qneura):  Open Source Pakcage for Solving Quantum Many-body problems via Neural network quantum states.
+
+-----------------------------------------------
+
+
+## LANL-C23019
+
+TBA.
+
+## Authors:
+
+[Yu Zhang](mailto:zhy@lanl.gov)
+
+## Features:
+
+

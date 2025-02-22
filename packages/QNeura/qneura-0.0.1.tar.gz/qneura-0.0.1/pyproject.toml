@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "QNeura"
+version = "0.0.1"
+
+authors = [
+  { name="Yu Zhang", email="zhy@lanl.gov" },
+]
+
+description = "Open Source Pakcage for Solving Quantum Many-body problems via Neural network quantum states"
+
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+# license = ""
+# license-files = ["LICEN[CS]E*"]
+
+#[project.urls]
+#Homepage = "https://github.com/pypa/sampleproject"
+#Issues = "https://github.com/pypa/sampleproject/issues"
