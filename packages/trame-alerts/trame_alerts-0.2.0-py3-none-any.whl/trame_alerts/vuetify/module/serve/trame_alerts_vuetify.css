@@ -1,0 +1,1 @@
+.alert-list-container{display:grid;grid-gap:.25em}.alert-list-text{white-space:pre-wrap}.alert-popup-container{position:fixed;bottom:0;left:50%;transform:translate(-50%);width:100%;max-width:40em;display:grid;grid-gap:.5em;z-index:999;padding:.5em}
