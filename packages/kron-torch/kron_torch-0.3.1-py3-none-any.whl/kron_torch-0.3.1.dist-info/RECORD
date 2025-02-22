@@ -1,0 +1,10 @@
+kron_torch/__init__.py,sha256=Ng42gCdptvdw9PQ-760JN4mipbrkwGZnkVRU0fgJoQM,521
+kron_torch/dist_kron.py,sha256=UpSV6UJQP3y2Kt_6khBOV57nxUBPvo1B59IH25piC0s,19814
+kron_torch/dist_onesidedkron.py,sha256=6al6O9uJEuEknJrAeUuABRKiNzOMUru6ffdHW0gpptA,9646
+kron_torch/dist_test.py,sha256=ZDI09DFnTf4ioWmcGWQ-W4nrY5SGhXG_4PFp4WWP5tE,4980
+kron_torch/kron.py,sha256=mBpAlzpHHDD0dUI4nbDDquorX5Z2sFLNqomBBH5Cl1I,16439
+kron_torch/kron_test.py,sha256=VzJXEURNTQe379ztf5WlKwUBfMlW20mxeYmkQIceh-w,2770
+kron_torch-0.3.1.dist-info/licenses/LICENSE,sha256=nl8bPGELnC2lwxO_gdV3p9Gs7Ghr2wOE7e-m3w-QzZQ,18656
+kron_torch-0.3.1.dist-info/WHEEL,sha256=_2ozNFCLWc93bK4WKHCO-eDUENDlo-dgc9cU3qokYO4,82
+kron_torch-0.3.1.dist-info/METADATA,sha256=KBArEnYNHXLkhKlP_JLxB5Fl69UpU3c3JUsxZnrMUWk,6743
+kron_torch-0.3.1.dist-info/RECORD,,
