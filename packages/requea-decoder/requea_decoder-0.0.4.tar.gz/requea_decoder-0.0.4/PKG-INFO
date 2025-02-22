@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: requea_decoder
+Version: 0.0.4
+Summary: Decode requea uplinks data
+Author-email: Géry THRASIBULE <gery.thrasibule@kocliko.co>
+Project-URL: Homepage, https://github.com/koclikoo/kocliko_utils/requea_decoder
+Project-URL: Repository, https://github.com/koclikoo/kocliko_utils/requea_decoder
+Project-URL: Bug Tracker, https://github.com/koclikoo/kocliko_utils/issues
+Description-Content-Type: text/markdown
+
+# Requea Decoder
