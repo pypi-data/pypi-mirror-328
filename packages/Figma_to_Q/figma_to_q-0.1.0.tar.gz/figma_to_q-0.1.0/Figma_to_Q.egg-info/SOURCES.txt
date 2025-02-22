@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+Figma_to_Q.egg-info/PKG-INFO
+Figma_to_Q.egg-info/SOURCES.txt
+Figma_to_Q.egg-info/dependency_links.txt
+Figma_to_Q.egg-info/entry_points.txt
+Figma_to_Q.egg-info/top_level.txt
+fig2q/__init__.py
+fig2q/cli.py
+fig2q/downloadImage.py
+fig2q/helpers.py
+fig2q/infographic_config.py
+fig2q/scroll_graphic_config.py
