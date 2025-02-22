@@ -1,0 +1,51 @@
+#!python
+# -*-coding:utf8;-*-
+from PhantomBrowser import Browser
+import argparse
+import json
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Fast cli downloader powered by PhantomBrowser."
+    )
+    parser.add_argument(
+        "URLS", nargs="+", help="One or more URLs, separated by spaces."
+    )
+    parser.add_argument(
+        "-i", type=str, default="{}", help="Optional JSON string configuration."
+    )
+
+    args = parser.parse_args()
+
+    try:
+        config = json.loads(args.i)
+    except json.JSONDecodeError:
+        print("Error: Invalid JSON configuration.")
+        exit(1)
+
+    browser = Browser()
+    if "userAgent" in config:
+        if config["userAgent"] == "mac":
+            browser.userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        elif config["userAgent"] == "windows":
+            browser.userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        elif config["userAgent"] == "linux":
+            browser.userAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+        elif config["userAgent"] == "iphone":
+            browser.userAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/133.0.6943.120 Mobile/15E148 Safari/604.1"
+        elif config["userAgent"] == "android":
+            browser.userAgent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.121 Mobile Safari/537.36"
+        else:
+            browser.userAgent = config["userAgent"]
+        del config["userAgent"]
+
+    try:
+        browser.downloader(urls=args.URLS, **config)
+    except BaseException as e:
+        print(f"ERROR: {e}")
+        exit(1)
+
+
+if __name__ == "__main__":
+    main()
