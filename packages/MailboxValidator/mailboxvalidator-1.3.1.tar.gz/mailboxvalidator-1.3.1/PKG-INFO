@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: MailboxValidator
+Version: 1.3.1
+Summary: Email verification module for Python using MailboxValidator API. It validates if the email is valid, from a free provider, contains high-risk keywords, whether it's a catch-all address and so much more.
+Home-page: https://github.com/MailboxValidator/mailboxvalidator-python
+Author: MailboxValidator.com
+Author-email: support@mailboxvalidator.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+MailboxValidator Python Module
+==============================
+
+This Python module enables user to easily validate if an email address is valid, a type of disposable email or free email.
+
+This module can be useful in many types of projects, for example
+
+ - to validate an user's email during sign up
+ - to clean your mailing list prior to email sending
+ - to perform fraud check
+ - and so on
+
+# Developer Documentation
+To learn more about installation, usage, and code examples, please visit the developer documentation at [https://mailboxvalidator-python.readthedocs.io/en/latest/index.html.](https://mailboxvalidator-python.readthedocs.io/en/latest/index.html)
+
+
+# Copyright
+Copyright (C) 2018-2025 by MailboxValidator.com, support@mailboxvalidator.com
