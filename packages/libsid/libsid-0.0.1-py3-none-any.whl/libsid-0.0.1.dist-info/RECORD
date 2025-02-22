@@ -1,0 +1,16 @@
+libsid/__init__.py,sha256=9f3A0vQTLrC8HC5zr_egWi_Ha4MUvxni9Ogp2tZ0y4U,135
+libsid/test.py,sha256=SsTDKfFvAtejFTNsM5X3sJJj6ChtJg7bfcgrqSL-bN4,62
+libsid/camera/__init__.py,sha256=VDs2VeS7-q2yIjOxGOqnPMWIddqjiXqEcRLF7JrYEiU,49
+libsid/camera/camera.py,sha256=8kSyncUPHLZK0FBCotJ--qedboy9f6UYMfh9m3aoIF8,4730
+libsid/camera/converstions.py,sha256=1dnljSCohWA6LJM8nsjemEDrHWo0VCBYlFSDu_hLzhw,2767
+libsid/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libsid/demo/arctic_helper.py,sha256=7UvQrPGj2KY91FbjkqxtPZvR-BCaE62xH5QVSoy3qZk,2387
+libsid/demo/arctic_open3d.py,sha256=S6Xv1AOONcefafCeR3F9jAWPsRWAN-jXgMDJYzcipAc,2532
+libsid/demo/arctic_pytorch3d.py,sha256=-vNnxfezNBweIlNuvgxxgThy5-Ztck6K7-f_VXt5og4,3411
+libsid/visualise/Open3dVis.py,sha256=IBhG5F3gyNJFGbgQD-dfrt3PGfdDEQ7I2XzBpVoVPs0,9409
+libsid/visualise/Pytorch3dVis.py,sha256=T87ZPPhuUUVuggc0rKlnC2qFZ-yx6s2gJ8FIEmrB3dA,8355
+libsid/visualise/__init__.py,sha256=7td9AdKT7Go8ZvbCMNX_AkgBhYDyIXXpZeUm39ojGMc,84
+libsid-0.0.1.dist-info/METADATA,sha256=yhi55gMbe7FK9RDAUHg0DuXFOGnGoG68UFRroCm9aoo,538
+libsid-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+libsid-0.0.1.dist-info/top_level.txt,sha256=PSWeiXHhI1L5x2Uy54cEPXi5T-fvNrhegAc5BfBiTLw,7
+libsid-0.0.1.dist-info/RECORD,,
