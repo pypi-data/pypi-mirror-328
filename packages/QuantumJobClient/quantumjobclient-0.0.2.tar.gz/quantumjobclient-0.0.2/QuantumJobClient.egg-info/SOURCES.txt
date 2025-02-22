@@ -1,0 +1,9 @@
+setup.py
+QuantumJobClient/__init__.py
+QuantumJobClient/client.py
+QuantumJobClient.egg-info/PKG-INFO
+QuantumJobClient.egg-info/SOURCES.txt
+QuantumJobClient.egg-info/dependency_links.txt
+QuantumJobClient.egg-info/entry_points.txt
+QuantumJobClient.egg-info/requires.txt
+QuantumJobClient.egg-info/top_level.txt
