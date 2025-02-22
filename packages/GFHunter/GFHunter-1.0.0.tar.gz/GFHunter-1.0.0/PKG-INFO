@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: GFHunter
+Version: 1.0.0
+Summary: GFHunter is a long read sequence transcriptome alignment-based fusion genes detection tool.
+Home-page: https://github.com/luzhenhao-HIT/GFHunter
+Author: Zhenhao Lu
+Author-email: luzhenhao.hit@gmail.com
+Maintainer: Zhenhao Lu
+Maintainer-email: luzhenhao.hit@gmail.com
+License: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: intervaltree
+Requires-Dist: pyabpoa
+
+- **GFHunter** is a long read sequence transcriptome alignment-based fusion genes detection tool.
+- **Indexing**: User can download the prepared index folder based on **GENCODE release 44** here or create a new index by GFHunter **index** function.
+- **Detection**: GFHunter detects fusions in **long read RNA-seq data**, user just need **index folder** and **long read data** under detection.
+- Benchmark evaluations position GFHunter as redefining the analytical frontiers of gene fusion detection:
+  1. **Lowest false-positive fusion rates** in non-tumor data.
+  2. Achieves a **substantially higher F1-score** in real cancer cell lines evaluation.
+  3. Operates **many times faster** and requires **fewer and stable memory** than other tools.
