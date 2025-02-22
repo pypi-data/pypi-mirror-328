@@ -1,0 +1,11 @@
+simonpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf/pdf2text.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf222/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf222/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf222/pdf2text.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonpdf222-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+simonpdf222-1.0.dist-info/METADATA,sha256=2nulEGi7ic57QQzHl5pn31d4PKhG-mHabyZCnQbsE7E,141
+simonpdf222-1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+simonpdf222-1.0.dist-info/top_level.txt,sha256=pjjR2qccS74LR6BnDuMv1kWVHJte8JitO0XltFWOtyE,12
+simonpdf222-1.0.dist-info/RECORD,,
