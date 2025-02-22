@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: code-zipper
+Version: 0.1.1
+Summary: A tool to copy multiple files into the clipboard for efficient use with chat GPT.
+Project-URL: Homepage, https://github.com/data-stepper/code-zipper
+Author-email: Bent Mueller <bentmuller.ai@gmail.com>
+License: MIT
+License-File: LICENSE
+Keywords: chatGPT,cli,productivity
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pyperclip
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: invoke; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# code-zipper
+A tool to copy multiple files into the clipboard for efficient use with chatGPT.
