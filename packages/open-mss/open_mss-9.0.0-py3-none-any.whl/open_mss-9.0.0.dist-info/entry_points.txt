@@ -1,0 +1,2 @@
+[console_scripts]
+mss = openmss.main:main_cli
