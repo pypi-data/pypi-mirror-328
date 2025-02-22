@@ -1,0 +1,12 @@
+multiai/__init__.py,sha256=-HQUJbSf4nrLd1z2DgUgsgLM8fF0I9MbBLk8EiQIOI0,112
+multiai/__main__.py,sha256=sgZxHgZDLWhZ41ZYYzglsafrqZHC2e29tfjFmNSnmxU,65
+multiai/entry.py,sha256=ESqDwMIBdnPF95cr_j0upG0fNaKU1wjJkryzhfZFai8,5029
+multiai/multiai.py,sha256=HEi0EUjKert8O42WkAhQNNt5_W1YeZUx6hDxsuKWG74,24641
+multiai/printlong.py,sha256=262_HUxTguI5oBjd7vbMdTqGQfub0ZX9KmNF_wwmPno,2085
+multiai/data/system.ini,sha256=LvikhslkqeZ0LplANhqOW9Y77mm8lUjYWHAGOOdBrU4,705
+multiai-1.2.0.dist-info/LICENSE,sha256=9KL7GR2OrW7sgnHc8IM48AAcQ6gTEstY3UQRpe3OC5A,1085
+multiai-1.2.0.dist-info/METADATA,sha256=wf0saxiXR0rtu05dJdf0XisU9DosczZMKSpKD0NvNUY,5088
+multiai-1.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+multiai-1.2.0.dist-info/entry_points.txt,sha256=gt2WpdEIKJEcBWGWyC0-bXGK0L7767qqSfu7NUEmr3Y,43
+multiai-1.2.0.dist-info/top_level.txt,sha256=nIS7JbFZhSLFa-wpj8vjQ52SvxPEm9bAEYJxgV1gj68,8
+multiai-1.2.0.dist-info/RECORD,,
