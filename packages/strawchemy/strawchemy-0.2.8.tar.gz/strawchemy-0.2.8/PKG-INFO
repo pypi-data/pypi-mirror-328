@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: strawchemy
+Version: 0.2.8
+Summary: Generate GraphQL api from SQLAlchemy models
+Author-email: gazorby <gazorby@pm.me>
+License-File: LICENCE
+Requires-Python: >=3.12
+Requires-Dist: pydantic
+Requires-Dist: sqlalchemy
+Requires-Dist: strawberry-graphql
+Provides-Extra: geo
+Requires-Dist: geoalchemy2; extra == 'geo'
+Requires-Dist: geojson-pydantic; extra == 'geo'
+Requires-Dist: shapely; extra == 'geo'
+Description-Content-Type: text/markdown
+
+# Strawchemy
+
+[![🔂 Tests and linting](https://github.com/gazorby/strawchemy/actions/workflows/ci.yaml/badge.svg)](https://github.com/gazorby/strawchemy/actions/workflows/ci.yaml) [![codecov](https://codecov.io/gh/gazorby/strawchemy/graph/badge.svg?token=BCU8SX1MJ7)](https://codecov.io/gh/gazorby/strawchemy)
