@@ -1,0 +1,14 @@
+[project]
+name = "images-py"
+version = "0.1.0"
+description = "Kenneth Lambert's image processing library (UNOFFICIAL)"
+readme = "README.md"
+authors = [
+    { name = "Aero", email = "aerocyberdev@proton.me" } # Only for the package. The library is not mine.
+]
+dependencies = []
+license = "GPL-3.0-or-later"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
