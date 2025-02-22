@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "terminal-stopwatch"
+version = "1.1.1"
+description = "A terminal-based stopwatch application featuring ASCII art display"
+authors = ["taejun <dugudugu0622@gmail.com>"]
+readme = "README.md"
+homepage = "https://www.taejun.lol"
+repository = "https://github.com/taejun0622/stopwatch"
+keywords = ["stopwatch", "terminal", "ascii-art", "timer"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+pyfiglet = "^1.0.2"
+keyboard = "^0.13.5"
+readchar = "^4.2.1"
+colorama = "^0.4.6"
+pyinstaller = "^6.12.0"
+
+[tool.poetry.scripts]
+stopwatch = "terminal_stopwatch.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
