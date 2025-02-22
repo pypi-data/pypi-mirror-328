@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+qwentastic/__init__.py
+qwentastic/core.py
+qwentastic/example.py
+qwentastic/setup.py
+qwentastic.egg-info/PKG-INFO
+qwentastic.egg-info/SOURCES.txt
+qwentastic.egg-info/dependency_links.txt
+qwentastic.egg-info/requires.txt
+qwentastic.egg-info/top_level.txt
