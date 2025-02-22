@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+p4print.egg-info/PKG-INFO
+p4print.egg-info/SOURCES.txt
+p4print.egg-info/dependency_links.txt
+p4print.egg-info/top_level.txt
