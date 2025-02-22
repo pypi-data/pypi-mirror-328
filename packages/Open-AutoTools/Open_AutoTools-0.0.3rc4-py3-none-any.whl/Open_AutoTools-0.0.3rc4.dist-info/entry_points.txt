@@ -1,0 +1,9 @@
+[console_scripts]
+autocaps = autotools.cli:autocaps
+autodownload = autotools.cli:autodownload
+autoip = autotools.cli:autoip
+autolower = autotools.cli:autolower
+autopassword = autotools.cli:autopassword
+autospell = autotools.cli:autospell
+autotools = autotools.cli:cli
+autotranslate = autotools.cli:autotranslate
