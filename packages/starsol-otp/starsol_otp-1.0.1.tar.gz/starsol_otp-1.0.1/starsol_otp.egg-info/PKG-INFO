@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: starsol-otp
+Version: 1.0.1
+Summary: OTP library
+Author-email: dev@starsolution.team
+Project-URL: Homepage, https://gitlab.com/star-solution-fzco/starsol-py-otp
+Project-URL: Documentation, https://gitlab.com/star-solution-fzco/starsol-py-otp/-/blob/master/README.md
+Project-URL: Repository, https://gitlab.com/star-solution-fzco/starsol-py-otp.git
+Project-URL: Bug Tracker, https://gitlab.com/star-solution-fzco/starsol-py-otp/-/issues
+Project-URL: Changelog, https://gitlab.com/star-solution-fzco/starsol-py-otp/-/blob/master/CHANGELOG.md
+Keywords: starsol,otp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Security
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Usage example
+```python
+from starsol_otp import TOTP, generate_random_base32_secret
+
+secret = generate_random_base32_secret()
+totp = TOTP(secret)
+
+code = totp.generate()
+print(code)
+print(totp.verify(code))
+```

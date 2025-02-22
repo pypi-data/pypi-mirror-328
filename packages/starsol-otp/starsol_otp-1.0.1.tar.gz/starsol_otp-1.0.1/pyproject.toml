@@ -1,0 +1,31 @@
+
+[project]
+name = "starsol-otp"
+version = "1.0.1"
+dependencies = []
+requires-python = ">=3.9"
+authors = [
+    { email = "dev@starsolution.team" },
+]
+description = "OTP library"
+readme = "README.md"
+keywords = ["starsol", "otp",]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Security",
+]
+[project.urls]
+Homepage = "https://gitlab.com/star-solution-fzco/starsol-py-otp"
+Documentation = "https://gitlab.com/star-solution-fzco/starsol-py-otp/-/blob/master/README.md"
+Repository = "https://gitlab.com/star-solution-fzco/starsol-py-otp.git"
+"Bug Tracker" = "https://gitlab.com/star-solution-fzco/starsol-py-otp/-/issues"
+Changelog = "https://gitlab.com/star-solution-fzco/starsol-py-otp/-/blob/master/CHANGELOG.md"
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"

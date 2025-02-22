@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+starsol_otp/__init__.py
+starsol_otp/otp.py
+starsol_otp.egg-info/PKG-INFO
+starsol_otp.egg-info/SOURCES.txt
+starsol_otp.egg-info/dependency_links.txt
+starsol_otp.egg-info/top_level.txt
+tests/test_totp.py
