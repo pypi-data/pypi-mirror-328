@@ -1,0 +1,7 @@
+torch>=1.9.0
+numpy>=1.19.2
+tqdm>=4.64.0
+pillow~=11.1.0
+imageio~=2.37.0
+click~=8.1.8
+pytorch3d
