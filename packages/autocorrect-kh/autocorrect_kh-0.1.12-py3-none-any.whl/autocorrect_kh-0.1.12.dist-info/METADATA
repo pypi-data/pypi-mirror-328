@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: autocorrect-kh
+Version: 0.1.12
+Summary: An autocorrect address library specifically for Khmer National ID Card
+Home-page: https://github.com/monykappa/autocorrect-kh.git
+Author: Kim Ouddommony
+Author-email: kimmony039@gmail.com
+Requires-Dist: jellyfish
+Requires-Dist: regex
+
