@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "nilvec"
+version = "0.1.8"
+description = ""
+authors = ["cldrake01 <collinlindendrake@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+tqdm = "^4.67.1"
+qdrant-client = "^1.13.2"
+chromadb = "^0.6.3"
+numpy = "^2.2.3"
+milvus = "^2.3.9"
+pymilvus = "^2.5.4"
+redis = "^5.2.1"
+
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "nilvec"
+authors = [{ name = "Collin Drake", email = "collinlindendrake@gmail.com" }]
+maintainers = [{ name = "Collin Drake", email = "collinlindendrake@gmail.com" }]
+description = "A lightweight library for nearest neighbor search in Rust."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
