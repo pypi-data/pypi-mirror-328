@@ -1,0 +1,12 @@
+src/shadcn_django/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+src/shadcn_django/__main__.py,sha256=YMcPPGGKYgUWT3wo-Ug_7mv88DCJvuLFaaC0V2H98oA,54
+src/shadcn_django/add.py,sha256=7tYTGGb4ce7nH-8mtqt6M8VaL-VCPVX9_K4T98J0JRk,1714
+src/shadcn_django/components.toml,sha256=sWnoA-4Q76KfzV7n25FufXt7vCgIwc_aX6KbX1tjngk,133
+src/shadcn_django/console.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+src/shadcn_django/constants.py,sha256=vSN3BKmVmtDKa5nc6lswIkealSXD_fB2L4YmDm4sFGM,139
+src/shadcn_django/initialize.py,sha256=XG33Xpea_tq1KXEB-8vrTnif_ZTEcN0QAgjlEXN47y0,1590
+src/shadcn_django/main.py,sha256=7zGh4XHkO4qsu1vWEruGwdrYOQn1r4lWpuHP3AfObhc,287
+shadcn_django-0.2.1.dist-info/METADATA,sha256=o4-7pshfZWE10I0jehKIhFL3Ya3iIXXMuX9eXYb9nBk,230
+shadcn_django-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+shadcn_django-0.2.1.dist-info/entry_points.txt,sha256=LdfRNM6yFoXnYSh7vZh99W-xSkMlYL1AbOT8b4RsFMQ,61
+shadcn_django-0.2.1.dist-info/RECORD,,
