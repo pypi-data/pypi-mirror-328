@@ -1,0 +1,12 @@
+owopkg/__init__.py,sha256=1uWT7nGtgDwnswz8TRYAPrG0Q9I6wP6Gp_syjt7UxVY,79
+owopkg/__main__.py,sha256=a8DnucTtgSVkvwGJYGAqjp91Dm8Hdajp0aefsOoSgnE,534
+owopkg/build.py,sha256=S9Js9mL6s0g3TH8L5WGK60JfZYJCe4xDRY4VuuUs60E,66
+owopkg/creates.py,sha256=OS8JHNLkDAbmAj8WBZpNWO1fjb_xFtbtjMNbgoyavp4,207
+owopkg/deploy.py,sha256=CdbvMJo6evDkDpJCaNXpBpIS4g-_vGTeqBK-3YfIg1E,67
+owopkg/lib.py,sha256=0Yo6QW8irZQUEuA3JlvYpONTA1qLZ_kqcA-1fPeOtIQ,311
+owopkg/mybwb.py,sha256=hO8CHl1rI_4r-WCKJJZUaSGK-vQMwmD4BVpCLQC1O8U,66
+owopkg-0.0.2.dist-info/LICENSE,sha256=FhrMQzd9Q4fDkeF00CCtgFR1lU7DvlXz6gih52J3SkQ,1068
+owopkg-0.0.2.dist-info/METADATA,sha256=dletWknqUC3iNMe41kKgfIanpDwK7b2uQ6x5FN30GrQ,811
+owopkg-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+owopkg-0.0.2.dist-info/top_level.txt,sha256=uqYge7kq40G0kPrD9ZXai0xDj1jQ3qhfttqkn-wlkXA,7
+owopkg-0.0.2.dist-info/RECORD,,
