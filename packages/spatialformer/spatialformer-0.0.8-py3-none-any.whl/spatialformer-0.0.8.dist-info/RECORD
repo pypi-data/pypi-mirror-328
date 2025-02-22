@@ -1,0 +1,14 @@
+spatialformer/GraphSAGE.py,sha256=01nvW_C9iXeOOdPNX6S6oKCN6pQtft6KidKAqMhX6S0,30759
+spatialformer/__init__.py,sha256=nFE05bAI5KG9TPBJdGBDSlFFSbW3zCwtzOXVsjeltzo,654
+spatialformer/data_loader.py,sha256=VNjhBK1GPTfRgM_Zh7gB4pyuG6YL27QJEgBsI6VqW78,26182
+spatialformer/graphsage.py,sha256=ZQWHiNfwNsj-0GBUR9RXjsnDfSp3gEyN8MrAZEmzUbg,14936
+spatialformer/processor.py,sha256=cLylRO_6pnMHiaoS1MwMkhGylCpSO23ilzh6FqweSV4,4034
+spatialformer/train.py,sha256=I0Jawk8sRBv8ylGby344ImQTHyc5qW_SpfAcJB-_hkw,9988
+spatialformer/utils.py,sha256=qVVDM6sKbjz1iBYHoFMI42hYTHND6ju5_-33nc0pcdY,39881
+spatialformer/tools/__init__.py,sha256=3i3Anz9fF7C72mDZvvay-uwZQ1TCIrTE-JJDRkJ3ULA,76
+spatialformer/tools/get_embeddings.py,sha256=uoNCpON1CLbwkxJ8s0YAeo-qjjtP6A1k-4sdbsbmMGw,18055
+spatialformer-0.0.8.dist-info/LICENSE,sha256=zmD8FmakksBLnywTlJBXZzRJtCnu9Pi2SCCllxB7yv4,1064
+spatialformer-0.0.8.dist-info/METADATA,sha256=N99iWGhUpGpbELkcCi6N-uxQ1CMQZDW2oRXtJUUo-Ac,1339
+spatialformer-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spatialformer-0.0.8.dist-info/top_level.txt,sha256=N4IW29q6_Yyw_BkjTLDDpf1TBK0w-t0M755NMdeK6uU,14
+spatialformer-0.0.8.dist-info/RECORD,,
