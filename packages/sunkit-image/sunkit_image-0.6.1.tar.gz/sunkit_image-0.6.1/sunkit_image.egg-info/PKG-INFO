@@ -1,0 +1,94 @@
+Metadata-Version: 2.2
+Name: sunkit_image
+Version: 0.6.1
+Summary: An image processing toolbox for Solar Physics.
+Author-email: The SunPy Community <sunpy@googlegrouups.com>
+Project-URL: Homepage, https://sunpy.org
+Project-URL: Source Code, https://github.com/sunpy/sunkit-image
+Project-URL: Download, https://pypi.org/project/sunkit-image
+Project-URL: Documentation, https://docs.sunpy.org/projects/sunkit-image
+Project-URL: Changelog, https://docs.sunpy.org/projects/sunkit-image/en/stable/whatsnew/changelog.html
+Project-URL: Issue Tracker, https://github.com/sunpy/sunkit-image/issues
+Keywords: solar physics,solar,science,image analysis
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: astropy>=5.3.0
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: scikit-image>=0.20.0
+Requires-Dist: sunpy[map]>=6.0.0
+Provides-Extra: core
+Requires-Dist: sunkit_image; extra == "core"
+Provides-Extra: all
+Requires-Dist: sunkit_image[watroo]; extra == "all"
+Provides-Extra: watroo
+Requires-Dist: watroo; extra == "watroo"
+Provides-Extra: tests
+Requires-Dist: sunkit_image[all]; extra == "tests"
+Requires-Dist: dask; extra == "tests"
+Requires-Dist: pytest-astropy; extra == "tests"
+Requires-Dist: pytest-mpl; extra == "tests"
+Requires-Dist: pytest-xdist; extra == "tests"
+Requires-Dist: sunpy[data,net]>=6.0.0; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-automodapi; extra == "docs"
+Requires-Dist: sphinx-changelog; extra == "docs"
+Requires-Dist: sunpy-sphinx-theme; extra == "docs"
+Requires-Dist: packaging; extra == "docs"
+Requires-Dist: sunkit_image[all]; extra == "docs"
+Requires-Dist: astroscrappy; extra == "docs"
+Requires-Dist: dask; extra == "docs"
+Requires-Dist: matplotlib; extra == "docs"
+Requires-Dist: sphinx-design; extra == "docs"
+Requires-Dist: sphinx-gallery; extra == "docs"
+Requires-Dist: sunpy[data,net]>=6.0.0; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: sunkit_image[all,docs,tests]; extra == "dev"
+
+``sunkit-image``
+================
+
+|Latest Version| |codecov| |Powered by NumFOCUS| |Powered by Sunpy|
+
+.. |Powered by Sunpy| image:: http://img.shields.io/badge/powered%20by-SunPy-orange.svg?style=flat
+   :target: https://www.sunpy.org
+.. |Latest Version| image:: https://img.shields.io/pypi/v/sunkit-image.svg
+   :target: https://pypi.python.org/pypi/sunkit-image/
+.. |codecov| image:: https://codecov.io/gh/sunpy/sunpy/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/sunpy/sunkit-image
+.. |Powered by NumFOCUS| image:: https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A
+   :target: http://numfocus.org
+
+``sunkit-image`` is a a open-source toolbox for solar physics image processing.
+Currently it is an experimental library for solar physics specific image processing routines.
+Ideally it will only contain routines that have been published in the literature.
+
+See `sunkit-image Documentation`_ for instructions on how to install and contribute.
+
+Usage of Generative AI
+----------------------
+
+We expect authentic engagement in our community.
+Be wary of posting output from Large Language Models or similar generative AI as comments on GitHub or any other platform, as such comments tend to be formulaic and low quality content.
+If you use generative AI tools as an aid in developing code or documentation changes, ensure that you fully understand the proposed changes and can explain why they are the correct approach and an improvement to the current state.
+
+Code of Conduct
+---------------
+
+When you are interacting with the SunPy community you are asked to follow our `code of conduct <https://sunpy.org/coc>`__.
+
+.. _sunkit-image Documentation: https://docs.sunpy.org/projects/sunkit-image/en/stable/

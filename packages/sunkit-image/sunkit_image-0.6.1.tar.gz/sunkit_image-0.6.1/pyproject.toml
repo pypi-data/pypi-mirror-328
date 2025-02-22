@@ -1,0 +1,148 @@
+[build-system]
+requires = [
+  "setuptools>=62.1",
+  "setuptools_scm[toml]>=8.0.0",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sunkit_image"
+dynamic = ["version"]
+description = "An image processing toolbox for Solar Physics."
+requires-python = ">=3.10"
+readme = { file = "README.rst", content-type = "text/x-rst" }
+license = { file = "LICENSE.txt" }
+keywords = ["solar physics", "solar", "science", "image analysis"]
+authors = [
+  { name = "The SunPy Community", email = "sunpy@googlegrouups.com" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "astropy>=5.3.0",
+  "numpy>=1.23.5",
+  "matplotlib>=3.5.0",
+  "scipy>=1.10.1",
+  "scikit-image>=0.20.0",
+  "sunpy[map]>=6.0.0",
+]
+
+[project.optional-dependencies]
+core = ["sunkit_image"]
+all = ["sunkit_image[watroo]"]
+watroo = ["watroo"]
+tests = [
+  "sunkit_image[all]",
+  "dask",
+  "pytest-astropy",
+  "pytest-mpl",
+  "pytest-xdist",
+  "sunpy[data,net]>=6.0.0",
+]
+docs = [
+  "sphinx",
+  "sphinx-automodapi",
+  "sphinx-changelog",
+  "sunpy-sphinx-theme",
+  "packaging",
+  "sunkit_image[all]",
+  "astroscrappy",
+  "dask",
+  "matplotlib",
+  "sphinx-design",
+  "sphinx-gallery",
+  "sunpy[data,net]>=6.0.0",
+]
+dev = ["sunkit_image[all,tests,docs]"]
+
+[project.urls]
+Homepage = "https://sunpy.org"
+"Source Code" = "https://github.com/sunpy/sunkit-image"
+Download = "https://pypi.org/project/sunkit-image"
+Documentation = "https://docs.sunpy.org/projects/sunkit-image"
+Changelog = "https://docs.sunpy.org/projects/sunkit-image/en/stable/whatsnew/changelog.html"
+"Issue Tracker" = "https://github.com/sunpy/sunkit-image/issues"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["sunkit_image*"]
+exclude = ["sunkit_image._dev*"]
+namespaces = false
+
+[tool.setuptools_scm]
+version_file = "sunkit_image/_version.py"
+
+[tool.gilesbot]
+  [tool.gilesbot.pull_requests]
+  enabled = true
+
+  [tool.gilesbot.towncrier_changelog]
+  enabled = true
+  verify_pr_number = true
+  changelog_skip_label = "No Changelog Entry Needed"
+  help_url = "https://github.com/sunpy/sunkit-image/blob/main/changelog/README.rst"
+
+  changelog_missing_long = "There isn't a changelog file in this pull request. Please add a changelog file to the `changelog/` directory following the instructions in the changelog [README](https://github.com/sunpy/sunkit-image/blob/main/changelog/README.rst)."
+
+  type_incorrect_long = "The changelog file you added is not one of the allowed types. Please use one of the types described in the changelog [README](https://github.com/sunpy/sunkit-image/blob/main/changelog/README.rst)"
+
+  number_incorrect_long = "The number in the changelog file you added does not match the number of this pull request. Please rename the file."
+
+# TODO: This should be in towncrier.toml but Giles currently only works looks in
+# pyproject.toml we should move this back when it's fixed.
+[tool.towncrier]
+  package = "sunkit_image"
+  filename = "CHANGELOG.rst"
+  directory = "changelog/"
+  issue_format = "`#{issue} <https://github.com/sunpy/sunkit-image/pull/{issue}>`__"
+  title_format = "{version} ({project_date})"
+
+  [[tool.towncrier.type]]
+  directory = "breaking"
+  name = "Breaking Changes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "deprecation"
+  name = "Deprecations"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "removal"
+  name = "Removals"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "feature"
+  name = "New Features"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "bugfix"
+  name = "Bug Fixes"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "doc"
+  name = "Documentation"
+  showcontent = true
+
+  [[tool.towncrier.type]]
+  directory = "trivial"
+  name = "Internal Changes"
+  showcontent = true
