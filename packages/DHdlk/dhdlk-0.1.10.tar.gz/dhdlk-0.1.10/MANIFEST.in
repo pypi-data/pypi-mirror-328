@@ -1,0 +1,11 @@
+include README.md
+include LICENSE.txt
+include requirements.txt
+global-include *.py
+global-include *.pyd
+include *.py
+include Smtry/*.pyd
+include pyarmor_runtime/*.so
+include pyarmor_runtime/*.dll
+include pyarmor_runtime/*.dylib
+
