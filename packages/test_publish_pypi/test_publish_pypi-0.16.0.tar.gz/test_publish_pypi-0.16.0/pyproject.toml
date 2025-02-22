@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test_publish_pypi"
+version = "0.16.0"
+description = "Testing package for publishing to PyPI"
+authors = ["Benjamin Partridge <bp1183@my.bristol.ac.uk>"]
+license = "MIT"
+packages = [{ include = "test_publish_pypi", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+twine = "^5.0.0"
+
+[tool.poetry.scripts]
+test-publish-pypi = "test_publish_pypi.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
