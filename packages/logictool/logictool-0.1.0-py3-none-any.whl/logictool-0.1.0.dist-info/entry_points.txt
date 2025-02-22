@@ -1,0 +1,3 @@
+[console_scripts]
+optimap = logictool.optimap:main
+truthy = logictool.truthy:main
