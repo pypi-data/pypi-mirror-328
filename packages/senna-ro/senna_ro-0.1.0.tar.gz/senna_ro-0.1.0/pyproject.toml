@@ -1,0 +1,14 @@
+[project]
+name = "senna-ro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+senna-ro = "senna_ro:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
