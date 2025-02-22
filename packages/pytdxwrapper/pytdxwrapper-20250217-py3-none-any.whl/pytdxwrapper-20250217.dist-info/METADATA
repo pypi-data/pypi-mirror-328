@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: pytdxwrapper
+Version: 20250217
+Summary: a python wrapper for tdx
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: polars>=1.8.2
+Requires-Dist: pytdx>=1.72
+Requires-Dist: tqdm>=4.67.1
+Description-Content-Type: text/markdown
+
+# pytdxwrapper
+
+A wrapper for pytdx.
+
+## 安装
+```
+pip install pytdxwrapper
+```
