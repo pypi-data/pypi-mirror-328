@@ -1,0 +1,5 @@
+[nornir.plugins.inventory]
+CSVInventory=ns_nornir_table_inventory.plugins.inventory.table:CSVInventory
+ExcelInventory=ns_nornir_table_inventory.plugins.inventory.table:ExcelInventory
+FlatDataInventory=ns_nornir_table_inventory.plugins.inventory.table:FlatDataInventory
+
