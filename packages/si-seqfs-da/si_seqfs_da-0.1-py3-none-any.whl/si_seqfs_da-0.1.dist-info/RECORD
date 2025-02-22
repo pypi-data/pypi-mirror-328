@@ -1,0 +1,15 @@
+si_seqfs_da/BackwardSelection.py,sha256=UrWVksL6heqf7QG3ramnJUmlsPXKsW6Gm6fqdNH9KfU,4131
+si_seqfs_da/ForwardSelection.py,sha256=8SR7LlITi4Fa2n5xE63vYc9oAT5peJq-0hKK9WBSA2k,2650
+si_seqfs_da/OptimalTransport.py,sha256=UwcBPbaaf8j5XvF73BwTIeCm-6U0guGxkGoxUqTGwgs,2101
+si_seqfs_da/SI_SeqFS_DA.py,sha256=yGavwgjKNp-UuwQyfaZdsM7ZAJ4X9xTCvrkSzil9rzE,4803
+si_seqfs_da/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+si_seqfs_da/gendata.py,sha256=MtVCLJctR_dN5EtGaIH77RQcOA9irsqsAaiQHfMSiUw,791
+si_seqfs_da/intersection.py,sha256=0-kozsFHirU4mT1daseMlTHqSy7cO6SLGnwI0mvBDt4,4078
+si_seqfs_da/overconditioning.py,sha256=4hBj8iRaBAr52u1pPznv0txzsTLUUb0G4PRqJLpDfWo,9274
+si_seqfs_da/overconditioningBS.py,sha256=cQ2fBii80qutVrSlqEnqSbrdxeaWnkw6oOXwWrTFuwA,10001
+si_seqfs_da/parametric.py,sha256=8j_pGPZUjthYwU0fVQLXzF0ucfIWGxy0hsgM8jXFCfI,7863
+si_seqfs_da-0.1.dist-info/LICENSE,sha256=yrZi1UZRzluQQHLlXKP0tbO_hmMM-pmKwUZEbPgNbCM,1089
+si_seqfs_da-0.1.dist-info/METADATA,sha256=Q6IHiXBOG-9NNFLPzh0G_SBC5eJ7SYpL9WuMVb74Qyg,2061
+si_seqfs_da-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+si_seqfs_da-0.1.dist-info/top_level.txt,sha256=7APSnh0R2315iwV7Cd0WU5sB0f3hm4WqKARlXq_4RE8,12
+si_seqfs_da-0.1.dist-info/RECORD,,
