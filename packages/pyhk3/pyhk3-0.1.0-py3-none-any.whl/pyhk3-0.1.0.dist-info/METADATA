@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: pyhk3
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Gunther Klessinger <gklessinger@gmx.de>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: absl-py>=2.1.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: requests>=2.32.3
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sh>=2.2.1
+Requires-Dist: structlog>=25.1.0
+Description-Content-Type: text/markdown
+
+## Developing This Project
+
+uv pip install -e .

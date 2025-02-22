@@ -1,0 +1,2 @@
+[console_scripts]
+pyhk3 = pyhk3.cli:main
