@@ -1,0 +1,20 @@
+[project]
+name = "chroma-mcp"
+version = "0.1.2"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.6.3",
+    "mcp[cli]>=1.2.1",
+]
+
+[tool.hatch.build.targets.wheel]
+include = ["server.py"]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+chroma-mcp = "server:main"
