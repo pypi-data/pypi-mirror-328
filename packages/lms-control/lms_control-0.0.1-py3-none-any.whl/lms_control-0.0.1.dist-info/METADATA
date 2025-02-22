@@ -1,0 +1,68 @@
+Metadata-Version: 2.4
+Name: lms-control
+Version: 0.0.1
+Summary: Command Line Toolkit to Control LMS Player
+Project-URL: Documentation, https://github.com/pschleiter/lms-control#readme
+Project-URL: Issues, https://github.com/pschleiter/lms-control/issues
+Project-URL: Source, https://github.com/pschleiter/lms-control
+Author-email: Patrick Schleiter <git.pschleiter@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: click
+Requires-Dist: httpx
+Description-Content-Type: text/markdown
+
+# lms-control
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lms-control.svg)](https://pypi.org/project/lms-control)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lms-control.svg)](https://pypi.org/project/lms-control)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+$ pip install lms-control
+```
+
+## Usage
+
+The command line tool can be used to control players connected to a [lyrion media server](https://lyrion.org/).
+
+```console
+$ lms --help
+Usage: lms [OPTIONS] COMMAND [ARGS]...
+
+  Simple command line tool to control lyrion media server players.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  mute         Mutes the volume
+  next         Starts the playback of the next song
+  pause        Pauses the playback
+  play         Starts the playback
+  players      List the available players
+  previous     Starts the playback of the previous song
+  stop         Stops the current playback
+  volume_down  Decrease the playback volume
+  volume_up    Increase the playback volume
+```
+
+## License
+
+`lms-control` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
