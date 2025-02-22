@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flask_admin/__init__.py
+flask_admin/setup_flask_project.py
+flask_ignite.egg-info/PKG-INFO
+flask_ignite.egg-info/SOURCES.txt
+flask_ignite.egg-info/dependency_links.txt
+flask_ignite.egg-info/entry_points.txt
+flask_ignite.egg-info/requires.txt
+flask_ignite.egg-info/top_level.txt
