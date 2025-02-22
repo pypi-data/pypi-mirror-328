@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/sl3aio/__init__.py
+src/sl3aio/dataparser.py
+src/sl3aio/easytable.py
+src/sl3aio/executor.py
+src/sl3aio/table.py
+src/sl3aio.egg-info/PKG-INFO
+src/sl3aio.egg-info/SOURCES.txt
+src/sl3aio.egg-info/dependency_links.txt
+src/sl3aio.egg-info/top_level.txt
+src/test/__init__.py
+src/test/test.py
