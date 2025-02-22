@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: code2uml
+Version: 0.1
+Summary: Generate UML diagrams from source code
+Home-page: https://gitee.com/jakHall/code2uml.git
+Author: min
+Author-email: testmin@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# code2uml
+
+将代码转为UML图
+
+输入目录或者文件，输出UML图
+
+根据antlr4完成目前的代码，实现功能：
+
+1. 支持目录或者单个文件的输入，或者代码段(代码段时必须指定语言类型)
+2. 根据文件名自动识别为C++或者java语言，或者可以通过参数指定语言类型
+3. 根据文件内容自动识别为类、函数、变量、常量、方法等，将其转换成中间语言
+4. 根据中间语言生成plantuml或者mermaid的UML类图
+5. 对于代码段，必须在调用时指定语言类型
+
+## 编译
+
+
+## 使用方法
+
+
