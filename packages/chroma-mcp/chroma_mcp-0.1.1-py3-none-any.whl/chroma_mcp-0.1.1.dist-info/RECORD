@@ -1,0 +1,11 @@
+./.gitignore,sha256=5p26fA3p2iHNzi0pSabJbFEUND3uMwpnZBxM4yI2tKo,3415
+./.python-version,sha256=ekGkE1SrgEkJHvGgAlPKAFZ_Wh0_mu9VAsC0tc6a5wc,5
+./PKG-INFO,sha256=rWojVX8FhDxhoXW8bZD-0e2hb_J8oyg_Fkjd31ZxRPg,4930
+./README.md,sha256=CqUCp2hDfYzCgVPnM4YQ4ak6frr8NJemuVF9PQTV08k,4714
+./pyproject.toml,sha256=Jc74z0wT9bkbZnXcc9_yc-iTzuCBu_ZFrD-NXYmWZ-8,400
+./server.py,sha256=W91j3sLt-m4sUTpISZ-0_lgLjdLgAEzoFR9kMivxiv8,14849
+./uv.lock,sha256=y70zcrNHKMja9XGW3lw5AC0xYTSDA-41fqTa1PlDlZg,252702
+chroma_mcp-0.1.1.dist-info/METADATA,sha256=rWojVX8FhDxhoXW8bZD-0e2hb_J8oyg_Fkjd31ZxRPg,4930
+chroma_mcp-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+chroma_mcp-0.1.1.dist-info/entry_points.txt,sha256=wCt-R5xoduxhIEuCk0ytavMfH4ZlAfeSUW9uQyuBsBQ,43
+chroma_mcp-0.1.1.dist-info/RECORD,,
