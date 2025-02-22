@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+azrmail.egg-info/PKG-INFO
+azrmail.egg-info/SOURCES.txt
+azrmail.egg-info/dependency_links.txt
+azrmail.egg-info/requires.txt
+azrmail.egg-info/top_level.txt
