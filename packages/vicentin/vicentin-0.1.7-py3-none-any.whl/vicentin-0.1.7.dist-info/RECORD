@@ -1,0 +1,14 @@
+vicentin/__init__.py,sha256=g9YwvdO74WAx1AvRcAte6WesiJpu7n3GqfLIwtqoeEQ,21
+vicentin/pca.py,sha256=z1B-GV6FEyJte1s8P5Hj5zlLmAwaShTUaYUzKsywJX8,240
+vicentin/utils.py,sha256=t8LJynzx7LVO2X5utG8xhN9oL_tYCTKSXW2voig7y6c,1015
+vicentin/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vicentin/image/differentiation.py,sha256=LE_pxrVLljrZ1zO2jxuDkrnbUO1-9HUzKCL8hX5i5s4,4455
+vicentin/image/utils.py,sha256=UUiKaunVbdLxkgfZhxmC9gqABbTINO0tAgkK_XyizTA,3815
+vicentin/image/video/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vicentin/image/video/optical_flow/__init__.py,sha256=HYc7Wy4OylBmM57Hk_YCu2zeILoDN5eTYt8L0i13TO0,43
+vicentin/image/video/optical_flow/block_matching.py,sha256=NMQEAwqGyyZEtLB4ZG1QH8k_SxOqBa6-6bktVtGeAEw,1908
+vicentin-0.1.7.dist-info/LICENSE,sha256=gA7ktZz73_sH-rNVP7xvxhKdjSLh6UCX1zRfEcQHSW0,1072
+vicentin-0.1.7.dist-info/METADATA,sha256=FyZyNEZfR-vFrbabEYT1C9oML-rOF0GthVrdWexmprY,474
+vicentin-0.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+vicentin-0.1.7.dist-info/top_level.txt,sha256=2GF2YgTUzUTqeS0vlnOAD0Yc3rQH47-WMj-HtJs6Lug,9
+vicentin-0.1.7.dist-info/RECORD,,
