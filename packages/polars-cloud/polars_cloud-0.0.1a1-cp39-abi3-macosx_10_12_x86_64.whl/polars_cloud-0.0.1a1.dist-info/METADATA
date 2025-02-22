@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: polars-cloud
+Version: 0.0.1a1
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: cloudpickle>=3.0.0
+Requires-Dist: cryptography>=36.0.0
+Requires-Dist: requests>=2.4.2
+Requires-Dist: pyjwt>=2.10.1
+Requires-Dist: platformdirs>=4.3.6
+Requires-Dist: polars==1.22
+License-File: LICENSE
+Summary: Execute your Polars workloads in the cloud
+Home-Page: https://www.pola.rs/
+Author-email: Polars <info@polars.tech>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://pola.rs/
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/banner/polars_github_banner.svg" alt="Polars logo">
+  <br>
+</h1>
+
+# Polars Cloud
+
+_Execute your Polars workloads in the cloud._
+
+Please see [our website](https://pola.rs/our-services/) for more information.
+
+This package is not operational yet.
+
+## Usage
+
+The proto files in the `polars_cloud._grpc` module are generated using [`grpcio-tools`](https://grpc.io/docs/languages/python/quickstart/#grpc-tools).
+
+Because the auto-generated file uses relative imports that are incompatible with Python 3, the file must be fixed with a `sed` command.
+
+Run `scripts/protoc.sh` to regenerate the proto files.
+
