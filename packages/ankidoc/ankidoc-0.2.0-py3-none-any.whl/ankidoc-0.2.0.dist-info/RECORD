@@ -1,0 +1,15 @@
+ankidoc/__init__.py,sha256=RIjV_3xgFmyPNY2UihUqwjGrrxWl05i5EUr4u9rYBx8,23
+ankidoc/__main__.py,sha256=oXTVbfACY3HhZ47zvEBr0oiywDbBubLrabrK7gFMApY,795
+ankidoc/adoc.py,sha256=dAW4o7Pe_Y80Wv3bKmVBnWj9M8kQkDYXnCce8aMVeBY,1973
+ankidoc/anki.py,sha256=dOU-TM-8GQNKhUhhjI0maXFuzdGPAn04xSnwQDER9CU,493
+ankidoc/cli.py,sha256=inRKoOSsZLkMIXC1YYNvtRs4ZkQoRfUtkmKVwWXI6qg,3481
+ankidoc/docgen.py,sha256=DxFUQvqzVTCZTo0kYkNEWxJASL3TeZ571BdRn2SLIAs,546
+ankidoc/modes.py,sha256=nAdZrjMiVr7iFUlALju44P1-6bx-aUH0qZkouiNEeO0,3822
+ankidoc/notegen.py,sha256=m57bqShytxgPakKhkSJQlsFR9kwDITtMWpY2XX1SDpI,993
+ankidoc-0.2.0.data/data/share/man/man1/ankidoc.1,sha256=4fnpsOwPsr0NIaf-WHXxfoqRFIjfMxtX3XEEk00FXLk,4444
+ankidoc-0.2.0.dist-info/LICENSE.md,sha256=zFRw_u1mGSOH8GrpOu0L1P765aX9fB5UpKz06mTxAos,34893
+ankidoc-0.2.0.dist-info/METADATA,sha256=jJYXGexlbzkohCi1PgSDGoGe8yy2qnh6N__-YgdQNTk,42804
+ankidoc-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ankidoc-0.2.0.dist-info/entry_points.txt,sha256=P1kRwRui3EnRKjua4X-Lo3ye44PikMHMxth0uA2yQcA,45
+ankidoc-0.2.0.dist-info/top_level.txt,sha256=2k4FoGOj7durzojiM2bZniCr3fzYzyXDw9NxosRIicg,8
+ankidoc-0.2.0.dist-info/RECORD,,
