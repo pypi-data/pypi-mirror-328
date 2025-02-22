@@ -1,0 +1,28 @@
+name: Release on GitHub & PyPI
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: astral-sh/setup-uv@v5
+      - run: uv build
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true
+      - run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+      - run: gh release create -t "Release ${{ env.TAG}}" -n "$(awk '/## \[${{ env.TAG }}] - /{flag=1;next}/## \[/{flag=0}flag' CHANGELOG.md)" ${{ env.TAG }} dist/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

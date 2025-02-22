@@ -1,0 +1,43 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[dependency-groups]
+dev = [
+  "coverage>=7.6.12",
+  "mock>=5.1.0",
+  "mypy>=1.15.0",
+  "ruff>=0.9.7",
+  "types-markdown>=3.7.0.20241204"
+]
+
+[project]
+authors = [
+  {email = "guilhem.saurel@laas.fr", name = "Guilhem Saurel"},
+  {email = "yejianye@gmail.com", name = "Jianye Ye"}
+]
+dependencies = [
+  "beautifulsoup4>=4.13.3",
+  "emails>=0.6",
+  "lxml>=5.3.1",
+  "markdown>=3.7",
+  "premailer>=3.10.0"
+]
+description = "Send emails written in Markdown"
+homepage = 'https://github.com/nim65s/nmdmail'
+keywords = ['email', 'html', 'inline css', 'markdown']
+license = "BSD-2-Clause"
+name = "nmdmail"
+readme = "README.md"
+repository = "https://github.com/nim65s/nmdmail.git"
+requires-python = ">=3.9"
+version = "0.5.0"
+
+[tool.coverage.run]
+source = ["nmdmail"]
+
+[tool.ruff.lint]
+extend-select = ["A", "B", "C", "COM", "EM", "EXE", "G", "N", "RET", "RUF", "UP", "W", "YTT"]
+
+[tool.tomlsort]
+all = true
