@@ -1,0 +1,11 @@
+textregress/__init__.py,sha256=x7b9NBk65SS2rKlIPJSUjvnBeQGcIa2fIYqxH4y5NRc,169
+textregress/encoding.py,sha256=3wVPBD0aovhXqT16o9RaUfc_TelqnCrCCYmbd_mmAaM,3418
+textregress/estimator.py,sha256=T6KwVghzSuH2I-8XgixxcExpyW35rJ4uNVAznUu2Ecw,13475
+textregress/loss.py,sha256=3SDbfZerP8LK17T7LAX4X0vuRSueDom_YosP9HwR3aY,1556
+textregress/models.py,sha256=pmt58sYQyRuO1ZSge9rT6Fq5BUhJ-btlkC6_RldGP_M,9441
+textregress/utils.py,sha256=KDhAi6ORWRX5fZtE4mC6eMWyDQX69X02xqsEnANjxwI,3421
+textregress-1.1.0.dist-info/LICENSE,sha256=xeW9ZAglvpceLYIAnbL-pC69pkBTn_tdwFX103EHdqM,1091
+textregress-1.1.0.dist-info/METADATA,sha256=QW5YdrN0uALjpAINKmpw10hEslr7xwhEoy3LNeBYoRE,10803
+textregress-1.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+textregress-1.1.0.dist-info/top_level.txt,sha256=W4_5_DtJ1ZjMoLMQBVgrzcD035qhWiz8dnnUy3tsh_M,12
+textregress-1.1.0.dist-info/RECORD,,
