@@ -1,0 +1,636 @@
+Metadata-Version: 2.4
+Name: acmc
+Version: 0.0.2
+Summary: A Tool for Automating the Curation of Medical Concepts derived from Coding Lists
+Project-URL: Repository, https://git.soton.ac.uk/meldb/concepts-processing
+Project-URL: Documentation, https://git.soton.ac.uk/meldb/concepts-processing/docs
+Project-URL: Issues, https://git.soton.ac.uk/meldb/concepts-processing/-/issues
+Author-email: Jakub Dylag <j.j.dylag@soton.ac.uk>, Michael Boniface <m.j.boniface@soton.ac.uk>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright 2024 Jakub Dylag
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+License-File: LICENSE
+Requires-Python: >=3.9
+Requires-Dist: aiosqlite==0.21.0
+Requires-Dist: click==8.1.8
+Requires-Dist: cramjam==2.9.1
+Requires-Dist: et-xmlfile==2.0.0
+Requires-Dist: fastparquet==2024.11.0
+Requires-Dist: fsspec==2025.2.0
+Requires-Dist: gitdb==4.0.12
+Requires-Dist: gitpython==3.1.44
+Requires-Dist: greenlet==3.1.1
+Requires-Dist: iniconfig==2.0.0
+Requires-Dist: lxml==5.3.1
+Requires-Dist: numpy<2
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: pluggy==1.5.0
+Requires-Dist: pyarrow==19.0.0
+Requires-Dist: pyomop==4.3.0
+Requires-Dist: pytest==8.3.4
+Requires-Dist: requests==2.32.3
+Requires-Dist: simpledbf==0.2.6
+Requires-Dist: smmap==5.0.2
+Requires-Dist: sqlalchemy==2.0.38
+Requires-Dist: tables==3.9.2
+Description-Content-Type: text/markdown
+
+<center>
+  <img src="docs/img/University_of_Southampton_Logo.png" height="100" style="padding-right: 50px;" />
+  <img src="docs/img/swansea-university-logo-vector.png" height="100" />
+</center>
+
+# A Tool for Automating the Curation of Medical Concepts derived from Coding Lists (ACMC)
+
+### Jakub J. Dylag <sup>1</sup>, Roberta Chiovoloni <sup>3</sup>, Ashley Akbari <sup>3</sup>, Simon D. Fraser <sup>2</sup>, Michael J. Boniface <sup>1</sup>
+
+<sup>1</sup> Digital Health and Biomedical Engineering, School of Electronics and Computer Science, Faculty of Engineering and Physical Sciences, University of Southampton<br>
+<sup>2</sup> School of Primary Care Population Sciences and Medical Education, University of Southampton <br>
+<sup>3</sup> Population Data Science, Swansea University Medical School, Faculty of Medicine, Health & Life Science, Swansea University <br>
+
+*Correspondence to: Jakub J. Dylag, Digital Health and Biomedical Engineering, School of Electronics and Computer Science, Faculty of Engineering and Physical Sciences, University of Southampton, J.J.Dylag@soton.ac.uk*
+
+### Citation
+> Dylag JJ, Chiovoloni R, Akbari A, Fraser SD, Boniface MJ. A Tool for Automating the Curation of Medical Concepts derived from Coding Lists. GitLab [Internet]. May 2024. Available from: https://git.soton.ac.uk/meldb/concepts-processing
+
+## Introduction
+
+This tool automates the verification, translation and organisation of medical coding lists defining  phenotypes for inclusion criteria in cohort analysis. By processing externally sourced clinical inclusion criteria into actionable code lists, this tool ensures consistent and efficient curation of cohort definitions. These code lists can be subsequently used by data providers to construct study cohorts.
+
+## Overview
+
+### Workflow
+
+The high level steps to use the tools are outlined below:
+
+**1. Define concept sets:** A domain expert defines a list of [concept sets](#defining-concept-sets) for each observable characteristic of the phenotype using CSV file format (e.g., `PHEN_concept_sets.csv`).
+
+**2. Define concept code lists for concept sets:** A domain expert defines [code lists](#defining-concept-codes) for each concept set within the phenotype using supported coding list formats and stores them in the `/src` directory.
+
+**3. Define mapping from code lists to concept sets:** A domain expert defines a [phenotype mapping](#mapping-codes-to-concept-sets) that maps code lists to concept sets.
+
+**4. Generate versioned phenotype coding lists and translations:** A domain expert or data engineer processes the phenotype mappings [using the command line tool](#usage) to validate against NHS TRUD-registered codes and mapping and to generate versioned concept set code lists with translations between coding standards. 
+
+### Supported Medical Coding Standards
+
+The tool supports verification and mapping across diagnostic coding formats below:
+
+| Medical Code  | Verification | Translation to                    |
+|---------------|--------------|-----------------------------------|
+| Readv2        | NHS TRUD     | Readv3, SNOMED, ICD10, OPCS4, ATC |
+| Readv3 (CTV3) | NHS TRUD     | Readv3, SNOMED, ICD10, OPCS4      |
+| ICD10         | NHS TRUD     | None                              |
+| SNOMED        | NHS TRUD     | None                              |
+| OPCS4         | NHS TRUD     | None                              |
+| ATC           | None         | None                              |
+
+- [**Read V2:**](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) NHS clinical terminology standard used in primary care and replaced by SNOMED-CT in 2018; Still supported by some data providers as widely used in primary care, e.g. [SAIL Databank](https://saildatabank.com/)
+- [**SNOMED-CT:**](https://icd.who.int/browse10/2019/en) international standard for clinical terminology for Electronic Healthcare Records adopted by the NHS in 2018; Mappings to Read codes are partially provided by [Clinical Research Practice Database (CPRD)](https://www.cprd.com/) and [NHS Technology Reference Update Distribution (TRUD)](https://isd.digital.nhs.uk/trud).
+- [**ICD-10:**](https://icd.who.int/browse10/2019/en) International Classification of Diseases (ICD) is a medical classification list from the World Health Organization (WHO) and widely used in hospital settings, e.g. Hospital Episode Statistics (HES).
+- [**ATC Codes:**](https://www.who.int/tools/atc-ddd-toolkit/atc-classification) Anatomical Therapeutic Chemical (ATC) Classification is a drug classification list from the World Health Organization (WHO)
+
+## Notes
+
+OMOP
+
+Content of your package
+
+Vocabularies release version: v20240830 
+
+Linux/macOS:
+
+```
+export ACMC_TRUD_API_KEY="your_api_key"
+export ACMC_GITLAB_PAT="your_personal_access_token"
+export ACMC_GITHUB_PAT="your_personal_access_token"
+```
+
+Windows (Command prompt):
+
+```
+set ACMC_TRUD_API_KEY=your_api_key
+set ACMC_GITLAB_PAT=your_personal_access_token
+set ACMC_GITHUB_PAT=your_personal_access_token
+```
+
+Windows (Powershell):
+
+```
+$env:ACMC_TRUD_API_KEY="your_api_key"
+$env:ACMC_GITLAB_PAT="your_personal_access_token"
+$env:ACMC_GITHUB_PAT="your_personal_access_token"
+```
+
+## Installation
+
+**1. Setup Conda Enviroment**
+
+ACMC requires Python and the enviroment is maintained using conda.
+
+* Ensure you have conda installed, e.g. following instructions for miniconda from [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html).
+* Create  environment: `conda env create -f conda.yaml`
+* Activate  environment: `conda activate acmc`
+
+**2. Register at TRUD** to access clinically assured terminology mappings  [NHS TRUD](https://isd.digital.nhs.uk/trud/user/guest/group/0/account/form)
+
+**3. Subscribe and accept the following licenses**
+
+ACMC uses clinically assured medical terminologies provided by the NHS. The datafiles are downloaded automatically but you need to register, request subscription and obtain an API key.
+
+* [NHS Read Browser](https://isd.digital.nhs.uk/trud/users/guest/filters/2/categories/9/items/8/releases)
+* [NHS Data Migration](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/8/items/9/releases)
+* [ICD10 Edition 5 XML](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/28/items/259/releases)
+* [OPCS-4.10 Data Files](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/10/items/119/releases)
+   	<!-- - [BNF/Snomed Mapping data.xlsx](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-snomed-mapping) -->
+
+Each data file has a "Subscribe" link that will take you to the licence. You will need to "Tell us about your subscription request" that summarises why you need access to the data, e.g. for a specific research project. Your subscription will not be approved immediately and will remain in the "pending" state until it is. This is usually approved within 24 hours. 
+	
+**4. Get TRUD API Key** 
+
+Go to your [NHS TRUD Account Management](https://isd.digital.nhs.uk/trud/users/authenticated/filters/0/account/manage) and copy you api key to a safe place, e.g. a personnal key store. The api key is required by ACMC tools to download TRUD resources.
+
+**5. Download and install TRUD resources** 
+
+Execute the following script to download, install and process TRUD resources
+
+`python acmc.py trud install --key <API_KEY>`.
+
+Processed TRUD resources are saved as `.parquet` files in the `build/maps/processed/` directory.
+
+*Note: NHS TRUD defines one-way mappings and does <b>NOT ADVISE</b> reversing the mappings. If you still wish to reverse these into two-way mappings, duplicate the given `.parquet` table and reverse the filename (e.g. `read2_code_to_snomed_code.parquet` to `snomed_code_to_read2_code.parquet`)*
+
+**6. Optional: Install OMOP Database:**  
+
+ACMC optionally supports outputting coding lists in structured OMOP database. To do this you will need to register with [Athena](https://athena.ohdsi.org/auth/login?forceSSO=true) and then download the following vocabularies manually from [Athena OHDSI](https://athena.ohdsi.org/vocabulary/list). 
+
+* Required vocabularies include:
+  * 1) SNOMED
+  * 2) ICD9CM
+  * 17) Readv2
+  * 21) ATC
+  * 55) OPCS4
+  * 57) HES Specialty
+  * 70) ICD10CM
+  * 75) dm+d
+  * 144) UK Biobank
+  * 154) NHS Ethnic Category
+  * 155) NHS Place of Service
+
+The vocabularies will not be available immediately, you will be notified by email when they are ready. This process cannot be automated due to the way that Athena delivers vocabularies for download.
+
+* Un-zip the downloaded folder and copy it's path.  
+
+* Install vocabularies using the following command:  
+
+`python acmc.py omop install -f <Path to extracted OMOP downloads folder>`
+
+## Defining phenotypes
+
+Phenotypes are defined in a JSON configuration file. The file describes how source **concept codes** (i.e. a code list) are mapped to the collection of **concept set** included in the phenotype.
+
+* **concept_sets**: defines the collection of observable characteristics of the phenotype. See Observational Health Data Sciences and Informatics (OHDSI) definition for [Concept Set](https://github.com/OHDSI/Atlas/wiki/Concept-Sets)
+* **codes**: defines lists of source concept codes associated with a specific concept set and declarative actions (e.g. filepaths, column names, code types, actions) to process source concept code files. See OMOP Common Data Model definition for [Concept Codes](https://ohdsi.github.io/TheBookOfOhdsi/StandardizedVocabularies.html#concept-codes)
+
+An example concept set and code list for Abdominal Pain is show below:
+
+```json
+{
+    "concept_sets": {
+        "version": "3.2.10",
+        "omop": {
+            "vocabulary_id": "MELDB",
+            "vocabulary_name": "Multidisciplinary Ecosystem to study Lifecourse Determinants and Prevention of Early-onset Burdensome Multimorbidity",
+            "vocabulary_reference": "https://www.it-innovation.soton.ac.uk/projects/meldb"
+        },
+        "concept_set": [
+            {
+                "concept_set_name": "ABDO_PAIN",
+                "concept_set_status": "AGREED",
+                "metadata": {
+                    "#": "18",
+                    "CONCEPT DESCRIPTION": "Abdominal pain",
+                    "CONCEPT TYPE": "Workload indicator (symptom)",
+                    "DATE ADDED ": "2023-08-25",
+                    "REQUEST REASON ": "Clinician SF - requested by email - symptom example from Qualitative Evidence Synthesis",
+                    "SOURCE INFO": "YES",
+                    "FUNCTION": "QUERY BY CODING LIST",
+                    "FUNCTION.1": "https://clinicalcodes.rss.mhs.man.ac.uk/",
+                    "CODING LIST": "https://git.soton.ac.uk/meld/meldb-external/phenotype/-/tree/main/codes/ClinicalCodes.org%20from%20the%20University%20of%20Manchester/Symptom%20code%20lists/Abdominal%20pain/res176-abdominal-pain.csv ",
+                    "NOTES": "2023-09-08: Clinical SF confirmed that the clinical view would be that this would need to be recurrent or persistent."
+                }
+            }
+        ]
+    },
+    "codes": [
+        {
+            "folder": "clinical-codes-org",
+            "description": "SF's clinical codes - downloaded 16/11/23",
+            "files": [
+                {
+                    "file": "Symptom code lists/Abdominal pain/res176-abdominal-pain.csv",
+                    "columns": {
+                        "read2_code": "code",
+                        "metadata": [
+                            "description"
+                        ]
+                    },
+                    "concept_set": [
+                        "ABDO_PAIN"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
+
+A full example of the phenotype for burdensome multiple long term conditions from the MELDB project can be found [here](https://git.soton.ac.uk/meldb/concepts/-/blob/main/PHEN_assign_v3.json?ref_type=heads)
+
+### Defining concept sets
+
+The `"concept_sets"` object defines the structure for grouping input codes into concept sets based on source concepts. Key elements include:
+
+- **`version`**: Identifies the version of the concept set definitions being used. This can help track changes over time.  
+
+- **`concept_set`**: Defines a list of concept_set objects along with their attributes:
+  - **`concept_set_name`**: Specifies the name of the concept set.  
+  - **`concept_set_status`**: Indicates the status of the concept set. Only concept sets the **"AGREED"** status will be outputted! 
+  - **`metadata`** (optional): A list of additional properties that will be copied into the output. Can be used for descriptive or contextual purposes.
+
+### Defining concept codes
+
+The `"codes"` object defines the location and description of all input medical coding lists required for processing. Each `"folder"` is defined as an object within the `"codes"` list. Similarily all files are objects within the `"files"` list.
+
+* **`folder`**: Specifies the directory containing the input files.  
+* **`description`**: Provides a brief summary of the content or purpose of the files, often including additional context such as the date the data was downloaded.  
+* **`files`**: Lists the files within the specified folder. Each file is represented as an object with the key `"file"` and the file name as its value. Definitions of the columns in each file are detailed below.
+
+### Mapping source column definitions in files to standard vocabulary types
+
+The `"columns"` property within a file object specifies the type and corresponding names of columns in the input file. Each key in the object represents a column type, while the associated value denotes the name of the column in the input file. 
+
+The supported column types include:
+
+* **`read2_code`**: Read Version 2 codes  
+* **`read3_code`**: Read Version 3 codes  
+* **`icd10_code`**: International Classification of Diseases, 10th Revision  
+* **`snomed_code`**: SNOMED-CT codes  
+* **`opcs4_code`**: OPCS Classification of Interventions and Procedures, Version 4  
+* **`atc_code`**: Anatomical Therapeutic Chemical classification codes  
+
+Additionally, the `"metadata"` object ensures that any remaining columns not explicitly categorized by the supported column types are preserved in the output file. These columns are specified as an array of column names to be copied directly.
+
+### Mapping codes to concept sets
+
+The `"codes"` object are mapping to a corresponding concept sets through the `"concept_set"` field.
+
+* **`concept_set`**: Lists the concept sets to which all codes within this file will be assigned.
+
+### Additional preprocessing actions supported
+
+In certain cases where you wish to sub-divde a code list table or a column features multiple code types additional processing is required. Add a `action` object inside of the `file` object.
+
+#### Table with a sub-categorical column:
+In order to sub-divide a table by a categorical column use the "divide_col" action
+
+```json
+"actions":{
+	"divide_col": "MMCode"
+}
+```
+
+#### Table with multiple code types in single column:
+
+Need to split column into multiple columns, so only one code type per column.
+* The "split_col" attribute is the categorical column indicating the code type in that row. The <b>category names should replace column</b> names in the `columns` properties.
+* The "codes_col" attribute is the code column with mulitple code types in a single column
+
+```json
+"actions":{
+	"split_col":"coding_system",
+	"codes_col":"code"
+},
+"columns":{
+	"read2_code":"Read codes v2",
+	"med_code":"Med codes",
+	"icd10_code":"ICD10 codes",
+	"metadata":["description"]
+},
+```
+
+**<b>Large Code lists</b> with numerous phenotypes (e.g. Ho et al), require lots of JSON to be generated. See the "Ho generate JSON" section in process_codes_WP.ipynb for example code to generate* 
+
+## Usage - ACMC Command-Line Tool
+
+## Usage
+The tool follows a structured command system:
+
+```bash
+python acmc.py <command> <subcommand> [options]
+```
+
+### Available Commands
+- **`trud`** – Manage TRUD components
+- **`omop`** – Manage OMOP codes and database
+- **`map`** – Process mapping configurations
+
+---
+
+## TRUD Command
+### Install TRUD Components
+```bash
+acmc trud install -k <TRUD_API_KEY>
+```
+**Options:**
+- `-k, --api-key` _(required)_ – TRUD API key
+
+---
+
+## OMOP Commands
+### Install OMOP Codes
+```bash
+acmc omop install -f <OMOP_FOLDER_PATH>
+```
+**Options:**
+- `-f, --omop-folder` _(required)_ – Path to extracted OMOP downloads folder
+
+### Clear OMOP Data
+```bash
+acmc omop clear
+```
+_Removes OMOP data from the database._
+
+### Delete OMOP Database
+```bash
+acmc omop delete
+```
+_Deletes the entire OMOP database._
+
+---
+
+## MAP Commands
+### Process Phenotype Configuration
+```bash
+acmc map process -c <CONFIG_FILE> -s <SOURCE_CODES_DIR> -o <OUTPUT_DIR> -t <TARGET_CODING> [options]
+```
+
+**Required Options:**
+- `-c, --config-file` – Path to the phenotype configuration file
+- `-s, --source-codes-dir` – Root directory of source codes
+- `-o, --output-dir` – Directory for CSV or OMOP database output
+- `-t, --target-coding` – Target coding system _(choices: read2, read3, icd10, snomed, opcs4)_
+
+**Optional Flags:**
+- `-tr, --translate` – Enable code translation (default: disabled)
+- `-v, --verify` – Enable code verification (default: disabled)
+
+**Optional Arguments:**
+- `-l, --error-log` – Filepath to save error log (default: `error.csv`)
+
+---
+
+## Examples
+### Install TRUD Components
+```bash
+acmc trud install -k my-trud-api-key
+```
+
+### Install OMOP Codes
+```bash
+acmc omop install -f /path/to/omop
+```
+
+### Process Mapping Configuration with Read2 Target Coding
+```bash
+acmc map process -c config.json -s /data/source -o /data/output -t read2 --translate --verify
+```
+
+## License
+MIT License
+
+## Support
+For issues, open a ticket in the repository or contact support@example.com.
+
+
+
+
+
+## Contributing
+
+### Commit to GitLab
+
+```
+git add .
+git commit -m "my message ..."
+git tag -a v1.0.0 -m "added features ..."
+git push
+```
+
+## Acknowledgements  
+
+This project was developed in the context of the [MELD-B](https://www.southampton.ac.uk/publicpolicy/support-for-policymakers/policy-projects/Current%20projects/meld-b.page) project, which is funded by the UK [National Institute of Health Research](https://www.nihr.ac.uk/) under grant agreement NIHR203988.
+
+## License
+
+This work is licensed under a [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+![apache2](https://img.shields.io/github/license/saltstack/salt)
+
