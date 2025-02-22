@@ -1,0 +1,2 @@
+[console_scripts]
+optim_management = optim_management.cmd:cli
