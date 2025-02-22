@@ -1,0 +1,2 @@
+[console_scripts]
+opsanyctl = opsanyctl.main:app
