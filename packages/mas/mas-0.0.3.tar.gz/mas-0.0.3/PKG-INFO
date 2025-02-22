@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: mas
+Version: 0.0.3
+Summary: A automatic trading application of package
+Author-email: mas team <fhfgftma@gmail.com>
+License: test mas
+        
+Keywords: quant,quantitative,investment,trading,algotrading
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-socketio
+
+# mas
+
+mas is a Python library for program traders are convenient to use our lib for program trading
+
+## Installation
+
+Use the package manager [pip]() to install mas.
+
+```bash
+pip install tssst
+```
+
+## Usage
+
+```python
+import mas
+
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
