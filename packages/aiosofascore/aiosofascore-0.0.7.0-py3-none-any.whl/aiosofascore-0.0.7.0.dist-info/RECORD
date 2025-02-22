@@ -1,0 +1,17 @@
+aiosofascore/__init__.py,sha256=7arRme7PkLjECpXc3uVx1e3ym1OAsIwKrHOHgq3SEEY,72
+aiosofascore/exception.py,sha256=EeRdThPepxl-1O1SxdY9M7drJ2DIca07Xr2eN3HqK1U,504
+aiosofascore/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosofascore/api/mixins.py,sha256=s2ASpuhl0e-SuA_Cf_0_Sv7qFxBqijJhIjlLg3iSmkQ,1108
+aiosofascore/api/soccer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosofascore/api/soccer/base.py,sha256=qaj4_CjrbzuXPMJcGZQCXslulBGWbRCOYWGF68bkQDk,691
+aiosofascore/api/soccer/categories.py,sha256=G02dSCJ9HQFsT_US5IWB9ktegUNINhPUNLNcXV8JUs4,731
+aiosofascore/api/soccer/event.py,sha256=-YdqcC3kzSRzBGJ3RQvy09Lhs6P9Sw-_ZHNVA-q6Hqk,972
+aiosofascore/api/soccer/live.py,sha256=YcTuEeNIdKGlwiN7GkZK1LIVdhSDQdEaTZhN9q-zJyM,294
+aiosofascore/api/soccer/tournaments.py,sha256=a0IjA3WRjS8tgvuo0F-nxQHv6UdA9tSQyYs_fpPYIDI,1982
+aiosofascore/api/soccer/schemas/__init__.py,sha256=ERmmOxz_9mUkIuccNbzUa5Y6gVLLVDdyc4cCxbCCUbY,20
+aiosofascore/api/soccer/schemas/base.py,sha256=KDKz7pp5pehlTi1LBnbd_DYXucvI-g0H2aQyHYW-kew,7898
+aiosofascore-0.0.7.0.dist-info/LICENSE,sha256=O-0zMbcEi6wXz1DiSdVgzMlQjJcNqNe5KDv08uYzqR0,1055
+aiosofascore-0.0.7.0.dist-info/METADATA,sha256=rLboxe3mu64JSQ6Bh6c-jcWO7FLBZ5ONzn2eYxQPPGg,2741
+aiosofascore-0.0.7.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aiosofascore-0.0.7.0.dist-info/top_level.txt,sha256=ClavTMe9yHQjALo6Pa4E1h-HW1HU8Hf5Gx9-j6sRpSQ,13
+aiosofascore-0.0.7.0.dist-info/RECORD,,
