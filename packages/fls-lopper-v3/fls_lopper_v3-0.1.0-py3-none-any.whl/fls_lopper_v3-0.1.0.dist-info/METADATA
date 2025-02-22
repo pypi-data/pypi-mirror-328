@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: fls-lopper-v3
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Coding-AI-with-html <krekeris440@gmail.com>
+Project-URL: Homepage, https://github.com/Coding-AI-with-html
+Project-URL: Repository, https://github.com/Coding-AI-with-html/fls-loper
+Project-URL: Documentation, https://github.com/Coding-AI-with-html/fls-loper
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
