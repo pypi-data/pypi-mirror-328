@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p4print"
+version = "0.2.1"
+description = "A lightweight package that lets you use p() instead of print()."
+readme = "README.md"
+requires-python = ">=3.0"
+license = { text = "MIT" }  
+authors = [{ name = "Ashish Kumar", email = "ashish.jnu@outlook.com" }]  
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = []
+
+[tool.setuptools]
+packages = ["p4print"]

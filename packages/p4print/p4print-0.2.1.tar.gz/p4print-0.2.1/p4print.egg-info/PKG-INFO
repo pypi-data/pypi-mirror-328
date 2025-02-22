@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: p4print
+Version: 0.2.1
+Summary: A lightweight package that lets you use p() instead of print().
+Home-page: https://github.com/AshishKumarCS/p4print
+Author: Ashish Kumar
+Author-email: Ashish Kumar <ashish.jnu@outlook.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+## p4print
+Earlier, I was a Java lover. In Java, I writing System.out.print() again and again was frustrating. So, I used sop() instead.
+
+When I started coding in Python, my lazy coder instincts kicked in—I wanted a simpler way to print output. Typing print() repeatedly slowed me down, so I created a lightweight package that lets you use p() instead of print().
+
+## usage
+from lazyprint import p
+p("Hello, World!")
+
+## Installation
+```sh
+pip install p4print
+
+
