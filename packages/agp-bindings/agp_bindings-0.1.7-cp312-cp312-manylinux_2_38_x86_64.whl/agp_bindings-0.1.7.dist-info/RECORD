@@ -1,0 +1,6 @@
+agp_bindings-0.1.7.dist-info/METADATA,sha256=5sxHTiD8NqjFTDlZXNZv08BDlcAt4CBGAPOjKIzONDY,6517
+agp_bindings-0.1.7.dist-info/WHEEL,sha256=p36vk6-JGUqCHOi9ymMsRrkbvLejd9etsNaCkyvqOcc,108
+agp_bindings/__init__.py,sha256=IrKoJzjhZqji9s63aGsdD3BeJBpGzp0Bz27v2gbblRA,8058
+agp_bindings/_agp_bindings.pyi,sha256=Gq_o-ZHXKbUZQKFegOghjywvYwizCemRkcvaLtIrhp8,2657
+agp_bindings/_agp_bindings.cpython-312-x86_64-linux-gnu.so,sha256=ujH0iOdNo0VVkYF4wV_0N9MadpPKgfzSQLE-tcZ43Zs,16556968
+agp_bindings-0.1.7.dist-info/RECORD,,
