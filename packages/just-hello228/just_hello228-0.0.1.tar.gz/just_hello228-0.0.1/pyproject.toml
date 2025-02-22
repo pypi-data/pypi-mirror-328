@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "just_hello228"
+version = "0.0.1"
+authors = [
+ { name="Danil", email="" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.11.9"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+]
