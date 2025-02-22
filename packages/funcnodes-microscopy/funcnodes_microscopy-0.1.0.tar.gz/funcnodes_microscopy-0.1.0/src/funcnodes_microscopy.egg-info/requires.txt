@@ -1,0 +1,15 @@
+funcnodes-core>=0.3.9
+funcnodes>=0.5.6
+funcnodes-react-flow>=0.3.3
+requests
+tifffile>=2025.1.10
+funcnodes-pandas>=0.2.11
+funcnodes-images>=0.2.4
+funcnodes-files>=0.2.11
+funcnodes-opencv>=0.2.4
+funcnodes-keras>=0.1.14
+stardist>=0.9.1
+scikit-image>=0.25.1
+super-image>=0.1.7
+funcnodes-sklearn>=0.1.15
+huggingface-hub==0.20.2
