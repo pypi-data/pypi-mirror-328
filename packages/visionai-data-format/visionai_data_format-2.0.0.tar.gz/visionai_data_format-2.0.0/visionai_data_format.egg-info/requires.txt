@@ -1,0 +1,7 @@
+pydantic==2.*
+pillow
+
+[test]
+pytest
+mock
+pre-commit
