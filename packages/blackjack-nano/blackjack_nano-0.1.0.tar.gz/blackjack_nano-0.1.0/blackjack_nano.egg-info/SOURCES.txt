@@ -1,0 +1,8 @@
+MANIFEST.in
+blackjack.py
+setup.py
+blackjack_nano.egg-info/PKG-INFO
+blackjack_nano.egg-info/SOURCES.txt
+blackjack_nano.egg-info/dependency_links.txt
+blackjack_nano.egg-info/entry_points.txt
+blackjack_nano.egg-info/top_level.txt
