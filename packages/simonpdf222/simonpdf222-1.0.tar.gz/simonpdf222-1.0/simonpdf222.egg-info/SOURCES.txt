@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simonpdf222/__init__.py
+simonpdf222/pdf2image.py
+simonpdf222/pdf2text.py
+simonpdf222.egg-info/PKG-INFO
+simonpdf222.egg-info/SOURCES.txt
+simonpdf222.egg-info/dependency_links.txt
+simonpdf222.egg-info/top_level.txt
