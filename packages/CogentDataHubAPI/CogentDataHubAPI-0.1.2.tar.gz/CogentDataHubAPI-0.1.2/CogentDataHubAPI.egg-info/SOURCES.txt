@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+CogentDataHubAPI/DataHubConnection.py
+CogentDataHubAPI/PID.py
+CogentDataHubAPI/TrendChart.py
+CogentDataHubAPI/__init__.py
+CogentDataHubAPI/lispparse.py
+CogentDataHubAPI.egg-info/PKG-INFO
+CogentDataHubAPI.egg-info/SOURCES.txt
+CogentDataHubAPI.egg-info/dependency_links.txt
+CogentDataHubAPI.egg-info/requires.txt
+CogentDataHubAPI.egg-info/top_level.txt
