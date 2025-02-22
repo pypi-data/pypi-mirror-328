@@ -1,0 +1,17 @@
+fishweb/__init__.py,sha256=PUO7rh_8PoUdOMfiv5kQVjMS_HI0CXMhpaXIpBRkxPQ,349
+fishweb/__main__.py,sha256=Q_6wdt7v_d6Pt3Fmz1xDGc2_KrNWVGC0mV9hMiFJvao,136
+fishweb/logging.py,sha256=F92HWv3tAjRBwsyYFQ0R8BMxjVC8AAn6fbHxX6Zy1wY,924
+fishweb/app/__init__.py,sha256=XBNSVI_sTSNUnPq3r8ahpgctUT1blCdIj3YuFIy7ulE,137
+fishweb/app/config.py,sha256=rFcqw1l2e0oiDjwc16w3t9emNqKfFFWDM9XOSzlIWfU,1279
+fishweb/app/middleware.py,sha256=RBFjZoCJRR0apyFIEA-_kDPKw2dtAK2qLhODyw5xlt8,4500
+fishweb/app/wrapper.py,sha256=R7BFOw85tl-Vwm0fE_j63yeeW1Wq99udLqCe7d-XiJY,5494
+fishweb/cmd/__init__.py,sha256=eR3m3oCSbkI7WHbNtK-QbHF2Dgurr8l08_CwN-BbmA4,53
+fishweb/cmd/logs.py,sha256=lgupRH-ny1CaRR-1vj4ZY7lEfWshxI6_UuZlW-D3BRU,1211
+fishweb/cmd/main.py,sha256=W3zZ0j7VkRlkOj8RbZJrFpNDoPi8ZFl25_c76hvFog0,829
+fishweb/cmd/serve.py,sha256=xbWhEPw0mAdvtC5mrYjkUXEdM1n5DWWpg5uY90utDG4,1298
+fishweb-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+fishweb-0.1.0.dist-info/METADATA,sha256=8t7S01HNyrsvcbFtda8eOG3Eya-hWN7S7MODvsFqkMs,1272
+fishweb-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+fishweb-0.1.0.dist-info/entry_points.txt,sha256=7OEIl85NSPZyhQnw09npNzr68plWnpFTC-SeRbXXyEc,44
+fishweb-0.1.0.dist-info/top_level.txt,sha256=OMWYJ3qYs9FygPp1-uZf1PXSefpNm-4WpqGp9y1w_iM,8
+fishweb-0.1.0.dist-info/RECORD,,
