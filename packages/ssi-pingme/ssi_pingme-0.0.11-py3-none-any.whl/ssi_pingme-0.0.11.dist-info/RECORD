@@ -1,0 +1,16 @@
+pingme/__init__.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+pingme/_modidx.py,sha256=ImWazvRgkRJUKV4KM1qeYwtTmAewCx7JNWBCa77LZao,6787
+pingme/api.py,sha256=macxBQyrxDE3IluUnu9MkJvl5n50hdXpxiSs5Pet31M,3607
+pingme/core.py,sha256=MFBR1abDzVSFqL_M1Loewe35mKkD4NCytPSpOqtzBi8,10599
+pingme/hello_world.py,sha256=U4EnmU44kUApMNGt6AGJHlPgIUxr0cBptRzieWAF0Sg,1915
+pingme/pingme_class.py,sha256=ZgKnU11sbcmi64AEuXSacV3h5MMEqsT5wamYBq9k8ms,8916
+pingme/service.py,sha256=EN4i0Sb_eqcFH4u0e-nz36a_XebluZu6iH3GZD2nNJc,462
+pingme/services.py,sha256=ksmSL453k5O96cLYw5MwVSnukXW8RQDcoHFB-lynrPY,2463
+pingme/config/config.default.env,sha256=BDBqJIPOUIzXZupFvzgFJc7Njz7vVvP1SYAZuc2iWUs,1409
+pingme/config/config.default.yaml,sha256=lZNIhFOiFcDxuO6o_KjZF2dtTHHztM3UR8DhpHHeo1w,2458
+ssi_pingme-0.0.11.dist-info/LICENSE,sha256=p6aTb6QIfqyZ2Uux2VjV4F2zthdUSHZOjB4mfwGc7fo,1094
+ssi_pingme-0.0.11.dist-info/METADATA,sha256=mISu_LgpwAhUbrC8-j73GwWuIkNDf_jEeZgcOPqyx9U,2190
+ssi_pingme-0.0.11.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ssi_pingme-0.0.11.dist-info/entry_points.txt,sha256=7D_bHEcy9ihssUUKmlxvWyPY0adhEr7LX82u4IZG4mo,169
+ssi_pingme-0.0.11.dist-info/top_level.txt,sha256=gWDYXWjDLN-gkdP2QHq1_YtMDyZdANnzS0dxoZLRrKo,49
+ssi_pingme-0.0.11.dist-info/RECORD,,
