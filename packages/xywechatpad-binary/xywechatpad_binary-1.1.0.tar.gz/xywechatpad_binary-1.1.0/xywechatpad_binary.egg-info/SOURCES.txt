@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+xywechatpad_binary/__init__.py
+xywechatpad_binary.egg-info/PKG-INFO
+xywechatpad_binary.egg-info/SOURCES.txt
+xywechatpad_binary.egg-info/dependency_links.txt
+xywechatpad_binary.egg-info/top_level.txt
+xywechatpad_binary/binaries/win_x64/XYWechatPad.exe
