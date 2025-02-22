@@ -1,0 +1,15 @@
+india_stocks_api/__init__.py,sha256=0U-FGoP5N126gA4kYKFWUnCURz8H6D3xveMI_gsT1xw,376
+india_stocks_api/utils.py,sha256=GXLi8pKwrhxAbyv4cIx8BQszINvHhPvZNK6QhI2jpFc,1454
+india_stocks_api/brokers/__init__.py,sha256=OMZKmU0MAeb0VJlCB8e-oVlux_Aoiwcmkei8WpdZhcc,3046
+india_stocks_api/brokers/angelone.py,sha256=DzxSBwJvmceHNpdf92mvhfUSojNhFQvdFpM1-GJFzxA,82757
+india_stocks_api/brokers/base/__init__.py,sha256=e5FWhqfRxZ_Lo-m69GO8WAKyw8_IOjAKZONzoNJRMOI,126
+india_stocks_api/brokers/base/broker.py,sha256=EePV_Y9AL0V2cs8jXtAThAQeI6M7rOIFEJu51emuWGA,29553
+india_stocks_api/brokers/base/constants.py,sha256=hzyP6aHfqbRF5CHaL8zQPjNS9SeWmS0bFXlZzEjaLbQ,4557
+india_stocks_api/brokers/base/errors.py,sha256=BVl1nv2UXpJuadp20SIqVq_CslDEkdNywDLWj_c2QkE,2502
+india_stocks_api/config/__init__.py,sha256=0hZGbLf_3S5xKkjPWs7NUX-SaZ-5KZlfrN2oTd0Fi3Y,124
+india_stocks_api/config/network.py,sha256=cVgsHC30uW56T_f6a83m1162vCvzllUnIxizmwz1gQc,774
+india_stocks_api-0.1.0.dist-info/LICENSE,sha256=9mi8yKVK9yG5ksUO1WtriFt53XqAO4sR1wT6cyBzlHg,1074
+india_stocks_api-0.1.0.dist-info/METADATA,sha256=WLrNnKq84xZVpyKhyZI_EUJwXQLYQFnQIqj_jOu2KRA,3288
+india_stocks_api-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+india_stocks_api-0.1.0.dist-info/top_level.txt,sha256=w-0_Av7015Uy7M_n80VtdiV_eDo4e2GhvV3XAXnAfF4,17
+india_stocks_api-0.1.0.dist-info/RECORD,,
