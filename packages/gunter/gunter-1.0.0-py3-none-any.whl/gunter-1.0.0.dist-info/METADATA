@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gunter
+Version: 1.0.0
+Summary: Program to turn any image of glyphs (with a consistent height and width) into a (Roman Czyborra) .hex-like format, and that into a .bdf
+Home-page: https://git.icosahedr.online/sapero/gunter
+Author: saperoi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
