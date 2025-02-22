@@ -1,0 +1,5 @@
+[console_scripts]
+d-bee=dblocks_core.script.debbie:main
+d-exp=dblocks_core.script.wasp:main
+debbie=dblocks_core.script.debbie:main
+
