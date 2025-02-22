@@ -1,0 +1,10 @@
+agentauth/__init__.py,sha256=VIiBsBjr7Lkb3FqWiDH9lgl6bJK6zsgjMT3imohJQfA,385
+agentauth/agentauth.py,sha256=EyJYKEnhWDjMgCwx3gLm_z04vaY7SIxNLORirdqBMCw,7598
+agentauth/credential.py,sha256=NYnNrW7i7QICtpYJKpoheteBuTPlZWABUSspjKxF-9c,2397
+agentauth/credential_manager.py,sha256=KRvQd1fZqA20LPIjKWUYqFN7fxo9L1PaU7Eu8qj_tAs,5205
+agentauth/email_service.py,sha256=mM5WW8t9TMoBSawZTI3foOESbIWIzqzprm5Did969A8,2466
+agentauth/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agentauth-0.2.1.dist-info/METADATA,sha256=2mxpHf0aaxBot9Ryi_uZ9Z-luWkytwjbm6x-RnB3taU,2180
+agentauth-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+agentauth-0.2.1.dist-info/licenses/LICENSE.txt,sha256=WWp3x0S8c4ceq3VGUBSFiwFyqQf9GQFpEYcPPh6wuLY,1066
+agentauth-0.2.1.dist-info/RECORD,,
