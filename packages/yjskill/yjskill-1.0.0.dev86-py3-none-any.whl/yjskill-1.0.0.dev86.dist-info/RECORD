@@ -1,0 +1,16 @@
+skillv1/client/__init__.py,sha256=58CvTlhRY6mphoyhaNrOfg2JXQ_uL0JiNZjTmOCwZn0,184
+skillv1/client/skill_api_datasource.py,sha256=n04hIfonGMHWguzlOgEhvZ4YWUdVu5m0dKfVcL40K2Q,1306
+skillv1/client/skill_api_skill.py,sha256=SZPADPJDIWVXimr6uQRL86gWR4JymHitVYWxWBWI5fQ,4742
+skillv1/client/skill_api_skill_test.py,sha256=VumTlJnXPhaokBOj78O0RimWHH_66RaR5hgcVjICjs4,4085
+skillv1/client/skill_client.py,sha256=Ng8RtIf4qZUkAwjkmY-Pjjtq2KHxST1tp61yrrqys08,1085
+skillv1/tools/__init__.py,sha256=58CvTlhRY6mphoyhaNrOfg2JXQ_uL0JiNZjTmOCwZn0,184
+skillv1/tools/skill_edge_synchronizer.py,sha256=70PDeDsWEyt3skeexydGSSLttAjsm1JuYGpTxlGfUiU,15820
+skillv1/tools/skill_edge_synchronizer_test.py,sha256=e8-JjEUJkSnsI9zuQj0M91U6AIS2E3KyN0kokKJ_Vgo,1106
+skillv1/tools/skill_synchronizer.py,sha256=mKNWulS_0uemt93zJ2tzEIzPrt7xmNJcliZBQCb-T5Y,19230
+skillv1/tools/skill_synchronizer_test.py,sha256=j-dzkdjQsJGdZ8bCc0FFSp8gzsgr_auiigvpxqxW0mY,779
+skillv1/tools/sync_skill.py,sha256=DvOKeUSxNXvb3s9w5R-46s4O8Dl18aZImr86g3pPzVE,3037
+skillv1/tools/sync_skill_test.py,sha256=WkJSHsJZCz8UuTGfvHUTZUnhCBhd_7MRJTC7iyIiSmc,14155
+yjskill-1.0.0.dev86.dist-info/METADATA,sha256=4CUNykBcX-nN3M-zc2ys4fiIwBlpGal0CyqV6egaZCk,726
+yjskill-1.0.0.dev86.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+yjskill-1.0.0.dev86.dist-info/top_level.txt,sha256=SvzMAoYJiCEdifesl9j4C2m9MAHzP_b973s5oUWQOI4,8
+yjskill-1.0.0.dev86.dist-info/RECORD,,
