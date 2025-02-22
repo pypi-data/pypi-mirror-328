@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: test-publish-my-package
+Version: 0.0.6
+Summary: Add your description here
+Project-URL: Homepage, https://github.com/smitk85143/microsoft-store-scraper
+Author-email: smitk85143 <smitk85143@gmail.com>
+Requires-Python: >=3.7

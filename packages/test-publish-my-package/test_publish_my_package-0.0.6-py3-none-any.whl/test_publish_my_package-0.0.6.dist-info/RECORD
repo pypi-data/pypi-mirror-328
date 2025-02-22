@@ -1,0 +1,6 @@
+test_publish_my_package/__init__.py,sha256=N9oGRnVpucQnkKSybWb-w6aQIseBdZ1jmDqL4EhI_Zc,69
+test_publish_my_package/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_publish_my_package/random.py,sha256=yw12YFXqYbowxC2N06el6Ijc-Islea_sAHNaGGlE4mY,69
+test_publish_my_package-0.0.6.dist-info/METADATA,sha256=5rumzROLTzFYiuQ_ktSxp2M4dQxJJFNBAcuREqFO2Zk,250
+test_publish_my_package-0.0.6.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+test_publish_my_package-0.0.6.dist-info/RECORD,,
