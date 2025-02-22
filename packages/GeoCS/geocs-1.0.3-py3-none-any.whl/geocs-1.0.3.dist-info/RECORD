@@ -1,0 +1,12 @@
+GeoCS/__init__.py,sha256=QSnYkBwfOsae0kelPpab7w_5xTTSWAJk4Z9n6oyloS4,72
+GeoCS/calc_lib.py,sha256=WrKA8ciSUM7wCO6H9oQ8vcDQgbE20VjVOuXnoGRxC1s,10378
+GeoCS/data_lib.py,sha256=xcw_s4gDHDcm9u00-o0OCizeJEsg-3lHQf2kzujE7_M,26704
+GeoCS/plot_lib.py,sha256=XehhnVrFVcZbSDnvFyj-VBfZ0FrvcbBZOAi-CvRg6Q8,17433
+GeoCS/.ipynb_checkpoints/__init__-checkpoint.py,sha256=LrGlq7_a5XQT72Rec_LIoB2homVRm9XkHGRSa1pUcoA,49
+GeoCS/.ipynb_checkpoints/calc_lib-checkpoint.py,sha256=WrKA8ciSUM7wCO6H9oQ8vcDQgbE20VjVOuXnoGRxC1s,10378
+GeoCS/.ipynb_checkpoints/data_lib-checkpoint.py,sha256=xcw_s4gDHDcm9u00-o0OCizeJEsg-3lHQf2kzujE7_M,26704
+GeoCS/.ipynb_checkpoints/plot_lib-checkpoint.py,sha256=XehhnVrFVcZbSDnvFyj-VBfZ0FrvcbBZOAi-CvRg6Q8,17433
+geocs-1.0.3.dist-info/METADATA,sha256=VTReN-u1--jdfEIsBzWCNnA6ogv7dn4wLJLEJYp2Vc0,5034
+geocs-1.0.3.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+geocs-1.0.3.dist-info/licenses/LICENSE.txt,sha256=n9P3Az1_SdmE2lo1Yr0cXku65AOBL2BhAWWjWNcjRTM,1076
+geocs-1.0.3.dist-info/RECORD,,
