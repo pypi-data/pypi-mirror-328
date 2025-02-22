@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: stratdev
+Version: 0.0.1
+Summary: Financial data aqcuisition and organization system for backtesting trading strategies
+Project-URL: Homepage, https://github.com/Alejandro-wong/stratdev
+Project-URL: Issues, https://github.com/Alejandro-wong/stratdev/issues
+Author-email: Alejandro Wong <aa.wongfl@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: alpaca-py>=0.38.0
+Requires-Dist: backtesting>=0.6.1
+Requires-Dist: bokeh>=3.6.3
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.2.3
+Requires-Dist: pandas-ta>=0.3.14b0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: python-dotenv>=0.0.1
+Requires-Dist: yfinance>=0.2.53
+Description-Content-Type: text/markdown
+
+# Stradev
+
+## Description
