@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sintok/__init__.py
+sintok.egg-info/PKG-INFO
+sintok.egg-info/SOURCES.txt
+sintok.egg-info/dependency_links.txt
+sintok.egg-info/top_level.txt
