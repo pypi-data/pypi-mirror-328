@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_lcms2.pyd,sha256=RuryczYuoCuScP8w00ma2dhG9HNfh3TIjKVpVg5YHWY,340480
+pylcms2/__init__.py,sha256=5k9unDxlwsqDT09G__vPSE9l6Scm_--tJJk8GBpBE9A,4160
+pylcms2/_lcms2.c,sha256=uCuDO4Y9mBvnr-NehVigssK6WwrCTJW4YhMc9US6wP8,2090
+pylcms2/implementation.py,sha256=dlZIHrEIZEq5fwXfVyp9fNMRSetRU8p0cBB3xH_q-Cs,16827
+pylcms2-0.0.20.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pylcms2-0.0.20.dist-info/METADATA,sha256=r7eZC7TsHSDsY8QxXQdIOEMV37CNN27IL-ImK--BVWM,5162
+pylcms2-0.0.20.dist-info/WHEEL,sha256=6bXTkCllrWLYPW3gCPkeRA91N4604g9hqNhQqZWsUzQ,101
+pylcms2-0.0.20.dist-info/top_level.txt,sha256=I2O7PsYFe531WHzHiqwG5BT2RXl2b98Z_TFa97NAB5g,24
+pylcms2-0.0.20.dist-info/RECORD,,
