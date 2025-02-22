@@ -1,0 +1,11 @@
+devopsai/_version.py,sha256=zBVX2byWL6NrFlwjvahpnvSqDsdtebZW0K9WM_cj20U,411
+devopsai/cli.py,sha256=18vstO2M6gTk7lvpm9tObqwAUzhimwOWlRqXmnQsysM,1197
+devopsai/config.py,sha256=8kNTDpW55aE3j7zBHM7rfH387NrlLRMS1HJhqEN6vuY,532
+devopsai/core.py,sha256=h9s_AJeIlBdUSQNpL1HC5e0lpxlu2_H4jh_ce69pkHc,4070
+devopsai/version.py,sha256=t7uRiq9nAJn14ATEhh0MEEldQz25eAqul4ddQWDtGNY,581
+devopsAI-0.1.5.dist-info/LICENCE,sha256=52eEzix0ZrK0MXtsaDTZ-el0K9BCjU2aCPnvj4xwNmI,1070
+devopsAI-0.1.5.dist-info/METADATA,sha256=jR9CwjXr-Om1ECHFbACnQoItshktVyGvCqCb5xsnfgA,1547
+devopsAI-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+devopsAI-0.1.5.dist-info/entry_points.txt,sha256=qd1D0_uDfG9D9b00mehCI9kA04_rBPWGrS7Yh8JpuiY,74
+devopsAI-0.1.5.dist-info/top_level.txt,sha256=qqnMnUdABZEuT3hOVUUaEap3l3rHSF73JDfMyv69e0c,9
+devopsAI-0.1.5.dist-info/RECORD,,
