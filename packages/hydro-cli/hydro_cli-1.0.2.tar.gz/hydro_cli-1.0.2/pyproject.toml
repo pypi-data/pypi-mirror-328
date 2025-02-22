@@ -1,0 +1,25 @@
+[project]
+name = "hydro-cli"
+version = "1.0.2"
+description = "MD5 hash cracker"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+    "rich>=13.9.4",
+]
+
+[project.scripts]
+hydro = "hydro.cli:cli"
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "mkautodocs>=0.3.4.3",
+    "mkdocs-material>=9.6.5",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.9.7",
+]
