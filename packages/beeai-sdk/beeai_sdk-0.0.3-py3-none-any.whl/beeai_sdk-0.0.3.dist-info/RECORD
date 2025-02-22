@@ -1,0 +1,10 @@
+beeai_sdk/__init__.py,sha256=hr8yZXzjVEX3rNyL_i5LsItDWOzymCsIaJp7Yci2Zr8,574
+beeai_sdk/providers/agent.py,sha256=o7rTh4Ax5pxJb8S_Ou4k4PjEuFnA0jPTLLV5Es4OFj8,1760
+beeai_sdk/schemas/base.py,sha256=nCQeQfF-tcdyqYtsF7X1vLUjlqoez9FUi7NsEROuO_o,810
+beeai_sdk/schemas/message.py,sha256=hGN6aLl8XJ2rOD965lp1IXhUGAEUz8kSvLPQS2W_mZg,1074
+beeai_sdk/schemas/metadata.py,sha256=qn8cQmZMIr5l1pgB2Hq-VpWf1g_L-PULpCYOFwVrOxY,1017
+beeai_sdk/schemas/prompt.py,sha256=9NKLihT5CDPH4upeVxqzRtIJzBbmLU11ME840T9Ljr0,711
+beeai_sdk-0.0.3.dist-info/METADATA,sha256=SIIuRs6MvkHEr5DRsMhK-i5NQDZz_MK0WeiZIiJDUt0,306
+beeai_sdk-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+beeai_sdk-0.0.3.dist-info/top_level.txt,sha256=PG8v433tZnQCtAwUgPQHMH4asoLSzq_lQN9vBQ0Y5F0,10
+beeai_sdk-0.0.3.dist-info/RECORD,,
