@@ -1,0 +1,8 @@
+README.md
+setup.py
+SafeSeal/Encryption.py
+SafeSeal/__init__.py
+SafeSeal.egg-info/PKG-INFO
+SafeSeal.egg-info/SOURCES.txt
+SafeSeal.egg-info/dependency_links.txt
+SafeSeal.egg-info/top_level.txt
