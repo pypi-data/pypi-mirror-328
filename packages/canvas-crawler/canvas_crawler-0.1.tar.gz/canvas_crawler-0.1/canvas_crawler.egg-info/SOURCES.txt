@@ -1,0 +1,7 @@
+README.md
+setup.py
+canvas-crawler/__init__.py
+canvas_crawler.egg-info/PKG-INFO
+canvas_crawler.egg-info/SOURCES.txt
+canvas_crawler.egg-info/dependency_links.txt
+canvas_crawler.egg-info/top_level.txt

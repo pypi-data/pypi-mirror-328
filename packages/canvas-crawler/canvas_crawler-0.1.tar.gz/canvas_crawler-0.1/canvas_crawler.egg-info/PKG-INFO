@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: canvas-crawler
+Version: 0.1
+Summary: A harmless proof of concept package
+Home-page: https://pypi.org/project/canvas-crawler/
+Author: FM
+Description-Content-Type: text/plain
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+It just sends a notification when someone installs this package.
