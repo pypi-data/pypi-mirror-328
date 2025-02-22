@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+talPYot/__init__.py
+talPYot/main.py
+talPYot.egg-info/PKG-INFO
+talPYot.egg-info/SOURCES.txt
+talPYot.egg-info/dependency_links.txt
+talPYot.egg-info/entry_points.txt
+talPYot.egg-info/requires.txt
+talPYot.egg-info/top_level.txt
+tests/test_*.py
