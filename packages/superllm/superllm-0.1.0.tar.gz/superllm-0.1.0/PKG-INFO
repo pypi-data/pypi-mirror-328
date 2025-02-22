@@ -1,0 +1,134 @@
+Metadata-Version: 2.2
+Name: superllm
+Version: 0.1.0
+Summary: Enhanced LLM capabilities through test-time compute and search algorithms
+Home-page: https://github.com/to314as/superllm
+Author: SuperLLM Contributors
+Author-email: SuperLLM Contributors <tobias.oberkofler@lmu.de>
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: networkx>=2.8.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: scipy>=1.8.0
+Requires-Dist: pandas>=1.5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: mypy>=0.900; extra == "dev"
+Requires-Dist: build>=1.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: sphinx>=7.0.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints>=1.25.0; extra == "dev"
+Requires-Dist: myst-parser>=2.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# SuperLLM
+
+A powerful Python library for enhancing LLM capabilities through advanced test-time compute and search algorithms, focusing on expert human-AI co-construction.
+This project is under consturction. Don't come with any expectations!
+
+## 🌟 Features
+
+- **Test-Time Compute Algorithms**
+  - Tree of Thoughts implementation
+  - Self-consistency sampling
+  - Dynamic prompt optimization
+  - Multi-perspective reasoning
+
+- **Search Algorithms**
+  - Beam search with adaptive width
+  - Best-first symbolic search
+  - Guided exploration with expert feedback
+  - Knowledge graph-based reasoning
+
+- **Expert Human-AI Co-Construction**
+  - Interactive reasoning frameworks
+  - Expert feedback integration
+  - Knowledge distillation from expert interactions
+  - Adaptive learning from human guidance
+
+## 🚀 Installation
+
+```bash
+pip install superllm
+```
+
+## 🔧 Quick Start
+
+```python
+from superllm import ThoughtTree, ExpertFeedback
+from superllm.search import AdaptiveBeamSearch
+
+# Initialize a thought tree for complex reasoning
+thought_tree = ThoughtTree()
+
+# Create an expert feedback system
+expert_system = ExpertFeedback()
+
+# Configure adaptive beam search
+search = AdaptiveBeamSearch(
+    beam_width=5,
+    max_steps=10
+)
+
+# Run enhanced inference
+result = thought_tree.solve(
+    prompt="Your complex question here",
+    search_algorithm=search,
+    expert_system=expert_system
+)
+```
+
+## 📚 Documentation
+
+For detailed documentation, visit [docs.superllm.ai](https://docs.superllm.ai)
+
+## 🛠️ Core Components
+
+1. **Thought Trees**: Implement tree-based reasoning strategies for complex problem-solving
+2. **Search Algorithms**: Advanced search techniques for exploring solution spaces
+3. **Expert Systems**: Tools for integrating human expert knowledge and feedback
+4. **Evaluation Metrics**: Comprehensive metrics for assessing solution quality
+
+## 🤝 Contributing
+
+We welcome contributions! Please check our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Citation
+
+If you use SuperLLM in your research, please cite:
+
+```bibtex
+@software{superllm2024,
+  title = {SuperLLM: Enhanced LLM Capabilities through Test-Time Compute},
+  author = {SuperLLM Contributors},
+  year = {2024},
+  url = {https://github.com/to314as/superllm}
+}
+```
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=to314as/superllm&type=Date)](https://star-history.com/#to314as/superllm&Date)
