@@ -1,0 +1,16 @@
+numpy
+dscribe
+tropea-clustering
+MDAnalysis
+
+[dev]
+ruff
+mypy
+pytest
+pytest-cov
+sphinx
+sphinx-copybutton
+build
+twine
+furo
+numba
