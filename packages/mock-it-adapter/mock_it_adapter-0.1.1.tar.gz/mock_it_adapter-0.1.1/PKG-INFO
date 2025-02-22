@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: mock_it_adapter
+Version: 0.1.1
+Summary: A Python mock_it_adapter for Mock IT API
+Project-URL: Homepage, https://github.com/AlekseiSuzume/mock_it_adapter_py
+Author-email: Vorobev Aleksei <aleksei.suzume@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+
+# Mock IT Adapter
+
+A Python library for interacting with Mock IT API.
+
+## Installation
+
+```bash
+pip install mock_it_adapter
