@@ -1,0 +1,3 @@
+[console_scripts]
+flask-ignite = flask_admin.setup_flask_project:main
+
