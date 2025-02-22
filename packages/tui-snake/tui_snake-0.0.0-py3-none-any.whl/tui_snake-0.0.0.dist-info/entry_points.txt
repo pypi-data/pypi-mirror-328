@@ -1,0 +1,2 @@
+[console_scripts]
+tuisnake = src.__main__:main
