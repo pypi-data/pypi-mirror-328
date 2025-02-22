@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/IP2WHOIS.egg-info/PKG-INFO
+src/IP2WHOIS.egg-info/SOURCES.txt
+src/IP2WHOIS.egg-info/dependency_links.txt
+src/IP2WHOIS.egg-info/top_level.txt
+src/ip2whois/__init__.py
+src/ip2whois/api.py
+tests/test_api.py
