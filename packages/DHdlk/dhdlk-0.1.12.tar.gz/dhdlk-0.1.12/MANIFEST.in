@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.txt
+include requirements.txt
+global-include *.pyd
+global-include *.pyc
+recursive-include pyarmor_runtime *.*
+recursive-include xntwoger/dist/pyarmor_runtime_000000 *.*
