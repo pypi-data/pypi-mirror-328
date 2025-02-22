@@ -1,0 +1,78 @@
+[project]
+name = "antcal"
+dynamic = ["version"]
+description = "AntCal python module"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Atlanswer", email = "atlanswer@gmail.com" }]
+keywords = ["antenna", "DRA", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "pyaedt>=0.11.5",
+    "pyvista>=0.44.1",
+    "rich>=13.9.4",
+]
+
+[dependency-groups]
+dev = [
+    "antcal",
+    "flit>=3.11.0",
+    "ipykernel>=6.29.5",
+    "ipython>=8.29.0",
+    "keyring>=25.6.0",
+    "nbformat>=5.10.4",
+    "ruff>=0.7.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/atlanswer/AntCal"
+Repository = "https://github.com/atlanswer/AntCal.git"
+Documentation = "https://github.com/atlanswer/AntCal#readme"
+Issues = "https://github.com/atlanswer/AntCal/issue"
+
+[project.optional-dependencies]
+docs = [
+    "myst-parser>=4.0.0",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-autodoc2>=0.5.0",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-rtd-theme>=3.0.2",
+    "sphinx>=8.1.3",
+]
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
+
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.ruff]
+line-length = 80
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "UP", "B", "SIM", "I"]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportMissingTypeStubs = false
+reportUnknownVariableType = "warning"
+
+[tool.uv.sources]
+antcal = { workspace = true }
+
