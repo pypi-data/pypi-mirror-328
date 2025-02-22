@@ -1,0 +1,12 @@
+pytrain_api/__init__.py,sha256=MLonkLq0VdB396jG_7ACTwxjlvoIidCrrKn6JldmAjs,1654
+pytrain_api/_version.py,sha256=WG2gUkVRG4TIqG0-naezn012emNIbgERkkZYUI1CHww,411
+pytrain_api/alexa_skill.json,sha256=5lAC9GkdqDJ0bdp-vRJoT36ABhDIqCeyDR9YprtqjtY,71276
+pytrain_api/pytrain_api.py,sha256=L8KbunYtNMPGCFMtouboqTHYCikO6uLIIYgdRXtUzes,39523
+static/favicon.ico,sha256=84wo-LYrARdZaK2OjzGjAIHfA_xA4Wq8DjkZX_N7bdk,4286
+pytrain_ogr_api-0.5.7.dist-info/AUTHORS,sha256=gNIHZ5qADaaJ9L3uvCp-1xi5OHS0pkWtvzWGEVwB2D8,39
+pytrain_ogr_api-0.5.7.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pytrain_ogr_api-0.5.7.dist-info/METADATA,sha256=yo2xI_9Oih00g5kbk8QEjDJOCr2OB7r5Q_rVWss05yc,11348
+pytrain_ogr_api-0.5.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pytrain_ogr_api-0.5.7.dist-info/entry_points.txt,sha256=jjNvxVre8h0JA4-27wouPDpUE6kyUWxPCvdkLhD8HaA,49
+pytrain_ogr_api-0.5.7.dist-info/top_level.txt,sha256=5smPZI3rm9gk1IHip3ejMsg8pDA2JzvPoTu8mAfsAdI,19
+pytrain_ogr_api-0.5.7.dist-info/RECORD,,
