@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aion_chronos
+Version: 0.1
+Summary: Aion Xtensions Chronos to generate AX mappings based on modules and use cases.
+Home-page: https://github.com/yourusername/aion-xtensions-chronos
+Author: Aion
+Author-email: aion@hcl.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Aion Xtensions Chronos
+
+**Aion Xtensions Chronos** is a Python package that allows you to generate AX mappings based on modules and use case data. This tool can be used to automate the generation of AX identifiers (e.g., AX1, AX2, AX3...) and organize them into a structured format.
+
+## Installation
+
+You can install Aion Xtensions Chronos via pip:
+
+```bash
+pip install aion-xtensions-chronos
