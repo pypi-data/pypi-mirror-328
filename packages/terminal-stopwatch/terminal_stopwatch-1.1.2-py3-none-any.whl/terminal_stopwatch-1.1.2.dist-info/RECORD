@@ -1,0 +1,12 @@
+terminal_stopwatch/__init__.py,sha256=m-9LI-BTjYHzRPMeqXgmTukKPGfLf0Js6X7YPF7fcCs,445
+terminal_stopwatch/constants.py,sha256=qTRxAgeZ5ii86R_R2-M2amQjwPSnuL-61wZmRLVaPkA,156
+terminal_stopwatch/input_handler.py,sha256=Cy_OSwGy_Wh-j9lZqmjgVZKb1uVrWjZTv8UOrhYW3uE,634
+terminal_stopwatch/main.py,sha256=QaKWwL8Yr5uC8QfRj3gl0oSvZMV2Xe7etWVraAJF5oY,1756
+terminal_stopwatch/models.py,sha256=L4drs2CbJUEf8TrRoSrNIJINoKsBUr9jPvAyH4J2UgY,838
+terminal_stopwatch/stopwatch.py,sha256=eguNeaIDVgNLioOKb_dg1n0TI5DP7jQ7m4VD9oQjsBo,862
+terminal_stopwatch/terminal.py,sha256=f1JjGO4k4_en0YNHl8ZgHjxZ8o1QcmlrYxfM4A-7aTA,1325
+terminal_stopwatch-1.1.2.dist-info/LICENSE,sha256=jGFtlIZzNrU-QA8pon8mk640eIAb4qU_vXEZUC4WyKg,1063
+terminal_stopwatch-1.1.2.dist-info/METADATA,sha256=acIoO652rtzxIaESYzs_UwYCtzURAKEtj-LZQY5k2PA,3173
+terminal_stopwatch-1.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+terminal_stopwatch-1.1.2.dist-info/entry_points.txt,sha256=4R5ugXRI9J2W9qT_iUamI7jPg96mf0cuuMLAMa6qKhc,58
+terminal_stopwatch-1.1.2.dist-info/RECORD,,
