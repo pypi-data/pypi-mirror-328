@@ -1,0 +1,131 @@
+Metadata-Version: 2.4
+Name: pyculus
+Version: 0.0.12
+Summary: a collection of calculus-related functions
+Author-email: Maayan Keidar <pythonfunctionslibrery@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: sympy
+Description-Content-Type: text/markdown
+
+# **pyculus - A Python Library for Calculus Operations**
+
+## **📌 Overview**
+pyculus is a Python library that provides **calculus-related functions** including:
+- **Simplification of expressions**
+- **Domain determination**
+- **Derivative calculations**
+- **Finding critical points**
+- **Table of variations**
+- **Increasing and decreasing intervals**
+- **Graph plotting**
+
+This library is built using **SymPy, NumPy, and Matplotlib**, making it useful for both **symbolic mathematics** and **visualization**.
+
+---
+
+## **🚀 Installation**
+You can install pyculus using pip:
+```sh
+pip install pyculus
+```
+
+---
+
+## **🔹 Usage**
+### **1️⃣ Import the Library**
+```python
+import pyculus as fn
+```
+
+### **2️⃣ Define a Function**
+```python
+f = x**4 - 2*x**2
+```
+
+### **3️⃣ Simplify the Function**
+```python
+simplified = fn.symplify(f)
+print(simplified)
+```
+
+### **4️⃣ Find the Domain**
+```python
+d = fn.domain(f)
+print("Domain:", d)
+```
+
+### **5️⃣ Compute the Derivative**
+```python
+derivative = fn.derivative(f)
+print("Derivative:", derivative)
+```
+
+### **6️⃣ Find Critical Points**
+```python
+critical_pts = fn.critical_points(f)
+print("Critical Points:", critical_pts)
+```
+
+### **7️⃣ Generate the Table of Variations**
+```python
+table = fn.table(f)
+print("Table of Variations:", table)
+```
+
+### **8️⃣ Find Extreme Points**
+```python
+extreme_pts = fn.extreme(f)
+print("Extreme Points:", extreme_pts)
+```
+
+### **9️⃣ Identify Increasing and Decreasing Intervals**
+```python
+increasing_intervals = fn.increasing(f)
+decreasing_intervals = fn.decreasing(f)
+print("Increasing Intervals:", increasing_intervals)
+print("Decreasing Intervals:", decreasing_intervals)
+```
+
+### **🔟 Plot the Function**
+fn.graph(f)
+```
+
+---
+
+## **📌 Features**
+- **Symbolic Computation:** Uses SymPy for mathematical operations.
+- **Automatic Domain Calculation:** Handles function continuity.
+- **Calculus Tools:** Finds derivatives, critical points, and variation tables.
+- **Graphing Support:** Uses Matplotlib for visualizing functions.
+- **Numerical Handling:** Leverages NumPy for better numerical processing.
+- **As of now, the library is not able to take into account discontinuities in the calculations of the increasing and decreasing intervals - but this will not cause an error in the graph.
+
+---
+
+## **🛠 Dependencies**
+Function requires the following libraries:
+- `sympy`
+- `numpy`
+- `matplotlib`
+
+These will be installed automatically with `pip install function`.
+
+---
+
+## **📄 License**
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **📞 Contact**
+For any questions, bug reports, or feature requests, send an email:
+pythonfunctionslibrery@gmail.com
+
+Happy coding! 🚀
+
