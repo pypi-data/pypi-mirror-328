@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+face_preprocessor/__init__.py
+face_preprocessor/config.py
+face_preprocessor/detector.py
+face_preprocessor/processor.py
+face_preprocessor/utils.py
+face_preprocessor.egg-info/PKG-INFO
+face_preprocessor.egg-info/SOURCES.txt
+face_preprocessor.egg-info/dependency_links.txt
+face_preprocessor.egg-info/requires.txt
+face_preprocessor.egg-info/top_level.txt

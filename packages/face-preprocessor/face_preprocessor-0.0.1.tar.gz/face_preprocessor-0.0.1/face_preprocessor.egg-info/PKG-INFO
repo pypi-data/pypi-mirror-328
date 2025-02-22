@@ -1,0 +1,76 @@
+Metadata-Version: 2.2
+Name: face_preprocessor
+Version: 0.0.1
+Summary: A package for face detection and preprocessing in images
+Home-page: https://github.com/kiranbab/face_preprocessor
+Author: Kiran babu 
+Author-email: kiran2babu@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python>=4.5.0
+Requires-Dist: torch>=1.7.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: retinaface>=0.0.5
+Requires-Dist: Pillow>=8.0.0
+Requires-Dist: tqdm>=4.45.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Face Preprocessor
+
+A Python package for face detection and preprocessing in images. This package provides tools for detecting faces, cropping them with margins, and preparing them for further processing or machine learning tasks.
+
+## Features
+
+- Face detection using RetinaFace
+- Face cropping with customizable margins
+- Batch processing capabilities
+- Support for various input formats
+- Configurable preprocessing parameters
+- Azure Blob Storage support (optional)
+
+## Installation
+
+```bash
+pip install face-preprocessor
+```
+
+## Quick Start
+
+```python
+from face_preprocessor import FaceDetector, ImageProcessor
+from face_preprocessor.config import FaceDetectionConfig
+
+# Initialize configuration
+config = FaceDetectionConfig(
+    model_name="resnet50",
+    max_size=1024,
+    min_confidence=0.9
+)
+
+# Create detector and processor
+detector = FaceDetector(config)
+processor = ImageProcessor(detector)
+
+# Process a single image
+result = processor.process_image("path/to/image.jpg")
+if result.success:
+    result.processed_image.save("output.jpg")
+
