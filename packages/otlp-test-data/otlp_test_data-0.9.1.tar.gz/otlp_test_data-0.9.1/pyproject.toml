@@ -1,0 +1,54 @@
+[project]
+name = "otlp-test-data"
+version = "0.9.1"
+description = "Produces OTLP data using OTEL instrumentation"
+requires-python = ">=3.8"
+# https://github.com/astral-sh/uv/issues/4204
+# license = "MIT"
+readme = "readme.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Testing :: Traffic Generation",
+    "Framework :: OpenTelemetry",
+    "Framework :: OpenTelemetry :: Exporters",
+]
+dependencies = [
+    "freezegun ~= 1.5",
+    "opentelemetry-api ~= 1.30",
+    "opentelemetry-exporter-otlp ~= 1.30",
+    "opentelemetry-exporter-otlp-proto-http ~= 1.30",
+]
+
+[dependency-groups]
+dev = [
+    "pyright ~= 1.1",
+    "ruff ~= 0.9",
+]
+testing = [
+    "pytest ~= 8.3.4",
+]
+
+[tool.semantic_release]
+version_variables = ["pyproject.toml:project.version"]
+
+[tool.semantic_release.changelog]
+changelog_file = "changelog.md"
+exclude_commit_patterns = ["ci", "test", "chore(deps)"]
+mode = "update"
