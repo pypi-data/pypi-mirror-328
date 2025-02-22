@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"/>
+        <title>Changes report</title>
+
+        <style>
+            button:hover {
+                opacity: 0.6;
+            }
+            .center-text {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60vh;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="container">
+            <h1>Changes report:</h1>
+        </header>
+
+        <main class="container">
+            {% if added or modified or deleted %}
+                {% for changes_type, methods, color in [('New methods', added, 'green-500'), ('Modified methods', modified, 'pumpkin-300'), ('Deleted methods', deleted, 'red-500')] %}
+                    <div>
+                        {% if methods %}
+                            <h2 class="pico-color-{{ color }}">{{ changes_type }}:</h2>
+                            {% for method in methods %}
+                                <details>
+                                    <summary role="button" class="outline secondary">
+                                        {{ method.http_method|upper }} {{ method.http_path }}
+                                    </summary>
+
+                                    {% for type, diffs in method.diff_details.items() %}
+                                        <h5> {{ type }}:</h5>
+
+                                        {% for diff in diffs %}
+                                            <kbd>{{ diff }}</kbd>
+                                        {% endfor %}
+
+                                        <hr />
+                                    {% endfor %}
+
+                                </details>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                <h1 class= "pico-color-blue-500 center-text">No changes detected :(</h1>
+            {% endif %}
+
+        </main>
+    </body>
+</html>
