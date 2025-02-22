@@ -1,0 +1,14 @@
+*.pyc
+*~
+.*.sw[op]
+*.egg-info
+*.so
+dist
+build
+_build
+distribute-*
+.ruff_cache/
+.tox/
+.vscode/
+venv/
+wheelhouse/
