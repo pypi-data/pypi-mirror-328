@@ -1,0 +1,14 @@
+project_builder/__init__.py,sha256=54J10-qtNcAK0nvBVTYZ5wCs5RjMtqenRrbKvB1Uhns,73
+project_builder/boiler_plates.py,sha256=3tuEamjj7H8-V8QjxATl7ZH6lx1752qPpqYsEpamUBo,7369
+project_builder/builder.py,sha256=2rogvIls76ZC-_06we8EJjqNzOtLeE43Rx03DkQ0ILs,2535
+project_builder/llm_interface.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_builder/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_builder/templates.py,sha256=iNv9B_TztM7zuucjGB9y-SfVjO2utnWGZLJeqrxRs3w,5579
+project_builder/utils.py,sha256=Yaq3A-F8uMKb-Rnbksm8fjf9rqvVwBUcoo16M9jiGAs,3711
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_project_builder.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_builder-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+project_builder-0.1.0.dist-info/METADATA,sha256=29xSiZyr37B_fz3unpqZ-rXYYVhgTZgqm-pNtrW84uA,1188
+project_builder-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+project_builder-0.1.0.dist-info/top_level.txt,sha256=HDKD8Q8HIhS6mHEiHXr9PJlrkvnsWeBxis51ZUu9Axk,22
+project_builder-0.1.0.dist-info/RECORD,,
