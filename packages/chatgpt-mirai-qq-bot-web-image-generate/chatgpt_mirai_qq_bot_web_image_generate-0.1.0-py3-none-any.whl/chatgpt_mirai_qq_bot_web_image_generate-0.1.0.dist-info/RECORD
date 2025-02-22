@@ -1,0 +1,10 @@
+web_image_generate/__init__.py,sha256=Z_uKpnQuGpFe4CGAkk-eNOa575hLxjwQ7RBteO9FMHY,3119
+web_image_generate/blocks.py,sha256=1U7oEV-7b4QD83c314A3vr_-54I1XIn3Q9DthZWlwRw,4014
+web_image_generate/image_generator.py,sha256=qF5QM0ieuUGbD7JrkZ_7CA5NHkbq8V3XnczjeYHdr7o,10745
+web_image_generate/example/textToImage.yaml,sha256=6vUC3pvkU6dBYn_s9FIS8AVqMv0LRWV781WBSjgV4uo,3514
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/METADATA,sha256=3IyEdZh3UO9PB_lsjYGvcPpRtZWBje4Q6ng1GrtY3eo,1724
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/entry_points.txt,sha256=37GmFzDSW3zo7tfDV5LPFeiptfADQv9QWtVh_8ut68I,80
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/top_level.txt,sha256=O_Xj9ogMo-PMbtmCO2ADLk2pPe2wET0_VhiH-y5lyL4,19
+chatgpt_mirai_qq_bot_web_image_generate-0.1.0.dist-info/RECORD,,
