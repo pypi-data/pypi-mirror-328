@@ -1,0 +1,9 @@
+mortal_sqlglot/__init__.py,sha256=nrRqpUbO8XzdGeUzTIVLLtVXjoWF-PbfVhtIuDHy07g,519
+mortal_sqlglot/sqlglot_main.pyd,sha256=Zd4lvY1KyBAtnGHn9Z2serxlursnA9W14r2eCM_kz94,156672
+mortal_sqlglot/sqlglot_main.so,sha256=0be3936m_AA_uMcAMA0f12K6RiPZiqXzV0eK1G0TjUA,1184416
+mortal_sqlglot/test.pyd,sha256=50vhbkqS_3e8neOqRX3ubDEHZ88BROR7IiEOstD98Tc,115712
+mortal_sqlglot/test.so,sha256=-VcbM-ETIDud9iP-eIuUUTdauSIAZ7sBwc-Fwe3pYMY,801912
+mortal_sqlglot-2.3.22.dist-info/METADATA,sha256=_vzYk9DKX_ZthorpCz7tp8sEwU0PwhaX7Utj1uUKoro,546
+mortal_sqlglot-2.3.22.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+mortal_sqlglot-2.3.22.dist-info/top_level.txt,sha256=8XRXa88oUowpLqqfMrHuTUWJSC9sDBwlxTtMOXyi1OY,15
+mortal_sqlglot-2.3.22.dist-info/RECORD,,
