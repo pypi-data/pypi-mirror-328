@@ -1,0 +1,8 @@
+dependent_bterms/__init__.py,sha256=jqRrNIIbADjYCmsmJb3mGOTQQzWpMKQ67IFdvNb7KcY,601
+dependent_bterms/dependent_variable_ring.py,sha256=UoJUKzG4cZOfwzvECyrNO6tyFCpzAFjcBrnf05M4JCI,4419
+dependent_bterms/structures.py,sha256=khSR3qJAppnZp3s0d7gIGEZCu_kXJ3vFJvlj_lTfoXs,14790
+dependent_bterms/utils.py,sha256=xbXKBNue6BYokqcyZ6w4aOLDC43Iy5FUuO1dnFTVYFc,17350
+dependent_bterms-1.0.1.dist-info/METADATA,sha256=iXqRtw9xNIqfPBnGMyocjoc8WPjrPZ4Ly3VRx9kwHYA,3431
+dependent_bterms-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dependent_bterms-1.0.1.dist-info/licenses/COPYING.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dependent_bterms-1.0.1.dist-info/RECORD,,
