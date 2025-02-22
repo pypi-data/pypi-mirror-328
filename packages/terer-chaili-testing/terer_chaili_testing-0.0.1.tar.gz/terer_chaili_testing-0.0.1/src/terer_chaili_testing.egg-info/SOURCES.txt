@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/terer_chaili_testing/__init__.py
+src/terer_chaili_testing/example.py
+src/terer_chaili_testing.egg-info/PKG-INFO
+src/terer_chaili_testing.egg-info/SOURCES.txt
+src/terer_chaili_testing.egg-info/dependency_links.txt
+src/terer_chaili_testing.egg-info/top_level.txt
