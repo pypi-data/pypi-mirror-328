@@ -1,0 +1,121 @@
+Metadata-Version: 2.4
+Name: agent-studio
+Version: 0.1.7
+Summary: No-code AI agent creation platform with Streamlit UI and FastAPI backend
+Project-URL: Documentation, https://github.com/username/agent-studio#readme
+Project-URL: Source, https://github.com/username/agent-studio
+Author: Harish Santhanalakshmi Ganesan
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: anthropic>=0.37.1
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: build>=1.2.2.post1
+Requires-Dist: chardet>=5.2.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: fastapi>=0.115.2
+Requires-Dist: filelock>=3.17.0
+Requires-Dist: hawkins-agent<=0.1.7
+Requires-Dist: hawkins-rag>=0.1.0
+Requires-Dist: hawkinsdb>=1.0.1
+Requires-Dist: langchain>=0.3.18
+Requires-Dist: openai>=1.62.0
+Requires-Dist: pip>=25.0.1
+Requires-Dist: psutil>=5.9.8
+Requires-Dist: pypdf2>=3.0.1
+Requires-Dist: python-multipart>=0.0.20
+Requires-Dist: requests>=2.32.3
+Requires-Dist: streamlit-agraph>=0.0.45
+Requires-Dist: streamlit-flow-component
+Requires-Dist: streamlit>=1.42.0
+Requires-Dist: trafilatura>=2.0.0
+Requires-Dist: twilio>=9.4.5
+Requires-Dist: twine>=6.1.0
+Requires-Dist: uvicorn>=0.34.0
+Description-Content-Type: text/markdown
+
+
+### Agent Studio
+
+
+```
+
+## Installation
+
+1. Install the package from PyPI:
+```bash
+pip install agent-studio
+```
+
+## CLI Usage
+
+The package provides two main CLI commands:
+
+1. Start the AgentStudio application:
+```bash
+agentstudio start
+```
+This command starts both the Streamlit interface and FastAPI backend servers.
+
+2. Check the version:
+```bash
+agentstudio version
+```
+
+**Important Note:** If you're a first-time user, we strongly recommend checking the tutorial webpage in the application after installation. The tutorial will guide you through building agents and workflows effectively.
+
+## API Endpoints
+
+### Process Workflow
+- **URL**: `/api/process`
+- **Method**: `POST`
+- **Body**:
+```json
+{
+    "content": "Your input data here"
+}
+```
+
+### Health Check
+- **URL**: `/health`
+- **Method**: `GET`
+
+## Example Usage
+
+```bash
+# Check health
+curl http://localhost:8000/health
+
+# Process workflow
+curl -X POST http://localhost:8000/api/process \
+     -H "Content-Type: application/json" \
+     -d '{"content": "Example input data"}'
+```
+
+## Extending the Workflow
+
+To add new workflow steps, create a new `WorkflowStep` instance:
+
+```python
+new_step = WorkflowStep(
+    name="step_name",
+    description="Step description",
+    requires=["dependent_step_name"]
+)
+workflow_manager.add_step(new_step)
+```
+
+## Error Handling
+
+The API includes comprehensive error handling and logging:
+- All errors are logged with timestamps and context
+- HTTP exceptions include detailed error messages
+- Step execution failures are properly propagated
+
+## License
+
+MIT License 
+
+## Author
+
+Made with love by Harish Sanathanalakshmi Ganesan
