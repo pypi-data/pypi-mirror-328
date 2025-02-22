@@ -1,0 +1,1 @@
+from japanize_matplotlib_modern.japanize_matplotlib import japanize, get_font_path, get_font_ttf_path
