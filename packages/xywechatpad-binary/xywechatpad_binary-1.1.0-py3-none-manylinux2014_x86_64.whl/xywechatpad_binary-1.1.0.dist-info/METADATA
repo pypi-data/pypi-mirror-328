@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: xywechatpad-binary
+Version: 1.1.0
+Summary: XYBotV2 Binary Distribution
+Home-page: https://github.com/HenryXiaoYang/xywechatpad-binary
+Author: HenryXiaoYang
+Author-email: henryyang666@hotmail.com
+Platform: Linux-x86_64
+Platform: Linux-aarch64
+Platform: macosx-x86_64
+Platform: macosx-arm64
+Platform: Windows-x86_64
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: platform
+Dynamic: requires-python
+Dynamic: summary
+
+# XYWechatPad Binary Distribution
+
+Binary distribution for XYBotV2
