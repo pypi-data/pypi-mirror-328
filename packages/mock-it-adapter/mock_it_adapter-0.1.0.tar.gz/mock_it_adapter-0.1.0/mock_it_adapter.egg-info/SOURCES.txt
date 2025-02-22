@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mock_it_adapter.egg-info/PKG-INFO
+mock_it_adapter.egg-info/SOURCES.txt
+mock_it_adapter.egg-info/dependency_links.txt
+mock_it_adapter.egg-info/requires.txt
+mock_it_adapter.egg-info/top_level.txt
+tests/__init__.py
+tests/tests.py
