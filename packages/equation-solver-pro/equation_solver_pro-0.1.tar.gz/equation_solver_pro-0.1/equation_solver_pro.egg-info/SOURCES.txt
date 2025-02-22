@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+Equation_Solver_Pro/Equation_Solver_Pro.py
+Equation_Solver_Pro/__init__.py
+equation_solver_pro.egg-info/PKG-INFO
+equation_solver_pro.egg-info/SOURCES.txt
+equation_solver_pro.egg-info/dependency_links.txt
+equation_solver_pro.egg-info/top_level.txt
