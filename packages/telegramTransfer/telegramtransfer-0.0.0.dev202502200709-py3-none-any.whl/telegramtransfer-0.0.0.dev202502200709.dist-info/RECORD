@@ -1,0 +1,17 @@
+telegramTransfer/.env.example,sha256=llnuYWlTu0G0AGCf7wNwuW0nytsmfGPD_PHdP_Okj-4,185
+telegramTransfer/__init__.py,sha256=1SrihKQ-BgJNMzvCteJqdA3ub8JasUnJO197a2nFn80,274
+telegramTransfer/__main__.py,sha256=NNVYlHfKsezP-bP_j_hyGDaBTIMkSvBsn0--vstE8F8,142
+telegramTransfer/cli.py,sha256=99rRrHLDjATY3DNezDOqMSI2d0rShPFqnXYuFFZWVCY,5172
+telegramTransfer/client.py,sha256=elMdMjtEjPkxcw9KqhdKKFp_ajgJHiCN3z8wNEOqF2c,13722
+telegramTransfer/config.py,sha256=i_8lZ_h5mbNAUWnwwBFhjGK1fNKuMpRZq5vsfO9RZd4,6224
+telegramTransfer/config.toml.example,sha256=v-nljSrX84JFGc8OnDGaJvWB69R3pTolxV0L39Y1W90,743
+telegramTransfer/manager/__init__.py,sha256=df0Pm18JsOiegMBUw1SeTMYG1Cw7hxtpSFfeHdAKtmg,104
+telegramTransfer/manager/base.py,sha256=TPCKu-F6hyanxEHDoyNrBm-mhcEHVezizikJFc92VhE,1695
+telegramTransfer/manager/download.py,sha256=GsqDmGeyDjaPpPBMnklzNhBCUDSUo5DsoKA2P0SUY5A,3307
+telegramTransfer/manager/sync.py,sha256=dwepP2EgVu0Z0XXK3LSf2DsMJIcIGwYLGhNdd_He2E8,9099
+telegramTransfer/manager/upload.py,sha256=F4z43Q1ooFItSwkuDAkMlUj4RdN-GfHTdfGlwTxJtTA,9426
+telegramtransfer-0.0.0.dev202502200709.dist-info/METADATA,sha256=PtScL5Jy44gxZXJ0_-n2hgUsltGIoKbjOnto1ewnlCI,45204
+telegramtransfer-0.0.0.dev202502200709.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+telegramtransfer-0.0.0.dev202502200709.dist-info/entry_points.txt,sha256=thL61CeJdO92uVtvi2bx99mSs9O1BovrD7utTSYkJlY,62
+telegramtransfer-0.0.0.dev202502200709.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+telegramtransfer-0.0.0.dev202502200709.dist-info/RECORD,,
