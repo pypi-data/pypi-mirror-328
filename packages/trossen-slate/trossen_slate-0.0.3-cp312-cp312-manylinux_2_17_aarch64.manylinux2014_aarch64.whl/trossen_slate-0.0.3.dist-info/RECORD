@@ -1,0 +1,15 @@
+trossen_slate-0.0.3.dist-info/RECORD,,
+trossen_slate-0.0.3.dist-info/WHEEL,sha256=U8unvW3X9ufFr_A470hFZCv-DSAZfXO5XWA34Ap_woU,158
+trossen_slate-0.0.3.dist-info/METADATA,sha256=rIRmZr-A7ni4iw5U7N3zcPbnrG0-Y-_b1FcJ8-u3dNw,280
+trossen_slate/trossen_slate.pyi,sha256=b8maAQmlv51odVYAZ5BGtoEOf9ClDIBeszzjk5k443w,8055
+trossen_slate/__init__.py,sha256=2BoWZXtlCRLL1BIdfGlA2dIIj-EVnjnDMTskovPDz7Q,1624
+trossen_slate/trossen_slate.cpython-312-aarch64-linux-gnu.so,sha256=T6mdJNUIZWgv6NhTcgaJ2qEG2F60bMN-05SfCT1tjlA,485529
+trossen_slate/__init__.pyi,sha256=D3c2ie35u6IlTk8AGsRAYhYsJSImNAjk25UO8M13S9E,292
+trossen_slate.libs/libbz2-738ca772.so.1.0.6,sha256=eG7vWct5-lGoMcwYKlq_LW5a2cEzZPjB8uXu5pnT0wA,132489
+trossen_slate.libs/liblzma-6bd50f17.so.5.2.2,sha256=JymXP1rkiqVP8ZlcFOjEyN7_xuDGBGoYReWkCnrpp9E,265857
+trossen_slate.libs/libdw-0-46ed0dd9.176.so,sha256=-Fh-opVMufN3aZUoI8cqlheOxIoz7TnK6T41Q81cEac,530569
+trossen_slate.libs/libattr-aed5a3b1.so.1.1.0,sha256=RZJBFSse4MexH9o2lJgELVv-wsYMXSAwiW3vRdQJI-c,132217
+trossen_slate.libs/libcap-47c73bce.so.2.22,sha256=DFXyWaPU4rEO-g2El2QoA_MaQKg28a8Bs9E9lAE6qAE,197473
+trossen_slate.libs/libudev-5b0d4adc.so.1.6.2,sha256=extmPGjVqL8Exxs3SK9AyqIIr2YCUBXnfNQ4xdV6VCs,265633
+trossen_slate.libs/libelf-0-ef69846b.176.so,sha256=m6Fob7G7Ou0X0rNwPO8OMLWEeWAkBKfVD2I5cjzpCuc,199897
+lib/libtrossen_slate.a,sha256=9WW5mB_bVbqtXeMTg3gZnctdPHN4TDk7ZTuTYq5tdeE,23584
