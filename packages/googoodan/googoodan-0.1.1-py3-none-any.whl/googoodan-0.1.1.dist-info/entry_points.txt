@@ -1,0 +1,2 @@
+[console_scripts]
+googoodan = googoodan.game:googoodan_game
