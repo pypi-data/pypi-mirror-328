@@ -1,0 +1,1 @@
+switch to uv/hatch/pyproject for packaging

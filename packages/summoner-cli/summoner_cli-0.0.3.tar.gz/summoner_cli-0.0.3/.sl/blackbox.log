@@ -1,0 +1,49 @@
+2025/02/20 16:56:13 aemiller @(unknown) (45604) [visibility]> read 0 heads: 
+2025/02/20 16:56:13 aemiller @(unknown) (45604) [visibility]> read 0 heads: 
+2025/02/20 16:56:13 aemiller @(unknown) (45604) [visibility]> read 0 heads: 
+2025/02/20 16:56:13 aemiller @(unknown) (45604) [command_finish]> clone 'https://github.com/adammillerio/smn.git' exited 0 after 0.88 seconds
+2025/02/20 16:56:24 aemiller @(unknown) (45775) [command]> sl
+2025/02/20 16:56:24 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (45775) [visibility]> read 0 heads: 
+2025/02/20 16:56:24 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (45775) [command_finish]> sl exited 0 after 0.08 seconds
+2025/02/20 16:57:57 aemiller @(unknown) (46923) [command]> diff
+2025/02/20 16:57:58 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (46923) [command_finish]> diff exited 0 after 0.31 seconds
+2025/02/20 16:58:03 aemiller @(unknown) (47004) [command]> diff
+2025/02/20 16:58:03 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47004) [command_finish]> diff exited 0 after 0.14 seconds
+2025/02/20 17:00:16 aemiller @(unknown) (47470) [command]> diff
+2025/02/20 17:00:16 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47470) [command_finish]> diff exited 0 after 0.20 seconds
+2025/02/20 17:00:29 aemiller @(unknown) (47649) [command]> diff
+2025/02/20 17:00:29 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47649) [command_finish]> diff exited 0 after 0.13 seconds
+2025/02/20 17:00:41 aemiller @(unknown) (47761) [command]> diff
+2025/02/20 17:00:42 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47761) [command_finish]> diff exited 0 after 0.18 seconds
+2025/02/20 17:00:56 aemiller @(unknown) (47945) [command]> addremove
+2025/02/20 17:00:56 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47945) [command_finish]> addremove exited 0 after 0.13 seconds
+2025/02/20 17:00:57 aemiller @(unknown) (47963) [command]> sl
+2025/02/20 17:00:57 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47963) [visibility]> read 0 heads: 
+2025/02/20 17:00:57 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47963) [command_finish]> sl exited 0 after 0.07 seconds
+2025/02/20 17:01:01 aemiller @(unknown) (47983) [command]> pr submit
+2025/02/20 17:01:01 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47983) [visibility]> read 0 heads: 
+2025/02/20 17:01:01 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47983) [command_finish]> pr submit exited 0 after 0.06 seconds
+2025/02/20 17:01:02 aemiller @(unknown) (47997) [command]> sl
+2025/02/20 17:01:02 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47997) [visibility]> read 0 heads: 
+2025/02/20 17:01:02 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (47997) [command_finish]> sl exited 0 after 0.07 seconds
+2025/02/20 17:01:04 aemiller @(unknown) (48012) [command]> commit -m 'switch to uv/hatch/pyproject for packaging'
+2025/02/20 17:01:04 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (48012) [visibility]> read 0 heads: 
+2025/02/20 17:01:04 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (48012) [visibility]> read 0 heads: 
+2025/02/20 17:01:04 aemiller @ef9d15343bdca5c55ad621aa6283f555afe0286c (48012) [visibility]> removed 0 heads []; added 1 heads [67c11f998046]
+2025/02/20 17:01:04 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48012) [visibility]> wrote 1 heads: 67c11f998046
+2025/02/20 17:01:04 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48012) [command_finish]> commit -m 'switch to uv/hatch/pyproject for packaging' exited 0 after 0.19 seconds
+2025/02/20 17:01:05 aemiller @(unknown) (48068) [command]> pr submit
+2025/02/20 17:01:05 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48068) [visibility]> read 1 heads: 67c11f998046
+2025/02/20 17:01:08 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48068) [visibility]> read 1 heads: 67c11f998046
+2025/02/20 17:01:13 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48068) [command_finish]> pr submit exited 0 after 7.59 seconds
+2025/02/20 17:04:01 aemiller @(unknown) (48809) [command]> pull
+2025/02/20 17:04:02 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48809) [visibility]> read 1 heads: 67c11f998046
+2025/02/20 17:04:02 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48809) [visibility]> read 0 heads: 
+2025/02/20 17:04:02 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48809) [pythonhook]> pythonhook-post-pull: sapling.ext.github.pr_marker.cleanup_landed_pr_hook finished in 0.00 seconds
+2025/02/20 17:04:02 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48809) [command_finish]> pull exited 0 after 0.69 seconds
+2025/02/20 17:04:02 aemiller @(unknown) (48830) [command]> rebase -d remote/main
+2025/02/20 17:04:02 aemiller @67c11f9980464c766c1c2879f2a669b519b9f1f5 (48830) [visibility]> read 0 heads: 
+2025/02/20 17:04:02 aemiller @a0173eeb5bf46a870f0789dbf4eedb8435ef3b49 (48830) [command_finish]> rebase -d remote/main exited 0 after 0.19 seconds
+2025/02/20 17:04:53 aemiller @(unknown) (49055) [command]> sl
+2025/02/20 17:04:53 aemiller @a0173eeb5bf46a870f0789dbf4eedb8435ef3b49 (49055) [visibility]> read 0 heads: 
+2025/02/20 17:04:53 aemiller @a0173eeb5bf46a870f0789dbf4eedb8435ef3b49 (49055) [command_finish]> sl exited 0 after 0.12 seconds
