@@ -1,0 +1,15 @@
+seuils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seuils/figures.py,sha256=ku6AifxjH3-T84uQ1UgBvm3K2os2fi0gMo1uFrCk0m0,684
+seuils/pages.py,sha256=7lspuXnuljWi6NoC55Mtv1nE69gzsK97ZBkZvw0St6s,749
+seuils/usure.py,sha256=gcnezJ09pvuZ7buJuAzt6nFUGo6kxEhTx0lg-rOz8QU,3002
+seuils/data/avis.json,sha256=DnNRZT3zKugg2QzCZ2y7XD-x5t4WqAaHpCy2XRGE7ow,10593
+seuils/data/seuils.json,sha256=Fot_gDB6xwzAWvILzlXVpKM4PjuAhpkAZuJ7EwQ0ryI,38894
+seuils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seuils/tests/test_couverture_temporelle.py,sha256=RFLQM3BX_p1StOioYqSE5c_8ZlxPesxmxg-6i4u7p18,481
+seuils/tests/test_figures.py,sha256=SOLGf7JaOoCbguXIyTL-1eKZ1J7Y4-j-ef5egNlTloU,330
+seuils/tests/test_liens.py,sha256=OynyrWPBr2RVfthA_BXIoZyy2gQK4xAziqGmV2vrlBM,721
+seuils/tests/test_pdfs.py,sha256=h7jDhcIv7XJtpNxV1-Kex29xcN8Xg7t8eX0gnVVrg0k,318
+seuils-1.2.0.dist-info/METADATA,sha256=mB18K6s5EdB2XACf2qCjvAqUzralHNbC4ONK5mBvCUA,2155
+seuils-1.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+seuils-1.2.0.dist-info/top_level.txt,sha256=kISG5Rn7rO_N4tDadEzMc7uW7LZyVar6S1WiWaXu6-k,7
+seuils-1.2.0.dist-info/RECORD,,
