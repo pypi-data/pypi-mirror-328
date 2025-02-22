@@ -1,0 +1,9 @@
+mdsh5/__init__.py,sha256=7Fn2qh3fUE6qP1iHqaWCz_m4a5QNe4aPEhxjW3reg4A,44
+mdsh5/read_mds.py,sha256=2w2YcgD4xONaLVucgPJTImZZju_UNbSI8h3vA2oWY_k,18071
+mdsh5/config_examples/d3d.yml,sha256=Rb9vePpoGdQOx8SKS-e5jjkG_aMBzPABopl7yVh0Cvk,734
+mdsh5/config_examples/kstar.yml,sha256=xHMt4bBtsFcw0QvqnVTjcc3F43YGL8vJbveAu2ikXyY,1846
+mdsh5-0.0.5.dist-info/METADATA,sha256=DOhgRxHUyLHEqSzOgl_r34xvSduaC9Ze4MLhhvu-3hQ,20836
+mdsh5-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mdsh5-0.0.5.dist-info/entry_points.txt,sha256=Wcx8fkaZyVvGWw2KGCiWNHvT3cotUPGzaBklca7_Lfs,48
+mdsh5-0.0.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mdsh5-0.0.5.dist-info/RECORD,,
