@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: googoodan
+Version: 0.1.1
+Summary: CLI 구구단 게임
+Author-email: Euiyun Kim <geniuskey@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/geniuskey/googoodan
+Project-URL: Repository, https://github.com/geniuskey/googoodan
+Keywords: multiplication,game,CLI,python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: terminaltexteffects
+
+# CLI 구구단 게임
+간단한 CLI 환경의 구구단 게임입니다. 간단한 파이썬 코드로도 게임을 만들고 패키징하고, PyPI 서버에 등록할 수 있다는 것을 보여드리기 위해 만들었어요. 😁
+
+![CLI 구구단](https://github.com/geniuskey/googoodan/raw/main/googoodan_cli.gif)
+
+## 설치 방법
+```bash
+pip install googoodan
+```
+
+## 실행 방법
+```bash
+googoodan
+```

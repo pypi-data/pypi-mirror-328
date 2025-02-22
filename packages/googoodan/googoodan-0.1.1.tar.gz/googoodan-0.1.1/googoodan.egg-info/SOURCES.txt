@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+googoodan/__init__.py
+googoodan/game.py
+googoodan.egg-info/PKG-INFO
+googoodan.egg-info/SOURCES.txt
+googoodan.egg-info/dependency_links.txt
+googoodan.egg-info/entry_points.txt
+googoodan.egg-info/requires.txt
+googoodan.egg-info/top_level.txt

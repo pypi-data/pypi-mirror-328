@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "googoodan"
+version = "0.1.1"
+description = "CLI 구구단 게임"
+readme = "README.md"
+authors = [{ name = "Euiyun Kim", email = "geniuskey@gmail.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "terminaltexteffects"
+]
+keywords = ["multiplication", "game", "CLI", "python"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/geniuskey/googoodan"
+Repository = "https://github.com/geniuskey/googoodan"
+
+[project.scripts]
+googoodan = "googoodan.game:googoodan_game"
