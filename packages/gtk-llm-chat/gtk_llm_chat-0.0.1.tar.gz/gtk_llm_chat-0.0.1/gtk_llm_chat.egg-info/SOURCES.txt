@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gtk_llm_chat/__init__.py
+gtk_llm_chat/main.py
+gtk_llm_chat.egg-info/PKG-INFO
+gtk_llm_chat.egg-info/SOURCES.txt
+gtk_llm_chat.egg-info/dependency_links.txt
+gtk_llm_chat.egg-info/entry_points.txt
+gtk_llm_chat.egg-info/requires.txt
+gtk_llm_chat.egg-info/top_level.txt
