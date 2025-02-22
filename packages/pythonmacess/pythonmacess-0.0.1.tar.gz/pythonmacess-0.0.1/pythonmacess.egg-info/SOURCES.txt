@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pythonmacess/__init__.py
+pythonmacess/__main__.py
+pythonmacess/lib.py
+pythonmacess.egg-info/PKG-INFO
+pythonmacess.egg-info/SOURCES.txt
+pythonmacess.egg-info/dependency_links.txt
+pythonmacess.egg-info/requires.txt
+pythonmacess.egg-info/top_level.txt

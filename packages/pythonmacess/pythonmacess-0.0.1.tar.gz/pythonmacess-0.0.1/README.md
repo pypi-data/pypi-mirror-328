@@ -1,0 +1,2 @@
+# pythonmacess
+`python -m` acesss
