@@ -1,0 +1,7 @@
+README.md
+setup.py
+dfsprl.egg-info/PKG-INFO
+dfsprl.egg-info/SOURCES.txt
+dfsprl.egg-info/dependency_links.txt
+dfsprl.egg-info/requires.txt
+dfsprl.egg-info/top_level.txt
