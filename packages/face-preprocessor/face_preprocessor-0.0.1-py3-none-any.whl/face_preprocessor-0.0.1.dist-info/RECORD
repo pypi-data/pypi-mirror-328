@@ -1,0 +1,10 @@
+face_preprocessor/__init__.py,sha256=LPWO9f5_1XaAnJYBT-48ryU8ftuNjlWeBtV3KAoApuA,203
+face_preprocessor/config.py,sha256=6DjncRJMwvRrUwV9dkRSMdIn6e3ivv_YGYly2mRpYTk,525
+face_preprocessor/detector.py,sha256=3groRjY7uYZx0wSBxY0bnZLaOmsblqrxhTCFzhs04Hk,2264
+face_preprocessor/processor.py,sha256=d4MyUpzOH2XTLbMT7tCp85kIQTHcym8pupmR3k-_c08,3239
+face_preprocessor/utils.py,sha256=cphi45XrhLpHmIRTHQPK7M5T4RSAG4-8Mo7UNECISFI,651
+face_preprocessor-0.0.1.dist-info/LICENSE,sha256=_Y2Pi3GxdlQvWWXI8Sb-42TzIZoPNlXG7snksCLjj90,1086
+face_preprocessor-0.0.1.dist-info/METADATA,sha256=P2VnUrc9tJueTnkrH-QrKbnA5t0KyZdjIKOZEcOHfWs,2204
+face_preprocessor-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+face_preprocessor-0.0.1.dist-info/top_level.txt,sha256=E-S4jwHTEX_c5-r99CbiQZpW_0m84OKBMaWg1IcFFoM,18
+face_preprocessor-0.0.1.dist-info/RECORD,,
