@@ -1,0 +1,9 @@
+pyproject.toml
+logictool/optimap.py
+logictool/truthy.py
+logictool.egg-info/PKG-INFO
+logictool.egg-info/SOURCES.txt
+logictool.egg-info/dependency_links.txt
+logictool.egg-info/entry_points.txt
+logictool.egg-info/requires.txt
+logictool.egg-info/top_level.txt

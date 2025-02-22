@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: logictool
+Version: 0.1.0
+Summary: Useful command line tools for logic expressions
+Author: Seedname
+Provides-Extra: windows
+Requires-Dist: pywin32; sys_platform == "win32" and extra == "windows"
