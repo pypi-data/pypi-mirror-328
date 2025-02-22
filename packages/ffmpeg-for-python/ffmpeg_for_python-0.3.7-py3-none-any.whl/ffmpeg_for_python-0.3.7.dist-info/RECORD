@@ -1,0 +1,11 @@
+ffmpeg_for_python/__config__.py,sha256=B2LF1nf7v0FcJ3DDKCZRVPHUodU4XNfvnJwuIK0gF2U,6548
+ffmpeg_for_python/__init__.py,sha256=-BMtoX8Yof_pnHra2OzoV3faxMubpMvUedMy8TqI8dc,214
+ffmpeg_for_python/__utils.py,sha256=PIIrMlVYNAoVMpSfmYCg-1XuAU0lE68Q4_znOg3BLRE,3835
+ffmpeg_for_python/__version__.py,sha256=pJKX7_pf34WI51DRvv-nQNNOS_-hwXrYKT-UI4DNM5w,422
+ffmpeg_for_python/exeptions.py,sha256=tg-TBdaq_NHxZOCAhkMttzwtJVILPAQPLOKqofe5PPA,3627
+ffmpeg_for_python/ffmpeg.py,sha256=G2VGHOIhErsqQI4OVlUnIQGmleNCjxyFqzNAMNnoD6I,7920
+ffmpeg_for_python/ffmpeg-bin/readme.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffmpeg_for_python-0.3.7.dist-info/METADATA,sha256=WhiEMLNSw1trwaE08espUShG91cEA4cninxc2S8GgCI,2763
+ffmpeg_for_python-0.3.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ffmpeg_for_python-0.3.7.dist-info/top_level.txt,sha256=7do-X2t_RBNs6_hpK7PTWKiLk1ZPGi3Y066m0xigWFU,18
+ffmpeg_for_python-0.3.7.dist-info/RECORD,,
