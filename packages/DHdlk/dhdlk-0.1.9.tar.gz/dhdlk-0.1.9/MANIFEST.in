@@ -1,0 +1,10 @@
+include README.md
+include LICENSE.txt
+include requirements.txt
+global-include *.py
+global-include *.pyd
+include *.py
+include pyarmor_runtime_000000/pyarmor_runtime.pyd
+recursive-include Smtry *.py
+recursive-include Smtry *.pyd
+include Smtry/*.pyd
