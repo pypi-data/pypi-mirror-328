@@ -1,0 +1,11 @@
+wechat_copilot/main.py,sha256=xWKTqPSszavx-g0RzokrXQ9tIVPUlsccn8R-RG6I9LY,1943
+wechat_copilot/accessibility/util.py,sha256=_Z8cixSxQm6fCVrwPT8zStqb4_yrfEarE38MPuxC7ww,8550
+wechat_copilot/accessibility/wechat_reader.py,sha256=nIFOw3CtSc6cTMKkVGglyniEJP0BQfQlQnGRlsvb9HM,1690
+wechat_copilot/ai/gpt_client.py,sha256=i_LDr9Y-s5zy9dB18nAsi6_1z6e7qLk-Hhg9VhaLoww,1129
+wechat_copilot/config/settings.py,sha256=YPUqx9eGiHfgOHHIhlHU7upTG3QlZCPPqX-2HTESOu0,1160
+wechat_copilot/hotkey/shortcut_manager.py,sha256=uMtjQvFNB_MPGNxuMy4_ZkrPTwAIS0VZpXU-1MsXJMk,2021
+wechat_copilot/ui/suggestion_window.py,sha256=c-pGs5FcuB85Q-oIb3ciBxuEo8w9nof4GUASEhVLxKY,751
+wechat_copilot-0.0.1.dist-info/METADATA,sha256=6E3qIwzvCLLu-KAyXXlZqdlpENcXcxeaIY8rMGX0Pgs,2186
+wechat_copilot-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+wechat_copilot-0.0.1.dist-info/entry_points.txt,sha256=GZJXDnYDdxMKQS3oF6dvItEbQVElN8F7s_uCFiDoXXM,60
+wechat_copilot-0.0.1.dist-info/RECORD,,
