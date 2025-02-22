@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uttm"
+version = "1.0.5"
+description = "UTTM(Unsupervised-Torch-Template-Matching) is a tool for robust 2D template matching based on torch unsupervised learning."
+authors = [
+    { name = "Xiao Zhou", email = "xiao_zhou@roboticplus.com" },
+    { name = "czhou", email = "chengzhe_zhou@roboticplus.com" },
+    { name = "longxl", email = "xiaoling_long@roboticplus.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = [
+    "Template-Matching", "Torch",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "torchvision",
+    "opencv-python>4.0",
+]
+
+[project.urls]
+Repository = "http://gitlab.roboticplus.com:2022/zhouxiao_jojo/unsupervised-torch-template-matching"
+Documentation = "http://gitlab.roboticplus.com:2022/zhouxiao_jojo/unsupervised-torch-template-matching"
+SampleData = "https://drive.google.com/drive/folders/1m9idEbKWOyDbeqHgnHHvbdW2UAv4ANhC"
+
+[tool.setuptools.packages]
+find = { exclude = ["build", "dist"] }
+
+[project.optional-dependencies]
+example = ["matplotlib", ]
+
+[tool.pylint]
+# 这里是 pylint 配置的基本设置
+load-plugins = []
+
+# 指定一个pylint的配置规则
+disable = [
+    "C0114", # 禁用缺少模块级文档字符串警告
+    "C0115", # 禁用缺少类文档字符串警告
+    "C0116", # 禁用缺少函数文档字符串警告
+    "R0903", # 禁用类的成员少于2个警告
+    "W0201", # 禁用实例变量未使用的警告
+]
+
+
+# 设置输出格式
+output-format = "text"
+
+[tool.ruff]
+# 设定代码的最大行长度
+line-length = 100
+indent-width = 4
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# 启用/禁用规则
+enable = [
+    "E1101", # 启用不可用的成员访问检查
+]
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10

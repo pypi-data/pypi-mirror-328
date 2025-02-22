@@ -1,0 +1,6 @@
+examples
+images
+results
+segmentations
+templates
+uttm
