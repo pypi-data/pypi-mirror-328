@@ -1,0 +1,10 @@
+cffi
+odclib<1.7.0,>=1.6.0
+findlibs>=0.1.0
+pandas
+packaging
+
+[dev]
+pytest
+pytest-cov
+pytest-flakes
