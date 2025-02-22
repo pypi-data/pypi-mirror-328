@@ -1,0 +1,7 @@
+twinsong-0.1.0.dist-info/METADATA,sha256=baxlycPNxRDqXoZqnxiId46z39DsS6h2OKGFtTwYCp0,258
+twinsong-0.1.0.dist-info/WHEEL,sha256=VOPc4LnjY0yPhQSb3E0q8XFYhkjUnHylSjI09QJpAgM,105
+twinsong/driver/run.py,sha256=gy4Y1EAN8mv1bWjz63etdK1c-S04ot0IIOtffqp0RmY,591
+twinsong/driver/__main__.py,sha256=WYlIeZABrdp9K8dYCZCNwqpnay1-vWoWhRvTZYFgPkw,83
+twinsong/__main__.py,sha256=oDG3Ag7FpV3bB-PV13pbdiRy3esHQyP8wkzjkI4VUTs,101
+twinsong/twinsong.abi3.so,sha256=M4GXDyI1Ax_1WML--9J9kqIMJ7V8zk7UrwR1P_pr_Qk,3289504
+twinsong-0.1.0.dist-info/RECORD,,
