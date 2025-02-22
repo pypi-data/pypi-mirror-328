@@ -1,0 +1,9 @@
+tsugu/__init__.py,sha256=vlgWv_LpdQ88tx5dDiutv6klz2pP1VlQ075opmTIhIw,25393
+tsugu/alc_cmd.py,sha256=4FnzYoIiOBeLxJykxm11mZQbljawPFHZJiVmAsK89hQ,15719
+tsugu/config.py,sha256=kCKiffS4HxJ95EZ_T4MIT5KQgJBY-zXhnnxDf8ZTjp0,1103
+tsugu/const.py,sha256=zGUgatfVVqS0bnHKy6KTlabYgUwarsAnmGBNCSxlxvQ,1486
+tsugu-6.1.0.dist-info/LICENSE,sha256=fpf5L79pjfu7HFWTTQ_KWtBtcTRkGCgoubWweiZYgCw,1083
+tsugu-6.1.0.dist-info/METADATA,sha256=Mf5FcO-klReBUDV1qZ73YGe1vKn9QTSpj-chKowyKeM,5500
+tsugu-6.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+tsugu-6.1.0.dist-info/top_level.txt,sha256=QqNQZcbqmuerqmycAliOGR5Z_cJ-rszVedkApt_YGdI,6
+tsugu-6.1.0.dist-info/RECORD,,
