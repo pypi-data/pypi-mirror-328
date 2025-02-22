@@ -1,0 +1,12 @@
+bd_map_plotter/__init__.py,sha256=w5zlY73SW_xvWBHe50BcFTRuEU7ovFM6qH24tPZin6A,74
+bd_map_plotter/border_map.py,sha256=0Vj2Y9XF7R2sp5JQfTlt-hnnuRUjFXcksf6lGENG-cw,929
+bd_map_plotter/divisions_map.py,sha256=DDfoWVn8N9KNIwuENWMWekzBFMumUg29Ubr-1oCG2JQ,948
+bd_map_plotter/data/border_map.json,sha256=t9tZ2w5MXng-sYIovQHOeVFSthzpIYBgb_MNC9VJGxo,107337
+bd_map_plotter/data/districts_map.json,sha256=jfmEIsTwdSZEcGGtB6mIuuAcZ-hs_WefSBIBcGuRyLY,431507
+bd_map_plotter/data/divisions_map.json,sha256=8jbGAPqXeXbiC4IxmYTTD0APPryjCgqec0E79gKDKUY,54856
+bd_map_plotter/data/subdistricts_map.json,sha256=180ZrbYGk4fKN2Izw0ZNb_qaFzLuSXnPCAeb-D4GIZQ,1494504
+bd_map_plotter/data/union_map.json,sha256=DWokBMhfJx4yuyvd7KmbqjP073UVtZgfzQIV2qZIwys,4470017
+bd_map_plotter-0.2.dist-info/METADATA,sha256=JDSJMmsTWOHO9z2b2-dwq-oXYJvry-fylWGIFwWBFgM,305
+bd_map_plotter-0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bd_map_plotter-0.2.dist-info/top_level.txt,sha256=HPB6s1fH4T6Gm8BMSBnrxNaNwxMQ6fN_LjkOoCIerBE,15
+bd_map_plotter-0.2.dist-info/RECORD,,
