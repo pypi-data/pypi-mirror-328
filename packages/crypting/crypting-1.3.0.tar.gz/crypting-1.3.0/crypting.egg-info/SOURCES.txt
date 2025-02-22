@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+crypting.egg-info/PKG-INFO
+crypting.egg-info/SOURCES.txt
+crypting.egg-info/dependency_links.txt
+crypting.egg-info/requires.txt
+crypting.egg-info/top_level.txt
