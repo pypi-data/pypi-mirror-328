@@ -1,0 +1,41 @@
+mirror_to_ea:
+  stage: mirror
+  image: $CICD_IMAGE
+  script:
+    # Verify commit message is provided
+    - |
+      if [ -z "${COMMIT_MESSAGE:-'Bug fixes and stability improvements'}" ]; then
+        echo "Error: COMMIT_MESSAGE must be provided"
+        exit 1
+      fi
+
+    # Install git-filter-repo for filtering files
+    - apt-get update && apt-get install -y python3-pip && pip3 install git-filter-repo
+
+    # Configure git user
+    - git config --global user.name "GitLab Mirror Bot"
+    - git config --global user.email "gitlab-mirror@nvidia.com"
+
+    # First clone your GitLab repo and filter it
+    - git clone --single-branch -b ${SOURCE_BRANCH:-early_access} ${CI_REPOSITORY_URL} gitlab-repo
+    - cd gitlab-repo
+    - git filter-repo --path ci-cd/ --path model_cards/ --path .gitlab-ci.yml --invert-paths --force
+
+    # Store filtered content somewhere
+    - cd ..
+    - cp -r gitlab-repo filtered-content
+
+    # Now clone the GitHub repo to preserve its history
+    - git clone "https://oauth2:${GITLAB_EA_TOKEN}@gitlab.com/nvidia/cosmos/cosmos-ea.git" gitlab-ea
+    - cd gitlab-ea
+
+    # Copy in the new filtered content
+    - rsync -av --delete --exclude={'.git','.github'} ../filtered-content/ .
+
+    # Commit and push the changes
+    - git add -A --force
+    - git commit -m "${COMMIT_MESSAGE}"
+    - git push origin main
+  when: manual  # This makes the job manually triggerable
+  tags:
+    - cpu

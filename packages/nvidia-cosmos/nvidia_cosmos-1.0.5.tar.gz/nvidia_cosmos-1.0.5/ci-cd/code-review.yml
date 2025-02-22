@@ -1,0 +1,24 @@
+linting:
+  rules:
+    - if: $IS_BOT_PIPELINE != 'true'
+  stage: code-review
+  image: $CICD_IMAGE
+  script:
+    - ./cosmos1/scripts/format.sh
+  tags:
+    - cpu
+
+❗did you rebase❓:
+  allow_failure: true
+  stage: code-review
+  script:
+    # find the most recent shared commit between main and source branch
+    - newest_shared_commit_time=`git show -s --format=%ct $CI_MERGE_REQUEST_DIFF_BASE_SHA`
+    - allowed_time_days="4"
+    - allowed_time_secs=$(($allowed_time_days*86400))
+    # if the most recent shared commit is not within the allowed days
+    -  if [[ $(($newest_shared_commit_time+$allowed_time_secs)) -lt `date +%s` ]] ; then
+         echo "Your branch $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME has not been rebased against main in the past $allowed_time_days days. Please rebase to avoid confusing errors or pipeline fails!" && exit 1;
+       fi
+  tags:
+    - cpu
