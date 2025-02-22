@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: reflex-enterprise
+Version: 0.0.1
+Summary: Package containing the paid features for Reflex. [Pro/Team/Enterprise]
+License: LICENSE
+Keywords: reflex,python,reflex-enterprise
+Author: Nikhil Rao
+Author-email: nikhil@reflex.dev
+Requires-Python: >=3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: asgiproxy (>=0.2.0)
+Requires-Dist: reflex (>=0.7.0)
+Project-URL: Documentation, https://reflex.dev/docs/
+Project-URL: Homepage, https://reflex.dev/
+Description-Content-Type: text/markdown
+
+# How to install reflex_enterprise.   
+
+```bash
+pip install reflex-enterprise
+```
+
+# How to use reflex enterprise.   
+In the main file, instead of using `rx.App()` to create your app, use the following:
+
+```python
+import reflex_enterprise as rxe
+
+...
+
+rxe.App()
+
+...
+```
