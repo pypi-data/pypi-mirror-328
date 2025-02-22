@@ -1,0 +1,1 @@
+__all__,__version__=(__import__('xxpop'),xxp('__main__ lib 0.0.1'.split()))[1]
