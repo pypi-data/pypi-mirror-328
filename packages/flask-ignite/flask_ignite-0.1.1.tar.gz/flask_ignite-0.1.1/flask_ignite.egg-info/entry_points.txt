@@ -1,0 +1,2 @@
+[console_scripts]
+flask-admin = flask_admin.setup_flask_project:main
