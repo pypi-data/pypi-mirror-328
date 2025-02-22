@@ -1,0 +1,67 @@
+Metadata-Version: 2.2
+Name: principle-alignment
+Version: 0.1.1
+Summary: principle alignment package
+Author-email: ZJun <zhangjun310@live.com>
+License: MIT
+Project-URL: Repository, https://github.com/ZJCODE/principle-alignment
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+## Installation
+
+
+### Install from pypi
+
+You can install the package from pypi
+
+```bash
+pip install principle-alignment  -i https://pypi.org/simple
+```
+
+You can also upgrade the package from pypi
+
+```bash
+pip install principle-alignment  --upgrade -i https://pypi.org/simple
+```
+
+### Install from source
+
+You can also install the package directly from source:
+
+```bash
+pip install .
+```
+
+For development installation:
+
+```bash
+pip install -e .
+```
+
+
+
+## Package Upload
+
+First time upload
+
+```bash
+pip install build twine
+python -m build
+twine upload dist/*
+```
+
+Subsequent uploads
+
+```bash
+rm -rf dist/ build/ *.egg-info/
+python -m build
+twine upload dist/*
+```
+

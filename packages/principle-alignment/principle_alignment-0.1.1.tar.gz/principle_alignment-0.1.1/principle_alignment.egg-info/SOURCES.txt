@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+principle_alignment/__init__.py
+principle_alignment/play.py
+principle_alignment.egg-info/PKG-INFO
+principle_alignment.egg-info/SOURCES.txt
+principle_alignment.egg-info/dependency_links.txt
+principle_alignment.egg-info/top_level.txt
+tests/test_main.py
