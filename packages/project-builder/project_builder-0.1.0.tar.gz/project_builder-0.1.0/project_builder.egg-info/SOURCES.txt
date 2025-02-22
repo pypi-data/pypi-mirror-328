@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+project_builder/__init__.py
+project_builder/boiler_plates.py
+project_builder/builder.py
+project_builder/llm_interface.py
+project_builder/main.py
+project_builder/templates.py
+project_builder/utils.py
+project_builder.egg-info/PKG-INFO
+project_builder.egg-info/SOURCES.txt
+project_builder.egg-info/dependency_links.txt
+project_builder.egg-info/requires.txt
+project_builder.egg-info/top_level.txt
+tests/__init__.py
+tests/test_project_builder.py

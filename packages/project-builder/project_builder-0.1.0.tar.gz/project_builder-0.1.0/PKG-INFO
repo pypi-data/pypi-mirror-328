@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: project_builder
+Version: 0.1.0
+Summary: This package generates an ML project structure which is production-ready.
+Home-page: https://github.com/Vineet-the-git/project_builder
+Author: Vineet Kumar
+Author-email: vineet.kmr1708@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pyyaml
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Project Builder
+
+This is an open source library to structure you machine Learning projects for production in a go. 
+
+# Installation
+
+```bash
+pip install project-builder
+```
+
+# Usage
+
+```python
+from project_builder import ProjectGenerator
+builder = ProjectGenerator()
+print(builder.generate_project())
+```
