@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: timetrix
+Version: 0.0.2
+Summary: Lightweight and intuitive Python library designed to help developers,track, measure, and visualize time with ease.
+Author: Maglovski Nenad
+Keywords: python,time,measure,track
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: datetime
+Dynamic: author
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
