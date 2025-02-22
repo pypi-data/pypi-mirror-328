@@ -1,0 +1,11 @@
+hai/__init__.py,sha256=DuL_p_mmcxaL_zTcvjOWe2tA4UhWPtl0s8deD-6jOCU,883
+hai/base_models.py,sha256=IrVpRiwefD3DbWgLJibJmEFjVe-pZYm5BwNqP3f-H8k,3050
+hai/client.py,sha256=f4tOVQO9L29qsMsMkdUEKtNQ4XV_x-6YGnYIuKKSuco,13085
+hai/error.py,sha256=2wZZBpjOtSVv958K66kWaHqlRbOD2PzBcd-XYJjk8CM,7909
+hai/models.py,sha256=zgABA1cF5-ZgtsycPhLSypzP6Dw4UztJmkB8jf-BUlo,2328
+hai/version.py,sha256=M1WM9wShBJ5ZrECbT2Aqsd1aOhq7BiKuKvaqn3aZWFE,47
+helpingai-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+helpingai-0.0.1.dist-info/METADATA,sha256=UgcIaLkhuVbiHBMZZilqpHR-iYyunht_BOokzlUj_Uo,4229
+helpingai-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+helpingai-0.0.1.dist-info/top_level.txt,sha256=_x0_a_36BRgeUaLiwc9Eq9MwGKPEIT2s02R3wz-LudA,4
+helpingai-0.0.1.dist-info/RECORD,,
