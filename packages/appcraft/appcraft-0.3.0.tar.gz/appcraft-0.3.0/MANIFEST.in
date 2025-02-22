@@ -1,0 +1,4 @@
+include README.md LICENSE
+include appcraft/templates/*
+global-exclude *.py
+global-exclude __pycache__/*.pyc
