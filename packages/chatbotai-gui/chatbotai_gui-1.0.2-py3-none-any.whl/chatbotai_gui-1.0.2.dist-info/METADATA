@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: chatbotai-gui
+Version: 1.0.2
+Summary: A chatbot GUI that uses OpenAI, MetaAI, and Google Generative AI.
+Author: ProgMEM-CC
+License: AGPL-3.0-or-later
+Requires-Dist: openai
+Requires-Dist: meta_ai_api
+Requires-Dist: google-generativeai
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
