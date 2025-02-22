@@ -1,0 +1,16 @@
+pymusicterm/__main__.py,sha256=ELfRLyZ3FsdV4zvR6qBFCLWc7tmVXd7PBLGpJwQWexY,72
+pymusicterm/main.py,sha256=hf0J6GJFUA8PD1ZQNZkd__LIBKYmNvkHNtuwvIjdcVE,10725
+pymusicterm/pymusicterm.tcss,sha256=9ngiYU1d7oysl_ADiget70PTX2SuyG0fcfDHE_UtY2k,343
+pymusicterm/setting.py,sha256=ty9pmqz8gLfwRdNx-grtE42FBA_B3r6QHZn9kUR4qic,3411
+pymusicterm/api/downloader.py,sha256=hDZntk-ngZsPnPyuDEYA0pXZfBgOiccRoFYLqZrggSc,2665
+pymusicterm/api/local.py,sha256=narolKikMHFqkaY1K82yaFE8358YI4rRBVVAo2fMkI4,744
+pymusicterm/api/lyrics.py,sha256=bej1hah7wG5QREw3xbQ56Z-cYTbnAqUmOX_YgWGvqQ0,942
+pymusicterm/api/player.py,sha256=qFrrMBsCOQ3WprbsFaeqIx_nEJycv2a35qN7Hf7sgqU,2054
+pymusicterm/api/ytmusic.py,sha256=9sHgQgVl_bFzd78e4nLMQx2wJyJf2xOqt9RI6c0mjjc,2685
+pymusicterm/api/mpris/mpris.py,sha256=_Zjv3-U4ozolIxi4B7x5Ke5fyxVpaho3v79RKoIwe98,3063
+pymusicterm/player/media_control.py,sha256=b7QdBSYurQ970SDntG98cMuyrv8gcvCYyOGFSldj838,1360
+pymusicterm/player/player.py,sha256=mdw98r4pOW6tijNxWMpJGzKxPxm1AZS-MYBP1JKDT-c,5765
+MusicTerm-0.0.5.dist-info/METADATA,sha256=l75jwWTXcG0uk5bNaQ3G0w_ebvH-rfxZO625GOpjQU0,3286
+MusicTerm-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+MusicTerm-0.0.5.dist-info/top_level.txt,sha256=5n8zrG90JWXGsCeY4oM0KZZFFKoyQiEDD2W31dCbuBg,12
+MusicTerm-0.0.5.dist-info/RECORD,,
