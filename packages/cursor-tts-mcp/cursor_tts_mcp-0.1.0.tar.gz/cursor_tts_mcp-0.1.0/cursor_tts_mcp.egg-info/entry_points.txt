@@ -1,0 +1,2 @@
+[console_scripts]
+cursor-tts-mcp = cursor_tts_mcp.server:main

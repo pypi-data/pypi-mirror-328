@@ -1,0 +1,11 @@
+README.md
+setup.py
+cursor_tts_mcp/__init__.py
+cursor_tts_mcp/server.py
+cursor_tts_mcp.egg-info/PKG-INFO
+cursor_tts_mcp.egg-info/SOURCES.txt
+cursor_tts_mcp.egg-info/dependency_links.txt
+cursor_tts_mcp.egg-info/entry_points.txt
+cursor_tts_mcp.egg-info/requires.txt
+cursor_tts_mcp.egg-info/top_level.txt
+cursor_tts_mcp/templates/index.html

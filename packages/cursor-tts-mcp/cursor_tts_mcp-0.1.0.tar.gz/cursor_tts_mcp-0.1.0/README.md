@@ -1,0 +1,58 @@
+# Cursor TTS MCP Server
+
+A Text-to-Speech MCP server for Cursor IDE that converts all AI responses to speech automatically.
+
+## Installation
+
+```bash
+pip install cursor-tts-mcp
+```
+
+## Usage
+
+1. Start the server:
+```bash
+cursor-tts-mcp
+```
+
+2. Add to your Cursor settings:
+```json
+{
+  "mcp": {
+    "tts": {
+      "enabled": true,
+      "server": "http://localhost:5000"
+    }
+  }
+}
+```
+
+The server will automatically convert all AI responses to speech.
+
+## Features
+
+- High-quality Google Text-to-Speech
+- Automatic conversion of AI responses
+- Background audio processing
+- Cross-platform support
+- Easy integration with Cursor IDE
+
+## Configuration
+
+You can configure the server using environment variables:
+
+- `TTS_PORT`: Port number (default: 5000)
+- `TTS_LANG`: Language code (default: en)
+- `TTS_VOICE_SPEED`: Speech rate (default: 1.0)
+
+## Development
+
+To contribute:
+
+1. Clone the repository
+2. Install dependencies: `pip install -e .`
+3. Run the server: `python -m cursor_tts_mcp.server`
+
+## License
+
+MIT 
