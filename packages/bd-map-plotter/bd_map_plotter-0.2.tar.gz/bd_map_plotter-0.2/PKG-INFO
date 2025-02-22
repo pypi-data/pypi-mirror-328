@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: bd_map_plotter
+Version: 0.2
+Summary: A package to plot Bangladesh map
+Home-page: https://github.com/DryBoss/bd_map_plotter
+Author: DryBoss
+Requires-Dist: geopandas
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
