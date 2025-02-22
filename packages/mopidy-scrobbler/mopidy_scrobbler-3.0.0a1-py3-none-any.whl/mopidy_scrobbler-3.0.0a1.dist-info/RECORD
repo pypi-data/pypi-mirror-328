@@ -1,0 +1,9 @@
+mopidy_scrobbler/__init__.py,sha256=cmiZWJjmZtUqZutMo2hXDY-tfS8VlwP-I3hS6pZHUvY,689
+mopidy_scrobbler/ext.conf,sha256=3vscwr4ZB7HwN0K3F9UpCpwDcLbJnNkeuKZHE8z5DPY,49
+mopidy_scrobbler/frontend.py,sha256=QxWfRCp53jozV46eD6ppeInGY1OQ6x-XzQq3YTPsSRQ,3312
+mopidy_scrobbler-3.0.0a1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+mopidy_scrobbler-3.0.0a1.dist-info/METADATA,sha256=GALCGZfVQpy7i-50_vBso1hIHktmyLAs-F4WxZIlWtI,4557
+mopidy_scrobbler-3.0.0a1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mopidy_scrobbler-3.0.0a1.dist-info/entry_points.txt,sha256=yeWgSBbydCoNFycBSPW1DpqyIg6RVAbh2KWm6htv0Es,52
+mopidy_scrobbler-3.0.0a1.dist-info/top_level.txt,sha256=A4nUfHK5H8Q2C_qqIm6t32EXriDhn24GgrH90jce40w,17
+mopidy_scrobbler-3.0.0a1.dist-info/RECORD,,
