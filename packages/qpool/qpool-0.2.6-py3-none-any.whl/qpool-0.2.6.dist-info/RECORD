@@ -1,0 +1,12 @@
+wombat/multiprocessing/__init__.py,sha256=GB3WViVi6LeOeY4N1LonXmc-8pY9zEPJJFcGlQBJhXs,74
+wombat/multiprocessing/logging.py,sha256=FU6ZoU933cbR31HLZelOT9SOkQu10nhwasOOP2PCTg8,829
+wombat/multiprocessing/models.py,sha256=05vKUw0UKP6ksy2xpglae_oUEhVm0VEcp-AcJcxvFAk,7190
+wombat/multiprocessing/orchestrator.py,sha256=3eLNCLRZOP8tOK_CnLsLzEcdtXL5FBEHJRoWgKCloIM,11066
+wombat/multiprocessing/progress.py,sha256=_t_G6gEoyTQ6Wlnq5qrlCyTKtb7khmCamSBoNOdnIIY,9964
+wombat/multiprocessing/queues.py,sha256=q04hxFZpYGuhZKSy6taqprt7CrKhb8OsO-4XoLX4zdw,5227
+wombat/multiprocessing/tasks.py,sha256=uagYZBiIt6zQfTkBDwhEsBdDU4oLhM1NfPa65BqjS8o,1336
+wombat/multiprocessing/utilities.py,sha256=KGAF5aSmN6BOC98VxcsMt6zy2qWfmwblkv7FKjHTQAE,204
+wombat/multiprocessing/worker.py,sha256=L9gAkscwOvmz70v7x8DSOAbnKQ-U3I1xHPoYSIp6nGs,22682
+qpool-0.2.6.dist-info/METADATA,sha256=g_dBid08ZZwFGWjqNzQbYVi8TbiqGlbn30OBB5vL6oM,957
+qpool-0.2.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+qpool-0.2.6.dist-info/RECORD,,
