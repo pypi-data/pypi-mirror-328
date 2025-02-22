@@ -1,0 +1,10 @@
+pyquadkey2test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyquadkey2test/version.py,sha256=8Xj4U3tkmR8dyMVaw7WC3-zRQ0VBto-ZvxkuOz3SiPQ,267
+pyquadkey2test/_version.py,sha256=goC-VZLTmb-eephkKrC9wXilh54OYZODAqVUBwkLANs,417
+pyquadkey2test/quadkey/__init__.py,sha256=ulPQpoAKqWqfIBDRu_B9EqXXHc8zEVUijZBbQs80mQo,7869
+pyquadkey2test/quadkey/util.py,sha256=6BXTAgaMS5TTeJmxSOhNJP7kXS_NCr7JPHPQQUjEIpE,687
+pyquadkey2test/quadkey/tilesystem/tilesystem.cpython-312-x86_64-linux-gnu.so,sha256=1uD0hjEVSltWOsNO63_lItTnmm4eaLh_Vf09IQABEtc,547008
+pyquadkey2test-0.3.3.post3.dist-info/WHEEL,sha256=zZrBp9Yle-qDYC_Z25yivXum0wQKoltQYsy_SLdUjdw,221
+pyquadkey2test-0.3.3.post3.dist-info/METADATA,sha256=mfRHLBY61pyladv2lCUJsJ3aYL-CYgckeFM9i83j8-c,17787
+pyquadkey2test-0.3.3.post3.dist-info/RECORD,,
+pyquadkey2test-0.3.3.post3.dist-info/licenses/LICENSE,sha256=bcDgaNzzpbyOBUIFuFt3IOHUkmW7xkv1FdLPeRl99po,11323
