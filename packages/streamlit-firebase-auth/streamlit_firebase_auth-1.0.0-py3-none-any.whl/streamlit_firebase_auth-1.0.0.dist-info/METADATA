@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: streamlit-firebase-auth
+Version: 1.0.0
+Summary: Streamlit component for Firebae auth
+Project-URL: Homepage, https://github.com/munaita-0/streamlit-firebase-auth
+Author-email: Suzuki Shogo <suzuki.shogo@commondo.jp>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
