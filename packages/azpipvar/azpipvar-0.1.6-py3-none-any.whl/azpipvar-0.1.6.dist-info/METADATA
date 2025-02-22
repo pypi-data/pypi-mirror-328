@@ -1,0 +1,194 @@
+Metadata-Version: 2.2
+Name: azpipvar
+Version: 0.1.6
+Summary: A tool to extract and list variables from Azure Pipeline YAML files
+Home-page: https://github.com/greatbody/azure-pipeline-variable-list
+Author: greatbody
+Author-email: sunruicode@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: termcolor>=2.3.0
+Provides-Extra: test
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0.0; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Azure Pipeline Variable List
+
+[![Test](https://github.com/greatbody/macpy-scripts/actions/workflows/azpipvar-test.yml/badge.svg)](https://github.com/greatbody/macpy-scripts/actions/workflows/azpipvar-test.yml)
+
+A tool to analyze and list variables used in Azure Pipeline YAML files.
+
+[English](#features) | [中文](#功能说明)
+
+## 功能说明
+
+一个用于分析和列出 Azure Pipeline YAML 文件中使用的变量的工具。
+
+### 功能特点
+
+- 检测 `$(VARIABLE)` 格式的变量
+- 识别变量组中定义的变量
+- 支持嵌套目录结构
+- 支持 `.yml` 和 `.yaml` 文件扩展名
+
+例如，如果你有一个 `demo.yml` 流水线文件，内容如下：
+
+```yaml
+...
+variables:
+  group: infra
+  ## - var1
+  ## - var2
+  ## - var3
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          - script: echo $(var1)
+...
+```
+
+azpipvar 将输出：
+
+```
+demo.yml:
+  - var1 (by variable group)
+```
+
+使用说明：
+
+```
+## - var3
+```
+
+这是一个注释，告诉工具 `var3` 是在变量组中定义的，或者是在 Azure DevOps 流水线的变量中定义的（未存储在代码仓库中）。
+
+该工具将列出流水线文件中使用的所有变量，并显示它们是否在变量组中定义。
+
+这个工具可以帮助你找到流水线文件中所有未预定义的变量。
+
+---
+
+## Features
+
+- Detects variables in `$(VARIABLE)` format
+- Identifies variables defined in variable groups
+- Supports nested directory structures
+- Handles both `.yml` and `.yaml` file extensions
+
+For example, if you have a pipeline file `demo.yml` like this:
+
+```yaml
+...
+variables:
+  group: infra
+  ## - var1
+  ## - var2
+  ## - var3
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          - script: echo $(var1)
+...
+```
+
+azpipvar will output:
+
+```
+demo.yml:
+  - var1 (by variable group)
+```
+
+Let me explain the usage:
+
+```
+## - var3
+```
+
+This is a comment, that tells the tool that `var3` is defined in a variable group or just defined in the variables of the azure devops pipeline(which is not stored in repository).
+
+It will list all variables used in the pipeline files and show whether they are defined in variable groups or not.
+
+This tool can help you find all variables used in the pipeline files that is not predefined.
+
+## Requirements
+
+- Python 3.8 or higher
+- PyYAML 6.0.1 or higher
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install azpipvar
+```
+
+To help us improve the package by sharing anonymous installation statistics:
+
+```bash
+pip install azpipvar --install-option="--no-track-install"
+```
+
+Note: The installation tracking is completely optional and transparent. When enabled:
+- A single GET request is made to count the installation
+- No personal or system information is collected
+- Failed tracking attempts will not affect installation
+- The tracking server timeout is set to 2 seconds
+
+For development installation from source:
+
+```bash
+git clone https://github.com/greatbody/macpy-scripts.git
+cd macpy-scripts
+pip install -e .
+```
+
+## Usage
+
+Navigate to your Azure Pipelines directory and run:
+
+```bash
+azpipvar
+```
+
+This will scan all YAML files in the current directory and subdirectories, listing all variables used in the pipeline files.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+- greatbody (sunruicode@gmail.com)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
