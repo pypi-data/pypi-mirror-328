@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: foco
+Version: 0.0.1
+Summary: foco helps you keep your docs up-to-date.
+Project-URL: Homepage, https://github.com/kaycebasques/foco
+Project-URL: Issues, https://github.com/kaycebasques/foco/issues
+Author-email: Kayce Basques <kaycebasques@gmail.com>
+License-Expression: Apache-2.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# foco
+
+## Setup
+
+```
+python3 -m venv venv
+. venv/bin/activate.fish
+python3 -m pip install -r requirements.txt
+```
+
+## Build
+
+```
+python3 -m build
+```
+
+## Distribute
+
+### TestPyPI
+
+```
+python3 -m twine upload --repository testpypi dist/*
+```
+
+### Production
+
+```
+python3 -m twine upload dist/*
+```
