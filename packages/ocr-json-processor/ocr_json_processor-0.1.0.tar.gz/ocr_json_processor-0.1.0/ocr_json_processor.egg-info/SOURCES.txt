@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ocr_json_processor/__init__.py
+ocr_json_processor/main.py
+ocr_json_processor/openai_test_json.py
+ocr_json_processor/test.py
+ocr_json_processor/utils.py
+ocr_json_processor.egg-info/PKG-INFO
+ocr_json_processor.egg-info/SOURCES.txt
+ocr_json_processor.egg-info/dependency_links.txt
+ocr_json_processor.egg-info/requires.txt
+ocr_json_processor.egg-info/top_level.txt
+tests/__init__.py
+tests/test_json_updater.py
+tests/test_utils.py

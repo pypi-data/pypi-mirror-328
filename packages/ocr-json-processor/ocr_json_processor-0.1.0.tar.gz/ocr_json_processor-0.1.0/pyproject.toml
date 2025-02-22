@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocr_json_processor"
+version = "0.1.0"
+description = "A Python package for OCR response processing and JSON updates."
+authors = [
+    {name = "Shubham Kumar", email = "shubham@perfecter.ai"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["OCR", "JSON", "confidence scores", "text extraction"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Pillow",
+    "numpy",
+    "python-dotenv",
+    "azure-core",
+    "azure-ai-documentintelligence==1.0.0b2",
+    "amazon-textract-textractor==1.7.10",
+    "PyMuPDF",
+    "pytest",
+    "fastapi",
+    "fuzzywuzzy",
+]
+
+[project.urls]
+Source = "https://github.com/velocius-ailabs/ocr-json-processor"
