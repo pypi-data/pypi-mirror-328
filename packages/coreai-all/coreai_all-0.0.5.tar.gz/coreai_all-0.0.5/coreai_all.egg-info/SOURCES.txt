@@ -1,0 +1,7 @@
+README.md
+setup.py
+coreai/version.py
+coreai_all.egg-info/PKG-INFO
+coreai_all.egg-info/SOURCES.txt
+coreai_all.egg-info/dependency_links.txt
+coreai_all.egg-info/top_level.txt
