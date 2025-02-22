@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyhashsum"
+version = "3.5.1"
+authors = [
+    { name = "oop7", email = "oop7_support@proton.me" },
+]
+description = "Cross-platform file integrity verification tool with modern GUI"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT License" }
+dependencies = [
+    "PySide6",
+    "Pillow", 
+    "packaging"
+]
+
+[project.urls]
+Homepage = "https://github.com/oop7/pyhashsum"
+"Bug Tracker" = "https://github.com/oop7/pyhashsum/issues"
+
+[project.scripts]
+pyhashsum = "pyhashsum.main:main"

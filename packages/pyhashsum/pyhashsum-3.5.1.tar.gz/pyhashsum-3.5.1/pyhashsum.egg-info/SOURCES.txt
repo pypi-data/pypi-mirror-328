@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyhashsum/__init__.py
+pyhashsum/main.py
+pyhashsum.egg-info/PKG-INFO
+pyhashsum.egg-info/SOURCES.txt
+pyhashsum.egg-info/dependency_links.txt
+pyhashsum.egg-info/entry_points.txt
+pyhashsum.egg-info/requires.txt
+pyhashsum.egg-info/top_level.txt
