@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: open_deepsearch
+Version: 0.0.2
+Summary: DeepResearch but Open-Sourced, called open_deepsearch
+Home-page: https://github.com/aidatatools/open-deepsearch
+Author: Jason Chuang
+Author-email: Jason Chuang <chuangtcee@gmail.com>
+Project-URL: Homepage, https://github.com/aidatatools/open-deepsearch
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# open-deepsearch
+open-deepsearch ( Deep Research but Open-Sourced )
+
+## How to install in DEV environment after git clone
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+deepsearch
+```
