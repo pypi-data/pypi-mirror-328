@@ -1,0 +1,117 @@
+Metadata-Version: 2.2
+Name: yarngpt
+Version: 0.1.7
+Summary: A Python wrapper for YarnGPT text-to-speech model with multi-language support
+Author-email: Abayomi Olagunju <olagunjujeremiah@gmail.com>
+Project-URL: Homepage, https://github.com/jerryola1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: torchaudio
+Requires-Dist: outetts==0.2.3
+Requires-Dist: uroman
+Requires-Dist: numpy
+Requires-Dist: inflect
+Requires-Dist: IPython
+Requires-Dist: tqdm
+
+# YarnGPT Python Wrapper Library
+
+## Description
+YarnGPT is a Python wrapper for the YarnGPT text-to-speech model, designed to synthesize natural Nigerian speech in multiple languages using a pure language modeling approach. This library provides a simple API to convert text into audio output, allowing users to select from various preset voices, languages, and adjust generation parameters.
+
+## Features
+- Supports multiple Nigerian languages: English, Yoruba, Igbo, and Hausa
+- Rich set of voices for each language:
+  - English: idera, chinenye, jude, emma, umar, joke, zainab, osagie, remi, tayo
+  - Yoruba: adebayo, aisha, folake
+  - Igbo: chioma, obinna, adanna
+  - Hausa: amina, fatima, ibrahim, yusuf
+- Utilizes Hugging Face's model caching for efficient model loading
+- Exposes a straightforward API function: generate_speech(text, speaker, language, temperature, repetition_penalty, max_length)
+- Allows customization of generation parameters
+- Includes unit tests to ensure core functionality
+
+## Installation
+1. Create and activate a virtual environment:
+   - On Linux/MacOS:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+   ```
+   - On Windows:
+   ```bash
+   python -m venv env
+   env\Scripts\activate
+   ```
+
+2. Install the package:
+   ```bash
+   pip install yarngpt
+   ```
+
+## Usage
+Basic usage to generate and save audio:
+```python
+from yarngpt import generate_speech
+import torchaudio
+
+# Generate English speech with default speaker
+audio = generate_speech("Hello, this is a test.", language="english")
+
+# Generate Yoruba speech with a Yoruba voice
+audio = generate_speech("Bawo ni?", speaker="adebayo", language="yoruba")
+
+# Save the generated audio
+torchaudio.save("output.wav", audio, sample_rate=24000)
+```
+
+For Jupyter Notebook users, you can also play the audio directly:
+```python
+from yarngpt import generate_speech
+import torchaudio
+from IPython.display import Audio
+
+# Generate speech in different languages
+english_audio = generate_speech("Hello!", speaker="idera", language="english")
+yoruba_audio = generate_speech("Bawo ni?", speaker="adebayo", language="yoruba")
+igbo_audio = generate_speech("Kedu?", speaker="chioma", language="igbo")
+hausa_audio = generate_speech("Sannu!", speaker="amina", language="hausa")
+
+# Save and play the audio
+torchaudio.save("output.wav", english_audio, sample_rate=24000)
+Audio("output.wav")
+```
+
+## Parameter Options
+- `text`: The input string to convert to speech
+- `speaker`: Choose from available voices by language (see Features section for full list)
+- `language`: The language for speech generation ("english", "yoruba", "igbo", "hausa")
+- `temperature`: Controls the randomness of generation (default is 0.1)
+- `repetition_penalty`: A factor to reduce repetitive output (default is 1.1)
+- `max_length`: The maximum length of the generated output tokens (default is 4000)
+
+## Testing
+Run the unit tests to verify functionality:
+```bash
+python -m unittest discover -s tests
+```
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- Built as a contribution to yarngpt projects
+- Utilizes Hugging Face's model caching and the transformers library
+- Special thanks to the open-source community for their ongoing support
+
+For more details and documentation, visit the GitHub repository: https://github.com/jerryola1
