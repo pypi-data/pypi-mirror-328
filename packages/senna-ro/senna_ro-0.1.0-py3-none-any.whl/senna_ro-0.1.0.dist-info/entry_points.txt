@@ -1,0 +1,2 @@
+[console_scripts]
+senna-ro = senna_ro:main
