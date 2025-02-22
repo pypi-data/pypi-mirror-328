@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devopsAI"
+version = "0.1.3"
+description = "A utility for executing system commands via AI Agent"
+readme = "README.md"
+authors = [
+    {name = "Dineshkanna", email = "kannadinesh.m@gmail.com"}
+]
+license = {text = "SQUAPL"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License", 
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dineshkanna654/devops"
+"Bug Tracker" = "https://github.com/Dineshkanna654/devops/issues"
+
+[project.scripts]
+ai = "devopsai.cli:main"

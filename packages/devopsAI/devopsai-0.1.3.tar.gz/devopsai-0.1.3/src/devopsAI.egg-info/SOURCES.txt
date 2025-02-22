@@ -1,0 +1,13 @@
+LICENCE
+README.md
+pyproject.toml
+src/devopsAI.egg-info/PKG-INFO
+src/devopsAI.egg-info/SOURCES.txt
+src/devopsAI.egg-info/dependency_links.txt
+src/devopsAI.egg-info/entry_points.txt
+src/devopsAI.egg-info/requires.txt
+src/devopsAI.egg-info/top_level.txt
+src/devopsai/__init__.py
+src/devopsai/cli.py
+src/devopsai/config.py
+src/devopsai/core.py
