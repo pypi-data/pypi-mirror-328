@@ -1,0 +1,2 @@
+[console_scripts]
+google-internal-apis = google_internal_apis.cli:rpc
