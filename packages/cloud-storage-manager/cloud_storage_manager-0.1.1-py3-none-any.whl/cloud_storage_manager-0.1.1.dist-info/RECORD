@@ -1,0 +1,12 @@
+cloud_storage_manager/__init__.py,sha256=9rkkgH1v5X-UIuwjgufyZzspFOK5EgnsCbBgnZbQ5EU,175
+cloud_storage_manager/aws_s3_storage.py,sha256=p6IaNQEwmaN5DVb0OYfw9O_dcFOTcBSOmaYGgfjCT8A,5475
+cloud_storage_manager/base_storage.py,sha256=il-USNvo9C8dKlNvhnLWfcGDIxV9gW7nJCh2f719sk0,2276
+cloud_storage_manager/exceptions.py,sha256=MCgEEbuSvMsacJcranA1rEKz_bvcg6PECk2vyfDQcYU,512
+cloud_storage_manager/gcp_storage.py,sha256=HpNURujj0ck26qOwYZw0yD1y129aR6M_BOcNEkPowPg,6137
+cloud_storage_manager/storage_provider.py,sha256=pM7Yu61wamCku3PSyzYa-zFWFMsNLSqPwXmVb2RU244,1815
+cloud_storage_manager/storage_schema.py,sha256=gA9Wlq5DBsV5gYU1X4JdgROiLdinFS-cGDzfglx5dpA,1078
+cloud_storage_manager-0.1.1.dist-info/LICENSE,sha256=uVWHH7SuJRJZTqOSnIIvjM1VWOHA_MTCFmFVqkqsyy8,1108
+cloud_storage_manager-0.1.1.dist-info/METADATA,sha256=iU4IqcJ2AV_2LH0ODrswB0GMR1iue4-zzSfDLj-wSFo,6176
+cloud_storage_manager-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cloud_storage_manager-0.1.1.dist-info/top_level.txt,sha256=NulGei6qRmnP61OgHE8wIilOcm2XMPiRJuZ35W_lQd0,22
+cloud_storage_manager-0.1.1.dist-info/RECORD,,
