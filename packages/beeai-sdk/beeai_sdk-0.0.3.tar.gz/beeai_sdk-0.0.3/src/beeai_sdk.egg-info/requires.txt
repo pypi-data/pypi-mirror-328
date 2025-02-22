@@ -1,0 +1,4 @@
+acp-sdk>=0.0.1
+opentelemetry-exporter-otlp-proto-http>=1.30.0
+opentelemetry-sdk>=1.30.0
+pydantic>=2.10.6
