@@ -1,0 +1,115 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "srswti-axis"
+version = "1.1.3"
+authors = [
+    {name = "SRSWTI - Knowledge and Inference Platform", email = "team@srswti.com"},
+]
+description = "eXplainable Inference & Search: an industry-ready library for advanced data retrieval and interpretable AI solutions"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research", 
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: General",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console", 
+]
+dependencies = [
+    "spacy",
+    "llvmlite==0.44.0",
+    "accelerate",
+    "beautifulsoup4",
+    "bertopic",
+    "huggingface-hub",
+    "keybert",
+    "matplotlib",
+    "nltk",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "pdfminer-six",
+    "pdfplumber",
+    "pillow",
+    "plotly",
+    "python-docx",
+    "python-pptx",
+    "scikit-learn",
+    "scipy",
+    "sentence-transformers",
+    "torch",
+    "torchvision",
+    "transformers",
+    "wordllama",
+    "contractions",
+    "rtree",
+    "top2vec", 
+    "hdbscan",
+    "sentencepiece", 
+
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "twine",
+    "black",
+    "flake8",
+    "isort",
+]
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme",
+]
+all = [
+    "easyocr",
+    "ultralytics",
+    "wordcloud",
+]
+
+
+
+[project.urls]
+Homepage = "https://www.srswti.com/"
+
+
+# Add this new section
+[tool.hatch.build.targets.wheel]
+packages = ["src/srswti_axis"]
+
+[project.scripts]
+srswti-axis-post-install = "srswti_axis.post_install:main"
+
+
+[tool.hatch.metadata]
+allow-direct-references = true
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple/"
+publish-url = "https://upload.pypi.org/legacy/"
+
+# Add TestPyPI to your pyproject.toml if not already there
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"

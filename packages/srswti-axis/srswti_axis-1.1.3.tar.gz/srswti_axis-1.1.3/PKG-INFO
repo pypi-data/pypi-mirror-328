@@ -1,0 +1,125 @@
+Metadata-Version: 2.4
+Name: srswti-axis
+Version: 1.1.3
+Summary: eXplainable Inference & Search: an industry-ready library for advanced data retrieval and interpretable AI solutions
+Project-URL: Homepage, https://www.srswti.com/
+Author-email: SRSWTI - Knowledge and Inference Platform <team@srswti.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.9
+Requires-Dist: accelerate
+Requires-Dist: beautifulsoup4
+Requires-Dist: bertopic
+Requires-Dist: contractions
+Requires-Dist: hdbscan
+Requires-Dist: huggingface-hub
+Requires-Dist: keybert
+Requires-Dist: llvmlite==0.44.0
+Requires-Dist: matplotlib
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pdfminer-six
+Requires-Dist: pdfplumber
+Requires-Dist: pillow
+Requires-Dist: plotly
+Requires-Dist: python-docx
+Requires-Dist: python-pptx
+Requires-Dist: rtree
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: sentence-transformers
+Requires-Dist: sentencepiece
+Requires-Dist: spacy
+Requires-Dist: top2vec
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: transformers
+Requires-Dist: wordllama
+Provides-Extra: all
+Requires-Dist: easyocr; extra == 'all'
+Requires-Dist: ultralytics; extra == 'all'
+Requires-Dist: wordcloud; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# the future isn't centralized, it's personalized
+
+srswti-axis (AI eXplainable Inference & Search) is an industry-ready machine learning library for advanced data retrieval and interpretable AI solutions. it provides a collection of powerful components and state-of-the-art capabilities that run entirely locally on your machine. we focused on efficient implementations that deliver high performance even on modest hardware.
+
+for complete documentation, visit [docs.srswti.com](https://docs.srswti.com). visit [srswti.com](https://www.srswti.com) for our products, and check out our [blog](https://www.srswti.com/blogs) to learn more about our mission and the mathematical foundations behind our work.
+
+## Key features
+- local intelligence—too cheap to meter, firewall-protected for privacy, on-premise steerable, and rendering benchmarks obsolete
+- everything what llms do but much faster, averaging 50-100ms latency
+- industry-ready
+- zero-shot classification <70ms latency
+- advanced text cleaning and preprocessing
+- intelligent text analysis and ner
+- document clustering and ranking
+- neural-probabilistic hybrid search
+- multi-strategy document merging
+- multilingual translation support
+- sentiment analysis
+
+
+## Installation
+
+### Requirements
+- Python 3.9 - 3.11
+
+### Setting up Virtual Environment
+```bash
+# Create a new virtual environment using uv
+uv venv --python 3.9
+```
+
+# Activate the virtual environment
+```bash
+# On Unix/macOS
+source .venv/bin/activate
+# On Windows
+.venv\Scripts\activate
+```
+
+### Installing the Package
+```bash
+# Using uv
+uv pip install srswti-axis
+or 
+pip install srswti-axis
+```
+
+### Install Required Dependencies
+```bash
+# Inside activated virtual environment
+srswti-axis-post-install 
+```
