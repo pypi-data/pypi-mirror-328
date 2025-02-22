@@ -1,0 +1,6 @@
+ajsonrpc
+websockets
+
+[test]
+pytest
+pytest-asyncio
