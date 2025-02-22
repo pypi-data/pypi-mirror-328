@@ -1,0 +1,8 @@
+aesfile/__init__.py,sha256=LSWV9MrdBbCPasOHB14DJ3MU1tmZDREh247bNVzGPJQ,4430
+aesfile/tar.py,sha256=mjWjkPlh1SXrO7DJ_wt008HJ0Rw6DXqVkmcIOaXmne4,2122
+aesfile/zstd.py,sha256=q54lTqH23921j2ZdBloXcJrPl1tDNxABbt2MGvzVfpg,3814
+aesfile-0.0.1.dist-info/METADATA,sha256=60dVS6owcEPLhgM8-rbreMpMU-WstS-c_CP6wx37fB4,6346
+aesfile-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+aesfile-0.0.1.dist-info/entry_points.txt,sha256=mU0iRtQohQunXiXVx9RWI_-YqNngo_LsrR0AdmFxFGQ,46
+aesfile-0.0.1.dist-info/licenses/LICENSE,sha256=6_0WB4pAdQuiNhzKWWk7ZAkmhTHRBERgWaNPa-YnnxE,1074
+aesfile-0.0.1.dist-info/RECORD,,
