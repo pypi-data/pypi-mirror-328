@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: owopkg
+Version: 0.0.2
+Summary: setuptools & wheel build -> twine deployment app
+Home-page: https://github.com/FarAway6834/owopkg
+Author: du7ec
+Author-email: dutec6834@gmail.com
+Keywords: owopkg
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: subpr
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: twine

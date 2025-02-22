@@ -1,0 +1,1 @@
+main=(lambda main:(main()if __name__=="__main__"else main))(lambda a=__import__('sys').argv:open(f'{a[1]}.py','w').write(f'cmd = "{open(a[1]).read()}"\nfrom . import lib; maingen(globals(), __name__, cmd)'))

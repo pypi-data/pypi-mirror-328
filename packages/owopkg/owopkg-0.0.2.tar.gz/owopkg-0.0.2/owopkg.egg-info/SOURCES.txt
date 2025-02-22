@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+owopkg/__init__.py
+owopkg/__main__.py
+owopkg/build.py
+owopkg/creates.py
+owopkg/deploy.py
+owopkg/lib.py
+owopkg/mybwb.py
+owopkg.egg-info/PKG-INFO
+owopkg.egg-info/SOURCES.txt
+owopkg.egg-info/dependency_links.txt
+owopkg.egg-info/requires.txt
+owopkg.egg-info/top_level.txt
