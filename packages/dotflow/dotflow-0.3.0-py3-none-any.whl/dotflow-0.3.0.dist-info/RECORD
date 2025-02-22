@@ -1,0 +1,17 @@
+dotflow/__init__.py,sha256=0PgmUgTiWKv0eUXkFYBwUnJfflCDYQD7gYiaWBrl-uw,236
+dotflow/abc/__init__.py,sha256=UIk84jCJYoHAk4In_eVXAaFAnNE63lI3dVP5qunyBJs,32
+dotflow/abc/context.py,sha256=uWeR78UHB9KOe4Cpqg2tE-HgJcuFEEQwOVgvild67wk,53
+dotflow/abc/workflow.py,sha256=4ySlz1LNkT22Atgq88v1t_VRLFP7OJgHRN3gnERClEQ,54
+dotflow/cli/__init__.py,sha256=1NhA5RRAaAfhj3LdBgtC2eZ7WPZlmN0f-Kz-biUkUXE,27
+dotflow/core/__init__.py,sha256=baoenc4kd9OQjCrnmOKRm9JRinEjd5xb7luCeyQ-npY,28
+dotflow/core/actions.py,sha256=8Eb1ZFUHAbVPKkY80GgyQHNJs2cyE30a4JUOrVYb4rE,985
+dotflow/core/context.py,sha256=GmE9i5nsqrIo6iUE9qqMACa9L6sDTCOAu83aYeliN2g,194
+dotflow/core/controller.py,sha256=el2SHV9D_7E8vbaiaR5I4jFmT-tfTwtCOVbztXw8vMU,3529
+dotflow/core/task.py,sha256=RoBL3gv8Qxw6w8El9ZXzIJ4oytXn3fH3L7dGCoIX2wo,1104
+dotflow/core/workflow.py,sha256=P8I-QT7RWplLhIlr7qJqXWeve7sXvvWD4bxnDI__dtM,522
+dotflow/main.py,sha256=efJrCTD_vi1gZSXYhcFeDnhLFpkoMg_jH27bI5om2iY,85
+dotflow-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dotflow-0.3.0.dist-info/METADATA,sha256=3TjqC8ztd78BtiaOMPRVTwoLhl2gQh_elhV43C35-zA,43702
+dotflow-0.3.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+dotflow-0.3.0.dist-info/entry_points.txt,sha256=F7_Jdh0QV_FCI07ybmYLtiFZsdRVGI__3-uCw7uW8Ow,42
+dotflow-0.3.0.dist-info/RECORD,,
