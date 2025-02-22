@@ -1,0 +1,31 @@
+[project]
+name = "meraki_dashboard"
+version = "0.1.1"
+authors = [
+  { name="Lawrence Lucas", email="llucas@starbucks.com" },
+]
+description = "Python library for scraping your meraki dashboard of the data necessary to automate functions not available in the public API."
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "requests==2.32.3"
+]
+
+[project.readme]
+file = "README"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/llucas-sb/meraki_dashboard"
+Issues = "https://github.com/llucas-sb/meraki_dashboard/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+license-files = ['LICENSE']
