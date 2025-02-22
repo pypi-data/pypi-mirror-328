@@ -1,0 +1,10 @@
+spherical_inr/__init__.py,sha256=q3taqklHEnGG5kSIm3mv6DmXCHKlH2qeLs0blSZQ-Es,547
+spherical_inr/activations.py,sha256=fWzK1LKcMC_qbMpped2eXqleVayuzMhitELZ7wxdESU,210
+spherical_inr/inr.py,sha256=xeL1UNtH-Y0bwfZHK0OlFcNOGd0fv2C5gUjL9xS3oQ0,4170
+spherical_inr/positional_encoding.py,sha256=-dGZbu3VM2-ZirngmVso4HiJp9pyRURQhrNu2kYArXw,6092
+spherical_inr/transforms.py,sha256=oeFZUL1kzN8n0XKsG3JfNlW9ASV3Sv8BUJYhc14WB84,1778
+spherical_inr-0.1.4.dist-info/LICENSE,sha256=lJXryLMAcAVnpi-F1mYWKgmxj4cz2AJ4R5KCMQeOUgw,1066
+spherical_inr-0.1.4.dist-info/METADATA,sha256=g00ZNc1EX7LqfLXgFkrDl2sBqB6yrOSbPl66q1tj8qk,1912
+spherical_inr-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+spherical_inr-0.1.4.dist-info/top_level.txt,sha256=zTl-Tkpncp6o0w4xM-Gk8lu8tixOh2GJ187OZMqxX1Y,14
+spherical_inr-0.1.4.dist-info/RECORD,,
