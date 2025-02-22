@@ -1,0 +1,6 @@
+README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/qore/__init__.py,sha256=CWvPfOP03qo6ck98SJIFw6Ehe_f5q5pm7gS6AqbHCVc,89
+src/qore/client.py,sha256=X49PrpVzzgfDXcig9U4hfh24LfvoCbiPWOpFCSxacd8,556
+qore_client-0.0.1.dist-info/METADATA,sha256=JYF_a5KC-iV99s7yj1C-TY8U4lpiAOKlSz5UFCURNxE,506
+qore_client-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+qore_client-0.0.1.dist-info/RECORD,,
