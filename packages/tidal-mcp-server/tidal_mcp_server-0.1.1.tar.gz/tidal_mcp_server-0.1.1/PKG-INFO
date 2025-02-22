@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: tidal-mcp-server
+Version: 0.1.1
+Summary: TIDAL MCP server
+Project-URL: Homepage, https://github.com/tidal-engineering/tidal-mcp-server
+Project-URL: Repository, https://github.com/tidal-engineering/tidal-mcp-server
+Project-URL: Documentation, https://github.com/tidal-engineering/tidal-mcp-server#readme
+Author-email: Stefan Moro <smoro@tidal.com>
+Keywords: api,mcp,tidal
+Requires-Python: >=3.12
+Requires-Dist: mcp[cli]>=1.2.1
+Requires-Dist: requests==2.32.3

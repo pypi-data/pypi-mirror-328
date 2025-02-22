@@ -1,0 +1,40 @@
+[project]
+name = "tidal-mcp-server"
+version = "0.1.1"
+description = "TIDAL MCP server"
+requires-python = ">=3.12"
+
+authors = [
+    {name = "Stefan Moro", email = "smoro@tidal.com"}
+]
+
+keywords = ["tidal", "mcp", "api"]
+
+dependencies = [
+    "mcp[cli]>=1.2.1",
+    "requests==2.32.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/tidal-engineering/tidal-mcp-server"
+Repository = "https://github.com/tidal-engineering/tidal-mcp-server"
+Documentation = "https://github.com/tidal-engineering/tidal-mcp-server#readme"
+
+[project.scripts]
+tidal-mcp-server = "tidal_mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest==8.3.4",
+    "pre-commit==4.1.0"
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+select = ["F", "E", "W", "I", "N", "B", "ICN", "Q", "TID", "PL"]
+ignore = ["B904"]
