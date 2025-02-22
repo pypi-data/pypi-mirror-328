@@ -1,0 +1,9 @@
+aviary/envs/litqa/__init__.py,sha256=wTuX4djvu3l9bgkIWyPvuKGGx2-CwkVMYowBwaPYqt0,638
+aviary/envs/litqa/env.py,sha256=KBEmw3x3BFBArDRAHiaouLqVt3gxd4sNSHeELSsbAa0,7084
+aviary/envs/litqa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aviary/envs/litqa/task.py,sha256=V24vg3s86a7FzCLWgDaWHeQ2L68FfdhOrGWTEVN5vJI,14523
+aviary/envs/litqa/version.py,sha256=UQTUtmRhd4HZFOq27d1M8nngi01VCoPubdSEqVKhDfQ,413
+aviary.litqa-0.18.3.dist-info/METADATA,sha256=OotOWrN81evdqlDTtJqHUdAXhmX5oNTJzI-Zu8YMRWo,3529
+aviary.litqa-0.18.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aviary.litqa-0.18.3.dist-info/top_level.txt,sha256=zICUMjvEqieeC5Q89XL5ZbSQhBnBE7eBfDsuEAgysJ4,7
+aviary.litqa-0.18.3.dist-info/RECORD,,
