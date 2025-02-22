@@ -1,0 +1,5 @@
+_A=None
+from typing import Literal
+from pydantic import BaseModel,Field
+CurveParser=Literal['simple_1D','frameseries_2D']
+class ReaderNetcdfConfig(BaseModel):groups_depth:int|_A=Field(default=_A,description='If groups management, specify a group depth to keep for analysis.');curve_parser:CurveParser|_A=Field(default=_A,description='Curve parser to use for the netcdf reader.');curve_x_variable:str|_A=Field(default=_A,description='X axis variable name for the curves (for `simple_1D` and `frameseries_2D`).');curve_step_variable:str|_A=Field(default=_A,description='Step variable name (1D) (for `frameseries_2D` only).');compare_1D:bool=Field(default=False,description='If processor compare, compare vectors (1D) variables.');compare_2D:bool=Field(default=False,description='If processor compare, compare matrixes (2D) variables.')
