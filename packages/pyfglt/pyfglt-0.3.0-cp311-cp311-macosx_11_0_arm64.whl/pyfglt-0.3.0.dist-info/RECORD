@@ -1,0 +1,7 @@
+pyfglt-0.3.0.dist-info/RECORD,,
+pyfglt-0.3.0.dist-info/WHEEL,sha256=l2MAqKUavsDG6heQe7SYU4Wh2xM6nweWZlhq0Wt7Ao4,93
+pyfglt-0.3.0.dist-info/METADATA,sha256=AYlqNaZIiEU6iRpepqLnLAsriYntjTaSHVVTWmsVT_k,4782
+pyfglt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfglt/fglt.py,sha256=GH72-TBN5JqOefiPPuYcRt9049gLOJaBfuRJQERG7KI,6657
+pyfglt/_fglt_c.cpython-311-darwin.so,sha256=D03RevX8EKDXSIkqHJ4B4kYoV45KA8rRBBRnO8zqR2w,193568
+pyfglt-0.3.0.data/headers/fglt.hpp,sha256=byO4j_x_31vO70FNqANjEz3_lT_4wecNmTHgPbG1-zA,1578
