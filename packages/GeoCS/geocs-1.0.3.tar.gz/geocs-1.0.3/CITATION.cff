@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Schoeller
+    given-names: Henry
+    orcid: https://orcid.org/0000-0001-5594-0700
+    affiliation: "Institute of Meteorology, Freie Universität Berlin, Berlin, Germany"
+title: "GeoCS"
+version: "1.0.3"
+date-released: "2025-02-20"
+doi: "10.5281/zenodo.14899386"
+license: "MIT"
