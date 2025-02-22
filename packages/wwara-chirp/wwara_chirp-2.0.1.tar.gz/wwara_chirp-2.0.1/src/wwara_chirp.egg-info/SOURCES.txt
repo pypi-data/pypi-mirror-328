@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/wwara-chirp/__init__.py
+src/wwara_chirp.egg-info/PKG-INFO
+src/wwara_chirp.egg-info/SOURCES.txt
+src/wwara_chirp.egg-info/dependency_links.txt
+src/wwara_chirp.egg-info/entry_points.txt
+src/wwara_chirp.egg-info/top_level.txt
+tests/test_chirp_validator.py
+tests/test_wwara_chirp.py
