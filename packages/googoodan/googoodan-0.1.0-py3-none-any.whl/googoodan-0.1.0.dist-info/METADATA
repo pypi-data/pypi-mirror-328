@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: googoodan
+Version: 0.1.0
+Summary: CLI 구구단 게임
+Author-email: Euiyun Kim <geniuskey@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: terminaltexteffects
