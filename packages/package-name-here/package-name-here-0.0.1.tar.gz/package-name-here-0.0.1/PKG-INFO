@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: package-name-here
+Version: 0.0.1
+Summary: A demo POC for the Seasides 2025 SAST SCA Village.
+Author: 
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
