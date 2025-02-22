@@ -1,0 +1,9 @@
+app/__init__.py,sha256=DxsKbzikc6vOusCNwScP4oLyWE_v1oRI2m2cjzLEzIU,66
+app/cloocker.py,sha256=AMID9Haw85fUuNZPu4NM-xkoLBTVheyi8jRtd85c8Fw,398
+app/temetnosce.py,sha256=T4ZHjcOJpHxQNVF9uh4XJ-PyIFJazAD1Vv1nIleTP-A,148
+app/timetrix.py,sha256=Z0Vs7rFBqhvfnz9Sq7cBe32FFXRfTdEkzzuKSMunlqQ,2343
+timetrix-0.0.2.dist-info/LICENSE,sha256=crbeastNTCCUE-WDftwvY-9J6BaRprsNN9gKZjAweUw,1093
+timetrix-0.0.2.dist-info/METADATA,sha256=VX6eqQFnhft9dvvRJWhpbnZvBtNwLpv3twg-tJccgro,673
+timetrix-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+timetrix-0.0.2.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+timetrix-0.0.2.dist-info/RECORD,,
