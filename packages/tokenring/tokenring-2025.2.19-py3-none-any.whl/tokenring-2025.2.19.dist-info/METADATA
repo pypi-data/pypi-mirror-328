@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: tokenring
+Version: 2025.2.19
+Requires-Dist: fido2>=1.2.0
+Requires-Dist: cryptography
+Requires-Dist: keyring
+Requires-Dist: pyuac
+Requires-Dist: click
+Requires-Dist: pywin32; os_name == "nt"
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: types-pywin32; extra == "dev"
