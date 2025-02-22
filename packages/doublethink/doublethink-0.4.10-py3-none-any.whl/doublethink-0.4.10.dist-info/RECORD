@@ -1,0 +1,10 @@
+doublethink/__init__.py,sha256=NpPO0fJO4Ci2gBcrZYQZxcScaOZ3hiEiTfqk76Eg2eI,2818
+doublethink/cli.py,sha256=VMPS0q0e4YSnt4GLDPATmQT7OduxhrZzeWEtrk5NnZQ,2286
+doublethink/orm.py,sha256=n5x_U9WBlOyzh2q5myd_04Kj8b9YichZzU3qFBhBShA,5969
+doublethink/rethinker.py,sha256=n-DqB0fjLrfOeA9h3k8uTjgTgQ0Lal2tPOfbM6QppX4,6431
+doublethink/services.py,sha256=E-IpOo5I6mMZVDj1hEPrzwkfdNgY28Uq4XN0QIaXGBo,13310
+doublethink-0.4.10.dist-info/METADATA,sha256=PgXP0FThQ7VhsvrGXuHWK0_3g7DwC-ylUNz7s972p80,2683
+doublethink-0.4.10.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+doublethink-0.4.10.dist-info/entry_points.txt,sha256=Be63af5yhFnyk3IjN5dKlDjFou3fMxSF-YqjuRKMKMk,90
+doublethink-0.4.10.dist-info/top_level.txt,sha256=nwV5GTmcHFY0N1fkRiBFPN-DfHzUE5aUCQke3ntyCFY,12
+doublethink-0.4.10.dist-info/RECORD,,
