@@ -1,0 +1,42 @@
+name: s2downloader
+
+channels: &id1
+  - conda-forge
+
+dependencies:
+  - python=3.12.*
+  - pip
+  - numpy>=2.0
+  - affine
+  - pyproj
+  - geojson
+  - geojson-pydantic
+  - rasterio
+  - geopandas>=1.0.*
+  - shapely
+  - pystac
+  - geopy
+  - pystac-client
+  - pydantic
+  # setup requirements
+  - tox
+  # test requirements
+  - pytest
+  - pytest-cov
+  - urlchecker
+  # lint requirements
+  - pre-commit
+  # doc requirements
+  - sphinx>=4.1.1
+  - sphinx-autodoc-typehints
+  - sphinx-argparse
+  - sphinx_rtd_theme
+  - numpydoc>=1.7
+  # deployment requirements
+  - python-build
+  - twine
+ # code requirements
+
+
+  - pip:
+    - pytest-reporter-html1
