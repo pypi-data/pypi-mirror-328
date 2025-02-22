@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+SoulsSaveCLI/__init__.py
+SoulsSaveCLI/soulsave/__init__.py
+SoulsSaveCLI/soulsave/core.py
+SoulsSaveCLI/soulsave/soulsave.py
+SoulsSaveCLI/utils/__init__.py
+SoulsSaveCLI/utils/callbacks.py
+SoulsSaveCLI/utils/side_functions.py
+soulsave.egg-info/PKG-INFO
+soulsave.egg-info/SOURCES.txt
+soulsave.egg-info/dependency_links.txt
+soulsave.egg-info/entry_points.txt
+soulsave.egg-info/requires.txt
+soulsave.egg-info/top_level.txt
