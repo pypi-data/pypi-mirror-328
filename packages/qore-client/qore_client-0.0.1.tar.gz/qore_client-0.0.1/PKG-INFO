@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: qore-client
+Version: 0.0.1
+Summary: Qore Client
+Author-email: dhlee <dhlee@quantit.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: dev
+Requires-Dist: mypy>=1.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Requires-Dist: ruff>=0.1.0; extra == 'dev'
+Requires-Dist: twine>=4.0; extra == 'dev'
