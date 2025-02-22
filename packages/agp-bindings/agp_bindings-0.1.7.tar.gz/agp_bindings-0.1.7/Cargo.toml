@@ -1,0 +1,19 @@
+[workspace]
+
+members = ["python-bindings"]
+
+default-members = [
+    "examples",
+    "gateway/config",
+    "gateway/datapath",
+    "gateway/gateway",
+    "gateway/nop_component",
+    "gateway/service",
+    "gateway/signal",
+    "gateway/tracing",
+]
+
+resolver = "2"
+
+[workspace.package]
+license = "Apache-2.0"
