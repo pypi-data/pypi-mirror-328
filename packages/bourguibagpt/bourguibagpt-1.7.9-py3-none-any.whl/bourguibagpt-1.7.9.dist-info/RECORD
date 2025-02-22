@@ -1,0 +1,10 @@
+bourguibagpt/__init__.py,sha256=o9J28odn2oGZeMAIaeDadNNLA_-v8O9GUmrIImg8Z0o,77
+bourguibagpt/config.py,sha256=qML572rv6u1ZkiVJdNjyuximHKyj-Zw4izXYe3dfXcA,3500
+bourguibagpt/main.py,sha256=8Itmju6I7bXsCje1GKAwYpmndp6PItB-Z-j_bTRdl04,24120
+bourguibagpt/validators.py,sha256=LofwhPfTZm_BTFpoQcSJvE6suVFLtF4Eqa-jrikh9uw,1094
+bourguibagpt/windows.py,sha256=q9NNldlB98m3ia1k_klkz5VV2048ROfdmmDINzXgSys,1446
+bourguibagpt-1.7.9.dist-info/METADATA,sha256=RgnZs5B-q1HUMYmCe7dntjvVLkbzhR7Mms2ovmx1hXc,4543
+bourguibagpt-1.7.9.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bourguibagpt-1.7.9.dist-info/entry_points.txt,sha256=MGo-XEnt73mpmrrguGH893FnqfTuPCj5r_aW38Yg_Y4,56
+bourguibagpt-1.7.9.dist-info/top_level.txt,sha256=UiTDFMZvnFbjlEkJ-F6JDm7In9dw5kiiOs5hI2ZTTcg,13
+bourguibagpt-1.7.9.dist-info/RECORD,,
