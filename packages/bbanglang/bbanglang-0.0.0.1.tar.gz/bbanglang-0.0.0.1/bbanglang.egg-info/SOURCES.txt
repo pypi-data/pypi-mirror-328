@@ -1,0 +1,7 @@
+README.md
+bbanglang.py
+setup.py
+bbanglang.egg-info/PKG-INFO
+bbanglang.egg-info/SOURCES.txt
+bbanglang.egg-info/dependency_links.txt
+bbanglang.egg-info/top_level.txt
