@@ -1,0 +1,11 @@
+acs_sdk/__init__.py,sha256=ZejoXpY3gp3c47LzH5WFx2L-Qi2f-1Bf_kLAgCb_g3U,139
+acs_sdk/client/__init__.py,sha256=tyn4NtkzgotywU4RXZGKaBhkEulWZHXM_KfhuQhja7c,416
+acs_sdk/client/client.py,sha256=aec8Q1TNi9f-gWMlonIaIGdITrKeCHNuPGoZGwXGimU,16046
+acs_sdk/client/exceptions.py,sha256=8Pr9x0apPFvvFg1U1mTojWahI_jbb0-ZOAFGznoaJPA,1767
+acs_sdk/client/retry.py,sha256=4E83hNzlbtZTKXsPIffJsn-ZRspGWavw6TvDEnZJA0A,3011
+acs_sdk/client/types.py,sha256=iuN2eAvm6GkIIVDJcSIum-NFtsqny8l1LTLd7bLJ4Nc,1741
+acs_sdk-0.2.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+acs_sdk-0.2.0.dist-info/METADATA,sha256=jniqJZEChPBtQDfeZB-NkNipPhJLjOWqacVHKO15yr8,4220
+acs_sdk-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+acs_sdk-0.2.0.dist-info/top_level.txt,sha256=cxdfVis3o505aUnj_2mQ11HdCKOCE6fXfUrgf5IvLEM,8
+acs_sdk-0.2.0.dist-info/RECORD,,
