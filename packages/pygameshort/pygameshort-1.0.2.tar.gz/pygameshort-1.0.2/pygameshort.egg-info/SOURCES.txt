@@ -1,0 +1,8 @@
+README.md
+setup.py
+pygameshort/__init__.py
+pygameshort.egg-info/PKG-INFO
+pygameshort.egg-info/SOURCES.txt
+pygameshort.egg-info/dependency_links.txt
+pygameshort.egg-info/requires.txt
+pygameshort.egg-info/top_level.txt
