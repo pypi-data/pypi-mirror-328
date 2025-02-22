@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+server.py
+chroma_mcp.egg-info/PKG-INFO
+chroma_mcp.egg-info/SOURCES.txt
+chroma_mcp.egg-info/dependency_links.txt
+chroma_mcp.egg-info/requires.txt
+chroma_mcp.egg-info/top_level.txt
