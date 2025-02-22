@@ -1,0 +1,3 @@
+[console_scripts]
+ethos=ethos.main:main
+
