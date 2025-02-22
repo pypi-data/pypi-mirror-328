@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: appcraft
+Version: 0.3.0
+Summary: Um framework que cria estruturas de projeto personalizadas.
+Author-email: Dux Tecnologia <contato@tpereira.com.br>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: prompt_toolkit
+Requires-Dist: toml
