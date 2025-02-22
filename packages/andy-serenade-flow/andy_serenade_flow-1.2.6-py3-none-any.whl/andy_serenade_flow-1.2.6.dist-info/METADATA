@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: andy-serenade-flow
+Version: 1.2.6
+Summary:   ETL Pipeline Implementation. Extract, Transform, and Load data from local or remote data sources.   
+Project-URL: Homepage, https://github.com/bellanov/serenade-flow
+Project-URL: Issues, https://github.com/bellanov/serenade-flow/issues
+Author-email: Bellanov Apilli <bellanovapilli@gmail.com>, Ajay Bandaru <ajaybandaru17@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SerenadeFlow
+
+*SeranadeFlow* is an ETL Pipeline Implementation.
+
+It *Extracts*, *Transforms*, and *Loads* data from local or remote data sources.
+
+## Requirements
+
+The project is configured to operate in _Python >= 3.8_ enviornments.
+
+## Quickstart
+
+Coming Soon.
