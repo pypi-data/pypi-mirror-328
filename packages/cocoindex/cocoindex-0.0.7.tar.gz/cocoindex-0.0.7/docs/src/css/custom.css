@@ -1,0 +1,89 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Import Questrial font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #7c4dff;
+  --ifm-color-primary-dark: #6E45E2;
+  --ifm-color-primary-darker: #5F3DC4;
+  --ifm-color-primary-darkest: #5235A7;
+  --ifm-color-primary-light: #8B5CF6;
+  --ifm-color-primary-lighter: #9A6AFF;
+  --ifm-color-primary-lightest: #A879FF;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --my-color-text-black: black;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #C4B5FD;
+  --ifm-color-primary-dark: #A78BFA;
+  --ifm-color-primary-darker: #8B5CF6;
+  --ifm-color-primary-darkest: #7C4DFF;
+  --ifm-color-primary-light: #DDD6FE;
+  --ifm-color-primary-lighter: #EDE9FE;
+  --ifm-color-primary-lightest: #F5F3FF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --my-color-text-black: #fff;
+}
+
+.navbar__title {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  box-shadow: none;
+  font-size: 16px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.sidebarItemTitle_pO2u,
+.navbar__items{
+  font-family: 'Questrial', sans-serif;
+
+}
+
+/* Footer styles */
+.footer {
+  padding: 4rem 2rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.footer__title {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer__item {
+  font-family: 'Questrial', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+}
+
+.footer__copyright {
+  font-family: 'Questrial', sans-serif;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 2;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
