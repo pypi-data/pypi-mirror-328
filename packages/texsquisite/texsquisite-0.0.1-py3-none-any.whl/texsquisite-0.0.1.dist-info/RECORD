@@ -1,0 +1,10 @@
+texsquisite/__init__.py,sha256=vS0QDD4WzYZe1gkCwj9qU4HtxUZd21jgz4OLIvrNX74,21
+texsquisite/rules.py,sha256=ANA12w-5YAPNvtMN7AIzE8yww8jA-0ggi8Q4H0WAq7E,3378
+texsquisite/run.py,sha256=t6NBJFeD8qFvQQrbvuQS9WH9nqzq4pZ0C-TKVAPa0O0,5843
+texsquisite/utils.py,sha256=b48NGlz9fJSrP0gQDT7tPtyD8GGTTlt6up5WeauNKQc,493
+texsquisite-0.0.1.dist-info/LICENSE,sha256=_mm6d-zMImbVUrBBE8UkJE3wqmMZ4ej7TbdEHC3d-hI,1067
+texsquisite-0.0.1.dist-info/METADATA,sha256=RRsIxiSiQR9aHa_-0vmL4iEIldvYOonxid7OZHl6uRo,3432
+texsquisite-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+texsquisite-0.0.1.dist-info/entry_points.txt,sha256=fEsqRG6-3tma_m35vYmq-FKekEY47NgPr9WrHorN74M,57
+texsquisite-0.0.1.dist-info/top_level.txt,sha256=JmVYEVsM0RRf8DB5cROCTIqnCGTD_V8_vpPSEcPC8hE,12
+texsquisite-0.0.1.dist-info/RECORD,,
