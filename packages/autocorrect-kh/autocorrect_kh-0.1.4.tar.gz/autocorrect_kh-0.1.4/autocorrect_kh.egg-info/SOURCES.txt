@@ -1,0 +1,9 @@
+setup.py
+autocorrect_kh/__init__.py
+autocorrect_kh/autocorrect.py
+autocorrect_kh/settings.py
+autocorrect_kh.egg-info/PKG-INFO
+autocorrect_kh.egg-info/SOURCES.txt
+autocorrect_kh.egg-info/dependency_links.txt
+autocorrect_kh.egg-info/requires.txt
+autocorrect_kh.egg-info/top_level.txt
