@@ -1,0 +1,90 @@
+Metadata-Version: 2.2
+Name: AioTele
+Version: 0.1.8
+Summary: AioTele is a Python module for building Telegram bots using asyncio. It offers an intuitive API for handling updates, commands, and messaging, supporting both long polling and webhooks for scalable, high-performance bots.
+Home-page: https://github.com/Bogdan-godot/AioTele
+Download-URL: https://github.com/Bogdan-godot/AioTele/archive/v0.1.8.zip
+Author: Bogdan Boris
+Author-email: gdrghdhgddy@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Keywords: telegram bot asyncio async telegram
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.8.1
+Requires-Dist: certifi>=2025.1.31
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+A simple example of a bot that will repeat after the user
+```python
+from aiotele import Bot
+from aiotele.types import MessageObject, CommandObject
+import asyncio
+
+TOKEN = "YOU_TOKEN"
+bot = Bot(TOKEN)
+
+@bot.message_handler()
+async def repeat(msg: MessageObject, command: CommandObject):
+    await msg.reply(f"I don't know such a command!")
+
+
+async def main():
+    await bot.run()
+
+asyncio.run(main())
+```
+deleting webhook
+```python
+async def main():
+    await bot.delete_webhook(True)
+    await bot.run()
+```
+To check whether a new user has joined or not
+```python
+from aiotele import JOIN_TRANSITION
+from aiotele.types import NewChatMember
+
+@bot.chat_member(JOIN_TRANSITION)
+async def new_chat_member(new_member: NewChatMember):
+    await new_member.answer(f"Hello {new_member.new_member.full_name}! Added you {new_member.old_member.full_name}!")
+```
+To check whether a user has logged out or not
+```python
+from aiotele import LEAVE_TRANSITION
+from aiotele.types import LeaveChatMember
+
+@bot.chat_member(LEAVE_TRANSITION)
+async def leave_chat_member(leave_member: LeaveChatMember):
+    await leave_member.reply(f"Bye {leave_member.leave_member.full_name}!")
+```
+Check whether the bot has been added to the group or not
+```python
+from aiotele import JOIN_TRANSITION
+from aiotele.types import NewChatMember
+
+@bot.my_chat_member(JOIN_TRANSITION)
+async def bot_join_chat_member(new_member: NewChatMember):
+    await new_member.answer(f"Thank you for adding me to the chat. {new_member.old_member.full_name}!")
+```
