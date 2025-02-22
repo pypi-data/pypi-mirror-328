@@ -1,0 +1,33 @@
+[tool.poetry]
+authors = ["dunderrrrrr <emil.bjorkroth@gmail.com>"]
+description = "A python API wrapper for Postnord tracking"
+name = "postnord_api"
+readme = "README.md"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.28.1"
+respx = "^0.22.0"
+pytest = "^8.3.4"
+ruff = "^0.9.6"
+pre-commit = "^4.1.0"
+
+[project]
+name = "postnord_api"
+
+[project.urls]
+Homepage = "https://github.com/dunderrrrrr/postnord_api"
+Repository = "https://github.com/dunderrrrrr/postnord_api"
+Documentation = "https://github.com/dunderrrrrr/postnord_api/blob/main/README.md"
+Issues = "https://github.com/dunderrrrrr/postnord_api/issues"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests/*",
+]
