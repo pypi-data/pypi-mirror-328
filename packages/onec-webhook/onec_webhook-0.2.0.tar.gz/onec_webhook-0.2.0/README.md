@@ -1,0 +1,62 @@
+
+# onec_webhook  
+
+**onec_webhook** — это Python-библиотека для интеграции с системой обсуждений 1С через Webhook. Позволяет отправлять сообщения, создавать обсуждения и управлять пользователями.  
+
+## 🔧 Установка  
+
+Установите библиотеку через `pip`:  
+
+```bash  
+pip install onec_webhook  
+```  
+
+## 🚀 Быстрый старт  
+
+### 1. Импортируйте библиотеку:  
+```python  
+from onec_webhook.webhook import OneCWebhookClient  
+```  
+
+### 2. Создайте клиента:  
+```python  
+webhook_url = "https://integrations.1cdialog.com/integration/webhook/********:****************************/callback"  
+client = OneCWebhookClient(webhook_url)  
+```  
+
+### 3. Отправьте сообщение в обсуждение:  
+```python  
+client.send_message(  
+    ext_id="1",  
+    text="Привет, 1С!",  
+    ext_user_id="1",  
+    ext_conversation_id="10"  
+)  
+```  
+
+## 📌 Функциональность  
+
+- **`send_message(ext_id, text, ext_user_id, ext_conversation_id, text_format="text/plain")`**  
+  Отправляет сообщение в обсуждение.  
+
+- **`create_conversation(ext_conversation_id, title, ext_user_id=None, members=None)`**  
+  Создаёт новое обсуждение.  
+
+- **`create_user(ext_user_id, name, full_name="", picture=None)`**  
+  Создаёт пользователя интеграции.  
+
+- **`update_conversation(ext_conversation_id, title=None, ext_user_id=None, add_members=None, remove_members=None)`**  
+  Обновляет параметры обсуждения.  
+
+- **`update_message(ext_id, text, ext_user_id, ext_conversation_id, text_format="text/plain")`**  
+  Изменяет существующее сообщение.  
+
+## 🛠 Требования  
+- Python 3.7+  
+- requests  
+
+## 📄 Лицензия  
+Проект распространяется под лицензией **MIT**.  
+
+## 📬 Обратная связь  
+Если у вас есть вопросы или предложения, создайте **issue** в [репозитории](https://github.com/Muredsa/onec_webhook).  
