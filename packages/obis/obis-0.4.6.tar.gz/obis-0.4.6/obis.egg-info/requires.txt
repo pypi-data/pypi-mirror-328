@@ -1,0 +1,4 @@
+click
+pyOpenSSL
+pybis>=1.37.2
+pytest
