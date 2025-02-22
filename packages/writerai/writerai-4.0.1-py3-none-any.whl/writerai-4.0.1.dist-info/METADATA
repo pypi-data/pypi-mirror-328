@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: writerai
+Version: 4.0.1
+Summary: Meta-package referencing to writer-sdk
+Home-page: https://www.writer.com
+License: Apache-2.0
+Author: Writer, Inc.
+Author-email: dev-feedback@writer.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: writer-sdk
+Project-URL: Documentation, https://dev.writer.com
+Project-URL: Repository, https://github.com/writer/writer-python
+Description-Content-Type: text/markdown
+
+# Writer Python API library meta-package
+
+This package is meta-package, which refers [writer-sdk](https://pypi.org/project/writer-sdk/) to provide aliasing. For further information follow [writer-sdk](https://pypi.org/project/writer-sdk/) PyPi web-page. 
+
