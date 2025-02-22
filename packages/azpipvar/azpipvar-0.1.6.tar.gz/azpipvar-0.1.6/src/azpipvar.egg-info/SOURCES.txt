@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/check_variables.py
+src/sunsoft.py
+src/version.py
+src/azpipvar.egg-info/PKG-INFO
+src/azpipvar.egg-info/SOURCES.txt
+src/azpipvar.egg-info/dependency_links.txt
+src/azpipvar.egg-info/entry_points.txt
+src/azpipvar.egg-info/requires.txt
+src/azpipvar.egg-info/top_level.txt
