@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+kgraphinfer/__init__.py
+kgraphinfer.egg-info/PKG-INFO
+kgraphinfer.egg-info/SOURCES.txt
+kgraphinfer.egg-info/dependency_links.txt
+kgraphinfer.egg-info/requires.txt
+kgraphinfer.egg-info/top_level.txt
+kgraphinfer/functions/__init__.py
+kgraphinfer/kgraphservice_infer/__init__.py
+kgraphinfer/logic_infer/__init__.py
+kgraphinfer/parser/__init__.py
+kgraphinfer/parser/kgraph_infer_parser.py
+test/test_kgraph_infer_parser.py
