@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.cursorrules
+.vscode
+data
+dist
+uv.lock
