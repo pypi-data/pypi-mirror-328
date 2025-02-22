@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+pyreadme.md
+lib/langtag/__init__.py
+lib/langtag/cachingurl.py
+lib/langtag.egg-info/PKG-INFO
+lib/langtag.egg-info/SOURCES.txt
+lib/langtag.egg-info/dependency_links.txt
+lib/langtag.egg-info/top_level.txt
+tests/test_basic.py
+tests/test_json.py
+tests/test_likely_subtags.py
+tests/test_supplemental.py
