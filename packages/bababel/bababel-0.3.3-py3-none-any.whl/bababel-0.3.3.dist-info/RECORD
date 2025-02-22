@@ -1,0 +1,16 @@
+bababel/__init__.py,sha256=k3oG6D4ATRre-Xl2jSs2O-3w6hrx7dh4gRT6F6vdCO4,63
+bababel/abstracts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bababel/abstracts/client.py,sha256=tinTLEc6Q7NNxbnGs3juBvBn-bydRj0OcLlTJ5Q2v8E,703
+bababel/abstracts/connection.py,sha256=suGNEiBQIdXWOz4YJ1twE0JOKnu7hHeL9hSqaYbqGIA,689
+bababel/dataclasses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bababel/dataclasses/queue_callback_bind.py,sha256=jybnqYg_8IEiMKoZhCFCT6OgLCIpZbcsJqJKj3Y-pCc,138
+bababel/rabbitmq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bababel/rabbitmq/rabbitmq_client.py,sha256=-1_GgVRz1AeWBn68BRkuE94Vsjd--0IkoYTEKdgxqwE,1100
+bababel/rabbitmq/rabbitmq_connection.py,sha256=Sg_EZi0HhEFUqq6v03hQX1XP6bIFuz55V5PzJGwtDF0,1961
+bababel/worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bababel/worker/worker.py,sha256=XCYo_x4K2CI7q6WdmoX4Wf9SBizqqE5wXWtNPayVRq4,2402
+bababel-0.3.3.dist-info/LICENSE,sha256=GboOHcVJ1HulTsx62cnmv4qwgMH21yBSErag2hUNAOI,1083
+bababel-0.3.3.dist-info/METADATA,sha256=c-zcY0LP_0FBwiGXgIc8TNRevriuT6KvUmKLw2jrCBg,1044
+bababel-0.3.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bababel-0.3.3.dist-info/top_level.txt,sha256=P9hH0_4lm9N_Jv_Umfu_S6EQF-gfX7Zwi_WUYq6K01Y,8
+bababel-0.3.3.dist-info/RECORD,,
