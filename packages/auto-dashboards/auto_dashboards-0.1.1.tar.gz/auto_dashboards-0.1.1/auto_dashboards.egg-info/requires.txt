@@ -1,0 +1,5 @@
+jupyter_server<3,>=2
+jupyter-server-proxy
+streamlit
+nbformat
+openai
