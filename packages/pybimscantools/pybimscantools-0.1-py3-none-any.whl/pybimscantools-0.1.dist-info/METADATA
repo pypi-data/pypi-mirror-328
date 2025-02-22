@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: pybimscantools
+Version: 0.1
+Summary: A python packages for automated data acquisition pipeline for HumanTech project
+Home-page: https://github.com/Patipolt/pybimscantools.git
+Author: Michael Peter, Patipol Thanuphol
+Author-email: pmic@zhaw.ch, thau@zhaw.ch, patipol.thanu@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: alphashape
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: numpy
+Requires-Dist: jpype1
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: termcolor
+Requires-Dist: pandas
+Requires-Dist: pyquaternion
+Requires-Dist: simplekml
+Requires-Dist: openpyxl
+Requires-Dist: Flask
+Requires-Dist: piexif
+Requires-Dist: laspy
+Requires-Dist: ifcopenshell
+Requires-Dist: shapely
+Requires-Dist: alphashape
+Requires-Dist: lark
+Requires-Dist: open3d
+Requires-Dist: swissreframe
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
