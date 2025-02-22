@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "dirty-tag"
+root = ".."
+
+[project]
+name = "requea_decoder"
+dynamic = ["version"]
+description = "Decode requea uplinks data"
+authors = [{ name = "Géry THRASIBULE", email = "gery.thrasibule@kocliko.co" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/koclikoo/kocliko_utils/requea_decoder"
+"Repository" = "https://github.com/koclikoo/kocliko_utils/requea_decoder"
+"Bug Tracker" = "https://github.com/koclikoo/kocliko_utils/issues"
