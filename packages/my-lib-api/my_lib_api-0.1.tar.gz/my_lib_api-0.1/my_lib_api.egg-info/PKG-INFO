@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: my_lib_api
+Version: 0.1
+Requires-Dist: Flask>=3.1.0
+Requires-Dist: Flask-SQLAlchemy>=3.1.1
+Dynamic: requires-dist
