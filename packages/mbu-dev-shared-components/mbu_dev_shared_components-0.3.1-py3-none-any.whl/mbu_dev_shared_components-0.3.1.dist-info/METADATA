@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: mbu_dev_shared_components
+Version: 0.3.1
+Summary: Shared components to use in RPA projects
+Author-email: MBU <rpa@mbu.aarhus.dk>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl>=3.1.2
+Requires-Dist: pyodbc>=5.1.0
+Requires-Dist: requests_ntlm>=1.2.0
+Requires-Dist: python-dateutil==2.9.*
+Requires-Dist: cryptography>=43.0.0
+Requires-Dist: office365-rest-python-client
+Requires-Dist: uiautomation
+
+# MBU Dev Shared Components
+
+[![PyPI version](https://badge.fury.io/py/mbu-dev-shared-components.svg)](https://badge.fury.io/py/mbu-dev-shared-components)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
+MBU Dev Shared Components is a Python library that provides helper modules to streamline Robotic Process Automation (RPA) development.
+
+## Features
+
+- **Office365 Integration**:
+  - SharePoint
+  - Excel
+- **SAP Integration**
+- **Solteq Tand Integration**
+- **Utility Modules**:
+  - JSON handling
+  - Fernet encryption
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install mbu-dev-shared-components
