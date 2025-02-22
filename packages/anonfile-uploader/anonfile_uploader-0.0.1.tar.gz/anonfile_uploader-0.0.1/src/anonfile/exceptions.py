@@ -1,0 +1,2 @@
+class AnofileError(Exception):
+    pass
