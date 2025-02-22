@@ -1,0 +1,17 @@
+davidkhala/build/__init__.py,sha256=gBrHCCHpPrhNb9Rh94Q7F8m4EeSwmxj89yRfGCzQu0g,1040
+davidkhala/http_request/__init__.py,sha256=_J96W300YF__1gtcIxPCb0RJgxmaoBn1kEM1eD0KwM4,1142
+davidkhala/http_request/proxy.py,sha256=gR9S8l5MuUR7jso-2vie3D5LRuciLLBO0woYcTvaa3Y,500
+davidkhala/poetry/__init__.py,sha256=BdxH7ulJNT8MGPhgygDLvTpqelUXd-RBccglLega6lA,1459
+davidkhala/poetry/cli.py,sha256=jR4UVrcwKNF9lWEWnSnqJSUa8auH_96_d7ZUQxInJn0,580
+davidkhala/sql/__init__.py,sha256=LQDoSHJMSWhZcGfCiHHdiuPRKpXobOEDQfRow1Jzf3U,211
+davidkhala/syntax/__init__.py,sha256=DnC5YntsfI64l_3m3yEt8FT9OerhID1wtLcIVgbl5pU,751
+davidkhala/syntax/env.py,sha256=h1X5WrJpBUsgxzUWC_drzTq4dT1Eg8UTFYYjDzsr5zY,1650
+davidkhala/syntax/format.py,sha256=Mjy_gnB5d22ApbqAHyLAGvuyJtPGu2LcGdm9cNwkmOw,238
+davidkhala/syntax/fs.py,sha256=Sfs09R5DMWSEQraQ2E3nV832ZDtMKvZYi4gGQxJeuRE,649
+davidkhala/syntax/js.py,sha256=9FV7XyA01zlDPAXIgSyhu3jZV1qTJK9CWXhjJEysIXg,404
+davidkhala/syntax/path.py,sha256=luCZBh3bnGv3F29MFU3zYUINQOqt2IzIFnTSa-6Yd4s,395
+davidkhala_utils-0.2.7.dist-info/entry_points.txt,sha256=9dn8KvFusLp8BaJef1Y26zhzcxb0BocQKItlzXHmh9k,71
+davidkhala_utils-0.2.7.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+davidkhala_utils-0.2.7.dist-info/METADATA,sha256=B9D4N6PpzqwR5z7dxShxYEhyZwi4SUIpqhvH5M-7EMc,821
+davidkhala_utils-0.2.7.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+davidkhala_utils-0.2.7.dist-info/RECORD,,
