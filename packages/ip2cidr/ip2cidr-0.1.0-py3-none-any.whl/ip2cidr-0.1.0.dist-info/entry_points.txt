@@ -1,0 +1,2 @@
+[console_scripts]
+ip2cidr = ip_converter:main
