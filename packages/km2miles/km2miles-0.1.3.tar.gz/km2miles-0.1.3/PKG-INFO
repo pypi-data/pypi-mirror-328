@@ -1,0 +1,67 @@
+Metadata-Version: 2.3
+Name: km2miles
+Version: 0.1.3
+Summary: A simple package to convert kilometers to miles.
+License: MIT
+Keywords: kilometers,miles,converter,distance,unit conversion
+Author: Ali Beg
+Author-email: mbeg937@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/Ali-Beg/km2miles
+Project-URL: Repository, https://github.com/Ali-Beg/km2miles
+Description-Content-Type: text/markdown
+
+# km2miles
+
+`km2miles` is a lightweight Python package designed to effortlessly convert kilometers to miles. Whether you're working on scientific computations, travel planning, or any other application requiring distance conversions, `km2miles` provides a simple and efficient solution.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install km2miles
+```
+
+## Usage
+
+Using `km2miles` is straightforward. Simply import the package and call the conversion function:
+
+```python
+from km2miles import km_2_miles
+
+km = 10
+miles = km_2_miles(km)
+print(f"{km} kilometers is equal to {miles} miles.")
+```
+
+## Documentation
+
+For detailed documentation, usage examples, and API references, visit the live documentation:
+
+[📖 Read the Docs](https://ali-beg.github.io/km2miles/)
+
+
+## Contributing
+
+we welcome contribution! open an issue or create a pull request to contribute to the project.
+
+## License
+
+This project is licensed under the MIT License.
+
+## 🔗 Links  
+- [GitHub Repository](https://github.com/Ali-Beg/km2miles)  
+- [PyPI Package](https://pypi.org/project/km2miles/)    
+
+
+
+
