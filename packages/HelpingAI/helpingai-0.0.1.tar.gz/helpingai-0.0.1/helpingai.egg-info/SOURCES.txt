@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+hai/__init__.py
+hai/base_models.py
+hai/client.py
+hai/error.py
+hai/models.py
+hai/version.py
+helpingai.egg-info/PKG-INFO
+helpingai.egg-info/SOURCES.txt
+helpingai.egg-info/dependency_links.txt
+helpingai.egg-info/requires.txt
+helpingai.egg-info/top_level.txt
