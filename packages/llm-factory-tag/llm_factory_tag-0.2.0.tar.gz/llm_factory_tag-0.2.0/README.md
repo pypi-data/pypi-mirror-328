@@ -1,0 +1,130 @@
+# LLM Factory
+
+Een Python bibliotheek voor het eenvoudig werken met verschillende Large Language Models (LLM's) zoals Azure OpenAI, OpenAI, Llama, Cohere en Anthropic.
+
+## Installatie
+
+```bash
+pip install llm-factory
+```
+
+## Voorbeeldgebruik
+
+### Basis gebruik
+```python
+from llm_factory import LLMFactory
+
+# Maak een LLM aan met Azure OpenAI
+model = LLMFactory("azure_openai").model
+
+# Genereer tekst
+response = model.generate("Schrijf een kort verhaal over een robot.")
+print(response)
+```
+
+### Verschillende providers
+```python
+# Azure OpenAI
+azure_model = LLMFactory("azure_openai").model
+
+# OpenAI
+openai_model = LLMFactory("openai").model 
+
+# Llama
+llama_model = LLMFactory("llama").model
+
+# Anthropic (Claude)
+claude_model = LLMFactory("anthropic").model
+```
+
+## Configuratie
+
+### Environment Variables
+Maak een `.env` bestand aan met de benodigde API keys en endpoints:
+
+```env
+# Azure OpenAI
+AZURE_OPENAI_API_KEY=your_key
+AZURE_OPENAI_ENDPOINT=https://your-endpoint.openai.azure.com/
+AZURE_OPENAI_CHAT_DEPLOYMENT=deployment_name
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=embedding_deployment
+AZURE_OPENAI_API_VERSION=2023-03-15-preview
+
+# OpenAI
+OPENAI_API_KEY=your_openai_key
+
+# Anthropic
+ANTHROPIC_API_KEY=your_anthropic_key
+
+# Cohere  
+COHERE_API_KEY=your_cohere_key
+```
+
+### Settings Configuratie (settings.py)
+
+Maak een `settings.py` bestand aan in je project met de volgende configuratie:
+
+```python
+from pathlib import Path
+from typing import Optional
+from pydantic import Field
+from pydantic_settings import BaseSettings
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class LLMSettings(BaseSettings):
+    """Basis instellingen voor Language Models."""
+    temperature: float = 0.0
+    max_tokens: Optional[int] = None
+    max_retries: int = 3
+
+class OpenAISettings(LLMSettings):
+    """OpenAI specifieke instellingen."""
+    api_key: str = Field(default_factory=lambda: os.getenv("OPENAI_API_KEY"))
+    default_model: str = "gpt-4-mini"
+    embedding_model: str = "text-embedding-3-small"
+
+class AzureOpenAISettings(LLMSettings):
+    """Azure OpenAI specifieke instellingen."""
+    api_key: str = Field(default_factory=lambda: os.getenv("AZURE_OPENAI_API_KEY"))
+    azure_endpoint: str = Field(default_factory=lambda: os.getenv("AZURE_OPENAI_ENDPOINT"))
+    default_model: str = Field(default_factory=lambda: os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT"))
+    embedding_model: str = Field(default_factory=lambda: os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT"))
+    api_version: str = Field(default_factory=lambda: os.getenv("AZURE_OPENAI_API_VERSION"))
+
+class LlamaSettings(LLMSettings):
+    """Llama specifieke instellingen."""
+    api_key: str = "key"  # Vereist maar niet gebruikt
+    default_model: str = "llama3.2"
+    base_url: str = "http://localhost:11434/v1"  # Wordt aangepast voor Docker
+
+class AnthropicSettings(LLMSettings):
+    """Anthropic specifieke instellingen."""
+    api_key: str = Field(default_factory=lambda: os.getenv("ANTHROPIC_API_KEY"))
+    default_model: str = "claude-3-5-sonnet-20241022"
+
+class Settings(BaseSettings):
+    """Hoofdinstellingen die alle sub-instellingen combineert."""
+    openai: OpenAISettings = Field(default_factory=OpenAISettings)
+    azure_openai: AzureOpenAISettings = Field(default_factory=AzureOpenAISettings)
+    llama: LlamaSettings = Field(default_factory=LlamaSettings)
+    anthropic: AnthropicSettings = Field(default_factory=AnthropicSettings)
+
+# Helper functie voor settings instantie
+def get_settings() -> Settings:
+    """Creëer en return een gecachede instantie van Settings."""
+    return Settings()
+```
+
+### Docker Ondersteuning
+
+Voor gebruik in Docker, wordt de Llama base_url automatisch aangepast:
+
+```python
+def is_running_in_docker() -> bool:
+    return os.path.exists("/.dockerenv")
+
+# In LlamaSettings
+base_url = "http://host.docker.internal:11434/v1" if is_running_in_docker() else "http://localhost:11434/v1"
+```

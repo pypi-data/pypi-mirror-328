@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+llm_factory_tag.egg-info/PKG-INFO
+llm_factory_tag.egg-info/SOURCES.txt
+llm_factory_tag.egg-info/dependency_links.txt
+llm_factory_tag.egg-info/requires.txt
+llm_factory_tag.egg-info/top_level.txt
