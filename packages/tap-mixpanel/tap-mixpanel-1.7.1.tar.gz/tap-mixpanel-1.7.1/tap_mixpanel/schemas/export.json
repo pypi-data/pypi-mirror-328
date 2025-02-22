@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "event": {
+      "type": ["null", "string"]
+    },
+    "distinct_id": {
+      "type": ["null", "string"]
+    },
+    "time": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "mp_reserved_insert_id": {
+      "type": ["null", "string"]
+    },
+    "labels": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "sampling_factor": {
+      "type": ["null", "integer"]
+    },
+    "dataset": {
+      "type": ["null", "string"]
+    }
+  }
+}

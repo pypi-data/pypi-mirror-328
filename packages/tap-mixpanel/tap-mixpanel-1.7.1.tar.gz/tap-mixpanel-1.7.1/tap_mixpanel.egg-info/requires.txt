@@ -1,0 +1,4 @@
+backoff==2.2.1
+requests==2.32.3
+singer-python==6.0.0
+jsonlines==1.2.0
