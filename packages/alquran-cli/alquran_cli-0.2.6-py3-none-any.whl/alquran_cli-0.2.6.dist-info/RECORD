@@ -1,0 +1,13 @@
+alquran/__init__.py,sha256=569DzScXZ--l0leopB5l3bReUBfNvB6UhT3RbmIOgIc,47
+alquran/cli.py,sha256=LqLqKIMlBv8eXK0tYA6HwER3_9iFjD8wnuf07wPNEpY,4105
+alquran/config.py,sha256=01frjkRKYysJ9O75Wx4ZhX1-CE7TAfO0I17RGacsRAc,119
+alquran/core.py,sha256=ZUnjFWpIecaB79vqj59KUjUgVkvS_SrYWkFC3Xo8qKo,457
+alquran/hadits.py,sha256=iuG-CYudi2eIoRIqr1VgLW9XQAAlbDW-dEhsjPPtsCc,2000
+alquran/surah.py,sha256=yjgSFTPpW8SN-spYWLuRms8Pihw7KVyz7Hz8kdJiqAs,2137
+alquran/utils/version.py,sha256=lqEhegvPgIEXXnNBLifHNiJ6k_r9AQJZhcROvHvHyos,914
+alquran_cli-0.2.6.dist-info/LICENSE,sha256=SWV10moSHBHwcSHA0mBw7rLijfY2t76036WTrBHDBtw,1069
+alquran_cli-0.2.6.dist-info/METADATA,sha256=bbBfDF7O43VFvS1DaCfIrdkxYmEAXmpUJNjnR4C77rg,3239
+alquran_cli-0.2.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+alquran_cli-0.2.6.dist-info/entry_points.txt,sha256=qzk0qGE1RaD10se9q2oZtWk0n7tCiqKBD2MTp3W2EBs,44
+alquran_cli-0.2.6.dist-info/top_level.txt,sha256=EJGkbWbzgE3oQHovQ5ZOy-cniZzhtxJm3XPqkV74zN8,8
+alquran_cli-0.2.6.dist-info/RECORD,,
