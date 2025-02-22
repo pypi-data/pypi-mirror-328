@@ -1,0 +1,14 @@
+LICENSE,sha256=xym-FgieXxMqEMgFAben1dePOegL-88VREYKAo85U1k,1085
+README.md,sha256=-LNJkh96NhUQ3peN6-UTWe94AUCy3J8RPj6N3TgsniM,14800
+RELEASES.md,sha256=VKJ7SuNjg1DlRWVjVawYoj8AcaMpfNiUS5eM6ayt9gI,143
+SECURITY.md,sha256=J7jnTZIQosfmnsR3_30v56p82qC2_yw7yTS5Sc9fmzA,1203
+demo/demo_mccache.py,sha256=Ur24VfFjV9gN0aRae3pZl5HhA38rSiwVEo9WKzCRj9I,804
+mccache/__about__.py,sha256=2k-KXTeAoGtjWq-6kg1Nxl4fwnArBNEtSuuxxcqIF38,127
+mccache/__init__.py,sha256=EAr2s2NSTfrRyOtdcJdmDERAe_1MaOdqRCXR2Rwz4RE,99476
+mccache/__main__.py,sha256=b92ZlGju8l4qFMMCKurLP6aPQTzDtUdALgCrv-5pTaM,829
+pycache/__about__.py,sha256=45iLKPIDAhgWax1rPlth_eLOrjzsDbI--8_9jSbo_fg,127
+pycache/__init__.py,sha256=ZPuLfgb1qgw2etvWR2k5nu8aAK7F6CGxtjQqDG47zUI,34958
+mccache-0.4.9.dist-info/METADATA,sha256=IRfEn7vny3R1Ipw8R1gcm0SYnOT5QuHXvG00D2g3LFg,15754
+mccache-0.4.9.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mccache-0.4.9.dist-info/licenses/LICENSE,sha256=xym-FgieXxMqEMgFAben1dePOegL-88VREYKAo85U1k,1085
+mccache-0.4.9.dist-info/RECORD,,
