@@ -1,0 +1,27 @@
+name: Pre-commit check
+
+on:
+  push:
+    branches-ignore:
+    - dependabot/**
+    - deepsource**
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: astral-sh/setup-uv@v5
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+    - name: pre-commit
+      run: uv run --no-sources --only-group pre-commit pre-commit run --all
+      env:
+        RUFF_OUTPUT_FORMAT: github
+        REUSE_OUTPUT_FORMAT: github
