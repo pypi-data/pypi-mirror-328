@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+splitty.py
+git_barber.egg-info/PKG-INFO
+git_barber.egg-info/SOURCES.txt
+git_barber.egg-info/dependency_links.txt
+git_barber.egg-info/entry_points.txt
+git_barber.egg-info/requires.txt
+git_barber.egg-info/top_level.txt
