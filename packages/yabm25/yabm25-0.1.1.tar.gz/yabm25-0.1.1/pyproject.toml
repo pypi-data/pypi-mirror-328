@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yabm25"
+dynamic = ["version"]
+description = "Fast BM25 search engine for Python with RAG support"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Ali Muhammad", email = "ali@quantlix.com" }]
+keywords = [
+  "bm25",
+  "search-engine",
+  "ranking",
+  "information-retrieval",
+  "rag",
+  "llm",
+  "vector-search",
+  "elastic-search",
+  "ranking-algorithm",
+  "nltk",
+  "transformers",
+  "huggingface",
+  "langchain",
+  "llamaindex",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Information Technology",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Text Processing :: Indexing",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ["numpy>=1.20.0", "pyarrow>=7.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black>=22.0", "build", "twine", "pytest-cov>=4.1.0"]
+
+[project.urls]
+Documentation = "https://yabm25.quantlix.com/"
+Source = "https://github.com/alimuhammadofficial/yabm25"
+Issues = "https://github.com/alimuhammadofficial/yabm25/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "yabm25.version.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
