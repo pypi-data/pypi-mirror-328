@@ -1,0 +1,17 @@
+# .gitignore
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+.env
+.venv/
+.nlp/test_env/
+
+virtual_oldenv/
+loaded_models/
+logs/
+tests/
+.pytest_cache/
+srswti_cache/
+
