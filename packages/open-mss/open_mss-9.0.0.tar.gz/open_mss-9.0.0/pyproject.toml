@@ -1,0 +1,27 @@
+[project]
+name = "open-mss"
+version = "9.0.0"
+
+maintainers = [
+  { name="Reimar Bauer", email="rb.proj@gmail.com" },
+]
+description = "A client/server application developed in the community to collaboratively create flight plans based on model data."
+
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.scripts]
+mss = "openmss.main:main_cli"
+
+[project.urls]
+Homepage = "https://open-mss.github.io/"
+Issues = "https://github.com/Open-MSS/mss/issues"
+
+[build-system]
+requires = ["setuptools >= 40.8.0", "future"]
+build-backend = "setuptools.build_meta:__legacy__"

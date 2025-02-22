@@ -1,0 +1,11 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+src/open_mss.egg-info/PKG-INFO
+src/open_mss.egg-info/SOURCES.txt
+src/open_mss.egg-info/dependency_links.txt
+src/open_mss.egg-info/entry_points.txt
+src/open_mss.egg-info/top_level.txt
+src/openmss/__init__.py
+src/openmss/main.py
