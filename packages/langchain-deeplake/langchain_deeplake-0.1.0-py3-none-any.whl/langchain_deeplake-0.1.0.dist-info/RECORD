@@ -1,0 +1,11 @@
+langchain_deeplake/__init__.py,sha256=z0GvTx6IL_8RiGXdP6akElRbRqYJNsmGE9MdsITULRM,397
+langchain_deeplake/distance_metric.py,sha256=h6WFhDexOIfRo-YJzCcDz3qz7xF4JG_oT9tM3CNMSvE,688
+langchain_deeplake/exceptions.py,sha256=aAtTkl0BVX8x-2ScGzwyXlSNNzpkYT49JE6fTqe0uog,855
+langchain_deeplake/filtering_util.py,sha256=lFkNPDHzxDlUrOmPKjhWWRsl1qeTUMPc2Ps7kAyGms4,1917
+langchain_deeplake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_deeplake/query.py,sha256=kFUZ6NE0h702PIu_iZw1U-UXST2LhieEvFOSq7TotN8,5164
+langchain_deeplake/vectorstores.py,sha256=EVPerh5aiB2XKJV2jYmoGKSyzGr8Bl5McCA2WGOCoOU,16756
+langchain_deeplake-0.1.0.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+langchain_deeplake-0.1.0.dist-info/METADATA,sha256=JUtGR137vnRsmtZJEU3vFKGmwk79BFf2rIPmOw-1Sz0,11228
+langchain_deeplake-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+langchain_deeplake-0.1.0.dist-info/RECORD,,
