@@ -1,0 +1,1 @@
+spectral_trend_database

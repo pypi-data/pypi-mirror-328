@@ -1,0 +1,2 @@
+[console_scripts]
+stdb = spectral_trend_database:cli.cli
