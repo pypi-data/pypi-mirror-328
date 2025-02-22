@@ -1,0 +1,10 @@
+superllm/__init__.py,sha256=Q3C_Fw8Q2AdLa4qF4v3sJdAUsEBb77ahep41ebl7e28,349
+superllm/core/__init__.py,sha256=9WUOD40Qb709NA5ttK6ZfmzAwZiy4LKMCg-I9_jwPTI,165
+superllm/core/expert_feedback.py,sha256=Wis3gVIjwNbYy7TrfuA99q0IdWWKWRe1zwKbJb-EaTU,4975
+superllm/core/thought_tree.py,sha256=RTZnC9bkrjD8SoJqJBWhGN8474JkQlEbrbGQUXmSQCc,5077
+superllm/search/__init__.py,sha256=XWUV-Wu7oHB7f7gS0uan6DwOyUV3FSMHbIiDlo6nLfs,135
+superllm/search/beam_search.py,sha256=8X2w38QcFNBkypwHLpfFZvnHxTCwsojzMLmwsvMulms,6971
+superllm-0.1.0.dist-info/METADATA,sha256=kbmm1t6U6jdgzae8q46zR_74pUDOJN_euWe3vURIw0s,4173
+superllm-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+superllm-0.1.0.dist-info/top_level.txt,sha256=XUQ6wstCB6G0NHu-1zUtv8rO4ybZeeIbNy2_d-lyGGQ,9
+superllm-0.1.0.dist-info/RECORD,,
