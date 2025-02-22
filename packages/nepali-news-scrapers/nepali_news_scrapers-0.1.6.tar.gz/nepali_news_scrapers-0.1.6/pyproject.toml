@@ -1,0 +1,32 @@
+[project]
+name = "nepali-news-scrapers"
+version = "0.1.6"
+description = ""
+authors = [
+    {name = "codera21",email = "atul.nepal@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4 (>=0.0.2,<0.0.3)",
+    "requests (>=2.32.3,<3.0.0)",
+    "nepali (>=1.1.2,<2.0.0)",
+    "click (>=8.1.8,<9.0.0)"
+]
+# Specify the package folder explicitly:
+packages = [
+    { include = "nepali_news_scrapers" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode= true
+
+
+
+[tool.poetry.group.dev.dependencies]
+bump2version = "^1.0.1"
+
