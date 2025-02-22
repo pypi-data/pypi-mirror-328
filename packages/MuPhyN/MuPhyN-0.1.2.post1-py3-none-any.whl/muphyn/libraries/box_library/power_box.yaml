@@ -1,0 +1,28 @@
+box:
+  name: Power
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  type: code
+  box_init_method: None
+  box_function: _function_power_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: False
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    power: 
+      type: float
+      value: 1.0

@@ -1,0 +1,57 @@
+box:
+  name: State-Space
+  library: Boxes_beta_.Signals
+  version: 1.0
+  creator: Thomas Herpoel
+  date_creation: 2023-01-25
+  type: code
+  box_init_method: _init_transfer_function
+  box_function: _function_transfer_function
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    A: 
+      type: string
+      value: "[]"
+
+    B: 
+      type: string
+      value: "[]"
+    
+    C: 
+      type: string
+      value: "[]"
+    
+    D: 
+      type: string
+      value: "[]"
+
+    initial_state:
+      type: string
+      value: "[]"
+    
+    method:
+      type: choice
+      value: 0
+      choices: ['...']
+       
+    atol:
+      type: float
+      value: 1.0e-6
+
+    rtol:
+      type: float
+      value: 1.0e-3

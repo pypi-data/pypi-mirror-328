@@ -1,0 +1,66 @@
+box:
+  name: Wrapper
+  library: Boxes.User
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-12-03
+  type: composite
+
+  signals:
+    - index: 0
+      type: float
+      value: 0
+
+    - index: 1
+      type: float
+      value: 0
+
+    - index: 2
+      type: float
+      value: 0
+
+  boxes:
+    - library: Boxes.Sources
+      name: Step
+      inputs: None
+      outputs:
+        - signal_index: 0
+      params:
+          start_value: 0
+          stop_value: 1
+          step_time: 0.5
+
+    - library: Boxes.Sources
+      name: Ramp
+      inputs: None
+      outputs:
+        - signal_index: 1
+      params: 
+        start_time: 0
+        initial_value: 0
+        slope: 0.1
+
+    - library: Boxes.User
+      name: First_Test
+      inputs: 
+        - signal_index: 0
+        - signal_index: 1
+      outputs:
+        - signal_index: 2
+      params: None
+
+    - library: Boxes.Sinks
+      name: Graph
+      inputs:
+        - signal_index: 2
+      outputs: None
+      params: 
+        start_time: 0
+        stop_time: 300
+        title: Title
+        label_x: Temps (s)
+        label_y: Amplitude (v)
+
+  inputs: None
+
+  outputs: None

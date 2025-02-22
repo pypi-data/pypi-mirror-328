@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="1" stroke-linecap="round">
+
+
+  <g font-family="Verdana" transform="translate(13 39)">
+  
+    <text x="0" y="20" font-size="24">
+      LOG
+    </text>
+    <text x="50" y="27" >
+      n
+    </text>
+    <text x="58" y="17" font-size="22">
+      x
+    </text>
+  </g>
+  
+</svg>

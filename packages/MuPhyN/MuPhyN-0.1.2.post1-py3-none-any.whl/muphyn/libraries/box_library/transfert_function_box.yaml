@@ -1,0 +1,36 @@
+box:
+  name: Transfert function
+  library: Boxes.Signals
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2022-02-17
+  type: code
+  box_init_method: _init_transfert_function
+  box_function: _function_transfert_function
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    numerator: 
+      type: string
+      value: "1"
+
+    denominator:
+      type: string
+      value: "1 1"
+
+    initial_value:
+      type: float
+      value: 0.0

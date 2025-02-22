@@ -1,0 +1,3 @@
+from simulation.interface.multiphysicsmodel import *
+from simulation.interface.multiphysicsdiagrameditor import MultiPhysicsDiagramEditor, OpenModelicaDiagramEditor
+from simulation.interface.multiphysicsmodelpreviewer import MultiphysicsModelPreviewer

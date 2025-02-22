@@ -1,0 +1,26 @@
+box:
+  name: Constant
+  library: Boxes.Sources
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  description: This allows user to generate a constant signal.\n
+    At each step of the simulation the same value will be generated and passed to all boxes connected to its output.
+  icon: "assets/BoxIcons/constant.svg"
+  type: code
+  box_init_method: _init_constant_box
+  box_function: _function_constant_box
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  inputs: None
+  outputs: 
+    - count: 1
+      type: float
+      value: 0.0
+      name: Output
+  params:
+    Constant Value: 
+      type: float
+      value: 1.0
+      description: Constant value of the output

@@ -1,0 +1,29 @@
+box:
+  name: Ramp
+  library: Boxes.Sources
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  icon: "assets/BoxIcons/ramp.svg"
+  type: code
+  box_init_method: _init_ramp_box
+  box_function: _function_ramp_box
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  inputs: None
+  outputs: 
+    - count: 1
+      type: float
+      value: 0
+      name: Output
+  params: 
+    initial_value:
+      type: float
+      value: 0.0
+    start_time:
+      type: float
+      value: 0.0
+    slope:
+      type: float
+      value: 1.0

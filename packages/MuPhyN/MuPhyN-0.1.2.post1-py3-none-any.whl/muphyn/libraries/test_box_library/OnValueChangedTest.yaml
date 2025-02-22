@@ -1,0 +1,25 @@
+box:
+  name: On Value Changed
+  library: Boxes.Test
+  version: 1.0
+  creator: Dylan Fievez
+  icon: packages/interface/assets/BoxIcons/TestBoxIcon/BoxParameterWidgetsTest.svg
+  date_creation: 2022-03-06
+  type: code
+  box_init_method: None
+  box_function: _step_simumation
+  box_end_method: _finish_simulation
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  params:
+    frequency: 
+      type: float
+      value: 100.0
+      on_value_changed: _update_period
+      min: 0.0
+    period: 
+      type: float
+      value: 100.0
+      on_value_changed: _update_frequency
+      min: 0.0

@@ -1,0 +1,23 @@
+box:
+  name: Multiplier
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  icon: "assets/BoxIcons/multiplication.svg"
+  type: code
+  box_init_method: None
+  box_function: _function_multiplier_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  inputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: Factor
+  outputs: 
+    - count: 1
+      type: float
+      value: 0.0
+      name: Product
+  params: None

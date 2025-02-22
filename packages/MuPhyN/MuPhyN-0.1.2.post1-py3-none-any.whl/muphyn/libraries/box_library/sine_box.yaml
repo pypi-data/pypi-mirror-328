@@ -1,0 +1,29 @@
+box:
+  name: Sine
+  library: Boxes.Sources
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  icon: "assets/BoxIcons/sine.svg"
+  type: code
+  box_init_method: _init_sine_box
+  box_function: _function_sine_box
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  inputs: None
+  outputs: 
+    - count: 1
+      type: float
+      value: 0.0
+      name: Output
+  params: 
+    amplitude:
+      type: float
+      value: 1.0
+    phase:
+      type: float
+      value: 0.0
+    pulsation:
+      type: float
+      value: 1.0

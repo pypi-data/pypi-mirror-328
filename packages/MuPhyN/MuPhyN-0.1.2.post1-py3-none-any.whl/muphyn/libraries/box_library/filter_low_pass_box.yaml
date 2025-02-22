@@ -1,0 +1,29 @@
+box:
+  name: Low Pass Filter
+  library: Boxes.Signals
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2022-02-10
+  icon: "assets/BoxIcons/low_pass_filter.svg"
+  type: code
+  box_init_method: _init_low_pass_filter
+  box_function: _function_low_pass_filter
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    cut_frequency: 
+      type: float
+      value: 100.0

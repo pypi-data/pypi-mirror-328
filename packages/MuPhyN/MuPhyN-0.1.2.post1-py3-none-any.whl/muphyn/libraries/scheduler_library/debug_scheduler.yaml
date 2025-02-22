@@ -1,0 +1,7 @@
+scheduler:
+  name: Debug
+  library: Schedulers
+  version: 1.0
+  creator: Dylan Fiévez
+  date_creation: 2022-10-17
+  scheduler_method: _default_scheduler_method

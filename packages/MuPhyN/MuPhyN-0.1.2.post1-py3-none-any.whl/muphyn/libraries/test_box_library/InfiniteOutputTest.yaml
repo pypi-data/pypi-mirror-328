@@ -1,0 +1,51 @@
+box:
+  name: Infinite Output Test
+  library: Boxes.Test
+  version: 1.0
+  creator: Dylan Fievez
+  icon: packages/interface/assets/BoxIcons/TestBoxIcon/InfiniteOutputTest.svg
+  date_creation: 2022-08-30
+  type: code
+  box_init_method: None
+  box_function: _step_simumation
+  box_end_method: _finish_simulation
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  outputs:
+    - name: Default
+      type: float
+      isInfinite: True # default count value = 2
+    - name: NoDefaultMinimumCount
+      type: float
+      isInfinite: True # default count value = 2
+      maximumCount: 5
+      count: 1
+    - name: NoMaximumCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      count: 1
+    - name: NoCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      maximumCount: 5
+    - name: OnlyMinimumCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+    - name: OnlyMaximumCount
+      type: float
+      isInfinite: True # default count value = 2
+      maximumCount: 5
+    - name: OnlyCount
+      type: float
+      isInfinite: True # default count value = 2
+      count: 1
+    - name: All
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      maximumCount: 5
+      count: 1

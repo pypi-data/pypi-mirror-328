@@ -1,0 +1,29 @@
+box:
+  name: Open Modelica Simulation Embedder
+  library: Boxes.InProgress
+  version: 1.0
+  creator: Dylan Fievez
+  icon: "assets/BoxIcons/omlogosmall.svg"
+  date_creation: 2022-08-30
+  type: multiphysics-simulation
+  box_init_method: _init_simulation
+  box_function: _step_simumation
+  box_end_method: _finish_simulation
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  inputs:
+    - isInfinite: True # default count value = 2
+      type: float
+      name: inputs
+      count: 0
+  outputs:
+    - isInfinite: True # default count value = 2
+      type: float
+      name: outputs
+      count: 0
+  params:
+    model_path: 
+      type: existingFile
+      value: ""
+      on_value_changed: _on_model_file_selected

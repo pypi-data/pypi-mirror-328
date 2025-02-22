@@ -1,0 +1,367 @@
+*{
+    font-family: "MS Shell Dlg 2";
+    font-size: 10pt;
+    background-color: white;
+}
+
+/* Buttons */
+QPushButton {
+    color: rgb(219, 125, 40);
+
+    border-radius: 14px;
+    border: 2px solid rgb(219, 125, 40);
+    
+    min-height: 24px;
+    min-width: 48px;
+
+    padding: 0px 6px;
+
+    font-weight: bold;
+}
+
+QPushButton:disabled {
+    border-color: rgb(226, 193, 163);
+    color: rgb(226, 193, 163);
+}
+
+QPushButton:hover {
+    background-color: rgb(236, 236, 236);
+    border-color: rgb(155, 83, 17);
+    color: rgb(155, 83, 17);
+}
+
+PlainButton {
+    background-color: rgb(219, 125, 40);
+    color: white;
+}
+
+PlainButton:disabled {
+    background-color: rgb(226, 193, 163);
+    border-color: rgb(226, 193, 163);
+    color: white;
+}
+
+PlainButton:hover {
+    background-color: rgb(155, 83, 17);
+    border-color: rgb(155, 83, 17);
+    color: white;
+}
+
+ArrowButton {
+    min-height: 24px;
+    min-width: 24px;
+
+    padding: 0px;
+}
+
+/* CheckBox */
+QCheckBox:indicator {
+    height: 15px;
+    width: 15px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/unchecked.svg");
+}
+
+QCheckBox:indicator:checked {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/checked.svg");
+}
+
+QCheckBox::indicator:unchecked:hover {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/unchecked_hover.svg");
+}
+
+QCheckBox:indicator:checked:hover {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/checked_hover.svg");
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/unchecked_pressed.svg");
+}
+
+QCheckBox:indicator:checked:pressed {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/checkbox/checked_pressed.svg");
+}
+
+/* Combo Box */
+QComboBox {
+    border: 2px solid rgb(219, 125, 40);
+    border-radius: 14px;
+
+    padding-left: 6px;
+    padding-right: 30px;
+    min-height: 24px;
+    min-width: 24px;
+    
+    color: rgb(95, 55, 12);
+}
+
+QComboBox:hover {
+    border-color: rgb(155, 83, 17);
+}
+
+QComboBox:drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    min-height: 24px;
+    min-width: 24px;
+
+    background-color: rgb(219, 125, 40);
+
+    border-radius: 10px;
+    margin: 2px;
+}
+
+QComboBox:drop-down:hover {
+    background-color: rgb(155, 83, 17);
+}
+
+QComboBox:drop-down:pressed {
+    background-color: rgb(129, 66, 7);
+}
+
+QComboBox:down_arrow {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/down_arrow.svg");
+    height: 24px;
+    width: 24px;
+}
+
+QComboBox:down_arrow:on {
+    image: url("%ROOT_DIR%/assets/GeneralIcons/down_arrow.svg");
+    height: 24px;
+    width: 24px;
+}
+
+QComboBox QAbstractItemView {
+    margin: 1px;
+    selection-background-color: rgb(228, 150, 78);
+}
+
+/* GroupBox */
+QGroupBox {
+    color: rgb(66, 66, 66);
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+
+/* Labels */
+QLabel {
+    background-color: transparent;
+}
+
+PropertyLabel {
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+}
+
+TitlePropertyLabel {
+    color: rgb(66, 66, 66);
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+/* Line Edit */
+QLineEdit {
+    border: 2px solid rgb(219, 125, 40);
+    border-radius: 14px;
+
+    min-height: 24px;
+    min-width: 48px;
+
+    padding: 0px 6px;
+
+    color: rgb(95, 55, 12);
+    font-size: 600;
+}
+
+QLineEdit:hover {
+    border-color:rgb(155, 83, 17);
+}
+
+QLineEdit:disabled {
+    border-color: rgb(226, 193, 163);
+}
+
+/* Progress Bar */
+QProgressBar {
+    background-color: rgb(222, 222, 222);
+
+    border-radius: 7px;
+    border: 1px solid rgb(190, 190, 190);
+
+    max-height: 12px;
+    min-width: 48px; 
+
+}
+
+QProgressBar::chunk {
+    background-color: rgb(219, 125, 40);
+    border-radius: 6px;
+    /* margin: 2px 4px; */
+}
+
+/* Vertical Scroll Bar */
+QScrollBar:vertical {
+    border-width: 1px;
+    border-style: solid;
+    width: 10px;
+    margin: 9px 0 9px 0;
+}
+
+QScrollBar::handle:vertical {
+    border-radius: 4px;
+    background-color:lightgrey;
+    min-height: 25px;
+}
+
+QScrollBar::sub-line:vertical {
+    border-radius: 4px;
+    background-color: lightgrey;
+    height: 8px;
+    margin: 1px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical {
+    border-radius: 4px;
+    background-color: lightgrey;
+    height: 8px;
+    margin: 1px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+/* Horizontal Scroll Bar */
+QScrollBar:horizontal {
+    border-width: 1px;
+    border-style: solid;
+    height: 10px;
+    margin: 0 9px 0 9px;
+}
+
+QScrollBar::handle:horizontal {
+    border-radius: 4px;
+    background-color:lightgrey;
+    min-width: 24px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border-radius: 4px;
+    background-color: lightgrey;
+    width: 8px;
+    margin: 1px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:horizontal {
+    border-radius: 4px;
+    background-color: lightgrey;
+    width: 8px;
+    margin: 1px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+/* Spin Box */
+QAbstractSpinBox {
+    border: 2px solid rgb(219, 125, 40);
+    border-radius: 14px;
+
+    min-height: 24px;
+    min-width: 48px;
+
+    padding-left: 6px;
+    padding-right: 3px;
+
+    color: rgb(95, 55, 12);
+    font-size: 600;
+}
+
+QAbstractSpinBox:hover {
+    border-color: rgb(155, 83, 17);
+}
+
+QAbstractSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right; /* position at bottom right corner */
+
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgb(219, 125, 40);
+    margin: 4px 8px 0px 0px;
+
+    image: url("%ROOT_DIR%/assets/GeneralIcons/up_arrow.svg");
+
+    width: 18px;
+}
+
+QAbstractSpinBox::up-button:hover {
+    background-color: rgb(155, 83, 17);
+}
+
+QAbstractSpinBox::up-button:pressed {
+    background-color: rgb(129, 66, 7);
+}
+
+QAbstractSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right; /* position at bottom right corner */
+
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgb(219, 125, 40);
+    margin: 0px 8px 4px 0px;
+
+    image: url("%ROOT_DIR%/assets/GeneralIcons/down_arrow.svg");
+
+    width: 18px;
+}
+
+QAbstractSpinBox::down-button:hover {
+    background-color: rgb(155, 83, 17);
+}
+
+QAbstractSpinBox::down-button:pressed {
+    background-color: rgb(129, 66, 7);
+}
+
+/* Menu */
+QMenu {
+    border: 1px solid lightgrey;
+}
+
+QMenu:item {
+    padding: 5px;
+    margin: 1px;
+}
+
+QMenu::item:selected { /* when user selects item using mouse or keyboard */
+    background-color: rgb(219, 125, 40);
+    border-radius: 2px;
+    color: white;
+}
+
+/* Menu Bar */
+QMenuBar::item {
+    padding: 2px 4px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: rgba(0, 0, 0, 50);
+}
+
+QSplitter::handle {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+MarkdownView {
+    border: 1px solid rgb(222, 222, 222);
+}

@@ -1,0 +1,27 @@
+box:
+  name: Logarithm
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  icon: "assets/BoxIcons/logarithm.svg"
+  type: code
+  box_init_method: None
+  box_function: _function_logarithm_box
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  inputs: 
+    - count: 1
+      type: float
+      name: Input
+  outputs: 
+    - count: 1
+      type: float
+      value: 0.0
+      name: Output
+  params: 
+    base:
+      type: int
+      value: 10
+      description: Base of the logarithm

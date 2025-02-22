@@ -1,0 +1,38 @@
+box: 
+  name: Graph
+  library: Boxes.Sinks
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  icon: "assets/BoxIcons/graph.svg"
+  type: code
+  box_init_method: _init_graph_box
+  box_function: _function_graph_box
+  box_end_method: _end_graph_box
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  inputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: Input
+      count: 1
+  outputs: None
+  params: 
+    copy_timing_from_simulation:
+      type: boolean
+      value: True
+    label_x:
+      type: string
+      value: Label x
+    label_y:
+      type: string
+      value: Label y
+    start_time:
+      type: float
+      value: 0.0
+    stop_time:
+      type: float
+      value: 0.0
+    title:
+      type: string
+      value: Title

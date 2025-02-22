@@ -1,0 +1,14 @@
+scheduler:
+  name: Static
+  library: Schedulers
+  version: 1.0
+  creator: Dylan Fiévez
+  date_creation: 2023-07-28
+  scheduler_method: _default_scheduler_method
+  parameters:
+    - name: Stop Time
+      type: float
+      value: 10
+    - name: Step Time
+      type: float
+      value: 1e-3

@@ -1,0 +1,28 @@
+box:
+  name: Addition
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  description: This allows user to sum the output of 2 or more boxes.\n
+    At each step of the simulation will calculate the sum of value of all input signals.
+  icon: "assets/BoxIcons/addition.svg"
+  type: code
+  box_init_method: None
+  box_function: _function_addition_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+
+  inputs: 
+    - name: Term
+      type: float
+      isInfinite: True # default count value = 2
+
+  outputs: 
+    - name: Sum
+      type: float
+      value: 0.0
+      count: 1
+     
+  params: None

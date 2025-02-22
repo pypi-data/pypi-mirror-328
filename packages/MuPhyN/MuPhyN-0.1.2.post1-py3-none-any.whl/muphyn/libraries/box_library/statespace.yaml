@@ -1,0 +1,37 @@
+box:
+  name: State Space
+  library: Boxes.Signals
+  version: 1.0
+  creator: Dylan Fievez
+  date_creation: 2023-10-10
+  type: code
+  box_init_method: _init_state_space
+  box_function: _function_state_space
+  box_end_method: _end_state_space
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  
+  inputs: None
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    A:
+      type: ndarray
+      value: "[[]]"
+    B:
+      type: ndarray
+      value: "[[]]"
+    C:
+      type: ndarray
+      value: "[[]]"
+    D:
+      type: ndarray
+      value: "[[]]"
+    Initial state:
+      type: ndarray
+      value: "[[]]"

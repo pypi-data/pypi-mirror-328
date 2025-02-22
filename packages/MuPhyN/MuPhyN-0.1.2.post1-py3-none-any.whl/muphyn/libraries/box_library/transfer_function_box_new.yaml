@@ -1,0 +1,51 @@
+box:
+  name: Transfer function New
+  library: Boxes.Signals
+  version: 1.0
+  creator: Thomas Herpoel
+  date_creation: 2023-01-25
+  type: code
+  box_init_method: _init_transfer_function
+  box_function: _function_transfer_function
+  box_end_method: _end_transfer_function
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    numerator: 
+      type: string
+      value: "1"
+      on_value_changed: _updateDisplayedValue
+
+    denominator:
+      type: string
+      value: "1 1"
+      on_value_changed: _updateDisplayedValue
+
+    initial_value:
+      type: float
+      value: 0.0
+    
+    method:
+      type: choice
+      value: 0
+      choices: ['RK45', '...']
+       
+    atol:
+      type: float
+      value: 1.0e-6
+
+    rtol:
+      type: float
+      value: 1.0e-3

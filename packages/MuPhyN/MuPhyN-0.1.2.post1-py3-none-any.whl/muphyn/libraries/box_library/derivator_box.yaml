@@ -1,0 +1,30 @@
+box:
+  name: Derivator
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-25
+  description: This box calculate the derivative of the incoming signal.\n
+    At each step of the derivative box will calculate the derivative value by 
+    using the previous and the current value. At the end of the step, the 
+    current value is stored as previous value.
+  type: code
+  box_init_method: _init_derivator_box
+  box_function: _function_derivator_box
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  inputs: 
+    - count: 1
+      type: float
+      name: Input
+  outputs: 
+    - count: 1
+      type: float
+      value: 0.0
+      name: Output
+  params:
+    initialValue:
+      type: float
+      value: 0.0
+      description: derivate initial value

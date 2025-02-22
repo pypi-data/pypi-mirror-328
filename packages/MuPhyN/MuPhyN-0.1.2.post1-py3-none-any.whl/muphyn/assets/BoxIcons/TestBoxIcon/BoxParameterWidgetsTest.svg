@@ -1,0 +1,10 @@
+<svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0 30)">
+        <rect x="2" y="0" width="96" height="30" stroke="black" fill="white"/>
+        <g transform="translate(5 20)" font-family="lucida console">
+            <text font-size="14" font-weight="bold">Param:</text>
+            <text x="53" y="-0.5" font-size="11" font-weight="100" font-style="italic">value</text>
+        </g>
+        <rect x="93" y="9" width="1" height="11" fill="black" fill-rule="nonzero" fill-opacity="0.6"/>
+    </g>
+</svg>

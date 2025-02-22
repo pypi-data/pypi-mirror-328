@@ -1,0 +1,23 @@
+box:
+  name: Resistor
+  library: Electrical.Basics
+  version: 0.1
+  creator: Dylan Fievez
+  date_creation: 2022-07-13
+  type: electric_component
+  wait_for_events: True
+  wait_for_all_signal_events: True
+
+  inputs: 
+    - name: Positive
+      type: PositiveInput
+      count: 1
+
+  outputs: 
+    - name: Negative
+      type: NegativeInput
+      count: 1 
+     
+  params: 
+    - name: Resistance
+      type: float

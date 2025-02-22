@@ -1,0 +1,19 @@
+box:
+  name: Print
+  library: Boxes.Debug
+  version: '1.0'
+  creator: Thomas Herpoel
+  date_creation: 2025-01-10
+  type: code
+  box_init_method: None
+  box_function: _function_print_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  inputs: 
+    - isInfinite: True # default count value = 2
+      count: 1
+      type: float
+      name: input
+  outputs: None
+  params: None

@@ -1,0 +1,23 @@
+box:
+  name: Multiple Output values
+  library: Boxes.Test
+  version: 1.0
+  creator: Dylan Fievez
+  icon: packages/interface/assets/BoxIcons/TestBoxIcon/BoxParameterWidgetsTest.svg
+  date_creation: 2023-04-25
+  type: code
+  box_init_method: None
+  box_function: _step_simulation
+  box_end_method: None
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  outputs:
+    - name: Default
+      type: float
+      isInfinite: True # default count value = 2
+
+  params:
+    value: 
+      type: float
+      value: 10.1

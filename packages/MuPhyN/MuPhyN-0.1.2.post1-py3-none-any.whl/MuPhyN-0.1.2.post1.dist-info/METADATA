@@ -1,0 +1,219 @@
+Metadata-Version: 2.2
+Name: MuPhyN
+Version: 0.1.2.post1
+Summary: A graphical tool for modeling and simulating multi-physical systems.
+Author-email: CeREF Technique <contact.tech@ceref.be>, Dylan Fievez <fievezd@ceref.be>, Francois Demoulin <francois.demoulin@outlook.be>, Thomas Herpoel <herpoelt@ceref.be>
+Project-URL: Homepage, https://gitlab.com/CeREF/muphyn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: packaging>=23.0
+Requires-Dist: ipython>=7.31.1
+Requires-Dist: Pillow>=9.2.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: PyQt6>=6.4.2
+Requires-Dist: PyQt6-WebEngine>=6.4.0
+Requires-Dist: PyQt6-QScintilla>=2.13.4
+Requires-Dist: numexpr>=2.6.1
+Requires-Dist: numpy>=1.21.5
+Requires-Dist: matplotlib>=3.5.2
+Requires-Dist: opcua>=0.98.13
+Requires-Dist: OMPython>=3.4.0
+Requires-Dist: pandas>=1.4.4
+Requires-Dist: tables>=3.8.0
+Requires-Dist: control>=0.9.4
+
+# MuPhyN - Multi Physical Nexus
+
+MatLab/Simulink is a very powerful tool that allows engineers to simulate complex multi-physical systems. Free and open-source tools exist such as Scilab + Xcos or Octave that tries to be compatible with MatLab/Simulink, but the approach of MuPhyN is to replicate the power and ease of use of the MatLab/Simulink combination by using (i)Python instead of MatLab combined with the MuPhyN graphical interface instead of Simulink.
+
+Free libraries such as scipy and numpy offer numerical tools that can replicate most of MatLab toolboxes, and implementing them into new boxes in MuPhyN is trivial thanks to easily expandable libraries of boxes.
+
+MuPhyn is capable of running into an iPython interactive shell while having access to the namespace of the shell. This means that python code can be run in the shell to dynamically generate parameters that can be directly used into the MuPhyN model of the simulated system.
+
+MuPhyN is also intended to be expandable to other simulation tools. A connection to OpenModelica is being developed to simulate different kinds of systems with lumped elements. Connection to open source finite element analysis softwares such as FEATools or field solver tools like openEMS or FEMM are also considered.
+
+it is based on a Qt interface and uses a simulator core. It is fully written in Python and uses YAML as the descriptive language. The library feature proposed allows users to add as many boxes and schedulers as they want.
+
+## Summary
+* [Install](#install)
+  * [Stable version (PIP)](#stable-version-pip)
+  * [Development version (GIT)](#development-version-git)
+* [Running in standalone mode](#running-in-standalone-mode)
+* [Running in an iPython interactive shell](#running-in-an-ipython-interactive-shell)
+* [Usage](#usage)
+  * [Drag & drop](#drag-drop)
+  * [Select libraries](#select-libraries)
+* [Developpement](#developpement)
+  * [Current Features](#current-features)
+  * [TODO](#todo)
+  * [Known bugs](#known-bugs)
+* [Publications](#publications)
+
+# Install
+
+## Stable version (PIP)
+The stable version of MuPhyN is available with pip.
+
+Install using pip:
+```bash
+pip install muphyn
+```
+
+## Development version (GIT)
+The development version is only available on this repository.
+
+### Requirements
+MuPhyN works with python and requires the following packages to work:
+- packaging>=23.0
+- ipython>=7.31.1
+- Pillow>=9.2.0
+- PyYAML>=6.0
+- scipy>=1.10.0
+- PyQt6>=6.4.2
+- numexpr>=2.6.1
+- numpy>=1.21.5
+- matplotlib>=3.5.2
+- opcua>=0.98.13
+- OMPython>=3.4.0
+- pandas>=1.4.4
+
+The list is available in the **requirements.txt** file.
+
+### Download repository project
+Install using git command:
+```bash
+git clone https://gitlab.com/CeREF/muphyn.git
+```
+
+Install requirements from file:
+```bash
+pip install -r requirements.txt
+```
+
+# Running in standalone mode
+
+Launch the software:
+```bash
+python3 -m muphyn
+```
+*Note: If you installed the development version, you must be in the muphyn project folder*
+
+# Running in an iPython interactive shell
+MuPhyN can be run in a IPython environment. All the variables existing in this environment can be used for the simulations.
+
+Start iPython:
+```bash
+iPython3
+```
+
+Then load the MuPhyN extension, and run the MuPhyN magic command
+```bash
+%load_ext muphyn
+%muphyn
+```
+*Note: If you installed the development version, you must be in the muphyn project folder*
+
+# Usage
+
+## Drag & drop
+
+You can easily drag / drop elements from the library.
+Once dropped, you can link the inputs and the outputs of the box.
+You can also edit the properties of the boxes in order to change their behaviors.
+Once everything is set up, you only need to press the F5 key or click on the "Simulation > Lancer" menu.
+
+![](https://media3.giphy.com/media/SaTScRBbeSNChgjagW/giphy.gif)
+
+## Select libraries
+Use the **View > Libraries** sub menus to add the libraries.
+
+Default libraries are located as it : 
+- [MuPhyN_Folder]/libraries/box_library
+- [MuPhyN_Folder]/libraries/scheduler_library
+- [MuPhyN_Folder]/libraries/user_box
+
+![](https://media4.giphy.com/media/uPfHccujlpxyGAkyF4/giphy.gif)
+
+# Development
+
+## Current Features 
+
+- Fixed-step simulation 
+- Basic boxes : Addition, Amplifier, Constant, Derivate, Graph, Integrator, Multiplier, Ramp, Sine, Square, Step
+- Fixed-step simulation 
+- Basic boxes : Addition, Amplifier, Constant, Derivate, Graph, Integrator, Multiplier, Ramp, Sine, Square, Step
+- Schedulers : Default
+- Transfer Function box using scipy ODE solver
+- Libraries management for both the boxes and the schedulers
+- Draggable and droppable element from the library
+- Properties panel for the dragged boxes
+- Draggable links between the inputs and outputs of boxes
+- Basic user interface: 
+  - File drag / drop in the interface.
+  - Show recent files
+  - Undo / Redo
+  - Copy / Cut / Paste
+- Transfer Function box using scipy ODE solver
+- Libraries management for both the boxes and the schedulers
+- Draggable and droppable element from the library
+- Properties panel for the dragged boxes
+- Draggable links between the inputs and outputs of boxes
+- Basic user interface: 
+  - File drag / drop in the interface.
+  - Show recent files
+  - Undo / Redo
+  - Copy / Cut / Paste
+
+## TODO 
+
+- Allow to edit the prompted text on the boxes.
+- Add the box composite diagram editor.
+- Allow to save composite boxes.
+- Allow to open composite boxes.
+- Allow to compile composite boxes.
+- Show better visual feedback for the link creation.
+- Add a progress bar for the simulation part.
+- Add a logs manager to retrace what happen when an error occur.
+- Add some popups to describes the errors currently rendered in the prompt.
+- Add some popups menu when right click on elements.
+- Add a library popup when drag / drop a link to show compatible box.
+- Allows the user to pick from the library popup a compatible box, which will be added already connected to the diagram.
+- Add some popups to tell the user when an action is correctly done.
+- Add a dialog to edit the parameters of the software.
+- Add a dialog to show an help to use the software.
+- Add a dialog to show the informations about the software.
+- Add theme manager.
+- Finish the formula box
+- Finish the recurrence box
+- Add a vectorial / matrix simulation mode
+- Add a mux box
+- Add a demux box
+- Allow to pause / restart / stop a heavy simulation.
+- Add a debug mode to see what happens on the different link by adding a step by step simulation.
+- Add opened matplotlib chart in the dialog manager.
+- Add a wizard fot the schedulers creation.
+- Add a code editor for the schedulers and the coded boxes.
+- Add a language dialog to manage / create the software language.
+- Allow to change the displayed language.
+- Add a theme dialog to manage / create the software themes.
+- Allow to change the displayed theme.
+- Add a signal analysis library.
+
+## Known bugs
+
+- When a text from an IO of a box is edited, it is not edited in the diagram.
+- Some lags with the links rendering exists.
+
+# Publications
+
+## FOSDEM 2023
+FOSDEM is an European event centered on free and open-source software development.
+
+The project has been introduced with a presentation on 4th March 2023. The presentation can be watched with the following link:
+
+[MuPhyN project at FOSDEM 2023](https://fosdem.org/2023/schedule/event/openresearch_muphyn/)

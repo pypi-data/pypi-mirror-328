@@ -1,0 +1,55 @@
+box:
+  name: Infinite Input Test
+  library: Boxes.Test
+  version: 1.0
+  creator: Dylan Fievez
+  icon: packages/interface/assets/BoxIcons/TestBoxIcon/InfiniteInputTest.svg
+  date_creation: 2022-08-30
+  description: This box is a box to test all typed parameters widgets to set 
+    parameters value and ensuring that there is no bug.\n
+    This can also be used to test all features avaiblable fir each parameter 
+    type.
+  type: code
+  box_init_method: None
+  box_function: _step_simumation
+  box_end_method: _finish_simulation
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  inputs:
+    - name: Default
+      type: float
+      isInfinite: True # default count value = 2
+    - name: NoDefaultMinimumCount
+      type: float
+      isInfinite: True # default count value = 2
+      maximumCount: 5
+      count: 1
+    - name: NoMaximumCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      count: 1
+    - name: NoCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      maximumCount: 5
+    - name: OnlyMinimumCount
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+    - name: OnlyMaximumCount
+      type: float
+      isInfinite: True # default count value = 2
+      maximumCount: 5
+    - name: OnlyCount
+      type: float
+      isInfinite: True # default count value = 2
+      count: 1
+    - name: All
+      type: float
+      isInfinite: True # default count value = 2
+      minimumCount: 0
+      maximumCount: 5
+      count: 1

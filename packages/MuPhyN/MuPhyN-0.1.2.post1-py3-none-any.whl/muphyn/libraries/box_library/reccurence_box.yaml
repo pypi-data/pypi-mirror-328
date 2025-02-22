@@ -1,0 +1,25 @@
+box:
+  name: Reccurence
+  library: Boxes.Math
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-30
+  type: code
+  box_init_method: _init_reccurence_box
+  box_function: _function_reccurence_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  inputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: Input
+  outputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      value: 0.0
+      name: Output
+  params: 
+    coefficients:
+      type: float
+      value: [[0.0]]

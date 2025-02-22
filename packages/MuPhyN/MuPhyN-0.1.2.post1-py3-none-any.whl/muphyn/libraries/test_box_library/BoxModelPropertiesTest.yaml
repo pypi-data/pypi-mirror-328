@@ -1,0 +1,66 @@
+box:
+  name: Box Model Properties Test
+  library: Boxes.Test
+  version: 1.0
+  creator: Dylan Fievez
+  icon: packages/interface/assets/BoxIcons/TestBoxIcon/BoxParameterWidgetsTest.svg
+  date_creation: 2022-08-30
+  description: This box is a box to test all typed parameters widgets to set 
+    parameters value and ensuring that there is no bug.\n
+    This can also be used to test all features avaiblable fir each parameter type.
+  type: code
+  box_init_method: None
+  box_function: _step_simumation
+  box_end_method: _finish_simulation
+  wait_for_events: False
+  wait_for_all_signal_events: True
+
+  params:
+    Undefined property: 
+      type: undefined
+      value: ""
+    String property: 
+      type: string
+      value: ""
+      maxLength: 10
+      description: "**maxLength** : `10`"
+    Integer property: 
+      type: int
+      value: 1234567890
+      min: 0
+      max: 100
+      description: "**min** : `0`- **max** : `100`"
+    Float property: 
+      type: float
+      value: 12345.67890
+      min: 0.0
+      max: 100.0
+      description: "**min** : `0.0` - **max** : `100.0`"
+    Boolean property: 
+      type: boolean
+      value: False
+    Object property: 
+      type: object
+      value: ""
+    Any File property: 
+      type: anyFile
+      value: ""
+    Directory property: 
+      type: directory
+      value: ""
+    Existing File property: 
+      type: existingFile
+      value: ""
+    Existing Files property: 
+      type: existingFiles
+      value: ""
+    Choice List: 
+      type: choice
+      choices: ["un", "deux", "trois"]
+      value: 1
+      description: "**choices** : `['un', 'deux', 'trois']`"
+    Choice Dict: 
+      type: choice
+      choices: {"un": 4, "deux": 5, "trois": 6}
+      value: 1
+      description: "**choices** : `{'un': 4, 'deux': 5, 'trois': 6}`"

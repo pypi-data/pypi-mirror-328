@@ -1,0 +1,27 @@
+box:
+  name: Formula
+  library: Boxes.Math
+  version: 1.0
+  creator: Dylan Fievez
+  date_creation: 2023-02-10
+  type: code
+  box_init_method: _init_formula_box
+  box_function: _function_formula_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: True
+
+  inputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: Input
+      count: 1
+  outputs: 
+    - type: float
+      name: Output
+      count: 1
+      value: 0.0
+  params: 
+    Formula: 
+      type: string
+      value: ""

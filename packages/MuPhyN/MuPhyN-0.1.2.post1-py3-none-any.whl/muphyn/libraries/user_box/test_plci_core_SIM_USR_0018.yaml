@@ -1,0 +1,93 @@
+box:
+  name: test_plci_core_SIM_USR_0018
+  library: Boxes.User
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-12-03
+  type: composite
+
+  signals:
+    - index: 0
+      type: float
+      value: 0
+
+    - index: 1
+      type: float
+      value: 0
+
+    - index: 2
+      type: float
+      value: 1
+
+  boxes:
+    - name: Square
+      library: Boxes.Sources
+      inputs: None
+      outputs:
+        - signal_index: 0
+      params:
+          low_value: -1
+          high_value: 1
+          high_time: 0.3
+          fall_time: 0.3
+          low_time: 0
+          rise_time: 0
+
+    - name: Derivator
+      library: Boxes.Math
+      inputs:
+        - signal_index: 0
+      outputs:
+        - signal_index: 1
+      params: 
+        start_time: 0
+        initial_value: 0
+        slope: 0.1
+
+    - name: Graph
+      library: Boxes.Sinks
+      inputs: 
+        - signal_index: 0
+      outputs: None
+      params: 
+        start_time: 0
+        stop_time: 300
+        title: Square Signal
+        label_x: Temps (s)
+        label_y: Amplitdue (v)
+
+    - name: Graph
+      library: Boxes.Sinks
+      inputs:
+        - signal_index: 1
+      outputs: None
+      params: 
+        start_time: 0
+        stop_time: 300
+        title: Derivative Signal
+        label_x: Temps (s)
+        label_y: Amplitude (v)
+
+    - name: Graph
+      library: Boxes.Sinks
+      inputs:
+        - signal_index: 2
+      outputs: None
+      params: 
+        start_time: 0
+        stop_time: 300
+        title: Integration Signal
+        label_x: Temps (s)
+        label_y: Amplitude (v)
+
+    - name: Integrator
+      library: Boxes.Math
+      inputs: 
+        - signal_index: 0
+      outputs:
+        - signal_index: 2
+      params: None
+
+  inputs: None
+
+  outputs: None

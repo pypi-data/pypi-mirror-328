@@ -1,0 +1,53 @@
+box: 
+  name: CSV
+  library: Boxes.Files
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-02-14
+  description: This allows user to write data into a CSV file.\n
+
+    At each step of the simulation the box will store in memory the data to 
+    write into the CSV file. The CSV file is written only at the end of the 
+    simulation.
+  type: code
+  box_init_method: _init_csv_box
+  box_function: _function_csv_box
+  box_end_method: _end_csv_box
+  wait_for_events: True
+  wait_for_all_signal_events: True
+  inputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: Input
+      count: 1
+  outputs: None
+  params: 
+    file_name:
+      type: anyFile
+      value: ""
+      description: Path to the file (can be a non existing file)
+    copy_timing_from_simulation:
+      type: boolean
+      value: True
+      description: Use simulation start & stop time as range timing for the CSV file
+    start_time:
+      type: float
+      value: 0.0
+      description: The data will only be stored after the start time timming value
+    stop_time:
+      type: float
+      value: 0.0
+      description: The data will only be stored until the stop time timming value
+    delimiter: 
+      type: string
+      value: ';'
+      description: Delimiter character (`';'` for european CSV Files, `','` for american CSV Files)
+    new_line:
+      type: string
+      value: ''
+      description: New line character
+    decimal:
+      type: string
+      value: ','
+      description: Decimal character (`','` for european CSV File, `'.'` for american CSV File)
+    

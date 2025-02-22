@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0">  
+    <path d="M2,25 10,25  A 10 10 180 0 1 30,25  A 10 10 180 0 1 50,25  A 10 10 180 0 1 70,25  A 10 10 180 0 1 90,25 L98,25" />
+    <path d="M2,50 10,50  A 10 10 180 0 1 30,50  A 10 10 180 0 1 50,50  A 10 10 180 0 1 70,50  A 10 10 180 0 1 90,50 L98,50" />
+    <text transform="translate(39,67)">...</text>
+    <path d="M2,90 10,90  A 10 10 180 0 1 30,90  A 10 10 180 0 1 50,90  A 10 10 180 0 1 70,90  A 10 10 180 0 1 90,90 L98,90" />
+</svg>

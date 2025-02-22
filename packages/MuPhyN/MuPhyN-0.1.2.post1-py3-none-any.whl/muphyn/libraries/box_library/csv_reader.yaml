@@ -1,0 +1,42 @@
+box:
+  name: CSV Reader
+  library: Boxes.IO
+  version: 1.0
+  creator: Dylan Fievez
+  date_creation: 2024-09-30
+  type: code
+  box_init_method: _init_csv_reader
+  box_function: _function_csv_reader
+  box_end_method: _end_csv_reader
+  wait_for_events: False
+  wait_for_all_signal_events: False
+  
+  inputs: None
+
+  outputs: 
+    - isInfinite: True # default count value = 2
+      type: float
+      name: outputs
+      count: 0
+
+  params:
+    model_path: 
+      type: existingFile
+      value: ""
+      on_value_changed: _on_file_selected
+    separator: 
+      type: string
+      value: ","
+      description: Separator character used in the CSV file
+    decimal: 
+      type: string
+      value: "."
+      description: Decimal character used in the CSV file
+    index column: 
+      type: string
+      value: ""
+      description: Name of the column containing the index
+    header: 
+      type: int
+      value: 0
+      description: Number of rows to skip before reading the data

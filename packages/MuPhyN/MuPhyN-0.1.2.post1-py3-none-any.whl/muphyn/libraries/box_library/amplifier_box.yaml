@@ -1,0 +1,33 @@
+box:
+  name: Amplifier
+  library: Boxes.Signals
+  version: 1.0
+  creator: François Demoulin
+  date_creation: 2021-11-24
+  description: This allows user to amplify a signal.\n
+    At each step of the simulation will multiply the value received by the gain set.
+
+  type: code
+  box_init_method: None
+  box_function: _function_amplifier_box
+  box_end_method: None
+  wait_for_events: True
+  wait_for_all_signal_events: False
+  
+  inputs: 
+    - count: 1 
+      type: float
+      name: Input
+
+  outputs: 
+    - count: 1 
+      type: float
+      value: 0.0
+      name: Output
+
+  params:
+    gain: 
+      type: float
+      value: 1.0
+      on_value_changed: _update_box_value
+      description: Gain value
