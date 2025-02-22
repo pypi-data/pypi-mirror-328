@@ -1,0 +1,8 @@
+README.md
+setup.py
+tor_with_requests.py
+./tor_with_requests.py
+tor_with_requests.egg-info/PKG-INFO
+tor_with_requests.egg-info/SOURCES.txt
+tor_with_requests.egg-info/dependency_links.txt
+tor_with_requests.egg-info/top_level.txt

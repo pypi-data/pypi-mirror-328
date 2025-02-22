@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tor_with_requests
+Version: 1.0
+Summary: A wrapper for the requests package that proxies all traffic through Tor.
+Home-page: https://github.com/42zen/tor_requests
+Author: Mathias Bochet (aka Zen)
+
+A wrapper for the requests package that proxies all traffic through Tor.
