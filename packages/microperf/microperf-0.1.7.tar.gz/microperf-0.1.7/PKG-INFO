@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: microperf
+Version: 0.1.7
+Summary: A small tool using perf to provide more performance insights.
+Project-URL: Homepage, https://github.com/nicovank/microperf
+Project-URL: Bug Tracker, https://github.com/nicovank/microperf/issues
+Author-email: Nicolas van Kempen <nvankemp@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: presto-python-client==0.8.4
+Description-Content-Type: text/markdown
+
+# MicroPerf
+
+> **Warning**
+> This is a work in progress.
+
+## Presto
+
+A Docker image is provided to run Presto with this suite of tools.
+It differs slightly from the official image, for example removing the `-Xmx1G`
+JVM flag to allow processing of larger profiles.
+
+```
+% docker image build microperf/presto --compress --tag perf-presto
+% docker run -d -p 8080:8080 --name perf-presto perf-presto
+```
