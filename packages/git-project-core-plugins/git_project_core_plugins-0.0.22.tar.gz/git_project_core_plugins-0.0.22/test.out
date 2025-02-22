@@ -1,0 +1,38 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.2, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/dag/projects/git-project-core-plugins/master
+configfile: pyproject.toml
+plugins: console-scripts-1.4.1
+collected 56 items
+
+tests/test_artifact.py .......                                           [ 12%]
+tests/test_branch.py ....                                                [ 19%]
+tests/test_clone.py ....                                                 [ 26%]
+tests/test_config.py ....                                                [ 33%]
+tests/test_help.py ...                                                   [ 39%]
+tests/test_init.py .                                                     [ 41%]
+tests/test_run.py ................                                       [ 69%]
+tests/test_worktree.py .................                                 [100%]
+
+=============================== warnings summary ===============================
+tests/test_artifact.py: 9 warnings
+tests/test_config.py: 7 warnings
+tests/test_help.py: 8 warnings
+tests/test_run.py: 33 warnings
+tests/test_worktree.py: 11 warnings
+  /Users/dag/projects/git-project/master/src/git_project/test_support/common.py:453: DeprecationWarning: script_runner commands should be passed as a single sequence, not as multiple arguments.
+  Replace `script_runner.run(a, b, c)` calls with `script_runner.run([a, b, c])`
+    result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+
+tests/test_branch.py::test_branch_status[inprocess]
+  /Users/dag/projects/git-project-core-plugins/master/tests/test_branch.py:118: DeprecationWarning: script_runner commands should be passed as a single sequence, not as multiple arguments.
+  Replace `script_runner.run(a, b, c)` calls with `script_runner.run([a, b, c])`
+    ret = script_runner.run('git-project', 'branch', 'status', '--all')
+
+tests/test_branch.py::test_branch_prune_script[inprocess]
+  /Users/dag/projects/git-project-core-plugins/master/tests/test_branch.py:178: DeprecationWarning: script_runner commands should be passed as a single sequence, not as multiple arguments.
+  Replace `script_runner.run(a, b, c)` calls with `script_runner.run([a, b, c])`
+    ret = script_runner.run('git-project',
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 56 passed, 70 warnings in 18.20s =======================
