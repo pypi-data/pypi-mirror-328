@@ -1,0 +1,1 @@
+from .tinkerhap import main

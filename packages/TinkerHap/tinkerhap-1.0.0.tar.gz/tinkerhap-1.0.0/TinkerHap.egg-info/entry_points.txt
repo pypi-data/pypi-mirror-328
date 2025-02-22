@@ -1,0 +1,2 @@
+[console_scripts]
+tinkerhap = tinkerhap.tinkerhap:main
