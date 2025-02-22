@@ -1,0 +1,2 @@
+[console_scripts]
+kvell_extraction = kvell_extraction.main:main

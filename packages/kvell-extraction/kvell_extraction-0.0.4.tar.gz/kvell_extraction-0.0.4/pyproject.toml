@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kvell-extraction"
+version = "0.0.4"
+description = "A comprehensive text extraction tool supporting multiple file formats"
+readme = "README.md"
+authors = [
+    {name = "KvelKrishna"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "PyMuPDF",
+    "filetype",
+    "rapidocr_onnxruntime",
+    "spire.doc",
+    "polars",
+    "fastexcel",
+    "python-pptx",
+    "opencv-python",
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/kvell-extraction"
+
+[project.scripts]
+kvell_extraction = "kvell_extraction.main:main"
+
+[project.optional-dependencies]
+onnxruntime = ["rapidocr_onnxruntime"]
+
+[tool.setuptools]
+packages = ["kvell_extraction"] 
