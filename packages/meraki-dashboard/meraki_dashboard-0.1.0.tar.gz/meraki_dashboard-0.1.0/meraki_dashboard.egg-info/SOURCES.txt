@@ -1,0 +1,9 @@
+LICENSE
+README
+pyproject.toml
+meraki_dashboard/__init__.py
+meraki_dashboard/meraki_dashboard.py
+meraki_dashboard.egg-info/PKG-INFO
+meraki_dashboard.egg-info/SOURCES.txt
+meraki_dashboard.egg-info/dependency_links.txt
+meraki_dashboard.egg-info/top_level.txt
