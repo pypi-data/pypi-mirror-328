@@ -1,0 +1,9 @@
+otlp_test_data.py
+pyproject.toml
+readme.md
+otlp_test_data.egg-info/PKG-INFO
+otlp_test_data.egg-info/SOURCES.txt
+otlp_test_data.egg-info/dependency_links.txt
+otlp_test_data.egg-info/requires.txt
+otlp_test_data.egg-info/top_level.txt
+test/test_repeatable.py
