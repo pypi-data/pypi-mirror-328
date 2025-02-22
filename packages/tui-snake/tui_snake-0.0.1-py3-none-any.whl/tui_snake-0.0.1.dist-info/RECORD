@@ -1,0 +1,12 @@
+tui_snake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tui_snake/__main__.py,sha256=jxK-S8gJm0OuqSxYk5uY8UON659eGwboOUHjpcHfmjw,69
+tui_snake/main.py,sha256=K4IWudZDc-G9MUW68o8I6Z_NOhzPt6z_87VpfU3P0uI,23172
+tui_snake/audio/corn_bite.wav,sha256=JKkXsWXQIJWeoBRACARzFRHprMYDmhLu25iU9zmB5rA,68736
+tui_snake/audio/tail_bite.wav,sha256=6K7t1W71z6qgBCNyGGTHHyJn4M0oyNxamYgTLOiIKVA,101372
+tui_snake/audio/wall_hit.wav,sha256=rqjBXvKPiSGKWq7fHm0onRGMer95mXyW_KXQ_qRYGWA,140824
+tui_snake/styles/borders.tcss,sha256=I6oWOtarMJJgo68O44vbp-wJzo2u5EO5tL8rgEb5TLU,871
+tui_snake/styles/snake.tcss,sha256=wDl7q2jz6brS_iCRWpWMZ-kB3K_Xa_t69OhVrkq2KhA,2008
+tui_snake-0.0.1.dist-info/METADATA,sha256=FhXExdW82avS9n37_S420iJAJgpEnJPEAwwtu0w9TAI,4172
+tui_snake-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+tui_snake-0.0.1.dist-info/entry_points.txt,sha256=TaJ5yTDLGbFD0X5ZDbYe-L45X2RyXA3O7-QbKwun6CE,53
+tui_snake-0.0.1.dist-info/RECORD,,
