@@ -1,0 +1,298 @@
+import pygame
+import os
+import sys
+import math
+import random
+import colorsys
+
+import cv2
+import pyautogui
+
+from bili_cli.music.AudioAnalyzer import *
+from bili_cli.music.AudioAnalyzer import AudioAnalyzer, RotatedAverageAudioBar, np
+from bili_cli.music.music_player import MusicPlayer
+from bili_cli.music.models import Music
+from bili_cli.music.manage import build_music
+
+
+#  filename = "/Volumes/Getea/影片/音乐/爱情公寓/靠近/罗震环-靠近.flac"
+#  filename = "/Users/wxnacy/Downloads/我要夏天.aiff"
+#  filename = "/Users/wxnacy/Downloads/开不了口.aiff"
+#  m = Music(
+#  #  title=os.path.basename(filename),
+#  path=filename,
+#  lrc='/Volumes/Getea/影片/音乐/爱情公寓/靠近/靠近-罗震环.lrc',
+#  timelines=[
+#  MusicTimeline(bg_image='/Volumes/Getea/影片/音乐/爱情公寓/靠近/靠近1.png', time=0),
+#  MusicTimeline(bg_image='/Volumes/Getea/影片/音乐/爱情公寓/靠近/靠近2.png', time=49.5),
+#  #  MusicTimeline(bg_image='/Users/wxnacy/Movies/视频制作/电视剧/爱情公寓/插曲合集/靠近1.jpeg', time=0),
+#  #  MusicTimeline(bg_image='/Users/wxnacy/Movies/视频制作/电视剧/爱情公寓/插曲合集/靠近2.png', time=50),
+#  ]
+#  ).load()
+filename = "/Volumes/Getea/影片/音乐/爱情公寓/靠近"
+args = sys.argv[1:]
+if args:
+    filename = args[0]
+m = build_music(filename)
+
+
+def rnd_color():
+    h, s, l = random.random(), 0.5 + random.random() / \
+        2.0, 0.4 + random.random() / 5.0
+    return [int(256 * i) for i in colorsys.hls_to_rgb(h, l, s)]
+
+
+#  filename = "/Users/wxnacy/Downloads/林俊杰-L-O-V-E.flac"
+#  filename = "/Users/wxnacy/Downloads/就是我.flac"
+#  filename = "/Users/wxnacy/Music/网易云音乐/爱情公寓全体\ -\ 我的未来式.mp3"
+#  filename = "/Users/wxnacy/Music/爱情公寓歌曲/摩登男孩.mp4"
+
+analyzer = AudioAnalyzer()
+analyzer.load(m.path)
+
+#  pygame.init()
+
+infoObject = pygame.display.Info()
+
+screen_w = int(infoObject.current_w/2.2)
+screen_h = int(infoObject.current_w/2.2)
+
+screen_w = 1920
+screen_h = 1080
+#  screen_w = 1280
+#  screen_h = 720
+
+player = MusicPlayer.build([screen_w, screen_h], [m])
+
+# 视频参数
+fourcc = cv2.VideoWriter_fourcc(*"XVID")
+video_out = cv2.VideoWriter(
+    "/Users/wxnacy/Downloads/test.mp4", fourcc, 60.0, (screen_w, screen_h))
+
+# Set up the drawing window
+screen = pygame.display.set_mode([screen_w, screen_h])
+
+# background
+bg_img = pygame.image.load('/Users/wxnacy/Movies/视频制作/电视剧/爱情公寓/插曲合集/靠近1.jpeg')
+bg_img1 = pygame.image.load('/Users/wxnacy/Movies/视频制作/电视剧/爱情公寓/插曲合集/靠近2.png')
+
+
+clock = pygame.time.Clock()
+t = pygame.time.get_ticks()
+getTicksLastFrame = t
+
+timeCount = 0
+
+avg_bass = 0
+bass_trigger = -30
+bass_trigger_started = 0
+
+min_decibel = -80
+max_decibel = 80
+
+circle_color = (40, 40, 40)
+#  circle_color = [180, 238, 180]
+polygon_default_color = [0, 255, 255]
+#  polygon_default_color = [180, 238, 180]
+polygon_bass_color = polygon_default_color.copy()
+polygon_color_vel = [0, 0, 0]
+
+poly = []
+poly_color = polygon_default_color.copy()
+
+#  circleX = int(screen_w / 2)
+#  circleY = int(screen_h/2)
+circleX = player.circle.x
+circleY = player.circle.y
+
+# 圆圈最大最小
+#  min_radius = 400
+#  max_radius = 450
+min_radius = player.circle.min_radius
+max_radius = player.circle.max_radius
+radius = min_radius
+radius_vel = 0
+
+
+bass = {"start": 50, "stop": 100, "count": 24}
+heavy_area = {"start": 120, "stop": 250, "count": 30}
+low_mids = {"start": 251, "stop": 2000, "count": 500}
+high_mids = {"start": 2001, "stop": 6000, "count": 100}
+
+freq_groups = [bass, heavy_area, low_mids, high_mids]
+
+
+bars = []
+
+tmp_bars = []
+
+
+length = 0
+
+for group in freq_groups:
+
+    g = []
+
+    s = group["stop"] - group["start"]
+
+    count = group["count"]
+
+    reminder = s % count
+
+    step = int(s/count)
+
+    rng = group["start"]
+
+    for i in range(count):
+
+        arr = None
+
+        if reminder > 0:
+            reminder -= 1
+            arr = np.arange(start=rng, stop=rng + step + 2)
+            rng += step + 3
+        else:
+            arr = np.arange(start=rng, stop=rng + step + 1)
+            rng += step + 2
+
+        g.append(arr)
+
+        length += 1
+
+    tmp_bars.append(g)
+
+
+angle_dt = 360/length
+
+ang = 0
+
+is_bold = True
+for g in tmp_bars:
+    gr = []
+    for c in g:
+        _width = 1
+        #  if is_bold:
+        #  _width = 20
+        _color = (255, 0, 255)
+        _color = rnd_color()
+        gr.append(
+            RotatedAverageAudioBar(
+                circleX+radius*math.cos(math.radians(ang - 90)),
+                circleY+radius*math.sin(math.radians(ang - 90)),
+                c, _color, angle=ang, width=_width, max_height=370))
+        ang += angle_dt
+        is_bold = not is_bold
+        print(_width)
+
+    bars.append(gr)
+
+
+#  pygame.mixer.music.load(filename)
+#  pygame.mixer.music.play(0)
+player.play()
+
+running = True
+while running:
+
+    avg_bass = 0
+    poly = []
+
+    t = pygame.time.get_ticks()
+    deltaTime = (t - getTicksLastFrame) / 1000.0
+    getTicksLastFrame = t
+
+    timeCount += deltaTime
+
+    #  screen.fill(circle_color)
+    #  play_second = pygame.mixer.music.get_pos() / 1000.0
+    #  print(play_second)
+    #  if play_second > 5:
+    #  bg_img = bg_img1
+    #  screen.blit(bg_img, bg_img.get_rect())
+    player.draw_bg()
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    for b1 in bars:
+        for b in b1:
+            b.update_all(
+                deltaTime, pygame.mixer.music.get_pos() / 1000.0, analyzer)
+
+    for b in bars[0]:
+        avg_bass += b.avg
+
+    avg_bass /= len(bars[0])
+
+    if avg_bass > bass_trigger:
+        if bass_trigger_started == 0:
+            bass_trigger_started = pygame.time.get_ticks()
+        if (pygame.time.get_ticks() - bass_trigger_started)/1000.0 > 2:
+            polygon_bass_color = rnd_color()
+            bass_trigger_started = 0
+        if polygon_bass_color is None:
+            polygon_bass_color = rnd_color()
+        newr = min_radius + int(avg_bass * ((max_radius - min_radius) /
+                                (max_decibel - min_decibel)) + (max_radius - min_radius))
+        radius_vel = (newr - radius) / 0.15
+
+        polygon_color_vel = [
+            (polygon_bass_color[x] - poly_color[x])/0.15 for x in range(len(poly_color))]
+
+    elif radius > min_radius:
+        bass_trigger_started = 0
+        polygon_bass_color = None
+        radius_vel = (min_radius - radius) / 0.15
+        polygon_color_vel = [
+            (polygon_default_color[x] - poly_color[x])/0.15 for x in range(len(poly_color))]
+
+    else:
+        bass_trigger_started = 0
+        poly_color = polygon_default_color.copy()
+        polygon_bass_color = None
+        polygon_color_vel = [0, 0, 0]
+
+        radius_vel = 0
+        radius = min_radius
+
+    radius += radius_vel * deltaTime
+
+    for x in range(len(polygon_color_vel)):
+        value = polygon_color_vel[x]*deltaTime + poly_color[x]
+        poly_color[x] = value
+
+    count = 0
+    for b1 in bars:
+        for b in b1:
+            b.x, b.y = circleX+radius * \
+                math.cos(math.radians(b.angle - 90)), circleY + \
+                radius*math.sin(math.radians(b.angle - 90))
+            b.update_rect()
+
+            poly.append(b.rect.points[3])
+            poly.append(b.rect.points[2])
+            #  pygame.draw.polygon(screen, (0, 255, 255), b.rect.points, width=1)
+            _color = (0, 255, 255)
+            #  _color = rnd_color()
+            pygame.draw.aaline(
+                screen, _color, b.rect.points[0], b.rect.points[2], blend=1)
+            if count >= 0:
+                count += 1
+            elif count >= 204:
+                count -= 1
+
+    # 截取游戏界面
+    #  screen_shot = pygame.surfarray.array3d(screen)
+    #  screen_shot = np.transpose(screen_shot, (1, 0, 2))
+    #  screen_shot = cv2.cvtColor(screen_shot, cv2.COLOR_RGB2BGR)
+
+    #  # 将截图写入视频文件
+    #  video_out.write(screen_shot)
+    #  pygame.draw.polygon(screen, poly_color, poly)
+    #  pygame.draw.circle(screen, (0, 0, 0, 0), (circleX, circleY), int(radius))
+
+    pygame.display.flip()
+    clock.tick(60)
+
+pygame.quit()
