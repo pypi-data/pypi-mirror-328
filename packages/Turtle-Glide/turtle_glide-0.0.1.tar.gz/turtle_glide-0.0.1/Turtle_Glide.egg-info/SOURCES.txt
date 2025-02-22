@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Turtle_Glide.egg-info/PKG-INFO
+Turtle_Glide.egg-info/SOURCES.txt
+Turtle_Glide.egg-info/dependency_links.txt
+Turtle_Glide.egg-info/requires.txt
+Turtle_Glide.egg-info/top_level.txt
+main/__init__.py
+main/management/__init__.py
+main/management/commands/__init__.py
+main/management/commands/create_archive.py
