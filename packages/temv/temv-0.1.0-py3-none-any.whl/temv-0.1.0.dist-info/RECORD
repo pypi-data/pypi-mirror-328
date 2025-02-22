@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/app.py,sha256=GqeLlRpSFUQJ9Z-Du6Mni6Wz5cIVKEN5KP9mIyDMUnE,3210
+src/plugins/1password.py,sha256=p400YHc1e_-loU2bV4lZHl-Wr6C50F4a8r40C3thVLs,483
+src/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/plugins/bitwarden.py,sha256=bZcVagLdbQxU_raZSsJIeYe-Xa3DzPLvCw433VWi8dM,844
+src/plugins/pass.py,sha256=yUttAIQxZBmjsiWASr1FVLYjx0YuW8IR8RxWa5NsyOY,433
+temv-0.1.0.dist-info/LICENSE,sha256=mrW2fUttjcRV5BJGl88QcJc3kBQmpD_tjmTj8Rc4GLU,1067
+temv-0.1.0.dist-info/METADATA,sha256=tqWcKDE5AUFRVk9XTfBkSie_Zp7E5c6qJk9xUYvnCTg,1860
+temv-0.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+temv-0.1.0.dist-info/entry_points.txt,sha256=mGdVjRJ-eMNXgrzYsD_Rs3uDaCjCS8rgOR3fdw6-A8k,37
+temv-0.1.0.dist-info/RECORD,,
