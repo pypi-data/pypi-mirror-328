@@ -1,0 +1,8 @@
+pyusb~=1.2
+libusb-package~=1.0
+scipy~=1.14
+numpy~=1.26
+packaging~=24.2
+
+[dev]
+pre-commit
