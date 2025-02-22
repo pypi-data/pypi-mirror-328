@@ -1,0 +1,8 @@
+doces_core.cpython-312-x86_64-linux-gnu.so,sha256=oZdLSu2M81mw0Ethj82VKiCqWQY9M75lsJQJUFLpz4Q,167976
+doces/__init__.py,sha256=JqmR7KtmMOt8j6GEkeeKonqfKc8TuqlmMzTO3iKB87k,1146
+doces/doces.py,sha256=Yb56BFfHpoDJqOKqFKjrm2wd8uclYMzm3oTLsPSX5pA,9781
+doces-0.0.7.dist-info/LICENSE,sha256=fqOj5bgVZi0Fii4jM6f1Cpp5wMzLDuweSZB6Tx49Lt0,1117
+doces-0.0.7.dist-info/WHEEL,sha256=WFtUgumtZEg5oPeVziecKJ1CVstsivqFbgCXdlWOrXw,224
+doces-0.0.7.dist-info/METADATA,sha256=1KcQW5mfEPSZJHezqOYfWHIEsVgZoU4Hp4Wa_cV2Fu4,7099
+doces-0.0.7.dist-info/top_level.txt,sha256=GpVDa8Gx0S6WBPfzwMnxEciXdcrFvJTDvDun7zlo-lk,17
+doces-0.0.7.dist-info/RECORD,,
