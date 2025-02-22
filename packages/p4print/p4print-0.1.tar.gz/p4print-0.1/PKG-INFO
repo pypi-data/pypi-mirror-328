@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: p4print
+Version: 0.1
+Summary: A simple package to use 'p()' instead of 'print()' for faster coding.
+Home-page: https://github.com/AshishKumarCS/p4print
+Author: Ashish Kumar
+Author-email: ashish.jnu@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# lazyprint
+Earlier I was a Java lover. In Java, I didn't loved much the System.out.print() again and again. So, I used sop instead.
+
+When I started coding in python. Being a lazy coder, I want a p() to be used insted of print() because I need to test output of programs many times. And, writing print many times make me slow. So, here is a simple package to use 'p()' instead of 'print()'
+#usage
+from lazyprint import p
+p("Hello, World!")
+
+## Installation
+```sh
+pip install lazyprint
+
+
