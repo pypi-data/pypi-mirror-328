@@ -1,0 +1,8 @@
+numpy
+pytest
+
+[all]
+biospat[extra]
+
+[extra]
+pandas
