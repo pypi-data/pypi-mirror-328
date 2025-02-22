@@ -1,0 +1,13 @@
+pysuma/__init__.py,sha256=FaG152Ya4zcGb4Vpx2W1QVDJrPcIzjv1X6yXYET0Vns,2744
+pysuma/abstractive.py,sha256=hZ3dDbXy-ZESMs2Rht22T2NiX92lNq3jR3YQjr4x36E,1460
+pysuma/cli.py,sha256=5X_cRLPxtzW3aX3v9Dz2k4ljTOL3XkLF0DePQNm7kbU,756
+pysuma/extractive.py,sha256=G9BGlJgfXnGkR3fwvXd1FajbxyaXlbRcF0LXeSRe1CA,1479
+pysummarizer/__init__.py,sha256=UykbEPKWjlf05t1ZCsv7C2g1Zl9ltDHvV5wZXQ_VJ9Y,2756
+pysummarizer/abstractive.py,sha256=hZ3dDbXy-ZESMs2Rht22T2NiX92lNq3jR3YQjr4x36E,1460
+pysummarizer/cli.py,sha256=rp0gPmzc5rdudgaWQ6bxtfF4rJ28PhfYlZdfhdd0lC0,762
+pysummarizer/extractive.py,sha256=G9BGlJgfXnGkR3fwvXd1FajbxyaXlbRcF0LXeSRe1CA,1479
+pysuma-0.1.0.dist-info/LICENSE,sha256=a99mtb8qROZYvqLuhmlasVCgbmAL9nzVzOJFrVSWLGE,3
+pysuma-0.1.0.dist-info/METADATA,sha256=KfwBc15ZI18rkWflSPfUxS7nTxFFZVeddmdxIZLFjZc,4396
+pysuma-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pysuma-0.1.0.dist-info/top_level.txt,sha256=VqtBkA9NURzu10O4fhwZJut_cI0ghEBF82JNihybyZ0,7
+pysuma-0.1.0.dist-info/RECORD,,
