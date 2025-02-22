@@ -1,0 +1,15 @@
+ogboost/__init__.py,sha256=0k-ax2dFXtMjnXykCvQvkcj9bo_eJP76pWrxntwGR3A,395
+ogboost/data.py,sha256=oeevo_9pipdrZX5qfI8YlTkl1GHSQrhXvhMHodJ3-pc,4483
+ogboost/main.py,sha256=3W0JSmYe_UVu5HVX6EEuuR5Ng4GchWqAxk_GNd8Gxno,51400
+ogboost/utils.py,sha256=s629sI96ZEwJOTsWrxDEKHczY3ckVsKuofi8bFbcTFg,4199
+ogboost/tests/test_concordance.py,sha256=vivmUiUoRyRsRhaKC3qxwnA2n7WsbaixE57u92zL28Y,799
+ogboost/tests/test_data.py,sha256=x6USSA77AfiO7yfeelTaNyJQF9nOmaeOHE2pn50K_ws,1126
+ogboost/tests/test_generate_heterogeneous_learners.py,sha256=92ftHNwkqCGkZu1rqZyc3rskcAB26bD6hMAhnCBQ2kE,4185
+ogboost/tests/test_gradient_boosting_ordinal.py,sha256=H9qX92T8ArgLHZs3HPcFrzqfRfL_nUW9MV4HjLMhPvo,1191
+ogboost/tests/test_gradient_boosting_ordinal_extra.py,sha256=m_nL64Jk5N73yAIdSWd4PD9bKGTQTheNDWo4WnpneyQ,3646
+ogboost/tests/test_linkfunctions.py,sha256=GLcjHKWsYlZ1lPEBOjMwMVx511xAfHAY_AtHdCcFOtw,595
+ogboost-0.6.2.dist-info/LICENSE,sha256=0fsXdX4IFr7jH9jGkHWuL4FSOuwdW-uoTngFUk0Wt88,1086
+ogboost-0.6.2.dist-info/METADATA,sha256=HfhPSggIeGRaXsjFtllO3QiEiABfzEd4L6koeXvlvok,10419
+ogboost-0.6.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ogboost-0.6.2.dist-info/top_level.txt,sha256=ju6AZQ1VKRVuIZZiqg2x-f1Sr0v0caxVpGydMoz2pnw,8
+ogboost-0.6.2.dist-info/RECORD,,
