@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: global_cmd
+Version: 1.0
+Requires-Dist: openai
+Requires-Dist: pdf2image
+Requires-Dist: python-dotenv
+Dynamic: requires-dist
