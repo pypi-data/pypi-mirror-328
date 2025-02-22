@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: aizawa
+Version: 2.0.0
+Summary: The Ninja's Choice for Web Operations
+Author: elliottophellia
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: validators (>=0.22.0,<0.23.0)
