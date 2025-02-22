@@ -1,0 +1,13 @@
+supabase_mcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supabase_mcp/client.py,sha256=0GTRqOc37ndvlHqgZi54DMNNfqWG-9_HEwx74LXXl4E,5790
+supabase_mcp/exceptions.py,sha256=QotS0nLT74MVGXkCYj4d4mfax45-VGZDa3bmg5izhQk,480
+supabase_mcp/logger.py,sha256=rxcuY97d-KooKXl1Av_W6gxyHabeSO5jLGlEvzJlC7c,1037
+supabase_mcp/main.py,sha256=GeITkCSOcHB-Qv7lDjYAx-LnO880QnY-qTkt82GJvVo,2763
+supabase_mcp/queries.py,sha256=uZQyNyfpp2Pd7J81p2rU-mPqJSf1FoNaZoCjgAET5JE,4544
+supabase_mcp/settings.py,sha256=Dv-2THU48JcmGsQPReE1TU6uFhhGXDCXTu7e8sZHkQo,3250
+supabase_mcp/validators.py,sha256=ff2IKlS2gvgyowg8Mj7FZsdkTUpNhdbd0u3jWU-rEqs,1364
+supabase_mcp_server_kivo-0.4.0.dist-info/METADATA,sha256=QoJOQr46mT7OqjbQE633wkEM1y2jFNlAeh07JFB8jDs,14519
+supabase_mcp_server_kivo-0.4.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+supabase_mcp_server_kivo-0.4.0.dist-info/entry_points.txt,sha256=5cFUlXScLidHYCUgKrB0uItAHi-QIL9AJpd5assIpfM,115
+supabase_mcp_server_kivo-0.4.0.dist-info/licenses/LICENSE,sha256=n5LBoQGFGRuovFlbprByBpgYfvMnV9m5IO9d2s2o5Kw,11348
+supabase_mcp_server_kivo-0.4.0.dist-info/RECORD,,
