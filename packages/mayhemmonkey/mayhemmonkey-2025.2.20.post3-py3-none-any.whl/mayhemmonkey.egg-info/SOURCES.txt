@@ -1,0 +1,12 @@
+LICENSE
+README.md
+example.py
+example2.py
+mayhemmonkey.py
+pyproject.toml
+setup.cfg
+setup.py
+mayhemmonkey.egg-info/PKG-INFO
+mayhemmonkey.egg-info/SOURCES.txt
+mayhemmonkey.egg-info/dependency_links.txt
+mayhemmonkey.egg-info/top_level.txt
