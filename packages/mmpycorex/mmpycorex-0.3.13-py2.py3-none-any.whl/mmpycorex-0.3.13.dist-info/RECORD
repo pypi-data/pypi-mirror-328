@@ -1,0 +1,9 @@
+mmpycorex/__init__.py,sha256=hEQyixq-zqjohm23NrisvpCQcQaqcl9RKgq_YJihPuY,434
+mmpycorex/_version.py,sha256=1l8MpC2J602hfZcIPWtmr6sK2_t3q1owFyPfVKezFcY,73
+mmpycorex/core.py,sha256=mgLS5-ni1tUkOQ12xrWPQoA9oggLRLfDPVhiUSTs8vs,3749
+mmpycorex/install.py,sha256=8Ub21rzsdQ3XFYPFWVvhA8LTjbkxZVIt-s2GEYZrldA,4983
+mmpycorex/launcher.py,sha256=LIoBUhQdyfFG73rddlFep6fo0AWTT_r1mDZxOL6GHJY,9224
+mmpycorex-0.3.13.dist-info/licenses/LICENSE,sha256=2FCl6KCrd1amDWN1z_cIBWQl01-NdwzXf3ME2syP3co,1521
+mmpycorex-0.3.13.dist-info/WHEEL,sha256=BXjIu84EnBiZ4HkNUBN93Hamt5EPQMQ6VkF7-VZ_Pu0,100
+mmpycorex-0.3.13.dist-info/METADATA,sha256=sfuVsWXmowwKQM2d0Mn1dXHQu4bvJegS_rIPOwN71Fs,3039
+mmpycorex-0.3.13.dist-info/RECORD,,
