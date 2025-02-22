@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/cliEngine/__init__.py
+src/cliEngine/cliEngine.py
+src/cliengine.egg-info/PKG-INFO
+src/cliengine.egg-info/SOURCES.txt
+src/cliengine.egg-info/dependency_links.txt
+src/cliengine.egg-info/top_level.txt

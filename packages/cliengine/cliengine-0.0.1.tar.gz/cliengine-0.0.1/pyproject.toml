@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cliengine"
+version = "0.0.1"
+authors = [
+  { name="minaroblox", email="emanuelgardunomondragon@gmail.com" },
+]
+description = "A game engine designed for simple games inside the library."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/MinaRoblox/cliEngineRepo/"
+Issues = "https://github.com/MinaRoblox/cliEngineRepo/issues"
+
